@@ -1,0 +1,11 @@
+{
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false,
+  "jest.autoEnable": false,
+  "editor.formatOnSave": false,
+  "editor.codeActionsOnSave": {
+    "source.addMissingImports": true,
+    "source.fixAll.format": true,
+    "source.fixAll.eslint": true
+  }
+}
