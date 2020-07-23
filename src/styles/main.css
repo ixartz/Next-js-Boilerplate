@@ -1,5 +1,13 @@
 @tailwind base;
 
+a {
+  @apply text-blue-700 no-underline;
+}
+
+a:hover {
+  @apply border-b-2 border-blue-700;
+}
+
 @tailwind components;
 
 @tailwind utilities;

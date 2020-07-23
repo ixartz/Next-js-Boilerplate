@@ -1,5 +1,7 @@
 import React, { ReactNode } from 'react';
 
+import Link from 'next/link';
+
 type IMainProps = {
   children: ReactNode;
 };
@@ -14,9 +16,24 @@ const Main = (props: IMainProps) => (
         </div>
         <div>
           <ul className="flex flex-wrap text-xl">
-            <li className="mr-6">Home</li>
-            <li className="mr-6">About</li>
-            <li className="mr-6">GitHub</li>
+            <li className="mr-6">
+              <Link href="/">
+                <a className="text-gray-700 border-none hover:text-gray-900">Home</a>
+              </Link>
+            </li>
+            <li className="mr-6">
+              <Link href="/about">
+                <a className="text-gray-700 border-none hover:text-gray-900">About</a>
+              </Link>
+            </li>
+            <li className="mr-6">
+              <a
+                className="text-gray-700 border-none hover:text-gray-900"
+                href="https://github.com/ixartz/Next-js-Boilerplate"
+              >
+                GitHub
+              </a>
+            </li>
           </ul>
         </div>
       </div>
@@ -30,7 +47,9 @@ const Main = (props: IMainProps) => (
           ♥
         </span>
         {' '}
-        by Ixartz
+        by
+        {' '}
+        <a href="https://creativedesignsguru.com">Ixartz</a>
       </div>
     </div>
   </div>

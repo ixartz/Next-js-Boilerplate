@@ -6,6 +6,7 @@
   },
   "rules": {
     "react/destructuring-assignment": "off", // Vscode does not support automatically destructuring, it a pain to add a new variable
+    "jsx-a11y/anchor-is-valid": "off", // Next.js use his own internal link system
     "import/order": [
       "error",
       {
