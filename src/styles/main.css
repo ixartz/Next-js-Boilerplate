@@ -3,3 +3,7 @@
 @tailwind components;
 
 @tailwind utilities;
+
+.content p {
+  @apply my-6;
+}
