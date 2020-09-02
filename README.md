@@ -20,10 +20,11 @@ Developer experience first:
 - 🛠 Code Formatter with [Prettier](https://prettier.io)
 - 🦊 SEO metadata, [JSON-LD](https://developers.google.com/search/docs/guides/intro-structured-data) and [Open Graph](https://ogp.me/) tags with [Next SEO](https://github.com/garmeeh/next-seo)
 - 🌈 Include a FREE minimalist theme
+- 💯 Maximize lighthouse score
 
 Built-in feature from Next.js:
 
-- ☕ Minify HTML & CSS with [HTMLMinifier](https://www.npmjs.com/package/html-minifier)
+- ☕ Minify HTML & CSS
 - 💨 Live reload
 - ✅ Cache busting
 

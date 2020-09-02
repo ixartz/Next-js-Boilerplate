@@ -158,6 +158,20 @@ const Index = () => (
         {' '}
         Include a FREE minimalist theme
       </li>
+      <li>
+        <span role="img" aria-label="rainbow">
+          🌈
+        </span>
+        {' '}
+        Include a FREE minimalist theme
+      </li>
+      <li>
+        <span role="img" aria-label="hundred">
+          💯
+        </span>
+        {' '}
+        Maximize lighthouse score
+      </li>
     </ul>
     <p>Built-in feature from Next.js:</p>
     <ul>
@@ -166,11 +180,7 @@ const Index = () => (
           ☕
         </span>
         {' '}
-        Minify HTML &amp; CSS with
-        {' '}
-        <a href="https://www.npmjs.com/package/html-minifier" rel="nofollow">
-          HTMLMinifier
-        </a>
+        Minify HTML &amp; CSS
       </li>
       <li>
         <span role="img" aria-label="dash">
