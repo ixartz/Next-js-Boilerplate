@@ -12,6 +12,12 @@ const Index = () => (
       />
     )}
   >
+    <a href="https://github.com/ixartz/Next-js-Boilerplate">
+      <img
+        src={`${process.env.baseUrl}/assets/images/nextjs-starter-banner.png`}
+        alt="Nextjs starter banner"
+      />
+    </a>
     <h1 className="font-bold text-2xl">Boilerplate code for your Nextjs project</h1>
     <p>
       <span role="img" aria-label="rocket">
