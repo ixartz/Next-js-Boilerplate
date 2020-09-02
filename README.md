@@ -1,5 +1,9 @@
 # Next js Boilerplate
 
+<p align="center">
+  <a href="https://creativedesignsguru.com/demo/Nextjs-Boilerplate/"><img src="public/assets/images/nextjs-starter-banner.png?raw=true" alt="Next js starter banner"></a>
+</p>
+
 🚀 Next.js Boilerplate is starter code for your Next js project by putting developer experience first . ⚡️ Made with [Next.js](https://nextjs.org), [TypeScript](https://www.typescriptlang.org), [ESLint](https://eslint.org), [Prettier](https://prettier.io), [PostCSS](https://postcss.org), [Tailwind CSS](https://tailwindcss.com).
 
 Clone this project and use it to create your own [Next.js](https://nextjs.org) project. You can check a [Next js templates demo](https://creativedesignsguru.com/demo/Nextjs-Boilerplate/).
@@ -15,6 +19,7 @@ Developer experience first:
 - ✏️ Linter with [ESLint](https://eslint.org)
 - 🛠 Code Formatter with [Prettier](https://prettier.io)
 - 🦊 SEO metadata, [JSON-LD](https://developers.google.com/search/docs/guides/intro-structured-data) and [Open Graph](https://ogp.me/) tags with [Next SEO](https://github.com/garmeeh/next-seo)
+- 🌈 Include a FREE minimalist theme
 
 Built-in feature from Next.js:
 
@@ -53,9 +58,9 @@ Open http://localhost:8080 with your favorite browser to see your project.
 ```
 .
 ├── public        # Static files
-├── src
-│   ├── pages     # Next.js pages
-│   └── styles    # CSS files
+└── src
+    ├── pages     # Next.js pages
+    └── styles    # CSS files
 ```
 
 ### Customization
@@ -102,4 +107,4 @@ See [LICENSE](LICENSE) for more information.
 
 ---
 
-Made with ♥ by [Ixartz](https://github.com/ixartz)
+Made with ♥ by [CreativeDesignsGuru](https://creativedesignsguru.com)

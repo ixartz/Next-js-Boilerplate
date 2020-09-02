@@ -1,7 +1,7 @@
 @tailwind base;
 
 a {
-  @apply text-blue-700 no-underline;
+  @apply text-blue-700;
 }
 
 a:hover {

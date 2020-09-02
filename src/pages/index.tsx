@@ -9,12 +9,10 @@ const Index = () => (
       <Meta
         title="Next.js Boilerplate Presentation"
         description="Next js Boilerplate is the perfect starer code for your project. Build your React application with Next.js framework."
-        locale="en"
-        site_name="Creative Designs Guru"
       />
     )}
   >
-    <h1 className="font-bold text-xl">Boilerplate code for your Next.js project</h1>
+    <h1 className="font-bold text-2xl">Boilerplate code for your Nextjs project</h1>
     <p>
       <span role="img" aria-label="rocket">
         🚀
@@ -147,6 +145,13 @@ const Index = () => (
         {' '}
         <a href="https://github.com/garmeeh/next-seo">Next SEO</a>
       </li>
+      <li>
+        <span role="img" aria-label="rainbow">
+          🌈
+        </span>
+        {' '}
+        Include a FREE minimalist theme
+      </li>
     </ul>
     <p>Built-in feature from Next.js:</p>
     <ul>
@@ -191,7 +196,7 @@ const Index = () => (
     <p>
       Check our GitHub project for more information about
       {' '}
-      <a href="https://github.com/ixartz/Next-js-Boilerplate">Next js Boilerplate</a>
+      <a href="https://github.com/ixartz/Next-js-Boilerplate">Nextjs Boilerplate</a>
       .
     </p>
   </Main>

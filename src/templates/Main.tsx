@@ -2,6 +2,8 @@ import React, { ReactNode } from 'react';
 
 import Link from 'next/link';
 
+import { Config } from '../utils/Config';
+
 type IMainProps = {
   meta: ReactNode;
   children: ReactNode;
@@ -14,8 +16,8 @@ const Main = (props: IMainProps) => (
     <div className="max-w-screen-md mx-auto">
       <div className="border-b border-gray-300">
         <div className="pt-16 pb-8">
-          <div className="font-bold text-3xl text-gray-900">Guru</div>
-          <div className="font-semibold text-xl">Next.js Boilerplate</div>
+          <div className="font-bold text-3xl text-gray-900">{Config.title}</div>
+          <div className="text-xl">{Config.description}</div>
         </div>
         <div>
           <ul className="flex flex-wrap text-xl">
@@ -52,7 +54,7 @@ const Main = (props: IMainProps) => (
         {' '}
         by
         {' '}
-        <a href="https://creativedesignsguru.com">Ixartz</a>
+        <a href="https://creativedesignsguru.com">CreativeDesignsGuru</a>
       </div>
     </div>
   </div>
