@@ -159,13 +159,6 @@ const Index = () => (
         Include a FREE minimalist theme
       </li>
       <li>
-        <span role="img" aria-label="rainbow">
-          🌈
-        </span>
-        {' '}
-        Include a FREE minimalist theme
-      </li>
-      <li>
         <span role="img" aria-label="hundred">
           💯
         </span>
