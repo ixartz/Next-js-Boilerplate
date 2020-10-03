@@ -13,31 +13,31 @@
   },
   "dependencies": {
     "next": "^9.5.3",
-    "next-seo": "^4.7.3",
+    "next-seo": "^4.11.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "styled-jsx-plugin-postcss": "^2.0.1"
+    "styled-jsx-plugin-postcss": "^3.0.1"
   },
   "license": "ISC",
   "devDependencies": {
     "@next/bundle-analyzer": "^9.5.3",
-    "@types/node": "^14.6.4",
-    "@types/react": "^16.9.49",
-    "@typescript-eslint/eslint-plugin": "^3.10.1",
-    "eslint": "^7.8.1",
-    "eslint-config-airbnb-typescript": "^9.0.0",
-    "eslint-plugin-import": "^2.22.0",
+    "@types/node": "^14.11.2",
+    "@types/react": "^16.9.50",
+    "@typescript-eslint/eslint-plugin": "^4.3.0",
+    "eslint": "^7.10.0",
+    "eslint-config-airbnb-typescript": "^11.0.0",
+    "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-jsx-a11y": "^6.3.1",
-    "eslint-plugin-react": "7.20.5",
-    "eslint-plugin-react-hooks": "^4.1.0",
-    "husky": "^4.2.5",
-    "lint-staged": "^10.3.0",
+    "eslint-plugin-react": "^7.21.3",
+    "eslint-plugin-react-hooks": "^4.1.2",
+    "husky": "^4.3.0",
+    "lint-staged": "^10.4.0",
     "npm-run-all": "^4.1.5",
     "postcss-preset-env": "^6.7.0",
-    "prettier": "^2.1.1",
+    "prettier": "^2.1.2",
     "rimraf": "^3.0.2",
-    "tailwindcss": "^1.7.6",
-    "typescript": "^4.0.2"
+    "tailwindcss": "^1.8.10",
+    "typescript": "^4.0.3"
   },
   "husky": {
     "hooks": {
