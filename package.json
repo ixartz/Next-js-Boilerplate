@@ -12,7 +12,7 @@
     "lint": "eslint --ext .js,.jsx,.ts,.tsx ."
   },
   "dependencies": {
-    "next": "^9.5.3",
+    "next": "^9.5.4",
     "next-seo": "^4.11.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
