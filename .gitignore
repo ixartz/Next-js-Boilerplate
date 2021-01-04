@@ -16,8 +16,10 @@
 # misc
 .DS_Store
 Thumbs.db
-.env
 next-env.d.ts
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# Dotenv files
+.env*.local

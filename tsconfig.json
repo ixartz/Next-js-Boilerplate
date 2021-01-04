@@ -1,28 +1,36 @@
 {
   "compilerOptions": {
-    "lib": ["es2017", "dom"],
+    "lib": ["dom", "dom.iterable", "esnext"],
     "module": "esnext",
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "removeComments": true,
     "preserveConstEnums": true,
     "strict": true,
+    "alwaysStrict": true,
+    "strictNullChecks": true,
+    "noUncheckedIndexedAccess": true,
+
     "noImplicitAny": true,
     "noImplicitReturns": true,
     "noImplicitThis": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "allowUnreachableCode": false,
+    "noFallthroughCasesInSwitch": true,
+
+    "target": "es5",
     "outDir": "dist",
-    "target": "es2017",
     "declaration": true,
     "sourceMap": true,
+
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
-    "jsx": "preserve",
     "allowJs": false,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
+
+    "jsx": "preserve",
     "noEmit": true,
     "isolatedModules": true
   },
