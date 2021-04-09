@@ -1,0 +1,7 @@
+{
+  "editor.default_syntax" : "typescript",
+  "workspace.color" : 0,
+  "workspace.name" : "Personal Website",
+  "workspace.preview_type" : "custom",
+  "workspace.preview_url" : "http:\/\/localhost:8080"
+}

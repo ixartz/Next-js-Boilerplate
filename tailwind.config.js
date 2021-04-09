@@ -1,6 +1,6 @@
 module.exports = {
   purge: ['./src/**/*.{js,ts,jsx,tsx}'],
-  darkMode: false,
+  darkMode: 'media',
   theme: {
     fontSize: {
       xs: '0.75rem',
@@ -13,6 +13,39 @@ module.exports = {
       '4xl': '2.25rem',
       '5xl': '3rem',
       '6xl': '4rem',
+    },
+    colors: {
+      'hot-pink': '#fd2d78',
+    },
+    fontFamily: {},
+    rotate: {
+      '-180': '-180deg',
+      '-90': '-90deg',
+      '-45': '-45deg',
+      '-10': '-10deg',
+      '-9': '-9deg',
+      '-8': '-8deg',
+      '-7': '-7deg',
+      '-6': '-6deg',
+      '-5': '-5deg',
+      '-4': '-4deg',
+      '-3': '-3deg',
+      '-2': '-2deg',
+      '-1': '-1deg',
+      0: '0',
+      1: '1deg',
+      2: '2deg',
+      3: '3deg',
+      4: '4deg',
+      5: '5deg',
+      6: '6deg',
+      7: '7deg',
+      8: '8deg',
+      9: '9deg',
+      10: '10deg',
+      45: '45deg',
+      90: '90deg',
+      180: '180deg',
     },
     extend: {
       colors: {

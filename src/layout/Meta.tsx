@@ -36,6 +36,12 @@ const Meta = (props: IMetaProps) => (
         key="icon16"
       />
       <link rel="icon" href={`${process.env.baseUrl}/favicon.ico`} key="favicon" />
+      <script
+        async
+        defer
+        data-domain="samstephenson.com"
+        src="https://plausible.io/js/plausible.js"
+      />
     </Head>
     <NextSeo
       title={props.title}
