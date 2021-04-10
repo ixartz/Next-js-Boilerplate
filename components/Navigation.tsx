@@ -1,4 +1,4 @@
-import React, { ReactNode } from 'react';
+import React from 'react';
 
 import Link from 'next/link';
 
@@ -19,7 +19,7 @@ export default function Navigation() {
             </Link>
           </li>
           <li className="">
-            <Link href="/blog/">
+            <Link href="/posts/">
               <a className="">Notes</a>
             </Link>
           </li>

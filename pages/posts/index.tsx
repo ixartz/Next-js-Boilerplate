@@ -1,8 +1,9 @@
 import React from 'react';
 
+import Link from 'next/link';
+
 import { Meta } from '../../layout/Meta';
 import { Main } from '../../templates/Main';
-
 import { getSortedPostsData } from '../../utils/posts';
 
 export async function getStaticProps() {
@@ -14,13 +15,20 @@ export async function getStaticProps() {
   };
 }
 
-export default function Blog() {
+export default function Blog({ allPostsData }) {
   return (
     <Main
       meta={<Meta title="Sam Stephenson" description="London-based digital product designer" />}
     >
       <ul>
-        <li>Hey</li>
+        {allPostsData.map(({ id, date, title }) => (
+          <li key={id} className="flex justify-between w-full">
+            <Link href={`/posts/${id}`}>
+              <a>{title}</a>
+            </Link>
+            <p>{date}</p>
+          </li>
+        ))}
       </ul>
     </Main>
   );
