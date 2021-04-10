@@ -8,7 +8,9 @@ export default function Navigation() {
   return (
     <div className=" flex justify-between">
       <div className="">
-        <div className="">{Config.title}</div>
+        <Link href="/">
+          <a className="">{Config.title}</a>
+        </Link>
         <div className="">{Config.description}</div>
       </div>
       <div>

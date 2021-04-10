@@ -6,11 +6,25 @@ import remark from 'remark';
 import html from 'remark-html';
 
 const contentDirectory = (folderName) => path.join(process.cwd(), folderName);
+// If name does not contain .* , add index.md on the end
+const isDirectory = (pathString) => !pathString.includes('.');
 // const contentDirectory = path.join(process.cwd(), 'posts');
+
+const markdownifyPathArray = (fileNames) => {
+  const markdownFileNames = [];
+  fileNames.forEach((name) => {
+    if (isDirectory(name)) {
+      name += '/index.md';
+    }
+    markdownFileNames.push(name);
+  });
+  return markdownFileNames;
+};
 
 export function getSortedPageData(folderName) {
   // Get file names under /posts
-  const fileNames = fs.readdirSync(contentDirectory(folderName));
+  const fileNames = markdownifyPathArray(fs.readdirSync(contentDirectory(folderName)));
+
   const allPostsData = fileNames.map((fileName) => {
     // Remove ".md" from file name to get id
     const id = fileName.replace(/\.md$/, '');
