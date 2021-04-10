@@ -4,10 +4,10 @@ import Link from 'next/link';
 
 import { Meta } from '../../layout/Meta';
 import { Main } from '../../templates/Main';
-import { getSortedPostsData } from '../../utils/posts';
+import { getSortedPageData } from '../../utils/generatePages';
 
 export async function getStaticProps() {
-  const allPostsData = getSortedPostsData();
+  const allPostsData = getSortedPageData('_blog');
   return {
     props: {
       allPostsData,
@@ -26,7 +26,7 @@ export default function Blog({ allPostsData }) {
             <Link href={`/posts/${id}`}>
               <a>{title}</a>
             </Link>
-            <p>{date}</p>
+            <span>{date}</span>
           </li>
         ))}
       </ul>

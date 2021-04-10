@@ -19,8 +19,13 @@ export default function Navigation() {
             </Link>
           </li>
           <li className="">
-            <Link href="/posts/">
+            <Link href="/blog/">
               <a className="">Notes</a>
+            </Link>
+          </li>
+          <li className="">
+            <Link href="/about">
+              <a className="">About</a>
             </Link>
           </li>
         </ul>

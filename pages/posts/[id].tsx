@@ -5,10 +5,10 @@ import Head from 'next/head';
 import Date from '../../components/Date';
 import { Meta } from '../../layout/Meta';
 import { Main } from '../../templates/Main';
-import { getPostData, getAllPostIds } from '../../utils/posts';
+import { getPageData, getAllPageIds } from '../../utils/generatePages';
 
 export async function getStaticPaths() {
-  const paths = await getAllPostIds();
+  const paths = await getAllPageIds('_blog');
   return {
     paths,
     fallback: false,
@@ -16,7 +16,7 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params }) {
-  const postData = await getPostData(params.id);
+  const postData = await getPageData(params.id, '_blog');
   return {
     props: {
       postData,
@@ -37,7 +37,7 @@ export default function Post({ postData }) {
       <p>
         <Date dateString={postData.date} />
       </p>
-      <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
+      <article className="prose" dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
     </Main>
   );
 }
