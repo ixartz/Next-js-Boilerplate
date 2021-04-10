@@ -28,9 +28,6 @@ export default function Post({ postData }) {
     <Main
       meta={<Meta title="Sam Stephenson" description="London-based digital product designer" />}
     >
-      <Head>
-        <title>{postData.title}</title>
-      </Head>
       <p>{postData.title}</p>
       <article className="prose" dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
     </Main>
