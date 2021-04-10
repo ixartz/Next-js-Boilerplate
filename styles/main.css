@@ -5,7 +5,7 @@ a {
 }
 
 a:hover {
-  @apply border-b-2 border-blue-700;
+  @apply underline;
 }
 
 @tailwind components;

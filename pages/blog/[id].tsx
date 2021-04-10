@@ -32,10 +32,13 @@ export default function Post({ postData }) {
       <Head>
         <title>{postData.title}</title>
       </Head>
-      <p>Hi hi this is a blog post</p>
-      <p>{postData.title}</p>
+
       <p>
-        <Date dateString={postData.date} />
+        <strong>{postData.title}</strong>
+        <br />
+        <em>
+          <Date dateString={postData.date} />
+        </em>
       </p>
       <article className="prose" dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
     </Main>

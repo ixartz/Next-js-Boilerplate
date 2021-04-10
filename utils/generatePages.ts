@@ -6,28 +6,17 @@ import remark from 'remark';
 import html from 'remark-html';
 
 const contentDirectory = (folderName) => path.join(process.cwd(), folderName);
-// If name does not contain .* , add index.md on the end
-const isDirectory = (pathString) => !pathString.includes('.');
-// const contentDirectory = path.join(process.cwd(), 'posts');
 
-const markdownifyPathArray = (fileNames) => {
-  const markdownFileNames = [];
-  fileNames.forEach((name) => {
-    if (isDirectory(name)) {
-      name += '/index.md';
-    }
-    markdownFileNames.push(name);
-  });
-  return markdownFileNames;
-};
+// Filter out folders from path generation. Allows folders for images and other assets.
+const filteredToFiles = (array) => array.filter((item) => item.includes('.'));
 
 export function getSortedPageData(folderName) {
-  // Get file names under /posts
-  const fileNames = markdownifyPathArray(fs.readdirSync(contentDirectory(folderName)));
+  // Get file names under /[folderName]
+  const fileNames = filteredToFiles(fs.readdirSync(contentDirectory(folderName)));
 
   const allPostsData = fileNames.map((fileName) => {
     // Remove ".md" from file name to get id
-    const id = fileName.replace(/\.md$/, '');
+    const id = fileName.replace('/index', '').replace(/\.md$/, '');
 
     // Read markdown file as string
     const fullPath = path.join(contentDirectory(folderName), fileName);
@@ -52,16 +41,17 @@ export function getSortedPageData(folderName) {
 }
 
 export function getAllPageIds(folderName) {
-  const fileNames = fs.readdirSync(contentDirectory(folderName));
+  const fileNames = filteredToFiles(fs.readdirSync(contentDirectory(folderName)));
   return fileNames.map((fileName) => ({
     params: {
-      id: fileName.replace(/\.md$/, ''),
+      id: fileName.replace('/index', '').replace(/\.md$/, ''),
     },
   }));
 }
 
 export async function getPageData(id, folderName) {
   const fullPath = path.join(contentDirectory(folderName), `${id}.md`);
+
   const fileContents = fs.readFileSync(fullPath, 'utf8');
 
   // Use gray-matter to parse the post metadata section
