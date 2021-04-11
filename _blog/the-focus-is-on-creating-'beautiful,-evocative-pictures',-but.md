@@ -1,6 +1,6 @@
 ---
 title: Notes on travel photography
-date: "2019-02-23T22:40:32.169Z"
+date: "2019-02-23"
 ---
 
 ![Kathmandu rooftops](/Files/\_Kathmandu rooftops.jpg)

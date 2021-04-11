@@ -1,6 +1,6 @@
 ---
 title: While walking across India
-date: "2019-04-01T22:40:32.169Z"
+date: "2019-04-01"
 ---
 
 From [Alastair Humphreys’ blog](https://www.alastairhumphreys.com/adventurecom-india/)

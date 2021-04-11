@@ -1,6 +1,6 @@
 ---
 title: John Cleese on Creativity
-date: "2019-03-30T21:40:32.169Z"
+date: "2019-03-30"
 ---
 
 *”Set up a space-time oasis, and giggle all you want.”*

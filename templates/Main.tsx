@@ -9,13 +9,13 @@ type IMainProps = {
 };
 
 const Main = (props: IMainProps) => (
-  <div className="antialiased w-full text-gray-700">
+  <div className="dark:bg-gray-900 antialiased w-full text-gray-700 dark:text-gray-300">
     {props.meta}
 
     <div className="max-w-screen-md mx-auto flex flex-col min-h-screen p-4">
       <Navigation />
 
-      <div className="py-5 content">{props.children}</div>
+      <div className="py-12 content">{props.children}</div>
       <div className="flex-grow" />
       <Footer />
     </div>

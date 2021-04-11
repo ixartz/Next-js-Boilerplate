@@ -9,9 +9,8 @@ export default function Navigation() {
     <div className=" flex justify-between">
       <div className="">
         <Link href="/">
-          <a className="">{Config.title}</a>
+          <a className="inline-block text-gray-800 dark:text-gray-200">{Config.title}</a>
         </Link>
-        <div className="">{Config.description}</div>
       </div>
       <div>
         <ul className="flex space-x-4 flex-wrap">

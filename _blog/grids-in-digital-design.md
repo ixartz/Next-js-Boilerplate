@@ -1,6 +1,6 @@
 ---
 title: Grids in digital design
-date: "2019-07-11T11:06:32.169Z"
+date: "2019-07-11"
 ---
 
 Great slides from Khoi Vinh and Mark Boulton on using grids in digital design.

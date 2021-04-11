@@ -1,7 +1,7 @@
 ---
 name: Sow
 title: Farming in South Carolina
-date: "2015-05-01T22:12:03.284Z"
+date: "2015-05-01"
 posttype: "project"
 category: "research"
 thumbnail: "./thumb.png"

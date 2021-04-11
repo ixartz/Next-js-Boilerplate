@@ -1,6 +1,6 @@
 ---
 title: Things learned from 5 months in Nepal
-date: "2018-08-31T22:40:32.169Z"
+date: "2018-08-31"
 ---
 
 Living expenses and salaries are an order of magnitude lower than a wealthy western city. Despite this, people have an incredible capacity to save for future investments. Eduating their children, buying a house, starting a business. Peoples’ ability to save money here defies belief.

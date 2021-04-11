@@ -7,8 +7,9 @@ import html from 'remark-html';
 
 const contentDirectory = (folderName) => path.join(process.cwd(), folderName);
 
-// Filter out folders from path generation. Allows folders for images and other assets.
-const filteredToFiles = (array) => array.filter((item) => item.includes('.'));
+// Select only items with a file extension. Ignore files beginning with '.'
+const filteredToFiles = (array) =>
+  array.filter((item) => item.includes('.') && !item.startsWith('.'));
 
 export function getSortedPageData(folderName) {
   // Get file names under /[folderName]

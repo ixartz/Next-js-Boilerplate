@@ -42,6 +42,10 @@ const Meta = (props: IMetaProps) => (
         data-domain="samstephenson.com"
         src="https://plausible.io/js/plausible.js"
       />
+      <link
+        rel="stylesheet"
+        href="https://unpkg.com/@tailwindcss/typography@0.2.x/dist/typography.min.css"
+      />
     </Head>
     <NextSeo
       title={props.title}

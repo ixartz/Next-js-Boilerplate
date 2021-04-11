@@ -1,6 +1,6 @@
 ---
 title: The Blank Slate Notes
-date: "2019-03-16T20:40:32.169Z"
+date: "2019-03-16"
 ---
 
 Chapter 3 of Steven Pinkers _The Blank Slate_ is brilliant. It might be the best, most concise debunking of the ‘we are souls, in control of our actions’ line of thinking I’ve come across. Thanks [Shaun](http://shaunmartin.org) for the intro.

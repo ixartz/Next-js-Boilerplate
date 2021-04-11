@@ -1,7 +1,7 @@
 @tailwind base;
 
 a {
-  @apply text-blue-700;
+  @apply text-blue-700 dark:text-blue-400;
 }
 
 a:hover {
@@ -13,9 +13,9 @@ a:hover {
 @tailwind utilities;
 
 .content p {
-  @apply my-6;
+  /* @apply my-6; */
 }
 
 .content ul {
-  @apply my-6;
+  /* @apply my-6; */
 }

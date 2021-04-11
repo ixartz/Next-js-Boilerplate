@@ -2,7 +2,7 @@
 order: 10
 name: Typography
 title: Sampling this sites typography
-date: "2020-07-11T22:12:03.284Z"
+date: "2020-07-11"
 posttype: "project"
 category: "Test"
 color: "#111"

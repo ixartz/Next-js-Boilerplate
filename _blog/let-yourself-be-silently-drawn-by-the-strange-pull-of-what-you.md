@@ -1,6 +1,6 @@
 ---
 title: The strange pull of what you really love
-date: "2019-11-25T22:40:32.169Z"
+date: "2019-11-25"
 ---
 
 > Let yourself be silently drawn by the strange pull of what you really love. It will not lead you astray.

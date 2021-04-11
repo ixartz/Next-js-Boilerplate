@@ -1,6 +1,6 @@
 ---
 title: Amy parker on their design process
-date: "2019-05-07T22:40:32.169Z"
+date: "2019-05-07"
 ---
 
 > I avoid saving images or making detailed sketches of things I’m seeing. Instead, I try to study what’s working, understand the formula behind the solution, and apply that to the problem I’m working on. This way, I (hopefully) avoid making an exact copy and come up with something that’s both appropriate and unique.

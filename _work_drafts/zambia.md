@@ -1,7 +1,7 @@
 ---
 name: Applied Cognitive Science
 title: Studying learning in Zambia’s slums
-date: "2015-05-01T22:12:03.284Z"
+date: "2015-05-01"
 posttype: "project"
 category: "research"
 color: "#A69C87"

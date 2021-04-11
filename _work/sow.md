@@ -2,19 +2,19 @@
 order: 10
 name: Sow
 title: Founding a startup delivering groceries direct from your local farmers
-date: "2015-05-01T22:12:03.284Z"
-posttype: "project"
-category: "design"
-color: "#1F9085"
+date: '2019-05-01'
+posttype: 'project'
+category: 'design'
+color: '#1F9085'
 href: null
-thumbnail: "./thumb.png"
-what: "Market Research, Product design, Front-end development, Prototyping"
-with: "Jason Thomas"
-role: "Co-founder. Responsible for product, design, and marketing"
-when: "Sep 2018 – Mar 2019"
-headline: "Connecting a neighborhood direct with its local farmers"
-coverbg: "./box-wide.jpg"
-summary: "Through 2018-19, with Jason Thomas, I cofounded Sow – a marketplace for groceries from local farms. Over 9 months we designed a brand, tested several prototypes, and raised funding. Eventually shutting down after failing to find a sustainable business model."
+thumbnail: '/assets/sow/thumb.png'
+what: 'Market Research, Product design, Front-end development, Prototyping'
+with: 'Jason Thomas'
+role: 'Co-founder. Responsible for product, design, and marketing'
+when: 'Sep 2018 – Mar 2019'
+headline: 'Connecting a neighborhood direct with its local farmers'
+coverbg: '/assets/sow/box-wide.jpg'
+summary: 'Through 2018-19, with Jason Thomas, I cofounded Sow – a marketplace for groceries from local farms. Over 9 months we designed a brand, tested several prototypes, and raised funding. Eventually shutting down after failing to find a sustainable business model.'
 ---
 
 # The initial pitch
@@ -28,17 +28,17 @@ In short, the pitch won! That September I wrapped up [projects in Nepal](/nepal)
 ## Branding
 
 <figure>
-<img src="./sow-casestudy-01.png" title="Final logo in its different lockups"/>
+<img src="/assets/sow/sow-casestudy-01.png" title="Final logo in its different lockups"/>
 <figcaption>Final logo in its different lockups</figcaption>
 </figure>
 
 <figure>
-<img src="./sow-casestudy-02.png" title="Brand style guide"/>
+<img src="/assets/sow/sow-casestudy-02.png" title="Brand style guide"/>
 <figcaption>Brand style guide</figcaption>
 </figure>
 
 <figure>
-<img src="./sow-casestudy-03.png" title="App design concepts, to communicate the idea for investor pitching"/>
+<img src="/assets/sow/sow-casestudy-03.png" title="App design concepts, to communicate the idea for investor pitching"/>
 <figcaption>App design concepts, to communicate the idea for investor pitching</figcaption>
 </figure>
 
@@ -54,11 +54,11 @@ With the overarching goal of making it easier to buy local food, we set out on a
 
 <div class="spacerVerticalM"></div>
 <figure class="gridHalf imageGrid">
-  <img src="./sow-research-1.jpg" title="Some initial logo sketches" />
+  <img src="/assets/sow/sow-research-1.jpg" title="Some initial logo sketches" />
 </figure><figure class="gridHalf imageGrid">
-  <img src="./sow-research-2.jpg" title="Testing lockups of different logo ideas" />
+  <img src="/assets/sow/sow-research-2.jpg" title="Testing lockups of different logo ideas" />
 </figure><figure class="gridHalf imageGrid">
-  <img src="./sow-research-4.jpg" title="Testing lockups of different logo ideas" />
+  <img src="/assets/sow/sow-research-4.jpg" title="Testing lockups of different logo ideas" />
 </figure>
 <div class="spacerVerticalM"></div>
 
@@ -67,7 +67,7 @@ With the overarching goal of making it easier to buy local food, we set out on a
 As we dug, themes started emerging. Collecting and affinity mapping our findings helped lead us to concrete insights and potential problems to solve.
 
 <figure>
-  <img src="./sow-whiteboard-1.jpg" title="V1 of City Roots’ inventory tracking app"/>
+  <img src="/assets/sow/sow-whiteboard-1.jpg" title="V1 of City Roots’ inventory tracking app"/>
   <figcaption>One of many affinity mapping sessions to find common insights from our farm vists</figcaption>
 </figure>
 
@@ -85,7 +85,7 @@ The app started as a super low-fidelity prototype: pen and paper system workers 
 
 <figure>
   <div class="gallery">
-    <img src="./city-roots-testing.jpg" title="Farmer testing an early version with the app"/>
+    <img src="/assets/sow/city-roots-testing.jpg" title="Farmer testing an early version with the app"/>
   </div>
   <figcaption>Farmer testing an early version with the app</figcaption>
 </figure>
@@ -97,12 +97,12 @@ The app was quick to build. We had City Roots set up with it in a week or so. Th
 Previously, if a chef or wholesaler called with an order, front office would have to call them back after physically going to the store room and counting how much stock they had. Now, they could see their availability onscreen, as they took the call, and could close the sale there and then.
 
 <figure>
-  <img src="./sow-casestudy-04.png" title="V1 of City Roots’ inventory tracking app"/>
+  <img src="/assets/sow/sow-casestudy-04.png" title="V1 of City Roots’ inventory tracking app"/>
   <figcaption>V1 of City Roots’ inventory tracking app</figcaption>
 </figure>
 
 <figure>
-  <img src="./inventory-app-in-use.jpg" title="Farm worker using it to manage stock levels"/>
+  <img src="/assets/sow/inventory-app-in-use.jpg" title="Farm worker using it to manage stock levels"/>
   <figcaption>Example farm worker using the app to record stock</figcaption>
 </figure>
 
@@ -115,7 +115,7 @@ Though the inventory tracker had proved useful in the short tests we'd run, we f
 Spending so much time in and around one farm highlighted another interesting nugget. Local farmers typically delivered to restaurants themselves – driving into town once or twice a week – requiring a $100-$150 minimum order to make a drop. We saw an opportunity here. Could we aggregate consumer orders to meet this minimum, and have farmers deliver to the consumer, no middleman required?
 
 <figure>
-  <img src="./farm-network.png" title="Farm worker using it to manage stock levels"/>
+  <img src="/assets/sow/farm-network.png" title="Farm worker using it to manage stock levels"/>
   <figcaption>Multiple farmers supplying a metro area</figcaption>
 </figure>
 
@@ -126,15 +126,15 @@ This led to the idea of a _farmers market in a box_, a self-service farmstand st
 Over the next two weeks, and many trips to Home Depot, we built our first prototype. It was basic: a fridge and freezer from Craigslist, a tablet and card reader to accept payments, and a wooden frame to hold it all together. A kind friend let us host it on her porch.
 
 <figure class="gridHalf">
-  <img src="./chest-sketchup.jpg" title="Concepts for the next version of the app"/>  
+  <img src="/assets/sow/chest-sketchup.jpg" title="Concepts for the next version of the app"/>  
   <figcaption>Under construction…</figcaption>
 </figure>
 <figure class="gridHalf">
-  <img src="./chest-construction.jpg" title="Concepts for the next version of the app"/>
+  <img src="/assets/sow/chest-construction.jpg" title="Concepts for the next version of the app"/>
 </figure>
 <figure>
   <div class="gallery">
-    <img src="./chest.jpg" title="Concepts for the next version of the app"/>
+    <img src="/assets/sow/chest.jpg" title="Concepts for the next version of the app"/>
   </div>
   <figcaption>The box, open for business!</figcaption>
 </figure>
@@ -145,7 +145,7 @@ We filled the box with meat, eggs, and butter from 5 local farmers, made an anno
 
 <figure>
   <div class="gallery">
-    <img src="./first-users.jpg" title="Concepts for the next version of the app"/>
+    <img src="/assets/sow/first-users.jpg" title="Concepts for the next version of the app"/>
   </div>
   <figcaption>Early customers (we may have baited a few friends early on)</figcaption>
 </figure>
@@ -161,7 +161,7 @@ Customers' biggest complaint was that they couldn't know with any certainty what
 When we launched it for the neighborhood, we saw a good response in revenues. Regulars appreciated being able to check if their favorites were in stock. People new to the concept had something they could check out from their phone, without the commitment of walking the few blocks to see the box themselves.
 
 <figure>
-  <img src="./sow-casestudy-05.png" title="The MVP of the stock checking app. Assembled from the material UI component library"/>
+  <img src="/assets/sow/sow-casestudy-05.png" title="The MVP of the stock checking app. Assembled from the material UI component library"/>
   <figcaption>The MVP of the stock checking app. Assembled from the material UI component library</figcaption>
 </figure>
 
@@ -172,7 +172,7 @@ The box worked great as a first experiment, but it was far from financially viab
 With this we set about sketching ideas for how we could take and deliver subscription orders for a neighborhood. We sketched concepts for bigger and better communal refrigerators, to live in parks and other public spaces. We began talks with city officials, getting approval to build a prototype in the neighborhood park.
 
 <figure>
-  <img src="./sow-casestudy-06.png" title="Concepts for the next version of the app"/>
+  <img src="/assets/sow/sow-casestudy-06.png" title="Concepts for the next version of the app"/>
   <figcaption>Concepts for the next version of the app</figcaption>
 </figure>
 

@@ -1,6 +1,6 @@
 export const Config = {
   site_name: 'Sam Stephenson',
   title: 'Sam Stephenson',
-  description: 'Product designer',
+  description: 'product designer',
   locale: 'en',
 };

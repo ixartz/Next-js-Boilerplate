@@ -31,8 +31,10 @@ export default function Post({ postData }) {
       <Head>
         <title>{postData.title}</title>
       </Head>
-      <p>{postData.title}</p>
-      <article className="prose" dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
+      <h1 className="text-xl">{postData.title}</h1>
+      <article className="prose dark:prose-dark">
+        <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
+      </article>
     </Main>
   );
 }

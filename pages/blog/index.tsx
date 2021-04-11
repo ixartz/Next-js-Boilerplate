@@ -5,6 +5,7 @@ import Link from 'next/link';
 import { Meta } from '../../layout/Meta';
 import { Main } from '../../templates/Main';
 import { getSortedPageData } from '../../utils/generatePages';
+import Date from '../../components/Date';
 
 export async function getStaticProps() {
   const allPostsData = getSortedPageData('_blog');
@@ -26,7 +27,9 @@ export default function Blog({ allPostsData }) {
             <Link href={`/blog/${id}`}>
               <a>{title}</a>
             </Link>
-            <span>{date}</span>
+            <span className="text-gray-600 dark:text-gray-500">
+              <Date dateString={date} />
+            </span>
           </li>
         ))}
       </ul>

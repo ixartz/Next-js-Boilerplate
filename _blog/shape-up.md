@@ -1,6 +1,6 @@
 ---
 title: Ryan Singer's Shape Up
-date: "2020-07-16T10:41:32.169Z"
+date: "2020-07-16"
 ---
 
 I've been re-reading bits of Ryan Singer's book [Shape Up](https://basecamp.com/shapeup/webbook) about how they develop products at basecamp. This isn't the first time I've been back to it, and each time a different bit stands out.

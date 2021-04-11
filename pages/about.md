@@ -1,6 +1,5 @@
 ---
-title: About me
-description: Hello
+title: Hey, I'm Sam
 ---
 
 I’m a London-based designer, working with startups to build humane, user-friendly digital products.
@@ -13,4 +12,4 @@ Talk to me about design, tech, travel, behavioral sciences, surfing, whitewater 
 
 ## About this site
 
-Static site built in [TypeScript](https://www.typescriptlang.org) with [React](https://reactjs.org) and [Next.js](https://nextjs.org). Initialized with [this boilerplate project](https://creativedesignsguru.com/demo/Nextjs-Boilerplate/). Styled with [TailwindCSS](https://tailwindcss.com).
+Static site built in [TypeScript](https://www.typescriptlang.org) with [React](https://reactjs.org) and [Next.js](https://nextjs.org). Initialized with [this boilerplate project](https://creativedesignsguru.com/demo/Nextjs-Boilerplate/). Styled with [TailwindCSS](https://tailwindcss.com). Analytics from [Plausible.io](https://plausible.io/samstephenson.com).

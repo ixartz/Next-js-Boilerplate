@@ -1,10 +1,10 @@
 ---
 title: Into the cold sea
-date: "2015-05-28T22:40:32.169Z"
-featured: "oh yes I am"
+date: '2015-05-28'
+featured: 'oh yes I am'
 ---
 
-![Cornish Swimmers](/_CornishSwimmers.jpg)
+![Cornish Swimmers](/assets/sea-swimmers/_CornishSwimmers.jpg)
 
 Each morning, as sunlight creeps over the horizon and cold sea mist recedes, a devoted few make pilgrimage, to Gyllyngvase beach and there into the ocean, into the cold. Committed to meeting each day in the best of ways, they immerse themselves in complete experience, embracing the chill whilst soaking up the first of the day’s light.
 

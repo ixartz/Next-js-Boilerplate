@@ -1,6 +1,6 @@
 ---
 title: Random Data generator
-date: "2021-02-11T22:40:32.169Z"
+date: "2021-02-11"
 ---
 
 Built a little thing that will generate a set number of random numbers, between two values. Useful for generating dummy data.

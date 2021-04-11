@@ -1,6 +1,6 @@
 ---
 title: Write urgently to a clever friend
-date: "2019-12-29T22:40:32.169Z"
+date: "2019-12-29"
 featured: "oh yes I am"
 ---
 
