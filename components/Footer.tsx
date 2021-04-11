@@ -1,6 +1,5 @@
 import React from 'react';
 
-import { Config } from '../utils/Config';
 import { useTheme } from 'next-themes';
 
 export default function Footer() {
@@ -18,7 +17,6 @@ export default function Footer() {
       <div>© {new Date().getFullYear()}</div>
       <a
         href="https://plausible.io/samstephenson.com"
-        alt="analytics"
         title="analytics"
         className="text-gray-500 dark:text-gray-400"
       >

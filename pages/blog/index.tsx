@@ -28,7 +28,7 @@ export default function Blog({ allPostsData }) {
               <a>{title}</a>
             </Link>
             <span className="text-gray-600 dark:text-gray-500">
-              <Date dateString={date} />
+              <Date dateString={date} yearOnly={true} />
             </span>
           </li>
         ))}

@@ -1,6 +1,5 @@
 import React from 'react';
 
-import Head from 'next/head';
 import Image from 'next/image';
 
 import { Meta } from '../../layout/Meta';
@@ -15,7 +14,7 @@ export async function getStaticPaths() {
   };
 }
 
-export async function getStaticProps({ params }) {
+export async function getStaticProps({ params }: { params: any }) {
   const postData = await getPageData(params.id, '_work');
   return {
     props: {

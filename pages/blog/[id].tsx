@@ -15,7 +15,7 @@ export async function getStaticPaths() {
   };
 }
 
-export async function getStaticProps({ params }) {
+export async function getStaticProps({ params }: { params: any }) {
   const postData = await getPageData(params.id, '_blog');
   return {
     props: {
@@ -36,7 +36,7 @@ export default function Post({ postData }) {
       <div className="mb-8">
         <h1 className="text-xl">{postData.title}</h1>
         <em>
-          <Date dateString={postData.date} />
+          <Date dateString={postData.date} yearOnly={false} />
         </em>
       </div>
       <article

@@ -7,15 +7,15 @@ import { Main } from '../templates/Main';
 import { getPageData, getAllPageIds } from '../utils/generatePages';
 
 export async function getStaticPaths() {
-  const paths = await getAllPageIds('pages');
+  const paths = await getAllPageIds('_pages');
   return {
     paths,
     fallback: false,
   };
 }
 
-export async function getStaticProps({ params }) {
-  const postData = await getPageData(params.id, 'pages');
+export async function getStaticProps({ params }: { params: any }) {
+  const postData = await getPageData(params.id, '_pages');
   return {
     props: {
       postData,

@@ -65,7 +65,7 @@ function ProjectItem(props) {
         <span className="text-gray-600 dark:text-gray-500">&middot; {props.description}</span>
       </div>
       <span className="text-gray-600 dark:text-gray-500">
-        {props.date && <Date dateString={props.date} yearOnly />}
+        {props.date && <Date dateString={props.date} yearOnly={false} />}
       </span>
     </li>
   );
@@ -79,7 +79,7 @@ export default function Index({ allPostsData }) {
       <h1 className="text-xl">
         Designer and (wannabe) developer of digital products, based in London, UK. <br />
         Leading design for{' '}
-        <a href="https://swimsmooth.com" alt="Swim Smooth">
+        <a href="https://swimsmooth.com" title="Swim Smooth">
           Swim Smooth
         </a>
         's web and iOS apps.
