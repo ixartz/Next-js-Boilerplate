@@ -20,3 +20,12 @@ module.exports = withBundleAnalyzer({
 // module.exports = withMDX({
 //   pageExtensions: ['js', 'jsx', 'md', 'mdx'],
 // });
+
+module.exports = {
+  // https://github.com/vercel/next.js/issues/21079
+  // Remove the workaround the issue is fixed
+  images: {
+    loader: 'imgix',
+    path: '',
+  },
+};
