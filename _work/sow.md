@@ -1,7 +1,7 @@
 ---
 order: 10
 name: Sow
-title: Founding a startup delivering groceries direct from your local farmers
+title: Founding a startup delivering groceries direct from local farmers
 date: '2019-05-01'
 posttype: 'project'
 category: 'design'

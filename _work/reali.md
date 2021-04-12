@@ -1,7 +1,7 @@
 ---
 order: 40
 name: Reali Android app
-title: Designing a home on Android for the real estate startup
+title: A home on Android for the real estate app
 date: "2017-01-01"
 posttype: "project"
 category: "design"
@@ -11,8 +11,7 @@ thumbnail: "/assets/reali/thumb.png"
 what: "Visual design"
 with: "NewDealDesign, San Francisco"
 role: "Translate Reali’s iOS app design to Android
-Handoff screens and a style guide for the entire app
-"
+Handoff screens and a style guide for the entire app"
 when: "January 2017"
 headline: Translating the mobile home buying experience to Android
 coverimg: "/assets/reali/cover-image.png"

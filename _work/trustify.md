@@ -1,7 +1,7 @@
 ---
 order: 20
 name: Trustify
-title: Designing a mobile app for the high-security startup
+title: Mobile app for the high-security startup
 date: '2016-11-01'
 posttype: 'project'
 category: 'design'

@@ -1,7 +1,7 @@
 ---
 order: 9
 name: Swim Smooth
-title: A technical swim coach powered by Apple Watch
+title: A swim coach powered by Apple Watch
 date: '2021-02-01'
 posttype: 'project'
 category: 'design'

@@ -32,7 +32,7 @@ const minorProjects = [
   {
     title: 'Commentative',
     url: 'https://github.com/Commentative/commentative',
-    description: 'Hackathon project – add your thoughts when sharing content',
+    description: 'Hackathon project · Add your thoughts when sharing content',
     date: '2020',
   },
 ];

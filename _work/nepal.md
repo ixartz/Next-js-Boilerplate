@@ -1,7 +1,7 @@
 ---
 order: 30
 name: Applied Cognitive Science
-title: Developing an entrepreneurship curriculum for Kathmandu
+title: Entrepreneurship curriculum for college students
 date: '2018-08-01'
 posttype: 'project'
 category: 'design'
