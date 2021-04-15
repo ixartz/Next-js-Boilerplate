@@ -52,6 +52,15 @@ const contactInfo = [
   },
 ];
 
+function ProjectList({ title, children }) {
+  return (
+    <>
+      <h4 className="mt-8 uppercase text-sm mb-2 tracking-wide">{title}</h4>
+      <ul className="">{children}</ul>
+    </>
+  );
+}
+
 function ProjectItem(props) {
   return (
     <li key={props.key} className="flex justify-between space-x-4">
@@ -80,26 +89,22 @@ export default function Index({ allPostsData }) {
       meta={<Meta title="Sam Stephenson" description="London-based digital product designer" />}
     >
       <h1 className="text-xl">
-        Designer and (wannabe) developer of digital products, based in London, UK.
-        {' '}
-        <br />
-        Leading design for
+        Designer and (wannabe) developer of digital products, based in London, UK. Leading design
+        for
         {' '}
         <a href="https://swimsmooth.com" title="Swim Smooth">
           Swim Smooth
         </a>
         's web and iOS apps.
       </h1>
-      <h4 className="mt-8 uppercase text-sm mb-2 tracking-wide">Major projects</h4>
-      <ul className="">
+      <ProjectList title="Work">
         {allPostsData.map(({
           id, title, name, date,
         }) => (
           <ProjectItem key={id} href={`/work/${id}`} title={name} description={title} date={date} />
         ))}
-      </ul>
-      <h4 className="mt-8 uppercase text-sm mb-2 tracking-wide">Minor projects</h4>
-      <ul>
+      </ProjectList>
+      <ProjectList title="Experiments">
         {minorProjects.map((item, i) => (
           <ProjectItem
             key={i}
@@ -109,7 +114,7 @@ export default function Index({ allPostsData }) {
             date={item.date}
           />
         ))}
-      </ul>
+      </ProjectList>
       <h4 className="mt-8 uppercase text-sm mb-2 tracking-wide">Contact</h4>
       <p>
         Email
