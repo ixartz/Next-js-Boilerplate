@@ -1,6 +1,7 @@
 const colors = require('tailwindcss/colors');
 
 module.exports = {
+  mode: 'jit',
   purge: [
     './pages/**/*.{js,ts,jsx,tsx}',
     './components/**/*.{js,ts,jsx,tsx}',
@@ -20,10 +21,9 @@ module.exports = {
     //   '5xl': '3rem',
     //   '6xl': '4rem',
     // },
-    colors: {
-      'hot-pink': '#fd2d78',
+    fontFamily: {
+      sans: ['Soehne', 'system-ui', 'sans-serif'],
     },
-    fontFamily: {},
     rotate: {
       '-180': '-180deg',
       '-90': '-90deg',

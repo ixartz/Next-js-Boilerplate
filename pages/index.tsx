@@ -2,10 +2,10 @@ import React from 'react';
 
 import Link from 'next/link';
 
+import Date from '../components/Date';
 import { Meta } from '../layout/Meta';
 import { Main } from '../templates/Main';
 import { getSortedPageData } from '../utils/generatePages';
-import Date from '../components/Date';
 
 export async function getStaticProps() {
   const allPostsData = getSortedPageData('_work');
@@ -62,10 +62,13 @@ function ProjectItem(props) {
             &nbsp;
           </a>
         </Link>
-        <span className="text-gray-600 dark:text-gray-500">&middot; {props.description}</span>
+        <span className="text-gray-600 dark:text-gray-500">
+          &middot;&nbsp;
+          {props.description}
+        </span>
       </div>
       <span className="text-gray-600 dark:text-gray-500">
-        {props.date && <Date dateString={props.date} yearOnly={false} />}
+        {props.date && <Date dateString={props.date} yearOnly />}
       </span>
     </li>
   );
@@ -77,8 +80,11 @@ export default function Index({ allPostsData }) {
       meta={<Meta title="Sam Stephenson" description="London-based digital product designer" />}
     >
       <h1 className="text-xl">
-        Designer and (wannabe) developer of digital products, based in London, UK. <br />
-        Leading design for{' '}
+        Designer and (wannabe) developer of digital products, based in London, UK.
+        {' '}
+        <br />
+        Leading design for
+        {' '}
         <a href="https://swimsmooth.com" title="Swim Smooth">
           Swim Smooth
         </a>
@@ -86,7 +92,9 @@ export default function Index({ allPostsData }) {
       </h1>
       <h4 className="mt-8 uppercase text-sm mb-2 tracking-wide">Major projects</h4>
       <ul className="">
-        {allPostsData.map(({ id, title, name, date }) => (
+        {allPostsData.map(({
+          id, title, name, date,
+        }) => (
           <ProjectItem key={id} href={`/work/${id}`} title={name} description={title} date={date} />
         ))}
       </ul>
@@ -104,11 +112,13 @@ export default function Index({ allPostsData }) {
       </ul>
       <h4 className="mt-8 uppercase text-sm mb-2 tracking-wide">Contact</h4>
       <p>
-        Email{' '}
+        Email
+        {' '}
         <a href="mailto:sam.stephenson@hey.com" title="Email me">
           sam.stephenson@hey.com
         </a>
-        , or find me on{' '}
+        , or find me on
+        {' '}
         {contactInfo.map((item, i) => (
           <>
             {contactInfo.length === i + 1 && 'or '}

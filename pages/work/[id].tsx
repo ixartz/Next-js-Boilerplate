@@ -56,7 +56,7 @@ export default function Post({ postData }) {
       )}
       {postData.summary && <p className="text-xl mb-12">{postData.summary}</p>}
       <article
-        className="prose dark:prose-dark"
+        className="prose prose-lg dark:prose-dark"
         dangerouslySetInnerHTML={{ __html: postData.contentHtml }}
       />
     </Main>

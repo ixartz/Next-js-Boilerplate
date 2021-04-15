@@ -19,3 +19,25 @@ a:hover {
 .content ul {
   /* @apply my-6; */
 }
+
+@layer base {
+  @font-face {
+    font-family: Soehne;
+    src: url('../public/assets/fonts/soehne-web-buch.woff2') format('woff2'),
+      url('../public/assets/fonts/soehne-web-buch.woff') format('woff');
+    font-weight: 400;
+  }
+  @font-face {
+    font-family: Soehne;
+    src: url('../public/assets/fonts/soehne-web-buch-kursiv.woff2') format('woff2'),
+      url('../public/assets/fonts/soehne-web-buch-kursiv.woff') format('woff');
+    font-weight: 400;
+    font-style: italic;
+  }
+  @font-face {
+    font-family: Soehne;
+    src: url('../public/assets/fonts/soehne-web-halbfett.woff2') format('woff2'),
+      url('../public/assets/fonts/soehne-web-halbfett.woff') format('woff');
+    font-weight: 600;
+  }
+}
