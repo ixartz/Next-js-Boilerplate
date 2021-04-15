@@ -1,87 +1,10 @@
 import React from 'react';
 
-import Link from 'next/link';
-
-import Date from '../components/Date';
+import { contactInfo, minorProjects } from '../_data/homepageData';
+import { ProjectList, ProjectItem } from '../components/ProjectList';
 import { Meta } from '../layout/Meta';
 import { Main } from '../templates/Main';
 import { getSortedPageData } from '../utils/generatePages';
-
-export async function getStaticProps() {
-  const allPostsData = getSortedPageData('_work');
-  return {
-    props: {
-      allPostsData,
-    },
-  };
-}
-
-const minorProjects = [
-  {
-    title: 'Interval',
-    url: 'https://interval.fyi',
-    description: 'A simple clock built in Javacript',
-    date: '2021',
-  },
-  {
-    title: 'Sounds of London',
-    url: 'https://youtube.com/playlist?list=PLk7ZSGp92uM-NK0Fg9cp_8pZs4Ek-KQhA',
-    description: 'Binauaral audio recordings from around London',
-    date: '2021',
-  },
-  {
-    title: 'Commentative',
-    url: 'https://github.com/Commentative/commentative',
-    description: 'Hackathon project · Add your thoughts when sharing content',
-    date: '2020',
-  },
-];
-
-const contactInfo = [
-  {
-    title: 'LinkedIn',
-    url: 'https://linkedin.com/stephensonsam',
-  },
-  {
-    title: 'Twitter',
-    url: 'https://linkedin.com/stephensonsam',
-  },
-  {
-    title: 'Github',
-    url: 'https://linkedin.com/stephensonsam',
-  },
-];
-
-function ProjectList({ title, children }) {
-  return (
-    <>
-      <h4 className="mt-8 uppercase text-sm mb-2 tracking-wide">{title}</h4>
-      <ul className="">{children}</ul>
-    </>
-  );
-}
-
-function ProjectItem(props) {
-  return (
-    <li key={props.key} className="flex justify-between space-x-4">
-      <div>
-        <Link href={props.href}>
-          <a className="">
-            {props.title}
-            &nbsp;
-          </a>
-        </Link>
-        <span className="text-gray-600 dark:text-gray-500">
-          &middot;&nbsp;
-          {props.description}
-        </span>
-      </div>
-      <span className="text-gray-600 dark:text-gray-500">
-        {props.date && <Date dateString={props.date} yearOnly />}
-      </span>
-    </li>
-  );
-}
 
 export default function Index({ allPostsData }) {
   return (
@@ -105,9 +28,8 @@ export default function Index({ allPostsData }) {
         ))}
       </ProjectList>
       <ProjectList title="Experiments">
-        {minorProjects.map((item, i) => (
+        {minorProjects.map((item) => (
           <ProjectItem
-            key={i}
             title={item.title}
             description={item.description}
             href={item.url}
@@ -137,4 +59,13 @@ export default function Index({ allPostsData }) {
       </p>
     </Main>
   );
+}
+
+export async function getStaticProps() {
+  const allPostsData = getSortedPageData('_work');
+  return {
+    props: {
+      allPostsData,
+    },
+  };
 }
