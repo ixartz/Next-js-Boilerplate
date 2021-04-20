@@ -4,7 +4,7 @@ import Head from 'next/head';
 
 import Date from '../../components/Date';
 import { Meta } from '../../layout/Meta';
-import { Main } from '../../templates/Main';
+import { Main } from '../../layout/Main';
 import { getPageData, getAllPageIds } from '../../utils/generatePages';
 
 export async function getStaticPaths() {

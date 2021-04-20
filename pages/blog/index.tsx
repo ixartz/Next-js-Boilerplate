@@ -3,7 +3,7 @@ import React from 'react';
 import Link from 'next/link';
 
 import { Meta } from '../../layout/Meta';
-import { Main } from '../../templates/Main';
+import { Main } from '../../layout/Main';
 import { getSortedPageData } from '../../utils/generatePages';
 import Date from '../../components/Date';
 
