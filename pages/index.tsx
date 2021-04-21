@@ -12,6 +12,23 @@ import { Main } from '../layout/Main';
 import { Meta } from '../layout/Meta';
 import { getSortedPageData } from '../utils/generatePages';
 
+function ProjectThumb({ project }) {
+  return (
+    <Link href={`work/${project.id}`} key={project.id}>
+      <a>
+        <div className="relative h-128 bg-gray-800 mb-2">
+          <Image src={project.thumbnail} layout="fill" objectFit="cover" />
+        </div>
+        <p>
+          {project.name}
+          &#58;&nbsp;
+          <span className="text-gray-500">{project.headline}</span>
+        </p>
+      </a>
+    </Link>
+  );
+}
+
 export default function Index({ allPostsData }) {
   // Split projects in to featured/not
   const featured = ['swim-smooth', 'sow', 'trustify'];
@@ -43,7 +60,7 @@ export default function Index({ allPostsData }) {
             id, title, name, date,
           }) => (
             <ProjectItem
-              key={id}
+              keyId={id}
               href={`/work/${id}`}
               title={name}
               description={title}
@@ -54,6 +71,7 @@ export default function Index({ allPostsData }) {
         <ProjectList title="Experiments">
           {minorProjects.map((item) => (
             <ProjectItem
+              keyId={item.title}
               title={item.title}
               description={item.description}
               href={item.url}
@@ -74,23 +92,4 @@ export async function getStaticProps() {
       allPostsData,
     },
   };
-}
-
-function ProjectThumb({ project }) {
-  return (
-    <Link href={`work/${project.id}`}>
-      <a>
-        <div className="">
-          <div className="h-128 bg-gray-800 mb-2">
-            <Image src={project.thumbnail} width={480} height={640} />
-          </div>
-          <p>
-            {project.name}
-            &#58;&nbsp;
-            <span className="text-gray-500">{project.headline}</span>
-          </p>
-        </div>
-      </a>
-    </Link>
-  );
 }

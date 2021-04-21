@@ -1,6 +1,6 @@
 import React from 'react';
 
-export function WidthContainer({ children, size, className }) {
+export function WidthContainer({ children, size, className }): JSX.Element {
   // Preset page sizes. Defaults to 'md'
   const sizes = {
     md: 'max-w-screen-md',

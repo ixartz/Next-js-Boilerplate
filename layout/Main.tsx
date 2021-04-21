@@ -7,11 +7,10 @@ import { WidthContainer } from '../components/WidthContainer';
 type IMainProps = {
   meta: ReactNode;
   children: ReactNode;
-  pageHeadline: ReactNode;
 };
 
 const Main = (props: IMainProps) => (
-  <div className="dark:bg-gray-900 antialiased w-full text-gray-700 dark:text-gray-300 flex flex-col min-h-screen py-4 ">
+  <div className="flex flex-col dark:bg-gray-900 antialiased w-full text-gray-700 dark:text-gray-300 min-h-screen py-4">
     {props.meta}
     <WidthContainer>
       <Navigation />

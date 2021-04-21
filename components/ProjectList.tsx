@@ -15,7 +15,7 @@ export function ProjectList({ title, children }) {
 
 export function ProjectItem(props) {
   return (
-    <li key={props.key} className="flex justify-between space-x-4">
+    <li key={props.keyId} className="flex justify-between space-x-4">
       <div>
         <Link href={props.href}>
           <a className="">
