@@ -14,7 +14,7 @@ import { getSortedPageData } from '../utils/generatePages';
 
 function ProjectThumb({ project }) {
   return (
-    <Link href={`work/${project.id}`} key={project.id}>
+    <Link href={`work/${project.id}`} key={project.keyId}>
       <a className="hover:no-underline text-primary">
         <div className="relative pt-[150%] bg-surface-100 hover:bg-surface-200 transition mb-2">
           <Image src={project.thumbnail} layout="fill" objectFit="contain" />
@@ -53,20 +53,18 @@ export default function Index({ allPostsData }) {
       </PageIntro>
       <WidthContainer size="lg" className="grid md:grid-cols-3 gap-8 pb-4">
         {projects.featured.map((project) => (
-          <ProjectThumb key={project.id} project={project} />
+          <ProjectThumb keyId={project.id} project={project} />
         ))}
       </WidthContainer>
       <WidthContainer>
         <ProjectList title="Other projects">
-          {projects.other.map(({
-            id, title, name, date,
-          }) => (
+          {projects.other.map((project) => (
             <ProjectItem
-              keyId={id}
-              href={`/work/${id}`}
-              title={name}
-              description={title}
-              date={date}
+              keyId={project.id}
+              href={`/work/${project.id}`}
+              title={project.name}
+              description={project.title}
+              date={project.date}
             />
           ))}
         </ProjectList>
