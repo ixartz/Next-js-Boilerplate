@@ -14,7 +14,7 @@ import { getSortedPageData } from '../utils/generatePages';
 
 function ProjectThumb({ project }) {
   return (
-    <Link href={`work/${project.id}`} key={project.keyId}>
+    <Link href={`work/${project.id}`} key={project.id}>
       <a className="hover:no-underline text-primary">
         <div className="relative pt-[150%] bg-surface-100 hover:bg-surface-200 transition mb-2">
           <Image src={project.thumbnail} layout="fill" objectFit="contain" />
@@ -40,7 +40,6 @@ export default function Index({ allPostsData }) {
   return (
     <Main
       meta={<Meta title="Sam Stephenson" description="London-based digital product designer" />}
-      pageHeadline={<></>}
     >
       <PageIntro>
         {' '}
@@ -53,7 +52,7 @@ export default function Index({ allPostsData }) {
       </PageIntro>
       <WidthContainer size="lg" className="grid md:grid-cols-3 gap-8 py-4">
         {projects.featured.map((project) => (
-          <ProjectThumb keyId={project.id} project={project} />
+          <ProjectThumb project={project} />
         ))}
       </WidthContainer>
       <WidthContainer>
