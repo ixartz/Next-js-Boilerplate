@@ -51,7 +51,7 @@ export default function Index({ allPostsData }) {
         </a>
         &apos;s web and iOS apps.
       </PageIntro>
-      <WidthContainer size="lg" className="grid md:grid-cols-3 gap-8 pb-4">
+      <WidthContainer size="lg" className="grid md:grid-cols-3 gap-8 py-4">
         {projects.featured.map((project) => (
           <ProjectThumb keyId={project.id} project={project} />
         ))}

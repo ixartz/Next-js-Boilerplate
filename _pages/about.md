@@ -1,9 +1,7 @@
 ---
-title: Hey, I'm Sam
+title: Hey, I'm Sam, a London-based designer. Working with startups to build humane, user-friendly digital products.
 date: '2021-04-11'
 ---
-
-I’m a London-based designer, working with startups to build humane, user-friendly digital products.
 
 I work across the design end of the product development process. Mostly Research, UX, UI, prototyping, user testing and brand, though I sometimes dip my toes in front-end (HTML/CSS, Javascript, and React).
 
