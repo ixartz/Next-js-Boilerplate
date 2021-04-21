@@ -1,7 +1,31 @@
+.dark {
+  --color-bg-primary: theme('colors.gray.900');
+  --color-bg-secondary: theme('colors.gray.800');
+  --color-bg-tertiary: theme('colors.gray.700');
+  --color-text-primary: theme('colors.white');
+  --color-text-secondary: theme('colors.gray.400');
+  --color-text-accent: theme('colors.blue.400');
+  --color-text-accent-light: theme('colors.blue.500');
+  --color-text-accent-dark: theme('colors.blue.300');
+}
+
+.light {
+  --color-bg-primary: theme('colors.white');
+  --color-bg-secondary: theme('colors.gray.100');
+  --color-bg-tertiary: theme('colors.gray.200');
+  --color-text-primary: theme('colors.gray.800');
+  --color-text-secondary: theme('colors.gray.500');
+  --color-text-accent: theme('colors.blue.600');
+  --color-text-accent-light: theme('colors.blue.500');
+  --color-text-accent-dark: theme('colors.blue.700');
+}
+
+/*  Tailwind Starter stuff */
+
 @tailwind base;
 
 a {
-  @apply text-blue-700 dark:text-blue-400;
+  @apply text-accent;
 }
 
 a:hover {
@@ -11,24 +35,6 @@ a:hover {
 @tailwind components;
 
 @tailwind utilities;
-
-.dark {
-  --color-bg-primary: theme('colors.gray.900');
-  --color-bg-secondary: theme('colors.gray.800');
-  --color-bg-tertiary: theme('colors.gray.700');
-  --color-text-primary: theme('colors.white');
-  --color-text-secondary: theme('colors.gray.400');
-  --color-text-accent: theme('colors.blue.600');
-}
-
-.light {
-  --color-bg-primary: theme('colors.gray.100');
-  --color-bg-secondary: theme('colors.gray.50');
-  --color-bg-tertiary: theme('colors.white');
-  --color-text-primary: theme('colors.gray.800');
-  --color-text-secondary: theme('colors.gray.600');
-  --color-text-accent: theme('colors.blue.500');
-}
 
 .content p {
   /* @apply my-6; */

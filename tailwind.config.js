@@ -63,51 +63,56 @@ module.exports = {
         primary: 'var(--color-text-primary)',
         secondary: 'var(--color-text-secondary)',
         tertiary: 'var(--color-text-tertiary)',
+        accent: {
+          DEFAULT: 'var(--color-text-accent)',
+          light: 'var(--color-text-accent-light)',
+          dark: 'var(--color-text-accent-dark)',
+        },
       },
       typography: (theme) => ({
         DEFAULT: {
           css: {
-            color: theme('colors.grey.800'),
+            color: theme('colors.primary'),
             a: {
-              color: theme('colors.blue.500'),
+              color: theme('colors.accent.DEFAULT'),
               '&:hover, &.active': {
-                color: 'white',
+                color: 'colors.accent.light',
                 strong: {
                   color: 'white',
                 },
               },
             },
             h1: {
-              color: theme('colors.grey.800'),
+              color: theme('colors.primary'),
             },
             h2: {
-              color: theme('colors.grey.800'),
+              color: theme('colors.secondary'),
             },
             h3: {
-              color: theme('colors.grey.800'),
+              color: theme('colors.primary'),
             },
             h4: {
-              color: theme('colors.grey.800'),
+              color: theme('colors.primary'),
             },
             code: {
               color: 'white',
-              'background-color': theme('colors.grey.800'),
+              'background-color': theme('colors.primary'),
               '&:before, &:after': {
                 display: 'none',
               },
             },
             p: {
-              color: theme('colors.grey.800'),
+              color: theme('colors.primary'),
             },
             img: {},
             'ul > li': {
               '&::before': {
-                'background-color': theme('colors.grey.800'),
+                'background-color': theme('colors.primary'),
               },
             },
             'ol > li': {
               '&::before': {
-                color: theme('colors.grey.800'),
+                color: theme('colors.primary'),
               },
             },
           },
@@ -115,44 +120,44 @@ module.exports = {
 
         dark: {
           css: {
-            color: theme('colors.gray.200'),
+            color: theme('colors.primary'),
             a: {
-              color: theme('colors.blue.500'),
+              color: theme('colors.accent.DEFAULT'),
               'text-decoration': 'none',
               '&:hover, &.active': {
-                color: theme('colors.gray.200'),
+                color: theme('colors.accent.light'),
               },
             },
             h1: {
-              color: theme('colors.gray.200'),
+              color: theme('colors.primary'),
             },
             h2: {
-              color: theme('colors.gray.200'),
+              color: theme('colors.primary'),
             },
             h3: {
-              color: theme('colors.gray.200'),
+              color: theme('colors.primary'),
             },
             h4: {
-              color: theme('colors.gray.200'),
+              color: theme('colors.primary'),
             },
             code: {
-              color: theme('colors.gray.200'),
+              color: theme('colors.primary'),
               '&:before, &:after': {
                 display: 'none',
               },
             },
             p: {
-              color: theme('colors.gray.200'),
+              color: theme('colors.primary'),
             },
             img: {},
             'ul > li': {
               '&::before': {
-                'background-color': theme('colors.gray.200'),
+                'background-color': theme('colors.primary'),
               },
             },
             'ol > li': {
               '&::before': {
-                color: theme('colors.gray.200'),
+                color: theme('colors.primary'),
               },
             },
           },

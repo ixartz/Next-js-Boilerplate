@@ -15,8 +15,8 @@ import { getSortedPageData } from '../utils/generatePages';
 function ProjectThumb({ project }) {
   return (
     <Link href={`work/${project.id}`} key={project.id}>
-      <a>
-        <div className="relative pt-[150%] bg-surface-100 mb-2">
+      <a className="hover:no-underline text-primary">
+        <div className="relative pt-[150%] bg-surface-100 hover:bg-surface-200 transition mb-2">
           <Image src={project.thumbnail} layout="fill" objectFit="contain" />
         </div>
         <p>
@@ -51,7 +51,7 @@ export default function Index({ allPostsData }) {
         </a>
         &apos;s web and iOS apps.
       </PageIntro>
-      <WidthContainer size="lg" className="grid md:grid-cols-3 gap-8">
+      <WidthContainer size="lg" className="grid md:grid-cols-3 gap-8 pb-4">
         {projects.featured.map((project) => (
           <ProjectThumb key={project.id} project={project} />
         ))}
