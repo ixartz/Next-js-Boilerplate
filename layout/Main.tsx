@@ -10,7 +10,7 @@ type IMainProps = {
 };
 
 const Main = (props: IMainProps) => (
-  <div className="flex flex-col dark:bg-gray-900 antialiased w-full text-gray-700 dark:text-gray-300 min-h-screen py-4">
+  <div className="flex flex-col bg-surface antialiased w-full text-primary min-h-screen p-4">
     {props.meta}
     <WidthContainer>
       <Navigation />

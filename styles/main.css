@@ -12,6 +12,24 @@ a:hover {
 
 @tailwind utilities;
 
+.dark {
+  --color-bg-primary: theme('colors.gray.900');
+  --color-bg-secondary: theme('colors.gray.800');
+  --color-bg-tertiary: theme('colors.gray.700');
+  --color-text-primary: theme('colors.white');
+  --color-text-secondary: theme('colors.gray.400');
+  --color-text-accent: theme('colors.blue.600');
+}
+
+.light {
+  --color-bg-primary: theme('colors.gray.100');
+  --color-bg-secondary: theme('colors.gray.50');
+  --color-bg-tertiary: theme('colors.white');
+  --color-text-primary: theme('colors.gray.800');
+  --color-text-secondary: theme('colors.gray.600');
+  --color-text-accent: theme('colors.blue.500');
+}
+
 .content p {
   /* @apply my-6; */
 }

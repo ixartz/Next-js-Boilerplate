@@ -16,13 +16,13 @@ function ProjectThumb({ project }) {
   return (
     <Link href={`work/${project.id}`} key={project.id}>
       <a>
-        <div className="relative h-128 bg-gray-800 mb-2">
-          <Image src={project.thumbnail} layout="fill" objectFit="cover" />
+        <div className="relative pt-[150%] bg-surface-100 mb-2">
+          <Image src={project.thumbnail} layout="fill" objectFit="contain" />
         </div>
         <p>
           {project.name}
           &#58;&nbsp;
-          <span className="text-gray-500">{project.headline}</span>
+          <span className="text-secondary">{project.headline}</span>
         </p>
       </a>
     </Link>
@@ -32,8 +32,10 @@ function ProjectThumb({ project }) {
 export default function Index({ allPostsData }) {
   // Split projects in to featured/not
   const featured = ['swim-smooth', 'sow', 'trustify'];
-  const featuredProjects = allPostsData.filter((project) => featured.includes(project.id));
-  const otherProjects = allPostsData.filter((project) => !featuredProjects.includes(project));
+  const projects = {
+    featured: allPostsData.filter((project) => featured.includes(project.id)),
+    other: allPostsData.filter((project) => !featured.includes(project.id)),
+  };
 
   return (
     <Main
@@ -49,14 +51,14 @@ export default function Index({ allPostsData }) {
         </a>
         &apos;s web and iOS apps.
       </PageIntro>
-      <WidthContainer size="lg" className="flex space-x-4">
-        {featuredProjects.map((project) => (
+      <WidthContainer size="lg" className="grid md:grid-cols-3 gap-8">
+        {projects.featured.map((project) => (
           <ProjectThumb key={project.id} project={project} />
         ))}
       </WidthContainer>
       <WidthContainer>
         <ProjectList title="Other projects">
-          {otherProjects.map(({
+          {projects.other.map(({
             id, title, name, date,
           }) => (
             <ProjectItem
