@@ -13,7 +13,7 @@ export default function Footer() {
   };
 
   return (
-    <div className="flex space-x-6 text-gray-500 dark:text-gray-400 mt-12">
+    <div className="flex space-x-6 text-secondary mt-12">
       <div>
         ©
         {new Date().getFullYear()}

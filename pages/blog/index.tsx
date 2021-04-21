@@ -29,7 +29,7 @@ export default function Blog({ allPostsData }) {
               <Link href={`/blog/${id}`}>
                 <a>{title}</a>
               </Link>
-              <span className="text-gray-600 dark:text-gray-500">
+              <span className="text-secondary">
                 <Date dateString={date} yearOnly />
               </span>
             </li>

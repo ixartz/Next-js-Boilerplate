@@ -6,10 +6,10 @@ import { Config } from '../utils/Config';
 
 export default function Navigation() {
   return (
-    <div className=" flex justify-between">
+    <div className="flex justify-between">
       <div className="">
         <Link href="/">
-          <a className="inline-block text-gray-800 dark:text-gray-200">{Config.title}</a>
+          <a className="inline-block text-primary">{Config.title}</a>
         </Link>
       </div>
       <div>

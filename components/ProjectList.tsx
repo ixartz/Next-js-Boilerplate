@@ -23,12 +23,12 @@ export function ProjectItem(props) {
             &nbsp;
           </a>
         </Link>
-        <span className="text-gray-600 dark:text-gray-500">
+        <span className="text-secondary">
           &middot;&nbsp;
           {props.description}
         </span>
       </div>
-      <span className="text-gray-600 dark:text-gray-500">
+      <span className="text-secondary">
         {props.date && <Date dateString={props.date} yearOnly />}
       </span>
     </li>

@@ -76,7 +76,7 @@ export default function Index({ allPhotos }) {
               alt={currentImage.caption}
               layout="responsive"
             />
-            <p className="pt-2 md:w-1/2">{currentImage.caption}</p>
+            <p className="pt-2 md:w-1/2 text-primary">{currentImage.caption}</p>
           </div>
         </div>
       )}
