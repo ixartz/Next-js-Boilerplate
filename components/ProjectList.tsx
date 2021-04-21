@@ -6,10 +6,10 @@ import Date from './Date';
 
 export function ProjectList({ title, children }) {
   return (
-    <>
+    <div>
       <h4 className="mt-8 uppercase text-sm mb-2 tracking-wide">{title}</h4>
       <ul className="">{children}</ul>
-    </>
+    </div>
   );
 }
 

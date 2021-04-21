@@ -3,8 +3,8 @@ import React, { useState } from 'react';
 import Image from 'next/image';
 import Masonry, { ResponsiveMasonry } from 'react-responsive-masonry';
 
-import { Meta } from '../layout/Meta';
 import { Main } from '../layout/Main';
+import { Meta } from '../layout/Meta';
 import { getCloudinary } from '../utils/cloudinary';
 
 export async function getStaticProps() {

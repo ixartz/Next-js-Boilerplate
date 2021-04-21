@@ -6,25 +6,21 @@ import Navigation from '../components/Navigation';
 type IMainProps = {
   meta: ReactNode;
   children: ReactNode;
-  maxWidth: string;
 };
 
 const Main = (props: IMainProps) => (
-  <div
-    className={`max-w-screen-md ${props.maxWidth} mx-auto dark:bg-gray-900 antialiased w-full text-gray-700 dark:text-gray-300`}
-  >
+  <div className="dark:bg-gray-900 antialiased w-full text-gray-700 dark:text-gray-300">
     {props.meta}
-    <div className="max-w-screen mx-auto flex flex-col min-h-screen p-4">
+    <div className="w-full max-w-6xl mx-auto flex flex-col min-h-screen p-4">
       <Navigation />
       <div className="py-12 content">
-        <h1 className="text-xl">
+        <h1 className="text-xl mb-8">
           Designer and (wannabe) developer of digital products, based in London, UK. Leading design
-          for
-          {' '}
+          for&nbsp;
           <a href="https://swimsmooth.com" title="Swim Smooth">
             Swim Smooth
           </a>
-          's web and iOS apps.
+          &apos;s web and iOS apps.
         </h1>
         {props.children}
       </div>

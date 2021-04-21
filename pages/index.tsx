@@ -1,38 +1,56 @@
 import React from 'react';
 
+import Image from 'next/image';
+import Link from 'next/link';
+
 import { minorProjects } from '../_data/homepageData';
 import { ContactSpiel } from '../components/ContactSpiel';
-import { ProjectList, ProjectItem } from '../components/ProjectList';
+import { ProjectItem, ProjectList } from '../components/ProjectList';
 import { Main } from '../layout/Main';
 import { Meta } from '../layout/Meta';
 import { getSortedPageData } from '../utils/generatePages';
 
 export default function Index({ allPostsData }) {
+  // Split projects in to featured/not
+  const featured = ['swim-smooth', 'sow', 'trustify'];
+  const featuredProjects = allPostsData.filter((project) => featured.includes(project.id));
+  const otherProjects = allPostsData.filter((project) => !featuredProjects.includes(project));
+  console.dir(featuredProjects[0]);
+
   return (
     <Main
       meta={<Meta title="Sam Stephenson" description="London-based digital product designer" />}
-      maxWidth="max-w-6xl"
     >
-      <ProjectThumbs title="Swim Smooth" description="Web, iOS, Watch" />
-      <ProjectThumbs title="Swim Smooth" description="Web, iOS, Watch" />
-      <ProjectThumbs title="Swim Smooth" description="Web, iOS, Watch" />
-      <ProjectList title="Work">
-        {allPostsData.map(({
-          id, title, name, date,
-        }) => (
-          <ProjectItem key={id} href={`/work/${id}`} title={name} description={title} date={date} />
+      <div className="flex space-x-4">
+        {featuredProjects.map((project) => (
+          <ProjectThumb key={project.id} project={project} />
         ))}
-      </ProjectList>
-      <ProjectList title="Experiments">
-        {minorProjects.map((item) => (
-          <ProjectItem
-            title={item.title}
-            description={item.description}
-            href={item.url}
-            date={item.date}
-          />
-        ))}
-      </ProjectList>
+      </div>
+      <div className="md:grid grid-cols-2 gap-8">
+        <ProjectList title="Other projects">
+          {otherProjects.map(({
+            id, title, name, date,
+          }) => (
+            <ProjectItem
+              key={id}
+              href={`/work/${id}`}
+              title={name}
+              description={title}
+              date={date}
+            />
+          ))}
+        </ProjectList>
+        <ProjectList title="Experiments">
+          {minorProjects.map((item) => (
+            <ProjectItem
+              title={item.title}
+              description={item.description}
+              href={item.url}
+              date={item.date}
+            />
+          ))}
+        </ProjectList>
+      </div>
       <ContactSpiel />
     </Main>
   );
@@ -47,23 +65,21 @@ export async function getStaticProps() {
   };
 }
 
-function ProjectThumbs({ title, description }) {
+function ProjectThumb({ project }) {
   return (
-    <div className="flex flex-col space-y-4 py-8 border-t border-gray-800">
-      <div className="flex space-x-4 justify-stretch">
-        <ProjectThumbnail />
-        <ProjectThumbnail />
-        <ProjectThumbnail />
-      </div>
-      <p>
-        {title}
-        <br />
-        {description}
-      </p>
-    </div>
+    <Link href={`work/${project.id}`}>
+      <a>
+        <div className="w-80">
+          <div className="h-96 bg-gray-600 mb-2">
+            <Image src={project.thumbnail} width={480} height={640} />
+          </div>
+          <p>
+            {project.name}
+            &#58;&nbsp;
+            <span className="text-gray-500">{project.headline}</span>
+          </p>
+        </div>
+      </a>
+    </Link>
   );
-}
-
-function ProjectThumbnail() {
-  return <div className="bg-gray-600 w-full h-32" />;
 }
