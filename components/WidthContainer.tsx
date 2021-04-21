@@ -7,5 +7,5 @@ export function WidthContainer({ children, size = 'md', className = '' }): JSX.E
     lg: 'max-w-6xl',
   };
 
-  return <div className={`w-full ${size} mx-auto ${className}`}>{children}</div>;
+  return <div className={`w-full ${sizes[size]} mx-auto ${className}`}>{children}</div>;
 }
