@@ -2,6 +2,7 @@ import React from 'react';
 
 import Head from 'next/head';
 
+import { PageIntro } from '../components/PageIntro';
 import { WidthContainer } from '../components/WidthContainer';
 import { Main } from '../layout/Main';
 import { Meta } from '../layout/Meta';
@@ -33,7 +34,7 @@ export default function Post({ postData }) {
         <Head>
           <title>{postData.title}</title>
         </Head>
-        <h1 className="text-xl">{postData.title}</h1>
+        <PageIntro>{postData.title}</PageIntro>
         <article className="prose dark:prose-dark">
           <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
         </article>

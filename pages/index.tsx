@@ -5,6 +5,7 @@ import Link from 'next/link';
 
 import { minorProjects } from '../_data/homepageData';
 import { ContactSpiel } from '../components/ContactSpiel';
+import { PageIntro } from '../components/PageIntro';
 import { ProjectItem, ProjectList } from '../components/ProjectList';
 import { WidthContainer } from '../components/WidthContainer';
 import { Main } from '../layout/Main';
@@ -20,17 +21,17 @@ export default function Index({ allPostsData }) {
   return (
     <Main
       meta={<Meta title="Sam Stephenson" description="London-based digital product designer" />}
-      pageHeadline={(
-        <>
-          Designer and (wannabe) developer of digital products, based in London, UK. Leading design
-          for&nbsp;
-          <a href="https://swimsmooth.com" title="Swim Smooth">
-            Swim Smooth
-          </a>
-          &apos;s web and iOS apps.
-        </>
-      )}
+      pageHeadline={<></>}
     >
+      <PageIntro>
+        {' '}
+        Designer and (wannabe) developer of digital products, based in London, UK. Leading design
+        for&nbsp;
+        <a href="https://swimsmooth.com" title="Swim Smooth">
+          Swim Smooth
+        </a>
+        &apos;s web and iOS apps.
+      </PageIntro>
       <WidthContainer size="lg" className="flex space-x-4">
         {featuredProjects.map((project) => (
           <ProjectThumb key={project.id} project={project} />
@@ -79,7 +80,7 @@ function ProjectThumb({ project }) {
   return (
     <Link href={`work/${project.id}`}>
       <a>
-        <div className="w-80">
+        <div className="">
           <div className="h-128 bg-gray-800 mb-2">
             <Image src={project.thumbnail} width={480} height={640} />
           </div>

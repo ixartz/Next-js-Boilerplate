@@ -13,8 +13,11 @@ export default function Footer() {
   };
 
   return (
-    <div className="flex space-x-6 text-gray-500 dark:text-gray-400">
-      <div>© {new Date().getFullYear()}</div>
+    <div className="flex space-x-6 text-gray-500 dark:text-gray-400 mt-12">
+      <div>
+        ©
+        {new Date().getFullYear()}
+      </div>
       <a
         href="https://plausible.io/samstephenson.com"
         title="analytics"

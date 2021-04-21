@@ -15,15 +15,8 @@ const Main = (props: IMainProps) => (
     {props.meta}
     <WidthContainer>
       <Navigation />
-      {props.pageHeadline ? (
-        <div className="py-12 content">
-          <h1 className="text-xl mb-8">{props.pageHeadline}</h1>
-        </div>
-      ) : (
-        <div className="h-16" />
-      )}
     </WidthContainer>
-    {props.children}
+    <div className="mt-12">{props.children}</div>
     <div className="flex-grow" />
     <WidthContainer>
       <Footer />
