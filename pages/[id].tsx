@@ -2,8 +2,9 @@ import React from 'react';
 
 import Head from 'next/head';
 
-import { Meta } from '../layout/Meta';
+import { WidthContainer } from '../components/WidthContainer';
 import { Main } from '../layout/Main';
+import { Meta } from '../layout/Meta';
 import { getPageData, getAllPageIds } from '../utils/generatePages';
 
 export async function getStaticPaths() {
@@ -28,13 +29,15 @@ export default function Post({ postData }) {
     <Main
       meta={<Meta title="Sam Stephenson" description="London-based digital product designer" />}
     >
-      <Head>
-        <title>{postData.title}</title>
-      </Head>
-      <h1 className="text-xl">{postData.title}</h1>
-      <article className="prose dark:prose-dark">
-        <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
-      </article>
+      <WidthContainer>
+        <Head>
+          <title>{postData.title}</title>
+        </Head>
+        <h1 className="text-xl">{postData.title}</h1>
+        <article className="prose dark:prose-dark">
+          <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
+        </article>
+      </WidthContainer>
     </Main>
   );
 }

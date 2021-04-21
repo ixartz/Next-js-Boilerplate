@@ -6,6 +6,7 @@ import Link from 'next/link';
 import { minorProjects } from '../_data/homepageData';
 import { ContactSpiel } from '../components/ContactSpiel';
 import { ProjectItem, ProjectList } from '../components/ProjectList';
+import { WidthContainer } from '../components/WidthContainer';
 import { Main } from '../layout/Main';
 import { Meta } from '../layout/Meta';
 import { getSortedPageData } from '../utils/generatePages';
@@ -15,18 +16,27 @@ export default function Index({ allPostsData }) {
   const featured = ['swim-smooth', 'sow', 'trustify'];
   const featuredProjects = allPostsData.filter((project) => featured.includes(project.id));
   const otherProjects = allPostsData.filter((project) => !featuredProjects.includes(project));
-  console.dir(featuredProjects[0]);
 
   return (
     <Main
       meta={<Meta title="Sam Stephenson" description="London-based digital product designer" />}
+      pageHeadline={(
+        <>
+          Designer and (wannabe) developer of digital products, based in London, UK. Leading design
+          for&nbsp;
+          <a href="https://swimsmooth.com" title="Swim Smooth">
+            Swim Smooth
+          </a>
+          &apos;s web and iOS apps.
+        </>
+      )}
     >
-      <div className="flex space-x-4">
+      <WidthContainer size="lg" className="flex space-x-4">
         {featuredProjects.map((project) => (
           <ProjectThumb key={project.id} project={project} />
         ))}
-      </div>
-      <div className="md:grid grid-cols-2 gap-8">
+      </WidthContainer>
+      <WidthContainer>
         <ProjectList title="Other projects">
           {otherProjects.map(({
             id, title, name, date,
@@ -50,8 +60,8 @@ export default function Index({ allPostsData }) {
             />
           ))}
         </ProjectList>
-      </div>
-      <ContactSpiel />
+        <ContactSpiel />
+      </WidthContainer>
     </Main>
   );
 }
@@ -70,7 +80,7 @@ function ProjectThumb({ project }) {
     <Link href={`work/${project.id}`}>
       <a>
         <div className="w-80">
-          <div className="h-96 bg-gray-600 mb-2">
+          <div className="h-128 bg-gray-800 mb-2">
             <Image src={project.thumbnail} width={480} height={640} />
           </div>
           <p>

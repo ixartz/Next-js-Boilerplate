@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import Image from 'next/image';
 import Masonry, { ResponsiveMasonry } from 'react-responsive-masonry';
 
+import { WidthContainer } from '../components/WidthContainer';
 import { Main } from '../layout/Main';
 import { Meta } from '../layout/Meta';
 import { getCloudinary } from '../utils/cloudinary';
@@ -40,26 +41,27 @@ export default function Index({ allPhotos }) {
     <Main
       meta={<Meta title="Sam Stephenson" description="London-based digital product designer" />}
     >
-      <ResponsiveMasonry columnsCountBreakPoints={columnsCountBreakPoints}>
-        <Masonry columnsCount={3} gutter={4}>
-          {allPhotos.map((image) => (
-            <div
-              key={image.asset_id}
-              role="img"
-              onClick={() => setImage(image.secure_url, image.width, image.height, image.filename)}
-            >
-              <Image
-                src={image.secure_url}
-                width={image.width}
-                height={image.height}
-                alt={image.filename}
-                layout="responsive"
-              />
-            </div>
-          ))}
-        </Masonry>
-      </ResponsiveMasonry>
-
+      <WidthContainer size="lg">
+        <ResponsiveMasonry columnsCountBreakPoints={columnsCountBreakPoints}>
+          <Masonry columnsCount={3} gutter={4}>
+            {allPhotos.map((image) => (
+              <div
+                key={image.asset_id}
+                role="img"
+                onClick={() => setImage(image.secure_url, image.width, image.height, image.filename)}
+              >
+                <Image
+                  src={image.secure_url}
+                  width={image.width}
+                  height={image.height}
+                  alt={image.filename}
+                  layout="responsive"
+                />
+              </div>
+            ))}
+          </Masonry>
+        </ResponsiveMasonry>
+      </WidthContainer>
       {currentImage.src && (
         <div
           className="fixed flex items-center justify-center inset-0 z-0 backdrop-filter backdrop-blur"

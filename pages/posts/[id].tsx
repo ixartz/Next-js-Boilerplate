@@ -3,8 +3,9 @@ import React from 'react';
 import Head from 'next/head';
 
 import Date from '../../components/Date';
-import { Meta } from '../../layout/Meta';
+import { WidthContainer } from '../../components/WidthContainer';
 import { Main } from '../../layout/Main';
+import { Meta } from '../../layout/Meta';
 import { getPageData, getAllPageIds } from '../../utils/generatePages';
 
 export async function getStaticPaths() {
@@ -29,15 +30,17 @@ export default function Post({ postData }) {
     <Main
       meta={<Meta title="Sam Stephenson" description="London-based digital product designer" />}
     >
-      <Head>
-        <title>{postData.title}</title>
-      </Head>
-      <p>Hi hi this is a blog post</p>
-      <p>{postData.title}</p>
-      <p>
-        <Date dateString={postData.date} yearOnly={false} />
-      </p>
-      <article className="prose" dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
+      <WidthContainer>
+        <Head>
+          <title>{postData.title}</title>
+        </Head>
+        <p>Hi hi this is a blog post</p>
+        <p>{postData.title}</p>
+        <p>
+          <Date dateString={postData.date} yearOnly={false} />
+        </p>
+        <article className="prose" dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
+      </WidthContainer>
     </Main>
   );
 }
