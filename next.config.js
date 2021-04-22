@@ -1,8 +1,8 @@
-const withBundleAnalyzer = require('@next/bundle-analyzer')({
-  enabled: process.env.ANALYZE === 'true',
+const withBundleAnalyzer = require("@next/bundle-analyzer")({
+  enabled: process.env.ANALYZE === "true",
 });
 
-const baseUrl = '';
+const baseUrl = "";
 
 module.exports = withBundleAnalyzer({
   poweredByHeader: false,
@@ -13,19 +13,11 @@ module.exports = withBundleAnalyzer({
   },
 });
 
-// const withMDX = require('@next/mdx')({
-//   extension: /\.mdx?$/,
-// });
-//
-// module.exports = withMDX({
-//   pageExtensions: ['js', 'jsx', 'md', 'mdx'],
-// });
-
-// module.exports = {
-//   // https://github.com/vercel/next.js/issues/21079
-//   // Remove the workaround the issue is fixed
-//   images: {
-//     loader: 'imgix',
-//     path: '',
-//   },
-// };
+// Match MDX or MD files for mdx
+const withMDX = require("@next/mdx")({
+  extension: /\.(md|mdx)$/,
+});
+// Have Next.js handle 'md'/'mdx' files in the pages directory as pages:
+module.exports = withMDX({
+  pageExtensions: ["js", "jsx", "md", "mdx"],
+});
