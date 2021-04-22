@@ -40,6 +40,13 @@ function MetaBlock(props) {
 export default function Post({ postData }) {
   const components = {
     Button: props => <Button {...props} />,
+    Image: image => {
+      return <Image src={image.src} alt={image.alt} height="200" width="355" />;
+    },
+    img: image => {
+      console.log(image);
+      return <Image src={image.src} alt={image.alt} height="200" width="355" />;
+    },
   };
 
   return (
