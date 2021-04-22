@@ -1,14 +1,16 @@
-import React from 'react';
+import * as React from "react";
 
-import Image from 'next/image';
+import Image from "next/image";
+import MDX from "@mdx-js/runtime";
 
-import { WidthContainer } from '../../components/WidthContainer';
-import { Main } from '../../layout/Main';
-import { Meta } from '../../layout/Meta';
-import { getPageData, getAllPageIds } from '../../utils/generatePages';
+import { WidthContainer } from "../../components/WidthContainer";
+import { Button } from "../../components/Button";
+import { Main } from "../../layout/Main";
+import { Meta } from "../../layout/Meta";
+import { getPageData, getAllPageIds } from "../../utils/generatePages";
 
 export async function getStaticPaths() {
-  const paths = await getAllPageIds('_work');
+  const paths = await getAllPageIds("_work");
   return {
     paths,
     fallback: false,
@@ -16,7 +18,7 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params }: { params: any }) {
-  const postData = await getPageData(params.id, '_work');
+  const postData = await getPageData(params.id, "_work");
   return {
     props: {
       postData,
@@ -24,7 +26,7 @@ export async function getStaticProps({ params }: { params: any }) {
   };
 }
 
-const metaInfo = ['what', 'role', 'with', 'when'];
+const metaInfo = ["what", "role", "with", "when"];
 
 function MetaBlock(props) {
   return (
@@ -36,16 +38,26 @@ function MetaBlock(props) {
 }
 
 export default function Post({ postData }) {
+  const components = {
+    Button: props => <Button {...props} />,
+  };
+
   return (
     <Main
-      meta={<Meta title="Sam Stephenson" description="London-based digital product designer" />}
+      meta={
+        <Meta
+          title="Sam Stephenson"
+          description="London-based digital product designer"
+        />
+      }
     >
       <WidthContainer>
         <p className="font-bold mb-4">{postData.name}</p>
         <h1 className="text-2xl md:text-5xl font-bold">{postData.headline}</h1>
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4 my-8 border-t border-b border-gray-100 dark:border-gray-800 py-4">
           {metaInfo.map(
-            (item) => postData[item] && <MetaBlock title={item} text={postData[item]} />,
+            item =>
+              postData[item] && <MetaBlock title={item} text={postData[item]} />
           )}
         </div>
       </WidthContainer>
@@ -62,11 +74,12 @@ export default function Post({ postData }) {
         )}
       </WidthContainer>
       <WidthContainer>
-        {postData.summary && <p className="text-xl mb-12">{postData.summary}</p>}
-        <article
-          className="prose prose-lg dark:prose-dark"
-          dangerouslySetInnerHTML={{ __html: postData.contentHtml }}
-        />
+        {postData.summary && (
+          <p className="text-xl mb-12">{postData.summary}</p>
+        )}
+        <article className="prose prose-lg dark:prose-dark">
+          <MDX components={components}>{postData.contentHtml}</MDX>
+        </article>
       </WidthContainer>
     </Main>
   );

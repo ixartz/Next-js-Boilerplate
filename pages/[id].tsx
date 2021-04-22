@@ -1,15 +1,15 @@
-import React from 'react';
+import React from "react";
 
-import Head from 'next/head';
+import Head from "next/head";
 
-import { PageIntro } from '../components/PageIntro';
-import { WidthContainer } from '../components/WidthContainer';
-import { Main } from '../layout/Main';
-import { Meta } from '../layout/Meta';
-import { getPageData, getAllPageIds } from '../utils/generatePages';
+import { PageIntro } from "../components/PageIntro";
+import { WidthContainer } from "../components/WidthContainer";
+import { Main } from "../layout/Main";
+import { Meta } from "../layout/Meta";
+import { getPageData, getAllPageIds } from "../utils/generatePages";
 
 export async function getStaticPaths() {
-  const paths = await getAllPageIds('_pages');
+  const paths = await getAllPageIds("_pages");
   return {
     paths,
     fallback: false,
@@ -17,7 +17,7 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params }: { params: any }) {
-  const postData = await getPageData(params.id, '_pages');
+  const postData = await getPageData(params.id, "_pages");
   return {
     props: {
       postData,
@@ -28,7 +28,12 @@ export async function getStaticProps({ params }: { params: any }) {
 export default function Post({ postData }) {
   return (
     <Main
-      meta={<Meta title="Sam Stephenson" description="London-based digital product designer" />}
+      meta={
+        <Meta
+          title="Sam Stephenson"
+          description="London-based digital product designer"
+        />
+      }
     >
       <WidthContainer>
         <Head>

@@ -4,20 +4,27 @@ const withBundleAnalyzer = require("@next/bundle-analyzer")({
 
 const baseUrl = "";
 
-module.exports = withBundleAnalyzer({
-  poweredByHeader: false,
-  trailingSlash: true,
-  basePath: baseUrl,
-  env: {
-    baseUrl: baseUrl,
-  },
-});
-
 // Match MDX or MD files for mdx
 const withMDX = require("@next/mdx")({
   extension: /\.(md|mdx)$/,
 });
-// Have Next.js handle 'md'/'mdx' files in the pages directory as pages:
-module.exports = withMDX({
-  pageExtensions: ["js", "jsx", "md", "mdx"],
-});
+
+module.exports = withBundleAnalyzer(
+  withMDX({
+    poweredByHeader: false,
+    trailingSlash: true,
+    basePath: baseUrl,
+    env: {
+      baseUrl: baseUrl,
+    },
+    // Have Next.js handle 'md'/'mdx' files in the pages directory as pages:
+    pageExtensions: ["js", "jsx", "ts", "tsx", "md", "mdx"],
+    webpack: (config, { isServer }) => {
+      // Fixes npm packages that depend on `fs` module
+      if (!isServer) {
+        config.node = { fs: "empty" };
+      }
+      return config;
+    },
+  })
+);
