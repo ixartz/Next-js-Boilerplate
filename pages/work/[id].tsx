@@ -30,7 +30,12 @@ export async function getStaticProps({ params }: { params: any }) {
 }
 
 // Pass in needed components here
-const components = { ImageGrid };
+const components = {
+  ImageGrid,
+  img: image => (
+    <Image src={image.src} alt={image.alt} width="350" height="250" />
+  ),
+};
 
 const metaInfo = ["what", "role", "whoWith", "when"];
 
