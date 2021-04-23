@@ -1,7 +1,8 @@
 import * as React from "react";
 
 import Image from "next/image";
-import MDX from "@mdx-js/runtime";
+
+import hydrate from "next-mdx-remote/hydrate";
 
 import { WidthContainer } from "../../components/WidthContainer";
 import { Button } from "../../components/Button";
@@ -18,14 +19,41 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params }: { params: any }) {
-  const postData = await getPageData(params.id, "_work");
+  const source = await getPageData(params.id, "_work");
+
+  const { mdxSource, data } = source;
+  console.log("data");
+  console.log(data);
+
+  {
+    /* const mdxSource = await renderToString(content, {
+    components,
+    // Optionally pass remark/rehype plugins
+    mdxOptions: {
+      remarkPlugins: [],
+      rehypePlugins: [],
+    },
+    scope: data,
+  }); */
+  }
+
   return {
     props: {
-      postData,
+      source: mdxSource,
+      frontMatter: data,
     },
   };
+
+  {
+    /* return {
+    props: {
+      source,
+    },
+  }; */
+  }
 }
 
+const components = { Button };
 const metaInfo = ["what", "role", "with", "when"];
 
 function MetaBlock(props) {
@@ -37,17 +65,11 @@ function MetaBlock(props) {
   );
 }
 
-export default function Post({ postData }) {
-  const components = {
-    Button: props => <Button {...props} />,
-    Image: image => {
-      return <Image src={image.src} alt={image.alt} height="200" width="355" />;
-    },
-    img: image => {
-      console.log(image);
-      return <Image src={image.src} alt={image.alt} height="200" width="355" />;
-    },
-  };
+export default function Post({ source, frontMatter }) {
+  const content = hydrate(source, { components });
+  {
+    /* console.dir(frontMatter); */
+  }
 
   return (
     <Main
@@ -59,20 +81,24 @@ export default function Post({ postData }) {
       }
     >
       <WidthContainer>
-        <p className="font-bold mb-4">{postData.name}</p>
-        <h1 className="text-2xl md:text-5xl font-bold">{postData.headline}</h1>
+        <p className="font-bold mb-4">{frontMatter.name}</p>
+        <h1 className="text-2xl md:text-5xl font-bold">
+          {frontMatter.headline}
+        </h1>
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4 my-8 border-t border-b border-gray-100 dark:border-gray-800 py-4">
           {metaInfo.map(
             item =>
-              postData[item] && <MetaBlock title={item} text={postData[item]} />
+              frontMatter[item] && (
+                <MetaBlock title={item} text={frontMatter[item]} />
+              )
           )}
         </div>
       </WidthContainer>
       <WidthContainer size="lg">
-        {postData.coverbg && (
+        {frontMatter.coverbg && (
           <div className="relative w-full h-80 my-8">
             <Image
-              src={postData.coverbg}
+              src={frontMatter.coverbg}
               alt="Picture of the author"
               layout="fill"
               objectFit="cover"
@@ -81,12 +107,10 @@ export default function Post({ postData }) {
         )}
       </WidthContainer>
       <WidthContainer>
-        {postData.summary && (
-          <p className="text-xl mb-12">{postData.summary}</p>
+        {frontMatter.summary && (
+          <p className="text-xl mb-12">{frontMatter.summary}</p>
         )}
-        <article className="prose prose-lg dark:prose-dark">
-          <MDX components={components}>{postData.contentHtml}</MDX>
-        </article>
+        <article className="prose prose-lg dark:prose-dark">{content}</article>
       </WidthContainer>
     </Main>
   );

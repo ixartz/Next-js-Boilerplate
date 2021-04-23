@@ -1,5 +1,6 @@
 import fs from "fs";
 import path from "path";
+import renderToString from "next-mdx-remote/render-to-string";
 
 import matter from "gray-matter";
 import remark from "remark";
@@ -68,18 +69,37 @@ export async function getPageData(id, folderName) {
   const fileContents = fs.readFileSync(fullPath, "utf8");
 
   // Use gray-matter to parse the post metadata section
-  const matterResult = matter(fileContents);
+  const { content, data } = matter(fileContents);
+
+  const mdxSource = await renderToString(content, {
+    // components,
+    // Optionally pass remark/rehype plugins
+    mdxOptions: {
+      remarkPlugins: [],
+      rehypePlugins: [],
+    },
+    scope: data,
+  });
+  // console.log("MDXSource");
+  // console.dir(mdxSource);
 
   // Use remark to convert markdown into HTML string
-  const processedContent = await remark()
-    .use(html)
-    .process(matterResult.content);
-  const contentHtml = processedContent.toString();
+  // const processedContent = await remark().use(html).process(content);
+  // const contentHtml = processedContent.toString();
+
+  // REPLACE THESE
+  // const postFilePath = path.join(POSTS_PATH, `${params.slug}.mdx`);
+  // const source = fs.readFileSync(postFilePath);
 
   // Combine the data with the id and contentHtml
+  // return {
+  //   id,
+  //   contentHtml,
+  //   ...data,
+  // };
   return {
     id,
-    contentHtml,
-    ...matterResult.data,
+    mdxSource,
+    data,
   };
 }
