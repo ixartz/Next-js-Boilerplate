@@ -1,6 +1,7 @@
 import React from "react";
 
 import Head from "next/head";
+import hydrate from "next-mdx-remote/hydrate";
 
 import { PageIntro } from "../components/PageIntro";
 import { WidthContainer } from "../components/WidthContainer";
@@ -17,15 +18,21 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params }: { params: any }) {
-  const postData = await getPageData(params.id, "_pages");
+  const { mdxSource, data } = await getPageData(params.id, "_pages");
+
   return {
     props: {
-      postData,
+      source: mdxSource,
+      frontMatter: data,
     },
   };
 }
 
-export default function Post({ postData }) {
+// Add any components to make accessible to mdx
+const components = {};
+
+export default function Post({ source, frontMatter }) {
+  const content = hydrate(source, { components });
   return (
     <Main
       meta={
@@ -37,12 +44,10 @@ export default function Post({ postData }) {
     >
       <WidthContainer>
         <Head>
-          <title>{postData.title}</title>
+          <title>{frontMatter.title}</title>
         </Head>
-        <PageIntro>{postData.title}</PageIntro>
-        <article className="prose dark:prose-dark">
-          <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
-        </article>
+        <PageIntro>{frontMatter.title}</PageIntro>
+        <article className="prose prose-lg dark:prose-dark">{content}</article>
       </WidthContainer>
     </Main>
   );

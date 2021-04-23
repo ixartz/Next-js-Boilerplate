@@ -18,9 +18,7 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params }: { params: any }) {
-  const source = await getPageData(params.id, "_work");
-
-  const { mdxSource, data } = source;
+  const { mdxSource, data } = await getPageData(params.id, "_work");
 
   return {
     props: {
