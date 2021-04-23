@@ -1,23 +1,23 @@
 .dark {
-  --color-bg-primary: theme('colors.gray.900');
-  --color-bg-secondary: theme('colors.gray.800');
-  --color-bg-tertiary: theme('colors.gray.700');
-  --color-text-primary: theme('colors.white');
-  --color-text-secondary: theme('colors.gray.400');
-  --color-text-accent: theme('colors.blue.400');
-  --color-text-accent-light: theme('colors.blue.500');
-  --color-text-accent-dark: theme('colors.blue.300');
+  --color-bg-primary: theme("colors.gray.900");
+  --color-bg-secondary: theme("colors.gray.800");
+  --color-bg-tertiary: theme("colors.gray.700");
+  --color-text-primary: theme("colors.white");
+  --color-text-secondary: theme("colors.gray.400");
+  --color-text-accent: theme("colors.blue.400");
+  --color-text-accent-light: theme("colors.blue.500");
+  --color-text-accent-dark: theme("colors.blue.300");
 }
 
 .light {
-  --color-bg-primary: theme('colors.white');
-  --color-bg-secondary: theme('colors.gray.100');
-  --color-bg-tertiary: theme('colors.gray.200');
-  --color-text-primary: theme('colors.gray.800');
-  --color-text-secondary: theme('colors.gray.500');
-  --color-text-accent: theme('colors.blue.600');
-  --color-text-accent-light: theme('colors.blue.500');
-  --color-text-accent-dark: theme('colors.blue.700');
+  --color-bg-primary: theme("colors.white");
+  --color-bg-secondary: theme("colors.gray.100");
+  --color-bg-tertiary: theme("colors.gray.200");
+  --color-text-primary: theme("colors.gray.800");
+  --color-text-secondary: theme("colors.gray.500");
+  --color-text-accent: theme("colors.blue.600");
+  --color-text-accent-light: theme("colors.blue.500");
+  --color-text-accent-dark: theme("colors.blue.700");
 }
 
 /*  Tailwind Starter stuff */
@@ -47,21 +47,26 @@ a:hover {
 @layer base {
   @font-face {
     font-family: Soehne;
-    src: url('../public/assets/fonts/soehne-web-buch.woff2') format('woff2'),
-      url('../public/assets/fonts/soehne-web-buch.woff') format('woff');
+    src: url("../public/assets/fonts/soehne-web-buch.woff2") format("woff2"),
+      url("../public/assets/fonts/soehne-web-buch.woff") format("woff");
     font-weight: 400;
   }
   @font-face {
     font-family: Soehne;
-    src: url('../public/assets/fonts/soehne-web-buch-kursiv.woff2') format('woff2'),
-      url('../public/assets/fonts/soehne-web-buch-kursiv.woff') format('woff');
+    src: url("../public/assets/fonts/soehne-web-buch-kursiv.woff2")
+        format("woff2"),
+      url("../public/assets/fonts/soehne-web-buch-kursiv.woff") format("woff");
     font-weight: 400;
     font-style: italic;
   }
   @font-face {
     font-family: Soehne;
-    src: url('../public/assets/fonts/soehne-web-halbfett.woff2') format('woff2'),
-      url('../public/assets/fonts/soehne-web-halbfett.woff') format('woff');
+    src: url("../public/assets/fonts/soehne-web-halbfett.woff2") format("woff2"),
+      url("../public/assets/fonts/soehne-web-halbfett.woff") format("woff");
     font-weight: 600;
   }
+}
+
+.prose.prose-lg > div > p {
+  display: contents;
 }

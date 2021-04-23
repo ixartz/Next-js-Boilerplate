@@ -4,6 +4,7 @@ import Image from "next/image";
 
 import hydrate from "next-mdx-remote/hydrate";
 
+import ImageGrid from "../../components/ImageGrid";
 import { WidthContainer } from "../../components/WidthContainer";
 import { Main } from "../../layout/Main";
 import { Meta } from "../../layout/Meta";
@@ -29,7 +30,7 @@ export async function getStaticProps({ params }: { params: any }) {
 }
 
 // Pass in needed components here
-const components = {};
+const components = { ImageGrid };
 
 const metaInfo = ["what", "role", "whoWith", "when"];
 
