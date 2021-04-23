@@ -72,7 +72,6 @@ export async function getPageData(id, folderName) {
   const { content, data } = matter(fileContents);
 
   const mdxSource = await renderToString(content, {
-    // components,
     // Optionally pass remark/rehype plugins
     mdxOptions: {
       remarkPlugins: [],
@@ -80,23 +79,7 @@ export async function getPageData(id, folderName) {
     },
     scope: data,
   });
-  // console.log("MDXSource");
-  // console.dir(mdxSource);
 
-  // Use remark to convert markdown into HTML string
-  // const processedContent = await remark().use(html).process(content);
-  // const contentHtml = processedContent.toString();
-
-  // REPLACE THESE
-  // const postFilePath = path.join(POSTS_PATH, `${params.slug}.mdx`);
-  // const source = fs.readFileSync(postFilePath);
-
-  // Combine the data with the id and contentHtml
-  // return {
-  //   id,
-  //   contentHtml,
-  //   ...data,
-  // };
   return {
     id,
     mdxSource,

@@ -5,7 +5,6 @@ import Image from "next/image";
 import hydrate from "next-mdx-remote/hydrate";
 
 import { WidthContainer } from "../../components/WidthContainer";
-import { Button } from "../../components/Button";
 import { Main } from "../../layout/Main";
 import { Meta } from "../../layout/Meta";
 import { getPageData, getAllPageIds } from "../../utils/generatePages";
@@ -22,20 +21,6 @@ export async function getStaticProps({ params }: { params: any }) {
   const source = await getPageData(params.id, "_work");
 
   const { mdxSource, data } = source;
-  console.log("data");
-  console.log(data);
-
-  {
-    /* const mdxSource = await renderToString(content, {
-    components,
-    // Optionally pass remark/rehype plugins
-    mdxOptions: {
-      remarkPlugins: [],
-      rehypePlugins: [],
-    },
-    scope: data,
-  }); */
-  }
 
   return {
     props: {
@@ -43,18 +28,12 @@ export async function getStaticProps({ params }: { params: any }) {
       frontMatter: data,
     },
   };
-
-  {
-    /* return {
-    props: {
-      source,
-    },
-  }; */
-  }
 }
 
-const components = { Button };
-const metaInfo = ["what", "role", "with", "when"];
+// Pass in needed components here
+const components = {};
+
+const metaInfo = ["what", "role", "whoWith", "when"];
 
 function MetaBlock(props) {
   return (
@@ -67,9 +46,6 @@ function MetaBlock(props) {
 
 export default function Post({ source, frontMatter }) {
   const content = hydrate(source, { components });
-  {
-    /* console.dir(frontMatter); */
-  }
 
   return (
     <Main
@@ -89,7 +65,10 @@ export default function Post({ source, frontMatter }) {
           {metaInfo.map(
             item =>
               frontMatter[item] && (
-                <MetaBlock title={item} text={frontMatter[item]} />
+                <MetaBlock
+                  title={item == "whoWith" ? "with" : item}
+                  text={frontMatter[item]}
+                />
               )
           )}
         </div>

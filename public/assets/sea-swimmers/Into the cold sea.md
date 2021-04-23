@@ -12,4 +12,4 @@ The hardiest few seldom miss a day, undeterred by the darkest of winter mornings
 
 Tasked with photographing our interpretation of ‘Real Cornwall’, Luke and I settled on these folk as the perfect expression of what it means to be Cornish… Living life as priority above all other pressures and squeezing the most from the beautiful setting they call home.
 
-with: [Luke Evans](https://www.linkedin.com/in/luke-evans-b9540486/?originalSubdomain=uk)
+with [Luke Evans](https://www.linkedin.com/in/luke-evans-b9540486/?originalSubdomain=uk)
