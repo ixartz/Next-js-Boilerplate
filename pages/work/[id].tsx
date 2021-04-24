@@ -29,11 +29,24 @@ export async function getStaticProps({ params }: { params: any }) {
   };
 }
 
+const cloudinary = ({ src, width, quality }) => {
+  //return `https://example.com/${src}?w=${width}&q=${quality || 75}`;
+  return `https://res.cloudinary.com/samstephenson/image/upload/${src}`;
+};
+
 // Pass in needed components here
 const components = {
   ImageGrid,
   img: image => (
-    <Image src={image.src} alt={image.alt} width="350" height="250" />
+    <div className="relative w-full pt-[66%]">
+      <Image
+        src={image.src}
+        alt={image.alt}
+        layout="fill"
+        objectFit="contain"
+        loader={cloudinary}
+      />
+    </div>
   ),
 };
 

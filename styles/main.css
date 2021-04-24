@@ -69,5 +69,4 @@ a:hover {
 
 .prose.prose-lg > div > p {
   display: contents;
-  position: relative;
 }

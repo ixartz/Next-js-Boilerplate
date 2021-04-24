@@ -26,5 +26,10 @@ module.exports = withBundleAnalyzer(
       }
       return config;
     },
+    images: {
+      // loader: "cloudinary",
+      // path: "https://res.cloudinary.com/samstephenson",
+      domains: ["res.cloudinary.com"],
+    },
   })
 );
