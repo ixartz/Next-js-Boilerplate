@@ -106,8 +106,10 @@ export default function Post({ source, frontMatter }) {
         {frontMatter.summary && (
           <p className="text-xl mb-12">{frontMatter.summary}</p>
         )}
-        <article className="prose prose-lg dark:prose-dark">{content}</article>
       </WidthContainer>
+      <article className="mx-auto prose prose-lg dark:prose-dark max-w-none">
+        <WidthContainer>{content}</WidthContainer>
+      </article>
     </Main>
   );
 }
