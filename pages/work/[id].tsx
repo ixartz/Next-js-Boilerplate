@@ -55,7 +55,7 @@ const metaInfo = ["what", "role", "whoWith", "when"];
 function MetaBlock(props) {
   return (
     <div className="">
-      <p className="uppercase py-0 text-sm opacity-50">{props.title}</p>
+      <p className="uppercase py-0 text-sm text-secondary">{props.title}</p>
       <p className="my-0">{props.text}</p>
     </div>
   );
@@ -92,7 +92,7 @@ export default function Post({ source, frontMatter }) {
       </WidthContainer>
       <WidthContainer size="lg">
         {frontMatter.coverbg && (
-          <div className="relative w-full h-80 my-8">
+          <div className="relative w-full h-96 my-8">
             <Image
               src={frontMatter.coverbg}
               alt="Picture of the author"

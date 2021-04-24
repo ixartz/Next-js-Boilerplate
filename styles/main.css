@@ -67,6 +67,6 @@ a:hover {
   }
 }
 
-.prose.prose-lg > div > p {
+.imageGrid > p {
   display: contents;
 }
