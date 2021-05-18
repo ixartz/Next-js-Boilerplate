@@ -55,7 +55,7 @@ const metaInfo = ["what", "role", "whoWith", "when"];
 function MetaBlock(props) {
   return (
     <div className="">
-      <p className="uppercase py-0 text-sm text-secondary">{props.title}</p>
+      <p className="uppercase pb-1 text-xs text-secondary">{props.title}</p>
       <p className="my-0">{props.text}</p>
     </div>
   );
