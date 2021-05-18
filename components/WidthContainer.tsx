@@ -7,6 +7,7 @@ export function WidthContainer({
 }): JSX.Element {
   // Preset page sizes. Defaults to 'md'
   const sizes = {
+    xs: "max-w-3xl",
     md: "max-w-screen-md",
     lg: "max-w-6xl",
   };
