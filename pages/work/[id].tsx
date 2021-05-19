@@ -21,6 +21,15 @@ export async function getStaticPaths() {
 export async function getStaticProps({ params }: { params: any }) {
   const { mdxSource, data } = await getPageData(params.id, "_work");
 
+  if (data.redirect) {
+    return {
+      redirect: {
+        destination: data.redirect,
+        permanent: false,
+      },
+    };
+  }
+
   return {
     props: {
       source: mdxSource,
@@ -36,6 +45,7 @@ const cloudinary = ({ src, width, quality }) => {
 
 // Pass in needed components here
 const components = {
+  WidthContainer,
   ImageGrid,
   img: image => (
     <div className="relative w-full pt-[66%]">
@@ -75,7 +85,7 @@ export default function Post({ source, frontMatter }) {
     >
       <WidthContainer>
         <p className="font-bold mb-4">{frontMatter.name}</p>
-        <h1 className="text-2xl md:text-5xl font-bold">
+        <h1 className="text-4xl md:text-5xl font-bold">
           {frontMatter.headline}
         </h1>
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4 my-8 border-t border-b border-gray-100 dark:border-gray-800 py-4">
@@ -90,18 +100,18 @@ export default function Post({ source, frontMatter }) {
           )}
         </div>
       </WidthContainer>
-      <WidthContainer size="lg">
-        {frontMatter.coverbg && (
-          <div className="relative w-full h-96 my-8">
-            <Image
-              src={frontMatter.coverbg}
-              alt="Picture of the author"
-              layout="fill"
-              objectFit="cover"
-            />
-          </div>
-        )}
-      </WidthContainer>
+
+      {frontMatter.coverbg && (
+        <div className="relative w-full pt-[50%] my-8">
+          <Image
+            src={frontMatter.coverbg}
+            alt="Picture of the author"
+            layout="fill"
+            objectFit="cover"
+          />
+        </div>
+      )}
+
       <WidthContainer>
         {frontMatter.summary && (
           <p className="text-xl mb-12">{frontMatter.summary}</p>
@@ -110,6 +120,17 @@ export default function Post({ source, frontMatter }) {
       <article className="mx-auto prose prose-lg dark:prose-dark max-w-none">
         <WidthContainer>{content}</WidthContainer>
       </article>
+
+      {frontMatter.bottomEmbed && (
+        <WidthContainer size="lg">
+          <iframe
+            width="100%"
+            height="720"
+            src={frontMatter.bottomEmbed}
+            allowfullscreen
+          ></iframe>
+        </WidthContainer>
+      )}
     </Main>
   );
 }
