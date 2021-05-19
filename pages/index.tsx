@@ -47,8 +47,8 @@ export default function Index({ allPostsData }) {
     >
       <PageIntro>
         {" "}
-        Designer and (wannabe) developer of digital products, based in London,
-        UK. Leading design at&nbsp;
+        Designer of digital products, based in London, UK. Leading design
+        at&nbsp;
         <a href="https://swimsmooth.com" title="Swim Smooth">
           Swim Smooth
         </a>
@@ -68,6 +68,7 @@ export default function Index({ allPostsData }) {
               title={project.name}
               description={project.title}
               date={project.date}
+              redirect={project.redirect}
             />
           ))}
         </ProjectList>
