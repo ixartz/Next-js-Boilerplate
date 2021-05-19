@@ -10,7 +10,7 @@ import { Main } from "../../layout/Main";
 import { Meta } from "../../layout/Meta";
 import { getPageData, getAllPageIds } from "../../utils/generatePages";
 
-export async function getStaticPaths() {
+export async function getServerSidePaths() {
   const paths = await getAllPageIds("_work");
   return {
     paths,
@@ -18,7 +18,7 @@ export async function getStaticPaths() {
   };
 }
 
-export async function getStaticProps({ params }: { params: any }) {
+export async function getServerSideProps({ params }: { params: any }) {
   const { mdxSource, data } = await getPageData(params.id, "_work");
 
   if (data.redirect) {
@@ -127,7 +127,6 @@ export default function Post({ source, frontMatter }) {
             width="100%"
             height="720"
             src={frontMatter.bottomEmbed}
-            allowfullscreen
           ></iframe>
         </WidthContainer>
       )}
