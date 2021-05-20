@@ -17,12 +17,20 @@ export function ProjectItem(props) {
   return (
     <li key={props.keyId} className="flex justify-between space-x-4">
       <div>
-        <Link href={props.href}>
-          <a className="">
+        {!props.redirect && (
+          <Link href={props.href}>
+            <a className="">
+              {props.title}
+              &nbsp;
+            </a>
+          </Link>
+        )}
+        {props.redirect && (
+          <a href={props.redirect}>
             {props.title}
             &nbsp;
           </a>
-        </Link>
+        )}
         <span className="text-secondary">
           &middot;&nbsp;
           {props.description}

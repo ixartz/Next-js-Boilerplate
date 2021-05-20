@@ -9,8 +9,11 @@ import { WidthContainer } from "../../components/WidthContainer";
 import { Main } from "../../layout/Main";
 import { Meta } from "../../layout/Meta";
 import { getPageData, getAllPageIds } from "../../utils/generatePages";
+{
+  /* import redirect from "nextjs-redirect"; */
+}
 
-export async function getServerSidePaths() {
+export async function getStaticPaths() {
   const paths = await getAllPageIds("_work");
   return {
     paths,
@@ -18,17 +21,8 @@ export async function getServerSidePaths() {
   };
 }
 
-export async function getServerSideProps({ params }: { params: any }) {
+export async function getStaticProps({ params }: { params: any }) {
   const { mdxSource, data } = await getPageData(params.id, "_work");
-
-  if (data.redirect) {
-    return {
-      redirect: {
-        destination: data.redirect,
-        permanent: false,
-      },
-    };
-  }
 
   return {
     props: {
@@ -72,6 +66,17 @@ function MetaBlock(props) {
 }
 
 export default function Post({ source, frontMatter }) {
+  //Redirect to external URL if redirect included in frontmatter
+  {
+    /* if (frontMatter.redirect) {
+    console.log("trying to redirect");
+    redirect(frontMatter.redirect);
+    window.location.replace("https://google.com");
+  } else {
+    console.log("no redirect");
+  } */
+  }
+
   const content = hydrate(source, { components });
 
   return (
