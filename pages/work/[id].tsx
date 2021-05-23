@@ -1,20 +1,14 @@
-import * as React from "react";
-
-import Image from "next/image";
-
-import hydrate from "next-mdx-remote/hydrate";
-
-import ImageGrid from "../../components/ImageGrid";
-import { WidthContainer } from "../../components/WidthContainer";
-import { Main } from "../../layout/Main";
-import { Meta } from "../../layout/Meta";
-import { getPageData, getAllPageIds } from "../../utils/generatePages";
-{
-  /* import redirect from "nextjs-redirect"; */
-}
+import hydrate from 'next-mdx-remote/hydrate';
+import Image from 'next/image';
+import * as React from 'react';
+import ImageGrid from '../../components/ImageGrid';
+import { WidthContainer } from '../../components/WidthContainer';
+import { Main } from '../../layout/Main';
+import { Meta } from '../../layout/Meta';
+import { getAllPageIds, getPageData } from '../../utils/generatePages';
 
 export async function getStaticPaths() {
-  const paths = await getAllPageIds("_work");
+  const paths = await getAllPageIds('_work');
   return {
     paths,
     fallback: false,
@@ -22,7 +16,7 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params }: { params: any }) {
-  const { mdxSource, data } = await getPageData(params.id, "_work");
+  const { mdxSource, data } = await getPageData(params.id, '_work');
 
   return {
     props: {
@@ -32,17 +26,15 @@ export async function getStaticProps({ params }: { params: any }) {
   };
 }
 
-const cloudinary = ({ src, width, quality }) => {
-  //return `https://example.com/${src}?w=${width}&q=${quality || 75}`;
-  return `https://res.cloudinary.com/samstephenson/image/upload/${src}`;
-};
+const cloudinary = ({ src, width, quality }) =>
+  `https://res.cloudinary.com/samstephenson/image/upload/${src}`;
 
 // Pass in needed components here
 const components = {
   WidthContainer,
   ImageGrid,
   img: image => (
-    <div className="relative w-full pt-[66%]">
+    <div className="image relative w-full max-w-screen-lg pt-[66%]">
       <Image
         src={image.src}
         alt={image.alt}
@@ -54,7 +46,7 @@ const components = {
   ),
 };
 
-const metaInfo = ["what", "role", "whoWith", "when"];
+const metaInfo = ['what', 'role', 'whoWith', 'when'];
 
 function MetaBlock(props) {
   return (
@@ -66,17 +58,6 @@ function MetaBlock(props) {
 }
 
 export default function Post({ source, frontMatter }) {
-  //Redirect to external URL if redirect included in frontmatter
-  {
-    /* if (frontMatter.redirect) {
-    console.log("trying to redirect");
-    redirect(frontMatter.redirect);
-    window.location.replace("https://google.com");
-  } else {
-    console.log("no redirect");
-  } */
-  }
-
   const content = hydrate(source, { components });
 
   return (
@@ -98,7 +79,7 @@ export default function Post({ source, frontMatter }) {
             item =>
               frontMatter[item] && (
                 <MetaBlock
-                  title={item == "whoWith" ? "with" : item}
+                  title={item == 'whoWith' ? 'with' : item}
                   text={frontMatter[item]}
                 />
               )
@@ -117,24 +98,15 @@ export default function Post({ source, frontMatter }) {
         </div>
       )}
 
-      <WidthContainer>
+      <WidthContainer
+        prose
+        className="prose prose-lg md:prose-xl dark:prose-dark"
+      >
         {frontMatter.summary && (
           <p className="text-xl mb-12">{frontMatter.summary}</p>
         )}
+        {content}
       </WidthContainer>
-      <article className="mx-auto prose prose-lg dark:prose-dark max-w-none">
-        <WidthContainer>{content}</WidthContainer>
-      </article>
-
-      {frontMatter.bottomEmbed && (
-        <WidthContainer size="lg">
-          <iframe
-            width="100%"
-            height="720"
-            src={frontMatter.bottomEmbed}
-          ></iframe>
-        </WidthContainer>
-      )}
     </Main>
   );
 }

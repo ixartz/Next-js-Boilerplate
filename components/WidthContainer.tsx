@@ -1,20 +1,27 @@
-import React from "react";
+import React from 'react';
 
-export function WidthContainer({
+import styles from './WidthContainer.module.css';
+
+export const WidthContainer = ({
   children,
-  size = "md",
-  className = "",
-}): JSX.Element {
+  size = 'md',
+  className = '',
+  prose = false,
+}): JSX.Element => {
   // Preset page sizes. Defaults to 'md'
   const sizes = {
-    xs: "max-w-3xl",
-    md: "max-w-screen-md",
-    lg: "max-w-6xl",
+    xs: 'max-w-3xl',
+    md: 'max-w-screen-md',
+    lg: 'max-w-6xl',
   };
 
   return (
-    <div className={`w-full ${sizes[size]} mx-auto ${className}`}>
+    <div
+      className={`w-full ${sizes[size]} mx-auto ${className} freddie ${
+        prose && styles.prose
+      }`}
+    >
       {children}
     </div>
   );
-}
+};

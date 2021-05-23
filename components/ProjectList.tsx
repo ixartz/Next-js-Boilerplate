@@ -26,7 +26,7 @@ export function ProjectItem(props) {
           </Link>
         )}
         {props.redirect && (
-          <a href={props.redirect}>
+          <a href={props.redirect} target="new">
             {props.title}
             &nbsp;
           </a>

@@ -36,6 +36,7 @@
     "react-markdown": "^6.0.0",
     "remark": "^13.0.0",
     "remark-html": "^13.0.1",
+    "styled-components": "^5.3.0",
     "styled-jsx-plugin-postcss": "^4.0.1"
   },
   "devDependencies": {

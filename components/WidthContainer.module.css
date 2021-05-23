@@ -1,0 +1,16 @@
+.prose {
+  @apply max-w-none;
+}
+
+.prose > * {
+  @apply mx-auto;
+}
+
+.prose > *:not(figure) {
+  @apply max-w-screen-md;
+}
+
+.prose > figure div,
+.prose > iframe {
+  @apply mx-auto max-w-screen-xl;
+}
