@@ -11,6 +11,7 @@
 }
 
 .prose > figure div,
-.prose > iframe {
+.prose > iframe,
+.prose > div {
   @apply mx-auto max-w-screen-xl;
 }
