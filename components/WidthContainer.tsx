@@ -1,6 +1,6 @@
 import React from 'react';
-
 import styles from './WidthContainer.module.css';
+
 
 export const WidthContainer = ({
   children,
@@ -17,7 +17,7 @@ export const WidthContainer = ({
 
   return (
     <div
-      className={`w-full ${sizes[size]} mx-auto ${className} freddie ${
+      className={`w-full ${sizes[size]} mx-auto ${className} ${
         prose && styles.prose
       }`}
     >

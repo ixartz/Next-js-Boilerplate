@@ -33,8 +33,8 @@ const cloudinary = ({ src, width, quality }) =>
 const components = {
   WidthContainer,
   ImageGrid,
-  img: image => (
-    <div className="image relative w-full max-w-screen-lg pt-[66%]">
+  img: (image) => (
+    <div className="image relative w-full max-w-screen-md h-[420px] md:h-[640px]">
       <Image
         src={image.src}
         alt={image.alt}
@@ -76,7 +76,7 @@ export default function Post({ source, frontMatter }) {
         </h1>
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4 my-8 border-t border-b border-gray-100 dark:border-gray-800 py-4">
           {metaInfo.map(
-            item =>
+            (item) =>
               frontMatter[item] && (
                 <MetaBlock
                   title={item == 'whoWith' ? 'with' : item}
