@@ -18,7 +18,7 @@
     "@sentry/node": "^6.3.0",
     "@sentry/tracing": "^6.3.0",
     "@tailwindcss/jit": "^0.1.8",
-    "@tailwindcss/typography": "^0.4.0",
+    "@tailwindcss/typography": "^0.4.1",
     "date-fns": "^2.20.1",
     "fs": "0.0.1-security",
     "gray-matter": "^4.0.2",
