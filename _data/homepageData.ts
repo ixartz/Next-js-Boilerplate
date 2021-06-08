@@ -22,14 +22,14 @@ export const minorProjects = [
 export const contactInfo = [
   {
     title: 'LinkedIn',
-    url: 'https://linkedin.com/stephensonsam',
+    url: 'https://www.linkedin.com/in/stephensonsam/',
   },
   {
     title: 'Twitter',
-    url: 'https://linkedin.com/stephensonsam',
+    url: 'https://twitter.com/samstphenson',
   },
   {
     title: 'Github',
-    url: 'https://linkedin.com/stephensonsam',
+    url: 'https://github.com/samstephenson',
   },
 ];

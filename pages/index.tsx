@@ -1,15 +1,13 @@
-import React from "react";
-
-import Image from "next/image";
-import Link from "next/link";
-
-import { minorProjects } from "../_data/homepageData";
-import { PageIntro } from "../components/PageIntro";
-import { ProjectItem, ProjectList } from "../components/ProjectList";
-import { WidthContainer } from "../components/WidthContainer";
-import { Main } from "../layout/Main";
-import { Meta } from "../layout/Meta";
-import { getSortedPageData } from "../utils/generatePages";
+import Image from 'next/image';
+import Link from 'next/link';
+import React from 'react';
+import { PageIntro } from '../components/PageIntro';
+import { ProjectItem, ProjectList } from '../components/ProjectList';
+import { WidthContainer } from '../components/WidthContainer';
+import { Main } from '../layout/Main';
+import { Meta } from '../layout/Meta';
+import { getSortedPageData } from '../utils/generatePages';
+import { minorProjects } from '../_data/homepageData';
 
 function ProjectThumb({ project }) {
   return (
@@ -30,10 +28,10 @@ function ProjectThumb({ project }) {
 
 export default function Index({ allPostsData }) {
   // Split projects in to featured/not
-  const featured = ["swim-smooth", "sow", "trustify"];
+  const featured = ['swim-smooth', 'sow', 'trustify'];
   const projects = {
-    featured: allPostsData.filter(project => featured.includes(project.id)),
-    other: allPostsData.filter(project => !featured.includes(project.id)),
+    featured: allPostsData.filter((project) => featured.includes(project.id)),
+    other: allPostsData.filter((project) => !featured.includes(project.id)),
   };
 
   return (
@@ -46,7 +44,7 @@ export default function Index({ allPostsData }) {
       }
     >
       <PageIntro>
-        {" "}
+        {' '}
         Designer of digital products, based in London, UK. Leading design
         at&nbsp;
         <a href="https://swimsmooth.com" title="Swim Smooth">
@@ -55,13 +53,13 @@ export default function Index({ allPostsData }) {
         .
       </PageIntro>
       <WidthContainer size="lg" className="grid md:grid-cols-3 gap-8 py-4">
-        {projects.featured.map(project => (
+        {projects.featured.map((project) => (
           <ProjectThumb project={project} />
         ))}
       </WidthContainer>
       <WidthContainer>
         <ProjectList title="Other projects">
-          {projects.other.map(project => (
+          {projects.other.map((project) => (
             <ProjectItem
               keyId={project.id}
               href={`/work/${project.id}`}
@@ -73,7 +71,7 @@ export default function Index({ allPostsData }) {
           ))}
         </ProjectList>
         <ProjectList title="Experiments">
-          {minorProjects.map(item => (
+          {minorProjects.map((item) => (
             <ProjectItem
               keyId={item.title}
               title={item.title}
@@ -89,7 +87,7 @@ export default function Index({ allPostsData }) {
 }
 
 export async function getStaticProps() {
-  const allPostsData = getSortedPageData("_work");
+  const allPostsData = getSortedPageData('_work');
   return {
     props: {
       allPostsData,
