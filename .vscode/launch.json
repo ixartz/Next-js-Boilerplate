@@ -8,7 +8,7 @@
       "type": "chrome",
       "request": "launch",
       "name": "Next: Chrome",
-      "url": "http://localhost:8080",
+      "url": "http://localhost:3000",
       "webRoot": "${workspaceFolder}"
     },
     {
@@ -16,10 +16,10 @@
       "request": "launch",
       "name": "Next: Node",
       "program": "${workspaceFolder}/node_modules/.bin/next",
-      "args": ["dev", "--port", "8080"],
+      "args": ["dev"],
       "autoAttachChildProcesses": true,
-      "console": "externalTerminal",
-      "skipFiles": ["<node_internals>/**"]
+      "skipFiles": ["<node_internals>/**"],
+      "console": "integratedTerminal"
     }
   ],
   "compounds": [
