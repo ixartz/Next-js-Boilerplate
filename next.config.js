@@ -12,4 +12,5 @@ module.exports = withBundleAnalyzer({
   env: {
     baseUrl,
   },
+  reactStrictMode: true,
 });
