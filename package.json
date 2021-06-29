@@ -2,13 +2,13 @@
   "name": "next-js-boilerplate",
   "version": "1.0.0",
   "scripts": {
-    "dev": "next --port 8080",
+    "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "build-stats": "cross-env ANALYZE=true npm run build",
-    "export": "next export -o dist",
+    "export": "next export",
     "build-prod": "run-s clean build export",
-    "clean": "rimraf .next dist",
+    "clean": "rimraf .next out",
     "lint": "next lint",
     "build-types": "tsc --noEmit"
   },

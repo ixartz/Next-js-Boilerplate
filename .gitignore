@@ -1,28 +1,35 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
 # dependencies
 /node_modules
+/.pnp
+.pnp.js
 
 # testing
 /coverage
 
-# export
-/dist
+# next.js
+/.next
+/out
 
 # production
 /build
-/dist
-/.next
-/bundles
 
 # misc
 .DS_Store
+*.pem
 Thumbs.db
-next-env.d.ts
+
+# debug
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# Dotenv files
+# dotenv local files
 .env*.local
 
-# Local file
+# local folder
 local
+
+# vercel
+.vercel
