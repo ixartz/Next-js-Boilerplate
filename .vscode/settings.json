@@ -8,6 +8,7 @@
   "search.exclude": {
     "package-lock.json": true
   },
+  "editor.defaultFormatter": "dbaeumer.vscode-eslint",
   "editor.formatOnSave": false,
   "editor.codeActionsOnSave": [
     "source.addMissingImports",
