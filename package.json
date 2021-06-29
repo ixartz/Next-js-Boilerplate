@@ -9,7 +9,8 @@
     "export": "next export -o dist",
     "build-prod": "run-s clean build export",
     "clean": "rimraf .next dist",
-    "lint": "next lint"
+    "lint": "next lint",
+    "build-types": "tsc --noEmit"
   },
   "dependencies": {
     "next": "^11.0.1",
