@@ -23,12 +23,16 @@ const Main = (props: IMainProps) => (
           <ul className="flex flex-wrap text-xl">
             <li className="mr-6">
               <Link href="/">
-                <a className="text-gray-700 border-none hover:text-gray-900">Home</a>
+                <a className="text-gray-700 border-none hover:text-gray-900">
+                  Home
+                </a>
               </Link>
             </li>
             <li className="mr-6">
               <Link href="/about/">
-                <a className="text-gray-700 border-none hover:text-gray-900">About</a>
+                <a className="text-gray-700 border-none hover:text-gray-900">
+                  About
+                </a>
               </Link>
             </li>
             <li className="mr-6">
@@ -46,20 +50,11 @@ const Main = (props: IMainProps) => (
       <div className="py-5 text-xl content">{props.children}</div>
 
       <div className="border-t border-gray-300 text-center py-8 text-sm">
-        © Copyright
-        {' '}
-        {new Date().getFullYear()}
-        {' '}
-        {Config.title}
-        . Powered with
-        {' '}
+        © Copyright {new Date().getFullYear()} {Config.title}. Powered with{' '}
         <span role="img" aria-label="Love">
           ♥
-        </span>
-        {' '}
-        by
-        {' '}
-        <a href="https://creativedesignsguru.com">CreativeDesignsGuru</a>
+        </span>{' '}
+        by <a href="https://creativedesignsguru.com">CreativeDesignsGuru</a>
         {/*
          * PLEASE READ THIS SECTION
          * We'll really appreciate if you could have a link to our website

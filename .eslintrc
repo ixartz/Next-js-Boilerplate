@@ -1,38 +1,64 @@
 {
-  "plugins": ["@typescript-eslint"],
-  "extends": ["airbnb-typescript"],
-  "parserOptions": {
-    "project": "./tsconfig.json"
-  },
+  // Configuration for JavaScript files
+  "extends": ["airbnb-base", "plugin:prettier/recommended"],
   "rules": {
-    "react/destructuring-assignment": "off", // Vscode doesn't support automatically destructuring, it's a pain to add a new variable
-    "jsx-a11y/anchor-is-valid": "off", // Next.js use his own internal link system
-    "react/require-default-props": "off", // Allow non-defined react props as undefined
-    "import/order": [
+    "prettier/prettier": [
       "error",
       {
-        "groups": ["builtin", "external", "internal"],
-        "pathGroups": [
-          {
-            "pattern": "react",
-            "group": "external",
-            "position": "before"
-          }
-        ],
-        "pathGroupsExcludedImportTypes": ["react"],
-        "newlines-between": "always",
-        "alphabetize": {
-          "order": "asc",
-          "caseInsensitive": true
-        }
-      }
-    ],
-    "import/prefer-default-export": "off",
-    "@typescript-eslint/no-unused-vars": [
-      "error",
-      {
-        "argsIgnorePattern": "^_"
+        "singleQuote": true
       }
     ]
-  }
+  },
+  "overrides": [ // Configuration for TypeScript files
+      {
+      "files": ["**/*.ts", "**/*.tsx"],
+      "plugins": ["@typescript-eslint"],
+      "extends": [
+        "airbnb-typescript",
+        "next",
+        "next/core-web-vitals",
+        "plugin:prettier/recommended"
+      ],
+      "parserOptions": {
+        "project": "./tsconfig.json"
+      },
+      "rules": {
+        "prettier/prettier": [
+          "error",
+          {
+            "singleQuote": true
+          }
+        ],
+        "react/destructuring-assignment": "off", // Vscode doesn't support automatically destructuring, it's a pain to add a new variable
+        "jsx-a11y/anchor-is-valid": "off", // Next.js use his own internal link system
+        "react/require-default-props": "off", // Allow non-defined react props as undefined
+        "import/order": [
+          "error",
+          {
+            "groups": ["builtin", "external", "internal"],
+            "pathGroups": [
+              {
+                "pattern": "react",
+                "group": "external",
+                "position": "before"
+              }
+            ],
+            "pathGroupsExcludedImportTypes": ["react"],
+            "newlines-between": "always",
+            "alphabetize": {
+              "order": "asc",
+              "caseInsensitive": true
+            }
+          }
+        ],
+        "import/prefer-default-export": "off",
+        "@typescript-eslint/no-unused-vars": [
+          "error",
+          {
+            "argsIgnorePattern": "^_"
+          }
+        ]
+      }
+    }
+  ]
 }

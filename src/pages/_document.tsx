@@ -1,8 +1,6 @@
 import React from 'react';
 
-import Document, {
-  Html, Head, Main, NextScript,
-} from 'next/document';
+import Document, { Html, Head, Main, NextScript } from 'next/document';
 
 import { Config } from '../utils/Config';
 

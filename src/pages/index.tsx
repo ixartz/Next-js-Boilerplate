@@ -5,14 +5,16 @@ import { Main } from '../templates/Main';
 
 const Index = () => (
   <Main
-    meta={(
+    meta={
       <Meta
         title="Next.js Boilerplate Presentation"
         description="Next js Boilerplate is the perfect starter code for your project. Build your React application with the Next.js framework."
       />
-    )}
+    }
   >
     <a href="https://github.com/ixartz/Next-js-Boilerplate">
+      {/* We currently not using next/image because it isn't supported with SSG mode */
+      /* eslint-disable-next-line @next/next/no-img-element */}
       <img
         src={`${process.env.baseUrl}/assets/images/nextjs-starter-banner.png`}
         alt="Nextjs starter banner"
@@ -24,37 +26,29 @@ const Index = () => (
     <p>
       <span role="img" aria-label="rocket">
         🚀
-      </span>
-      {' '}
-      Next.js Boilerplate is a starter code for your Next js project by putting developer experience
-      first .
-      {' '}
+      </span>{' '}
+      Next.js Boilerplate is a starter code for your Next js project by putting
+      developer experience first .{' '}
       <span role="img" aria-label="zap">
         ⚡️
-      </span>
-      {' '}
-      Made with
-      {' '}
+      </span>{' '}
+      Made with{' '}
       <a href="https://nextjs.org" rel="nofollow">
         Next.js
       </a>
-      ,
-      {' '}
+      ,{' '}
       <a href="https://eslint.org" rel="nofollow">
         ESLint
       </a>
-      ,
-      {' '}
+      ,{' '}
       <a href="https://prettier.io" rel="nofollow">
         Prettier
       </a>
-      ,
-      {' '}
+      ,{' '}
       <a href="https://postcss.org" rel="nofollow">
         PostCSS
       </a>
-      ,
-      {' '}
+      ,{' '}
       <a href="https://tailwindcss.com" rel="nofollow">
         Tailwind CSS
       </a>
@@ -66,21 +60,17 @@ const Index = () => (
       <li>
         <span role="img" aria-label="fire">
           🔥
-        </span>
-        {' '}
+        </span>{' '}
         <a href="https://nextjs.org" rel="nofollow">
           Next.js
-        </a>
-        {' '}
+        </a>{' '}
         for Static Site Generator
       </li>
       <li>
         <span role="img" aria-label="art">
           🎨
-        </span>
-        {' '}
-        Integrate with
-        {' '}
+        </span>{' '}
+        Integrate with{' '}
         <a href="https://tailwindcss.com" rel="nofollow">
           Tailwind CSS
         </a>
@@ -88,14 +78,11 @@ const Index = () => (
       <li>
         <span role="img" aria-label="nail_care">
           💅
-        </span>
-        {' '}
+        </span>{' '}
         <a href="https://postcss.org" rel="nofollow">
           PostCSS
-        </a>
-        {' '}
-        for processing
-        {' '}
+        </a>{' '}
+        for processing{' '}
         <a href="https://tailwindcss.com" rel="nofollow">
           Tailwind CSS
         </a>
@@ -103,17 +90,14 @@ const Index = () => (
       <li>
         <span role="img" aria-label="tada">
           🎉
-        </span>
-        {' '}
+        </span>{' '}
         Type checking Typescript
       </li>
       <li>
         <span role="img" aria-label="pencil2">
           ✏️
-        </span>
-        {' '}
-        Linter with
-        {' '}
+        </span>{' '}
+        Linter with{' '}
         <a href="https://eslint.org" rel="nofollow">
           ESLint
         </a>
@@ -121,10 +105,8 @@ const Index = () => (
       <li>
         <span role="img" aria-label="hammer_and_wrench">
           🛠
-        </span>
-        {' '}
-        Code Formatter with
-        {' '}
+        </span>{' '}
+        Code Formatter with{' '}
         <a href="https://prettier.io" rel="nofollow">
           Prettier
         </a>
@@ -132,39 +114,30 @@ const Index = () => (
       <li>
         <span role="img" aria-label="fox_face">
           🦊
-        </span>
-        {' '}
-        SEO metadata,
-        {' '}
+        </span>{' '}
+        SEO metadata,{' '}
         <a
           href="https://developers.google.com/search/docs/guides/intro-structured-data"
           rel="nofollow"
         >
           JSON-LD
-        </a>
-        {' '}
-        and
-        {' '}
+        </a>{' '}
+        and{' '}
         <a href="https://ogp.me/" rel="nofollow">
           Open Graph
-        </a>
-        {' '}
-        tags with
-        {' '}
-        <a href="https://github.com/garmeeh/next-seo">Next SEO</a>
+        </a>{' '}
+        tags with <a href="https://github.com/garmeeh/next-seo">Next SEO</a>
       </li>
       <li>
         <span role="img" aria-label="rainbow">
           🌈
-        </span>
-        {' '}
+        </span>{' '}
         Include a FREE minimalist theme
       </li>
       <li>
         <span role="img" aria-label="hundred">
           💯
-        </span>
-        {' '}
+        </span>{' '}
         Maximize lighthouse score
       </li>
     </ul>
@@ -173,22 +146,19 @@ const Index = () => (
       <li>
         <span role="img" aria-label="coffee">
           ☕
-        </span>
-        {' '}
+        </span>{' '}
         Minify HTML &amp; CSS
       </li>
       <li>
         <span role="img" aria-label="dash">
           💨
-        </span>
-        {' '}
+        </span>{' '}
         Live reload
       </li>
       <li>
         <span role="img" aria-label="white_check_mark">
           ✅
-        </span>
-        {' '}
+        </span>{' '}
         Cache busting
       </li>
     </ul>
@@ -199,15 +169,15 @@ const Index = () => (
       <li>
         <span role="img" aria-label="rocket">
           🚀
-        </span>
-        {' '}
+        </span>{' '}
         Production-ready
       </li>
     </ul>
     <p>
-      Check our GitHub project for more information about
-      {' '}
-      <a href="https://github.com/ixartz/Next-js-Boilerplate">Nextjs Boilerplate</a>
+      Check our GitHub project for more information about{' '}
+      <a href="https://github.com/ixartz/Next-js-Boilerplate">
+        Nextjs Boilerplate
+      </a>
       .
     </p>
   </Main>
