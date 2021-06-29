@@ -9,10 +9,11 @@
       }
     ]
   },
-  "overrides": [ // Configuration for TypeScript files
-      {
+  "overrides": [
+    // Configuration for TypeScript files
+    {
       "files": ["**/*.ts", "**/*.tsx"],
-      "plugins": ["@typescript-eslint"],
+      "plugins": ["@typescript-eslint", "unused-imports"],
       "extends": [
         "airbnb-typescript",
         "next",
@@ -52,11 +53,11 @@
           }
         ],
         "import/prefer-default-export": "off",
-        "@typescript-eslint/no-unused-vars": [
+        "@typescript-eslint/no-unused-vars": "off",
+        "unused-imports/no-unused-imports": "error",
+        "unused-imports/no-unused-vars": [
           "error",
-          {
-            "argsIgnorePattern": "^_"
-          }
+          { "argsIgnorePattern": "^_" }
         ]
       }
     }
