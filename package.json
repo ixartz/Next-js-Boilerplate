@@ -10,7 +10,7 @@
     "build-prod": "run-s clean build export",
     "clean": "rimraf .next out",
     "lint": "next lint",
-    "build-types": "tsc --noEmit",
+    "build-types": "tsc --noEmit --pretty",
     "prepare": "husky install"
   },
   "dependencies": {
