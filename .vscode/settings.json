@@ -1,7 +1,10 @@
 {
   "editor.tabSize": 2,
   "editor.detectIndentation": false,
-  "jest.autoEnable": false,
+  "jest.autoRun": {
+    "watch": false,
+    "onSave": "test-file"
+  },
   "editor.formatOnSave": false,
   "editor.codeActionsOnSave": [
     "source.addMissingImports",

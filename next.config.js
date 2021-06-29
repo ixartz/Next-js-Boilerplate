@@ -11,7 +11,4 @@ module.exports = withBundleAnalyzer({
   env: {
     baseUrl: baseUrl,
   },
-  future: {
-    webpack5: true,
-  },
 });
