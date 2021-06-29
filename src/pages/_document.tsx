@@ -2,12 +2,12 @@ import React from 'react';
 
 import Document, { Html, Head, Main, NextScript } from 'next/document';
 
-import { Config } from '../utils/Config';
+import { AppConfig } from '../utils/AppConfig';
 
 class MyDocument extends Document {
   render() {
     return (
-      <Html lang={Config.locale}>
+      <Html lang={AppConfig.locale}>
         <Head />
         <body>
           <Main />

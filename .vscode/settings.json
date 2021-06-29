@@ -5,6 +5,9 @@
     "watch": false,
     "onSave": "test-file"
   },
+  "search.exclude": {
+    "package-lock.json": true
+  },
   "editor.formatOnSave": false,
   "editor.codeActionsOnSave": [
     "source.addMissingImports",

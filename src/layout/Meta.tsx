@@ -3,7 +3,7 @@ import React from 'react';
 import { NextSeo } from 'next-seo';
 import Head from 'next/head';
 
-import { Config } from '../utils/Config';
+import { AppConfig } from '../utils/AppConfig';
 
 type IMetaProps = {
   title: string;
@@ -53,8 +53,8 @@ const Meta = (props: IMetaProps) => (
         title: props.title,
         description: props.description,
         url: props.canonical,
-        locale: Config.locale,
-        site_name: Config.site_name,
+        locale: AppConfig.locale,
+        site_name: AppConfig.site_name,
       }}
     />
   </>
