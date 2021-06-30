@@ -23,6 +23,7 @@ Developer experience first:
 - 🗂 VSCode configuration: Debug, Settings, Tasks and extension for PostCSS, ESLint, Prettier, TypeScript
 - 🤖 SEO metadata, JSON-LD and Open Graph tags with Next SEO
 - ⚙️ [Bundler Analyzer](https://www.npmjs.com/package/@next/bundle-analyzer)
+- 🖱️ One click deployment with Vercel or Netlify
 - 🌈 Include a FREE minimalist theme
 - 💯 Maximize lighthouse score
 

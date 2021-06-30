@@ -35,27 +35,8 @@ const Index = () => {
         <span role="img" aria-label="zap">
           ⚡️
         </span>{' '}
-        Made with{' '}
-        <a href="https://nextjs.org" rel="nofollow">
-          Next.js
-        </a>
-        ,{' '}
-        <a href="https://eslint.org" rel="nofollow">
-          ESLint
-        </a>
-        ,{' '}
-        <a href="https://prettier.io" rel="nofollow">
-          Prettier
-        </a>
-        ,{' '}
-        <a href="https://postcss.org" rel="nofollow">
-          PostCSS
-        </a>
-        ,{' '}
-        <a href="https://tailwindcss.com" rel="nofollow">
-          Tailwind CSS
-        </a>
-        .
+        Made with Next.js, TypeScript, ESLint, Prettier, Husky, Lint-Staged,
+        VSCode, Netlify, PostCSS, Tailwind CSS.
       </p>
       <h2 className="font-semibold text-lg">Next js Boilerplate Features</h2>
       <p>Developer experience first:</p>
@@ -82,13 +63,7 @@ const Index = () => {
           <span role="img" aria-label="nail_care">
             💅
           </span>{' '}
-          <a href="https://postcss.org" rel="nofollow">
-            PostCSS
-          </a>{' '}
-          for processing{' '}
-          <a href="https://tailwindcss.com" rel="nofollow">
-            Tailwind CSS
-          </a>
+          PostCSS for processing Tailwind CSS
         </li>
         <li>
           <span role="img" aria-label="tada">
@@ -118,18 +93,37 @@ const Index = () => {
           <span role="img" aria-label="fox_face">
             🦊
           </span>{' '}
-          SEO metadata,{' '}
+          Husky for Git Hooks
+        </li>
+        <li>
+          <span role="img" aria-label="no_entry_sign">
+            🚫
+          </span>{' '}
+          Lint-staged for running linters on Git staged files
+        </li>
+        <li>
+          <span role="img" aria-label="no_entry_sign">
+            🗂
+          </span>{' '}
+          VSCode configuration: Debug, Settings, Tasks and extension for
+          PostCSS, ESLint, Prettier, TypeScript
+        </li>
+        <li>
+          <span role="img" aria-label="robot">
+            🤖
+          </span>{' '}
+          SEO metadata, JSON-LD and Open Graph tags with Next SEO
+        </li>
+        <li>
+          <span role="img" aria-label="robot">
+            ⚙️
+          </span>{' '}
           <a
-            href="https://developers.google.com/search/docs/guides/intro-structured-data"
+            href="https://www.npmjs.com/package/@next/bundle-analyzer"
             rel="nofollow"
           >
-            JSON-LD
-          </a>{' '}
-          and{' '}
-          <a href="https://ogp.me/" rel="nofollow">
-            Open Graph
-          </a>{' '}
-          tags with <a href="https://github.com/garmeeh/next-seo">Next SEO</a>
+            Bundler Analyzer
+          </a>
         </li>
         <li>
           <span role="img" aria-label="rainbow">
@@ -181,7 +175,11 @@ const Index = () => {
         <a href="https://github.com/ixartz/Next-js-Boilerplate">
           Nextjs Boilerplate
         </a>
-        .
+        . You can also browse our{' '}
+        <a href="https://creativedesignsguru.com/category/nextjs/">
+          Premium NextJS Templates
+        </a>{' '}
+        on our website to support this project.
       </p>
     </Main>
   );
