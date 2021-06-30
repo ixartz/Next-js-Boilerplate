@@ -6,6 +6,6 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
 module.exports = withBundleAnalyzer({
   poweredByHeader: false,
   trailingSlash: true,
-  basePath: '',
+  basePath: '/demo/Nextjs-Boilerplate',
   reactStrictMode: true,
 });
