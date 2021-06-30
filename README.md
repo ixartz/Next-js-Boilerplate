@@ -14,11 +14,14 @@ Developer experience first:
 
 - 🔥 [Next.js](https://nextjs.org) for Static Site Generator
 - 🎨 Integrate with [Tailwind CSS](https://tailwindcss.com)
-- 💅 [PostCSS](https://postcss.org) for processing [Tailwind CSS](https://tailwindcss.com)
+- 💅 PostCSS for processing Tailwind CSS
 - 🎉 Type checking [TypeScript](https://www.typescriptlang.org)
 - ✏️ Linter with [ESLint](https://eslint.org)
 - 🛠 Code Formatter with [Prettier](https://prettier.io)
-- 🦊 SEO metadata, [JSON-LD](https://developers.google.com/search/docs/guides/intro-structured-data) and [Open Graph](https://ogp.me/) tags with [Next SEO](https://github.com/garmeeh/next-seo)
+- 🦊 Husky for Git Hooks
+- 🚫 Lint-staged for running linters on Git staged files
+- 🗂 VSCode configuration: debug, settings and tasks
+- 🤖 SEO metadata, JSON-LD and Open Graph tags with Next SEO
 - ⚙️ [Bundler Analyzer](https://www.npmjs.com/package/@next/bundle-analyzer)
 - 🌈 Include a FREE minimalist theme
 - 💯 Maximize lighthouse score
@@ -65,7 +68,7 @@ Then, you can run locally in development mode with live reload:
 npm run dev
 ```
 
-Open http://localhost:8080 with your favorite browser to see your project.
+Open http://localhost:3000 with your favorite browser to see your project.
 
 ```
 .
@@ -80,7 +83,9 @@ Open http://localhost:8080 with your favorite browser to see your project.
 You can easily configure Next js Boilerplate. Please change the following file:
 
 - `public/apple-touch-icon.png`, `public/favicon.ico`, `public/favicon-16x16.png` and `public/favicon-32x32.png`: your blog favicon, you can generate from https://favicon.io/favicon-converter/
-- `src/styles/main.css`: your blog CSS file using Tailwind CSS
+- `src/styles/main.css`: your CSS file using Tailwind CSS
+- `src/utils/Config.ts`: configuration file like blog name, url, etc.
+- `src/templates/Main.tsx`: default theme
 
 ### Deploy to production
 
