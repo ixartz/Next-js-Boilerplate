@@ -16,8 +16,6 @@ const Index = () => {
       }
     >
       <a href="https://github.com/ixartz/Next-js-Boilerplate">
-        {/* We currently not using next/image because it isn't supported with SSG mode */
-        /* eslint-disable-next-line @next/next/no-img-element */}
         <img
           src={`${router.basePath}/assets/images/nextjs-starter-banner.png`}
           alt="Nextjs starter banner"
