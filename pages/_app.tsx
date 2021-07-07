@@ -1,9 +1,9 @@
-import React from "react";
+import { ThemeProvider } from 'next-themes';
+import { AppProps } from 'next/app';
+import React from 'react';
+import '../styles/main.css';
 
-import { ThemeProvider } from "next-themes";
-import { AppProps } from "next/app";
 
-import "../styles/main.css";
 
 // eslint-disable-next-line react/jsx-props-no-spreading
 const MyApp = ({ Component, pageProps }: AppProps) => (
