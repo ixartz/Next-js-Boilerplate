@@ -1,12 +1,9 @@
 import Image from 'next/image';
-import { useRouter } from 'next/router';
 
 import { Meta } from '../layout/Meta';
 import { Main } from '../templates/Main';
 
 const Index = () => {
-  const router = useRouter();
-
   return (
     <Main
       meta={
