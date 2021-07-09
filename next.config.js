@@ -4,6 +4,9 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
 });
 
 module.exports = withBundleAnalyzer({
+  images: {
+    domains: ['source.unsplash.com'],
+  },
   poweredByHeader: false,
   trailingSlash: true,
   basePath: '',
