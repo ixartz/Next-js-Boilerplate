@@ -18,6 +18,7 @@ const Index = () => {
           src="https://source.unsplash.com/random/800x600"
           width="800"
           height="600"
+          alt="test"
         />
       </a>
       <h1 className="font-bold text-2xl">

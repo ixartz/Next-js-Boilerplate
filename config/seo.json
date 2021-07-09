@@ -1,0 +1,18 @@
+{
+    "defaultTitle": "Coobo Media",
+    "titleTemplate": "%s - Coobo Media",
+    "description": "Coobo Media - https://coobomedia.com",
+    "openGraph": {
+      "title": "Coobo Media",
+      "description": "Coobo Media - https://coobomedia.com",
+      "type": "website",
+      "locale": "en_IE",
+      "url": "https://coobomedia.com",
+      "site_name": "Coobo Media"
+    },
+    "twitter": {
+      "handle": "@nextjs",
+      "site": "@nextjs",
+      "cardType": "summary_large_image"
+    }
+  }
