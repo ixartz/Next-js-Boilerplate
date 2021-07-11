@@ -1,10 +1,11 @@
 @tailwind base;
-
+html {
+  overflow-y: scroll;
+}
 @tailwind components;
 
 .fit {
-  min-height: calc(100vh - 74px);
+  min-height: calc(100vh - 511px);
 }
-
 
 @tailwind utilities;
