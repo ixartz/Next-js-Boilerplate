@@ -1,12 +1,18 @@
-import { FC } from 'react';
+import { ReactNode } from 'react';
 
 import { Navbar, Footer } from '@components/common';
 
-const Layout: FC = ({ children }) => {
+type ILayoutProps = {
+  meta: ReactNode;
+  children: ReactNode;
+};
+
+const Layout = (props: ILayoutProps) => {
   return (
-    <div className="">
+    <div className="h-full">
+      {props.meta}
       <Navbar />
-      <main className="fit container mx-auto py-16 px-8">{children}</main>
+      <main className="fit container mx-auto py-16 px-8">{props.children}</main>
       <Footer />
     </div>
   );

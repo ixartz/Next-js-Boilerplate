@@ -2,5 +2,9 @@
 
 @tailwind components;
 
-@tailwind utilities;
+.fit {
+  min-height: calc(100vh - 74px);
+}
 
+
+@tailwind utilities;

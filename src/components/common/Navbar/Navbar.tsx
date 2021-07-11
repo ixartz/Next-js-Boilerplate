@@ -130,14 +130,14 @@ const Navbar = () => {
                   className="hidden md:flex-1 md:flex md:items-center md:justify-between"
                 >
                   <Popover.Group as="nav" className="flex space-x-10">
-                    <Link href="/gallery">
+                    <Link href="/about">
                       <a className="text-base font-medium text-secondary-500 hover:text-secondary-900">
-                        Gallery
+                        About
                       </a>
                     </Link>
-                    <Link href="/events">
+                    <Link href="/test">
                       <a className="text-base font-medium text-secondary-500 hover:text-secondary-900">
-                        Events
+                        Test
                       </a>
                     </Link>
                     <Link href="/projects">

@@ -1,11 +1,12 @@
+import React from 'react';
+
 import Image from 'next/image';
 
-import { Meta } from '../layout/Meta';
-import { Main } from '../templates/Main';
+import { Meta, Layout } from '@components/common';
 
 const Index = () => {
   return (
-    <Main
+    <Layout
       meta={
         <Meta
           title="Next.js Boilerplate Presentation"
@@ -179,7 +180,7 @@ const Index = () => {
         </a>{' '}
         on our website to support this project.
       </p>
-    </Main>
+    </Layout>
   );
 };
 
