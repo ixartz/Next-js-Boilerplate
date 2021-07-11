@@ -12,7 +12,7 @@ const Index = () => {
         />
       }
     >
-      <div className="prose mx-auto  prose-sm sm:prose lg:prose-lg xl:prose-xl prose-indigo sm:prose-indigo">
+      <div className="prose mx-auto  prose-sm sm:prose lg:prose-lg xl:prose-xl prose-primary sm:prose-primary">
         <a href="https://github.com/ixartz/Next-js-Boilerplate">
           <Image
             src="https://source.unsplash.com/random/800x600"
