@@ -1,9 +1,16 @@
-
-
 @tailwind base;
 html {
   overflow-y: scroll;
 }
+
+h1, h2 {
+  font-family: Raleway;
+}
+
+/* p {
+  font-family: Open Sans;
+} */
+
 @tailwind components;
 
 .fit {
