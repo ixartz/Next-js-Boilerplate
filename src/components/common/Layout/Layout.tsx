@@ -9,7 +9,7 @@ type ILayoutProps = {
 
 const Layout = (props: ILayoutProps) => {
   return (
-    <div className="h-full">
+    <div className="h-full mx-auto">
       {props.meta}
       <Navbar />
       <main className="fit container mx-auto py-16 px-8">{props.children}</main>

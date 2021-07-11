@@ -10,7 +10,7 @@ module.exports = {
       colors: {
         primary: colors.orange,
         'primary-2': 'var(--primary-2)',
-        secondary: colors.gray,
+        secondary: colors.warmGray,
         'secondary-2': 'var(--secondary-2)',
         dark: {
           100: '#6d706f',
@@ -52,5 +52,11 @@ module.exports = {
     },
   },
   variants: {},
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/typography'),
+    require('postcss-focus-visible'),
+    require('@tailwindcss/forms'),
+    require('@tailwindcss/aspect-ratio'),
+    require('@tailwindcss/line-clamp'),
+  ],
 };
