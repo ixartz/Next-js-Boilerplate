@@ -23,6 +23,7 @@ import {
   XIcon,
 } from '@heroicons/react/outline';
 import { ChevronDownIcon } from '@heroicons/react/solid';
+import cn from 'classnames';
 import Link from 'next/link';
 
 const solutions = [
@@ -91,10 +92,6 @@ const blogPosts = [
   },
 ];
 
-function classNames(...classes: any) {
-  return classes.filter(Boolean).join(' ');
-}
-
 const Navbar = () => {
   return (
     <>
@@ -155,7 +152,7 @@ const Navbar = () => {
                       {({ open }) => (
                         <>
                           <Popover.Button
-                            className={classNames(
+                            className={cn(
                               open
                                 ? 'text-secondary-900'
                                 : 'text-secondary-500',
@@ -164,7 +161,7 @@ const Navbar = () => {
                           >
                             <span>Solutions</span>
                             <ChevronDownIcon
-                              className={classNames(
+                              className={cn(
                                 open
                                   ? 'text-secondary-600'
                                   : 'text-secondary-400',
@@ -252,7 +249,7 @@ const Navbar = () => {
                       {({ open }) => (
                         <>
                           <Popover.Button
-                            className={classNames(
+                            className={cn(
                               open
                                 ? 'text-secondary-900'
                                 : 'text-secondary-500',
@@ -261,7 +258,7 @@ const Navbar = () => {
                           >
                             <span>More</span>
                             <ChevronDownIcon
-                              className={classNames(
+                              className={cn(
                                 open
                                   ? 'text-secondary-600'
                                   : 'text-secondary-400',
