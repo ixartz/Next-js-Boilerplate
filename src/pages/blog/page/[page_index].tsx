@@ -57,7 +57,7 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params }) {
-  const page = parseInt((params && params.page_index) || 1);
+  const page = parseInt((params && params.page_index) || 1, 10);
 
   const files = fs.readdirSync(path.join('./src/posts'));
 
