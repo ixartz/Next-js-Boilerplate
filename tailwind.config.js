@@ -16,7 +16,15 @@ module.exports = {
       // fontFamily: {
       //   poppins: ['Quicksand', 'Poppins', 'system-ui'],
       // },
-
+      // typography: {
+      //   DEFUALT: {
+      //     css: {
+      //       strong: {
+      //         fontWeight: '300',
+      //       },
+      //     },
+      //   },
+      // },
       colors: {
         primary: colors.orange,
         'primary-2': 'var(--primary-2)',
