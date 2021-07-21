@@ -1,0 +1,10 @@
+---
+title: "Nova tip: Prevent 'node_nodules' from indexing"
+date: '2021-03-13'
+---
+
+Let Panic's Nova loose on a new node-based web project and it'll try and automatically index every file in the project. Including node_modules, with its 100,000+ files. This would spin up my fan and my computer's battery down to zero in no time.
+
+Nova has a feature to prevent this. In a project's settings you can specify `node_modules` as a pattern to ignore when indexing. Watch out though! You'll need to click 'Reindex all files' for it to take effect. It took me weeks to figure this out.
+
+![Nova Project settings screenshot](/assets/blog-images/nova-screenshot.png)

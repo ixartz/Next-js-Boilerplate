@@ -52,6 +52,18 @@ export default function Index({ allPostsData }) {
         </a>
         .
       </PageIntro>
+      <WidthContainer className="pb-8">
+        <p>
+          To hear about new things I'm working on,{' '}
+          <a
+            href="https://world.hey.com/sam.stephenson"
+            title="email newsletter"
+          >
+            subscribe to my newsletter
+          </a>
+          .
+        </p>
+      </WidthContainer>
       <WidthContainer size="lg" className="grid md:grid-cols-3 gap-8 py-4">
         {projects.featured.map((project) => (
           <ProjectThumb project={project} />
