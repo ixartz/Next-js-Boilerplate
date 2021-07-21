@@ -43,15 +43,7 @@ export default function Index({ allPostsData }) {
         />
       }
     >
-      <PageIntro>
-        {' '}
-        Designer of digital products, based in London, UK. Leading design
-        at&nbsp;
-        <a href="https://swimsmooth.com" title="Swim Smooth">
-          Swim Smooth
-        </a>
-        .
-      </PageIntro>
+      <PageIntro>London-based independent product designer</PageIntro>
       <WidthContainer className="pb-8">
         <p>
           To hear about new things I'm working on,{' '}
