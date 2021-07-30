@@ -43,7 +43,7 @@ export default function Post({ source, frontMatter }) {
       <Head>
         <title>{frontMatter.title}</title>
       </Head>
-      <WidthContainer>
+      <WidthContainer leftAligned>
         <div className="mb-8">
           <h1 className="text-4xl">{frontMatter.title}</h1>
           <em className="block text-secondary mt-2">

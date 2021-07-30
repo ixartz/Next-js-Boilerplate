@@ -54,6 +54,12 @@ module.exports = {
       180: '180deg',
     },
     extend: {
+      spacing: {
+        72: '18rem',
+        84: '21rem',
+        96: '24rem',
+        120: '32rem',
+      },
       colors: {
         surface: {
           DEFAULT: 'var(--color-bg-primary)',

@@ -1,6 +1,7 @@
 import { useTheme } from 'next-themes';
 import React from 'react';
 import { ContactSpiel } from './ContactSpiel';
+import { WidthContainer } from './WidthContainer';
 
 export default function Footer() {
   const { theme, setTheme } = useTheme();
@@ -13,44 +14,46 @@ export default function Footer() {
   };
 
   return (
-    <footer className="pt-12">
-      <hr />
-      <ContactSpiel footer />
-      <p>
-        Subscribe to my email newsletter at{' '}
-        <a
-          href="https://world.hey.com/sam.stephenson"
-          title="Sam Stephenson's email newsletter"
-        >
-          world.hey.com/sam.stephenson
-        </a>
-      </p>
-      <div className="flex space-x-6 text-secondary mt-12">
-        <div>©{new Date().getFullYear()}</div>
-        <a
-          href="https://plausible.io/samstephenson.com"
-          title="analytics"
-          className="text-gray-500 dark:text-gray-400"
-        >
-          Stats
-        </a>
-        <button
-          aria-label="Toggle Dark Mode"
-          type="button"
-          className="ml-4"
-          onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
-        >
-          <svg
-            viewBox="0 0 16 16"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-            width="16"
-            height="16"
+    <footer className="mt-16 py-8 border-t border-gray-200 dark:border-gray-700">
+      <WidthContainer leftAligned>
+        <ContactSpiel footer={true} />
+        <br />
+        <p>
+          Subscribe to my email newsletter at{' '}
+          <a
+            href="https://world.hey.com/sam.stephenson"
+            title="Sam Stephenson's email newsletter"
           >
-            <path d={darkModeIcon()} fill="currentColor" />
-          </svg>
-        </button>
-      </div>
+            world.hey.com/sam.stephenson
+          </a>
+        </p>
+        <div className="flex space-x-6 text-secondary mt-12">
+          <div>©{new Date().getFullYear()}</div>
+          <a
+            href="https://plausible.io/samstephenson.com"
+            title="analytics"
+            className="text-gray-500 dark:text-gray-400"
+          >
+            Stats
+          </a>
+          <button
+            aria-label="Toggle Dark Mode"
+            type="button"
+            className="ml-4"
+            onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
+          >
+            <svg
+              viewBox="0 0 16 16"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+            >
+              <path d={darkModeIcon()} fill="currentColor" />
+            </svg>
+          </button>
+        </div>
+      </WidthContainer>
     </footer>
   );
 }

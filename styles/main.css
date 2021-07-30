@@ -4,6 +4,7 @@
   --color-bg-tertiary: theme('colors.gray.700');
   --color-text-primary: theme('colors.white');
   --color-text-secondary: theme('colors.gray.400');
+  --color-text-tertiary: theme('colors.gray.600');
   --color-text-accent: theme('colors.blue.400');
   --color-text-accent-light: theme('colors.blue.500');
   --color-text-accent-dark: theme('colors.blue.300');
@@ -15,6 +16,7 @@
   --color-bg-tertiary: theme('colors.gray.200');
   --color-text-primary: theme('colors.gray.800');
   --color-text-secondary: theme('colors.gray.500');
+  --color-text-tertiary: theme('colors.gray.300');
   --color-text-accent: theme('colors.blue.600');
   --color-text-accent-light: theme('colors.blue.500');
   --color-text-accent-dark: theme('colors.blue.700');
@@ -72,5 +74,16 @@ a:hover {
 }
 
 body {
-  font-size: 1.2rem;
+  font-size: 1.125rem;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.hideScrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.hideScrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
 }

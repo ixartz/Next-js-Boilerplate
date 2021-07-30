@@ -1,5 +1,4 @@
 import React, { ReactNode } from 'react';
-
 import Footer from '../components/Footer';
 import Navigation from '../components/Navigation';
 import { WidthContainer } from '../components/WidthContainer';
@@ -9,17 +8,15 @@ type IMainProps = {
   children: ReactNode;
 };
 
-const Main = (props: IMainProps) => (
-  <div className="flex flex-col bg-surface antialiased w-full text-primary min-h-screen p-4">
+const Main = (props: IMainProps, leftAligned = false) => (
+  <div className="flex flex-col bg-surface antialiased w-full text-primary min-h-screen p-4 py-8 md:p-8 md:py-16">
     {props.meta}
-    <WidthContainer>
+    <WidthContainer leftAligned={leftAligned}>
       <Navigation />
     </WidthContainer>
     <div className="mt-12">{props.children}</div>
     <div className="flex-grow" />
-    <WidthContainer>
-      <Footer />
-    </WidthContainer>
+    <Footer />
   </div>
 );
 

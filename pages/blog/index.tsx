@@ -1,12 +1,12 @@
-import React from 'react';
-
 import Link from 'next/link';
-
+import React from 'react';
 import Date from '../../components/Date';
 import { WidthContainer } from '../../components/WidthContainer';
 import { Main } from '../../layout/Main';
 import { Meta } from '../../layout/Meta';
 import { getSortedPageData } from '../../utils/generatePages';
+
+
 
 export async function getStaticProps() {
   const allPostsData = getSortedPageData('_blog');
@@ -20,9 +20,14 @@ export async function getStaticProps() {
 export default function Blog({ allPostsData }) {
   return (
     <Main
-      meta={<Meta title="Sam Stephenson" description="London-based digital product designer" />}
+      meta={
+        <Meta
+          title="Sam Stephenson"
+          description="London-based digital product designer"
+        />
+      }
     >
-      <WidthContainer>
+      <WidthContainer leftAligned>
         <ul>
           {allPostsData.map(({ id, date, title }) => (
             <li key={id} className="flex justify-between w-full">

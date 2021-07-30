@@ -1,17 +1,15 @@
-import React from "react";
-
-import Head from "next/head";
-import Image from "next/image";
-import hydrate from "next-mdx-remote/hydrate";
-
-import { PageIntro } from "../components/PageIntro";
-import { WidthContainer } from "../components/WidthContainer";
-import { Main } from "../layout/Main";
-import { Meta } from "../layout/Meta";
-import { getPageData, getAllPageIds } from "../utils/generatePages";
+import hydrate from 'next-mdx-remote/hydrate';
+import Head from 'next/head';
+import Image from 'next/image';
+import React from 'react';
+import { PageIntro } from '../components/PageIntro';
+import { WidthContainer } from '../components/WidthContainer';
+import { Main } from '../layout/Main';
+import { Meta } from '../layout/Meta';
+import { getAllPageIds, getPageData } from '../utils/generatePages';
 
 export async function getStaticPaths() {
-  const paths = await getAllPageIds("_pages");
+  const paths = await getAllPageIds('_pages');
   return {
     paths,
     fallback: false,
@@ -19,7 +17,7 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params }: { params: any }) {
-  const { mdxSource, data } = await getPageData(params.id, "_pages");
+  const { mdxSource, data } = await getPageData(params.id, '_pages');
 
   return {
     props: {
@@ -52,11 +50,12 @@ export default function Post({ source, frontMatter }) {
         />
       }
     >
-      <WidthContainer>
+      <PageIntro>{frontMatter.title}</PageIntro>
+      <WidthContainer leftAligned>
         <Head>
           <title>{frontMatter.title}</title>
         </Head>
-        <PageIntro>{frontMatter.title}</PageIntro>
+
         <article className="prose prose-lg dark:prose-dark">{content}</article>
       </WidthContainer>
     </Main>

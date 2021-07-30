@@ -1,34 +1,17 @@
-import Image from 'next/image';
-import Link from 'next/link';
 import React from 'react';
 import { PageIntro } from '../components/PageIntro';
+import { ProjectGallery } from '../components/ProjectGallery';
 import { ProjectItem, ProjectList } from '../components/ProjectList';
+import { ProjectThumb } from '../components/ProjectThumb';
 import { WidthContainer } from '../components/WidthContainer';
 import { Main } from '../layout/Main';
 import { Meta } from '../layout/Meta';
 import { getSortedPageData } from '../utils/generatePages';
 import { minorProjects } from '../_data/homepageData';
 
-function ProjectThumb({ project }) {
-  return (
-    <Link href={`work/${project.id}`} key={project.id}>
-      <a className="hover:no-underline text-primary">
-        <div className="relative pt-[150%] bg-surface-100 hover:bg-surface-200 transition mb-2">
-          <Image src={project.thumbnail} layout="fill" objectFit="contain" />
-        </div>
-        <p>
-          {project.name}
-          &#58;&nbsp;
-          <span className="text-secondary">{project.headline}</span>
-        </p>
-      </a>
-    </Link>
-  );
-}
-
 export default function Index({ allPostsData }) {
   // Split projects in to featured/not
-  const featured = ['swim-smooth', 'sow', 'trustify'];
+  const featured = ['swim-smooth', 'sow', 'trustify', 'nepal'];
   const projects = {
     featured: allPostsData.filter((project) => featured.includes(project.id)),
     other: allPostsData.filter((project) => !featured.includes(project.id)),
@@ -44,13 +27,13 @@ export default function Index({ allPostsData }) {
       }
     >
       <PageIntro>
-        I'm Sam. A London-based independent product designer. Working with
-        startups to build humane, user-friendly digital products.
+        I'm Sam. An independent product designer, working with startups to build
+        humane, user-friendly digital products.
       </PageIntro>
-      <WidthContainer className="pb-8">
+      <WidthContainer className="pb-8" leftAligned>
         <p>
           I'm currently taking select freelance projects, and learning to build
-          iOS apps in Swift. To hear about new things I'm working on,{' '}
+          iOS apps with SwiftUI. To hear about new things I'm working on,{' '}
           <a
             href="https://world.hey.com/sam.stephenson"
             title="email newsletter"
@@ -60,12 +43,13 @@ export default function Index({ allPostsData }) {
           .
         </p>
       </WidthContainer>
-      <WidthContainer size="lg" className="grid md:grid-cols-3 gap-8 py-4">
+      <ProjectGallery>
         {projects.featured.map((project) => (
           <ProjectThumb project={project} />
         ))}
-      </WidthContainer>
-      <WidthContainer>
+        <div className="hidden lg:inline w-24 h-12 lg:pr-24"></div>
+      </ProjectGallery>
+      <WidthContainer leftAligned>
         <ProjectList title="Other projects">
           {projects.other.map((project) => (
             <ProjectItem

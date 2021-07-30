@@ -69,7 +69,7 @@ export default function Post({ source, frontMatter }) {
         />
       }
     >
-      <WidthContainer>
+      <WidthContainer leftAligned size="lg" className="lg:pb-4">
         <p className="font-bold mb-4">{frontMatter.name}</p>
         <h1 className="text-4xl md:text-5xl font-bold">
           {frontMatter.headline}

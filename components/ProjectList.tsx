@@ -1,13 +1,11 @@
-import React from "react";
-
-import Link from "next/link";
-
-import Date from "./Date";
+import Link from 'next/link';
+import React from 'react';
+import Date from './Date';
 
 export function ProjectList({ title, children }) {
   return (
     <div>
-      <h4 className="mt-8 uppercase text-sm mb-2 tracking-wide">{title}</h4>
+      <h4 className="mt-8 uppercase text-sm mb-4 tracking-wide">{title}</h4>
       <ul className="">{children}</ul>
     </div>
   );
