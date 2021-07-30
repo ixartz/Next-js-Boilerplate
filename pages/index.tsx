@@ -39,14 +39,18 @@ export default function Index({ allPostsData }) {
       meta={
         <Meta
           title="Sam Stephenson"
-          description="London-based digital product designer"
+          description="London-based digital product designer."
         />
       }
     >
-      <PageIntro>London-based independent product designer</PageIntro>
+      <PageIntro>
+        I'm Sam. A London-based independent product designer. Working with
+        startups to build humane, user-friendly digital products.
+      </PageIntro>
       <WidthContainer className="pb-8">
         <p>
-          To hear about new things I'm working on,{' '}
+          I'm currently taking select freelance projects, and learning to build
+          iOS apps in Swift. To hear about new things I'm working on,{' '}
           <a
             href="https://world.hey.com/sam.stephenson"
             title="email newsletter"

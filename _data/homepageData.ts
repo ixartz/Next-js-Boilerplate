@@ -1,14 +1,21 @@
 export const minorProjects = [
   {
-    title: 'Interval',
-    url: 'https://interval.fyi',
-    description: 'A simple clock built in Javacript',
+    title: 'ThinkIt',
+    url: 'https://testflight.apple.com/join/V9toJ7Hw',
+    description: 'iOS app – Brainstorm ideas for human behavior change',
     date: '2021',
   },
   {
-    title: 'Sounds of London',
-    url: 'https://youtube.com/playlist?list=PLk7ZSGp92uM-NK0Fg9cp_8pZs4Ek-KQhA',
-    description: 'Binauaral audio recordings from around London',
+    title: 'Meanwhile',
+    url: 'https://meanwhile.fm',
+    description:
+      'Binauaral audio recordings from around the UK. Still scrappy.',
+    date: '2021',
+  },
+  {
+    title: 'Interval',
+    url: 'https://interval.fyi',
+    description: 'A simple clock built in Javacript',
     date: '2021',
   },
   {

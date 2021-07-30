@@ -2,7 +2,6 @@ import { useTheme } from 'next-themes';
 import React from 'react';
 import { ContactSpiel } from './ContactSpiel';
 
-
 export default function Footer() {
   const { theme, setTheme } = useTheme();
 
@@ -16,8 +15,7 @@ export default function Footer() {
   return (
     <footer className="pt-12">
       <hr />
-      <ContactSpiel />
-      <br />
+      <ContactSpiel footer />
       <p>
         Subscribe to my email newsletter at{' '}
         <a

@@ -1,9 +1,12 @@
+import { format, parseISO } from 'date-fns';
 import React from 'react';
 
-import { parseISO, format } from 'date-fns';
-
-export default function Date({ dateString, yearOnly }) {
+export default function Date({ dateString, yearOnly, className }) {
   const date = parseISO(dateString);
   const dateFormat = yearOnly ? 'yyyy' : 'd LLL yy';
-  return <time dateTime={dateString}>{format(date, dateFormat)}</time>;
+  return (
+    <time dateTime={dateString} className={`${className}`}>
+      {format(date, dateFormat)}
+    </time>
+  );
 }

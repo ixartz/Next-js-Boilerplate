@@ -1,16 +1,14 @@
-import React from "react";
-
-import Head from "next/head";
-
-import Date from "../../components/Date";
-import hydrate from "next-mdx-remote/hydrate";
-import { WidthContainer } from "../../components/WidthContainer";
-import { Main } from "../../layout/Main";
-import { Meta } from "../../layout/Meta";
-import { getPageData, getAllPageIds } from "../../utils/generatePages";
+import hydrate from 'next-mdx-remote/hydrate';
+import Head from 'next/head';
+import React from 'react';
+import Date from '../../components/Date';
+import { WidthContainer } from '../../components/WidthContainer';
+import { Main } from '../../layout/Main';
+import { Meta } from '../../layout/Meta';
+import { getAllPageIds, getPageData } from '../../utils/generatePages';
 
 export async function getStaticPaths() {
-  const paths = await getAllPageIds("_blog");
+  const paths = await getAllPageIds('_blog');
   return {
     paths,
     fallback: false,
@@ -18,7 +16,7 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params }: { params: any }) {
-  const { mdxSource, data } = await getPageData(params.id, "_blog");
+  const { mdxSource, data } = await getPageData(params.id, '_blog');
 
   return {
     props: {
@@ -47,8 +45,8 @@ export default function Post({ source, frontMatter }) {
       </Head>
       <WidthContainer>
         <div className="mb-8">
-          <h1 className="text-xl">{frontMatter.title}</h1>
-          <em>
+          <h1 className="text-4xl">{frontMatter.title}</h1>
+          <em className="block text-secondary mt-2">
             <Date dateString={frontMatter.date} yearOnly={false} />
           </em>
         </div>
