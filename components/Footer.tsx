@@ -16,7 +16,7 @@ export default function Footer() {
   return (
     <footer className="mt-16 py-8 border-t border-gray-200 dark:border-gray-700">
       <WidthContainer leftAligned>
-        <ContactSpiel footer={true} />
+        <ContactSpiel />
         <br />
         <p>
           Subscribe to my email newsletter at{' '}

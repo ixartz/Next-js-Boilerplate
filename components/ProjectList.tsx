@@ -46,7 +46,7 @@ export function ProjectItem(props) {
         </span>
       </div>
       <span className="text-secondary">
-        {props.date && <Date dateString={props.date} yearOnly />}
+        {props.date && <Date dateString={props.date} yearOnly className="" />}
       </span>
     </li>
   );
