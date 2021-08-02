@@ -24,7 +24,8 @@ export default function Navigation() {
           <a
             className={`cursor-pointer ${
               router.pathname === item.path ||
-              '/' + router.query.id === item.path
+              item.path.includes(router.query.id) ||
+              (router.pathname.includes(item.path) && item.path != '/')
                 ? 'text-primary'
                 : 'text-secondary'
             }`}
