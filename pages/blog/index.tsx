@@ -6,8 +6,6 @@ import { Main } from '../../layout/Main';
 import { Meta } from '../../layout/Meta';
 import { getSortedPageData } from '../../utils/generatePages';
 
-
-
 export async function getStaticProps() {
   const allPostsData = getSortedPageData('_blog');
   return {
@@ -28,6 +26,7 @@ export default function Blog({ allPostsData }) {
       }
     >
       <WidthContainer leftAligned>
+        <h1 className="text-4xl mb-8">Blog</h1>
         <ul>
           {allPostsData.map(({ id, date, title }) => (
             <li key={id} className="flex justify-between w-full">
