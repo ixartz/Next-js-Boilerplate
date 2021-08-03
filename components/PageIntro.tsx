@@ -4,7 +4,7 @@ import { WidthContainer } from './WidthContainer';
 export function PageIntro({ children }) {
   return (
     <WidthContainer className="pb-8 content" leftAligned>
-      <h1 className="text-4xl leading-tight">{children}</h1>
+      <h1 className="text-4xl font-bold leading-tight">{children}</h1>
     </WidthContainer>
   );
 }

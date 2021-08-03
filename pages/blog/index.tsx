@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import React from 'react';
 import Date from '../../components/Date';
+import { PageIntro } from '../../components/PageIntro';
 import { WidthContainer } from '../../components/WidthContainer';
 import { Main } from '../../layout/Main';
 import { Meta } from '../../layout/Meta';
@@ -25,8 +26,8 @@ export default function Blog({ allPostsData }) {
         />
       }
     >
+      <PageIntro>Blog</PageIntro>
       <WidthContainer leftAligned>
-        <h1 className="text-4xl mb-8">Blog</h1>
         <ul>
           {allPostsData.map(({ id, date, title }) => (
             <li key={id} className="flex justify-between w-full">
