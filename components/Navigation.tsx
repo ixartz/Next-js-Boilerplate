@@ -11,8 +11,13 @@ const menu = [
 
 export default function Navigation() {
   const router = useRouter();
-  console.log('query', router.query.id);
-  console.log('pathname', router.pathname);
+  const queryId = () => {
+    if (typeof router.query.id === 'string') {
+      return router.query.id;
+    }
+    return router.query.id[0];
+  };
+
   return (
     <ul className="flex space-x-3">
       <Link href="/">
@@ -24,8 +29,8 @@ export default function Navigation() {
           <a
             className={`cursor-pointer ${
               router.pathname === item.path ||
-              item.path.includes(router.query.id) ||
-              (router.pathname.includes(item.path) && item.path != '/')
+              item.path.includes(router.query.id ? queryId() : 'xxxxx') ||
+              (router.pathname.includes(item.path) && item.path !== '/')
                 ? 'text-primary'
                 : 'text-secondary'
             }`}
