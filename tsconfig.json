@@ -10,7 +10,6 @@
     "alwaysStrict": true,
     "strictNullChecks": true,
     "noUncheckedIndexedAccess": true,
-
     "noImplicitAny": true,
     "noImplicitReturns": true,
     "noImplicitThis": true,
@@ -18,18 +17,21 @@
     "noUnusedParameters": true,
     "allowUnreachableCode": false,
     "noFallthroughCasesInSwitch": true,
-
     "target": "es5",
     "outDir": "out",
     "declaration": true,
     "sourceMap": true,
-
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "allowJs": false,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
-
+    // Remove comment after tsconfig-paths-webpack-plugin support webpack 5
+    // "baseUrl": ".",
+    // "paths": {
+    //   "@components/*": ["src/components/*"]
+    // },
+    "types": ["jest", "cypress"],
     "jsx": "preserve",
     "noEmit": true,
     "isolatedModules": true
