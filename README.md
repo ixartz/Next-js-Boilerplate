@@ -125,11 +125,11 @@ Now, your blog is ready to be deployed. All generated files are located at `out`
 ### Deploy with Docker
 
 1. Install Docker for your platform (www.docker.com)
-1. Open terminal and cd to this foldder. 
+1. Open terminal and cd to this folder 
 1. Execute `docker build .`
 1. Copy the build tag
-1. Execute `docker run [paste]'. Replace the `[paste]` with build tag you copied...should be something like `docker run 6484332e32d845a780becce1063bc1d0d596973be494f2939aa83c5f0012c036`
-1. [On Mac] Navigate to http://docker.for.mac.localhost:3000/
+1. Execute `docker run -p 33000:3000 [paste]'. Replace the `[paste]` with build tag you copied...should be something like `docker run -p 33000:3000 6484332e32d845a780becce1063bc1d0d596973be494f2939aa83c5f0012c036`
+1. [On Mac] Navigate to http://docker.for.mac.localhost:33000/
 
 [Optional]
 ### Build and Push Image to AWS ECR (Elastic Container Repository)
