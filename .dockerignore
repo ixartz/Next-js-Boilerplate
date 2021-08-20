@@ -1,0 +1,26 @@
+# Folders
+/.history/
+/.tmp/
+/.next/
+/out/
+/node_modules/
+/output/
+/.reports/
+/w3c/
+/src/static/sitemap.xml
+
+# IntelliJ project files
+.idea
+*.iml
+gen
+
+# Node template
+# Logs
+logs
+*.log
+*.log.*
+
+# Files
+.DS_Store
+.scannerwork
+sw.*

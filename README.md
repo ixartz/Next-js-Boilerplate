@@ -57,6 +57,7 @@ Find more [Nextjs Themes](https://creativedesignsguru.com/category/nextjs/).
 ### Requirements
 
 - Node.js and npm
+- [Optional] Docker
 
 ### Getting started
 
@@ -120,6 +121,60 @@ npm run build-prod
 ```
 
 Now, your blog is ready to be deployed. All generated files are located at `out` folder, which you can deploy with any hosting service.
+
+### Deploy with Docker
+
+1. Install Docker for your platform (www.docker.com)
+1. Open terminal and cd to this foldder. 
+1. Execute `docker build .`
+1. Copy the build tag
+1. Execute `docker run [paste]'. Replace the `[paste]` with build tag you copied...should be something like `docker run 6484332e32d845a780becce1063bc1d0d596973be494f2939aa83c5f0012c036`
+1. [On Mac] Navigate to http://docker.for.mac.localhost:3000/
+
+[Optional]
+### Build and Push Image to AWS ECR (Elastic Container Repository)
+1. AWS Account Required and Github Repository with Actions enabled.
+1. Create new ECR Repository
+1. Create new `docker-ecr` user in AWS IAM
+1. Only Programmatic Access
+1. Click "Attach existing policies directly"
+1. Grant Permissions
+```
+ AmazonEC2ContainerRegistryPowerUser
+```
+1. Click on "Create Policy", this will open new window. Click on "JSON" and paste in:
+```
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "GetAuthorizationToken",
+            "Effect": "Allow",
+            "Action": [
+                "ecr:GetAuthorizationToken"
+            ],
+            "Resource": "*"
+        }
+    ]
+}
+```
+1. Save this Policy as `ECR-GetAuthorizationToken`
+1. Go back to window creating the new User. Click on the ♽ refresh button (don't refresh the entire page)
+1. Search for `ECR-GetAuthorizationToken`. Apply.
+1. Save User `docker-ecr`
+1. Download Access Key and Secret. Save.
+1. Open your repo on github. Click on "Settings" and then "Secrets".
+1. Create the secrets:
+```
+DOCKER_ECR_AWS_ACCESS: 'from your docker-ecr credentials above'
+DOCKER_ECR_AWS_SECRET: 'from your docker-ecr credentials above'
+ECR_REPOSITORY: 'from your repository name'
+AWS_REGION: 'your region'
+```
+1. MOVE file `.github/workflows/.docker-build-push.yml` to `.github/workflows/docker-build-push.yml`
+1. Commit and Push. Should see an new job under `Actions`. Make sure it completes without error.
+1. Check ECR and should see newly committed image.
+1. This image can now be used on a variety of AWS hosting solutions
 
 ### Deploy to Netlify
 

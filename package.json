@@ -5,15 +5,16 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "start:static": "node ./env/static-server.js",
     "build-stats": "cross-env ANALYZE=true npm run build",
     "export": "next export",
     "build-prod": "run-s clean build export",
     "clean": "rimraf .next out",
     "lint": "next lint",
-    "build-types": "tsc --noEmit --pretty",
-    "prepare": "husky install"
+    "build-types": "tsc --noEmit --pretty"
   },
   "dependencies": {
+    "express": "4.17.1",
     "next": "^11.1.0",
     "next-seo": "^4.26.0",
     "react": "^17.0.2",
