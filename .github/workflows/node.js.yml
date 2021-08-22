@@ -25,16 +25,8 @@ jobs:
       uses: actions/setup-node@v2
       with:
         node-version: ${{ matrix.node-version }}
-        cache: 'npm'
-    - run: npm ci
-    - run: npm run build --if-present
-    - run: npm run test:ci
-    - run: npm run e2e:headless
-
-    - name: Publish to Chromatic
-      uses: chromaui/action@v1
-      # Chromatic GitHub Action options
-      with:
-        token: ${{ secrets.GITHUB_TOKEN }}
-        # 👇 Chromatic projectToken, refer to the manage page to obtain it.
-        projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
+        cache: 'yarn'
+    - run: yarn ci
+    - run: yarn build
+    - run: yarn test:ci
+    - run: yarn e2e:headless
