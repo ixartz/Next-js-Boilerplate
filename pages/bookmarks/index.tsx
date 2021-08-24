@@ -26,16 +26,22 @@ export default function BookmarksPage({ allPostsData, airtableApiKey }) {
         />
       }
     >
-      <PageIntro>Bookmarks</PageIntro>
+      <PageIntro>Reading List</PageIntro>
       <WidthContainer leftAligned>
         <p>
-          This is an experimental list of all my bookmarks over the past
+          Below is an experimental list of all my bookmarks over the past
           year(ish), scraped from{' '}
           <a href="https://mymind.com" title="MyMind">
             MyMind
           </a>
-          . Explore bookmarks related by one or two degrees of separation by
-          selecting one on the left. See the code here on Github.
+          . Explore links related by one or two degrees of separation.{' '}
+          <a
+            href="https://github.com/samstephenson/Personal-Site/tree/master/components/Bookmarks"
+            title="Bookmarks - Github"
+          >
+            See the code here on Github
+          </a>
+          .
         </p>
         <br />
       </WidthContainer>

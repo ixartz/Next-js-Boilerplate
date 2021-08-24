@@ -6,6 +6,7 @@ import { Config } from '../utils/Config';
 const menu = [
   { title: 'Work', path: '/' },
   { title: 'Blog', path: '/blog' },
+  { title: 'Reading', path: '/bookmarks' },
   { title: 'About', path: '/about' },
 ];
 
