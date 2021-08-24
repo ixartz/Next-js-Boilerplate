@@ -19,6 +19,7 @@
     "@sentry/tracing": "^6.3.0",
     "@tailwindcss/jit": "^0.1.8",
     "@tailwindcss/typography": "^0.4.1",
+    "airtable": "^0.11.1",
     "date-fns": "^2.20.1",
     "fs": "0.0.1-security",
     "gray-matter": "^4.0.2",
