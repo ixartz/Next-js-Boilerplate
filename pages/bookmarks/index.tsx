@@ -1,10 +1,10 @@
 import React from 'react';
+import Bookmarks from '../../components/Bookmarks/Bookmarks';
 import { PageIntro } from '../../components/PageIntro';
 import { WidthContainer } from '../../components/WidthContainer';
 import { Main } from '../../layout/Main';
 import { Meta } from '../../layout/Meta';
 import { getSortedPageData } from '../../utils/generatePages';
-import Bookmarks from './Bookmarks';
 
 export async function getStaticProps() {
   const allPostsData = getSortedPageData('_blog');
