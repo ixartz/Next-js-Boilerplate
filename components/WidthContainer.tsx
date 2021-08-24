@@ -13,6 +13,7 @@ export const WidthContainer = ({
     xs: 'max-w-3xl',
     md: 'max-w-screen-md',
     lg: 'max-w-6xl',
+    full: 'max-w-none',
   };
 
   return (
