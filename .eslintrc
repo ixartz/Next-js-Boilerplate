@@ -16,7 +16,6 @@
       "plugins": ["@typescript-eslint", "unused-imports"],
       "extends": [
         "airbnb-typescript",
-        "next",
         "next/core-web-vitals",
         "plugin:prettier/recommended"
       ],
