@@ -1,0 +1,15 @@
+Content-Length: 572
+
+{"jsonrpc":"2.0","id":0,"result":{"capabilities":{"textDocumentSync":2,"completionProvider":{"resolveProvider":false},"hoverProvider":true,"documentSymbolProvider":true,"documentFormattingProvider":false,"documentOnTypeFormattingProvider":{"firstTriggerCharacter":"\n"},"documentRangeFormattingProvider":false,"documentLinkProvider":{},"foldingRangeProvider":false,"codeActionProvider":true,"codeLensProvider":{"resolveProvider":false},"executeCommandProvider":{"commands":["jumpToSchema"]},"workspace":{"workspaceFolders":{"changeNotifications":true,"supported":true}}}}}Content-Length: 204
+
+{"jsonrpc":"2.0","id":0,"method":"client/registerCapability","params":{"registrations":[{"id":"663ba42e-da6d-4147-9ad1-b671fe445e55","method":"workspace/didChangeWorkspaceFolders","registerOptions":{}}]}}Content-Length: 139
+
+{"jsonrpc":"2.0","id":1,"method":"workspace/configuration","params":{"items":[{"section":"yaml"},{"section":"http"},{"section":"[yaml]"}]}}Content-Length: 154
+
+{"jsonrpc":"2.0","method":"window/logMessage","params":{"type":3,"message":"Registering request handler for workspace/didChangeWorkspaceFolders failed."}}Content-Length: 982
+
+{"jsonrpc":"2.0","method":"window/logMessage","params":{"type":1,"message":"(node:90395) UnhandledPromiseRejectionWarning: Error: Invalid parameter: registrations\nRegistrations must be of type Registration[]\n    at handleResponse (/Users/samstephenson/Library/Application Support/Nova/Extensions/robb-j.yaml/node_modules/vscode-jsonrpc/lib/common/connection.js:477:48)\n    at processMessageQueue (/Users/samstephenson/Library/Application Support/Nova/Extensions/robb-j.yaml/node_modules/vscode-jsonrpc/lib/common/connection.js:292:17)\n    at Immediate.<anonymous> (/Users/samstephenson/Library/Application Support/Nova/Extensions/robb-j.yaml/node_modules/vscode-jsonrpc/lib/common/connection.js:276:13)\n    at processImmediate (internal/timers.js:461:21)\n    at emitUnhandledRejectionWarning (internal/process/promises.js:168:15)\n    at processPromiseRejections (internal/process/promises.js:224:9)\n    at processTicksAndRejections (internal/process/task_queues.js:94:32)"}}Content-Length: 728
+
+{"jsonrpc":"2.0","method":"window/logMessage","params":{"type":1,"message":"(node:90395) Error: Invalid parameter: registrations\nRegistrations must be of type Registration[]\n    at handleResponse (/Users/samstephenson/Library/Application Support/Nova/Extensions/robb-j.yaml/node_modules/vscode-jsonrpc/lib/common/connection.js:477:48)\n    at processMessageQueue (/Users/samstephenson/Library/Application Support/Nova/Extensions/robb-j.yaml/node_modules/vscode-jsonrpc/lib/common/connection.js:292:17)\n    at Immediate.<anonymous> (/Users/samstephenson/Library/Application Support/Nova/Extensions/robb-j.yaml/node_modules/vscode-jsonrpc/lib/common/connection.js:276:13)\n    at processImmediate (internal/timers.js:461:21)"}}Content-Length: 38
+
+{"jsonrpc":"2.0","id":1,"result":null}

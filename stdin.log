@@ -1,0 +1,13 @@
+Content-Length: 1756
+
+{"jsonrpc":"2.0","id":0,"method":"initialize","params":{"rootUri":"file:\/\/\/Volumes\/Macintosh%20HD\/Users\/samstephenson\/Documents\/GitHub\/personal-website\/","rootPath":"\/Volumes\/Macintosh HD\/Users\/samstephenson\/Documents\/GitHub\/personal-website","workspaceFolders":[{"uri":"file:\/\/\/Volumes\/Macintosh%20HD\/Users\/samstephenson\/Documents\/GitHub\/personal-website\/","name":"personal-website"}],"capabilities":{"workspace":{"configuration":true,"applyEdit":true,"executeCommand":{},"workspaceFolders":true,"workspaceEdit":{"failureHandling":"undo","documentChanges":true,"resourceOperations":["create","rename","delete"]}},"textDocument":{"rename":{"prepareSupport":true},"codeAction":{"codeActionLiteralSupport":{"codeActionKind":{"valueSet":["","quickfix","refactor","refactor.inline","refactor.extract","refactor.rewrite","source","source.organizeImports"]}},"isPreferredSupport":true},"hover":{"contentFormat":["markdown","plaintext"]},"completion":{"completionItem":{"snippetSupport":true,"deprecatedSupport":true,"commitCharactersSupport":true,"documentationFormat":["markdown","plaintext"],"tagSupport":{"valueSet":[1]}},"completionItemKind":{"valueSet":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25]},"contextSupport":true},"codeLens":{},"documentHighlight":{},"synchronization":{"didSave":true,"willSave":true,"willSaveWaitUntil":true},"publishDiagnostics":{"versionSupport":true,"relatedInformation":true},"declaration":{"linkSupport":true},"typeDefinition":{"linkSupport":true},"definition":{"linkSupport":true},"implementation":{"linkSupport":true},"signatureHelp":{"signatureInformation":{"documentationFormat":["markdown","plaintext"]}}}},"processId":67455,"clientInfo":{"name":"Nova","version":"7.3"}}}Content-Length: 52
+
+{"jsonrpc":"2.0","method":"initialized","params":{}}Content-Length: 139
+
+{"jsonrpc":"2.0","id":0,"error":{"message":"Invalid parameter: registrations\nRegistrations must be of type Registration[]","code":-32602}}Content-Length: 112
+
+{"jsonrpc":"2.0","id":1,"result":[{"format.enable":false,"validate":true,"completion":true,"hover":true},{},{}]}Content-Length: 56
+
+{"jsonrpc":"2.0","id":1,"method":"shutdown","params":{}}Content-Length: 45
+
+{"jsonrpc":"2.0","method":"exit","params":{}}
