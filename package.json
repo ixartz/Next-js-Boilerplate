@@ -42,10 +42,10 @@
     "husky": "^7.0.4",
     "lint-staged": "^11.2.6",
     "npm-run-all": "^4.1.5",
-    "postcss": "^8.3.11",
+    "postcss": "^8.4.5",
     "prettier": "^2.4.1",
     "rimraf": "^3.0.2",
-    "tailwindcss": "^2.2.19",
+    "tailwindcss": "^3.0.7",
     "typescript": "^4.4.4"
   },
   "license": "ISC"
