@@ -37,11 +37,8 @@
 
     "baseUrl": ".",
     "paths": {
-      "@/layout/*": ["src/layout/*"],
-      "@/styles/*": ["src/styles/*"],
-      "@/utils/*": ["src/utils/*"],
-      "@/templates/*": ["src/templates/*"],
-      "@/assets/*": ["public/*"]
+      "@/*": ["./src/*"],
+      "@/public/*": ["./public/*"]
     }
   },
   "exclude": ["./out/**/*", "./node_modules/**/*"],
