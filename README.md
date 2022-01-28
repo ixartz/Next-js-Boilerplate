@@ -43,9 +43,9 @@ Built-in feature from Next.js:
 
 ### Nextless.js SaaS Boilerplate
 
-Building your SaaS product faster with [Nextless JS SaaS Boilerplate](https://nextlessjs.com).
+Build your SaaS product faster with [React SaaS Boilerplate](https://nextlessjs.com).
 
-[![Nextless React SaaS Boilerplate](https://nextlessjs.com/assets/images/hero-image.png)](https://nextlessjs.com)
+[![React SaaS Boilerplate Next.js](https://creativedesignsguru.com/assets/images/themes/next-js-saas-starter-kit.jpg)](https://nextlessjs.com)
 
 ### Premium Themes
 
