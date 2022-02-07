@@ -146,7 +146,7 @@ Everyone is welcome to contribute to this project. Feel free to open an issue if
 
 ### License
 
-Licensed under the MIT License, Copyright © 2020
+Licensed under the MIT License, Copyright © 2022
 
 See [LICENSE](LICENSE) for more information.
 
