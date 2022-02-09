@@ -39,6 +39,7 @@
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.28.0",
     "eslint-plugin-react-hooks": "^4.3.0",
+    "eslint-plugin-tailwindcss": "^3.4.3",
     "eslint-plugin-unused-imports": "^2.0.0",
     "husky": "^7.0.4",
     "lint-staged": "^12.3.2",

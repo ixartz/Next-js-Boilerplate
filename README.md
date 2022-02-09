@@ -17,7 +17,7 @@ Developer experience first:
 - 💅 PostCSS for processing Tailwind CSS and integrated to `styled-jsx`
 - 🎉 Type checking [TypeScript](https://www.typescriptlang.org)
 - ✅ Strict Mode for TypeScript and React 17
-- ✏️ Linter with [ESLint](https://eslint.org) (default NextJS, NextJS Core Web Vitals and Airbnb configuration)
+- ✏️ Linter with [ESLint](https://eslint.org) (default NextJS, NextJS Core Web Vitals, Tailwind CSS and Airbnb configuration)
 - 💡 Absolute Imports
 - 🛠 Code Formatter with [Prettier](https://prettier.io)
 - 🦊 Husky for Git Hooks

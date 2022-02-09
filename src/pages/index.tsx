@@ -21,7 +21,7 @@ const Index = () => {
           alt="Nextjs starter banner"
         />
       </a>
-      <h1 className="font-bold text-2xl">
+      <h1 className="text-2xl font-bold">
         Boilerplate code for your Nextjs project with Tailwind CSS
       </h1>
       <p>
@@ -36,7 +36,7 @@ const Index = () => {
         Made with Next.js, TypeScript, ESLint, Prettier, Husky, Lint-Staged,
         VSCode, Netlify, PostCSS, Tailwind CSS.
       </p>
-      <h2 className="font-semibold text-lg">Next js Boilerplate Features</h2>
+      <h2 className="text-lg font-semibold">Next js Boilerplate Features</h2>
       <p>Developer experience first:</p>
       <ul>
         <li>
@@ -157,7 +157,7 @@ const Index = () => {
           Cache busting
         </li>
       </ul>
-      <h2 className="font-semibold text-lg">Our Stater code Philosophy</h2>
+      <h2 className="text-lg font-semibold">Our Stater code Philosophy</h2>
       <ul>
         <li>Minimal code</li>
         <li>SEO-friendly</li>

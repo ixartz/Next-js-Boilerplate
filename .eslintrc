@@ -1,6 +1,7 @@
 {
   // Configuration for JavaScript files
   "extends": [
+    "plugin:tailwindcss/recommended",
     "airbnb-base",
     "next/core-web-vitals",
     "plugin:prettier/recommended"
@@ -13,6 +14,7 @@
       }
     ]
   },
+  "plugins": ["tailwindcss"],
   "overrides": [
     // Configuration for TypeScript files
     {
