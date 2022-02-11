@@ -1,7 +1,6 @@
 {
   // Configuration for JavaScript files
   "extends": [
-    "plugin:tailwindcss/recommended",
     "airbnb-base",
     "next/core-web-vitals",
     "plugin:prettier/recommended"
@@ -14,13 +13,13 @@
       }
     ]
   },
-  "plugins": ["tailwindcss"],
   "overrides": [
     // Configuration for TypeScript files
     {
       "files": ["**/*.ts", "**/*.tsx"],
-      "plugins": ["@typescript-eslint", "unused-imports"],
+      "plugins": ["@typescript-eslint", "unused-imports", "tailwindcss"],
       "extends": [
+        "plugin:tailwindcss/recommended",
         "airbnb-typescript",
         "next/core-web-vitals",
         "plugin:prettier/recommended"
@@ -62,6 +61,7 @@
         "@typescript-eslint/comma-dangle": "off", // Avoid conflict rule between Eslint and Prettier
         "import/prefer-default-export": "off", // Named export is easier to refactor automatically
         "class-methods-use-this": "off", // _document.tsx use render method without `this` keyword
+        "tailwindcss/no-custom-classname": "off", // Disabled otherwise nightmare to allow each custom tailwind classes
         "@typescript-eslint/no-unused-vars": "off",
         "unused-imports/no-unused-imports": "error",
         "unused-imports/no-unused-vars": [
