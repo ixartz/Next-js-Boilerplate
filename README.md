@@ -57,7 +57,7 @@ Find more [Nextjs Themes](https://creativedesignsguru.com/category/nextjs/).
 
 ### Requirements
 
-- Node.js and npm
+- Node.js 14+ and npm
 
 ### Getting started
 
