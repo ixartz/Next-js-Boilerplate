@@ -1,4 +1,6 @@
 import React from 'react';
+
+import { minorProjects } from '../_data/homepageData';
 import { PageIntro } from '../components/PageIntro';
 import { ProjectGallery } from '../components/ProjectGallery';
 import { ProjectItem, ProjectList } from '../components/ProjectList';
@@ -7,7 +9,6 @@ import { WidthContainer } from '../components/WidthContainer';
 import { Main } from '../layout/Main';
 import { Meta } from '../layout/Meta';
 import { getSortedPageData } from '../utils/generatePages';
-import { minorProjects } from '../_data/homepageData';
 
 export default function Index({ allPostsData }) {
   // Split projects in to featured/not
@@ -19,21 +20,26 @@ export default function Index({ allPostsData }) {
 
   return (
     <Main
-      meta={
+      meta={(
         <Meta
           title="Sam Stephenson"
           description="London-based digital product designer."
         />
-      }
+      )}
     >
       <PageIntro>
-        I'm Sam. An independent product designer, working with startups to build
-        humane, user-friendly digital products.
+        I&apos;m Sam. a London based product designer, working on tools to help
+        us think and create in new ways.
       </PageIntro>
       <WidthContainer className="pb-8" leftAligned>
         <p>
-          I'm currently taking select freelance projects, and learning to build
-          iOS apps with SwiftUI. To hear about new things I'm working on,{' '}
+          I&apos;m currently in charge of design at
+          {' '}
+          <a href="https://ideaflow.io" title="Ideaflow">
+            Ideaflow
+          </a>
+          . To hear about new things I&apos;m working on,
+          {' '}
           <a
             href="https://world.hey.com/sam.stephenson"
             title="email newsletter"
@@ -47,7 +53,7 @@ export default function Index({ allPostsData }) {
         {projects.featured.map((project) => (
           <ProjectThumb project={project} />
         ))}
-        <div className="hidden lg:inline w-24 h-12 lg:pr-24"></div>
+        <div className="hidden lg:inline w-24 h-12 lg:pr-24" />
       </ProjectGallery>
       <WidthContainer leftAligned>
         <ProjectList title="Other projects">
