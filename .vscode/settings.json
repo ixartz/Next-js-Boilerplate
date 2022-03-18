@@ -1,6 +1,7 @@
 {
   "editor.tabSize": 2,
   "editor.detectIndentation": false,
+  "files.eol": "\n",
   "jest.autoRun": {
     "watch": false,
     "onSave": "test-file"
