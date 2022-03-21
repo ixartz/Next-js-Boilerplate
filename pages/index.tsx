@@ -1,18 +1,18 @@
-import React from 'react';
+import React from "react";
 
-import { minorProjects } from '../_data/homepageData';
-import { PageIntro } from '../components/PageIntro';
-import { ProjectGallery } from '../components/ProjectGallery';
-import { ProjectItem, ProjectList } from '../components/ProjectList';
-import { ProjectThumb } from '../components/ProjectThumb';
-import { WidthContainer } from '../components/WidthContainer';
-import { Main } from '../layout/Main';
-import { Meta } from '../layout/Meta';
-import { getSortedPageData } from '../utils/generatePages';
+import { minorProjects } from "../_data/homepageData";
+import { PageIntro } from "../components/PageIntro";
+import { ProjectGallery } from "../components/ProjectGallery";
+import { ProjectItem, ProjectList } from "../components/ProjectList";
+import { ProjectThumb } from "../components/ProjectThumb";
+import { WidthContainer } from "../components/WidthContainer";
+import { Main } from "../layout/Main";
+import { Meta } from "../layout/Meta";
+import { getSortedPageData } from "../utils/generatePages";
 
 export default function Index({ allPostsData }) {
   // Split projects in to featured/not
-  const featured = ['swim-smooth', 'sow', 'trustify', 'nepal'];
+  const featured = ["swim-smooth", "sow", "trustify", "nepal"];
   const projects = {
     featured: allPostsData.filter((project) => featured.includes(project.id)),
     other: allPostsData.filter((project) => !featured.includes(project.id)),
@@ -20,12 +20,12 @@ export default function Index({ allPostsData }) {
 
   return (
     <Main
-      meta={(
+      meta={
         <Meta
           title="Sam Stephenson"
           description="London-based digital product designer."
         />
-      )}
+      }
     >
       <PageIntro>
         I&apos;m Sam. a London based product designer, working on tools to help
@@ -33,13 +33,11 @@ export default function Index({ allPostsData }) {
       </PageIntro>
       <WidthContainer className="pb-8" leftAligned>
         <p>
-          I&apos;m currently in charge of design at
-          {' '}
+          I&apos;m currently in charge of design at{" "}
           <a href="https://ideaflow.io" title="Ideaflow">
             Ideaflow
           </a>
-          . To hear about new things I&apos;m working on,
-          {' '}
+          . To hear about new things I&apos;m working on,{" "}
           <a
             href="https://world.hey.com/sam.stephenson"
             title="email newsletter"
@@ -51,9 +49,9 @@ export default function Index({ allPostsData }) {
       </WidthContainer>
       <ProjectGallery>
         {projects.featured.map((project) => (
-          <ProjectThumb project={project} />
+          <ProjectThumb project={project} key={project.id} />
         ))}
-        <div className="hidden lg:inline w-24 h-12 lg:pr-24" />
+        <div className="hidden w-24 h-12 lg:inline lg:pr-24" />
       </ProjectGallery>
       <WidthContainer leftAligned>
         <ProjectList title="Other projects">
@@ -85,7 +83,7 @@ export default function Index({ allPostsData }) {
 }
 
 export async function getStaticProps() {
-  const allPostsData = getSortedPageData('_work');
+  const allPostsData = getSortedPageData("_work");
   return {
     props: {
       allPostsData,
