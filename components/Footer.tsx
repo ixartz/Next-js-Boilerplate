@@ -2,9 +2,11 @@ import { useTheme } from "next-themes";
 import React from "react";
 import { ContactSpiel } from "./ContactSpiel";
 import { WidthContainer } from "./WidthContainer";
+import { useRouter } from "next/router";
 
-export default function Footer(className = "") {
+export default function Footer({ className = "" }) {
   const { theme, setTheme } = useTheme();
+  const router = useRouter();
 
   const darkModeIcon = () => {
     if (theme === "dark") {
@@ -12,6 +14,8 @@ export default function Footer(className = "") {
     }
     return "M7.707.003a.5.5 0 00-.375.846 6 6 0 01-5.569 10.024.5.5 0 00-.519.765A7.5 7.5 0 107.707.003z";
   };
+
+  if (router.query.video) return <footer></footer>;
 
   return (
     <footer
