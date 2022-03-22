@@ -1,19 +1,20 @@
-import Link from 'next/link';
-import { useRouter } from 'next/router';
-import React from 'react';
-import { Config } from '../utils/Config';
+import Link from "next/link";
+import { useRouter } from "next/router";
+import React from "react";
+import { Config } from "../utils/Config";
 
 const menu = [
-  { title: 'Work', path: '/' },
-  { title: 'Blog', path: '/blog' },
-  { title: 'Reading', path: '/bookmarks' },
-  { title: 'About', path: '/about' },
+  { title: "Work", path: "/" },
+  { title: "Blog", path: "/blog" },
+  { title: "Reading", path: "/bookmarks" },
+  { title: "Meanwhile", path: "/meanwhile" },
+  { title: "About", path: "/about" },
 ];
 
 export default function Navigation() {
   const router = useRouter();
   const queryId = () => {
-    if (typeof router.query.id === 'string') {
+    if (typeof router.query.id === "string") {
       return router.query.id;
     }
     return router.query.id[0];
@@ -30,10 +31,10 @@ export default function Navigation() {
           <a
             className={`cursor-pointer ${
               router.pathname === item.path ||
-              item.path.includes(router.query.id ? queryId() : 'xxxxx') ||
-              (router.pathname.includes(item.path) && item.path !== '/')
-                ? 'text-primary'
-                : 'text-secondary'
+              item.path.includes(router.query.id ? queryId() : "xxxxx") ||
+              (router.pathname.includes(item.path) && item.path !== "/")
+                ? "text-primary"
+                : "text-secondary"
             }`}
           >
             {item.title}
