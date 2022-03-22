@@ -1,6 +1,6 @@
-const Airtable = require('airtable');
+import { Airtable } from "airtable";
 
-const baseId = 'appuSeckjfJtK8Pef';
+const baseId = "appuSeckjfJtK8Pef";
 
 export default async function getAirtable(tableName, apiKey) {
   try {
@@ -8,7 +8,7 @@ export default async function getAirtable(tableName, apiKey) {
       apiKey: apiKey,
     }).base(
       // process.env.AIRTABLE_BASE_ID
-      baseId
+      baseId,
     );
 
     const table = base(tableName);
@@ -17,14 +17,14 @@ export default async function getAirtable(tableName, apiKey) {
         await table
           .select({
             // maxRecords: 100,
-            sort: [{ field: 'created', direction: 'desc' }],
+            sort: [{ field: "created", direction: "desc" }],
           })
-          .all()
-      )
+          .all(),
+      ),
     );
     return records;
   } catch (e) {
-    console.error('error getting airtable data', e);
+    console.error("error getting airtable data", e);
     return null;
   }
 }

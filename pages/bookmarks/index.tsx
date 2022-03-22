@@ -1,13 +1,13 @@
-import React from 'react';
-import Bookmarks from '../../components/Bookmarks/Bookmarks';
-import { PageIntro } from '../../components/PageIntro';
-import { WidthContainer } from '../../components/WidthContainer';
-import { Main } from '../../layout/Main';
-import { Meta } from '../../layout/Meta';
-import { getSortedPageData } from '../../utils/generatePages';
+import React from "react";
+import Bookmarks from "../../components/Bookmarks/Bookmarks";
+import { PageIntro } from "../../components/PageIntro";
+import { WidthContainer } from "../../components/WidthContainer";
+import { Main } from "../../layout/Main";
+import { Meta } from "../../layout/Meta";
+import { getSortedPageData } from "../../utils/generatePages";
 
 export async function getStaticProps() {
-  const allPostsData = getSortedPageData('_blog');
+  const allPostsData = getSortedPageData("_blog");
   return {
     props: {
       allPostsData,
@@ -16,7 +16,7 @@ export async function getStaticProps() {
   };
 }
 
-export default function BookmarksPage({ allPostsData, airtableApiKey }) {
+export default function BookmarksPage({ airtableApiKey }) {
   return (
     <Main
       meta={
@@ -30,11 +30,11 @@ export default function BookmarksPage({ allPostsData, airtableApiKey }) {
       <WidthContainer leftAligned>
         <p>
           Below is an experimental list of all my bookmarks over the past
-          year(ish), scraped from{' '}
+          year(ish), scraped from{" "}
           <a href="https://mymind.com" title="MyMind">
             MyMind
           </a>
-          . Explore links related by one or two degrees of separation.{' '}
+          . Explore links related by one or two degrees of separation.{" "}
           <a
             href="https://github.com/samstephenson/Personal-Site/tree/master/components/Bookmarks"
             title="Bookmarks - Github"

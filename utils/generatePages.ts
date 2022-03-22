@@ -1,25 +1,22 @@
 import fs from "fs";
-import path from "path";
-import renderToString from "next-mdx-remote/render-to-string";
-
 import matter from "gray-matter";
-import remark from "remark";
-import html from "remark-html";
+import renderToString from "next-mdx-remote/render-to-string";
+import path from "path";
 
 // Join folder name to root path
-const contentDirectory = folderName => path.join(process.cwd(), folderName);
+const contentDirectory = (folderName) => path.join(process.cwd(), folderName);
 
 // Select only items with a file extension. Ignore files beginning with '.'
-const filteredToFiles = array =>
-  array.filter(item => item.includes(".") && !item.startsWith("."));
+const filteredToFiles = (array) =>
+  array.filter((item) => item.includes(".") && !item.startsWith("."));
 
 export function getSortedPageData(folderName) {
   // Get file names under /[folderName]
   const fileNames = filteredToFiles(
-    fs.readdirSync(contentDirectory(folderName))
+    fs.readdirSync(contentDirectory(folderName)),
   );
 
-  const allPostsData = fileNames.map(fileName => {
+  const allPostsData = fileNames.map((fileName) => {
     // Remove ".md", ".mdx" or 'index' from file name to get id
     const id = fileName
       .replace("/index", "")
@@ -50,9 +47,9 @@ export function getSortedPageData(folderName) {
 
 export function getAllPageIds(folderName) {
   const fileNames = filteredToFiles(
-    fs.readdirSync(contentDirectory(folderName))
+    fs.readdirSync(contentDirectory(folderName)),
   );
-  return fileNames.map(fileName => ({
+  return fileNames.map((fileName) => ({
     params: {
       id: fileName
         .replace("/index", "")

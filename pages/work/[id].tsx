@@ -1,14 +1,14 @@
-import hydrate from 'next-mdx-remote/hydrate';
-import Image from 'next/image';
-import * as React from 'react';
-import ImageGrid from '../../components/ImageGrid';
-import { WidthContainer } from '../../components/WidthContainer';
-import { Main } from '../../layout/Main';
-import { Meta } from '../../layout/Meta';
-import { getAllPageIds, getPageData } from '../../utils/generatePages';
+import hydrate from "next-mdx-remote/hydrate";
+import Image from "next/image";
+import * as React from "react";
+import ImageGrid from "../../components/ImageGrid";
+import { WidthContainer } from "../../components/WidthContainer";
+import { Main } from "../../layout/Main";
+import { Meta } from "../../layout/Meta";
+import { getAllPageIds, getPageData } from "../../utils/generatePages";
 
 export async function getStaticPaths() {
-  const paths = await getAllPageIds('_work');
+  const paths = await getAllPageIds("_work");
   return {
     paths,
     fallback: false,
@@ -16,7 +16,7 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params }: { params: any }) {
-  const { mdxSource, data } = await getPageData(params.id, '_work');
+  const { mdxSource, data } = await getPageData(params.id, "_work");
 
   return {
     props: {
@@ -26,7 +26,7 @@ export async function getStaticProps({ params }: { params: any }) {
   };
 }
 
-const cloudinary = ({ src, width, quality }) =>
+const cloudinary = ({ src }) =>
   `https://res.cloudinary.com/samstephenson/image/upload/${src}`;
 
 // Pass in needed components here
@@ -46,12 +46,12 @@ const components = {
   ),
 };
 
-const metaInfo = ['what', 'role', 'whoWith', 'when'];
+const metaInfo = ["what", "role", "whoWith", "when"];
 
 function MetaBlock(props) {
   return (
     <div className="">
-      <p className="uppercase pb-1 text-xs text-secondary">{props.title}</p>
+      <p className="pb-1 text-xs uppercase text-secondary">{props.title}</p>
       <p className="my-0">{props.text}</p>
     </div>
   );
@@ -70,19 +70,19 @@ export default function Post({ source, frontMatter }) {
       }
     >
       <WidthContainer leftAligned size="lg" className="lg:pb-4">
-        <p className="font-bold mb-4">{frontMatter.name}</p>
-        <h1 className="text-4xl md:text-5xl font-bold">
+        <p className="mb-4 font-bold">{frontMatter.name}</p>
+        <h1 className="text-4xl font-bold md:text-5xl">
           {frontMatter.headline}
         </h1>
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4 my-8 border-t border-b border-gray-100 dark:border-gray-800 py-4">
+        <div className="grid gap-4 py-4 my-8 border-t border-b border-gray-100 md:grid-cols-2 lg:grid-cols-4 dark:border-gray-800">
           {metaInfo.map(
             (item) =>
               frontMatter[item] && (
                 <MetaBlock
-                  title={item == 'whoWith' ? 'with' : item}
+                  title={item == "whoWith" ? "with" : item}
                   text={frontMatter[item]}
                 />
-              )
+              ),
           )}
         </div>
       </WidthContainer>
@@ -103,7 +103,7 @@ export default function Post({ source, frontMatter }) {
         className="prose prose-lg md:prose-xl dark:prose-dark"
       >
         {frontMatter.summary && (
-          <p className="text-xl mb-12">{frontMatter.summary}</p>
+          <p className="mb-12 text-xl">{frontMatter.summary}</p>
         )}
         {content}
       </WidthContainer>

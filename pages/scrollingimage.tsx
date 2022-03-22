@@ -1,10 +1,10 @@
-import Image from 'next/image';
-import React from 'react';
-import { WidthContainer } from '../components/WidthContainer';
-import { Main } from '../layout/Main';
-import { Meta } from '../layout/Meta';
+import Image from "next/image";
+import React from "react";
+import { WidthContainer } from "../components/WidthContainer";
+import { Main } from "../layout/Main";
+import { Meta } from "../layout/Meta";
 
-export default function ScrollingThing({}) {
+export default function ScrollingThing() {
   return (
     <Main
       meta={
@@ -54,11 +54,11 @@ export function AsideAnnotation({ title, children, yOffset }) {
   return (
     <div
       style={{
-        top: yOffset + '%',
+        top: yOffset + "%",
       }}
     >
-      <p className="font-bold pl-24 mb-2">{title}. </p>
-      <p className="relative pl-24 pt-2 border-t border-t-1">{children}</p>
+      <p className="pl-24 mb-2 font-bold">{title}. </p>
+      <p className="relative pt-2 pl-24 border-t border-t-1">{children}</p>
     </div>
   );
 }
