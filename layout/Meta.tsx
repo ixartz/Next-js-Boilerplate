@@ -1,9 +1,10 @@
-import React from 'react';
+import React from "react";
 
-import { NextSeo } from 'next-seo';
-import Head from 'next/head';
+import { NextSeo } from "next-seo";
+import Head from "next/head";
+import Script from "next/script";
 
-import { Config } from '../utils/Config';
+import { Config } from "../utils/Config";
 
 type IMetaProps = {
   title: string;
@@ -15,7 +16,11 @@ const Meta = (props: IMetaProps) => (
   <>
     <Head>
       <meta charSet="UTF-8" key="charset" />
-      <meta name="viewport" content="width=device-width,initial-scale=1" key="viewport" />
+      <meta
+        name="viewport"
+        content="width=device-width,initial-scale=1"
+        key="viewport"
+      />
       <link
         rel="apple-touch-icon"
         href={`${process.env.baseUrl}/apple-touch-icon.png`}
@@ -35,18 +40,22 @@ const Meta = (props: IMetaProps) => (
         href={`${process.env.baseUrl}/favicon-16x16.png`}
         key="icon16"
       />
-      <link rel="icon" href={`${process.env.baseUrl}/favicon.ico`} key="favicon" />
-      <script
-        async
-        defer
-        data-domain="samstephenson.com"
-        src="https://plausible.io/js/plausible.js"
-      />
       <link
+        rel="icon"
+        href={`${process.env.baseUrl}/favicon.ico`}
+        key="favicon"
+      />
+      {/* <link
         rel="stylesheet"
         href="https://unpkg.com/@tailwindcss/typography@0.2.x/dist/typography.min.css"
-      />
+      /> */}
     </Head>
+    <Script
+      async
+      defer
+      data-domain="samstephenson.com"
+      src="https://plausible.io/js/plausible.js"
+    />
     <NextSeo
       title={props.title}
       description={props.description}
