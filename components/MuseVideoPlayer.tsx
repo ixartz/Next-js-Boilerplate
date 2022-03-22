@@ -1,10 +1,19 @@
 import { useEffect, useState, useRef } from "react";
 import { useRouter } from "next/router";
 
+declare global {
+  interface Window {
+    MusePlayer: any;
+  }
+  interface HTMLDivElement {
+    setVideo: any;
+  }
+}
+
 export default function MuseVideoPlayer() {
   const [aspectRatio, setAspectRatio] = useState(0);
   const router = useRouter();
-  const player = useRef();
+  const player = useRef<HTMLDivElement>();
   const targetRatio = 16 / 9;
 
   useEffect(() => {
@@ -21,12 +30,11 @@ export default function MuseVideoPlayer() {
         logo: false,
         width: "100%",
       });
-      // setLoading(false);
       // Add listeners to increment video on end
       // player.current &&
       //   player.current.on("ended", () => incrementVideoIndex(1));
       return () => {
-        player.current && player.current.video && player.current.off("ended");
+        // player.current && player.current.video && player.current.off("ended");
       };
     }
   }, []);
@@ -36,7 +44,6 @@ export default function MuseVideoPlayer() {
   }, [router]);
 
   function loadVideo() {
-    console.log("loading video", router.query.video);
     player.current && player.current.setVideo(router.query.video);
   }
 
