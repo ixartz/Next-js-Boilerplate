@@ -62,7 +62,6 @@
         ],
         "@typescript-eslint/comma-dangle": "off", // Avoid conflict rule between Eslint and Prettier
         "import/prefer-default-export": "off", // Named export is easier to refactor automatically
-        "class-methods-use-this": "off", // _document.tsx use render method without `this` keyword
         "tailwindcss/classnames-order": [
           "warn",
           {
