@@ -3,13 +3,7 @@ import { render, screen } from '@testing-library/react';
 import About from './about';
 
 // The easiest solution to mock `next/router`: https://github.com/vercel/next.js/issues/7479
-jest.mock('next/router', () => ({
-  useRouter() {
-    return {
-      basePath: '.',
-    };
-  },
-}));
+// The mock has been moved to `__mocks__` folder to avoid duplication
 
 describe('About page', () => {
   it('should render the About page', () => {

@@ -3,16 +3,7 @@ import { ReactNode } from 'react';
 
 import { Meta } from './Meta';
 
-// The easiest solution to mock `next/router`: https://github.com/vercel/next.js/issues/7479
-jest.mock('next/router', () => ({
-  useRouter() {
-    return {
-      basePath: '.',
-    };
-  },
-}));
-
-// Mock `next/head`:
+// Mock `next/head`: https://bradgarropy.com/blog/mocking-nextjs
 jest.mock(
   'next/head',
   () =>
