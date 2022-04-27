@@ -13,6 +13,11 @@ const customJestConfig = {
 
     '^@/public/(.*)$': '<rootDir>/public/$1',
   },
+  collectCoverageFrom: [
+    './src/**/*.{js,jsx,ts,tsx}',
+    '!**/*.d.ts',
+    '!**/node_modules/**',
+  ],
   testEnvironment: 'jest-environment-jsdom',
 };
 
