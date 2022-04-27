@@ -1,6 +1,6 @@
 import { render, screen } from '@testing-library/react';
 
-import About from './about';
+import Index from './index';
 
 // The easiest solution to mock `next/router`: https://github.com/vercel/next.js/issues/7479
 jest.mock('next/router', () => ({
@@ -11,12 +11,14 @@ jest.mock('next/router', () => ({
   },
 }));
 
-describe('About page', () => {
-  it('should render the About page', () => {
-    render(<About />);
+describe('Index page', () => {
+  it('should render the Index page', () => {
+    render(<Index />);
 
-    const paragraph = screen.getAllByText(/Lorem ipsum/);
+    const heading = screen.getByRole('heading', {
+      name: /Boilerplate code/,
+    });
 
-    expect(paragraph).toHaveLength(2);
+    expect(heading).toBeInTheDocument();
   });
 });
