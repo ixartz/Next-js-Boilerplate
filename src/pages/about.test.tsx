@@ -1,6 +1,6 @@
 import { render, screen } from '@testing-library/react';
 
-import About from '@/pages/about';
+import About from './about';
 
 // The easiest solution to mock `next/router`: https://github.com/vercel/next.js/issues/7479
 jest.mock('next/router', () => ({
