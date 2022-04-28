@@ -4,7 +4,7 @@
   <a href="https://creativedesignsguru.com/demo/Nextjs-Boilerplate/"><img src="public/assets/images/nextjs-starter-banner.png?raw=true" alt="Next js starter banner"></a>
 </p>
 
-🚀 Boilerplate and Starter for Next.js, Tailwind CSS and TypeScript ⚡️ Made with developer experience first: Next.js, TypeScript, ESLint, Prettier, Husky, Lint-Staged, VSCode, Netlify, PostCSS, Tailwind CSS.
+🚀 Boilerplate and Starter for Next.js, Tailwind CSS and TypeScript ⚡️ Made with developer experience first: Next.js, TypeScript, ESLint, Prettier, Husky, Lint-Staged, Jest, Testing Library, VSCode, Netlify, PostCSS, Tailwind CSS.
 
 Clone this project and use it to create your own [Next.js](https://nextjs.org) project. You can check a [Next js templates demo](https://creativedesignsguru.com/demo/Nextjs-Boilerplate/).
 
@@ -15,12 +15,13 @@ Developer experience first:
 - ⚡ [Next.js](https://nextjs.org) for Static Site Generator
 - 🔥 Type checking [TypeScript](https://www.typescriptlang.org)
 - 💎 Integrate with [Tailwind CSS](https://tailwindcss.com)
-- ✅ Strict Mode for TypeScript and React 17
+- ✅ Strict Mode for TypeScript and React 18
 - 📏 Linter with [ESLint](https://eslint.org) (default NextJS, NextJS Core Web Vitals, Tailwind CSS and Airbnb configuration)
 - 💖 Code Formatter with [Prettier](https://prettier.io)
 - 🦊 Husky for Git Hooks
 - 🚫 Lint-staged for running linters on Git staged files
 - 🚓 Lint git commit with Commitlint
+- 🦺 Testing with Jest and React Testing Library
 - 💡 Absolute Imports using `@` prefix
 - 🗂 VSCode configuration: Debug, Settings, Tasks and extension for PostCSS, ESLint, Prettier, TypeScript
 - 🤖 SEO metadata, JSON-LD and Open Graph tags with Next SEO
@@ -63,7 +64,7 @@ Find more [Nextjs Themes](https://creativedesignsguru.com/category/nextjs/).
 
 Run the following command on your local environment:
 
-```
+```shell
 git clone --depth=1 https://github.com/ixartz/Next-js-Boilerplate.git my-project-name
 cd my-project-name
 npm install
@@ -71,27 +72,13 @@ npm install
 
 Then, you can run locally in development mode with live reload:
 
-```
+```shell
 npm run dev
 ```
 
 Open http://localhost:3000 with your favorite browser to see your project.
 
-```
-.
-├── README.md                # README file
-├── next.config.js           # Next JS configuration
-├── public                   # Public folder
-│   └── assets
-│       └── images           # Image used by default template
-├── src
-│   ├── layout               # Atomic layout components
-│   ├── pages                # Next JS pages
-│   ├── styles               # PostCSS style folder with Tailwind
-│   ├── templates            # Default template
-│   └── utils                # Utility folder
-├── tailwind.config.js       # Tailwind CSS configuration
-└── tsconfig.json            # TypeScript configuration
+```shell
 ```
 
 ### Customization
@@ -107,7 +94,7 @@ You can easily configure Next js Boilerplate. Please change the following file:
 
 You can see the results locally in production mode with:
 
-```
+```shell
 $ npm run build
 $ npm run start
 ```
@@ -116,11 +103,13 @@ The generated HTML and CSS files are minified (built-in feature from Next js). I
 
 You can create an optimized production build with:
 
-```
+```shell
 npm run build-prod
 ```
 
 Now, your blog is ready to be deployed. All generated files are located at `out` folder, which you can deploy with any hosting service.
+
+### Testing
 
 ### Deploy to Netlify
 
