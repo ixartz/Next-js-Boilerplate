@@ -18,6 +18,7 @@
     // Configuration for TypeScript files
     {
       "files": ["**/*.ts", "**/*.tsx"],
+      "excludedFiles": ["**/*.test.ts", "**/*.spec.ts"],
       "plugins": [
         "@typescript-eslint",
         "unused-imports",
@@ -78,6 +79,8 @@
     },
     {
       "files": ["**/*.spec.ts"],
+      "plugins": ["cypress"],
+      "extends": ["plugin:cypress/recommended"],
       "parserOptions": {
         "project": "./cypress/tsconfig.json"
       }
