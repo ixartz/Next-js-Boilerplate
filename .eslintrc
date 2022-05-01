@@ -18,7 +18,6 @@
     // Configuration for TypeScript files
     {
       "files": ["**/*.ts", "**/*.tsx"],
-      "excludedFiles": ["**/*.test.ts", "**/*.spec.ts"],
       "plugins": [
         "@typescript-eslint",
         "unused-imports",
