@@ -13,6 +13,7 @@ const customJestConfig = {
 
     '^@/public/(.*)$': '<rootDir>/public/$1',
   },
+  testPathIgnorePatterns: ['<rootDir>/cypress/'],
   collectCoverage: true,
   collectCoverageFrom: [
     './src/**/*.{js,jsx,ts,tsx}',

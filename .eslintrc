@@ -75,6 +75,12 @@
         "plugin:testing-library/react",
         "plugin:jest-dom/recommended"
       ]
+    },
+    {
+      "files": ["**/*.spec.ts"],
+      "parserOptions": {
+        "project": "./cypress/tsconfig.json"
+      }
     }
   ]
 }

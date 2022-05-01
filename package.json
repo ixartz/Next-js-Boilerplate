@@ -12,13 +12,18 @@
     "lint": "next lint",
     "build-types": "tsc --noEmit --pretty",
     "test": "jest --watch",
+    "cypress": "cypress open",
+    "cypress:headless": "cypress run",
+    "e2e": "start-server-and-test start http://localhost:3000 cypress",
+    "e2e:headless": "start-server-and-test start http://localhost:3000 cypress:headless",
     "prepare": "husky install"
   },
   "dependencies": {
     "next": "^12.1.5",
     "next-seo": "^5.4.0",
     "react": "^18.1.0",
-    "react-dom": "^18.1.0"
+    "react-dom": "^18.1.0",
+    "start-server-and-test": "^1.14.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^16.2.4",
@@ -33,6 +38,7 @@
     "autoprefixer": "^10.4.5",
     "cross-env": "^7.0.3",
     "cssnano": "^5.1.7",
+    "cypress": "^9.6.0",
     "eslint": "^8.14.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-airbnb-typescript": "^17.0.0",
