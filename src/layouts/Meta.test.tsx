@@ -1,5 +1,5 @@
 import { render, waitFor } from '@testing-library/react';
-import { ReactNode } from 'react';
+import type { ReactNode } from 'react';
 
 import { Meta } from './Meta';
 
