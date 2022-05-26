@@ -6,7 +6,7 @@
     {
       "label": "Project wide type checking with TypeScript",
       "type": "npm",
-      "script": "build-types",
+      "script": "check-types",
       "problemMatcher": ["$tsc"],
       "group": {
         "kind": "build",
