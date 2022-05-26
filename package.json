@@ -10,7 +10,7 @@
     "build-prod": "run-s clean build export",
     "clean": "rimraf .next out",
     "lint": "next lint",
-    "build-types": "tsc --noEmit --pretty",
+    "check-types": "tsc --noEmit --pretty",
     "test": "jest --watch",
     "prepare": "husky install"
   },
