@@ -1,6 +1,6 @@
 {
   "name": "next-js-boilerplate",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -15,29 +15,29 @@
     "prepare": "husky install"
   },
   "dependencies": {
-    "next": "^12.1.6",
+    "next": "^12.2.0",
     "next-seo": "^5.4.0",
-    "react": "^18.1.0",
-    "react-dom": "^18.1.0"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^16.3.0",
     "@commitlint/config-conventional": "^16.2.4",
-    "@next/bundle-analyzer": "^12.1.6",
+    "@next/bundle-analyzer": "^12.2.0",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
     "@types/jest": "^28.1.0",
     "@types/node": "^17.0.38",
-    "@types/react": "^18.0.10",
+    "@types/react": "^18.0.14",
     "@typescript-eslint/eslint-plugin": "^5.27.0",
     "@typescript-eslint/parser": "^5.27.0",
     "autoprefixer": "^10.4.7",
     "cross-env": "^7.0.3",
-    "cssnano": "^5.1.10",
+    "cssnano": "^5.1.12",
     "eslint": "^8.16.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-airbnb-typescript": "^17.0.0",
-    "eslint-config-next": "^12.1.6",
+    "eslint-config-next": "^12.2.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-jest": "^26.4.6",
@@ -59,7 +59,7 @@
     "postcss": "^8.4.14",
     "prettier": "^2.6.2",
     "rimraf": "^3.0.2",
-    "tailwindcss": "^3.0.24",
+    "tailwindcss": "^3.1.4",
     "typescript": "^4.7.2"
   },
   "author": "Ixartz (https://github.com/ixartz)"
