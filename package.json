@@ -11,7 +11,7 @@
     "clean": "rimraf .next out",
     "lint": "next lint",
     "check-types": "tsc --noEmit --pretty",
-    "test": "jest --watch",
+    "test": "jest",
     "prepare": "husky install"
   },
   "dependencies": {
