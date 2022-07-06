@@ -10,7 +10,7 @@
     "build-prod": "run-s clean build export",
     "clean": "rimraf .next out",
     "lint": "next lint",
-    "check-types": "tsc --noEmit --pretty && tsc --noEmit --pretty -b cypress",
+    "check-types": "tsc --noEmit --pretty",
     "test": "jest",
     "cypress": "cypress open",
     "cypress:headless": "cypress run",
