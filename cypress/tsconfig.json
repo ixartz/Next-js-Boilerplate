@@ -7,5 +7,6 @@
 
     "isolatedModules": false
   },
-  "include": ["**/*.cy.ts"]
+  "include": ["**/*.cy.ts"],
+  "exclude": []
 }
