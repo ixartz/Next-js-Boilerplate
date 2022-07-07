@@ -21,7 +21,8 @@ Developer experience first:
 - 🦊 Husky for Git Hooks
 - 🚫 Lint-staged for running linters on Git staged files
 - 🚓 Lint git commit with Commitlint
-- 🦺 Testing with Jest and React Testing Library
+- 🦺 Unit Testing with Jest and React Testing Library
+- 🧪 E2E Testing with Cypress
 - 💡 Absolute Imports using `@` prefix
 - 🗂 VSCode configuration: Debug, Settings, Tasks and extension for PostCSS, ESLint, Prettier, TypeScript, Jest
 - 🤖 SEO metadata, JSON-LD and Open Graph tags with Next SEO
