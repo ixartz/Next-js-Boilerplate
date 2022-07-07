@@ -41,6 +41,11 @@
       "@/public/*": ["./public/*"]
     }
   },
-  "exclude": ["./out/**/*", "./node_modules/**/*"],
+  "exclude": [
+    "./out/**/*",
+    "./node_modules/**/*",
+    "cypress.config.ts",
+    "./cypress/**/*"
+  ],
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"]
 }

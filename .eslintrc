@@ -70,6 +70,15 @@
         "plugin:testing-library/react",
         "plugin:jest-dom/recommended"
       ]
+    },
+    // Configuration for e2e testing (Cypress)
+    {
+      "files": ["**/*.cy.ts"],
+      "plugins": ["cypress"],
+      "extends": ["plugin:cypress/recommended"],
+      "parserOptions": {
+        "project": "./cypress/tsconfig.json"
+      }
     }
   ]
 }
