@@ -1,7 +1,7 @@
 /* eslint-disable import/no-extraneous-dependencies */
-import { defineConfig } from 'cypress';
+const { defineConfig } = require('cypress');
 
-export default defineConfig({
+module.exports = defineConfig({
   e2e: {
     baseUrl: 'http://localhost:3000',
   },
