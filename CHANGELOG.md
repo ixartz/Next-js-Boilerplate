@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.1.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v2.0.0...v2.1.0) (2022-07-08)
+
+
+### Features
+
+* add cypress and cypress eslint plugin ([5657ee6](https://github.com/ixartz/Next-js-Boilerplate/commit/5657ee6dab03b11020bb2ce80083669785edd6ce))
+
 ## [2.0.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v1.1.0...v2.0.0) (2022-07-03)
 
 
