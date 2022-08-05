@@ -14,10 +14,6 @@
   height: auto;
 }
 
-/* .accordion-wrapper {
-  margin: 0 0 4vh;
-} */
-
 .article-header {
   margin: 3rem 0 1rem;
 }
@@ -128,13 +124,14 @@
   .score-block {
     bottom: 140px;
   }
-}@media (max-width: 400px) {
+}
+@media (max-width: 400px) {
   .fontresize {
-    font-size: 18px
+    font-size: 18px;
   }
-}@media (max-width: 400px) {
-  .titleresize {
-    font-size: 5px;
-    color: green
+}
+@media (max-width: 400px) {
+  .actor-title {
+    font-size: 15px;
   }
 }
