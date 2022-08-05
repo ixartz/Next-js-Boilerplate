@@ -13,9 +13,7 @@ const Index = (props: any) => {
     <div className="wrapper">
       <Header />
       <div className="accordion-wrapper">
-        <div className="accordion-container">
-          <MovieAccordion info={props.movies.results} />
-        </div>
+        <MovieAccordion info={props.movies.results} />
       </div>
       <div className="container">
         <ActorList results={props.actors.results} />
