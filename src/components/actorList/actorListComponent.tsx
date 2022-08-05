@@ -22,8 +22,8 @@ const ActorListComponent = ({ results }: any) => {
   };
 
   return (
-    <div className="actor-list">
-      <Row xs={3} sm={3} md={4} lg={5} className="g-4">
+    <div className="actor-cards">
+      <Row xs={2} sm={3} md={4} lg={5} className="g-4">
         {results.map((item: any, idx: number) => {
           return (
             <Col key={idx}>
