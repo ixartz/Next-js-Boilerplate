@@ -78,6 +78,7 @@
   left: 34%;
   bottom: 5%;
   font-size: 2.1vw;
+  width: 65%;
 }
 
 .accordion-num-img {
@@ -107,6 +108,24 @@
   -moz-user-select: none;
   -webkit-user-select: none;
   -ms-user-select: none;
+}
+
+@media (min-width: 1500px) {
+  .movie-card-corner-title {
+    left: 0.2vw;
+    top: 0.4vw;
+    font-size: 30px;
+  }
+  .accordion-card-title {
+    position: absolute;
+    left: 34%;
+    bottom: 5%;
+    font-size: 25px;
+  }
+
+  .accordion-score-block {
+    font-size: 16px;
+  }
 }
 
 @media (max-width: 1200px) {
@@ -141,24 +160,6 @@
   }
 }
 
-@media (min-width: 1500px) {
-  .movie-card-corner-title {
-    left: 0.2vw;
-    top: 0.4vw;
-    font-size: 30px;
-  }
-  .accordion-card-title {
-    position: absolute;
-    left: 34%;
-    bottom: 5%;
-    font-size: 25px;
-  }
-
-  .accordion-score-block {
-    font-size: 16px;
-  }
-}
-
 @media (max-width: 770px) {
   .accordion-container {
     display: none;
@@ -183,6 +184,7 @@
   .movie-card-corner-title {
     left: 0.3vw;
     top: 0.4vw;
+    width: 90%;
     position: absolute;
   }
   .movie-card-body {
@@ -195,6 +197,14 @@
   .accordion-card-title {
     left: 5%;
     bottom: 2%;
-    font-size: 2.2vw;
+    font-size: calc(10px + 1.3vw);
+  }
+}
+
+@media (max-width: 500px) {
+  .accordion-card-title {
+    left: 5%;
+    bottom: 2%;
+    font-size: calc(6px + 1.3vw);
   }
 }

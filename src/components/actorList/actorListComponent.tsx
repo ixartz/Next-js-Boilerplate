@@ -23,7 +23,7 @@ const ActorListComponent = ({ results }: any) => {
 
   return (
     <div className="actor-list">
-      <Row xs={2} lg={5} className="g-4">
+      <Row xs={3} sm={3} md={4} lg={5} className="g-4">
         {results.map((item: any, idx: number) => {
           return (
             <Col key={idx}>
@@ -38,13 +38,8 @@ const ActorListComponent = ({ results }: any) => {
                   src="http://localhost:3000/images/actor_pic.jpg"
                 />
                 <Card.Body>
-                  <h1 className="text-truncate titleresize ">{item.name}</h1>
-                  <h5
-                    className="text-truncate"
-                    style={{
-                      fontSize: '15px',
-                    }}
-                  >
+                  <h1 className="text-truncate actor-title ">{item.name}</h1>
+                  <p className="text-truncate actor-text">
                     {item.known_for.map((content: any, innerIdx: number) => {
                       return chooseTitle(
                         content.title,
@@ -53,7 +48,7 @@ const ActorListComponent = ({ results }: any) => {
                         item.known_for.length
                       );
                     })}
-                  </h5>
+                  </p>
                 </Card.Body>
               </Card>
             </Col>

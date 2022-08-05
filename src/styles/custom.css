@@ -8,10 +8,6 @@
   height: auto;
 }
 
-/* .accordion-wrapper {
-  margin: 0 0 4vh;
-} */
-
 .wrapper {
   margin: 0 0 5rem;
 }
@@ -114,5 +110,4 @@
   .score-block {
     bottom: 140px;
   }
-
 }
