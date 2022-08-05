@@ -3,23 +3,9 @@
   margin: 1rem 0;
 }
 
-.header {
-  padding: 10px 20px 5px 20px;
-  background: #f2f2f2;
-  border: 0.5px outset gray;
-}
-
 .logo {
   width: 10rem;
   height: auto;
-}
-
-.article-header {
-  margin: 3rem 0 1rem;
-}
-
-.actor-header {
-  margin: 1rem 0 1rem;
 }
 
 .wrapper {
@@ -123,15 +109,5 @@
 @media (max-width: 400px) {
   .score-block {
     bottom: 140px;
-  }
-}
-@media (max-width: 400px) {
-  .fontresize {
-    font-size: 18px;
-  }
-}
-@media (max-width: 400px) {
-  .actor-title {
-    font-size: 15px;
   }
 }
