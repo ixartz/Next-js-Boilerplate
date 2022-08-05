@@ -1,9 +1,17 @@
-.fontresize {
-  font-size: 
+.header-font-resize {
+  margin-bottom: 0 
+}
+
+.actor-header {
+  margin: 25px 0 20px;
+}
+
+.article-header {
+  margin: 35px 0 10px;
 }
 
 @media (max-width: 400px) {
-  .fontresize {
+  .header-font-resize {
     font-size: 18px
   }
 }
