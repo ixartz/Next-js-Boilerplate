@@ -19,9 +19,12 @@
     "prepare": "husky install"
   },
   "dependencies": {
+    "@egjs/react-flicking": "^4.9.1",
+    "bootstrap": "^5.2.0",
     "next": "^12.2.2",
     "next-seo": "^5.4.0",
     "react": "^18.2.0",
+    "react-bootstrap": "^2.4.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
@@ -67,7 +70,7 @@
     "prettier": "^2.7.1",
     "rimraf": "^3.0.2",
     "start-server-and-test": "^1.14.0",
-    "tailwindcss": "^3.1.6",
+    "tailwindcss": "^3.1.7",
     "typescript": "^4.7.4"
   },
   "author": "Ixartz (https://github.com/ixartz)"

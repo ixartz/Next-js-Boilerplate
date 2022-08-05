@@ -1,0 +1,140 @@
+.navbar {
+  padding: 1rem 0;
+  margin: 1rem 0;
+}
+
+.header {
+  padding: 10px 20px 5px 20px;
+  background: #f2f2f2;
+  border: 0.5px outset gray;
+}
+
+.logo {
+  width: 10rem;
+  height: auto;
+}
+
+/* .accordion-wrapper {
+  margin: 0 0 4vh;
+} */
+
+.article-header {
+  margin: 3rem 0 1rem;
+}
+
+.actor-header {
+  margin: 1rem 0 1rem;
+}
+
+.wrapper {
+  margin: 0 0 5rem;
+}
+
+.movie-container {
+  box-sizing: border-box;
+  display: block;
+  margin: 0 0 4rem;
+}
+
+.movie-rank-cards {
+  width: 1000px;
+  height: 450px;
+}
+
+.movie-card {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+}
+
+.rank-block {
+  background-color: #070707;
+  width: 25%;
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+  color: white;
+  text-align: center;
+}
+
+.score-block {
+  background-color: #070707;
+  border-radius: 20px;
+  width: 120px;
+  height: 60px;
+  position: absolute;
+  right: -18%;
+  bottom: 15px;
+  color: black;
+}
+
+.score {
+  font-size: 200%;
+  color: white;
+  position: relative;
+  left: -1%;
+  bottom: -14%;
+}
+
+@media (max-width: 1000px) {
+  .score-block {
+    background-color: black;
+    border-radius: 15px;
+    width: 90px;
+    height: 50px;
+    position: absolute;
+    right: -18%;
+    bottom: 17px;
+    color: black;
+  }
+
+  .score {
+    font-size: 170%;
+    color: white;
+    position: relative;
+    left: -1%;
+    bottom: -14%;
+  }
+}
+
+@media (max-width: 800px) {
+  .score-block {
+    background-color: black;
+    border-radius: 12px;
+    width: 80px;
+    height: 40px;
+    position: absolute;
+    right: -18%;
+    bottom: 20px;
+    color: black;
+  }
+
+  .score {
+    font-size: 140%;
+    color: white;
+    position: relative;
+    left: -1%;
+    bottom: -15%;
+  }
+}
+
+@media (max-width: 500px) {
+  .score-block {
+    bottom: 150px;
+  }
+}
+
+@media (max-width: 400px) {
+  .score-block {
+    bottom: 140px;
+  }
+}@media (max-width: 400px) {
+  .fontresize {
+    font-size: 18px
+  }
+}@media (max-width: 400px) {
+  .titleresize {
+    font-size: 5px;
+    color: green
+  }
+}

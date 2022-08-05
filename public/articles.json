@@ -1,0 +1,53 @@
+{
+  "page": 1,
+  "results": [
+    {
+      "title": "A really cool article title that is not too long and not too short but in fact is actually relatively long compared to the rest of the articles and has been made even longer in order to accentuate differences",
+      "description": "A brief description about what this article is about and the celebrities it stars",
+      "date": "2022/07/25 00:00",
+      "image_path": "http://localhost:3000/images/article_pic.jpg"
+    },
+    {
+      "title": "A really cool article title",
+      "description": "A brief description about what this article is about and the celebrities it stars",
+      "date": "2022/07/25 00:00",
+      "image_path": "http://localhost:3000/images/article_pic.jpg"
+    },
+    {
+      "title": "Short title",
+      "description": "A brief description about what this article is about and the celebrities it stars",
+      "date": "2022/07/25 00:00",
+      "image_path": "http://localhost:3000/images/article_pic.jpg"
+    },
+    {
+      "title": "A really cool article title that is not too long and not too short",
+      "description": "A brief description about what this article is about and the celebrities it stars",
+      "date": "2022/07/25 00:00",
+      "image_path": "http://localhost:3000/images/article_pic.jpg"
+    },
+    {
+      "title": "A really cool article title that is not too long and not too short",
+      "description": "A brief description about what this article is about and the celebrities it stars",
+      "date": "2022/07/25 00:00",
+      "image_path": "http://localhost:3000/images/article_pic.jpg"
+    },
+    {
+      "title": "A really cool article title that is not too long and not too short",
+      "description": "A brief description about what this article is about and the celebrities it stars",
+      "date": "2022/07/25 00:00",
+      "image_path": "http://localhost:3000/images/article_pic.jpg"
+    },
+    {
+      "title": "A really cool article title that is not too long and not too short",
+      "description": "A brief description about what this article is about and the celebrities it stars",
+      "date": "2022/07/25 00:00",
+      "image_path": "http://localhost:3000/images/article_pic.jpg"
+    },
+    {
+      "title": "A really cool article title that is not too long and not too short",
+      "description": "A brief description about what this article is about and the celebrities it stars",
+      "date": "2022/07/25 00:00",
+      "image_path": "http://localhost:3000/images/article_pic.jpg"
+    }
+  ]
+}
