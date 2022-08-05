@@ -1,0 +1,9 @@
+.fontresize {
+  font-size: 
+}
+
+@media (max-width: 400px) {
+  .fontresize {
+    font-size: 18px
+  }
+}
