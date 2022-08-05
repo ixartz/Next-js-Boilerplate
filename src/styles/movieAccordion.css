@@ -1,0 +1,163 @@
+.accordion-container {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  padding: 2vh 1vw;
+  width: 100vw;
+  background: linear-gradient(
+    45deg,
+    hsla(282, 61%, 37%, 1) 0%,
+    hsla(0, 0%, 0%, 1) 50%,
+    hsla(218, 79%, 37%, 1) 100%
+  );
+}
+
+.accordion {
+  max-width: 1500px;
+  width: 90vw;
+  max-height: 843.75px;
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
+  border-radius: 0;
+}
+
+.accordion-inner {
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.mobile-accordion {
+  display: none;
+}
+
+.movie-nav-card {
+  position: relative;
+  display: block;
+  float: left;
+  transition: width 0.25s ease-in-out;
+  justify-content: center;
+}
+
+.movie-accordion-card {
+  width: 48.7vw;
+  max-width: 759px;
+}
+
+.movie-card-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 0;
+}
+
+.movie-card-corner-title {
+  top: 0.5vw;
+  left: 0.5vw;
+  font-size: 2vw;
+}
+
+.accordion-card-title {
+  position: absolute;
+  left: 34%;
+  bottom: 5%;
+  font-size: 2.1vw;
+}
+
+.accordion-score-block {
+  position: absolute;
+  border-radius: 20px;
+  height: 50px;
+  width: 100px;
+  bottom: 0.5vw;
+  right: 1vw;
+  text-align: center;
+}
+
+.accordion-score {
+  font-size: 23px;
+  margin: 10px 0 0;
+  color: white;
+}
+
+@media (max-width: 1200px) {
+  .accordion-score-block {
+    border-radius: 20px;
+    height: 4vw;
+    width: 8vw;
+  }
+
+  .accordion-score {
+    font-size: 150%;
+    margin: 0.65vw 0 0;
+  }
+}
+
+@media (max-width: 1100px) {
+  .accordion-score {
+    font-size: 120%;
+  }
+}
+
+@media (max-width: 960px) {
+  .accordion-score-block {
+    border-radius: 15px;
+    height: 4vw;
+    width: 8vw;
+  }
+
+  .accordion-score {
+    font-size: 100%;
+    margin: 10% 0 0;
+  }
+}
+
+@media (min-width: 1500px) {
+  .movie-card-corner-title {
+    left: 0.2vw;
+    top: 0.4vw;
+    font-size: 30px;
+  }
+  .accordion-card-title {
+    position: absolute;
+    left: 34%;
+    bottom: 5%;
+    font-size: 25px;
+  }
+
+  .accordion-score-block {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 770px) {
+  .accordion {
+    display: none;
+  }
+  .mobile-accordion {
+    display: flex;
+    max-width: 750px;
+    max-height: 422px;
+    margin: 0 1vw;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
+    border-radius: 0;
+  }
+  .movie-accordion-card {
+    width: 63.4vw;
+  }
+  .movie-card-corner-title {
+    left: 0.3vw;
+    top: 0.4vw;
+    position: absolute;
+  }
+  .movie-card-body {
+    display: none;
+  }
+  .accordion {
+    max-width: 77vw;
+    margin-left: 11.3vw;
+  }
+  .accordion-card-title {
+    left: 5%;
+    bottom: 2%;
+    font-size: 2.2vw;
+  }
+}

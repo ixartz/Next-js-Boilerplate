@@ -1,0 +1,12 @@
+.article-image {
+  width: 70%;
+  height: auto;
+  margin: "0 0 auto";
+}
+
+.article-title {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
