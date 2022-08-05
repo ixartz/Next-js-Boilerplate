@@ -21,6 +21,7 @@
   "dependencies": {
     "@egjs/react-flicking": "^4.9.1",
     "bootstrap": "^5.2.0",
+    "mirsahib-react-swipe-component": "^3.0.4",
     "next": "^12.2.2",
     "next-seo": "^5.4.0",
     "react": "^18.2.0",

@@ -12,6 +12,10 @@
   );
 }
 
+.mobile-accordion-container {
+  display: none;
+}
+
 .accordion {
   max-width: 1500px;
   width: 90vw;
@@ -33,7 +37,7 @@
   position: relative;
   display: block;
   float: left;
-  transition: width 0.25s ease-in-out;
+  transition: width 0.075s ease-in-out;
   justify-content: center;
 }
 
@@ -47,19 +51,42 @@
   height: auto;
   object-fit: cover;
   border-radius: 0;
+  user-drag: none;
+  -webkit-user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
 }
 
 .movie-card-corner-title {
   top: 0.5vw;
   left: 0.5vw;
   font-size: 2vw;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
 }
 
 .accordion-card-title {
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
   position: absolute;
   left: 34%;
   bottom: 5%;
   font-size: 2.1vw;
+}
+
+.accordion-num-img {
+  user-drag: none;
+  -webkit-user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
 }
 
 .accordion-score-block {
@@ -76,6 +103,10 @@
   font-size: 23px;
   margin: 10px 0 0;
   color: white;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
 }
 
 @media (max-width: 1200px) {
@@ -129,6 +160,12 @@
 }
 
 @media (max-width: 770px) {
+  .accordion-container {
+    display: none;
+  }
+  .mobile-accordion-container {
+    display: flex;
+  }
   .accordion {
     display: none;
   }
