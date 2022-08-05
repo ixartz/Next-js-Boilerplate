@@ -15,8 +15,8 @@ const Header = () => {
           </Navbar.Brand>
           <Navbar.Toggle />
           <Navbar.Collapse className="justify-content-end">
-            <Navbar.Text className="navbar-text">
-              locals like Korean Drama, Show & Movie
+            <Navbar.Text className="navbar-text navbar-hide navbar-text-align">
+              locals like<br></br> Korean Drama, Show & Movie
             </Navbar.Text>
           </Navbar.Collapse>
         </Container>

@@ -4,6 +4,7 @@ import '../styles/movieAccordion.css';
 import '../styles/articleList.css';
 import '../styles/actorList.css';
 import '../styles/header.css';
+import '../styles/navbar.css';
 import 'bootstrap/dist/css/bootstrap.css';
 
 import type { AppProps } from 'next/app';
