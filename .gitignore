@@ -16,6 +16,9 @@ cypress/videos
 /.next
 /out
 
+# cache
+.swc/
+
 # production
 /build
 
