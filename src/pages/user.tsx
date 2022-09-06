@@ -6,11 +6,10 @@
 const User = () => (
   // <Main meta={<Meta title="Lorem ipsum" description="Lorem ipsum" />}>
 
-  < div >
-
+  <div>
     {/* Monica to build below top nav here */}
     <h2 className="text-2xl font-bold">Bill Gates</h2>
-    <h2 className="text-l">@BillGates</h2>
+    <h2>@BillGates</h2>
     <p>
       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione fuga
       recusandae quidem. Quaerat molestiae blanditiis doloremque possimus labore
