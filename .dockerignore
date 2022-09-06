@@ -1,0 +1,9 @@
+# ignore these folders and files
+__mocks__
+.github
+,husky
+.vscode
+cypress
+LICENSE
+*.md
+!README*.md
