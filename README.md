@@ -19,7 +19,7 @@ Developer experience first:
 - 📏 Linter with [ESLint](https://eslint.org) (default NextJS, NextJS Core Web Vitals, Tailwind CSS and Airbnb configuration)
 - 💖 Code Formatter with [Prettier](https://prettier.io)
 - 🦊 Husky for Git Hooks
-- 🚫 Lint-staged for running linters on Git staged files
+- 🚫 gi for running linters on Git staged files
 - 🚓 Lint git commit with Commitlint
 - 🦺 Unit Testing with Jest and React Testing Library
 - 🧪 E2E Testing with Cypress
@@ -60,6 +60,7 @@ Find more [Nextjs Themes](https://creativedesignsguru.com/category/nextjs/).
 ### Requirements
 
 - Node.js 14+ and npm
+- Docker
 
 ### Getting started
 
@@ -97,6 +98,26 @@ Open http://localhost:3000 with your favorite browser to see your project.
 ├── tailwind.config.js              # Tailwind CSS configuration
 └── tsconfig.json                   # TypeScript configuration
 ```
+
+### How to Build and Run the Image using Docker
+
+Make sure your Docker is running and is on the latest update.
+
+To build the image and run it on your local machine:
+- For the command below, replace "image-name" with a name of your preference
+```shell
+docker build -t image-name .
+docker run -dp 3000:3000 image-name
+```
+
+OR
+
+To run using Docker and getting the image from the Docker Hub:
+```shell
+docker run -dp 3000:3000 dletyk/twitter-frontend:v1.0.0
+```
+
+Then you can visit http://localhost:3000 in a browser to see the twitter project live.
 
 ### Customization
 
