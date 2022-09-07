@@ -1,10 +1,10 @@
-// import { Meta } from '@/layouts/Meta';
-// import { Main } from '@/templates/Main';
+import { Meta } from '@/layouts/Meta';
+import { Main } from '@/templates/Main';
 
 // Function to load data here
 
 const User = () => (
-  // <Main meta={<Meta title="Lorem ipsum" description="Lorem ipsum" />}>
+  <Main meta={<Meta title="Lorem ipsum" description="Lorem ipsum" />}>
 
   <div>
     {/* Monica to build below top nav here */}
@@ -20,7 +20,7 @@ const User = () => (
     {/* Posts below here eventually */}
   </div>
 
-  // </Main>
+  </Main>
 );
 
 export default User;
