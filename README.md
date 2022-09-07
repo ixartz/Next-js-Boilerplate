@@ -103,7 +103,7 @@ Open http://localhost:3000 with your favorite browser to see your project.
 
 Make sure your Docker is running and is on the latest update.
 
-To build the image and run it on your local machine:
+To build the image and run it on your local machine, run the following command on your local environment:
 - For the command below, replace "image-name" with a name of your preference
 ```shell
 docker build -t image-name .
@@ -112,7 +112,7 @@ docker run -dp 3000:3000 image-name
 
 OR
 
-To run using Docker and getting the image from the Docker Hub:
+Using Docker and getting the image from the Docker Hub:
 ```shell
 docker run -dp 3000:3000 dletyk/twitter-frontend:v1.0.0
 ```
