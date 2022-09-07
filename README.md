@@ -11,7 +11,7 @@ built using Next Js 12+, Tailwind CSS 3 and TypeScript
 Run the following command on your local environment:
 
 ```shell
-git clone --depth=1 https://github.com/ixartz/Next-js-Boilerplate.git my-project-name
+git clone https://github.com/sedkis/twitter-clone my-project-name
 cd my-project-name
 npm install
 ```
