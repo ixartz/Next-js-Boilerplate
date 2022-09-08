@@ -30,15 +30,11 @@ const Main = (props: IMainProps) => (
               </Link>
             </li>
             <li className="mr-6">
-              
-            </li>
-            <li className="mr-6">
-              <a
-                className="border-none text-gray-700 hover:text-gray-900"
-                href="/user/"
-              >
-                Users
-              </a>
+              <Link href="/user">
+                <a className="border-none text-gray-700 hover:text-gray-900">
+                  Users
+                </a>
+              </Link>
             </li>
           </ul>
         </div>
@@ -52,10 +48,8 @@ const Main = (props: IMainProps) => (
           ♥
         </span>{' '}
         <Link href="/about/">
-                <a className="border-none text-gray-700 hover:text-gray-900">
-                  About
-                </a>
-              </Link>
+          <a className="border-none text-gray-700 hover:text-gray-900">About</a>
+        </Link>
       </div>
     </div>
   </div>
