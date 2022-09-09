@@ -3,6 +3,40 @@ import { Meta } from '@/layouts/Meta';
 
 // Function to load data here
 
+function randomInt () {
+  
+  const int = Math.floor(Math.random()*1000)+1
+  const newInt = Math.floor(Math.random()*1000)+1
+  const num = int.toString();
+  const newNum = newInt.toString();
+
+  return (num)
+
+  };
+
+  if (typeof window === null){
+    console.log ("error")
+  }
+  else {
+    
+    const followers : HTMLElement = document.getElementById ("followers")as HTMLElement;
+    followers.innerHTML = randomInt()
+
+  }
+//   window.addEventListener("DOMContentLoaded", function () {
+
+//     // let following= document.getElementById ("following")as HTMLInputElement;
+
+
+//   followers.innerHTML = (randomInt())
+//   // following.innerHTML = (newNum)
+
+// }, false);
+
+randomInt()
+
+
+
 const User = () => (
  
     <div className ="background-color: rgb(255 255 255)">
@@ -35,8 +69,9 @@ const User = () => (
       </div>
       
       <div className='grid grid-cols-1 gap-6 sm:grid-cols-2'>
-      <p className='mb-3 font-light indent-3'> <strong className='font-semibold'>1000</strong> Following</p>
-      <p className='mb-3 font-light indent-3'><strong className='font-semibold'>1000</strong> Followers</p>
+      <p className='mb-3 font-light indent-3'> <strong id = "following" className='font-semibold'></strong> Following</p>
+      <p className='mb-3 font-light indent-3'><strong id = "followers" className='font-semibold'></strong> Followers</p>
+    
       </div>
 
     </div>
