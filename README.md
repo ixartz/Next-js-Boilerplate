@@ -5,6 +5,7 @@ built using Next Js 12+, Tailwind CSS 3 and TypeScript
 ### Requirements
 
 - Node.js 14+ and npm
+- Docker
 
 ### Getting started
 
@@ -42,6 +43,26 @@ Open http://localhost:3000 with your favorite browser to see your project.
 ├── tailwind.config.js              # Tailwind CSS configuration
 └── tsconfig.json                   # TypeScript configuration
 ```
+
+### How to Build and Run the Image using Docker
+
+Make sure your Docker is running and is on the latest update.
+
+To build the image and run it on your local machine, run the following command on your local environment:
+- For the command below, replace "image-name" with a name of your preference
+```shell
+docker build -t image-name .
+docker run -dp 3000:3000 image-name
+```
+
+OR
+
+Using Docker and getting the image from the Docker Hub:
+```shell
+docker run -dp 3000:3000 dletyk/twitter-frontend:v1.0.0
+```
+
+Then you can visit http://localhost:3000 in a browser to see the twitter project live.
 
 ### Customization
 
