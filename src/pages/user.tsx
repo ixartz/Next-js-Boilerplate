@@ -1,4 +1,5 @@
 import { Meta } from '@/layouts/Meta';
+import { useState, useEffect } from 'react';
 
 
 // Function to load data here
@@ -6,44 +7,24 @@ import { Meta } from '@/layouts/Meta';
 function randomInt () {
   
   const int = Math.floor(Math.random()*1000)+1
-  const newInt = Math.floor(Math.random()*1000)+1
-  const num = int.toString();
-  const newNum = newInt.toString();
-  
-  // let following= document.getElementById ("following")as HTMLInputElement;
-  // const followers = document.getElementById ("followers")as HTMLElement;
 
-  // followers.innerHTML = (num)
-  // following.innerHTML = (newNum)
-
-  if (typeof window ! === "undefined" ){
-    console.log ("error")
-  }
-  else {
-    // const followers = document.getElementById ("followers")as HTMLElement;
-    // followers.innerHTML = (num)
-    console.log(num)
-
-  }
+  return int 
 
   };
-  randomInt()
-
   
 
+const User = () => {
 
-const User = () => (
- 
+    const [randomNumber, setRandomNumber] = useState(0);
+    const [randomNumberFollowers, setRandomNumberFollowers] = useState(0);
+  
+    useEffect(() => {
+      setRandomNumber(randomInt());
+      setRandomNumberFollowers(randomInt());
+    }, []);
+  
+    return (
     <div className ="background-color: rgb(255 255 255)">
-      {/* <header>
-      <span>
-      <img  className='mx-auto w-full h-25' src = '/assets/images/Tyk.png' />
-      </span>
-      <div className = " p-1 w-40 h-50 rounded-full ring-2 ring-gray-700 dark:ring-gray-800" >
-      <img src = '/assets/images/Tyk-icon-logo.png'/>
-      </div>
-
-      </header> */}
 
       <header>
         <div className = 'relative'>
@@ -72,20 +53,18 @@ const User = () => (
         <p className= 'mb-3 font-light ml-12 indent-2'>
         Here is a description of Tyklings hard at work
         </p>
-
       </div>
       
       <div className='grid grid-cols-1 gap-6 sm:grid-cols-2'>
-      <p className='mb-3 font-light ml-12 indent-2'> <strong id = "following" className='font-semibold'>100</strong>  Following</p>
-      <p className='mb-3 font-light ml-5'><strong id = "followers" className='font-semibold'>100</strong> Followers</p>
+      <p className='mb-3 font-light ml-12 indent-2'> <strong id = "following" className='font-semibold'>{randomNumberFollowers}</strong>  Following</p>
+      <p className='mb-3 font-light ml-5'><strong id = "followers" className='font-semibold'>{randomNumber}</strong> Followers</p>
     
       </div>
-
     </div>
-
     </div>
     
 );
+};
 
 
 export default User;
