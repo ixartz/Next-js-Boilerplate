@@ -17,7 +17,7 @@ function getPosts(): Promise<Posts[]> {
             console.log(res)
             return res as Posts[]
     })
-}
+}#
 // const result = document.getElementById('result')
 getPosts()
 //         .then(users => {
