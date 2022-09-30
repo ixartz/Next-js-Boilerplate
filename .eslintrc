@@ -42,7 +42,7 @@
           }
         ],
         "react/destructuring-assignment": "off", // Vscode doesn't support automatically destructuring, it's a pain to add a new variable
-        "jsx-a11y/anchor-is-valid": "off", // Next.js use his own internal link system
+        "jsx-a11y/anchor-is-valid": "off", // Next.js uses its own internal link system
         "react/require-default-props": "off", // Allow non-defined react props as undefined
         "react/jsx-props-no-spreading": "off", // _app.tsx uses spread operator and also, react-hook-form
         "react-hooks/exhaustive-deps": "off", // Incorrectly report needed dependency with Next.js router
