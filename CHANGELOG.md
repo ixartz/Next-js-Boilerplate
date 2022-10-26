@@ -2,6 +2,25 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.0.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v2.1.1...v3.0.0) (2022-10-26)
+
+
+### ⚠ BREAKING CHANGES
+
+* update to Next.js 13 and Tailwind CSS 3.2
+
+### Features
+
+* add commit script in package.json ([8f4719e](https://github.com/ixartz/Next-js-Boilerplate/commit/8f4719ec550ab0dbffa93ca1d278aa9e370a773a))
+
+
+### Bug Fixes
+
+* Eslint comment update ([8baa5d1](https://github.com/ixartz/Next-js-Boilerplate/commit/8baa5d160734a3cadb419534509cc6edaac57456))
+
+
+* update to Next.js 13 and Tailwind CSS 3.2 ([fc9f2c1](https://github.com/ixartz/Next-js-Boilerplate/commit/fc9f2c1cf914c15b36cdf881306d20b405a259e8))
+
 ### [2.1.1](https://github.com/ixartz/Next-js-Boilerplate/compare/v2.1.0...v2.1.1) (2022-09-08)
 
 ## [2.1.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v2.0.0...v2.1.0) (2022-07-08)
