@@ -23,17 +23,19 @@ const Main = (props: IMainProps) => (
         <div>
           <ul className="flex flex-wrap text-xl">
             <li className="mr-6">
-              <Link href="/">
-                <a className="border-none text-gray-700 hover:text-gray-900">
-                  Home
-                </a>
+              <Link
+                href="/"
+                className="border-none text-gray-700 hover:text-gray-900"
+              >
+                Home
               </Link>
             </li>
             <li className="mr-6">
-              <Link href="/about/">
-                <a className="border-none text-gray-700 hover:text-gray-900">
-                  About
-                </a>
+              <Link
+                href="/about/"
+                className="border-none text-gray-700 hover:text-gray-900"
+              >
+                About
               </Link>
             </li>
             <li className="mr-6">
