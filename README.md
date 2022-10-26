@@ -1,4 +1,4 @@
-# Boilerplate and Starter for Next JS 12+, Tailwind CSS 3 and TypeScript [![Twitter](https://img.shields.io/twitter/url/https/twitter.com/cloudposse.svg?style=social&label=Follow%20%40Ixartz)](https://twitter.com/ixartz)
+# Boilerplate and Starter for Next JS 13+, Tailwind CSS 3.2 and TypeScript [![Twitter](https://img.shields.io/twitter/url/https/twitter.com/cloudposse.svg?style=social&label=Follow%20%40Ixartz)](https://twitter.com/ixartz)
 
 <p align="center">
   <a href="https://creativedesignsguru.com/demo/Nextjs-Boilerplate/"><img src="public/assets/images/nextjs-starter-banner.png?raw=true" alt="Next js starter banner"></a>
@@ -21,6 +21,7 @@ Developer experience first:
 - 🦊 Husky for Git Hooks
 - 🚫 Lint-staged for running linters on Git staged files
 - 🚓 Lint git commit with Commitlint
+- 📓 Write standard compliant commit messages with Commitizen
 - 🦺 Unit Testing with Jest and React Testing Library
 - 🧪 E2E Testing with Cypress
 - 💡 Absolute Imports using `@` prefix
