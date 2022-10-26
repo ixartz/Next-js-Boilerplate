@@ -12,6 +12,7 @@
     "lint": "next lint",
     "check-types": "tsc --noEmit --pretty && tsc --project cypress --noEmit --pretty",
     "test": "jest",
+    "commit": "cz",
     "cypress": "cypress open",
     "cypress:headless": "cypress run",
     "e2e": "start-server-and-test dev http://localhost:3000 cypress",
@@ -27,6 +28,7 @@
   "devDependencies": {
     "@commitlint/cli": "^17.1.2",
     "@commitlint/config-conventional": "^17.1.0",
+    "@commitlint/cz-commitlint": "^17.1.2",
     "@next/bundle-analyzer": "^13.0.0",
     "@testing-library/cypress": "^8.0.3",
     "@testing-library/jest-dom": "^5.16.5",
@@ -37,6 +39,7 @@
     "@typescript-eslint/eslint-plugin": "^5.41.0",
     "@typescript-eslint/parser": "^5.41.0",
     "autoprefixer": "^10.4.12",
+    "commitizen": "^4.2.5",
     "cross-env": "^7.0.3",
     "cssnano": "^5.1.13",
     "cypress": "^10.11.0",
@@ -69,6 +72,11 @@
     "start-server-and-test": "^1.14.0",
     "tailwindcss": "^3.2.1",
     "typescript": "^4.8.4"
+  },
+  "config": {
+    "commitizen": {
+      "path": "@commitlint/cz-commitlint"
+    }
   },
   "author": "Ixartz (https://github.com/ixartz)"
 }
