@@ -1,3 +1,19 @@
+# NextJS Web3 Boilerplate 
+
+## Install
+```bash
+git clone --depth=1 https://github.com/comverser/nextjs-web3-boilerplate.git my-project-name
+cd my-project-name
+npm install
+```
+
+## Version info
+- Node: v18.12.0 (npm v8.19.2)
+- ixartz/Next-js-Boilerplate: v3.0.0
+
+&nbsp;
+
+# Original Author's README.md below
 # Boilerplate and Starter for Next JS 13+, Tailwind CSS 3.2 and TypeScript [![Twitter](https://img.shields.io/twitter/url/https/twitter.com/cloudposse.svg?style=social&label=Follow%20%40Ixartz)](https://twitter.com/ixartz)
 
 <p align="center">

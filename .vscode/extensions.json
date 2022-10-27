@@ -5,6 +5,8 @@
     "mikestead.dotenv",
     "csstools.postcss",
     "bradlc.vscode-tailwindcss",
-    "Orta.vscode-jest"
+    "Orta.vscode-jest",
+    "hediet.vscode-drawio",
+    "kisstkondoros.vscode-gutter-preview"
   ]
 }
