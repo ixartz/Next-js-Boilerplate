@@ -7,9 +7,17 @@ cd my-project-name
 npm install
 ```
 
+### Set up environmental variables that are specific to your local machine (refer .env*.example)
+- .env.local
+- .env.production.local
+- .env.development.local
+
 ## Version info
 - Node: v18.12.0 (npm v8.19.2)
 - ixartz/Next-js-Boilerplate: v3.0.0
+
+### MSW issue 
+- MSW does not work well on NodeJS v18 and 'fetch failed' error occurrs in node. Maybe we need to wait (refer https://github.com/vercel/next.js/issues/37300) 
 
 &nbsp;
 
