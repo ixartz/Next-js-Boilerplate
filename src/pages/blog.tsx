@@ -15,7 +15,7 @@ const Blog = () => (
     {[...Array(10)].map((_, index) => {
       return (
         <Link href={`/blog/blog-${index}`} key={index}>
-          <div className="block w-full border-blue-50">{`Blog - ${index}`}</div>
+          <div className="my-4 block w-full rounded-md border-2 border-gray-400 py-1 px-2">{`Blog - ${index}`}</div>
         </Link>
       );
     })}

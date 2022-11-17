@@ -7,7 +7,7 @@ import { Main } from '@/templates/Main';
 export default function Blog({ slug }: { slug: string }) {
   return (
     <Main meta={<Meta title={slug} description="Lorem ipsum" />}>
-      <h1>{slug}</h1>
+      <h1 className="capitalize">{slug}</h1>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore eos
         earum doloribus, quibusdam magni accusamus vitae! Nisi, sunt! Aliquam
