@@ -12,13 +12,14 @@ const Blog = () => (
       placeat, accusamus aut saepe.
     </p>
 
-    {[...Array(10)].map((_, index) => {
-      return (
-        <Link href={`/blog/blog-${index}`} key={index}>
-          <div className="my-4 block w-full rounded-md border-2 border-gray-400 py-1 px-2">{`Blog - ${index}`}</div>
-        </Link>
-      );
-    })}
+    {[...Array(10)].map((_, index) => (
+      <div
+        className="my-4 w-full rounded-md border-2 border-gray-400 px-2 py-1"
+        key={index}
+      >
+        <Link href={`/blog/blog-${index}`}>{`Blog - ${index}`}</Link>
+      </div>
+    ))}
   </Main>
 );
 
