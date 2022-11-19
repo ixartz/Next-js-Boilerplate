@@ -71,6 +71,7 @@
     "postcss": "^8.4.19",
     "prettier": "^2.7.1",
     "rimraf": "^3.0.2",
+    "semantic-release": "^19.0.5",
     "start-server-and-test": "^1.14.0",
     "tailwindcss": "^3.2.4",
     "typescript": "^4.9.3"
@@ -79,6 +80,24 @@
     "commitizen": {
       "path": "@commitlint/cz-commitlint"
     }
+  },
+  "release": {
+    "branches": [
+      "main"
+    ],
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      "@semantic-release/changelog",
+      [
+        "@semantic-release/npm",
+        {
+          "npmPublish": false
+        }
+      ],
+      "@semantic-release/git",
+      "@semantic-release/github"
+    ]
   },
   "author": "Ixartz (https://github.com/ixartz)"
 }
