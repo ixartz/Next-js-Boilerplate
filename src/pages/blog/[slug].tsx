@@ -11,6 +11,15 @@ type IBlogUrl = {
   slug: string;
 };
 
+export const getStaticPaths: GetStaticPaths<IBlogUrl> = async () => {
+  return {
+    paths: [...Array(10)].map((_, index) => ({
+      params: { slug: `blog-${index}` },
+    })),
+    fallback: false,
+  };
+};
+
 export const getStaticProps: GetStaticProps<IBlogUrl, IBlogUrl> = async ({
   params,
 }) => {
@@ -33,15 +42,6 @@ const Blog = (props: InferGetStaticPropsType<typeof getStaticProps>) => {
       </p>
     </Main>
   );
-};
-
-export const getStaticPaths: GetStaticPaths<IBlogUrl> = async () => {
-  return {
-    paths: [...Array(10)].map((_, index) => ({
-      params: { slug: `blog-${index}` },
-    })),
-    fallback: false,
-  };
 };
 
 export default Blog;
