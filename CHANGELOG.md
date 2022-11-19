@@ -1,3 +1,10 @@
+# [3.2.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.1.0...v3.2.0) (2022-11-19)
+
+
+### Features
+
+* run github release only on completed CI workflow ([dd4de76](https://github.com/ixartz/Next-js-Boilerplate/commit/dd4de76b6ea013190a6ea18d69eb3764e1b915f9))
+
 # [3.1.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.0.0...v3.1.0) (2022-11-19)
 
 
