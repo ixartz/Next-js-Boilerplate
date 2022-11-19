@@ -23,7 +23,7 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
           cache: "npm"
-      - run: npm install
+      - run: npm ci
       - run: npm run build-prod
 
   test:
@@ -41,7 +41,10 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
           cache: "npm"
-      - run: npm install
+      - run: npm ci
+
+      - name: Check commit messages
+        uses: wagoid/commitlint-github-action@v5
 
       - name: Linter
         run: npm run lint
