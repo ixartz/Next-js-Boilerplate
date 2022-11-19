@@ -1,3 +1,19 @@
+# [3.1.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.0.0...v3.1.0) (2022-11-19)
+
+
+### Bug Fixes
+
+* just rebuild sitemap ([831bae9](https://github.com/ixartz/Next-js-Boilerplate/commit/831bae93831eb5c4f259c4a0fa9ec3012ede8927))
+
+
+### Features
+
+* add blog page ([89c4ec7](https://github.com/ixartz/Next-js-Boilerplate/commit/89c4ec79db48f4ae09af3e8ddb3ce5a980ed8ee6))
+* add sitemap.xml and robots.txt from build ([545d133](https://github.com/ixartz/Next-js-Boilerplate/commit/545d133decee4f7d42c228049ef3bde2b9a94b0a))
+* disable Husky for release ([f20c595](https://github.com/ixartz/Next-js-Boilerplate/commit/f20c5951e018c99421e833eef6ce14bd9632838f))
+* rename from master to main ([10920ec](https://github.com/ixartz/Next-js-Boilerplate/commit/10920ece4892ca73639388116af59fdd3e077d5f))
+* update TypeScript to 4.9.x ([471dc70](https://github.com/ixartz/Next-js-Boilerplate/commit/471dc70306c69ecb524af40aa76403daa83597e2))
+
 # Changelog
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
