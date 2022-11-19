@@ -45,7 +45,8 @@ jobs:
           cache: "npm"
       - run: npm ci
 
-      - name: Validate all commits from PR
+      - if: github.event_name == 'pull_request'
+        name: Validate all commits from PR
         run: npx commitlint --from ${{ github.event.pull_request.base.sha }} --to ${{ github.event.pull_request.head.sha }} --verbose
 
       - name: Linter
