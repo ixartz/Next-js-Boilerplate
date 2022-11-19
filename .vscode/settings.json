@@ -11,13 +11,13 @@
     "source.fixAll.eslint"
   ],
   "jest.autoRun": {
-    "watch": true, // Start the jest with the watch flag
-    "onStartup": ["all-tests"] // Run all tests upon project launch
+    "watch": false // Start the jest with the watch flag
+    // "onStartup": ["all-tests"] // Run all tests upon project launch
   },
   "jest.showCoverageOnLoad": true, // Show code coverage when the project is launched
   "jest.showTerminalOnLaunch": false, // Don't automatically open test explorer terminal on launch
   // Multiple language settings for json and jsonc files
-  "[json][jsonc]": {
+  "[json][jsonc][yaml]": {
     "editor.formatOnSave": true,
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   }
