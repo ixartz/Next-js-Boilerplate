@@ -1,3 +1,10 @@
+## [3.2.4](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.2.3...v3.2.4) (2022-11-20)
+
+
+### Bug Fixes
+
+* update README file for next-sitemap ([9496217](https://github.com/ixartz/Next-js-Boilerplate/commit/94962171a35a07e84319374500f28a76f264a266))
+
 ## [3.2.3](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.2.2...v3.2.3) (2022-11-20)
 
 
