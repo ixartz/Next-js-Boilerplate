@@ -1,6 +1,6 @@
 {
   "name": "next-js-boilerplate",
-  "version": "3.2.2",
+  "version": "3.2.3",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

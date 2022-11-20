@@ -1,3 +1,10 @@
+## [3.2.3](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.2.2...v3.2.3) (2022-11-20)
+
+
+### Bug Fixes
+
+* add sitemap file in gitignore, it shouldn't commit to git ([344b731](https://github.com/ixartz/Next-js-Boilerplate/commit/344b7312df2f7e12e642a6346ef05ad9a7ca766c))
+
 ## [3.2.2](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.2.1...v3.2.2) (2022-11-20)
 
 
