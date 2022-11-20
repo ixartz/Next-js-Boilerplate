@@ -1,3 +1,12 @@
+## [3.2.1](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.2.0...v3.2.1) (2022-11-20)
+
+
+### Bug Fixes
+
+* code styling in blog component pages ([f4a55c4](https://github.com/ixartz/Next-js-Boilerplate/commit/f4a55c4234fc03ed719859c12f13bffabd120c6d))
+* move getStaticPaths at the top of blog page ([83892ea](https://github.com/ixartz/Next-js-Boilerplate/commit/83892ea865459f59da824c9358fbf4ccea6475e6))
+* remove generated files by next-sitemap ([c5d93bf](https://github.com/ixartz/Next-js-Boilerplate/commit/c5d93bf9fe67a6737b536edf4d50d56cd4c8af2c))
+
 # [3.2.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.1.0...v3.2.0) (2022-11-19)
 
 
