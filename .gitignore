@@ -16,6 +16,11 @@ cypress/videos
 /.next
 /out
 
+# next-sitemap
+public/robots.txt
+public/sitemap.xml
+public/sitemap-*.xml
+
 # cache
 .swc/
 
