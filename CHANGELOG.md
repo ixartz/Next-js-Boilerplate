@@ -1,3 +1,10 @@
+## [3.2.2](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.2.1...v3.2.2) (2022-11-20)
+
+
+### Bug Fixes
+
+* rename from mjs to js next-sitemap file ([7d450ff](https://github.com/ixartz/Next-js-Boilerplate/commit/7d450ffce77f0be4c533cb1aab757f7fb1f13596))
+
 ## [3.2.1](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.2.0...v3.2.1) (2022-11-20)
 
 
