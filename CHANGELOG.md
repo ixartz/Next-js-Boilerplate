@@ -1,3 +1,10 @@
+# [3.3.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.2.4...v3.3.0) (2022-11-22)
+
+
+### Features
+
+* change 'powered by' text to 'built' with ([fe0a29f](https://github.com/ixartz/Next-js-Boilerplate/commit/fe0a29f8fbab14c7e8c8e98a75ce488ac157e509))
+
 ## [3.2.4](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.2.3...v3.2.4) (2022-11-20)
 
 
