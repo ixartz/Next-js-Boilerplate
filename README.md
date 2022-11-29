@@ -103,12 +103,15 @@ Open http://localhost:3000 with your favorite browser to see your project.
 
 ### Customization
 
-You can easily configure Next js Boilerplate. Please change the following file:
+You can easily configure Next js Boilerplate by making a search in the whole project with `FIXME:` for making quick customization. Here is some of the most important files to customize:
 
 - `public/apple-touch-icon.png`, `public/favicon.ico`, `public/favicon-16x16.png` and `public/favicon-32x32.png`: your website favicon, you can generate from https://favicon.io/favicon-converter/
 - `src/styles/global.css`: your CSS file using Tailwind CSS
 - `src/utils/AppConfig.ts`: configuration file
 - `src/templates/Main.tsx`: default theme
+- `next-sitemap.config.js`: sitemap configuration
+
+You have access to the whole code source if you need further customization. The provided code is only example for you to start your project. The sky is the limit 🚀.
 
 ### Deploy to production
 
