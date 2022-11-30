@@ -3,6 +3,7 @@ import type {
   GetStaticProps,
   InferGetStaticPropsType,
 } from 'next';
+import { ArticleJsonLd } from 'next-seo';
 
 import { Meta } from '@/layouts/Meta';
 import { Main } from '@/templates/Main';
@@ -33,13 +34,26 @@ export const getStaticProps: GetStaticProps<IBlogUrl, IBlogUrl> = async ({
 const Blog = (props: InferGetStaticPropsType<typeof getStaticProps>) => {
   return (
     <Main meta={<Meta title={props.slug} description="Lorem ipsum" />}>
-      <h1 className="capitalize">{props.slug}</h1>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore eos
-        earum doloribus, quibusdam magni accusamus vitae! Nisi, sunt! Aliquam
-        iste expedita cupiditate a quidem culpa eligendi, aperiam saepe dolores
-        ipsum!
-      </p>
+      <ArticleJsonLd
+        url={`https://example.com/blog/${props.slug}`}
+        title={props.slug}
+        images={[]}
+        datePublished={''}
+        authorName={undefined}
+        description={''}
+      />
+      <article>
+        <header>
+          <h1 className="capitalize">{props.slug}</h1>
+          <h2>sub title</h2>
+        </header>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore eos
+          earum doloribus, quibusdam magni accusamus vitae! Nisi, sunt! Aliquam
+          iste expedita cupiditate a quidem culpa eligendi, aperiam saepe
+          dolores ipsum!
+        </p>
+      </article>
     </Main>
   );
 };
