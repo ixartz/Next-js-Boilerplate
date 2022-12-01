@@ -113,6 +113,16 @@ You can easily configure Next js Boilerplate by making a search in the whole pro
 
 You have access to the whole code source if you need further customization. The provided code is only example for you to start your project. The sky is the limit 🚀.
 
+### Commit Message Format
+
+The project enforces [Conventional Commits](https://www.conventionalcommits.org/) specification. This means that all your commit messages must be formatted according to the specification. To help you write commit messages, the project uses [Commitizen](https://github.com/commitizen/cz-cli), an interactive CLI that guides you through the commit process. To use it, run the following command:
+
+```shell
+npm run commit
+```
+
+One of the benefits of using Conventional Commits is that it allows us to automatically generate a `CHANGELOG` file. It also allows us to automatically determine the next version number based on the types of commits that are included in a release.
+
 ### Deploy to production
 
 You can see the results locally in production mode with:
