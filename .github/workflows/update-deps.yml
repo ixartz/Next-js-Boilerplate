@@ -23,7 +23,7 @@ jobs:
           cache: "npm"
       - run: npm ci
 
-      - run: npx ncu -u # Update dependencies
+      - run: npx npm-check-updates -u # Update dependencies
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v4
         with:
