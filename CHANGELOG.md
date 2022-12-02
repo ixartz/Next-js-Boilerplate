@@ -1,3 +1,11 @@
+# [3.4.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.3.0...v3.4.0) (2022-12-02)
+
+
+### Features
+
+* automatically format the whole codebase with npm run format ([9299209](https://github.com/ixartz/Next-js-Boilerplate/commit/92992096ede4d2b3e77c3e0c96b75e5e6b84067d))
+* update footer message and comment ([4f74176](https://github.com/ixartz/Next-js-Boilerplate/commit/4f74176b05528666fd8b92a8becdc7e3c2f0db4a))
+
 # [3.3.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.2.4...v3.3.0) (2022-11-22)
 
 
