@@ -1,3 +1,10 @@
+## [3.5.2](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.5.1...v3.5.2) (2022-12-02)
+
+
+### Bug Fixes
+
+* use npx npm-check-updates ([e530193](https://github.com/ixartz/Next-js-Boilerplate/commit/e5301939a5ff98c598899ff49bee1ad351759292))
+
 ## [3.5.1](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.5.0...v3.5.1) (2022-12-02)
 
 
