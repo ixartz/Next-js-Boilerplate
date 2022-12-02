@@ -48,6 +48,7 @@
     "cross-env": "^7.0.3",
     "cssnano": "^5.1.14",
     "cypress": "^11.2.0",
+    "cypress-image-diff-js": "^1.22.0",
     "eslint": "^8.28.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-airbnb-typescript": "^17.0.0",
