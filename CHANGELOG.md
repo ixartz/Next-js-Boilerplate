@@ -1,3 +1,10 @@
+# [3.5.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.4.0...v3.5.0) (2022-12-02)
+
+
+### Features
+
+* add auto-update GitHub Actions ([364168f](https://github.com/ixartz/Next-js-Boilerplate/commit/364168f3407c7cdd21da7cd1de6d9d930f89d99a))
+
 # [3.4.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.3.0...v3.4.0) (2022-12-02)
 
 
