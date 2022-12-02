@@ -1,3 +1,10 @@
+## [3.5.3](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.5.2...v3.5.3) (2022-12-02)
+
+
+### Bug Fixes
+
+* resolve merge conflict ([276f57a](https://github.com/ixartz/Next-js-Boilerplate/commit/276f57aeb0d4a346f8e19ad81ce4703458d9f41c))
+
 ## [3.5.2](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.5.1...v3.5.2) (2022-12-02)
 
 
