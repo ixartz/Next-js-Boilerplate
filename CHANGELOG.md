@@ -1,3 +1,10 @@
+## [3.5.1](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.5.0...v3.5.1) (2022-12-02)
+
+
+### Bug Fixes
+
+* add steps in update-deps.yml file, syntax error ([b5de445](https://github.com/ixartz/Next-js-Boilerplate/commit/b5de445f1f927a5a7c2b0c85746b8fd07629cb55))
+
 # [3.5.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.4.0...v3.5.0) (2022-12-02)
 
 
