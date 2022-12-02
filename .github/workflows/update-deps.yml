@@ -1,0 +1,30 @@
+name: Update dependencies
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 0 1 * *"
+
+jobs:
+  update:
+    strategy:
+      matrix:
+        node-version: [16.x]
+
+    name: Update all dependencies
+    runs-on: ubuntu-latest
+
+    - uses: actions/checkout@v3
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v3
+      with:
+        node-version: ${{ matrix.node-version }}
+        cache: "npm"
+    - run: npm ci
+
+    - run: npx ncu -u # Update dependencies
+    - name: Create Pull Request
+      uses: peter-evans/create-pull-request@v4
+      with:
+        commit-message: "chore: update dependencies to the latest version"
+        title: Update dependencies to the latest version
