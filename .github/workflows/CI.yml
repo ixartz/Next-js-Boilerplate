@@ -60,3 +60,5 @@ jobs:
 
       - name: Run e2e tests
         run: npx percy exec -- npm run e2e:headless
+        env:
+          PERCY_TOKEN: ${{ secrets.PERCY_TOKEN }}
