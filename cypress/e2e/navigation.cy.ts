@@ -22,4 +22,17 @@ describe('Navigation', () => {
       );
     });
   });
+
+  describe('Visuals', () => {
+    it('should compare screenshot of the entire page', () => {
+      cy.visit('/');
+
+      // Wait the page to be rendered
+      cy.findByRole('heading', {
+        name: 'Boilerplate code for your Nextjs project with Tailwind CSS',
+      });
+
+      cy.compareSnapshot('homepage');
+    });
+  });
 });

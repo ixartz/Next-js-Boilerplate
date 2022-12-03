@@ -12,6 +12,10 @@
 cypress/screenshots
 cypress/videos
 
+# visual testing
+cypress-visual-report
+cypress-visual-screenshots
+
 # next.js
 /.next
 /out

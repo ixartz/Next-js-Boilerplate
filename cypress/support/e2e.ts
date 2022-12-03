@@ -17,5 +17,13 @@
 // Import commands.js using ES2015 syntax:
 import '@testing-library/cypress/add-commands';
 
+const compareSnapshotCommand = require('cypress-image-diff-js/dist/command');
+
+compareSnapshotCommand();
+
+after(() => {
+  cy.task('generateReport');
+});
+
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
