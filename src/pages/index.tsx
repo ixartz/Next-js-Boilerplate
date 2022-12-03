@@ -84,7 +84,7 @@ const Index = () => {
           </span>{' '}
           Code Formatter with{' '}
           <a href="https://prettier.io" rel="nofollow">
-            Prettier
+            Prettier 2
           </a>
         </li>
         <li>
