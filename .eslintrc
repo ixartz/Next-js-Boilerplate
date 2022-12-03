@@ -72,7 +72,7 @@
     },
     // Configuration for e2e testing (Cypress)
     {
-      "files": ["**/*.cy.ts"],
+      "files": ["cypress/**/*.ts"],
       "plugins": ["cypress"],
       "extends": ["plugin:cypress/recommended"],
       "parserOptions": {
