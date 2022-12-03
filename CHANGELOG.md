@@ -1,3 +1,10 @@
+## [3.5.4](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.5.3...v3.5.4) (2022-12-03)
+
+
+### Bug Fixes
+
+* change matching regex for Cypress files ([861d545](https://github.com/ixartz/Next-js-Boilerplate/commit/861d54596b61b7706cfbb681df334d73b34a378e))
+
 ## [3.5.3](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.5.2...v3.5.3) (2022-12-02)
 
 
