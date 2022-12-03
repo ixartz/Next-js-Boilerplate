@@ -26,6 +26,7 @@ Developer experience first:
 - 🧪 E2E Testing with Cypress
 - 👷 Run tests on pull request with GitHub Actions
 - 🎁 Automatic changelog generation with Semantic Release
+- 🔍 Visual testing with Percy (Optional)
 - 💡 Absolute Imports using `@` prefix
 - 🗂 VSCode configuration: Debug, Settings, Tasks and extension for PostCSS, ESLint, Prettier, TypeScript, Jest
 - 🤖 SEO metadata, JSON-LD and Open Graph tags with Next SEO
