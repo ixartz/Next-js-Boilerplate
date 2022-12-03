@@ -59,4 +59,4 @@ jobs:
         run: npm run test
 
       - name: Run e2e tests
-        run: percy exec -- npm run e2e:headless
+        run: npx percy exec -- npm run e2e:headless
