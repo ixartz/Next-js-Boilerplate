@@ -1,3 +1,17 @@
+# [3.6.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.5.4...v3.6.0) (2022-12-03)
+
+
+### Bug Fixes
+
+* add npx before percy command line ([4824e98](https://github.com/ixartz/Next-js-Boilerplate/commit/4824e98a4d621684494fe2c7e8c3351551e52845))
+* retrive PERCY_TOKEN and set token for percy cli ([afe00f2](https://github.com/ixartz/Next-js-Boilerplate/commit/afe00f2e47b5dbc5fb701dd2e46756f4b7e498fd))
+* wait until the link rendered instead a wrong heading tag ([e38655b](https://github.com/ixartz/Next-js-Boilerplate/commit/e38655b853b39fdcb9bccd3a84e99dd5caa1681d))
+
+
+### Features
+
+* add visual testing with Percy ([b0a39f5](https://github.com/ixartz/Next-js-Boilerplate/commit/b0a39f58e1bd0934158b0bab8ab7e4c9215e88f0))
+
 ## [3.5.4](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.5.3...v3.5.4) (2022-12-03)
 
 
