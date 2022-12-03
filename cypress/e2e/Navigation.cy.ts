@@ -21,5 +21,27 @@ describe('Navigation', () => {
         2
       );
     });
+
+    it('should take screenshot of the homepage', () => {
+      cy.visit('/');
+
+      // Wait until the page is displayed
+      cy.findByRole('heading', {
+        name: 'Boilerplate code for your Nextjs project with Tailwind CSS',
+      });
+
+      cy.percySnapshot('Homepage');
+    });
+
+    it('should take screenshot of the About page', () => {
+      cy.visit('/about');
+
+      // Wait until the page is displayed
+      cy.findByRole('heading', {
+        name: 'Boilerplate code for your Nextjs project with Tailwind CSS',
+      });
+
+      cy.percySnapshot('About');
+    });
   });
 });
