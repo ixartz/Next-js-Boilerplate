@@ -37,9 +37,7 @@ describe('Navigation', () => {
       cy.visit('/about');
 
       // Wait until the page is displayed
-      cy.findByRole('heading', {
-        name: 'Boilerplate code for your Nextjs project with Tailwind CSS',
-      });
+      cy.findByRole('link', { name: 'About' });
 
       cy.percySnapshot('About');
     });
