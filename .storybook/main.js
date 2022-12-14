@@ -12,4 +12,7 @@ module.exports = {
   docs: {
     docsPage: true,
   },
+  core: {
+    disableTelemetry: true,
+  },
 };
