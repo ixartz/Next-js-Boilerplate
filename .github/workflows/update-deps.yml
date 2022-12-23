@@ -24,7 +24,7 @@ jobs:
       - run: npm ci
 
       - run: npx npm-check-updates -u # Update dependencies
-      - run: rm -f node_modules package-lock.json
+      - run: rm -Rf node_modules package-lock.json
       - run: npm install
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v4
