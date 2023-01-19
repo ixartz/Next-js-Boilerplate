@@ -9,7 +9,7 @@ jobs:
   update:
     strategy:
       matrix:
-        node-version: [18.x]
+        node-version: [16.x]
 
     name: Update all dependencies
     runs-on: ubuntu-latest
