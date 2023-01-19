@@ -29,7 +29,7 @@ jobs:
   test:
     strategy:
       matrix:
-        node-version: [16.x]
+        node-version: [18.x]
 
     name: Run all tests
     runs-on: ubuntu-latest
