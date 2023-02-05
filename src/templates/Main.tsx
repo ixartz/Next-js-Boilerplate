@@ -13,14 +13,14 @@ const Main = (props: IMainProps) => (
     {props.meta}
 
     <div className="mx-auto max-w-screen-md">
-      <div className="border-b border-gray-300">
+      <header className="border-b border-gray-300">
         <div className="pt-16 pb-8">
-          <div className="text-3xl font-bold text-gray-900">
+          <h1 className="text-3xl font-bold text-gray-900">
             {AppConfig.title}
-          </div>
-          <div className="text-xl">{AppConfig.description}</div>
+          </h1>
+          <h4 className="text-xl">{AppConfig.description}</h4>
         </div>
-        <div>
+        <nav>
           <ul className="flex flex-wrap text-xl">
             <li className="mr-6">
               <Link
@@ -55,12 +55,12 @@ const Main = (props: IMainProps) => (
               </Link>
             </li>
           </ul>
-        </div>
-      </div>
+        </nav>
+      </header>
 
-      <div className="content py-5 text-xl">{props.children}</div>
+      <main className="content py-5 text-xl">{props.children}</main>
 
-      <div className="border-t border-gray-300 py-8 text-center text-sm">
+      <footer className="border-t border-gray-300 py-8 text-center text-sm">
         © Copyright {new Date().getFullYear()} {AppConfig.title}. Made with{' '}
         <a href="https://creativedesignsguru.com">CreativeDesignsGuru</a>.
         {/*
@@ -69,7 +69,7 @@ const Main = (props: IMainProps) => (
          * The link doesn't need to appear on every pages, one link on one page is enough.
          * For example, in the `About` page. Thank you for your support, it'll mean a lot to me.
          */}
-      </div>
+      </footer>
     </div>
   </div>
 );
