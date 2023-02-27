@@ -18,7 +18,7 @@ const Main = (props: IMainProps) => (
           <h1 className="text-3xl font-bold text-gray-900">
             {AppConfig.title}
           </h1>
-          <h4 className="text-xl">{AppConfig.description}</h4>
+          <h2 className="text-xl">{AppConfig.description}</h2>
         </div>
         <nav>
           <ul className="flex flex-wrap text-xl">
