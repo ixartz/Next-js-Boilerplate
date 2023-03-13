@@ -8,10 +8,10 @@ const Account = () => {
     <section className="mx-auto max-w-screen-md">
       <div className="mt-12 flex flex-wrap items-center justify-center">
         <div className="mx-auto mb-20 w-full">
-          <div className="mb-14 flex flex-row items-center justify-center lg:justify-center">
+          <div className="mb-12 flex flex-row items-center justify-center lg:justify-center">
             <h1 className="mb-0 mr-4 text-3xl">My Account</h1>
           </div>
-          <div className="mx-5 my-10 flex flex-row justify-between">
+          <div className="m-5 flex flex-row justify-between">
             <div className="mx-3 w-2/3 border-2 border-gray-400 bg-gradient-to-r from-blue-400 to-white">
               <div className="h-6 w-full bg-gradient-to-b from-gray-600 to-transparent"></div>
               <div className="h-full w-2 -translate-y-6 bg-teal-400"></div>
@@ -47,11 +47,62 @@ const Account = () => {
               </div>
             </form>
           </div>
-          <div className="text-center lg:text-center">
-            <button className="border-5 translate-x-20 rounded border border-teal-700 bg-gradient-to-t from-teal-600 to-teal-500 py-1 px-7 text-lg text-white">
-              Save Changes
-            </button>
-            <p className="mt-2 mb-0 pt-1 text-sm">
+          <div className="mx-5 flex flex-col text-center lg:text-center">
+            <div className="my-5 flex w-full flex-row items-center">
+              <div className="mx-3 flex w-2/3 flex-col items-center justify-center">
+                <div className="flex w-full flex-row items-center justify-center">
+                  <div className="mr-3 h-0.5 w-1/4 bg-gray-400"></div>
+                  <span className="text-lg text-black">
+                    Notification Preferences
+                  </span>
+                  <div className="ml-3 h-0.5 w-1/4 bg-gray-400"></div>
+                </div>
+                <ul className="mt-5 flex w-full flex-row items-center bg-white text-sm font-medium text-gray-900">
+                  <li className="flex w-1/3 justify-center">
+                    <div className="flex items-center">
+                      <input
+                        type="checkbox"
+                        value=""
+                        className="h-10 w-10 rounded border-gray-300 bg-gray-100 accent-white focus:ring-teal-600"
+                      />
+                      <span className="ml-2 w-full text-lg font-medium text-black">
+                        Email
+                      </span>
+                    </div>
+                  </li>
+                  <li className="flex w-1/3 justify-center">
+                    <div className="flex items-center">
+                      <input
+                        type="checkbox"
+                        value=""
+                        className="h-10 w-10 rounded border-gray-300 bg-gray-100 accent-white focus:ring-teal-600"
+                      />
+                      <span className="ml-2 w-full text-lg font-medium text-black">
+                        Push
+                      </span>
+                    </div>
+                  </li>
+                  <li className="flex w-1/3 justify-center">
+                    <div className="flex items-center">
+                      <input
+                        type="checkbox"
+                        value=""
+                        className="h-10 w-10 rounded border-gray-300 bg-gray-100 accent-white focus:ring-teal-600"
+                      />
+                      <span className="ml-2 w-full text-lg font-medium text-black">
+                        No Contact
+                      </span>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div className="mx-3 w-1/3">
+                <button className="border-5 h-12 rounded border border-teal-700 bg-gradient-to-t from-teal-600 to-teal-500 py-1 px-3 text-xl text-white">
+                  Save Changes
+                </button>
+              </div>
+            </div>
+            <p className="text-md mt-2 mb-0 pt-1">
               <span>Need help? </span>
               <a
                 href="#"
