@@ -1,4 +1,6 @@
 import { useRouter } from 'next/router';
+import React from 'react';
+import Link from 'next/link';
 
 import { Meta } from '@/layouts/Meta';
 import { Main } from '@/templates/Main';
@@ -7,178 +9,70 @@ const Index = () => {
   const router = useRouter();
 
   return (
-    <Main
-      meta={
-        <Meta
-          title="Next.js Boilerplate Presentation"
-          description="Next js Boilerplate is the perfect starter code for your project. Build your React application with the Next.js framework."
-        />
-      }
-    >
-      <a href="https://github.com/ixartz/Next-js-Boilerplate">
-        <img
-          src={`${router.basePath}/assets/images/nextjs-starter-banner.png`}
-          alt="Nextjs starter banner"
-        />
-      </a>
-      <h2 className="text-2xl font-bold">
-        Boilerplate code for your Nextjs project with Tailwind CSS
-      </h2>
-      <p>
-        <span role="img" aria-label="rocket">
-          🚀
-        </span>{' '}
-        Next.js Boilerplate is a starter code for your Next js project by
-        putting developer experience first .{' '}
-        <span role="img" aria-label="zap">
-          ⚡️
-        </span>{' '}
-        Made with Next.js, TypeScript, ESLint, Prettier, Husky, Lint-Staged,
-        VSCode, Netlify, PostCSS, Tailwind CSS.
-      </p>
-      <h3 className="text-lg font-semibold">Next js Boilerplate Features</h3>
-      <p>Developer experience first:</p>
-      <ul>
-        <li>
-          <span role="img" aria-label="fire">
-            🔥
-          </span>{' '}
-          <a href="https://nextjs.org" rel="nofollow">
-            Next.js
-          </a>{' '}
-          for Static Site Generator
-        </li>
-        <li>
-          <span role="img" aria-label="art">
-            🎨
-          </span>{' '}
-          Integrate with{' '}
-          <a href="https://tailwindcss.com" rel="nofollow">
-            Tailwind CSS
-          </a>
-        </li>
-        <li>
-          <span role="img" aria-label="nail_care">
-            💅
-          </span>{' '}
-          PostCSS for processing Tailwind CSS
-        </li>
-        <li>
-          <span role="img" aria-label="tada">
-            🎉
-          </span>{' '}
-          Type checking Typescript
-        </li>
-        <li>
-          <span role="img" aria-label="pencil2">
-            ✏️
-          </span>{' '}
-          Linter with{' '}
-          <a href="https://eslint.org" rel="nofollow">
-            ESLint
-          </a>
-        </li>
-        <li>
-          <span role="img" aria-label="hammer_and_wrench">
-            🛠
-          </span>{' '}
-          Code Formatter with{' '}
-          <a href="https://prettier.io" rel="nofollow">
-            Prettier
-          </a>
-        </li>
-        <li>
-          <span role="img" aria-label="fox_face">
-            🦊
-          </span>{' '}
-          Husky for Git Hooks
-        </li>
-        <li>
-          <span role="img" aria-label="no_entry_sign">
-            🚫
-          </span>{' '}
-          Lint-staged for running linters on Git staged files
-        </li>
-        <li>
-          <span role="img" aria-label="no_entry_sign">
-            🗂
-          </span>{' '}
-          VSCode configuration: Debug, Settings, Tasks and extension for
-          PostCSS, ESLint, Prettier, TypeScript
-        </li>
-        <li>
-          <span role="img" aria-label="robot">
-            🤖
-          </span>{' '}
-          SEO metadata, JSON-LD and Open Graph tags with Next SEO
-        </li>
-        <li>
-          <span role="img" aria-label="robot">
-            ⚙️
-          </span>{' '}
-          <a
-            href="https://www.npmjs.com/package/@next/bundle-analyzer"
-            rel="nofollow"
-          >
-            Bundler Analyzer
-          </a>
-        </li>
-        <li>
-          <span role="img" aria-label="rainbow">
-            🌈
-          </span>{' '}
-          Include a FREE minimalist theme
-        </li>
-        <li>
-          <span role="img" aria-label="hundred">
-            💯
-          </span>{' '}
-          Maximize lighthouse score
-        </li>
-      </ul>
-      <p>Built-in feature from Next.js:</p>
-      <ul>
-        <li>
-          <span role="img" aria-label="coffee">
-            ☕
-          </span>{' '}
-          Minify HTML &amp; CSS
-        </li>
-        <li>
-          <span role="img" aria-label="dash">
-            💨
-          </span>{' '}
-          Live reload
-        </li>
-        <li>
-          <span role="img" aria-label="white_check_mark">
-            ✅
-          </span>{' '}
-          Cache busting
-        </li>
-      </ul>
-      <h3 className="text-lg font-semibold">Our Stater code Philosophy</h3>
-      <ul>
-        <li>Minimal code</li>
-        <li>SEO-friendly</li>
-        <li>
-          <span role="img" aria-label="rocket">
-            🚀
-          </span>{' '}
-          Production-ready
-        </li>
-      </ul>
-      <p>
-        Check our GitHub project for more information about{' '}
-        <a href="https://github.com/ixartz/Next-js-Boilerplate">
-          Nextjs Boilerplate
-        </a>
-        . You can also browse our{' '}
-        <a href="https://creativedesignsguru.com/category/nextjs/">
-          Premium NextJS Templates
-        </a>{' '}
-        on our website to support this project.
-      </p>
+    <Main meta={<Meta title="AppTapBoom" description="AppTapBoom Home" />}>
+      <div className="static w-full overflow-visible">
+        <div>
+          <img
+            className="h-fit w-full"
+            src={`${router.basePath}/assets/images/home.png`}
+          />
+        </div>
+        <div className="absolute -bottom-40 left-1/2 flex -translate-x-1/2 items-center justify-center">
+          <Link className="relative m-1 w-80 border-none" href="/about">
+            <img
+              src={`${router.basePath}/assets/images/home-button-left.png`}
+            />
+            <h1 className="absolute top-1/3 left-1/2 -translate-x-1/2 -translate-y-1/2 text-2xl text-black">
+              ABOUT US
+            </h1>
+          </Link>
+          <Link className="relative m-1 w-80 border-none" href="/news">
+            <img
+              src={`${router.basePath}/assets/images/home-button-center.png`}
+            />
+            <h1 className="absolute top-1/3 left-1/2 -translate-x-1/2 -translate-y-1/2 text-2xl text-black">
+              NEWS
+            </h1>
+          </Link>
+          <Link className="relative m-1 w-80 border-none" href="/store">
+            <img
+              src={`${router.basePath}/assets/images/home-button-right.png`}
+            />
+            <h1 className="absolute top-1/3 left-1/2 -translate-x-1/2 -translate-y-1/2 text-2xl leading-4 text-black">
+              STORE
+            </h1>
+          </Link>
+        </div>
+        <div className="my-40 mx-auto max-w-screen-lg items-center justify-center ">
+          <h1 className="mb-16 border-2 border-x-0 border-t-0 border-b-black p-5 text-center text-4xl text-pink-600">
+            WELCOME
+          </h1>
+          <div className="my-5 flex justify-between">
+            <img
+              src={`${router.basePath}/assets/images/woman.png`}
+              className="shrink-1 mb-12 grow-0 basis-auto md:mb-0 md:w-9/12 md:shrink-0 lg:w-6/12 xl:w-6/12"
+            />
+            <div className="text-md mx-7">
+              <p>Download the experience everybody is talking about.</p>
+              <p>
+                We guarantee this immersive platform will offer an acoustic and
+                visual experience that you'll remember.
+              </p>
+              <p>
+                We encourage you to share your meaningful creations to gain
+                followers and inspire others in our community of like minded
+                content appreciators and creators.
+              </p>
+              <p>Feel the music, Play the Game.</p>
+            </div>
+          </div>
+          <p>
+            Download the experience everybody is talking about. We guarantee
+            this immersive platform will offer an acousitc and visual experience
+            that you'll remember. We encourage you to share your meaningful.
+          </p>
+        </div>
+      </div>
     </Main>
   );
 };
