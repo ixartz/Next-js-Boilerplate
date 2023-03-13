@@ -12,9 +12,19 @@ const Account = () => {
             <h1 className="mb-0 mr-4 text-3xl">My Account</h1>
           </div>
           <div className="m-5 flex flex-row justify-between">
-            <div className="mx-3 w-2/3 border-2 border-gray-400 bg-gradient-to-r from-blue-400 to-white">
-              <div className="h-6 w-full bg-gradient-to-b from-gray-600 to-transparent"></div>
-              <div className="h-full w-2 -translate-y-6 bg-teal-400"></div>
+            <div className="mx-3 flex h-80 w-2/3 flex-wrap justify-center border-l-8 border-l-teal-400 bg-gradient-to-tr from-sky-600 to-white">
+              <div className="h-5 w-full bg-gradient-to-b from-gray-600 to-transparent"></div>
+              <div className="mx-20 flex items-center bg-transparent">
+                <span className="mr-3 text-xl text-white">Subscribed</span>
+                <img
+                  className="w-24"
+                  src={`${router.basePath}/assets/images/user-img.png`}
+                />
+              </div>
+              <span className="-translate-x-3 text-5xl font-semibold text-gray-600">
+                16
+              </span>
+              <span className="text-2xl text-white">TAPMINISTRATION</span>
             </div>
             <form className="mx-3 w-1/3">
               <div className="mb-6">
