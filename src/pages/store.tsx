@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import { useRouter } from 'next/router';
 import React from 'react';
 
 import { StoreItem } from '@/components/storeItem';
@@ -7,7 +6,6 @@ import { Meta } from '@/layouts/Meta';
 import { Main } from '@/templates/Main';
 
 const Store = () => {
-  const router = useRouter();
   return (
     <Main meta={<Meta title="Store" description="store" />}>
       <div className="py-24">
