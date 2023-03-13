@@ -1,3 +1,10 @@
+# [3.8.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.7.0...v3.8.0) (2023-03-02)
+
+
+### Features
+
+* fix heading levels increase by one ([e712e60](https://github.com/ixartz/Next-js-Boilerplate/commit/e712e60402f04033673d93e464d7b3c46fff7dbe))
+
 # [3.7.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.6.0...v3.7.0) (2023-02-05)
 
 
