@@ -1,3 +1,10 @@
+## [3.8.1](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.8.0...v3.8.1) (2023-03-16)
+
+
+### Bug Fixes
+
+* typo in Readme ([8f7c1b7](https://github.com/ixartz/Next-js-Boilerplate/commit/8f7c1b79a46406b04b90ed8a5fe5029b3c24ff8c))
+
 # [3.8.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.7.0...v3.8.0) (2023-03-02)
 
 
