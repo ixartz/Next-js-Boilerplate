@@ -1,0 +1,3 @@
+// common.ts
+
+export {};

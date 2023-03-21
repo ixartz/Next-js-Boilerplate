@@ -19,7 +19,7 @@
     "allowUnreachableCode": false,
     "noFallthroughCasesInSwitch": true,
 
-    "target": "es5",
+    "target": "es6",
     "outDir": "out",
     "declaration": true,
     "sourceMap": true,
@@ -37,10 +37,10 @@
 
     "baseUrl": ".",
     "paths": {
-      "@/*": ["./src/*"],
-      "@/public/*": ["./public/*"]
+      "src/*": ["./src/*"],
+      "public/*": ["./public/*"]
     }
   },
   "exclude": ["./out/**/*", "./node_modules/**/*", "cypress/**/*.ts"],
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"]
+  "include": ["src/**/*", "next-env.d.ts", "assets.d.ts", "**/*.ts", "**/*.tsx"]
 }

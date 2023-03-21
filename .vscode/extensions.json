@@ -1,10 +1,21 @@
 {
+  // Extension identifier format: ${publisher}.${name}. Example: vscode.csharp
+
+  // List of extensions which should be recommended for users of this workspace.
   "recommendations": [
     "dbaeumer.vscode-eslint",
     "esbenp.prettier-vscode",
+    "eamodio.gitlens",
+    "zignd.html-css-class-completion",
+    "streetsidesoftware.code-spell-checker",
+    "naumovs.color-highlight",
+    "aaron-bond.better-comments",
     "mikestead.dotenv",
     "csstools.postcss",
-    "bradlc.vscode-tailwindcss",
-    "Orta.vscode-jest"
-  ]
+    "Orta.vscode-jest",
+    // Tailwind CSS Intellisense
+    "bradlc.vscode-tailwindcss"
+  ],
+  // List of extensions recommended by VS Code that should not be recommended for users of this workspace.
+  "unwantedRecommendations": []
 }

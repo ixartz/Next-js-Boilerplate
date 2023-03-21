@@ -1,2 +1,13 @@
-node_modules
 out
+/node_modules/**
+/public/**
+/build/**
+/dist/**
+*.css
+*.json
+.eslintrc.json
+.eslintrc
+*config.js
+package.json
+tsconfig.json
+*env.d.ts

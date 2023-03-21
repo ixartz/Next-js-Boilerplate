@@ -1,25 +1,52 @@
 {
-  "editor.tabSize": 2,
-  "editor.detectIndentation": false,
-  "search.exclude": {
-    "package-lock.json": true
+  "git.autofetch": true,
+  "terminal.integrated.tabs.enabled": true,
+  "[html][css][javascript][typescript][javascriptreact][typescriptreact][json][jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "editor.defaultFormatter": "dbaeumer.vscode-eslint",
-  "editor.formatOnSave": false,
-  "editor.codeActionsOnSave": [
-    "source.addMissingImports",
-    "source.fixAll.eslint"
-  ],
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "javascript.preferences.quoteStyle": "single",
+  "typescript.preferences.quoteStyle": "single",
+  "prettier.jsxSingleQuote": true,
+  "prettier.quoteProps": "consistent",
+  "prettier.singleQuote": true,
+  "prettier.bracketSameLine": false,
+  "prettier.printWidth": 80,
+  "prettier.trailingComma": "all",
+  "prettier.bracketSpacing": true,
+  "editor.suggestSelection": "recentlyUsedByPrefix",
+  "editor.guides.bracketPairs": "active",
+  "html.suggest.html5": true,
+  "html.autoClosingTags": true,
+  "html.validate.scripts": true,
+  "html.validate.styles": true,
+  "editor.tabSize": 2,
+  "editor.lineHeight": 0,
+  "editor.fontSize": 13,
+  "git.mergeEditor": false,
+  "files.eol": "\n",
+  "editor.formatOnSave": true,
+  "tailwindCSS.emmetCompletions": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  "prettier.ignorePath": ".gitignore",
   "jest.autoRun": {
     "watch": false // Start the jest with the watch flag
     // "onStartup": ["all-tests"] // Run all tests upon project launch
   },
   "jest.showCoverageOnLoad": true, // Show code coverage when the project is launched
   "jest.autoRevealOutput": "on-exec-error", // Don't automatically open test explorer terminal on launch
-  // Multiple language settings for json and jsonc files
-  "[json][jsonc][yaml]": {
-    "editor.formatOnSave": true,
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  "cSpell.language": "en,en-US,en-GB",
+  "cSpell.enableFiletypes": ["dockerfile", "firerules", "ini", "sql"],
+  "cSpell.customDictionaries": {
+    "custom-dictionary-user": {
+      "name": "custom-dictionary-user",
+      "path": "~/.cspell/custom-dictionary-user.txt",
+      "addWords": true,
+      "scope": "user"
+    }
   },
-  "prettier.ignorePath": ".gitignore" // Don't run prettier for files listed in .gitignore
+  "cSpell.words": ["endregion", "jsonparse", "svgs"]
 }

@@ -1,7 +1,8 @@
 // import { useRouter } from 'next/router';
 
-import { Meta } from '@/layouts/Meta';
-import { Main } from '@/templates/Main';
+import { AppConfig } from 'src/config/AppConfig';
+import { Meta } from 'src/layouts/Meta';
+import { Main } from 'src/templates/Main';
 
 const Index = () => {
   // const router = useRouter();
@@ -9,10 +10,10 @@ const Index = () => {
   return (
     <Main
       meta={
-        <Meta title="Joshua Tree Academy" description="Description yahan" />
+        <Meta title={AppConfig.title} description={AppConfig.description} />
       }
     >
-      <div></div>
+      <div>Hello World</div>
     </Main>
   );
 };
