@@ -1,8 +1,8 @@
 // import { useRouter } from 'next/router';
 
 import { AppConfig } from 'src/config/AppConfig';
-import { Meta } from 'src/layouts/Meta';
-import { Main } from 'src/templates/Main';
+import { Main } from 'src/layouts/Main';
+import { Meta } from 'src/seo/Meta';
 
 const Index = () => {
   // const router = useRouter();
