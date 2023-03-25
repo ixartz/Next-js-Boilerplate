@@ -27,6 +27,11 @@
   "git.mergeEditor": false,
   "files.eol": "\n",
   "editor.formatOnSave": true,
+  "tailwindCSS.experimental.classRegex": [
+    ["[Cc]lass(?:es)? ?\\=([^;]*);", "'([^']*)'"],
+    ["[Cc]lass(?:es)? ?\\=([^;]*);", "\"([^\"]*)\""],
+    ["[Cc]lass(?:es)? ?\\=([^;]*);", "\\`([^\\`]*)\\`"]
+  ],
   "tailwindCSS.emmetCompletions": true,
   "tailwindCSS.rootFontSize": 16, // Update this according to your project's base-fontsize Or remove if you didn't define custom base-fontsize - Default is 16
   "editor.codeActionsOnSave": {

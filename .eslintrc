@@ -63,7 +63,6 @@
     "no-var": "error",
     "require-await": "error",
     "@next/next/no-img-element": "off", // We currently not using next/image because it isn't supported with SSG mode
-    "@typescript-eslint/consistent-type-imports": "error", // Ensure `import type` is used when it's necessary
     "no-restricted-syntax": [
       "error",
       "ForInStatement",
