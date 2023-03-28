@@ -5,6 +5,7 @@ import { NextSeo } from 'next-seo';
 import { AppConfig } from '@/utils/AppConfig';
 
 type IMetaProps = {
+  cancel: string;
   title: string;
   description: string;
   canonical?: string;
