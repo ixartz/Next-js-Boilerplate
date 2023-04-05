@@ -14,7 +14,7 @@ const Main = (props: IMainProps) => (
 
     <div className="mx-auto max-w-screen-md">
       <header className="border-b border-gray-300">
-        <div className="pt-16 pb-8">
+        <div className="pb-8 pt-16">
           <h1 className="text-3xl font-bold text-gray-900">
             {AppConfig.title}
           </h1>
