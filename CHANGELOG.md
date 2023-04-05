@@ -1,3 +1,17 @@
+# [3.9.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.8.2...v3.9.0) (2023-04-05)
+
+
+### Features
+
+* add storybook into project ([51f3748](https://github.com/ixartz/Next-js-Boilerplate/commit/51f3748c0cb6d9cd04cdb0d3b9d95a0f60851866))
+* add tailwind css support in Storybook ([5e0d287](https://github.com/ixartz/Next-js-Boilerplate/commit/5e0d287cef8a898df8f1a98632a8703657282100))
+* remove warning for no extreneous deps in stories ([b243d44](https://github.com/ixartz/Next-js-Boilerplate/commit/b243d441e4b75566e16f5fa64d26900267eb89f5))
+
+
+### Reverts
+
+* remove storybook addon-styling which is not needed ([e863fed](https://github.com/ixartz/Next-js-Boilerplate/commit/e863fedcbc5a1aaf808c295d80f8de95b6abd1f7))
+
 ## [3.8.2](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.8.1...v3.8.2) (2023-03-28)
 
 
