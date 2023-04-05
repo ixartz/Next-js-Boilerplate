@@ -58,6 +58,9 @@ jobs:
       - name: Run unit tests
         run: npm run test
 
+      - name: Run storybook tests
+        run: npm run test-storybook:ci
+
       - name: Run e2e tests
         run: npx percy exec -- npm run e2e:headless
         env:
