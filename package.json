@@ -28,11 +28,13 @@
   },
   "dependencies": {
     "@heroicons/react": "^2.0.17",
+    "bootstrap": "^5.2.3",
     "next": "^13.2.4",
     "next-seo": "^5.15.0",
     "next-sitemap": "^4.0.6",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.8.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.5.1",
