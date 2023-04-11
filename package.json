@@ -22,6 +22,7 @@
     "postbuild": "next-sitemap"
   },
   "dependencies": {
+    "@heroicons/react": "^2.0.17",
     "next": "^13.2.4",
     "next-seo": "^5.15.0",
     "next-sitemap": "^4.0.6",
