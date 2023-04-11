@@ -8,6 +8,9 @@
 # testing
 /coverage
 
+# storybook
+storybook-static
+
 # cypress
 cypress/screenshots
 cypress/videos
