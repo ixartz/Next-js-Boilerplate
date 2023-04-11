@@ -28,11 +28,12 @@ const Main = (props: IMainProps) => {
       {props.meta}
       <div className="mx-auto">
         <Header />
-        <main className="content ms:px-0 w-full pt-[100px] text-xl md:px-24">
+        <main className="content ms:px-0 w-full pt-[150px] text-xl md:px-24">
           {props.children}
         </main>
         <footer className="border-t border-gray-300 py-8 text-center text-sm">
-          © {new Date().getFullYear()} {AppConfig.title}.
+          Copyright © {new Date().getFullYear()} {AppConfig.title}- Dinas
+          Komunikasi dan Informatika. All Rights Reserved.
         </footer>
       </div>
     </div>
