@@ -64,17 +64,14 @@ export default function Header() {
             animateHeader && 'py-5'
           } trasition mx-auto items-center justify-between px-16 duration-500 ease-in-out`}
         >
-          <a
-            className="hover:border-none"
-            href="https://github.com/ixartz/Next-js-Boilerplate"
-          >
+          <Link className="hover:border-none" href="/">
             <img
               src={`${router.basePath}/assets/images/logo-satudata.png`}
               alt="header logo"
               className="w-[150px]"
             />
-          </a>
-          <nav className="hidden md:block xl:hidden">
+          </Link>
+          <nav className="hidden md:block ">
             <ul className="flex items-center justify-start">
               {menuItems?.map((item, index) => (
                 <li
