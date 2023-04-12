@@ -19,3 +19,13 @@ a:hover {
 .content ul {
   @apply my-6;
 }
+
+.carousel-container {
+  overflow: hidden;
+}
+
+.carousel-wrapper {
+  display: flex;
+  gap: 3rem;
+  transition: transform 500ms ease-in-out;
+}
