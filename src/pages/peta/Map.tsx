@@ -1,6 +1,4 @@
-/* eslint-disable @typescript-eslint/no-shadow */
-/* eslint-disable radix */
-/* eslint-disable import/no-extraneous-dependencies */
+/* eslint-disable @typescript-eslint/no-use-before-define */
 import 'leaflet/dist/leaflet.css';
 
 import { useState } from 'react';
@@ -28,20 +26,17 @@ export default function Map() {
   const rangeColors = ['#0B2447', '#27529e', '#576CBC', '#7b8ac4', '#A5D7E8'];
 
   const getColor = (value: number, _ranges: number) => {
-    // eslint-disable-next-line @typescript-eslint/no-use-before-define
-    const index = result.range.findIndex(
-      (range) =>
-        // eslint-disable-next-line radix
-        value >= parseInt(range.split('-')[0]) &&
-        // eslint-disable-next-line radix
-        value <= parseInt(range.split('-')[1])
-    );
+    const index = result.range.findIndex((range: string) => {
+      const rangeParts = range.split('-');
+      const lowerBound = parseInt(rangeParts[0], 10);
+      const upperBound = parseInt(rangeParts[1], 10);
+      return lowerBound <= value && value <= upperBound;
+    });
     return rangeColors[index];
   };
 
   const geoJsonStyle = (feature: any) => {
     const nilaiValue = parseInt(feature.properties.nilai, 10);
-    // eslint-disable-next-line @typescript-eslint/no-shadow
     const arr = kecamatanData.features.map((feature: any) =>
       parseInt(feature.properties.nilai, 10)
     );
