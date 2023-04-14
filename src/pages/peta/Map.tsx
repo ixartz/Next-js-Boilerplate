@@ -1,10 +1,11 @@
+/* eslint-disable @typescript-eslint/no-shadow */
 /* eslint-disable @typescript-eslint/no-use-before-define */
 import 'leaflet/dist/leaflet.css';
 
+import type { FeatureCollection } from 'geojson';
+import type { LeafletMouseEvent } from 'leaflet';
 import { useState } from 'react';
 import { GeoJSON, MapContainer, TileLayer, useMap } from 'react-leaflet';
-
-import kecamatanData from '../../../public/kecamatan.json';
 
 interface Coords {
   lat: number;
@@ -14,10 +15,16 @@ interface Coords {
 function ChangeView({ coords }: { coords: Coords }): null {
   const map = useMap();
   map.setView(coords, 12);
+  map.setView(coords, map.getZoom() - 2);
   return null;
 }
 
-export default function Map() {
+type MapProps = {
+  dataKecamatan: FeatureCollection;
+};
+export default function Map({ dataKecamatan }: MapProps) {
+  // console.log(dataKecamatan);
+
   const [geoData] = useState<Coords>({
     lat: -7.3708,
     lng: 107.8167,
@@ -28,8 +35,8 @@ export default function Map() {
   const getColor = (value: number, _ranges: number) => {
     const index = result.range.findIndex((range: string) => {
       const rangeParts = range.split('-');
-      const lowerBound = parseInt(rangeParts[0], 10);
-      const upperBound = parseInt(rangeParts[1], 10);
+      const lowerBound = rangeParts[0] ? parseInt(rangeParts[0], 10) : 0;
+      const upperBound = rangeParts[1] ? parseInt(rangeParts[1], 10) : 0;
       return lowerBound <= value && value <= upperBound;
     });
     return rangeColors[index];
@@ -37,11 +44,13 @@ export default function Map() {
 
   const geoJsonStyle = (feature: any) => {
     const nilaiValue = parseInt(feature.properties.nilai, 10);
-    const arr = kecamatanData.features.map((feature: any) =>
+    // eslint-disable-next-line @typescript-eslint/no-shadow
+    const arr = dataKecamatan.features.map((feature: any) =>
       parseInt(feature.properties.nilai, 10)
     );
     const maxValue = Math.max(...arr);
     const range = Math.ceil(maxValue / 5);
+    console.log(feature);
 
     return {
       fillColor: getColor(nilaiValue, range),
@@ -50,21 +59,26 @@ export default function Map() {
       color: '#777', // warna border
       dashArray: '3',
       fillOpacity: 0.7,
+      // feature._leaflet_pos || new Point(0, 0),
     };
+    // return el._leaflet_pos || new Point(0, 0);
   };
   const onEachFeature = (feature: any, layer: any) => {
     layer.on({
-      mouseover: () => {
+      mouseover: (event: LeafletMouseEvent) => {
+        // eslint-disable-next-line @typescript-eslint/no-shadow
+        const layer = event.target;
         layer.setStyle({ color: '#232323', weight: 3 });
         layer
           .bindPopup(
-            `<b>${feature.properties.judul}</b> <br />
+            `<b>${feature.properties.positif}</b> <br />
             <b>${feature.properties.kecamatan}</b><br />
              Total : ${feature.properties.nilai}<br />
              Keterangan ${feature.properties.keterangan}`
           )
           .openPopup();
       },
+
       mouseout: () => {
         layer.setStyle({ color: '#777', weight: 1 });
         layer.closePopup();
@@ -72,16 +86,18 @@ export default function Map() {
     });
   };
 
-  const arr = kecamatanData.features.map((feature: any) =>
+  const arr = dataKecamatan.features.map((feature: any) =>
     parseInt(feature.properties.nilai, 10)
   );
   const maxValue = Math.max(...arr);
   const range = Math.ceil(maxValue / 5);
 
+  const initialCount = new Array(Math.ceil((maxValue + 1) / range)).fill(0);
+
   const result = arr.reduce(
     (acc: { count: number[]; range: string[] }, val: number) => {
       const index = Math.floor(val / range);
-      acc.count[index] = acc.count[index] ? acc.count[index] + 1 : 1;
+      acc.count[index] = (acc.count[index] || 0) + 1;
       const min = index * range;
       const max = (index + 1) * range - 1;
       const rangeStr = `${min}-${max}`;
@@ -90,12 +106,14 @@ export default function Map() {
       }
       return acc;
     },
-    { count: [], range: [] }
+    { count: initialCount, range: [] }
   );
 
-  result.range.sort((a, b) => {
-    const maxA = parseInt(a.split('-')[1]);
-    const maxB = parseInt(b.split('-')[1]);
+  result.range.sort((a: string, b: string) => {
+    const rangePartsA = a.split('-');
+    const rangePartsB = b.split('-');
+    const maxA = rangePartsA[1] ? parseInt(rangePartsA[1], 10) : 0;
+    const maxB = rangePartsB[1] ? parseInt(rangePartsB[1], 10) : 0;
     return maxB - maxA;
   });
 
@@ -132,9 +150,10 @@ export default function Map() {
           attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
-        <ChangeView coords={center} />
+        <ChangeView coords={{ lat: center[0], lng: center[1] }} />
+
         <GeoJSON
-          data={kecamatanData}
+          data={dataKecamatan}
           onEachFeature={onEachFeature}
           style={geoJsonStyle}
         />

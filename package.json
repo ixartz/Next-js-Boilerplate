@@ -35,9 +35,11 @@
     "next-sitemap": "^4.0.6",
     "react": "^18.2.0",
     "react-countup": "^6.4.2",
+    "react-data-table-component": "^7.5.3",
     "react-dom": "^18.2.0",
     "react-icons": "^4.8.0",
-    "react-leaflet": "^4.2.1"
+    "react-leaflet": "^4.2.1",
+    "styled-components": "^5.3.9"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.5.1",

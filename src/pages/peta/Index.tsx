@@ -1,13 +1,20 @@
+/* eslint-disable import/no-extraneous-dependencies */
 import dynamic from 'next/dynamic';
-import { FiSearch } from 'react-icons/fi';
+import React from 'react';
 
 import { Meta } from '@/layouts/Meta';
 import { Main } from '@/templates/Main';
 
+import kecamatanData from '../../../public/kecamatan.json';
+// import Tabel from './Tabel';
+
 const Index = () => {
   const MapWithNoSSR = dynamic(() => import('./Map'), {
     ssr: false,
+    loading: () => <p>Loading map...</p>,
   });
+
+  const Tabel = React.lazy(() => import('./Tabel'));
   return (
     <Main
       meta={
@@ -19,82 +26,21 @@ const Index = () => {
     >
       <div className="w-full">
         <div>Judul</div>
-        <div className="flex w-full flex-row gap-3 pb-4">
-          <div className="w-full">
-            <label
-              htmlFor="countries"
-              className="mb-2 block text-sm font-medium text-gray-900 dark:text-gray-400"
+
+        <div className="flex h-screen w-full items-center justify-center">
+          <div>
+            <h1>Peta Kecamatan Garut</h1>
+            <div
+              id="map"
+              style={{ height: '500px', width: '1000px', position: 'relative' }}
             >
-              Sumber
-            </label>
-            <select
-              id="countries"
-              className="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-primary focus:ring-primary dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder:text-gray-400 dark:focus:border-primary dark:focus:ring-primary"
-            >
-              <option selected>Choose a country</option>
-              <option value="US">United States</option>
-              <option value="CA">Canada</option>
-              <option value="FR">France</option>
-              <option value="DE">Germany</option>
-            </select>
-          </div>
-          <div className="w-full">
-            <label
-              htmlFor="countries"
-              className="mb-2 block text-sm font-medium text-gray-900 dark:text-gray-400"
-            >
-              Elemen
-            </label>
-            <select
-              id="countries"
-              className="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-primary focus:ring-primary dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder:text-gray-400 dark:focus:border-primary dark:focus:ring-primary"
-            >
-              <option selected>Choose a country</option>
-              <option value="US">United States</option>
-              <option value="CA">Canada</option>
-              <option value="FR">France</option>
-              <option value="DE">Germany</option>
-            </select>
-          </div>
-          <div className="w-full">
-            <label
-              htmlFor="countries"
-              className="mb-2 block text-sm font-medium text-gray-900 dark:text-gray-400"
-            >
-              Tahun
-            </label>
-            <select
-              id="countries"
-              className="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-primary focus:ring-primary dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder:text-gray-400 dark:focus:border-primary dark:focus:ring-primary"
-            >
-              <option selected>Choose a country</option>
-              <option value="US">United States</option>
-              <option value="CA">Canada</option>
-              <option value="FR">France</option>
-              <option value="DE">Germany</option>
-            </select>
-          </div>
-          <div className="flex items-center justify-center">
-            <button
-              type="submit"
-              className="mt-7 flex items-center rounded-md border border-primary bg-white px-5 py-2 text-sm text-primary hover:bg-primary hover:text-white"
-            >
-              <FiSearch className="mr-2" />
-              <span>Cari</span>
-            </button>
-          </div>
-        </div>
-        <div>
-          {' '}
-          <div className="flex h-screen w-full items-center justify-center">
-            <div>
-              <h1>Peta Kecamatan Garut</h1>
-              <div id="map" style={{ height: '500px', width: '1000px' }}>
-                <MapWithNoSSR />
-              </div>
+              <MapWithNoSSR dataKecamatan={kecamatanData} />
             </div>
           </div>
         </div>
+        <React.Suspense fallback={<p>Loading table...</p>}>
+          <Tabel data={kecamatanData} />
+        </React.Suspense>
       </div>
     </Main>
   );
