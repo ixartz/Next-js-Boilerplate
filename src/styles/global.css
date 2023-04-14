@@ -29,3 +29,11 @@ a:hover {
   gap: 3rem;
   transition: transform 500ms ease-in-out;
 }
+
+.leaflet-container {
+  height: 500px;
+  width: 100%;
+}
+
+
+

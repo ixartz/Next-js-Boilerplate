@@ -53,7 +53,7 @@ export default function Header() {
   return (
     <header
       // eslint-disable-next-line tailwindcss/no-custom-classname
-      className={`trasition fixed z-10 my-0 w-full bg-white/50 backdrop-blur-lg duration-500 ease-in-out${
+      className={`trasition fixed z-50 my-0 w-full bg-white/50 backdrop-blur-lg duration-500 ease-in-out${
         animateHeader && 'shadow-xl'
       }`}
     >

@@ -29,13 +29,15 @@
   "dependencies": {
     "@heroicons/react": "^2.0.17",
     "bootstrap": "^5.2.3",
+    "leaflet": "^1.9.3",
     "next": "^13.2.4",
     "next-seo": "^5.15.0",
     "next-sitemap": "^4.0.6",
     "react": "^18.2.0",
     "react-countup": "^6.4.2",
     "react-dom": "^18.2.0",
-    "react-icons": "^4.8.0"
+    "react-icons": "^4.8.0",
+    "react-leaflet": "^4.2.1"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.5.1",
@@ -58,6 +60,7 @@
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^14.0.0",
     "@types/jest": "^29.5.0",
+    "@types/leaflet": "^1.9.3",
     "@types/node": "^18.15.11",
     "@types/react": "^18.0.33",
     "@typescript-eslint/eslint-plugin": "^5.57.1",
@@ -90,6 +93,7 @@
     "husky": "^8.0.3",
     "jest": "^29.5.0",
     "jest-environment-jsdom": "^29.5.0",
+    "json-loader": "^0.5.7",
     "lint-staged": "^13.2.0",
     "npm-run-all": "^4.1.5",
     "postcss": "^8.4.21",
@@ -123,6 +127,11 @@
       "@semantic-release/git",
       "@semantic-release/github"
     ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "eslint --ignore-path .gitignore --ext .js,.jsx,.ts,.tsx ."
+    }
   },
   "author": "Ixartz (https://github.com/ixartz)"
 }

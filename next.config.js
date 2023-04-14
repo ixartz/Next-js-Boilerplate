@@ -15,3 +15,29 @@ module.exports = withBundleAnalyzer({
   // You can remove `basePath` if you don't need it.
   reactStrictMode: true,
 });
+
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  async rewrites() {
+    return [
+      {
+        source: '/peta', // mau diganti jadi apa ?
+        destination: '/peta/Index', // path lama ?
+      },
+    ];
+  },
+  // async redirects() {
+  //   return [
+  //     {
+  //       source: '/dashboard', // jika ada yang akses ini
+  //       destination: '/', // lempar kesini
+  //       permanent: true,
+  //     },
+  //   ];
+  // },
+  // images: {
+  //   domains: ['res.cloudinary.com'],
+  // },
+};
+
+module.exports = nextConfig;
