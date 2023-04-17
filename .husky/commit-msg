@@ -1,4 +1,4 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
-npx --no -- commitlint --edit $1
+cd "$(dirname "$0")/.." && npx --no -- commitlint --edit $1
