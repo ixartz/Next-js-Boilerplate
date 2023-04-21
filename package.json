@@ -64,7 +64,7 @@
     "cssnano": "^6.0.0",
     "cypress": "^12.9.0",
     "eslint": "^8.37.0",
-    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-airbnb": "^19.0.4",
     "eslint-config-airbnb-typescript": "^17.0.0",
     "eslint-config-next": "^13.3.0",
     "eslint-config-prettier": "^8.8.0",
