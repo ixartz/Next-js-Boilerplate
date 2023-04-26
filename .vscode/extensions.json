@@ -5,6 +5,7 @@
     "mikestead.dotenv",
     "csstools.postcss",
     "bradlc.vscode-tailwindcss",
-    "Orta.vscode-jest"
+    "Orta.vscode-jest",
+    "yoavbls.pretty-ts-errors"
   ]
 }

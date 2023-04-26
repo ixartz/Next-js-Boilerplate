@@ -9,7 +9,7 @@ jest.mock(
   () =>
     function Head(props: { children: ReactNode }) {
       // eslint-disable-next-line testing-library/no-node-access
-      return <>{props.children}</>;
+      return props.children;
     }
 );
 
