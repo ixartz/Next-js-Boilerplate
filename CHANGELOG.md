@@ -1,3 +1,12 @@
+# [3.10.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.9.0...v3.10.0) (2023-04-26)
+
+
+### Features
+
+* add vscode yoavbls.pretty-ts-errors extension ([3588ce1](https://github.com/ixartz/Next-js-Boilerplate/commit/3588ce1dd366ebaa69f97551be58528d1ae38457))
+* remove stories in the coverage from Jest ([d502869](https://github.com/ixartz/Next-js-Boilerplate/commit/d502869a08a0b1d9025a4ce582651c5353f29d59))
+* use default airbnb instead of the base version ([5c05116](https://github.com/ixartz/Next-js-Boilerplate/commit/5c05116fb777aee09c1af7df6694e54403eaaccb))
+
 # [3.9.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.8.2...v3.9.0) (2023-04-05)
 
 
