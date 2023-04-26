@@ -7,7 +7,7 @@ import Blog from '@/pages/blog';
 
 describe('Blog page', () => {
   describe('Render method', () => {
-    it('should display 10', () => {
+    it('should display the last 10 posts', () => {
       render(<Blog />);
 
       const link = screen.getAllByRole('link', {
