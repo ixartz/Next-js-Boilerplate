@@ -12,7 +12,7 @@ const Blog = () => (
       placeat, accusamus aut saepe.
     </p>
 
-    {[...Array(10)].map((elt) => (
+    {Array.from(Array(10).keys()).map((elt) => (
       <div
         className="my-4 w-full rounded-md border-2 border-gray-400 px-2 py-1"
         key={elt}
