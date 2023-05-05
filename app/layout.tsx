@@ -10,7 +10,7 @@ import '../src/styles/global.css';
 const roboto = Roboto({
   subsets: ['latin'],
   weight: ['300', '400', '500', '700'],
-  variable: '--font-raleway',
+  variable: '--font-roboto',
 });
 
 export default function RootLayout({

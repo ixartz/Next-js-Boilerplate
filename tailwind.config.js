@@ -39,6 +39,9 @@ module.exports = {
         // 'hero-pattern': "url('#')",
         // 'footer-texture': "url(#')",
       },
+      fontFamily: {
+        sans: ['var(--font-roboto)', 'ui-sans-serif', 'system-ui'],
+      },
     },
   },
 };

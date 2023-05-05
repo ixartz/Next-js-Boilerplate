@@ -62,6 +62,7 @@
     "jsonparse",
     "Kolachi",
     "Nextjs",
+    "roboto",
     "svgs"
   ],
   "typescript.tsdk": "node_modules/typescript/lib",
