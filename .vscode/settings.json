@@ -35,7 +35,8 @@
   "tailwindCSS.emmetCompletions": true,
   "tailwindCSS.rootFontSize": 16, // Update this according to your project's base-fontsize Or remove if you didn't define custom base-fontsize - Default is 16
   "editor.codeActionsOnSave": {
-    "source.fixAll": true
+    "source.fixAll": true,
+    "source.fixAll.eslint": true
   },
   "prettier.ignorePath": ".gitignore",
   "jest.autoRun": {
@@ -54,5 +55,15 @@
       "scope": "user"
     }
   },
-  "cSpell.words": ["endregion", "getedpills", "jsonparse", "svgs"]
+  "cSpell.words": [
+    "commitlint",
+    "endregion",
+    "getedpills",
+    "jsonparse",
+    "Kolachi",
+    "Nextjs",
+    "svgs"
+  ],
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "typescript.enablePromptUseWorkspaceTsdk": true
 }
