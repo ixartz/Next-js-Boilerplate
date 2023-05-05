@@ -1,6 +1,7 @@
 import { Roboto } from '@next/font/google';
 
 import Header from 'src/app/Header';
+import { AppConfig } from 'src/config/AppConfig';
 
 import '../styles/global.css';
 
@@ -16,7 +17,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang='en'>
+    <html lang={AppConfig.locale}>
       <body className={`${roboto.variable} bg-gray-50 font-sans`}>
         <div className='flex min-h-screen flex-col justify-between'>
           <div className='container mx-auto px-5'>
