@@ -1,9 +1,11 @@
+import Footer from 'app/Footer';
+import Header from 'app/Header';
+
 import { Roboto } from '@next/font/google';
 
-import Header from 'src/app/Header';
 import { AppConfig } from 'src/config/AppConfig';
 
-import '../styles/global.css';
+import '../src/styles/global.css';
 
 const roboto = Roboto({
   subsets: ['latin'],
@@ -20,13 +22,11 @@ export default function RootLayout({
     <html lang={AppConfig.locale}>
       <body className={`${roboto.variable} bg-gray-50 font-sans`}>
         <div className='flex min-h-screen flex-col justify-between'>
-          <div className='container mx-auto px-5'>
+          <div>
             <Header />
             <div className='h-full'>{children}</div>
           </div>
-          <div className='mx-auto my-10 mb-5 text-xs'>
-            Copyright © {new Date().getFullYear()}
-          </div>
+          <Footer />
         </div>
       </body>
     </html>
