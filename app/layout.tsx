@@ -1,7 +1,6 @@
+import { Roboto } from 'next/font/google';
 import Footer from 'app/Footer';
 import Header from 'app/Header';
-
-import { Roboto } from '@next/font/google';
 
 import { AppConfig } from 'src/config/AppConfig';
 
