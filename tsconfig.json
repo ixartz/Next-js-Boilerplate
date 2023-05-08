@@ -43,6 +43,7 @@
   },
   "exclude": ["./out/**/*", "./node_modules/**/*", "cypress/**/*.ts"],
   "include": [
+    "app/**/*",
     "src/**/*",
     "next-env.d.ts",
     "assets.d.ts",
