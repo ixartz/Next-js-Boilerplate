@@ -15,12 +15,24 @@ const Index = () => {
         />
       }
     >
-      <a href="https://github.com/ixartz/Next-js-Boilerplate">
-        <img
-          src={`${router.basePath}/assets/images/nextjs-starter-banner.png`}
-          alt="Nextjs starter banner"
-        />
-      </a>
+      <div>
+        <h1 className="font-avenir text-6.5xl">Hi, I{`'`}m Chris!</h1>
+        <p className="mt-3 font-avenir text-xl">
+          I{`'`}m passionate about
+          <ul className="mt-0 list-inside list-disc">
+            <li className="my-1 ml-4">startups</li>
+            <li className="my-1 ml-4">coding</li>
+            <li className="my-1 ml-4">foreign policy</li>
+            <li className="my-1 ml-4">travel</li>
+            <li className="my-1 ml-4">fitness</li>
+            <li className="my-1 ml-4">and plenty of other niche topics!</li>
+          </ul>
+        </p>
+      </div>
+      <img
+        src={`${router.basePath}/assets/images/nextjs-starter-banner.png`}
+        alt="Nextjs starter banner"
+      />
       <h2 className="text-2xl font-bold">
         Boilerplate code for your Nextjs project with Tailwind CSS
       </h2>

@@ -15,7 +15,3 @@ a:hover {
 .content p {
   @apply my-6;
 }
-
-.content ul {
-  @apply my-6;
-}

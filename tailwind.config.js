@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+
 module.exports = {
   content: ['./src/**/*.{js,ts,jsx,tsx}'],
   theme: {
@@ -11,8 +12,14 @@ module.exports = {
       '2xl': '1.5rem',
       '3xl': '1.875rem',
       '4xl': '2.25rem',
+      '4.5xl': '2.5rem',
       '5xl': '3rem',
       '6xl': '4rem',
+      '6.5xl': '4.5rem',
+    },
+    fontFamily: {
+      avenir: ['avenir', 'sans-serif'],
+      raleway: ['raleway', 'sans-serif'],
     },
     extend: {
       colors: {
