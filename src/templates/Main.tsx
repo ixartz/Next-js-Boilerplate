@@ -9,7 +9,7 @@ type IMainProps = {
 };
 
 const Main = (props: IMainProps) => (
-  <div className="mx-14 antialiased">
+  <div className="m-auto max-w-5xl overflow-x-auto antialiased">
     {props.meta}
     <div>
       <header className="mt-11 pb-6">
