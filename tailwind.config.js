@@ -29,7 +29,7 @@ module.exports = {
     }),
   ],
   darkMode: 'class',
-  content: ['./src/**/*.{js,jsx,ts,tsx}'],
+  content: ['./src/**/*.{js,jsx,ts,tsx}', './app/**/*.{js,ts,jsx,tsx}'],
   theme: {
     extend: {
       colors,
@@ -38,6 +38,9 @@ module.exports = {
         // add background image here. eg:
         // 'hero-pattern': "url('#')",
         // 'footer-texture': "url(#')",
+      },
+      fontFamily: {
+        sans: ['var(--font-roboto)', 'ui-sans-serif', 'system-ui'],
       },
     },
   },
