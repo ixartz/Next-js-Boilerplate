@@ -26,6 +26,7 @@ public/sitemap-*.xml
 
 # cache
 .swc/
+.eslintcache
 
 # production
 /build
