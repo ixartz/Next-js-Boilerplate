@@ -1,3 +1,10 @@
+## [3.10.1](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.10.0...v3.10.1) (2023-05-29)
+
+
+### Bug Fixes
+
+* added types ([b35ddc9](https://github.com/ixartz/Next-js-Boilerplate/commit/b35ddc91ecad81986432dce1ba84c302e6394a5b))
+
 # [3.10.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.9.0...v3.10.0) (2023-04-26)
 
 
