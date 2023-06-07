@@ -1,3 +1,10 @@
+# [3.11.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.10.1...v3.11.0) (2023-06-07)
+
+
+### Features
+
+* update dependencies to the latest version ([b7609de](https://github.com/ixartz/Next-js-Boilerplate/commit/b7609dea1c8bd49f6ac05439740ea78894cd4a79))
+
 ## [3.10.1](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.10.0...v3.10.1) (2023-05-29)
 
 
