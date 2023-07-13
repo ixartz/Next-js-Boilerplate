@@ -1,3 +1,17 @@
+# [3.12.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.11.0...v3.12.0) (2023-07-13)
+
+
+### Features
+
+* format code to respect prettier ([48b6a49](https://github.com/ixartz/Next-js-Boilerplate/commit/48b6a49fd204083deb94b01aab70b52a42b9593f))
+* resolve conflict between airbnb-hook and next/core-web-vitals about react hooks ([5e0be4f](https://github.com/ixartz/Next-js-Boilerplate/commit/5e0be4fd8c2f9acd895f0b9ce373af7d782d44df))
+* update to the latest dependencies version ([d93fd83](https://github.com/ixartz/Next-js-Boilerplate/commit/d93fd83b6ab93360ddd8489afc8cfb05603e504c))
+
+
+### Reverts
+
+* use older TypeScript to avoid e2e compilation with sourcemap ([6377d2f](https://github.com/ixartz/Next-js-Boilerplate/commit/6377d2f2efc71384fba236427086b4e75f189328))
+
 # [3.11.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.10.1...v3.11.0) (2023-06-07)
 
 
