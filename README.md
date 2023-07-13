@@ -51,19 +51,9 @@ Built-in feature from Next.js:
 - SEO-friendly
 - 🚀 Production-ready
 
-### Nextless.js SaaS Boilerplate
+## Sponsors
 
-Build your SaaS product faster with [React SaaS Boilerplate](https://nextlessjs.com).
-
-[![React SaaS Boilerplate Next.js](https://creativedesignsguru.com/assets/images/themes/next-js-saas-starter-kit.jpg)](https://nextlessjs.com)
-
-### Premium Themes
-
-| [Green Nextjs Landing Page Template](https://creativedesignsguru.com/landing-green-modern-nextjs-theme/) | [Purple Saas Nextjs Theme](https://creativedesignsguru.com/landing-purple-modern-react-theme/) |
-| --- | --- |
-| [![Green Nextjs Landing Page Template](https://creativedesignsguru.com/assets/images/themes/landing-green-modern-nextjs-theme-xs.png)](https://creativedesignsguru.com/landing-green-modern-nextjs-theme/) | [![Blue Landing Page Nextjs Theme](https://creativedesignsguru.com/assets/images/themes/landing-blue-modern-nextjs-theme-xs.png)](https://creativedesignsguru.com/landing-blue-modern-react-theme/) |
-
-Find more [Nextjs Themes](https://creativedesignsguru.com/category/nextjs/).
+[![React SaaS Boilerplate Next.js](https://creativedesignsguru.com/assets/images/themes/nextlessjs-github-banner.png)](https://nextlessjs.com)
 
 ### Requirements
 
@@ -184,5 +174,3 @@ See [LICENSE](LICENSE) for more information.
 ---
 
 Made with ♥ by [CreativeDesignsGuru](https://creativedesignsguru.com) [![Twitter](https://img.shields.io/twitter/url/https/twitter.com/cloudposse.svg?style=social&label=Follow%20%40Ixartz)](https://twitter.com/ixartz)
-
-[![React SaaS Boilerplate](https://creativedesignsguru.com/assets/images/themes/next-js-saas-starter-kit.jpg)](https://nextlessjs.com)

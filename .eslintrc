@@ -28,7 +28,6 @@
         "plugin:tailwindcss/recommended",
         "airbnb",
         "airbnb-typescript",
-        "airbnb/hooks",
         "next/core-web-vitals",
         "plugin:prettier/recommended"
       ],
