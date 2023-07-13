@@ -18,7 +18,7 @@ describe('Navigation', () => {
       // The new page should contain two "lorem ipsum" paragraphs
       cy.findAllByText('Lorem ipsum dolor sit amet', { exact: false }).should(
         'have.length',
-        2
+        2,
       );
     });
 

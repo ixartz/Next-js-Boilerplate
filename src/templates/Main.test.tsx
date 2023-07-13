@@ -26,7 +26,7 @@ describe('Main template', () => {
        */
       expect(copyrightLink).toHaveAttribute(
         'href',
-        'https://creativedesignsguru.com'
+        'https://creativedesignsguru.com',
       );
     });
   });
