@@ -4,7 +4,7 @@ import type { ReactNode } from 'react';
 import { AppConfig } from '@/utils/AppConfig';
 
 type IMainProps = {
-  meta: ReactNode;
+  meta?: ReactNode;
   children: ReactNode;
 };
 
@@ -36,6 +36,22 @@ const Main = (props: IMainProps) => (
                 className="border-none text-gray-700 hover:text-gray-900"
               >
                 About
+              </Link>
+            </li>
+            <li className="mr-6">
+              <Link
+                href="/new-router/"
+                className="border-none text-gray-700 hover:text-gray-900"
+              >
+                New Router
+              </Link>
+            </li>
+            <li className="mr-6">
+              <Link
+                href="/portfolio/"
+                className="border-none text-gray-700 hover:text-gray-900"
+              >
+                Portfolio
               </Link>
             </li>
             <li className="mr-6">
