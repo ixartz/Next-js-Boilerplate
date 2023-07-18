@@ -87,7 +87,8 @@ Open http://localhost:3000 with your favorite browser to see your project.
 ├── public                          # Public assets folder
 ├── src
 │   ├── layouts                     # Layouts components
-│   ├── pages                       # Next JS Pages
+│   ├── app                         # Next JS Pages (app router)
+│   ├── pages                       # Next JS Pages (page router)
 │   ├── pages.test                  # Next JS Pages tests (this avoids tests to be treated as a Next.js pages)
 │   ├── styles                      # Styles folder
 │   ├── templates                   # Default template
