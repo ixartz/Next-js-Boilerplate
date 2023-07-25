@@ -4,6 +4,9 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
 });
 
 module.exports = withBundleAnalyzer({
+  images: {
+    domains: ['s3-alpha-sig.figma.com'],
+  },
   eslint: {
     dirs: ['.'],
   },

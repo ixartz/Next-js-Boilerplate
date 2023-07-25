@@ -1,21 +1,9 @@
-@tailwind base;
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
 
-a {
-  @apply text-blue-700;
-}
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;700&display=swap');
 
-a:hover {
-  @apply border-b-2 border-blue-700;
-}
-
-@tailwind components;
-
-@tailwind utilities;
-
-.content p {
-  @apply my-6;
-}
-
-.content ul {
-  @apply my-6;
+body {
+  font-family: 'Plus Jakarta Sans', sans-serif;
 }
