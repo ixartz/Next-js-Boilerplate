@@ -8,6 +8,10 @@
 
 Clone this project and use it to create your own [Next.js](https://nextjs.org) project. You can check a [Next js templates demo](https://creativedesignsguru.com/demo/Nextjs-Boilerplate/).
 
+## Sponsors
+
+<a href="https://upstash.com/?utm_source=nextjs-boilerplate"><img src="https://raw.githubusercontent.com/upstash/sponsorship/master/redis.png" alt="Upstash" width="260" align="right"></a> [![React SaaS Boilerplate Next.js](https://creativedesignsguru.com/assets/images/themes/nextlessjs-github-banner.png)](https://nextlessjs.com)
+
 ### Features
 
 Developer experience first:
@@ -50,10 +54,6 @@ Built-in feature from Next.js:
 - Minimal code
 - SEO-friendly
 - 🚀 Production-ready
-
-## Sponsors
-
-[![React SaaS Boilerplate Next.js](https://creativedesignsguru.com/assets/images/themes/nextlessjs-github-banner.png)](https://nextlessjs.com)
 
 ### Requirements
 
