@@ -10,7 +10,16 @@ Clone this project and use it to create your own [Next.js](https://nextjs.org) p
 
 ## Sponsors
 
-<a href="https://upstash.com/?utm_source=nextjs-boilerplate"><img src="https://raw.githubusercontent.com/upstash/sponsorship/master/redis.png" alt="Upstash" width="260"></a> [![React SaaS Boilerplate Next.js](https://creativedesignsguru.com/assets/images/themes/nextlessjs-github-banner.png)](https://nextlessjs.com)
+<table>
+  <tr>
+    <td>
+      <a href="https://upstash.com/?utm_source=nextjs-boilerplate"><img src="https://raw.githubusercontent.com/upstash/sponsorship/master/redis.png" alt="Upstash" width="260"></a>
+    </td>
+    <td>
+      [![React SaaS Boilerplate Next.js](https://creativedesignsguru.com/assets/images/themes/nextlessjs-github-banner.png)](https://nextlessjs.com)
+    </td>
+  </tr>
+</table>
 
 ### Features
 
