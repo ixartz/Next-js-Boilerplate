@@ -1,4 +1,4 @@
-# Boilerplate and Starter for Next JS 13+, Tailwind CSS 3.3 and TypeScript [![Twitter](https://img.shields.io/twitter/url/https/twitter.com/cloudposse.svg?style=social&label=Follow%20%40Ixartz)](https://twitter.com/ixartz)
+# Boilerplate and Starter for Next JS 13+, Tailwind CSS 3.3 and TypeScript
 
 <p align="center">
   <a href="https://creativedesignsguru.com/demo/Nextjs-Boilerplate/"><img src="public/assets/images/nextjs-starter-banner.png?raw=true" alt="Next js starter banner"></a>
@@ -7,6 +7,19 @@
 🚀 Boilerplate and Starter for Next.js, Tailwind CSS and TypeScript ⚡️ Made with developer experience first: Next.js, TypeScript, ESLint, Prettier, Husky, Lint-Staged, Jest, Testing Library, Commitlint, VSCode, Netlify, PostCSS, Tailwind CSS.
 
 Clone this project and use it to create your own [Next.js](https://nextjs.org) project. You can check a [Next js templates demo](https://creativedesignsguru.com/demo/Nextjs-Boilerplate/).
+
+## Sponsors
+
+<table>
+  <tr>
+    <td>
+      <a href="https://upstash.com/?utm_source=nextjs-boilerplate"><img src="https://raw.githubusercontent.com/upstash/sponsorship/master/redis.png" alt="Upstash" width="260"></a>
+    </td>
+    <td>
+      <a href="https://nextlessjs.com"><img src="https://creativedesignsguru.com/assets/images/themes/nextlessjs-github-banner.png" alt="React SaaS Boilerplate Next.js" /></a>
+    </td>
+  </tr>
+</table>
 
 ### Features
 
@@ -50,10 +63,6 @@ Built-in feature from Next.js:
 - Minimal code
 - SEO-friendly
 - 🚀 Production-ready
-
-## Sponsors
-
-[![React SaaS Boilerplate Next.js](https://creativedesignsguru.com/assets/images/themes/nextlessjs-github-banner.png)](https://nextlessjs.com)
 
 ### Requirements
 
@@ -170,6 +179,19 @@ Everyone is welcome to contribute to this project. Feel free to open an issue if
 Licensed under the MIT License, Copyright © 2023
 
 See [LICENSE](LICENSE) for more information.
+
+## Sponsors
+
+<table>
+  <tr>
+    <td>
+      <a href="https://upstash.com/?utm_source=nextjs-boilerplate"><img src="https://raw.githubusercontent.com/upstash/sponsorship/master/redis.png" alt="Upstash" width="260"></a>
+    </td>
+    <td>
+      <a href="https://nextlessjs.com"><img src="https://creativedesignsguru.com/assets/images/themes/nextlessjs-github-banner.png" alt="React SaaS Boilerplate Next.js" /></a>
+    </td>
+  </tr>
+</table>
 
 ---
 
