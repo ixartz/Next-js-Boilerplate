@@ -33,7 +33,7 @@ const Portfolio = () => (
             <div className="relative bg-blue-200">
               <div className="p-3">
                 <Link href={`/portfolio/${idx}`}>
-                  <h3 className="text-1xl font-bold">Portfolio {idx}</h3>
+                  <h3 className="text-xl font-bold">Portfolio {idx}</h3>
                 </Link>
               </div>
             </div>
