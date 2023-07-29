@@ -16,7 +16,7 @@ Clone this project and use it to create your own [Next.js](https://nextjs.org) p
       <a href="https://upstash.com/?utm_source=nextjs-boilerplate"><img src="https://raw.githubusercontent.com/upstash/sponsorship/master/redis.png" alt="Upstash" width="260"></a>
     </td>
     <td>
-      [![React SaaS Boilerplate Next.js](https://creativedesignsguru.com/assets/images/themes/nextlessjs-github-banner.png)](https://nextlessjs.com)
+      <a href="https://nextlessjs.com"><img src="https://creativedesignsguru.com/assets/images/themes/nextlessjs-github-banner.png" alt="React SaaS Boilerplate Next.js" /></a>
     </td>
   </tr>
 </table>
