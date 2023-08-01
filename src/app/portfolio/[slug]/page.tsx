@@ -7,11 +7,9 @@ type Props = {
 };
 
 export async function generateStaticParams() {
-  return [
-    {
-      slug: '1',
-    },
-  ];
+  return Array.from(Array(6).keys()).map((elt) => ({
+    slug: `${elt}`,
+  }));
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {

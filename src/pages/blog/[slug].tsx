@@ -13,8 +13,8 @@ type IBlogUrl = {
 
 export const getStaticPaths: GetStaticPaths<IBlogUrl> = async () => {
   return {
-    paths: [...Array(10)].map((_, index) => ({
-      params: { slug: `blog-${index}` },
+    paths: Array.from(Array(10).keys()).map((elt) => ({
+      params: { slug: `blog-${elt}` },
     })),
     fallback: false,
   };
