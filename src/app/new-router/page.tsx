@@ -12,17 +12,13 @@ export const metadata: Metadata = {
 const NewRouter = () => (
   <Main>
     <p>
-      Moving to the App Router may be the first time using React features that
-      Next.js builds on top of such as Server Components, Suspense, and more.
-      When combined with new Next.js features such as special files and layouts,
-      migration means new concepts, mental models, and behavioral changes to
-      learn.
-    </p>
-    <p>
-      We recommend reducing the combined complexity of these updates by breaking
-      down your migration into smaller steps. The app directory is intentionally
-      designed to work simultaneously with the pages directory to allow for
-      incremental page-by-page migration.{' '}
+      Shifting to the App Router introduces React features, like Server
+      Components and Suspense. Alongside new Next.js elements like special files
+      and layouts, the migration involves embracing fresh concepts, adjusting
+      mental models, and adapting behavior. To ease the complexity, we advise
+      breaking the migration into smaller steps. The app directory is
+      thoughtfully designed to enable incremental, page-by-page migration from
+      the pages directory.
       <Link href="https://nextjs.org/docs/pages/building-your-application/upgrading/app-router-migration#migrating-from-pages-to-app">
         Learn more.
       </Link>
