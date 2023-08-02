@@ -17,28 +17,21 @@ const Portfolio = () => (
       to your projects.
     </p>
 
-    <div className="container mx-auto mt-20 grid grid-cols-1 gap-8 md:grid-cols-2 xl:grid-cols-3">
+    <div className="grid grid-cols-1 gap-8 md:grid-cols-2 xl:grid-cols-3">
       {Array.from(Array(6).keys()).map((elt) => (
-        <div key={elt}>
+        <Link className="border-none" key={elt} href={`/portfolio/${elt}`}>
           <div className="overflow-hidden rounded-lg">
-            <div className="relative overflow-hidden pb-60">
-              <Link href={`/portfolio/${elt}`}>
-                <img
-                  className="absolute h-full w-full object-cover object-center"
-                  src="/assets/images/nextjs-starter-banner.png"
-                  alt=""
-                />
-              </Link>
-            </div>
-            <div className="relative bg-blue-200">
-              <div className="p-3">
-                <Link href={`/portfolio/${elt}`}>
-                  <h3 className="text-xl font-bold">Portfolio {elt}</h3>
-                </Link>
-              </div>
+            <img
+              className="h-full w-full object-cover object-center"
+              src="/assets/images/nextjs-starter-banner.png"
+              alt="Portfolio project"
+            />
+
+            <div className="bg-blue-200 p-3 text-xl font-bold">
+              Portfolio {elt}
             </div>
           </div>
-        </div>
+        </Link>
       ))}
     </div>
   </Main>

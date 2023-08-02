@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 
 import { Main } from '@/templates/Main';
 
-type Props = {
+type IPortfolioDetailProps = {
   params: { slug: string };
 };
 
@@ -12,24 +12,23 @@ export async function generateStaticParams() {
   }));
 }
 
-export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const { slug } = params;
-
+export function generateMetadata(props: IPortfolioDetailProps): Metadata {
   return {
-    title: `Porfolio ${slug}`,
+    title: `Porfolio ${props.params.slug}`,
   };
 }
 
-const PortfolioDetail = ({ params }: Props) => (
+const PortfolioDetail = (props: IPortfolioDetailProps) => (
   <Main>
-    <h1 className="capitalize">Porfolio {params.slug}</h1>
+    <h1 className="capitalize">Porfolio {props.params.slug}</h1>
     <p>
-      Designed a series of promotional materials and branding assets for a
-      corporate event. Developed a visually cohesive theme, including a logo,
-      posters, banners, and digital assets. Incorporated the client&apos;s brand
-      identity while adding a fresh and modern touch. Received positive feedback
-      from event attendees and contributed to a successful event with increased
-      attendee participation and brand recognition.
+      Created a set of promotional materials and branding elements for a
+      corporate event. Crafted a visually unified theme, encompassing a logo,
+      posters, banners, and digital assets. Integrated the client&apos;s brand
+      identity while infusing it with a contemporary and innovative approach.
+      Garnered favorable responses from event attendees, resulting in a
+      successful event with heightened participant engagement and increased
+      brand visibility.
     </p>
   </Main>
 );
