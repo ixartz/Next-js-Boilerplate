@@ -4,7 +4,7 @@
   <a href="https://creativedesignsguru.com/demo/Nextjs-Boilerplate/"><img src="public/assets/images/nextjs-starter-banner.png?raw=true" alt="Next js starter banner"></a>
 </p>
 
-🚀 Boilerplate and Starter for Next.js, Tailwind CSS and TypeScript ⚡️ Made with developer experience first: Next.js, TypeScript, ESLint, Prettier, Husky, Lint-Staged, Jest, Testing Library, Commitlint, VSCode, Netlify, PostCSS, Tailwind CSS.
+🚀 Boilerplate and Starter for Next.js with App Router and Page Router support, Tailwind CSS and TypeScript ⚡️ Made with developer experience first: Next.js, TypeScript, ESLint, Prettier, Husky, Lint-Staged, Jest, Testing Library, Commitlint, VSCode, Netlify, PostCSS, Tailwind CSS.
 
 Clone this project and use it to create your own [Next.js](https://nextjs.org) project. You can check a [Next js templates demo](https://creativedesignsguru.com/demo/Nextjs-Boilerplate/).
 
@@ -12,7 +12,7 @@ Clone this project and use it to create your own [Next.js](https://nextjs.org) p
 
 Developer experience first:
 
-- ⚡ [Next.js](https://nextjs.org) for Static Site Generator
+- ⚡ [Next.js](https://nextjs.org) with App Router and Page Router support
 - 🔥 Type checking [TypeScript](https://www.typescriptlang.org)
 - 💎 Integrate with [Tailwind CSS](https://tailwindcss.com)
 - ✅ Strict Mode for TypeScript and React 18
