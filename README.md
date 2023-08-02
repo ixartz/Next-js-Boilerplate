@@ -11,7 +11,7 @@ Clone this project and use it to create your own [Next.js](https://nextjs.org) p
 ## Sponsors
 
 <table>
-  <tr>
+  <tr height="187px">
     <td>
       <a href="https://clerk.com?utm_source=github&utm_medium=sponsorship&utm_campaign=nextjs-boilerplate">
         <img src="https://i.imgur.com/A0vEJPb.png" alt="Clerk – Authentication & User Management for Next.js" width="260">
@@ -28,7 +28,7 @@ Clone this project and use it to create your own [Next.js](https://nextjs.org) p
       </a>
     </td>
   </tr>
-  <tr>
+  <tr height="187px">
     <td>
       <a href="https://nextlessjs.com">
         <img src="https://creativedesignsguru.com/assets/images/themes/nextlessjs-github-banner.png" alt="React SaaS Boilerplate Next.js" />
@@ -200,7 +200,7 @@ See [LICENSE](LICENSE) for more information.
 ## Sponsors
 
 <table>
-  <tr>
+  <tr height="187px">
     <td>
       <a href="https://clerk.com?utm_source=github&utm_medium=sponsorship&utm_campaign=nextjs-boilerplate">
         <img src="https://i.imgur.com/A0vEJPb.png" alt="Clerk – Authentication & User Management for Next.js" width="260">
@@ -217,7 +217,7 @@ See [LICENSE](LICENSE) for more information.
       </a>
     </td>
   </tr>
-  <tr>
+  <tr height="187px">
     <td>
       <a href="https://nextlessjs.com">
         <img src="https://creativedesignsguru.com/assets/images/themes/nextlessjs-github-banner.png" alt="React SaaS Boilerplate Next.js" />
