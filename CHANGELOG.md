@@ -1,3 +1,14 @@
+# [3.13.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.12.0...v3.13.0) (2023-08-02)
+
+
+### Features
+
+* add app routed pages ([9cc79a0](https://github.com/ixartz/Next-js-Boilerplate/commit/9cc79a00647b0a4ce64f66da4a430ec2c4972367)), closes [#64](https://github.com/ixartz/Next-js-Boilerplate/issues/64)
+* add sitemap support app router ([b82e566](https://github.com/ixartz/Next-js-Boilerplate/commit/b82e566fb43d63329ef4507870494e554dea0e6a))
+* app router doesn't support next export, use output: export ([76aa9cd](https://github.com/ixartz/Next-js-Boilerplate/commit/76aa9cd0597ad06fd0f0160ad6119a25b87d3336))
+* generate statically portfolio pages ([1f1bf31](https://github.com/ixartz/Next-js-Boilerplate/commit/1f1bf3143215ab19d19cd4f13e4048b0ee84073c))
+* update test for new router page ([b695666](https://github.com/ixartz/Next-js-Boilerplate/commit/b695666fd41c9ddf1886e9b5e3c7cc43b616820c))
+
 # [3.12.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.11.0...v3.12.0) (2023-07-13)
 
 
