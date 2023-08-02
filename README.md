@@ -1,7 +1,7 @@
 # Boilerplate and Starter for Next JS 13+, Tailwind CSS 3.3 and TypeScript
 
 <p align="center">
-  <a href="https://creativedesignsguru.com/demo/Nextjs-Boilerplate/"><img src="public/assets/images/nextjs-starter-banner.png?raw=true" alt="Next js starter banner"></a>
+  <a href="https://creativedesignsguru.com/demo/Nextjs-Boilerplate/"><img height="300" src="public/assets/images/nextjs-starter-banner.png?raw=true" alt="Next js starter banner"></a>
 </p>
 
 🚀 Boilerplate and Starter for Next.js with App Router and Page Router support, Tailwind CSS and TypeScript ⚡️ Made with developer experience first: Next.js, TypeScript, ESLint, Prettier, Husky, Lint-Staged, Jest, Testing Library, Commitlint, VSCode, Netlify, PostCSS, Tailwind CSS.
@@ -11,10 +11,15 @@ Clone this project and use it to create your own [Next.js](https://nextjs.org) p
 ## Sponsors
 
 <table>
-  <tr>
+  <tr height="187px">
     <td>
       <a href="https://clerk.com?utm_source=github&utm_medium=sponsorship&utm_campaign=nextjs-boilerplate">
         <img src="https://i.imgur.com/A0vEJPb.png" alt="Clerk – Authentication & User Management for Next.js" width="260">
+      </a>
+    </td>
+    <td>
+      <a href="https://turso.tech/?utm_source=nextjsstarterbp">
+        <img src="public/assets/images/turso.png?raw=true" alt="SQLite Developer Experience" width="260">
       </a>
     </td>
     <td>
@@ -22,6 +27,8 @@ Clone this project and use it to create your own [Next.js](https://nextjs.org) p
         <img src="https://raw.githubusercontent.com/upstash/sponsorship/master/redis.png" alt="Upstash" width="260">
       </a>
     </td>
+  </tr>
+  <tr height="187px">
     <td>
       <a href="https://nextlessjs.com">
         <img src="https://creativedesignsguru.com/assets/images/themes/nextlessjs-github-banner.png" alt="React SaaS Boilerplate Next.js" />
@@ -193,10 +200,15 @@ See [LICENSE](LICENSE) for more information.
 ## Sponsors
 
 <table>
-  <tr>
+  <tr height="187px">
     <td>
       <a href="https://clerk.com?utm_source=github&utm_medium=sponsorship&utm_campaign=nextjs-boilerplate">
         <img src="https://i.imgur.com/A0vEJPb.png" alt="Clerk – Authentication & User Management for Next.js" width="260">
+      </a>
+    </td>
+    <td>
+      <a href="https://turso.tech/?utm_source=nextjsstarterbp">
+        <img src="public/assets/images/turso.png?raw=true" alt="SQLite Developer Experience" width="260">
       </a>
     </td>
     <td>
@@ -204,6 +216,8 @@ See [LICENSE](LICENSE) for more information.
         <img src="https://raw.githubusercontent.com/upstash/sponsorship/master/redis.png" alt="Upstash" width="260">
       </a>
     </td>
+  </tr>
+  <tr height="187px">
     <td>
       <a href="https://nextlessjs.com">
         <img src="https://creativedesignsguru.com/assets/images/themes/nextlessjs-github-banner.png" alt="React SaaS Boilerplate Next.js" />
