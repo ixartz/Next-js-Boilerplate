@@ -1,3 +1,10 @@
+# [3.14.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.13.0...v3.14.0) (2023-08-03)
+
+
+### Features
+
+* use Next.js custom TypeScript plugin ([915e193](https://github.com/ixartz/Next-js-Boilerplate/commit/915e193f8037d36e9779fe7464a4d6c1685b3a94))
+
 # [3.13.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.12.0...v3.13.0) (2023-08-02)
 
 
