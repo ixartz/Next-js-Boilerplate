@@ -10,6 +10,9 @@
     "source.addMissingImports",
     "source.fixAll.eslint"
   ],
+  "eslint.rules.customizations": [{ "rule": "*", "severity": "warn" }], // ESLint errors in yellow warning
+  "typescript.tsdk": "node_modules/typescript/lib", // Use the workspace version of TypeScript
+  "typescript.enablePromptUseWorkspaceTsdk": true, // For security reasons it's require that users opt into using the workspace version of typescript
   "jest.autoRun": {
     "watch": false // Start the jest with the watch flag
     // "onStartup": ["all-tests"] // Run all tests upon project launch
