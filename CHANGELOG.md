@@ -1,3 +1,10 @@
+## [3.14.1](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.14.0...v3.14.1) (2023-08-07)
+
+
+### Bug Fixes
+
+* resolve sourcemap error with Cypress and TypeScript 5 ([54a5100](https://github.com/ixartz/Next-js-Boilerplate/commit/54a51004d6e22860eb1c6aad4ff689fac46bd0b4))
+
 # [3.14.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.13.0...v3.14.0) (2023-08-03)
 
 
