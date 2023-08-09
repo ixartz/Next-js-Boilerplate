@@ -1,7 +1,5 @@
 import type { Metadata } from 'next';
 
-import { Main } from '@/templates/Main';
-
 export const metadata: Metadata = {
   title: 'Dashboard',
   description: 'User dashboard',
@@ -9,9 +7,9 @@ export const metadata: Metadata = {
 
 const Dashboard = async () => {
   return (
-    <Main>
+    <div className="content">
       <p>Hello</p>
-    </Main>
+    </div>
   );
 };
 
