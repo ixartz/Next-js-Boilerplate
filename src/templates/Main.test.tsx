@@ -4,12 +4,12 @@ import { Main } from './Main';
 
 describe('Main template', () => {
   describe('Render method', () => {
-    it('should have 6 menu items', () => {
+    it('should have 8 menu items', () => {
       render(<Main meta={null}>{null}</Main>);
 
       const menuItemList = screen.getAllByRole('listitem');
 
-      expect(menuItemList).toHaveLength(6);
+      expect(menuItemList).toHaveLength(8);
     });
 
     it('should have a link to support creativedesignsguru.com', () => {
