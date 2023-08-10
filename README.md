@@ -102,6 +102,17 @@ npm run dev
 
 Open http://localhost:3000 with your favorite browser to see your project.
 
+### Set up authentication
+
+Create a Clerk account at [Clerk.dev](https://clerk.com?utm_source=github&utm_medium=sponsorship&utm_campaign=nextjs-boilerplate) and create a new application in Clerk Dashboard. Then, copy `NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY` and `CLERK_SECRET_KEY` into `.env.development.local` file:
+
+```shell
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_clerk_pub_key
+CLERK_SECRET_KEY=your_clerk_secret_key
+```
+
+Now, you can a fully working authentication system with Next.js: Sign up, Sign in, Sign out, Forgot password, Reset password, Update profile, Update password, Update email, Delete account, and more.
+
 ```shell
 .
 ├── README.md                       # README file
