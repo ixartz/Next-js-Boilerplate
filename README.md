@@ -76,6 +76,7 @@ Built-in feature from Next.js:
 ### Philosophy
 
 - Nothing is hidden from you, so you have the freedom to make the necessary adjustments to fit your needs and preferences.
+- Easy to customize
 - Minimal code
 - SEO-friendly
 - 🚀 Production-ready
