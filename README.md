@@ -4,7 +4,7 @@
   <a href="https://creativedesignsguru.com/demo/Nextjs-Boilerplate/"><img height="300" src="public/assets/images/nextjs-starter-banner.png?raw=true" alt="Next js starter banner"></a>
 </p>
 
-🚀 Boilerplate and Starter for Next.js with App Router and Page Router support, Tailwind CSS and TypeScript ⚡️ Made with developer experience first: Next.js, TypeScript, ESLint, Prettier, Husky, Lint-Staged, Jest, Testing Library, Commitlint, VSCode, Netlify, PostCSS, Tailwind CSS.
+🚀 Boilerplate and Starter for Next.js with App Router and Page Router support, Tailwind CSS and TypeScript ⚡️ Made with developer experience first: Next.js, TypeScript, ESLint, Prettier, Husky, Lint-Staged, Jest, Testing Library, Commitlint, VSCode, Netlify, PostCSS, Tailwind CSS, Authentication with [Clerk](https://clerk.com?utm_source=github&utm_medium=sponsorship&utm_campaign=nextjs-boilerplate).
 
 Clone this project and use it to create your own [Next.js](https://nextjs.org) project. You can check a [Next js templates demo](https://creativedesignsguru.com/demo/Nextjs-Boilerplate/).
 
@@ -58,7 +58,7 @@ Developer experience first:
 - 🎁 Automatic changelog generation with Semantic Release
 - 🔍 Visual testing with Percy (Optional)
 - 💡 Absolute Imports using `@` prefix
-- 🔒 Authentication: Sign up, Sign in, Sign out, Forgot password, Reset password, and more.
+- 🔒 Authentication with [Clerk](https://clerk.com?utm_source=github&utm_medium=sponsorship&utm_campaign=nextjs-boilerplate): Sign up, Sign in, Sign out, Forgot password, Reset password, and more.
 - 🗂 VSCode configuration: Debug, Settings, Tasks and extension for PostCSS, ESLint, Prettier, TypeScript, Jest
 - 🤖 SEO metadata, JSON-LD and Open Graph tags with Next SEO
 - 🗺️ Sitemap.xml and robots.txt with next-sitemap
@@ -104,7 +104,7 @@ Open http://localhost:3000 with your favorite browser to see your project.
 
 ### Set up authentication
 
-Create a Clerk account at [Clerk.dev](https://clerk.com?utm_source=github&utm_medium=sponsorship&utm_campaign=nextjs-boilerplate) and create a new application in Clerk Dashboard. Then, copy `NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY` and `CLERK_SECRET_KEY` into `.env.development.local` file:
+Create a Clerk account at [Clerk.com](https://clerk.com?utm_source=github&utm_medium=sponsorship&utm_campaign=nextjs-boilerplate) and create a new application in Clerk Dashboard. Then, copy `NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY` and `CLERK_SECRET_KEY` into `.env.development.local` file:
 
 ```shell
 NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_clerk_pub_key

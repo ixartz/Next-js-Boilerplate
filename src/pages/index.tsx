@@ -38,7 +38,7 @@ const Index = () => {
           ⚡️
         </span>{' '}
         Made with Next.js, TypeScript, ESLint, Prettier, Husky, Lint-Staged,
-        VSCode, Netlify, PostCSS, Tailwind CSS.
+        VSCode, Netlify, PostCSS, Tailwind CSS, Authentication with Clerk.
       </p>
       <h3 className="text-lg font-semibold">Next js Boilerplate Features</h3>
       <p>Developer experience first:</p>
@@ -102,6 +102,15 @@ const Index = () => {
             🚫
           </span>{' '}
           Lint-staged for running linters on Git staged files
+        </li>
+        <li>
+          <span role="img" aria-label="lock">
+            🔒
+          </span>{' '}
+          Authentication with{' '}
+          <a href="https://clerk.com?utm_source=github&utm_medium=sponsorship&utm_campaign=nextjs-boilerplate">
+            Clerk
+          </a>
         </li>
         <li>
           <span role="img" aria-label="no_entry_sign">
