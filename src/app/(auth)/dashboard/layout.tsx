@@ -1,4 +1,3 @@
-import { useClerk } from '@clerk/nextjs';
 import Link from 'next/link';
 
 import { AppConfig } from '@/utils/AppConfig';
@@ -8,8 +7,6 @@ export default function DashboardLayout({
 }: {
   children: React.ReactNode;
 }) {
-  const { signOut } = useClerk();
-
   return (
     <div className="w-full px-1 text-gray-700 antialiased">
       <div className="mx-auto max-w-screen-md">
@@ -45,15 +42,7 @@ export default function DashboardLayout({
 
             <nav>
               <ul className="flex flex-wrap text-xl">
-                <li className="mr-6">
-                  <button
-                    onClick={() => signOut()}
-                    className="border-none text-gray-700 hover:text-gray-900"
-                    type="button"
-                  >
-                    Sign out
-                  </button>
-                </li>
+                <li className="mr-6">Sign out</li>
               </ul>
             </nav>
           </div>
