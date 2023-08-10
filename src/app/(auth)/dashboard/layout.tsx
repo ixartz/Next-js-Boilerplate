@@ -44,14 +44,7 @@ export default function DashboardLayout({
             <nav>
               <ul className="flex flex-wrap text-xl">
                 <li className="mr-6">
-                  <SignOutButton>
-                    <button
-                      className="border-none text-gray-700 hover:text-gray-900"
-                      type="button"
-                    >
-                      Sign out
-                    </button>
-                  </SignOutButton>
+                  <SignOutButton />
                 </li>
               </ul>
             </nav>
