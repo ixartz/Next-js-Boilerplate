@@ -1,3 +1,19 @@
+# [3.15.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.14.1...v3.15.0) (2023-08-10)
+
+
+### Features
+
+* add next.js middleware with Clerk ([2f4a1d3](https://github.com/ixartz/Next-js-Boilerplate/commit/2f4a1d3e394eb835b011a13289f156a91993d782))
+* add sign in and sign up link in index page ([4489085](https://github.com/ixartz/Next-js-Boilerplate/commit/4489085e8deb0ae1836a3741657f8331af6294ca))
+* add sign in and sign up page ([f021f71](https://github.com/ixartz/Next-js-Boilerplate/commit/f021f71f755e3af3cb789d0330ad2a0237ec600d))
+* add sign out button in dashboard ([c663d1c](https://github.com/ixartz/Next-js-Boilerplate/commit/c663d1c4799869faf2a2c549669521409f192830))
+* add user profile to manage account ([470731b](https://github.com/ixartz/Next-js-Boilerplate/commit/470731ba960dfdd0aa57f66affde28b0226d5d42))
+* add user profile to manage account ([581efbe](https://github.com/ixartz/Next-js-Boilerplate/commit/581efbef51cf700f9bbe94f268ff99639f5e49da))
+* implement hello component by display user email address ([7047985](https://github.com/ixartz/Next-js-Boilerplate/commit/7047985ffbce9a986e7308040928783395cf7b68))
+* implement sign out button ([8588834](https://github.com/ixartz/Next-js-Boilerplate/commit/8588834b5f1a53c51835d7aba5a4c9f1230c1bf7))
+* implement sign out button and redirect to sign in page when logging out ([45ed137](https://github.com/ixartz/Next-js-Boilerplate/commit/45ed137d5c4e292ac8329f0661cb38fc29812927))
+* redirect to dashboard when the user is signed in for sign up and sign in page ([629a033](https://github.com/ixartz/Next-js-Boilerplate/commit/629a03363af310e5411fea4cb554b53e72701e7d))
+
 ## [3.14.1](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.14.0...v3.14.1) (2023-08-07)
 
 
