@@ -1,3 +1,4 @@
+import { SignedOut } from '@clerk/nextjs';
 import Link from 'next/link';
 
 import { AppConfig } from '@/utils/AppConfig';
@@ -36,6 +37,21 @@ export default function DashboardLayout({
                   >
                     Manage your account
                   </Link>
+                </li>
+              </ul>
+            </nav>
+
+            <nav>
+              <ul className="flex flex-wrap text-xl">
+                <li className="mr-6">
+                  <SignedOut>
+                    <Link
+                      href="/"
+                      className="border-none text-gray-700 hover:text-gray-900"
+                    >
+                      Sign out
+                    </Link>
+                  </SignedOut>
                 </li>
               </ul>
             </nav>
