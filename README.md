@@ -219,9 +219,13 @@ See [LICENSE](LICENSE) for more information.
 
 <table>
   <tr height="187px">
-    <td>
+    <td align="center">
       <a href="https://clerk.com?utm_source=github&utm_medium=sponsorship&utm_campaign=nextjs-boilerplate">
-        <img src="https://i.imgur.com/A0vEJPb.png" alt="Clerk – Authentication & User Management for Next.js" width="260">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://github.com/ixartz/Next-js-Boilerplate/assets/1328388/a3cd2a25-377b-4c0d-a3d3-bce121df2c94">
+          <source media="(prefers-color-scheme: light)" srcset="https://github.com/ixartz/Next-js-Boilerplate/assets/1328388/3459074d-c3e2-46c5-8be4-b836cb7989ea">
+          <img alt="Clerk – Authentication & User Management for Next.js" src="https://github.com/ixartz/Next-js-Boilerplate/assets/1328388/3459074d-c3e2-46c5-8be4-b836cb7989ea" width="260">
+        </picture>
       </a>
     </td>
     <td>
