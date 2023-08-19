@@ -42,10 +42,10 @@ const Main = (props: IMainProps) => (
               </li>
               <li className="mr-6">
                 <Link
-                  href="/new-router/"
+                  href="/guestbook/"
                   className="border-none text-gray-700 hover:text-gray-900"
                 >
-                  New Router
+                  Guestbook
                 </Link>
               </li>
               <li className="mr-6">
