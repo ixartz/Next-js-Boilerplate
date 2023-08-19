@@ -1,7 +1,7 @@
 {
   "version": "5",
   "dialect": "sqlite",
-  "id": "c55aece1-11e9-4c82-9457-bce886c9e3f9",
+  "id": "33ba2aeb-9902-4f71-9e40-f18012cd5d31",
   "prevId": "00000000-0000-0000-0000-000000000000",
   "tables": {
     "guestbook": {
@@ -14,18 +14,18 @@
           "notNull": true,
           "autoincrement": false
         },
-        "email": {
-          "name": "email",
+        "username": {
+          "name": "username",
           "type": "text",
           "primaryKey": false,
-          "notNull": false,
+          "notNull": true,
           "autoincrement": false
         },
         "body": {
           "name": "body",
           "type": "text",
           "primaryKey": false,
-          "notNull": false,
+          "notNull": true,
           "autoincrement": false
         },
         "created_at": {

@@ -8,7 +8,7 @@ export const POST = async () => {
     .insert(guestbookTable)
     .values({
       body: 'hello',
-      email: 'random@gmail.com',
+      username: 'random',
     })
     .run();
 
