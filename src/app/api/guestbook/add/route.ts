@@ -3,7 +3,7 @@ import { NextResponse } from 'next/server';
 import { db } from '@/lib/db';
 import { guestbookTable } from '@/models/schema';
 
-export const GET = async () => {
+export const POST = async () => {
   await db
     .insert(guestbookTable)
     .values({
