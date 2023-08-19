@@ -3,8 +3,8 @@ import { integer, sqliteTable, text } from 'drizzle-orm/sqlite-core';
 
 export const guestbookTable = sqliteTable('guestbook', {
   id: integer('id').primaryKey(),
-  email: text('email').notNull(),
-  body: text('body').notNull(),
+  email: text('email'),
+  body: text('body'),
   createdAt: integer('created_at', { mode: 'timestamp' }).default(
     sql`(strftime('%s', 'now'))`,
   ),

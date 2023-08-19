@@ -12,8 +12,5 @@ export const POST = async () => {
     })
     .run();
 
-  const guestbook = await db.select().from(guestbookTable).all();
-  console.log(guestbook);
-
-  return NextResponse.json({ hello: 'world' });
+  return NextResponse.json({ success: true });
 };
