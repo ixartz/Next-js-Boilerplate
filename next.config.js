@@ -14,6 +14,9 @@ module.exports = withBundleAnalyzer({
   // You can remove `basePath` if you don't need it.
   reactStrictMode: true,
   webpack: (config) => {
+    // config.externals is needed to resolve the following errors:
+    // Module not found: Can't resolve 'bufferutil'
+    // Module not found: Can't resolve 'utf-8-validate'
     config.externals.push({
       bufferutil: 'bufferutil',
       'utf-8-validate': 'utf-8-validate',
