@@ -1,7 +1,8 @@
 import type { Metadata } from 'next';
 
-import { db } from '@/lib/db';
-import { guestbookTable } from '@/models/schema';
+import { AddGuestbookForm } from '@/components/AddGuestbookForm';
+import { db } from '@/lib/DB';
+import { guestbookTable } from '@/models/Schema';
 import { Main } from '@/templates/Main';
 
 export const metadata: Metadata = {
@@ -14,6 +15,8 @@ const Guestbook = async () => {
 
   return (
     <Main>
+      <AddGuestbookForm />
+
       {guestbook.map((elt) => (
         <div key={elt.id} className="mb-1">
           <span className="font-semibold">{elt.username}</span>: {elt.body}
