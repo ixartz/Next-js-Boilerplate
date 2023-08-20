@@ -15,7 +15,9 @@ const Guestbook = async () => {
   return (
     <Main>
       {guestbook.map((elt) => (
-        <div key={elt.id}>{elt.body}</div>
+        <div key={elt.id} className="mb-1">
+          <span className="font-semibold">{elt.username}</span>: {elt.body}
+        </div>
       ))}
     </Main>
   );
