@@ -30,6 +30,7 @@
   },
   "dependencies": {
     "@clerk/nextjs": "^4.23.2",
+    "@hookform/resolvers": "^3.2.0",
     "@libsql/client": "^0.3.1",
     "drizzle-orm": "^0.28.2",
     "next": "^13.4.19",
