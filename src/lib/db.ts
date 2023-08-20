@@ -8,6 +8,4 @@ const client = createClient({
 
 export const db = drizzle(client);
 
-if (process.env.NODE_ENV !== 'production') {
-  migrate(db, { migrationsFolder: './migrations' });
-}
+await migrate(db, { migrationsFolder: './migrations' });
