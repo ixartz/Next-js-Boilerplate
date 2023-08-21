@@ -5,6 +5,6 @@ export default {
   schema: './src/models/schema.ts',
   driver: 'libsql',
   dbCredentials: {
-    url: 'http://127.0.0.1:8080',
+    url: 'file:next-js-boilerplate.db',
   },
 } satisfies Config;
