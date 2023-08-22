@@ -17,11 +17,14 @@ const Guestbook = async () => {
     <Main>
       <AddGuestbookForm />
 
-      {guestbook.map((elt) => (
-        <div key={elt.id} className="mb-1">
-          <span className="font-semibold">{elt.username}</span>: {elt.body}
-        </div>
-      ))}
+      <div className="mt-5">
+        {guestbook.map((elt) => (
+          <div key={elt.id} className="mb-1">
+            <span className="text-gray-500">{elt.username}:</span>{' '}
+            <span className="text-gray-800">{elt.body}</span>
+          </div>
+        ))}
+      </div>
     </Main>
   );
 };
