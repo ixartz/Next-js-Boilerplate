@@ -26,7 +26,8 @@
 
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
-    "allowJs": false,
+    "allowJs": true,
+    "checkJs": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
 
@@ -52,6 +53,7 @@
     "**/*.ts",
     "**/*.tsx",
     ".storybook/*.ts",
-    ".next/types/**/*.ts"
+    ".next/types/**/*.ts",
+    "src/lib/Env.mjs"
   ]
 }

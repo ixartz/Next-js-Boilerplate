@@ -1,10 +1,13 @@
-/* eslint-disable import/no-extraneous-dependencies */
-const withBundleAnalyzer = require('@next/bundle-analyzer')({
+/* eslint-disable import/no-extraneous-dependencies, import/extensions */
+import './src/lib/Env.mjs';
+import withBundleAnalyzer from '@next/bundle-analyzer';
+
+const bundleAnalyzer = withBundleAnalyzer({
   enabled: process.env.ANALYZE === 'true',
 });
 
 /** @type {import('next').NextConfig} */
-module.exports = withBundleAnalyzer({
+export default bundleAnalyzer({
   eslint: {
     dirs: ['.'],
   },
