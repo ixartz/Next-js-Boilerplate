@@ -5,31 +5,57 @@ import { useRouter } from 'next/navigation';
 import { useForm } from 'react-hook-form';
 import type { z } from 'zod';
 
-import { AddGuestbookSchema } from '@/validations/Guestbook';
+import { GuestbookSchema } from '@/validations/GuestbookValidation';
 
-const AddGuestbookForm = () => {
+type IGuestbookFormProps =
+  | {
+      edit: true;
+      id: number;
+      defaultValues: z.infer<typeof GuestbookSchema>;
+      handleStopEditing: () => void;
+    }
+  | { edit?: false };
+
+const GuestbookForm = (props: IGuestbookFormProps) => {
   const {
     handleSubmit,
     register,
     reset,
     setFocus,
     formState: { errors },
-  } = useForm<z.infer<typeof AddGuestbookSchema>>({
-    resolver: zodResolver(AddGuestbookSchema),
+  } = useForm<z.infer<typeof GuestbookSchema>>({
+    resolver: zodResolver(GuestbookSchema),
+    defaultValues: props.edit ? props.defaultValues : undefined,
   });
   const router = useRouter();
 
   const handleCreate = handleSubmit(async (data) => {
-    await fetch(`/api/guestbook`, {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify(data),
-    });
+    if (props.edit) {
+      await fetch(`/api/guestbook`, {
+        method: 'PUT',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          id: props.id,
+          ...data,
+        }),
+      });
 
-    setFocus('username');
-    reset();
+      props.handleStopEditing();
+    } else {
+      await fetch(`/api/guestbook`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(data),
+      });
+
+      setFocus('username');
+      reset();
+    }
+
     router.refresh();
   });
 
@@ -72,11 +98,11 @@ const AddGuestbookForm = () => {
           className="rounded bg-blue-500 px-5 py-1 font-bold text-white hover:bg-blue-600 focus:outline-none focus:ring focus:ring-blue-300/50"
           type="submit"
         >
-          Send
+          Save
         </button>
       </div>
     </form>
   );
 };
 
-export { AddGuestbookForm };
+export { GuestbookForm };

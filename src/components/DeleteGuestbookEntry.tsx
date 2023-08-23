@@ -31,7 +31,7 @@ const DeleteGuestbookEntry = (props: IDeleteGuestbookEntryProps) => {
       }}
     >
       <svg
-        className="h-5 w-5 stroke-current"
+        className="h-6 w-6 stroke-current"
         fill="none"
         strokeLinecap="round"
         strokeLinejoin="round"

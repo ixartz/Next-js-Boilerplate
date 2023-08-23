@@ -5,16 +5,38 @@ import { z } from 'zod';
 import { db } from '@/lib/DB';
 import { guestbookTable } from '@/models/Schema';
 import {
-  AddGuestbookSchema,
   DeleteGuestbookSchema,
-} from '@/validations/Guestbook';
+  EditGuestbookSchema,
+  GuestbookSchema,
+} from '@/validations/GuestbookValidation';
 
 export const POST = async (request: Request) => {
   try {
     const json = await request.json();
-    const body = AddGuestbookSchema.parse(json);
+    const body = GuestbookSchema.parse(json);
 
     await db.insert(guestbookTable).values(body).run();
+
+    return NextResponse.json({});
+  } catch (error) {
+    if (error instanceof z.ZodError) {
+      return NextResponse.json(error.format(), { status: 422 });
+    }
+
+    return NextResponse.json({}, { status: 500 });
+  }
+};
+
+export const PUT = async (request: Request) => {
+  try {
+    const json = await request.json();
+    const body = EditGuestbookSchema.parse(json);
+
+    await db
+      .update(guestbookTable)
+      .set(body)
+      .where(eq(guestbookTable.id, body.id))
+      .run();
 
     return NextResponse.json({});
   } catch (error) {
