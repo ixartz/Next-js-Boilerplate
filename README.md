@@ -129,8 +129,10 @@ Now, you can a fully working authentication system with Next.js: Sign up, Sign i
 ├── .vscode                         # VSCode configuration
 ├── public                          # Public assets folder
 ├── src
-│   ├── layouts                     # Layouts components
 │   ├── app                         # Next JS Pages (app router)
+│   ├── components                  # React components
+│   ├── layouts                     # Layouts components
+│   ├── libs                        # 3rd party libraries
 │   ├── models                      # Database models
 │   ├── pages                       # Next JS Pages (page router)
 │   ├── pages.test                  # Next JS Pages tests (this avoids tests to be treated as a Next.js pages)
