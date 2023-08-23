@@ -1,5 +1,5 @@
 /* eslint-disable import/no-extraneous-dependencies, import/extensions */
-import './src/lib/Env.mjs';
+import './src/libs/Env.mjs';
 import withBundleAnalyzer from '@next/bundle-analyzer';
 
 const bundleAnalyzer = withBundleAnalyzer({

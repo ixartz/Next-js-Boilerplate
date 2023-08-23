@@ -2,7 +2,7 @@ import { eq } from 'drizzle-orm';
 import { NextResponse } from 'next/server';
 import { z } from 'zod';
 
-import { db } from '@/lib/DB';
+import { db } from '@/libs/DB';
 import { guestbookTable } from '@/models/Schema';
 import {
   DeleteGuestbookSchema,

@@ -54,6 +54,6 @@
     "**/*.tsx",
     ".storybook/*.ts",
     ".next/types/**/*.ts",
-    "src/lib/Env.mjs"
+    "src/libs/Env.mjs"
   ]
 }

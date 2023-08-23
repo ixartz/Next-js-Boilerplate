@@ -131,10 +131,12 @@ Now, you can a fully working authentication system with Next.js: Sign up, Sign i
 ├── src
 │   ├── layouts                     # Layouts components
 │   ├── app                         # Next JS Pages (app router)
+│   ├── models                      # Database models
 │   ├── pages                       # Next JS Pages (page router)
 │   ├── pages.test                  # Next JS Pages tests (this avoids tests to be treated as a Next.js pages)
 │   ├── styles                      # Styles folder
 │   ├── templates                   # Default template
+│   ├── validations                 # Validation schemas
 │   └── utils                       # Utility functions
 ├── tailwind.config.js              # Tailwind CSS configuration
 └── tsconfig.json                   # TypeScript configuration

@@ -3,7 +3,7 @@ import type { Metadata } from 'next';
 import { DeleteGuestbookEntry } from '@/components/DeleteGuestbookEntry';
 import { EditableGuestbookEntry } from '@/components/EditableGuestbookEntry';
 import { GuestbookForm } from '@/components/GuestbookForm';
-import { db } from '@/lib/DB';
+import { db } from '@/libs/DB';
 import { guestbookTable } from '@/models/Schema';
 import { Main } from '@/templates/Main';
 
