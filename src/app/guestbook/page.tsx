@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 
 import { AddGuestbookForm } from '@/components/AddGuestbookForm';
+import { DeleteGuestbookEntry } from '@/components/DeleteGuestbookEntry';
 import { db } from '@/lib/DB';
 import { guestbookTable } from '@/models/Schema';
 import { Main } from '@/templates/Main';
@@ -19,9 +20,13 @@ const Guestbook = async () => {
 
       <div className="mt-5">
         {guestbook.map((elt) => (
-          <div key={elt.id} className="mb-1">
-            <span className="text-gray-500">{elt.username}:</span>{' '}
-            <span className="text-gray-800">{elt.body}</span>
+          <div key={elt.id} className="mb-1 flex items-center">
+            <DeleteGuestbookEntry id={elt.id} />
+
+            <div className="ml-2">
+              <span className="text-gray-500">{elt.username}:</span>{' '}
+              <span className="text-gray-800">{elt.body}</span>
+            </div>
           </div>
         ))}
       </div>

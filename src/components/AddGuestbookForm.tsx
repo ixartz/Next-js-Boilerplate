@@ -20,7 +20,7 @@ const AddGuestbookForm = () => {
   const router = useRouter();
 
   const handleCreate = handleSubmit(async (data) => {
-    await fetch(`/api/guestbook/add`, {
+    await fetch(`/api/guestbook`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
