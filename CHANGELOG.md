@@ -1,3 +1,35 @@
+# [3.16.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.15.0...v3.16.0) (2023-08-24)
+
+
+### Bug Fixes
+
+* build issues with prerendering ([ff117b9](https://github.com/ixartz/Next-js-Boilerplate/commit/ff117b9750e3609cebbf53a5dea01f0fbf94f865))
+
+
+### Features
+
+* add .env file for production ([58ed68c](https://github.com/ixartz/Next-js-Boilerplate/commit/58ed68cc2eefb1274e6e268c40a3ed8cd7d936be))
+* add authToken support for production Turso ([26b8276](https://github.com/ixartz/Next-js-Boilerplate/commit/26b827618199f1dd73453c7ec021c13a4aaf5f7b))
+* add await for migrate function ([96793f0](https://github.com/ixartz/Next-js-Boilerplate/commit/96793f0adedb10f802dfb46ff96b85f14c78ebf3))
+* add database powered by Turso in guestbook page ([64073a5](https://github.com/ixartz/Next-js-Boilerplate/commit/64073a5babb38327a23fd3ae2b354152306e7977))
+* add db file in gitignore ([cd45e09](https://github.com/ixartz/Next-js-Boilerplate/commit/cd45e0906cc79e87302ee6b88674089c5de059a3))
+* add drizzle config and database schema ([df30388](https://github.com/ixartz/Next-js-Boilerplate/commit/df30388002ead9121ffb764e1bd11a71550cbe06))
+* add style for guestbook ([339154c](https://github.com/ixartz/Next-js-Boilerplate/commit/339154ccfdaf7e53aeefd12fe0e347c645be5163))
+* add typesafe environment variables ([5a2cd78](https://github.com/ixartz/Next-js-Boilerplate/commit/5a2cd78aca2fc60e6c0d4861ff656e7ba2ac86c4))
+* create guestbook should not accept empty username and email ([37e4408](https://github.com/ixartz/Next-js-Boilerplate/commit/37e4408f968b36332a0a8ae9a90c687eee7fb4a0))
+* implement AddGuestbookForm to create new guestbook message ([d7b37e6](https://github.com/ixartz/Next-js-Boilerplate/commit/d7b37e63f65d528e599b14d64cbf3ac5b2d3feba))
+* implement delete guestbook entry ([b7f823a](https://github.com/ixartz/Next-js-Boilerplate/commit/b7f823a83435856ac32aea90da8317926e5b2b8b))
+* improve UI for AddGuestbookForm ([153abfc](https://github.com/ixartz/Next-js-Boilerplate/commit/153abfc0e2f10a5aa59e24af8f0ef76667041578))
+* insert in guestbook and retrieve all guestbooks ([23ee408](https://github.com/ixartz/Next-js-Boilerplate/commit/23ee4086a8c2166bdd6fe82b1cb50cc286793bb3))
+* make guestbook editable ([8ec1406](https://github.com/ixartz/Next-js-Boilerplate/commit/8ec14066a966c76b02bf5552ec2f4f348048a45c))
+* remove notnull in schema.ts ([10f4943](https://github.com/ixartz/Next-js-Boilerplate/commit/10f49434999ba0a884a72e640c67dc955bf7eedd))
+* rename from email to username ([52ab0e4](https://github.com/ixartz/Next-js-Boilerplate/commit/52ab0e4f86b20ace52cbb6ce421f85357c0dfa6e))
+* replace new-router page by guestbook ([efc84e6](https://github.com/ixartz/Next-js-Boilerplate/commit/efc84e607d23981dba07b931ff078776aa9693b5))
+* replace with a working URL for the database to avoid timeout ([fecd8a5](https://github.com/ixartz/Next-js-Boilerplate/commit/fecd8a5d66934af774fde12759f8079cabfb382b))
+* update dotenv path to .env, the file was renamed ([bd9b2c9](https://github.com/ixartz/Next-js-Boilerplate/commit/bd9b2c9efd12a0b54125ac352c43aab9d31c7c99))
+* use local SQLite file ([fe52801](https://github.com/ixartz/Next-js-Boilerplate/commit/fe528010cf2d867fcbbc53156ae7fa6c862a88f4))
+* validate t3 env on build ([6d448ed](https://github.com/ixartz/Next-js-Boilerplate/commit/6d448ed0fdea51952c8bfeaf4ce948cf9365675c))
+
 # [3.15.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.14.1...v3.15.0) (2023-08-10)
 
 
