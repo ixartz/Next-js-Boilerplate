@@ -115,7 +115,7 @@ Open http://localhost:3000 with your favorite browser to see your project.
 
 ### Set up authentication
 
-Create a Clerk account at [Clerk.com](https://clerk.com?utm_source=github&utm_medium=sponsorship&utm_campaign=nextjs-boilerplate) and create a new application in Clerk Dashboard. Then, copy `NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY` and `CLERK_SECRET_KEY` into `.env.local` file:
+Create a Clerk account at [Clerk.com](https://clerk.com?utm_source=github&utm_medium=sponsorship&utm_campaign=nextjs-boilerplate) and create a new application in Clerk Dashboard. Then, copy `NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY` and `CLERK_SECRET_KEY` into `.env.local` file (not tracked by Git):
 
 ```shell
 NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_clerk_pub_key
@@ -123,6 +123,41 @@ CLERK_SECRET_KEY=your_clerk_secret_key
 ```
 
 Now, you can a fully working authentication system with Next.js: Sign up, Sign in, Sign out, Forgot password, Reset password, Update profile, Update password, Update email, Delete account, and more.
+
+### Set up remote database
+
+The project uses DrizzleORM, a type-safe ORM compatible with SQLite, PostgreSQL, and MySQL databases. By default, the project is set up to work seamlessly with libSQL, and for production purposes, it's integrated with [Turso](https://turso.tech/?utm_source=nextjsstarterbp). This configuration also allows for effortless switching to an alternative provider if desired.
+
+First, you need to create a Turso account at [Turso.tech](https://turso.tech/?utm_source=nextjsstarterbp) and install the Turso CLI:
+
+```shell
+brew install tursodatabase/tap/turso
+turso auth signup # Sign up to Turso
+```
+
+Then, create a new database:
+
+```shell
+turso db create nextjs-boilerplate
+```
+
+Now, you need to update the `DATABASE_URL` in `.env` file with the database URL provided by Turso:
+
+```shell
+turso db show nextjs-boilerplate --url
+
+# .env
+# DATABASE_URL=libsql://[RANDOM-CHARS]-[DB-NAME]-[ORG-NAME].turso.io
+```
+
+Finally, you also need to create a new environement variable `DATABASE_AUTH_TOKEN` in `.env.local` (not tracked by Git):
+
+```shell
+turso db tokens create nextjs-boilerplate
+
+# .env.local
+# DATABASE_AUTH_TOKEN=[your-auth-token]
+```
 
 ### Project structure
 
