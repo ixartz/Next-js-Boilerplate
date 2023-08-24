@@ -38,7 +38,8 @@ const Index = () => {
           ⚡️
         </span>{' '}
         Made with Next.js, TypeScript, ESLint, Prettier, Husky, Lint-Staged,
-        VSCode, Netlify, PostCSS, Tailwind CSS, Authentication with Clerk.
+        VSCode, Netlify, PostCSS, Tailwind CSS, Authentication with Clerk,
+        Database with DrizzleORM (SQLite, PostgreSQL, and MySQL) and Turso.
       </p>
       <h3 className="text-lg font-semibold">Next js Boilerplate Features</h3>
       <p>Developer experience first:</p>
@@ -111,6 +112,20 @@ const Index = () => {
           <a href="https://clerk.com?utm_source=github&utm_medium=sponsorship&utm_campaign=nextjs-boilerplate">
             Clerk
           </a>
+        </li>
+        <li>
+          <span role="img" aria-label="package">
+            📦
+          </span>{' '}
+          Type-safe ORM with DrizzleORM, compatible with SQLite, PostgreSQL, and
+          MySQL
+        </li>
+        <li>
+          <span role="img" aria-label="computer_disk">
+            💽
+          </span>{' '}
+          Global Database with{' '}
+          <a href="https://turso.tech/?utm_source=nextjsstarterbp">Turso</a>
         </li>
         <li>
           <span role="img" aria-label="no_entry_sign">
@@ -186,11 +201,7 @@ const Index = () => {
         <a href="https://github.com/ixartz/Next-js-Boilerplate">
           Nextjs Boilerplate
         </a>
-        . You can also browse our{' '}
-        <a href="https://creativedesignsguru.com/category/nextjs/">
-          Premium NextJS Templates
-        </a>{' '}
-        on our website to support this project.
+        .
       </p>
     </Main>
   );

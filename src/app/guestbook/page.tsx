@@ -32,6 +32,16 @@ const Guestbook = async () => {
           </div>
         ))}
       </div>
+
+      <div className="mt-2 text-center text-sm">
+        Database powered by{' '}
+        <a
+          href="https://turso.tech/?utm_source=nextjsstarterbp"
+          target="_blank"
+        >
+          Turso
+        </a>
+      </div>
     </Main>
   );
 };
