@@ -10,6 +10,7 @@ export const Env = createEnv({
   server: {
     CLERK_SECRET_KEY: z.string().nonempty(),
     DATABASE_URL: z.string().nonempty(),
+    DATABASE_AUTH_TOKEN: z.string().optional(),
   },
   client: {
     NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY: z.string().nonempty(),
@@ -21,6 +22,7 @@ export const Env = createEnv({
   runtimeEnv: {
     NODE_ENV: process.env.NODE_ENV,
     DATABASE_URL: process.env.DATABASE_URL,
+    DATABASE_AUTH_TOKEN: process.env.DATABASE_AUTH_TOKEN,
     CLERK_SECRET_KEY: process.env.CLERK_SECRET_KEY,
     NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY:
       process.env.NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY,
