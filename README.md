@@ -4,7 +4,7 @@
   <a href="https://creativedesignsguru.com/demo/Nextjs-Boilerplate/"><img height="300" src="public/assets/images/nextjs-starter-banner.png?raw=true" alt="Next js starter banner"></a>
 </p>
 
-🚀 Boilerplate and Starter for Next.js with App Router and Page Router support, Tailwind CSS and TypeScript ⚡️ Made with developer experience first: Next.js, TypeScript, ESLint, Prettier, Husky, Lint-Staged, Jest, Testing Library, Commitlint, VSCode, Netlify, PostCSS, Tailwind CSS, Authentication with [Clerk](https://clerk.com?utm_source=github&utm_medium=sponsorship&utm_campaign=nextjs-boilerplate).
+🚀 Boilerplate and Starter for Next.js with App Router and Page Router support, Tailwind CSS and TypeScript ⚡️ Made with developer experience first: Next.js, TypeScript, ESLint, Prettier, Husky, Lint-Staged, Jest, Testing Library, Commitlint, VSCode, Netlify, PostCSS, Tailwind CSS, Authentication with [Clerk](https://clerk.com?utm_source=github&utm_medium=sponsorship&utm_campaign=nextjs-boilerplate), Database with DrizzleORM (SQLite, PostgreSQL, and MySQL) and [Turso](https://turso.tech/?utm_source=nextjsstarterbp)
 
 Clone this project and use it to create your own [Next.js](https://nextjs.org) project. You can check a [Next js templates demo](https://creativedesignsguru.com/demo/Nextjs-Boilerplate/).
 
@@ -49,6 +49,12 @@ Developer experience first:
 - 🔥 Type checking [TypeScript](https://www.typescriptlang.org)
 - 💎 Integrate with [Tailwind CSS](https://tailwindcss.com)
 - ✅ Strict Mode for TypeScript and React 18
+- 🔒 Authentication with [Clerk](https://clerk.com?utm_source=github&utm_medium=sponsorship&utm_campaign=nextjs-boilerplate): Sign up, Sign in, Sign out, Forgot password, Reset password, and more.
+- 📦 Type-safe ORM with DrizzleORM, compatible with SQLite, PostgreSQL, and MySQL
+- 💽 Global Database with [Turso](https://turso.tech/?utm_source=nextjsstarterbp)
+- ♻️ Type-safe environment variables with T3 Env
+- ⌨️ Form with React Hook From
+- 🔴 Validation library with Zod
 - 📏 Linter with [ESLint](https://eslint.org) (default NextJS, NextJS Core Web Vitals, Tailwind CSS and Airbnb configuration)
 - 💖 Code Formatter with [Prettier](https://prettier.io)
 - 🦊 Husky for Git Hooks
@@ -62,10 +68,10 @@ Developer experience first:
 - 🎁 Automatic changelog generation with Semantic Release
 - 🔍 Visual testing with Percy (Optional)
 - 💡 Absolute Imports using `@` prefix
-- 🔒 Authentication with [Clerk](https://clerk.com?utm_source=github&utm_medium=sponsorship&utm_campaign=nextjs-boilerplate): Sign up, Sign in, Sign out, Forgot password, Reset password, and more.
 - 🗂 VSCode configuration: Debug, Settings, Tasks and extension for PostCSS, ESLint, Prettier, TypeScript, Jest
 - 🤖 SEO metadata, JSON-LD and Open Graph tags with Next SEO
 - 🗺️ Sitemap.xml and robots.txt with next-sitemap
+- ⌘ Database exploration with Drizzle Studio and CLI migration tool with Drizzle Kit
 - ⚙️ [Bundler Analyzer](https://www.npmjs.com/package/@next/bundle-analyzer)
 - 🖱️ One click deployment with Vercel or Netlify (or manual deployment to any hosting services)
 - 🌈 Include a FREE minimalist theme
@@ -109,7 +115,7 @@ Open http://localhost:3000 with your favorite browser to see your project.
 
 ### Set up authentication
 
-Create a Clerk account at [Clerk.com](https://clerk.com?utm_source=github&utm_medium=sponsorship&utm_campaign=nextjs-boilerplate) and create a new application in Clerk Dashboard. Then, copy `NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY` and `CLERK_SECRET_KEY` into `.env.development.local` file:
+Create a Clerk account at [Clerk.com](https://clerk.com?utm_source=github&utm_medium=sponsorship&utm_campaign=nextjs-boilerplate) and create a new application in Clerk Dashboard. Then, copy `NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY` and `CLERK_SECRET_KEY` into `.env.local` file (not tracked by Git):
 
 ```shell
 NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_clerk_pub_key
@@ -117,6 +123,41 @@ CLERK_SECRET_KEY=your_clerk_secret_key
 ```
 
 Now, you can a fully working authentication system with Next.js: Sign up, Sign in, Sign out, Forgot password, Reset password, Update profile, Update password, Update email, Delete account, and more.
+
+### Set up remote database
+
+The project uses DrizzleORM, a type-safe ORM compatible with SQLite, PostgreSQL, and MySQL databases. By default, the project is set up to work seamlessly with libSQL, and for production purposes, it's integrated with [Turso](https://turso.tech/?utm_source=nextjsstarterbp). The Next.js Boilerplate also enables a smooth transition to an alternative database provider if your project requires it.
+
+First, you need to create a Turso account at [Turso.tech](https://turso.tech/?utm_source=nextjsstarterbp) and install the Turso CLI:
+
+```shell
+brew install tursodatabase/tap/turso
+turso auth signup # Sign up to Turso
+```
+
+Then, create a new database:
+
+```shell
+turso db create nextjs-boilerplate
+```
+
+Now, you need to update the `DATABASE_URL` in `.env` file with the database URL provided by Turso:
+
+```shell
+turso db show nextjs-boilerplate --url
+
+# .env
+# DATABASE_URL=libsql://[RANDOM-CHARS]-[DB-NAME]-[ORG-NAME].turso.io
+```
+
+Finally, you also need to create a new environement variable `DATABASE_AUTH_TOKEN` in `.env.local` (not tracked by Git) with the auth token provided by Turso:
+
+```shell
+turso db tokens create nextjs-boilerplate
+
+# .env.local
+# DATABASE_AUTH_TOKEN=[your-auth-token]
+```
 
 ### Project structure
 
@@ -129,12 +170,16 @@ Now, you can a fully working authentication system with Next.js: Sign up, Sign i
 ├── .vscode                         # VSCode configuration
 ├── public                          # Public assets folder
 ├── src
-│   ├── layouts                     # Layouts components
 │   ├── app                         # Next JS Pages (app router)
+│   ├── components                  # React components
+│   ├── layouts                     # Layouts components
+│   ├── libs                        # 3rd party libraries
+│   ├── models                      # Database models
 │   ├── pages                       # Next JS Pages (page router)
 │   ├── pages.test                  # Next JS Pages tests (this avoids tests to be treated as a Next.js pages)
 │   ├── styles                      # Styles folder
 │   ├── templates                   # Default template
+│   ├── validations                 # Validation schemas
 │   └── utils                       # Utility functions
 ├── tailwind.config.js              # Tailwind CSS configuration
 └── tsconfig.json                   # TypeScript configuration
@@ -176,7 +221,7 @@ The generated HTML and CSS files are minified (built-in feature from Next js). I
 You can create an optimized production build with:
 
 ```shell
-npm run build-prod
+npm run build
 ```
 
 Now, your blog is ready to be deployed. All generated files are located at `out` folder, which you can deploy with any hosting service.

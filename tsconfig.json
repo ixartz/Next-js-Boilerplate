@@ -19,14 +19,15 @@
     "allowUnreachableCode": false,
     "noFallthroughCasesInSwitch": true,
 
-    "target": "es5",
+    "target": "es2017",
     "outDir": "out",
     "declaration": true,
     "sourceMap": true,
 
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
-    "allowJs": false,
+    "allowJs": true,
+    "checkJs": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
 
@@ -52,6 +53,7 @@
     "**/*.ts",
     "**/*.tsx",
     ".storybook/*.ts",
-    ".next/types/**/*.ts"
+    ".next/types/**/*.ts",
+    "src/libs/Env.mjs"
   ]
 }
