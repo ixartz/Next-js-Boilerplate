@@ -11,6 +11,7 @@ export const Env = createEnv({
     CLERK_SECRET_KEY: z.string().nonempty(),
     DATABASE_URL: z.string().nonempty(),
     DATABASE_AUTH_TOKEN: z.string().optional(),
+    MIGRATE_DB: z.coerce.boolean().optional(),
   },
   client: {
     NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY: z.string().nonempty(),
@@ -23,6 +24,7 @@ export const Env = createEnv({
     NODE_ENV: process.env.NODE_ENV,
     DATABASE_URL: process.env.DATABASE_URL,
     DATABASE_AUTH_TOKEN: process.env.DATABASE_AUTH_TOKEN,
+    MIGRATE_DB: process.env.MIGRATE_DB,
     CLERK_SECRET_KEY: process.env.CLERK_SECRET_KEY,
     NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY:
       process.env.NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY,

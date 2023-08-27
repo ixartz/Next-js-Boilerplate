@@ -2,8 +2,6 @@ import { createClient } from '@libsql/client';
 import { drizzle } from 'drizzle-orm/libsql';
 import { migrate } from 'drizzle-orm/libsql/migrator';
 
-import * as schema from '@/models/Schema';
-
 import { Env } from './Env.mjs';
 
 const client = createClient({
@@ -11,8 +9,8 @@ const client = createClient({
   authToken: Env.DATABASE_AUTH_TOKEN,
 });
 
-export const db = drizzle(client, { schema });
+export const db = drizzle(client);
 
-if (Env.NODE_ENV !== 'production') {
+if (Env.NODE_ENV !== 'production' || Env.MIGRATE_DB) {
   await migrate(db, { migrationsFolder: './migrations' });
 }
