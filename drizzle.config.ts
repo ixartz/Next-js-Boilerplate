@@ -1,10 +1,7 @@
 /* eslint-disable-next-line import/no-extraneous-dependencies */
-import dotenv from 'dotenv';
-import type { Config } from 'drizzle-kit';
+import 'dotenv/config';
 
-dotenv.config({
-  path: '.env',
-});
+import type { Config } from 'drizzle-kit';
 
 export default {
   out: './migrations',
