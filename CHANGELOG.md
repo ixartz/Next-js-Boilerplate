@@ -1,3 +1,10 @@
+# [3.18.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.17.0...v3.18.0) (2023-08-27)
+
+
+### Features
+
+* remove MIGRATE_DB which not needed anymore with process.env.NODE_ENV ([3fe81ae](https://github.com/ixartz/Next-js-Boilerplate/commit/3fe81ae98440b33ce18cee80265fdaa54e242184))
+
 # [3.17.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.16.0...v3.17.0) (2023-08-27)
 
 
