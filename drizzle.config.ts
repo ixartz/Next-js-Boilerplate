@@ -1,11 +1,6 @@
-/* eslint-disable-next-line import/no-extraneous-dependencies */
-import dotenv from 'dotenv';
 import type { Config } from 'drizzle-kit';
 
-dotenv.config({
-  path: '.env',
-});
-
+/** @type {import('drizzle-kit').Config} */
 export default {
   out: './migrations',
   schema: './src/models/schema.ts',
