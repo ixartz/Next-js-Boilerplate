@@ -1,3 +1,14 @@
+# [3.17.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.16.0...v3.17.0) (2023-08-27)
+
+
+### Features
+
+* add schema in drizzle instance and disable migrate in production ([5e26798](https://github.com/ixartz/Next-js-Boilerplate/commit/5e2679877a3da64a4cabfc22fdaacebd6abe6789))
+* add script to migrate before building next.js ([220d05e](https://github.com/ixartz/Next-js-Boilerplate/commit/220d05e5d028852ccc533ca60b187bc3d47c5d73))
+* do not run db migration when building on GitHub actions ([964cfa1](https://github.com/ixartz/Next-js-Boilerplate/commit/964cfa1a02fb41b387c851f0b2293c673859d60a))
+* reload guestbook page when deployed on production ([c2e91b2](https://github.com/ixartz/Next-js-Boilerplate/commit/c2e91b2df944b0659d1768d2a7cc54a494d7d5c1))
+* replace dotenv/config by dotenv-cli in db:studio NPM scripts ([f7f8743](https://github.com/ixartz/Next-js-Boilerplate/commit/f7f87435a984fa9d0407a7602d1ef38563c5e8d0))
+
 # [3.16.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.15.0...v3.16.0) (2023-08-24)
 
 
