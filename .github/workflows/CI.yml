@@ -16,9 +16,6 @@ jobs:
     name: Build with ${{ matrix.node-version }}
     runs-on: ubuntu-latest
 
-    env:
-      MIGRATE_DB: true
-
     steps:
       - uses: actions/checkout@v3
       - name: Use Node.js ${{ matrix.node-version }}

@@ -11,6 +11,6 @@ const client = createClient({
 
 export const db = drizzle(client);
 
-if (Env.NODE_ENV !== 'production' || Env.MIGRATE_DB) {
+if (process.env.NODE_ENV !== 'production') {
   await migrate(db, { migrationsFolder: './migrations' });
 }
