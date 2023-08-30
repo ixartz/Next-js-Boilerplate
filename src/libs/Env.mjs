@@ -1,6 +1,5 @@
 /* eslint-disable import/prefer-default-export */
 import { createEnv } from '@t3-oss/env-nextjs';
-import process from 'process';
 import { z } from 'zod';
 
 // Don't add NODE_ENV into T3 Env, it changes the tree-shaking behavior
