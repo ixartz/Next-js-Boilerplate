@@ -1,3 +1,10 @@
+# [3.19.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.18.0...v3.19.0) (2023-08-30)
+
+
+### Features
+
+* make it easier to try edge runtime in the app router ([3f5fd58](https://github.com/ixartz/Next-js-Boilerplate/commit/3f5fd58d0980fdd35860d31d29b8f18e9c93b53f))
+
 # [3.18.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.17.0...v3.18.0) (2023-08-27)
 
 
