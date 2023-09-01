@@ -230,6 +230,30 @@ Now, your blog is ready to be deployed. All generated files are located at `out`
 
 All tests are colocated with the source code inside the same directory. So, it makes it easier to find them. Unfortunately, it is not possible with the `pages` folder which is used by Next.js for routing. So, what is why we have a `pages.test` folder to write tests from files located in `pages` folder.
 
+### Enable Edge runtime
+
+The App Router folder is compatible with the Edge runtime. You can enable it by uncommenting the following lines `src/app/layouts.tsx`:
+
+```tsx
+// export const runtime = 'edge';
+```
+
+For your information, the database migration is not compatible with the Edge runtime. So, you need to disable the automatic migration in `src/libs/DB.ts`:
+
+```tsx
+if (process.env.NODE_ENV !== 'production') {
+  await migrate(db, { migrationsFolder: './migrations' });
+}
+```
+
+After disabling it, you are required to run the migration manually with:
+
+```shell
+npm run db:migrate
+```
+
+You also require to run the command each time you want to update the database schema.
+
 ### Deploy to Netlify
 
 Clone this repository on own GitHub account and deploy to Netlify:
