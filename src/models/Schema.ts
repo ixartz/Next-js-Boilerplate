@@ -8,7 +8,7 @@ export const guestbookTable = sqliteTable('guestbook', {
   createdAt: integer('created_at', { mode: 'timestamp' }).default(
     sql`(strftime('%s', 'now'))`,
   ),
-  updateAt: integer('updated_at', { mode: 'timestamp' }).default(
+  updatedAt: integer('updated_at', { mode: 'timestamp' }).default(
     sql`(strftime('%s', 'now'))`,
   ),
 });

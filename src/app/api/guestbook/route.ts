@@ -1,4 +1,4 @@
-import { eq } from 'drizzle-orm';
+import { eq, sql } from 'drizzle-orm';
 import { NextResponse } from 'next/server';
 import { z } from 'zod';
 
@@ -34,7 +34,10 @@ export const PUT = async (request: Request) => {
 
     await db
       .update(guestbookTable)
-      .set(body)
+      .set({
+        ...body,
+        updatedAt: sql`(strftime('%s', 'now'))`,
+      })
       .where(eq(guestbookTable.id, body.id))
       .run();
 
