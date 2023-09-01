@@ -1,3 +1,10 @@
+# [3.20.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.19.0...v3.20.0) (2023-09-01)
+
+
+### Features
+
+* make updatedAt working when the user update a message and rename the attribute to updatedAt ([4032bc0](https://github.com/ixartz/Next-js-Boilerplate/commit/4032bc0123660c20a72aa52ed611ea1f150e54af))
+
 # [3.19.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.18.0...v3.19.0) (2023-08-30)
 
 
