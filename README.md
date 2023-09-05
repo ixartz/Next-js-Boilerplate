@@ -237,7 +237,7 @@ You also require to run the command each time you want to update the database sc
 
 ### Deploy to production
 
-During the build process, the database migration is automatically executed. So, you don't need to run the migration manually. But, you need to define the `DATABASE_URL` and `DATABASE_AUTH_TOKEN` environment variables.
+During the build process, the database migration is automatically executed. So, you don't need to run the migration manually. But, in your environment variable, `DATABASE_URL` and `DATABASE_AUTH_TOKEN` need to be defined.
 
 Then, you can generate a production build with:
 
