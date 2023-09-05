@@ -207,30 +207,11 @@ npm run commit
 
 One of the benefits of using Conventional Commits is that it allows us to automatically generate a `CHANGELOG` file. It also allows us to automatically determine the next version number based on the types of commits that are included in a release.
 
-### Deploy to production
-
-You can see the results locally in production mode with:
-
-```shell
-$ npm run build
-$ npm run start
-```
-
-The generated HTML and CSS files are minified (built-in feature from Next js). It will also remove unused CSS from [Tailwind CSS](https://tailwindcss.com).
-
-You can create an optimized production build with:
-
-```shell
-npm run build
-```
-
-Now, your blog is ready to be deployed. All generated files are located at `out` folder, which you can deploy with any hosting service.
-
 ### Testing
 
 All tests are colocated with the source code inside the same directory. So, it makes it easier to find them. Unfortunately, it is not possible with the `pages` folder which is used by Next.js for routing. So, what is why we have a `pages.test` folder to write tests from files located in `pages` folder.
 
-### Enable Edge runtime
+### Enable Edge runtime (optional)
 
 The App Router folder is compatible with the Edge runtime. You can enable it by uncommenting the following lines `src/app/layouts.tsx`:
 
@@ -254,17 +235,39 @@ npm run db:migrate
 
 You also require to run the command each time you want to update the database schema.
 
+### Deploy to production
+
+During the build process, the database migration is automatically executed. So, you don't need to run the migration manually. But, you need to define the `DATABASE_URL` and `DATABASE_AUTH_TOKEN` environment variables.
+
+Then, you can generate a production build with:
+
+```shell
+$ npm run build
+```
+
+It generates an optimized production build of the boilerplate. For testing the generated build, you can run:
+
+```shell
+$ npm run start
+```
+
+The command starts a local server with the production build. Then, you can now open http://localhost:3000 with your favorite browser to see the project.
+
 ### Deploy to Netlify
 
-Clone this repository on own GitHub account and deploy to Netlify:
+Clone this repository on own GitHub account and deploy to Netlify in one click:
 
 [![Netlify Deploy button](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/ixartz/Next-js-Boilerplate)
+
+During the setup, you need to define the `DATABASE_URL` and `DATABASE_AUTH_TOKEN` environment variables.
 
 ### Deploy to Vercel
 
 Deploy this Next JS Boilerplate on Vercel in one click:
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fixartz%2FNext-js-Boilerplate)
+
+During the setup, you need to define the `DATABASE_URL` and `DATABASE_AUTH_TOKEN` environment variables.
 
 ### VSCode information (optional)
 
