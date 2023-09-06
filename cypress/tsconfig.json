@@ -5,7 +5,7 @@
     "lib": ["es5", "dom"],
     "types": ["node", "cypress", "@percy/cypress", "@testing-library/cypress"],
 
-    "sourceMap": false, // Workaround - sourcemap error with Cypress and TypeScript 5, https://github.com/cypress-io/cypress/issues/26203
+    "sourceMap": false, // NOTE: workaround - sourcemap error with Cypress and TypeScript 5, https://github.com/cypress-io/cypress/issues/26203
 
     "isolatedModules": false
   },

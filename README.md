@@ -167,10 +167,14 @@ turso db tokens create nextjs-boilerplate
 ├── __mocks__                       # Mocks for testing
 ├── .github                         # GitHub folder
 ├── .husky                          # Husky configuration
+├── .storybook                      # Storybook folder
 ├── .vscode                         # VSCode configuration
+├── cypress                         # Cypress folder
+├── migrations                      # Database migrations
 ├── public                          # Public assets folder
+├── scripts                         # Scripts folder
 ├── src
-│   ├── app                         # Next JS Pages (app router)
+│   ├── app                         # Next JS App (App Router)
 │   ├── components                  # React components
 │   ├── layouts                     # Layouts components
 │   ├── libs                        # 3rd party libraries
@@ -178,9 +182,9 @@ turso db tokens create nextjs-boilerplate
 │   ├── pages                       # Next JS Pages (page router)
 │   ├── pages.test                  # Next JS Pages tests (this avoids tests to be treated as a Next.js pages)
 │   ├── styles                      # Styles folder
-│   ├── templates                   # Default template
-│   ├── validations                 # Validation schemas
-│   └── utils                       # Utility functions
+│   ├── templates                   # Templates folder
+│   ├── utils                       # Utilities folder
+│   └── validations                 # Validation schemas
 ├── tailwind.config.js              # Tailwind CSS configuration
 └── tsconfig.json                   # TypeScript configuration
 ```
