@@ -203,6 +203,7 @@ You can easily configure Next js Boilerplate by making a search in the whole pro
 - `src/utils/AppConfig.ts`: configuration file
 - `src/templates/Main.tsx`: default theme
 - `next-sitemap.config.js`: sitemap configuration
+- `.env`: default environment variables
 
 You have access to the whole code source if you need further customization. The provided code is only example for you to start your project. The sky is the limit 🚀.
 
