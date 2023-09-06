@@ -10,9 +10,9 @@ Clone this project and use it to create your own [Next.js](https://nextjs.org) p
 
 ## Sponsors
 
-<table>
+<table width="100%">
   <tr height="187px">
-    <td align="center">
+    <td align="center" width="33%">
       <a href="https://clerk.com?utm_source=github&utm_medium=sponsorship&utm_campaign=nextjs-boilerplate">
         <picture>
           <source media="(prefers-color-scheme: dark)" srcset="https://github.com/ixartz/Next-js-Boilerplate/assets/1328388/a3cd2a25-377b-4c0d-a3d3-bce121df2c94">
@@ -21,21 +21,26 @@ Clone this project and use it to create your own [Next.js](https://nextjs.org) p
         </picture>
       </a>
     </td>
-    <td>
+    <td width="33%">
       <a href="https://turso.tech/?utm_source=nextjsstarterbp">
         <img src="public/assets/images/turso.png?raw=true" alt="SQLite Developer Experience" width="260">
       </a>
     </td>
-    <td>
+    <td width="33%">
       <a href="https://upstash.com/?utm_source=nextjs-boilerplate">
         <img src="https://raw.githubusercontent.com/upstash/sponsorship/master/redis.png" alt="Upstash" width="260">
       </a>
     </td>
   </tr>
   <tr height="187px">
-    <td>
+    <td style=width="33%">
       <a href="https://nextlessjs.com">
         <img src="https://creativedesignsguru.com/assets/images/themes/nextlessjs-github-banner.png" alt="React SaaS Boilerplate Next.js" />
+      </a>
+    </td>
+    <td align="center" width="33%">
+      <a href="mailto:contact@creativedesignsguru.com">
+        Add your logo here
       </a>
     </td>
   </tr>
@@ -167,10 +172,14 @@ turso db tokens create nextjs-boilerplate
 ├── __mocks__                       # Mocks for testing
 ├── .github                         # GitHub folder
 ├── .husky                          # Husky configuration
+├── .storybook                      # Storybook folder
 ├── .vscode                         # VSCode configuration
+├── cypress                         # Cypress folder
+├── migrations                      # Database migrations
 ├── public                          # Public assets folder
+├── scripts                         # Scripts folder
 ├── src
-│   ├── app                         # Next JS Pages (app router)
+│   ├── app                         # Next JS App (App Router)
 │   ├── components                  # React components
 │   ├── layouts                     # Layouts components
 │   ├── libs                        # 3rd party libraries
@@ -178,9 +187,9 @@ turso db tokens create nextjs-boilerplate
 │   ├── pages                       # Next JS Pages (page router)
 │   ├── pages.test                  # Next JS Pages tests (this avoids tests to be treated as a Next.js pages)
 │   ├── styles                      # Styles folder
-│   ├── templates                   # Default template
-│   ├── validations                 # Validation schemas
-│   └── utils                       # Utility functions
+│   ├── templates                   # Templates folder
+│   ├── utils                       # Utilities folder
+│   └── validations                 # Validation schemas
 ├── tailwind.config.js              # Tailwind CSS configuration
 └── tsconfig.json                   # TypeScript configuration
 ```
@@ -194,6 +203,7 @@ You can easily configure Next js Boilerplate by making a search in the whole pro
 - `src/utils/AppConfig.ts`: configuration file
 - `src/templates/Main.tsx`: default theme
 - `next-sitemap.config.js`: sitemap configuration
+- `.env`: default environment variables
 
 You have access to the whole code source if you need further customization. The provided code is only example for you to start your project. The sky is the limit 🚀.
 
@@ -289,9 +299,9 @@ See [LICENSE](LICENSE) for more information.
 
 ## Sponsors
 
-<table>
+<table width="100%">
   <tr height="187px">
-    <td align="center">
+    <td align="center" width="33%">
       <a href="https://clerk.com?utm_source=github&utm_medium=sponsorship&utm_campaign=nextjs-boilerplate">
         <picture>
           <source media="(prefers-color-scheme: dark)" srcset="https://github.com/ixartz/Next-js-Boilerplate/assets/1328388/a3cd2a25-377b-4c0d-a3d3-bce121df2c94">
@@ -300,21 +310,26 @@ See [LICENSE](LICENSE) for more information.
         </picture>
       </a>
     </td>
-    <td>
+    <td width="33%">
       <a href="https://turso.tech/?utm_source=nextjsstarterbp">
         <img src="public/assets/images/turso.png?raw=true" alt="SQLite Developer Experience" width="260">
       </a>
     </td>
-    <td>
+    <td width="33%">
       <a href="https://upstash.com/?utm_source=nextjs-boilerplate">
         <img src="https://raw.githubusercontent.com/upstash/sponsorship/master/redis.png" alt="Upstash" width="260">
       </a>
     </td>
   </tr>
   <tr height="187px">
-    <td>
+    <td style=width="33%">
       <a href="https://nextlessjs.com">
         <img src="https://creativedesignsguru.com/assets/images/themes/nextlessjs-github-banner.png" alt="React SaaS Boilerplate Next.js" />
+      </a>
+    </td>
+    <td align="center" width="33%">
+      <a href="mailto:contact@creativedesignsguru.com">
+        Add your logo here
       </a>
     </td>
   </tr>
