@@ -298,9 +298,9 @@ See [LICENSE](LICENSE) for more information.
 
 ## Sponsors
 
-<table>
+<table width="100%">
   <tr height="187px">
-    <td align="center">
+    <td align="center" width="33%">
       <a href="https://clerk.com?utm_source=github&utm_medium=sponsorship&utm_campaign=nextjs-boilerplate">
         <picture>
           <source media="(prefers-color-scheme: dark)" srcset="https://github.com/ixartz/Next-js-Boilerplate/assets/1328388/a3cd2a25-377b-4c0d-a3d3-bce121df2c94">
@@ -309,26 +309,26 @@ See [LICENSE](LICENSE) for more information.
         </picture>
       </a>
     </td>
-    <td>
+    <td width="33%">
       <a href="https://turso.tech/?utm_source=nextjsstarterbp">
         <img src="public/assets/images/turso.png?raw=true" alt="SQLite Developer Experience" width="260">
       </a>
     </td>
-    <td>
+    <td width="33%">
       <a href="https://upstash.com/?utm_source=nextjs-boilerplate">
         <img src="https://raw.githubusercontent.com/upstash/sponsorship/master/redis.png" alt="Upstash" width="260">
       </a>
     </td>
   </tr>
   <tr height="187px">
-    <td>
+    <td style=width="33%">
       <a href="https://nextlessjs.com">
         <img src="https://creativedesignsguru.com/assets/images/themes/nextlessjs-github-banner.png" alt="React SaaS Boilerplate Next.js" />
       </a>
     </td>
-    <td style="text-align: center; vertical-align: middle;">
+    <td align="center" width="33%">
       <a href="mailto:contact@creativedesignsguru.com">
-        Building a solution for developers? Add your logo here.
+        Add your logo here
       </a>
     </td>
   </tr>
