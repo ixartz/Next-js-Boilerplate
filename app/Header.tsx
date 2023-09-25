@@ -8,8 +8,8 @@ import Container from 'src/components/Container';
 
 const navLinks = [
   {
-    title: 'Home',
-    link: '/',
+    title: 'Pricing',
+    link: '/pricing',
   },
   {
     title: 'About',
@@ -22,7 +22,7 @@ const Header: React.FC = () => {
   return (
     <Container>
       <nav className='flex items-center justify-between gap-5 py-5'>
-        <Link href='/'>GOK</Link>
+        <Link href='/'>LinkaX</Link>
         <ul className='flex items-center gap-5'>
           {navLinks.map((item) => (
             <li
