@@ -58,6 +58,9 @@ jobs:
       - name: Run unit tests
         run: npm run test
 
+      - name: Install Playwright
+        run: npx playwright install --with-deps
+
       - name: Run storybook tests
         run: npm run test-storybook:ci
 
