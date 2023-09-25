@@ -1,3 +1,11 @@
+# [3.21.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.20.0...v3.21.0) (2023-09-25)
+
+
+### Features
+
+* update next.js to version 13.5 ([aa43f14](https://github.com/ixartz/Next-js-Boilerplate/commit/aa43f14bea16fcb4fd786d9fe74ae37bf29b5b5f))
+* update storybook to the latest version and install playwright ([2079a34](https://github.com/ixartz/Next-js-Boilerplate/commit/2079a347bbbd08d2ffbc4ea96995eaaf66602373))
+
 # [3.20.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.19.0...v3.20.0) (2023-09-01)
 
 
