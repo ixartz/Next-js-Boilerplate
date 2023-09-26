@@ -13,7 +13,6 @@
     "test": "jest",
     "commit": "cz",
     "db:generate": "drizzle-kit generate:sqlite",
-    "db:push": "drizzle-kit push:sqlite",
     "db:migrate": "tsx ./scripts/dbMigrate.ts",
     "db:studio": "dotenv -c -- drizzle-kit studio",
     "cypress": "cypress open",
