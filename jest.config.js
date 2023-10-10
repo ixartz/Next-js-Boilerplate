@@ -33,6 +33,7 @@ const customJestConfig = {
     },
   },
   testEnvironment: 'jest-environment-jsdom',
+  testPathIgnorePatterns: ['<rootDir>/node_modules/', '<rootDir>/tests/'],
 };
 
 module.exports = createJestConfig(customJestConfig);
