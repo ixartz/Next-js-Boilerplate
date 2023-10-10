@@ -46,6 +46,7 @@
     "@next/bundle-analyzer": "^13.5.3",
     "@percy/cli": "^1.27.2",
     "@percy/cypress": "^3.1.2",
+    "@percy/playwright": "^1.0.4",
     "@playwright/test": "^1.38.1",
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
