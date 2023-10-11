@@ -32,5 +32,17 @@ test.describe('Navigation', () => {
 
       await percySnapshot(page, 'Homepage');
     });
+
+    test('should take screenshot of the about page', async ({ page }) => {
+      await page.goto('/about');
+
+      await expect(
+        page.getByRole('link', {
+          name: 'About',
+        }),
+      ).toBeVisible();
+
+      await percySnapshot(page, 'About');
+    });
   });
 });
