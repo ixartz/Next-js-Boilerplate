@@ -15,9 +15,11 @@ export const POST = async (request: Request) => {
     const json = await request.json();
     const body = GuestbookSchema.parse(json);
 
-    await db.insert(guestbookTable).values(body).run();
+    const guestbook = await db.insert(guestbookTable).values(body).returning();
 
-    return NextResponse.json({});
+    return NextResponse.json({
+      id: guestbook[0]?.id,
+    });
   } catch (error) {
     if (error instanceof z.ZodError) {
       return NextResponse.json(error.format(), { status: 422 });
