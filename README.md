@@ -223,9 +223,9 @@ One of the benefits of using Conventional Commits is that it allows us to automa
 
 All tests are colocated with the source code inside the same directory. So, it makes it easier to find them. Unfortunately, it is not possible with the `pages` folder which is used by Next.js for routing. So, what is why we have a `pages.test` folder to write tests from files located in `pages` folder.
 
-### E2E Testing
+### Integration & E2E Testing
 
-The project uses Playwright for E2E testing. You can run the tests with:
+The project uses Playwright for Integration and E2E testing. You can run the tests with:
 
 ```shell
 npx playwright install # Only for the first time in a new environment
