@@ -58,13 +58,20 @@ jobs:
       - name: Run unit tests
         run: npm run test
 
-      - name: Install Playwright
-        run: npx playwright install --with-deps
-
       - name: Run storybook tests
         run: npm run test-storybook:ci
 
-      - name: Run e2e tests
-        run: npx percy exec -- npm run e2e:headless
+      - name: Install Playwright
+        run: npx playwright install --with-deps
+
+      - name: Run E2E tests
+        run: npx percy exec -- npm run test:e2e
         env:
           PERCY_TOKEN: ${{ secrets.PERCY_TOKEN }}
+
+      - uses: actions/upload-artifact@v3
+        if: always()
+        with:
+          name: playwright-report
+          path: playwright-report/
+          retention-days: 7
