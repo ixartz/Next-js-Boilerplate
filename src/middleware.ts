@@ -1,5 +1,5 @@
 import { authMiddleware, redirectToSignIn } from '@clerk/nextjs';
-import { type NextRequest } from 'next/server';
+import type { NextRequest } from 'next/server';
 
 export default authMiddleware({
   publicRoutes: (req: NextRequest) =>
@@ -14,5 +14,5 @@ export default authMiddleware({
 });
 
 export const config = {
-  matcher: ['/((?!.*\\..*|_next).*)', '/', '/(api|trpc)(.*)'],
+  matcher: ['/((?!.+\\.[\\w]+$|_next).*)', '/', '/(api|trpc)(.*)'],
 };
