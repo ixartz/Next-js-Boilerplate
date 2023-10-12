@@ -67,7 +67,7 @@ Developer experience first:
 - 🚓 Lint git commit with Commitlint
 - 📓 Write standard compliant commit messages with Commitizen
 - 🦺 Unit Testing with Jest and React Testing Library
-- 🧪 E2E Testing with Cypress
+- 🧪 Integration and E2E Testing with Playwright
 - 👷 Run tests on pull request with GitHub Actions
 - 🎉 Storybook for UI development
 - 🎁 Automatic changelog generation with Semantic Release
@@ -174,7 +174,6 @@ turso db tokens create nextjs-boilerplate
 ├── .husky                          # Husky configuration
 ├── .storybook                      # Storybook folder
 ├── .vscode                         # VSCode configuration
-├── cypress                         # Cypress folder
 ├── migrations                      # Database migrations
 ├── public                          # Public assets folder
 ├── scripts                         # Scripts folder
@@ -190,6 +189,9 @@ turso db tokens create nextjs-boilerplate
 │   ├── templates                   # Templates folder
 │   ├── utils                       # Utilities folder
 │   └── validations                 # Validation schemas
+├── tests
+│   ├── e2e                         # E2E tests
+│   └── integration                 # Integration tests
 ├── tailwind.config.js              # Tailwind CSS configuration
 └── tsconfig.json                   # TypeScript configuration
 ```

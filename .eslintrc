@@ -78,15 +78,6 @@
         "plugin:jest-dom/recommended"
       ]
     },
-    // Configuration for e2e testing (Cypress)
-    {
-      "files": ["cypress/**/*.ts"],
-      "plugins": ["cypress"],
-      "extends": ["plugin:cypress/recommended"],
-      "parserOptions": {
-        "project": "./cypress/tsconfig.json"
-      }
-    },
     // Configuration for e2e testing (Playwright)
     {
       "files": ["**/*.spec.ts"],
