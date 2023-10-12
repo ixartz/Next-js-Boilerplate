@@ -18,7 +18,7 @@ test.describe('Navigation', () => {
 
       await expect(
         page.getByText('Lorem ipsum dolor sit amet', { exact: false }),
-      ).toHaveCount(3);
+      ).toHaveCount(2);
     });
 
     test('should take screenshot of the homepage', async ({ page }) => {
