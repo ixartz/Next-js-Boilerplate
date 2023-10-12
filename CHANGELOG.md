@@ -1,3 +1,18 @@
+# [3.23.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.22.0...v3.23.0) (2023-10-12)
+
+
+### Features
+
+* add playwright extension in VSCode ([956d1a8](https://github.com/ixartz/Next-js-Boilerplate/commit/956d1a8ec70c6a1214c72a115f0378507aa1b436))
+* add playwright plugin in ESLint ([b2486f1](https://github.com/ixartz/Next-js-Boilerplate/commit/b2486f1b1090c458115b873ddc5bffa8ecaf8412))
+* add Playwright: config, first test and dependency ([f054ea2](https://github.com/ixartz/Next-js-Boilerplate/commit/f054ea264bab3376ab7f86b0a0fdc1b6a4e98350))
+* remove all Cypress related files and configurations ([9fe8271](https://github.com/ixartz/Next-js-Boilerplate/commit/9fe8271e667b819910702803f5489e99766fe9ff))
+
+
+### Reverts
+
+* the failing test in Navigation spec ([28996f5](https://github.com/ixartz/Next-js-Boilerplate/commit/28996f59d2f02562761609348000d55776365f7e))
+
 # [3.22.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.21.0...v3.22.0) (2023-10-02)
 
 
