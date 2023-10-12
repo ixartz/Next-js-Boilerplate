@@ -25,7 +25,7 @@ export default defineConfig({
   // Limit the number of failures on CI to save resources
   maxFailures: process.env.CI ? 10 : undefined,
   // Reporter to use. See https://playwright.dev/docs/test-reporters
-  reporter: 'list',
+  reporter: process.env.CI ? 'github' : 'list',
 
   // Run your local dev server before starting the tests:
   // https://playwright.dev/docs/test-advanced#launching-a-development-web-server-during-the-tests
