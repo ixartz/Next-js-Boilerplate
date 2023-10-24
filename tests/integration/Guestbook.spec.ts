@@ -1,7 +1,5 @@
 import { expect, test } from '@playwright/test';
 
-test.use({ userAgent: '' });
-
 test.describe('Guestbook', () => {
   test.describe('Basic CRUD operations', () => {
     test('should create a new entry in the guestbook and delete it', async ({
