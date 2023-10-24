@@ -78,7 +78,7 @@ Developer experience first:
 - 🗺️ Sitemap.xml and robots.txt with next-sitemap
 - ⌘ Database exploration with Drizzle Studio and CLI migration tool with Drizzle Kit
 - ⚙️ [Bundler Analyzer](https://www.npmjs.com/package/@next/bundle-analyzer)
-- 🖱️ One click deployment with Vercel or Netlify (or manual deployment to any hosting services)
+- 🖱️ One click deployment with Netlify (or manual deployment to any hosting services)
 - 🌈 Include a FREE minimalist theme
 - 💯 Maximize lighthouse score
 
@@ -279,14 +279,6 @@ The command starts a local server with the production build. Then, you can now o
 Clone this repository on own GitHub account and deploy to Netlify in one click:
 
 [![Netlify Deploy button](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/ixartz/Next-js-Boilerplate)
-
-During the setup, you need to define the `DATABASE_URL` and `DATABASE_AUTH_TOKEN` environment variables.
-
-### Deploy to Vercel
-
-Deploy this Next JS Boilerplate on Vercel in one click:
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fixartz%2FNext-js-Boilerplate)
 
 During the setup, you need to define the `DATABASE_URL` and `DATABASE_AUTH_TOKEN` environment variables.
 
