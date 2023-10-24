@@ -1,3 +1,10 @@
+# [3.24.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.23.0...v3.24.0) (2023-10-24)
+
+
+### Features
+
+* make guestbook endpoint avaiable to signed out users ([10b4d81](https://github.com/ixartz/Next-js-Boilerplate/commit/10b4d814d477e3475569537b1ef01a86b68c9a43))
+
 # [3.23.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.22.0...v3.23.0) (2023-10-12)
 
 
