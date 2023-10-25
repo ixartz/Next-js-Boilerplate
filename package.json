@@ -29,6 +29,7 @@
     "@hookform/resolvers": "^3.3.2",
     "@libsql/client": "^0.3.6",
     "@t3-oss/env-nextjs": "^0.7.1",
+    "checkly": "^4.2.0",
     "drizzle-orm": "^0.28.6",
     "next": "^14.0.1",
     "next-seo": "^6.4.0",
