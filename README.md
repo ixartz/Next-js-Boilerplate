@@ -98,7 +98,7 @@ Built-in feature from Next.js:
 
 ### Requirements
 
-- Node.js 16+ and npm
+- Node.js 18+ and npm
 
 ### Getting started
 
