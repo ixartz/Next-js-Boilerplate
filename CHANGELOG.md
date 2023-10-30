@@ -1,3 +1,10 @@
+# [3.25.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.24.0...v3.25.0) (2023-10-30)
+
+
+### Features
+
+* release a new version for Next.js 14 and update README file ([4be2485](https://github.com/ixartz/Next-js-Boilerplate/commit/4be24850b75b9ca896e9e5546b8357745b128398))
+
 # [3.24.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.23.0...v3.24.0) (2023-10-24)
 
 
