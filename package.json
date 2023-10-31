@@ -13,7 +13,7 @@
     "test": "jest",
     "commit": "cz",
     "db:generate": "drizzle-kit generate:sqlite",
-    "db:migrate": "tsx ./scripts/dbMigrate.ts",
+    "db:migrate": "dotenv -c -- tsx ./scripts/dbMigrate.ts",
     "db:studio": "dotenv -c -- drizzle-kit studio",
     "test:e2e": "playwright test",
     "storybook": "storybook dev -p 6006",
