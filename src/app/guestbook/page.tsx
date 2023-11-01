@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import Image from 'next/image';
 
 import { DeleteGuestbookEntry } from '@/components/DeleteGuestbookEntry';
 import { EditableGuestbookEntry } from '@/components/EditableGuestbookEntry';
@@ -42,6 +43,16 @@ const Guestbook = async () => {
           Turso
         </a>
       </div>
+
+      <a href="https://turso.tech/?utm_source=nextjsstarterbp">
+        <Image
+          className="mx-auto mt-2"
+          src="/assets/images/turso.png"
+          alt="SQLite Developer Experience"
+          width={65}
+          height={56}
+        />
+      </a>
     </Main>
   );
 };
