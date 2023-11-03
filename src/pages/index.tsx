@@ -183,7 +183,7 @@ const Index = () => (
         Cache busting
       </li>
     </ul>
-    <h3 className="text-lg font-semibold">Our Stater code Philosophy</h3>
+    <h3 className="text-lg font-semibold">Our Starter code Philosophy</h3>
     <ul>
       <li>Minimal code</li>
       <li>SEO-friendly</li>
