@@ -284,6 +284,8 @@ Clone this repository on own GitHub account and deploy to Netlify in one click:
 
 During the setup, you need to define the `DATABASE_URL` and `DATABASE_AUTH_TOKEN` environment variables.
 
+### Checkly monitoring
+
 ### VSCode information (optional)
 
 If you are VSCode users, you can have a better integration with VSCode by installing the suggested extension in `.vscode/extension.json`. The starter code comes up with Settings for a seamless integration with VSCode. The Debug configuration is also provided for frontend and backend debugging experience.
