@@ -25,6 +25,7 @@ const EditableGuestbookEntry = (props: IEditableGuestbookEntryProps) => {
     <>
       <button
         type="button"
+        aria-label="edit"
         onClick={() => {
           handleEdit();
         }}
