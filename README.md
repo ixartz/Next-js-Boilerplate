@@ -272,6 +272,8 @@ It generates an optimized production build of the boilerplate. For testing the g
 $ npm run start
 ```
 
+You also need to defined the environment variables `CLERK_SECRET_KEY` using your own key.
+
 The command starts a local server with the production build. Then, you can now open http://localhost:3000 with your favorite browser to see the project.
 
 ### Deploy to Netlify

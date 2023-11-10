@@ -10,6 +10,11 @@ env:
 
 jobs:
   test-e2e:
+    strategy:
+      matrix:
+        node-version: [18.x]
+        # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
+
     if: github.event.deployment_status.state == 'success' # Only run when the deployment was successful.
 
     name: Test E2E on Checkly
@@ -27,7 +32,8 @@ jobs:
 
       - uses: actions/setup-node@v3
         with:
-          node-version-file: '.nvmrc'
+          node-version: ${{ matrix.node-version }}
+          cache: "npm"
 
       - name: Restore or cache node_modules
         id: cache-node-modules
