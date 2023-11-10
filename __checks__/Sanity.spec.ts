@@ -14,7 +14,7 @@ test('should navigate to the about page', async ({ page }) => {
 
   await page.getByRole('link', { name: 'About' }).click();
 
-  await expect(page).toHaveURL('/about');
+  await expect(page).toHaveURL(/about$/);
 
   await expect(
     page.getByText('Lorem ipsum dolor sit amet', { exact: false }),
