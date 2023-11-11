@@ -1,6 +1,6 @@
 import { expect, test } from '@playwright/test';
 
-// FIXME: Replace Google.com with your own URL
+// FIXME: Replace Google.com with your own production URL
 const targetUrl = process.env.ENVIRONMENT_URL || 'https://google.com';
 
 test('should display the homepage', async ({ page }) => {
