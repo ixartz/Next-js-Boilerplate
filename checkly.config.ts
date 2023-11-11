@@ -1,9 +1,9 @@
-/* eslint-disable import/no-extraneous-dependencies, no-new */
+/* eslint-disable import/no-extraneous-dependencies */
 import { defineConfig } from 'checkly';
 import { EmailAlertChannel, Frequency } from 'checkly/constructs';
 
 const emailChannel = new EmailAlertChannel('email-channel-1', {
-  // FIXME: add your own email address
+  // FIXME: add your own email address, Checkly will send you an email when a check fails
   address: 'contact@creativedesignsguru.com',
   sendDegraded: true,
 });

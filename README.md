@@ -70,6 +70,7 @@ Developer experience first:
 - 🧪 Integration and E2E Testing with Playwright
 - 👷 Run tests on pull request with GitHub Actions
 - 🎉 Storybook for UI development
+- 🖥️ Monitoring as Code with [Checkly](https://www.checklyhq.com)
 - 🎁 Automatic changelog generation with Semantic Release
 - 🔍 Visual testing with Percy (Optional)
 - 💡 Absolute Imports using `@` prefix

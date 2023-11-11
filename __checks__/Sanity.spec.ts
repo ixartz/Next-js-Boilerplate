@@ -1,5 +1,12 @@
 import { expect, test } from '@playwright/test';
 
+// Checkly is a tool used to monitor deployed environments like production or preview environments.
+// It runs end-to-end tests located at `__checks__` after each deployment to ensure that the environment is up and running.
+// With Checkly, you can monitor your production environment and it'll run `__checks__` tests regularly (you can choose the frequency).
+// If the tests fail, Checkly will notify you via email, Slack, or other channels of your choice.
+// On the other hand, E2E tests located in `tests` are used to test the application before the deployment.
+// You can run `tests` locally or on CI to ensure that the application is ready to be deployed.
+
 // FIXME: Replace Google.com with your own production URL
 const targetUrl = process.env.ENVIRONMENT_URL || 'https://google.com';
 
