@@ -1,8 +1,14 @@
-/* eslint-disable import/no-extraneous-dependencies */
+/* eslint-disable import/no-extraneous-dependencies, no-new */
 import { defineConfig } from 'checkly';
-import { Frequency } from 'checkly/constructs';
+import { EmailAlertChannel, Frequency } from 'checkly/constructs';
 
-const config = defineConfig({
+const emailChannel = new EmailAlertChannel('email-channel-1', {
+  // FIXME: add your own email address
+  address: 'contact@creativedesignsguru.com',
+  sendDegraded: true,
+});
+
+export const config = defineConfig({
   projectName: 'Next.js Boilerplate',
   logicalId: 'nextjs-boilerplate',
   repoUrl: 'https://github.com/ixartz/Next-js-Boilerplate',
@@ -13,6 +19,7 @@ const config = defineConfig({
     browserChecks: {
       frequency: Frequency.EVERY_24H,
       testMatch: '**/__checks__/**/*.spec.ts',
+      alertChannels: [emailChannel],
     },
   },
   cli: {
