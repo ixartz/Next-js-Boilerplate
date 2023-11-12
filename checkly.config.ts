@@ -3,7 +3,7 @@ import { defineConfig } from 'checkly';
 import { EmailAlertChannel, Frequency } from 'checkly/constructs';
 
 const emailChannel = new EmailAlertChannel('email-channel-1', {
-  // FIXME: add your own email address, Checkly will send you an email when a check fails
+  // FIXME: add your own email address, Checkly will send you an email notification if a check fails
   address: 'contact@creativedesignsguru.com',
   sendDegraded: true,
 });
