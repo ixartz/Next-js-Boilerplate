@@ -10,7 +10,7 @@ export default authMiddleware({
 
   // eslint-disable-next-line consistent-return
   afterAuth(auth, req) {
-    // handle users who aren't authenticated
+    // Handle users who aren't authenticated
     if (!auth.userId && !auth.isPublicRoute) {
       return redirectToSignIn({ returnBackUrl: req.url });
     }
