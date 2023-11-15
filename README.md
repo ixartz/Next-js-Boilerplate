@@ -288,9 +288,9 @@ During the setup, you need to define the `DATABASE_URL` and `DATABASE_AUTH_TOKEN
 
 ### Checkly monitoring
 
-The project uses Checkly to ensure that your production environment is always up and running. At regular intervals, Checkly runs the tests defined in the `__checks__` folder and notifies you if any of the tests fail. Additionally, you have the flexibility to execute tests across multiple locations to ensure that your application is available worldwide.
+The project uses [Checkly](https://www.checklyhq.com) to ensure that your production environment is always up and running. At regular intervals, Checkly runs the tests defined in the `__checks__` folder and notifies you if any of the tests fail. Additionally, you have the flexibility to execute tests across multiple locations to ensure that your application is available worldwide.
 
-To use Checkly, you must first create an account on their website. Once you have an account, you can set the `CHECKLY_API_KEY` environment variable in GitHub Actions by generating a new API key in the Checkly Dashboard. Additionally, you will need to define the `CHECKLY_ACCOUNT_ID`, which can also be found in your Checkly Dashboard under User Settings > General.
+To use Checkly, you must first create an account on [their website](https://www.checklyhq.com). Once you have an account, you can set the `CHECKLY_API_KEY` environment variable in GitHub Actions by generating a new API key in the Checkly Dashboard. Additionally, you will need to define the `CHECKLY_ACCOUNT_ID`, which can also be found in your Checkly Dashboard under User Settings > General.
 
 ### VSCode information (optional)
 
