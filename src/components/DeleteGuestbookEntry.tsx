@@ -26,6 +26,7 @@ const DeleteGuestbookEntry = (props: IDeleteGuestbookEntryProps) => {
   return (
     <button
       type="button"
+      aria-label="delete"
       onClick={() => {
         handleDelete();
       }}
