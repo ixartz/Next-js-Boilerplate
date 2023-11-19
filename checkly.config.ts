@@ -19,6 +19,7 @@ export const config = defineConfig({
     environmentVariables: [
       {
         key: 'PRODUCTION_URL',
+        // FIXME: Add your own production URL
         value: 'https://google.com',
       },
     ],
