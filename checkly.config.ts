@@ -16,9 +16,15 @@ export const config = defineConfig({
     locations: ['us-east-1', 'eu-west-1'],
     tags: ['website'],
     runtimeId: '2023.09',
+    environmentVariables: [
+      {
+        key: 'ENVIRONMENT_URL',
+        value: 'https://google.com',
+      },
+    ],
     browserChecks: {
       frequency: Frequency.EVERY_24H,
-      testMatch: '**/__checks__/**/*.spec.ts',
+      testMatch: '**/tests/e2e/**/*.check.spec.ts',
       alertChannels: [emailChannel],
     },
   },
