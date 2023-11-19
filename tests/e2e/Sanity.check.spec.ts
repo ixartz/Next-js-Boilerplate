@@ -8,7 +8,13 @@ import { expect, test } from '@playwright/test';
 // You can run `tests` locally or on CI to ensure that the application is ready to be deployed.
 
 // FIXME: Replace Google.com with your own production URL
-const targetUrl = process.env.ENVIRONMENT_URL!;
+const targetUrl = process.env.ENVIRONMENT_URL || process.env.PRODUCTION_URL;
+
+if (!targetUrl) {
+  throw new Error(
+    'Please set the ENVIRONMENT_URL or PRODUCTION_URL environment variable',
+  );
+}
 
 test.describe('Sanity', () => {
   test.describe('Static pages', () => {

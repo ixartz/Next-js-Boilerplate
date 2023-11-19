@@ -18,7 +18,7 @@ export const config = defineConfig({
     runtimeId: '2023.09',
     environmentVariables: [
       {
-        key: 'ENVIRONMENT_URL',
+        key: 'PRODUCTION_URL',
         value: 'https://google.com',
       },
     ],
