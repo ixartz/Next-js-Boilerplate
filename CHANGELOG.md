@@ -1,3 +1,12 @@
+# [3.27.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.26.0...v3.27.0) (2023-11-20)
+
+
+### Features
+
+* add PRODUCTION_URL environment variable and throw error when targetURL doesn't exist ([8134dee](https://github.com/ixartz/Next-js-Boilerplate/commit/8134dee84205e297020851bad4c81cf3906e7dfe))
+* unified e2e tests for Checkly and playwright ([afa53f5](https://github.com/ixartz/Next-js-Boilerplate/commit/afa53f56b51f9a537131ceb046f90ea59c17dd71))
+* use target URl instead of baseURL for checkly ([4fd61ed](https://github.com/ixartz/Next-js-Boilerplate/commit/4fd61edc77e1ef0d457cb829a89545f7dab47210))
+
 # [3.26.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.25.0...v3.26.0) (2023-11-15)
 
 
