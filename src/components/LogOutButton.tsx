@@ -3,7 +3,7 @@
 import { useClerk } from '@clerk/nextjs';
 import { useRouter } from 'next/navigation';
 
-const SignOutButton = () => {
+const LogOutButton = () => {
   const router = useRouter();
   const { signOut } = useClerk();
 
@@ -18,4 +18,4 @@ const SignOutButton = () => {
   );
 };
 
-export { SignOutButton };
+export { LogOutButton };
