@@ -1,6 +1,6 @@
-import { SignOutButton } from '@clerk/nextjs';
 import Link from 'next/link';
 
+import { SignOutButton } from '@/components/SignOutButton';
 import { AppConfig } from '@/utils/AppConfig';
 
 export default function DashboardLayout({
