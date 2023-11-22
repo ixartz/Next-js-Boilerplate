@@ -1,3 +1,11 @@
+# [3.28.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.27.0...v3.28.0) (2023-11-22)
+
+
+### Features
+
+* rename custom SignOutButton to LogOutButton to avoid confusion with Clerk SignOutButton ([183301b](https://github.com/ixartz/Next-js-Boilerplate/commit/183301b5e87bfa4479727c295e83b45b923454a0))
+* use custom SignOutButton to apply custom CSS styles, unified with other nav links ([35094bf](https://github.com/ixartz/Next-js-Boilerplate/commit/35094bf038f0eae6e7e2d77238840c97cc7adabe))
+
 # [3.27.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.26.0...v3.27.0) (2023-11-20)
 
 
