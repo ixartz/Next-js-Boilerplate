@@ -19,6 +19,7 @@ const Index = () => (
         alt="Nextjs starter banner"
         width={600}
         height={315}
+        unoptimized
       />
     </a>
     <h2 className="mt-5 text-2xl font-bold">Sponsors</h2>
