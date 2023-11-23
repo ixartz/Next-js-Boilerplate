@@ -30,7 +30,7 @@ Clone this project and use it to create your own [Next.js](https://nextjs.org) p
       <a href="https://posthog.com/?utm_source=github&utm_medium=sponsorship&utm_campaign=next-js-boilerplate">
         <picture>
           <source media="(prefers-color-scheme: dark)" srcset="https://posthog.com/brand/posthog-logo-white.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://posthog.com/brand/posthog-logo-black.svg">
+          <source media="(prefers-color-scheme: light)" srcset="https://posthog.com/brand/posthog-logo.svg">
           <img alt="PostHog" src="https://posthog.com/brand/posthog-logo.svg">
         </picture>
       </a>
@@ -343,7 +343,7 @@ See [LICENSE](LICENSE) for more information.
       <a href="https://posthog.com/?utm_source=github&utm_medium=sponsorship&utm_campaign=next-js-boilerplate">
         <picture>
           <source media="(prefers-color-scheme: dark)" srcset="https://posthog.com/brand/posthog-logo-white.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://posthog.com/brand/posthog-logo-black.svg">
+          <source media="(prefers-color-scheme: light)" srcset="https://posthog.com/brand/posthog-logo.svg">
           <img alt="PostHog" src="https://posthog.com/brand/posthog-logo.svg">
         </picture>
       </a>
