@@ -21,11 +21,22 @@ Clone this project and use it to create your own [Next.js](https://nextjs.org) p
         </picture>
       </a>
     </td>
-    <td width="33%">
+    <td align="center" width="33%">
       <a href="https://turso.tech/?utm_source=nextjsstarterbp">
         <img src="public/assets/images/turso.png?raw=true" alt="SQLite Developer Experience">
       </a>
     </td>
+    <td align="center" width="33%">
+      <a href="https://l.crowdin.com/next-js">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://support.crowdin.com/assets/logos/core-logo/svg/crowdin-core-logo-cWhite.svg">
+          <source media="(prefers-color-scheme: light)" srcset="https://support.crowdin.com/assets/logos/core-logo/svg/crowdin-core-logo-cDark.svg">
+          <img alt="Crowdin" src="https://support.crowdin.com/assets/logos/core-logo/svg/crowdin-core-logo-cDark.svg">
+        </picture>
+      </a>
+    </td>
+  </tr>
+  <tr height="187px">
     <td align="center" width="33%">
       <a href="https://posthog.com/?utm_source=github&utm_medium=sponsorship&utm_campaign=next-js-boilerplate">
         <picture>
@@ -35,18 +46,18 @@ Clone this project and use it to create your own [Next.js](https://nextjs.org) p
         </picture>
       </a>
     </td>
-  </tr>
-  <tr height="187px">
-    <td width="33%">
+    <td align="center" width="33%">
       <a href="https://upstash.com/?utm_source=nextjs-boilerplate">
         <img src="https://raw.githubusercontent.com/upstash/sponsorship/master/redis.png" alt="Upstash">
       </a>
     </td>
-    <td style=width="33%">
+    <td align="center" style=width="33%">
       <a href="https://nextlessjs.com">
         <img src="public/assets/images/nextlessjs.png?raw=true" alt="React SaaS Boilerplate Next.js" />
       </a>
     </td>
+  </tr>
+  <tr height="187px">
     <td align="center" width="33%">
       <a href="mailto:contact@creativedesignsguru.com">
         Add your logo here
@@ -334,11 +345,22 @@ See [LICENSE](LICENSE) for more information.
         </picture>
       </a>
     </td>
-    <td width="33%">
+    <td align="center" width="33%">
       <a href="https://turso.tech/?utm_source=nextjsstarterbp">
         <img src="public/assets/images/turso.png?raw=true" alt="SQLite Developer Experience">
       </a>
     </td>
+    <td align="center" width="33%">
+      <a href="https://l.crowdin.com/next-js">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://support.crowdin.com/assets/logos/core-logo/svg/crowdin-core-logo-cWhite.svg">
+          <source media="(prefers-color-scheme: light)" srcset="https://support.crowdin.com/assets/logos/core-logo/svg/crowdin-core-logo-cDark.svg">
+          <img alt="Crowdin" src="https://support.crowdin.com/assets/logos/core-logo/svg/crowdin-core-logo-cDark.svg">
+        </picture>
+      </a>
+    </td>
+  </tr>
+  <tr height="187px">
     <td align="center" width="33%">
       <a href="https://posthog.com/?utm_source=github&utm_medium=sponsorship&utm_campaign=next-js-boilerplate">
         <picture>
@@ -348,18 +370,18 @@ See [LICENSE](LICENSE) for more information.
         </picture>
       </a>
     </td>
-  </tr>
-  <tr height="187px">
-    <td width="33%">
+    <td align="center" width="33%">
       <a href="https://upstash.com/?utm_source=nextjs-boilerplate">
         <img src="https://raw.githubusercontent.com/upstash/sponsorship/master/redis.png" alt="Upstash">
       </a>
     </td>
-    <td style=width="33%">
+    <td align="center" style=width="33%">
       <a href="https://nextlessjs.com">
         <img src="public/assets/images/nextlessjs.png?raw=true" alt="React SaaS Boilerplate Next.js" />
       </a>
     </td>
+  </tr>
+  <tr height="187px">
     <td align="center" width="33%">
       <a href="mailto:contact@creativedesignsguru.com">
         Add your logo here
