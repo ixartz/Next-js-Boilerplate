@@ -31,7 +31,7 @@ Clone this project and use it to create your own [Next.js](https://nextjs.org) p
         <picture>
           <source media="(prefers-color-scheme: dark)" srcset="https://support.crowdin.com/assets/logos/core-logo/png/crowdin-core-logo-cWhite.png">
           <source media="(prefers-color-scheme: light)" srcset="https://support.crowdin.com/assets/logos/core-logo/png/crowdin-core-logo-cDark.png">
-          <img alt="Crowdin" src="https://support.crowdin.com/assets/logos/core-logo/png/crowdin-core-logo-cDark.png" width="512" height="105">
+          <img alt="Crowdin" src="https://support.crowdin.com/assets/logos/core-logo/png/crowdin-core-logo-cDark.png">
         </picture>
       </a>
     </td>
@@ -355,7 +355,7 @@ See [LICENSE](LICENSE) for more information.
         <picture>
           <source media="(prefers-color-scheme: dark)" srcset="https://support.crowdin.com/assets/logos/core-logo/png/crowdin-core-logo-cWhite.png">
           <source media="(prefers-color-scheme: light)" srcset="https://support.crowdin.com/assets/logos/core-logo/png/crowdin-core-logo-cDark.png">
-          <img alt="Crowdin" src="https://support.crowdin.com/assets/logos/core-logo/png/crowdin-core-logo-cDark.png" width="512" height="105">
+          <img alt="Crowdin" src="https://support.crowdin.com/assets/logos/core-logo/png/crowdin-core-logo-cDark.png">
         </picture>
       </a>
     </td>
