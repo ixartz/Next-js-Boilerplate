@@ -57,7 +57,7 @@ Clone this project and use it to create your own [Next.js](https://nextjs.org) p
       </a>
     </td>
   </tr>
-  <tr>
+  <tr height="187px">
     <td align="center" width="33%">
       <a href="mailto:contact@creativedesignsguru.com">
         Add your logo here
@@ -381,7 +381,7 @@ See [LICENSE](LICENSE) for more information.
       </a>
     </td>
   </tr>
-  <tr>
+  <tr height="187px">
     <td align="center" width="33%">
       <a href="mailto:contact@creativedesignsguru.com">
         Add your logo here
