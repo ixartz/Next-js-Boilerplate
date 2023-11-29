@@ -29,9 +29,9 @@ Clone this project and use it to create your own [Next.js](https://nextjs.org) p
     <td align="center" width="33%">
       <a href="https://l.crowdin.com/next-js">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://support.crowdin.com/assets/logos/core-logo/svg/crowdin-core-logo-cWhite.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://support.crowdin.com/assets/logos/core-logo/svg/crowdin-core-logo-cDark.svg">
-          <img alt="Crowdin" src="https://support.crowdin.com/assets/logos/core-logo/svg/crowdin-core-logo-cDark.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="public/assets/images/crowdin-white.png?raw=true">
+          <source media="(prefers-color-scheme: light)" srcset="public/assets/images/crowdin-dark.png?raw=true">
+          <img alt="Crowdin" src="public/assets/images/crowdin-dark.png?raw=true">
         </picture>
       </a>
     </td>
@@ -353,9 +353,9 @@ See [LICENSE](LICENSE) for more information.
     <td align="center" width="33%">
       <a href="https://l.crowdin.com/next-js">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://support.crowdin.com/assets/logos/core-logo/svg/crowdin-core-logo-cWhite.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://support.crowdin.com/assets/logos/core-logo/svg/crowdin-core-logo-cDark.svg">
-          <img alt="Crowdin" src="https://support.crowdin.com/assets/logos/core-logo/svg/crowdin-core-logo-cDark.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="public/assets/images/crowdin-white.png?raw=true">
+          <source media="(prefers-color-scheme: light)" srcset="public/assets/images/crowdin-dark.png?raw=true">
+          <img alt="Crowdin" src="public/assets/images/crowdin-dark.png?raw=true">
         </picture>
       </a>
     </td>
