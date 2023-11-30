@@ -1,6 +1,7 @@
 import '@/styles/global.css';
 
 import type { Metadata } from 'next';
+import { notFound } from 'next/navigation';
 
 export const metadata: Metadata = {
   icons: [
@@ -27,15 +28,22 @@ export const metadata: Metadata = {
   ],
 };
 
+const locales = ['en', 'de'];
+
 export default function RootLayout({
   // Layouts must accept a children prop.
   // This will be populated with nested layouts or pages
   children,
+  params: { locale },
 }: {
   children: React.ReactNode;
+  params: { locale: string };
 }) {
+  // Validate that the incoming `locale` parameter is valid
+  if (!locales.includes(locale)) notFound();
+
   return (
-    <html lang="en">
+    <html lang={locale}>
       <body>{children}</body>
     </html>
   );

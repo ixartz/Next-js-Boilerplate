@@ -1,5 +1,12 @@
 import { authMiddleware, redirectToSignIn } from '@clerk/nextjs';
 import type { NextRequest } from 'next/server';
+import createMiddleware from 'next-intl/middleware';
+
+const intlMiddleware = createMiddleware({
+  locales: ['en', 'fr'],
+
+  defaultLocale: 'en',
+});
 
 export default authMiddleware({
   publicRoutes: (req: NextRequest) =>
@@ -7,6 +14,11 @@ export default authMiddleware({
   ignoredRoutes: ['/api/guestbook'],
   // By default, the middleware will return a 401 response for all routes `/api/*` when the user is signed out.
   // But, for `/api/guestbook`, we want unauthenticated users to be able to access it.
+
+  beforeAuth: (req) => {
+    // Execute next-intl middleware before Clerk's auth middleware
+    return intlMiddleware(req);
+  },
 
   // eslint-disable-next-line consistent-return
   afterAuth(auth, req) {
