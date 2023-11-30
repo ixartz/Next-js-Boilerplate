@@ -47,17 +47,26 @@ Clone this project and use it to create your own [Next.js](https://nextjs.org) p
       </a>
     </td>
     <td align="center" width="33%">
+      <a href="https://betterstack.com/?utm_source=github&utm_medium=sponsorship&utm_campaign=next-js-boilerplate">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="public/assets/images/better-stack-white.png?raw=true">
+          <source media="(prefers-color-scheme: light)" srcset="public/assets/images/better-stack-dark.png?raw=true">
+          <img alt="Better Stack" src="public/assets/images/better-stack-dark.png?raw=true">
+        </picture>
+      </a>
+    </td>
+    <td align="center" width="33%">
       <a href="https://upstash.com/?utm_source=nextjs-boilerplate">
         <img src="https://raw.githubusercontent.com/upstash/sponsorship/master/redis.png" alt="Upstash">
       </a>
     </td>
+  </tr>
+  <tr height="187px">
     <td align="center" style=width="33%">
       <a href="https://nextlessjs.com">
         <img src="public/assets/images/nextlessjs.png?raw=true" alt="React SaaS Boilerplate Next.js" />
       </a>
     </td>
-  </tr>
-  <tr height="187px">
     <td align="center" width="33%">
       <a href="mailto:contact@creativedesignsguru.com">
         Add your logo here
@@ -371,17 +380,26 @@ See [LICENSE](LICENSE) for more information.
       </a>
     </td>
     <td align="center" width="33%">
+      <a href="https://betterstack.com/?utm_source=github&utm_medium=sponsorship&utm_campaign=next-js-boilerplate">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="public/assets/images/better-stack-white.png?raw=true">
+          <source media="(prefers-color-scheme: light)" srcset="public/assets/images/better-stack-dark.png?raw=true">
+          <img alt="Better Stack" src="public/assets/images/better-stack-dark.png?raw=true">
+        </picture>
+      </a>
+    </td>
+    <td align="center" width="33%">
       <a href="https://upstash.com/?utm_source=nextjs-boilerplate">
         <img src="https://raw.githubusercontent.com/upstash/sponsorship/master/redis.png" alt="Upstash">
       </a>
     </td>
+  </tr>
+  <tr height="187px">
     <td align="center" style=width="33%">
       <a href="https://nextlessjs.com">
         <img src="public/assets/images/nextlessjs.png?raw=true" alt="React SaaS Boilerplate Next.js" />
       </a>
     </td>
-  </tr>
-  <tr height="187px">
     <td align="center" width="33%">
       <a href="mailto:contact@creativedesignsguru.com">
         Add your logo here
