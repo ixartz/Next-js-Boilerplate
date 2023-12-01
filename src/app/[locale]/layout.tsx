@@ -1,6 +1,9 @@
 import '@/styles/global.css';
 
 import type { Metadata } from 'next';
+import { notFound } from 'next/navigation';
+
+import { AppConfig } from '@/utils/AppConfig';
 
 export const metadata: Metadata = {
   icons: [
@@ -31,11 +34,16 @@ export default function RootLayout({
   // Layouts must accept a children prop.
   // This will be populated with nested layouts or pages
   children,
+  params: { locale },
 }: {
   children: React.ReactNode;
+  params: { locale: string };
 }) {
+  // Validate that the incoming `locale` parameter is valid
+  if (!AppConfig.locales.includes(locale)) notFound();
+
   return (
-    <html lang="en">
+    <html lang={locale}>
       <body>{children}</body>
     </html>
   );

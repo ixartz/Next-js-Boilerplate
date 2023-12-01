@@ -4,4 +4,7 @@ export const AppConfig = {
   title: 'Nextjs Starter',
   description: 'Starter code for your Nextjs Boilerplate with Tailwind CSS',
   locale: 'en',
+
+  locales: ['en', 'fr'],
+  defaultLocale: 'en',
 };

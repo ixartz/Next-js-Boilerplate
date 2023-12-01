@@ -32,6 +32,7 @@
     "checkly": "^4.4.0",
     "drizzle-orm": "^0.29.1",
     "next": "^14.0.3",
+    "next-intl": "^3.2.1",
     "next-seo": "^6.4.0",
     "next-sitemap": "^4.2.3",
     "react": "^18.2.0",
