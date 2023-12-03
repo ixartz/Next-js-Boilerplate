@@ -25,6 +25,7 @@
     "postbuild": "next-sitemap"
   },
   "dependencies": {
+    "@clerk/localizations": "^1.26.10",
     "@clerk/nextjs": "^4.27.2",
     "@hookform/resolvers": "^3.3.2",
     "@libsql/client": "^0.3.6",

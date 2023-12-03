@@ -2,6 +2,7 @@ import '@/styles/global.css';
 
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
+import { NextIntlClientProvider, useMessages } from 'next-intl';
 
 import { AppConfig } from '@/utils/AppConfig';
 
@@ -42,9 +43,16 @@ export default function RootLayout({
   // Validate that the incoming `locale` parameter is valid
   if (!AppConfig.locales.includes(locale)) notFound();
 
+  // Using internationalization in Client Components
+  const messages = useMessages();
+
   return (
     <html lang={locale}>
-      <body>{children}</body>
+      <body>
+        <NextIntlClientProvider locale={locale} messages={messages}>
+          {children}
+        </NextIntlClientProvider>
+      </body>
     </html>
   );
 }
