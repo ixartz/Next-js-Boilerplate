@@ -11,6 +11,7 @@ export default function AuthLayout({
   let clerkLocale = enUS;
   let signInUrl = '/sign-in';
   let signUpUrl = '/sign-up';
+  let dashboardUrl = '/dashboard';
 
   if (locale === 'fr') {
     clerkLocale = frFR;
@@ -19,6 +20,7 @@ export default function AuthLayout({
   if (locale !== 'en') {
     signInUrl = `/${locale}${signInUrl}`;
     signUpUrl = `/${locale}${signUpUrl}`;
+    dashboardUrl = `/${locale}${dashboardUrl}`;
   }
 
   return (
@@ -26,6 +28,8 @@ export default function AuthLayout({
       localization={clerkLocale}
       signInUrl={signInUrl}
       signUpUrl={signUpUrl}
+      afterSignInUrl={dashboardUrl}
+      afterSignUpUrl={dashboardUrl}
     >
       {children}
     </ClerkProvider>
