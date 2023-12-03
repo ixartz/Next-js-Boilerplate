@@ -6,7 +6,7 @@ import { EditableGuestbookEntry } from '@/components/EditableGuestbookEntry';
 import { GuestbookForm } from '@/components/GuestbookForm';
 import { db } from '@/libs/DB';
 import { guestbookTable } from '@/models/Schema';
-import { Main } from '@/templates/Main';
+import { BaseTemplate } from '@/templates/BaseTemplate';
 
 export const metadata: Metadata = {
   title: 'Guestbook',
@@ -17,7 +17,7 @@ const Guestbook = async () => {
   const guestbook = await db.select().from(guestbookTable).all();
 
   return (
-    <Main>
+    <BaseTemplate>
       <GuestbookForm />
 
       <div className="mt-5">
@@ -53,7 +53,7 @@ const Guestbook = async () => {
           height={56}
         />
       </a>
-    </Main>
+    </BaseTemplate>
   );
 };
 

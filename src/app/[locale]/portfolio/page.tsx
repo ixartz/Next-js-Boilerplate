@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
 
-import { Main } from '@/templates/Main';
+import { BaseTemplate } from '@/templates/BaseTemplate';
 
 export const metadata: Metadata = {
   title: 'Portfolio',
@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 };
 
 const Portfolio = () => (
-  <Main>
+  <BaseTemplate>
     <p>
       Welcome to my portfolio page! Here you will find a carefully curated
       collection of my work and accomplishments. Through this portfolio,
@@ -37,7 +37,7 @@ const Portfolio = () => (
         </Link>
       ))}
     </div>
-  </Main>
+  </BaseTemplate>
 );
 
 export default Portfolio;

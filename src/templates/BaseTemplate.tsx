@@ -3,15 +3,12 @@ import type { ReactNode } from 'react';
 
 import { AppConfig } from '@/utils/AppConfig';
 
-type IMainProps = {
-  meta?: ReactNode;
+type IBaseTemplateProps = {
   children: ReactNode;
 };
 
-const Main = (props: IMainProps) => (
+const BaseTemplate = (props: IBaseTemplateProps) => (
   <div className="w-full px-1 text-gray-700 antialiased">
-    {props.meta}
-
     <div className="mx-auto max-w-screen-md">
       <header className="border-b border-gray-300">
         <div className="pb-8 pt-16">
@@ -115,4 +112,4 @@ const Main = (props: IMainProps) => (
   </div>
 );
 
-export { Main };
+export { BaseTemplate };

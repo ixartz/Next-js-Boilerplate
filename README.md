@@ -327,7 +327,7 @@ To complete the setup, make sure to update the `checkly.config.ts` file with you
 
 #### webpack.cache.PackFileCacheStrategy
 
-Warning: [webpack.cache.PackFileCacheStrategy] Serializing big strings (104kiB) impacts deserialization performance (consider using Buffer instead and decode when needed)
+Warning: webpack.cache.PackFileCacheStrategy Serializing big strings (104kiB) impacts deserialization performance (consider using Buffer instead and decode when needed)
 
 This warning is caused by using `Clerk` and `next-intl` middlewares. It only happens when both middlewares are used together.
 
