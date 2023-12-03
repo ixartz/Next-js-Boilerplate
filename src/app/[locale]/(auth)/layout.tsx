@@ -9,10 +9,25 @@ export default function AuthLayout({
   params: { locale: string };
 }) {
   let clerkLocale = enUS;
+  let signInUrl = '/sign-in';
+  let signUpUrl = '/sign-up';
 
   if (locale === 'fr') {
     clerkLocale = frFR;
   }
 
-  return <ClerkProvider localization={clerkLocale}>{children}</ClerkProvider>;
+  if (locale !== 'en') {
+    signInUrl = `/${locale}${signInUrl}`;
+    signUpUrl = `/${locale}${signUpUrl}`;
+  }
+
+  return (
+    <ClerkProvider
+      localization={clerkLocale}
+      signInUrl={signInUrl}
+      signUpUrl={signUpUrl}
+    >
+      {children}
+    </ClerkProvider>
+  );
 }
