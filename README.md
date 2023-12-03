@@ -212,7 +212,7 @@ turso db tokens create nextjs-boilerplate
 │   ├── app                         # Next JS App (App Router)
 │   ├── components                  # React components
 │   ├── layouts                     # Layouts components
-│   ├── libs                        # 3rd party libraries
+│   ├── libs                        # 3rd party libraries configuration
 │   ├── models                      # Database models
 │   ├── pages                       # Next JS Pages (page router)
 │   ├── pages.test                  # Next JS Pages tests (this avoids tests to be treated as a Next.js pages)
