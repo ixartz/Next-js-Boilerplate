@@ -5,15 +5,27 @@ import { BaseTemplate } from './BaseTemplate';
 describe('Base template', () => {
   describe('Render method', () => {
     it('should have 8 menu items', () => {
-      render(<BaseTemplate>{null}</BaseTemplate>);
+      render(
+        <BaseTemplate
+          leftNav={
+            <>
+              <li>link 1</li>
+              <li>link 2</li>
+              <li>link 3</li>
+            </>
+          }
+        >
+          {null}
+        </BaseTemplate>,
+      );
 
       const menuItemList = screen.getAllByRole('listitem');
 
-      expect(menuItemList).toHaveLength(8);
+      expect(menuItemList).toHaveLength(3);
     });
 
     it('should have a link to support creativedesignsguru.com', () => {
-      render(<BaseTemplate>{null}</BaseTemplate>);
+      render(<BaseTemplate leftNav={<li>1</li>}>{null}</BaseTemplate>);
 
       const copyrightSection = screen.getByText(/© Copyright/);
       const copyrightLink = within(copyrightSection).getByRole('link');

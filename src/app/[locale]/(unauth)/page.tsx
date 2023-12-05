@@ -1,19 +1,20 @@
 import Image from 'next/image';
 
 import { Sponsors } from '@/components/Sponsors';
-import { BaseTemplate } from '@/templates/BaseTemplate';
 
 export default function Index() {
   return (
-    <BaseTemplate>
+    <>
+      <Image
+        src="/assets/images/nextjs-starter-banner.png"
+        alt="Nextjs starter banner"
+        width={600}
+        height={315}
+        unoptimized
+      />
+      GitHub repository:{' '}
       <a href="https://github.com/ixartz/Next-js-Boilerplate">
-        <Image
-          src="/assets/images/nextjs-starter-banner.png"
-          alt="Nextjs starter banner"
-          width={600}
-          height={315}
-          unoptimized
-        />
+        NextJS Boilerplate
       </a>
       <h2 className="mt-5 text-2xl font-bold">Sponsors</h2>
       <Sponsors />
@@ -195,6 +196,6 @@ export default function Index() {
         </a>
         .
       </p>
-    </BaseTemplate>
+    </>
   );
 }

@@ -1,7 +1,5 @@
 import type { Metadata } from 'next';
 
-import { BaseTemplate } from '@/templates/BaseTemplate';
-
 type IPortfolioDetailProps = {
   params: { slug: string };
 };
@@ -19,7 +17,7 @@ export function generateMetadata(props: IPortfolioDetailProps): Metadata {
 }
 
 const PortfolioDetail = (props: IPortfolioDetailProps) => (
-  <BaseTemplate>
+  <>
     <h1 className="capitalize">Porfolio {props.params.slug}</h1>
     <p>
       Created a set of promotional materials and branding elements for a
@@ -30,7 +28,7 @@ const PortfolioDetail = (props: IPortfolioDetailProps) => (
       successful event with heightened participant engagement and increased
       brand visibility.
     </p>
-  </BaseTemplate>
+  </>
 );
 
 export const dynamicParams = false;

@@ -20,23 +20,42 @@ type Story = StoryObj<typeof BaseTemplate>;
 export const BaseWithReactComponent = {
   args: {
     children: <div>Children node</div>,
+    leftNav: (
+      <>
+        <li>Link 1</li>
+        <li>Link 2</li>
+      </>
+    ),
   },
 } satisfies Story;
 
 export const BaseWithString = {
   args: {
     children: 'String',
+    leftNav: (
+      <>
+        <li>Link 1</li>
+        <li>Link 2</li>
+      </>
+    ),
   },
 } satisfies Story;
 
 // More on interaction testing: https://storybook.js.org/docs/7.0/react/writing-tests/interaction-testing
 export const BaseWithHomeLink: Story = {
+  args: {
+    children: <div>Children node</div>,
+    leftNav: (
+      <>
+        <li>Link 1</li>
+        <li>Link 2</li>
+      </>
+    ),
+  },
   play: async ({ canvasElement }) => {
     const canvas = within(canvasElement);
-    const loginButton = await canvas.getByRole('link', {
-      name: /Home/i,
-    });
+    const link = await canvas.getByText('Link 1');
 
-    await userEvent.click(loginButton);
+    await userEvent.click(link);
   },
 } satisfies Story;

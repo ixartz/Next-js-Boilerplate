@@ -2,15 +2,13 @@ import type { Metadata } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
 
-import { BaseTemplate } from '@/templates/BaseTemplate';
-
 export const metadata: Metadata = {
   title: 'Portfolio',
   description: 'Welcome to my portfolio page!',
 };
 
 const Portfolio = () => (
-  <BaseTemplate>
+  <>
     <p>
       Welcome to my portfolio page! Here you will find a carefully curated
       collection of my work and accomplishments. Through this portfolio,
@@ -37,7 +35,7 @@ const Portfolio = () => (
         </Link>
       ))}
     </div>
-  </BaseTemplate>
+  </>
 );
 
 export default Portfolio;
