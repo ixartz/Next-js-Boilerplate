@@ -54,7 +54,7 @@ export const BaseWithHomeLink: Story = {
   },
   play: async ({ canvasElement }) => {
     const canvas = within(canvasElement);
-    const link = await canvas.getByText('Link 1');
+    const link = canvas.getByText('Link 1');
 
     await userEvent.click(link);
   },
