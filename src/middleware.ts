@@ -11,6 +11,7 @@ const intlMiddleware = createMiddleware({
 });
 
 export default authMiddleware({
+  signInUrl: '/sign-in',
   publicRoutes: (req: NextRequest) =>
     !req.nextUrl.pathname.startsWith('/dashboard'),
   ignoredRoutes: ['/api/guestbook'],
