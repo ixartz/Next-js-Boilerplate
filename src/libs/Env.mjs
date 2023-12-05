@@ -5,12 +5,12 @@ import { z } from 'zod';
 // Don't add NODE_ENV into T3 Env, it changes the tree-shaking behavior
 export const Env = createEnv({
   server: {
-    CLERK_SECRET_KEY: z.string().nonempty(),
-    DATABASE_URL: z.string().nonempty(),
+    CLERK_SECRET_KEY: z.string().min(1),
+    DATABASE_URL: z.string().min(1),
     DATABASE_AUTH_TOKEN: z.string().optional(),
   },
   client: {
-    NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY: z.string().nonempty(),
+    NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY: z.string().min(1),
   },
   // You need to destructure all the keys manually
   runtimeEnv: {
