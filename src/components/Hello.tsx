@@ -1,11 +1,9 @@
-'use client';
+import { currentUser } from '@clerk/nextjs';
 
-import { useUser } from '@clerk/nextjs';
+const Hello = async () => {
+  const user = await currentUser();
 
-const Hello = () => {
-  const { user } = useUser();
-
-  return <p>👋 Hello {user?.primaryEmailAddress?.toString()}</p>;
+  return <p>👋 Hello {user?.emailAddresses[0]?.emailAddress}</p>;
 };
 
 export { Hello };
