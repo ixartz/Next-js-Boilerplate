@@ -4,7 +4,7 @@ import { BaseTemplate } from './BaseTemplate';
 
 describe('Base template', () => {
   describe('Render method', () => {
-    it('should have 8 menu items', () => {
+    it('should have 3 menu items', () => {
       render(
         <BaseTemplate
           leftNav={
