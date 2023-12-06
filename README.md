@@ -4,7 +4,7 @@
   <a href="https://creativedesignsguru.com/demo/Nextjs-Boilerplate/"><img height="300" src="public/assets/images/nextjs-starter-banner.png?raw=true" alt="Next js starter banner"></a>
 </p>
 
-🚀 Boilerplate and Starter for Next.js with App Router and Page Router support, Tailwind CSS and TypeScript ⚡️ Made with developer experience first: Next.js, TypeScript, ESLint, Prettier, Husky, Lint-Staged, Jest, Testing Library, Commitlint, VSCode, Netlify, PostCSS, Tailwind CSS, Authentication with [Clerk](https://clerk.com?utm_source=github&utm_medium=sponsorship&utm_campaign=nextjs-boilerplate), Database with DrizzleORM (SQLite, PostgreSQL, and MySQL) and [Turso](https://turso.tech/?utm_source=nextjsstarterbp)
+🚀 Boilerplate and Starter for Next.js with App Router and Page Router support, Tailwind CSS and TypeScript ⚡️ Made with developer experience first: Next.js, TypeScript, ESLint, Prettier, Husky, Lint-Staged, Jest, Testing Library, Commitlint, VSCode, Netlify, PostCSS, Tailwind CSS, Authentication with [Clerk](https://clerk.com?utm_source=github&utm_medium=sponsorship&utm_campaign=nextjs-boilerplate), Database with DrizzleORM (SQLite, PostgreSQL, and MySQL) and [Turso](https://turso.tech/?utm_source=nextjsstarterbp), Monitoring as Code with [Checkly](https://www.checklyhq.com), Storybook, and more.
 
 Clone this project and use it to create your own [Next.js](https://nextjs.org) project. You can check a [Next js templates demo](https://creativedesignsguru.com/demo/Nextjs-Boilerplate/).
 
@@ -21,19 +21,48 @@ Clone this project and use it to create your own [Next.js](https://nextjs.org) p
         </picture>
       </a>
     </td>
-    <td width="33%">
+    <td align="center" width="33%">
       <a href="https://turso.tech/?utm_source=nextjsstarterbp">
         <img src="public/assets/images/turso.png?raw=true" alt="SQLite Developer Experience">
       </a>
     </td>
-    <td width="33%">
+    <td align="center" width="33%">
+      <a href="https://l.crowdin.com/next-js">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="public/assets/images/crowdin-white.png?raw=true">
+          <source media="(prefers-color-scheme: light)" srcset="public/assets/images/crowdin-dark.png?raw=true">
+          <img alt="Crowdin" src="public/assets/images/crowdin-dark.png?raw=true">
+        </picture>
+      </a>
+    </td>
+  </tr>
+  <tr height="187px">
+    <td align="center" width="33%">
+      <a href="https://posthog.com/?utm_source=github&utm_medium=sponsorship&utm_campaign=next-js-boilerplate">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://posthog.com/brand/posthog-logo-white.svg">
+          <source media="(prefers-color-scheme: light)" srcset="https://posthog.com/brand/posthog-logo.svg">
+          <img alt="PostHog" src="https://posthog.com/brand/posthog-logo.svg">
+        </picture>
+      </a>
+    </td>
+    <td align="center" width="33%">
+      <a href="https://betterstack.com/?utm_source=github&utm_medium=sponsorship&utm_campaign=next-js-boilerplate">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="public/assets/images/better-stack-white.png?raw=true">
+          <source media="(prefers-color-scheme: light)" srcset="public/assets/images/better-stack-dark.png?raw=true">
+          <img alt="Better Stack" src="public/assets/images/better-stack-dark.png?raw=true">
+        </picture>
+      </a>
+    </td>
+    <td align="center" width="33%">
       <a href="https://upstash.com/?utm_source=nextjs-boilerplate">
         <img src="https://raw.githubusercontent.com/upstash/sponsorship/master/redis.png" alt="Upstash">
       </a>
     </td>
   </tr>
   <tr height="187px">
-    <td style=width="33%">
+    <td align="center" style=width="33%">
       <a href="https://nextlessjs.com">
         <img src="public/assets/images/nextlessjs.png?raw=true" alt="React SaaS Boilerplate Next.js" />
       </a>
@@ -70,6 +99,7 @@ Developer experience first:
 - 🧪 Integration and E2E Testing with Playwright
 - 👷 Run tests on pull request with GitHub Actions
 - 🎉 Storybook for UI development
+- 🖥️ Monitoring as Code with [Checkly](https://www.checklyhq.com)
 - 🎁 Automatic changelog generation with Semantic Release
 - 🔍 Visual testing with Percy (Optional)
 - 💡 Absolute Imports using `@` prefix
@@ -169,6 +199,7 @@ turso db tokens create nextjs-boilerplate
 ```shell
 .
 ├── README.md                       # README file
+├── __checks__                      # Monitoring as Code, tests run periodically
 ├── __mocks__                       # Mocks for testing
 ├── .github                         # GitHub folder
 ├── .husky                          # Husky configuration
@@ -221,7 +252,7 @@ One of the benefits of using Conventional Commits is that it allows us to automa
 
 ### Testing
 
-All tests are colocated with the source code inside the same directory. So, it makes it easier to find them. Unfortunately, it is not possible with the `pages` folder which is used by Next.js for routing. So, what is why we have a `pages.test` folder to write tests from files located in `pages` folder.
+All unit tests are located with the source code inside the same directory. So, it makes it easier to find them. Unfortunately, it is not possible with the `pages` folder which is used by Next.js for routing. So, what is why we have a `pages.test` folder to write tests from files located in `pages` folder.
 
 ### Integration & E2E Testing
 
@@ -272,6 +303,8 @@ It generates an optimized production build of the boilerplate. For testing the g
 $ npm run start
 ```
 
+You also need to defined the environment variables `CLERK_SECRET_KEY` using your own key.
+
 The command starts a local server with the production build. Then, you can now open http://localhost:3000 with your favorite browser to see the project.
 
 ### Deploy to Netlify
@@ -281,6 +314,14 @@ Clone this repository on own GitHub account and deploy to Netlify in one click:
 [![Netlify Deploy button](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/ixartz/Next-js-Boilerplate)
 
 During the setup, you need to define the `DATABASE_URL` and `DATABASE_AUTH_TOKEN` environment variables.
+
+### Checkly monitoring
+
+The project uses [Checkly](https://www.checklyhq.com) to ensure that your production environment is always up and running. At regular intervals, Checkly runs the tests ending with `*.check.spec.ts` extension and notifies you if any of the tests fail. Additionally, you have the flexibility to execute tests across multiple locations to ensure that your application is available worldwide.
+
+To use Checkly, you must first create an account on [their website](https://www.checklyhq.com). Once you have an account, you can set the `CHECKLY_API_KEY` environment variable in GitHub Actions by generating a new API key in the Checkly Dashboard. Additionally, you will need to define the `CHECKLY_ACCOUNT_ID`, which can also be found in your Checkly Dashboard under User Settings > General.
+
+To complete the setup, make sure to update the `checkly.config.ts` file with your own email address and production URL.
 
 ### VSCode information (optional)
 
@@ -313,19 +354,48 @@ See [LICENSE](LICENSE) for more information.
         </picture>
       </a>
     </td>
-    <td width="33%">
+    <td align="center" width="33%">
       <a href="https://turso.tech/?utm_source=nextjsstarterbp">
         <img src="public/assets/images/turso.png?raw=true" alt="SQLite Developer Experience">
       </a>
     </td>
-    <td width="33%">
+    <td align="center" width="33%">
+      <a href="https://l.crowdin.com/next-js">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="public/assets/images/crowdin-white.png?raw=true">
+          <source media="(prefers-color-scheme: light)" srcset="public/assets/images/crowdin-dark.png?raw=true">
+          <img alt="Crowdin" src="public/assets/images/crowdin-dark.png?raw=true">
+        </picture>
+      </a>
+    </td>
+  </tr>
+  <tr height="187px">
+    <td align="center" width="33%">
+      <a href="https://posthog.com/?utm_source=github&utm_medium=sponsorship&utm_campaign=next-js-boilerplate">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://posthog.com/brand/posthog-logo-white.svg">
+          <source media="(prefers-color-scheme: light)" srcset="https://posthog.com/brand/posthog-logo.svg">
+          <img alt="PostHog" src="https://posthog.com/brand/posthog-logo.svg">
+        </picture>
+      </a>
+    </td>
+    <td align="center" width="33%">
+      <a href="https://betterstack.com/?utm_source=github&utm_medium=sponsorship&utm_campaign=next-js-boilerplate">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="public/assets/images/better-stack-white.png?raw=true">
+          <source media="(prefers-color-scheme: light)" srcset="public/assets/images/better-stack-dark.png?raw=true">
+          <img alt="Better Stack" src="public/assets/images/better-stack-dark.png?raw=true">
+        </picture>
+      </a>
+    </td>
+    <td align="center" width="33%">
       <a href="https://upstash.com/?utm_source=nextjs-boilerplate">
         <img src="https://raw.githubusercontent.com/upstash/sponsorship/master/redis.png" alt="Upstash">
       </a>
     </td>
   </tr>
   <tr height="187px">
-    <td style=width="33%">
+    <td align="center" style=width="33%">
       <a href="https://nextlessjs.com">
         <img src="public/assets/images/nextlessjs.png?raw=true" alt="React SaaS Boilerplate Next.js" />
       </a>

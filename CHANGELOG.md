@@ -1,3 +1,33 @@
+# [3.28.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.27.0...v3.28.0) (2023-11-22)
+
+
+### Features
+
+* rename custom SignOutButton to LogOutButton to avoid confusion with Clerk SignOutButton ([183301b](https://github.com/ixartz/Next-js-Boilerplate/commit/183301b5e87bfa4479727c295e83b45b923454a0))
+* use custom SignOutButton to apply custom CSS styles, unified with other nav links ([35094bf](https://github.com/ixartz/Next-js-Boilerplate/commit/35094bf038f0eae6e7e2d77238840c97cc7adabe))
+
+# [3.27.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.26.0...v3.27.0) (2023-11-20)
+
+
+### Features
+
+* add PRODUCTION_URL environment variable and throw error when targetURL doesn't exist ([8134dee](https://github.com/ixartz/Next-js-Boilerplate/commit/8134dee84205e297020851bad4c81cf3906e7dfe))
+* unified e2e tests for Checkly and playwright ([afa53f5](https://github.com/ixartz/Next-js-Boilerplate/commit/afa53f56b51f9a537131ceb046f90ea59c17dd71))
+* use target URl instead of baseURL for checkly ([4fd61ed](https://github.com/ixartz/Next-js-Boilerplate/commit/4fd61edc77e1ef0d457cb829a89545f7dab47210))
+
+# [3.26.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.25.0...v3.26.0) (2023-11-15)
+
+
+### Features
+
+* add a new GitHub Actions file for Checkly ([2109b1c](https://github.com/ixartz/Next-js-Boilerplate/commit/2109b1c75359a9ce89c2c0773fd65e78e1439403))
+* add aria-label to fix jsx-a11y/control-has-associated-label error ([47e4ff4](https://github.com/ixartz/Next-js-Boilerplate/commit/47e4ff4f811b4e2071b9ba31f5c0ad1367b0caba))
+* add email alert channel for checkly ([d1a4380](https://github.com/ixartz/Next-js-Boilerplate/commit/d1a43801d64fa261bdb252cf83dc289742f37294))
+* add email channel in Checkly configuration to send emails when failing ([2019591](https://github.com/ixartz/Next-js-Boilerplate/commit/20195919d8a07f4e3cc0b7884e7d972de2935a94))
+* create checkly config with a random working test ([32255b0](https://github.com/ixartz/Next-js-Boilerplate/commit/32255b0770ec5be84e9fd3321154329c556aedee))
+* remove eslint rule customization in VSCode and use min(1) instead of nonempty (deprecated) ([9982a2d](https://github.com/ixartz/Next-js-Boilerplate/commit/9982a2d94fe7854eefaa754e9f41cf4735a81c86))
+* update package-lock.json to fix CI ([1fff7ef](https://github.com/ixartz/Next-js-Boilerplate/commit/1fff7efe7295a9ee750b9f05af1a670db7bda733))
+
 # [3.25.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.24.0...v3.25.0) (2023-10-30)
 
 

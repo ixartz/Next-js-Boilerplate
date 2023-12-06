@@ -1,0 +1,60 @@
+name: checkly
+
+on: [deployment_status]
+
+env:
+  CHECKLY_API_KEY: ${{ secrets.CHECKLY_API_KEY }}
+  CHECKLY_ACCOUNT_ID: ${{ secrets.CHECKLY_ACCOUNT_ID }}
+  ENVIRONMENT_URL: ${{ github.event.deployment_status.environment_url }}
+  CHECKLY_TEST_ENVIRONMENT: ${{ github.event.deployment_status.environment }}
+
+jobs:
+  test-e2e:
+    strategy:
+      matrix:
+        node-version: [18.x]
+        # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
+
+    if: github.event.deployment_status.state == 'success' # Only run when the deployment was successful.
+
+    name: Test E2E on Checkly
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          ref: "${{ github.event.deployment_status.deployment.ref }}"
+          fetch-depth: 0
+
+      - name: Set branch name # workaround to detect branch name in "deployment_status" actions
+        run: echo "CHECKLY_TEST_REPO_BRANCH=$(git show -s --pretty=%D HEAD | tr -s ',' '\n' | sed 's/^ //' | grep -e 'origin/' | head -1 | sed 's/\origin\///g')" >> $GITHUB_ENV
+
+      - uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: "npm"
+
+      - name: Restore or cache node_modules
+        id: cache-node-modules
+        uses: actions/cache@v3
+        with:
+          path: node_modules
+          key: node-modules-${{ hashFiles('package-lock.json') }}
+
+      - name: Install dependencies
+        if: steps.cache-node-modules.outputs.cache-hit != 'true'
+        run: npm ci
+
+      - name: Run checks # run the checks passing in the ENVIRONMENT_URL and recording a test session.
+        id: run-checks
+        run: npx checkly test -e ENVIRONMENT_URL=${{ env.ENVIRONMENT_URL }} --reporter=github --record
+
+      - name: Create summary # export the markdown report to the job summary.
+        id: create-summary
+        run: cat checkly-github-report.md > $GITHUB_STEP_SUMMARY
+
+      - name: Deploy checks # if the test run was successful and we are on Production, deploy the checks
+        id: deploy-checks
+        if: steps.run-checks.outcome == 'success' && github.event.deployment_status.environment == 'Production'
+        run: npx checkly deploy --force
