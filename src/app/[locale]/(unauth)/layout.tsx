@@ -1,5 +1,6 @@
 import Link from 'next/link';
 
+import LocaleSwitcher from '@/components/LocaleSwitcher';
 import { BaseTemplate } from '@/templates/BaseTemplate';
 
 export default function Layout({
@@ -71,6 +72,10 @@ export default function Layout({
             >
               Sign up
             </Link>
+          </li>
+
+          <li>
+            <LocaleSwitcher />
           </li>
         </>
       }

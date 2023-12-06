@@ -21,13 +21,13 @@ const BaseTemplate = (props: IBaseTemplateProps) => (
 
         <div className="flex justify-between">
           <nav>
-            <ul className="flex flex-wrap text-xl [&_li]:mr-6">
+            <ul className="flex flex-wrap text-xl [&_li]:mr-5">
               {props.leftNav}
             </ul>
           </nav>
 
           <nav>
-            <ul className="flex flex-wrap text-xl [&_li]:mr-6">
+            <ul className="flex flex-wrap text-xl [&_li]:mr-5">
               {props.rightNav}
             </ul>
           </nav>
