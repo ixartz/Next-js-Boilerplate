@@ -13,6 +13,7 @@ export async function generateStaticParams() {
 export function generateMetadata(props: IPortfolioDetailProps): Metadata {
   return {
     title: `Porfolio ${props.params.slug}`,
+    description: `Porfolio ${props.params.slug} description`,
   };
 }
 
