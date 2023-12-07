@@ -1,11 +1,19 @@
-import type { Metadata } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
+import { getTranslations } from 'next-intl/server';
 
-export const metadata: Metadata = {
-  title: 'Portfolio',
-  description: 'Welcome to my portfolio page!',
-};
+export async function generateMetadata({
+  params: { locale },
+}: {
+  params: { locale: string };
+}) {
+  const t = await getTranslations({ locale, namespace: 'Portfolio' });
+
+  return {
+    title: t('meta_title'),
+    description: t('meta_description'),
+  };
+}
 
 const Portfolio = () => (
   <>

@@ -1,5 +1,36 @@
 {
   "Index": {
-    "title": "Hello world!"
+    "meta_title": "Next.js Boilerplate Presentation",
+    "meta_description": "Next js Boilerplate is the perfect starter code for your project. Build your React application with the Next.js framework."
+  },
+  "Guestbook": {
+    "meta_title": "Guestbook",
+    "meta_description": "An example of CRUD operation"
+  },
+  "About": {
+    "meta_title": "About",
+    "meta_description": "About page description"
+  },
+  "Portfolio": {
+    "meta_title": "Portfolio",
+    "meta_description": "Welcome to my portfolio page!"
+  },
+  "PortfolioSlug": {
+    "meta_title": "Portfolio {slug}",
+    "meta_description": "Porfolio {slug} description"
+  },
+  "SignIn": {
+    "meta_title": "Sign in",
+    "meta_description": "Seamlessly sign in to your account with our user-friendly login process."
+  },
+  "SignUp": {
+    "meta_title": "Sign up",
+    "meta_description": "Effortlessly create an account through our intuitive sign-up process."
+  },
+  "Dashboard": {
+    "meta_title": "Dashboard"
+  },
+  "UserProfile": {
+    "meta_title": "User Profile"
   }
 }

@@ -1,5 +1,6 @@
 import Link from 'next/link';
 
+import LocaleSwitcher from '@/components/LocaleSwitcher';
 import { LogOutButton } from '@/components/LogOutButton';
 import { BaseTemplate } from '@/templates/BaseTemplate';
 
@@ -31,9 +32,15 @@ export default function DashboardLayout({
         </>
       }
       rightNav={
-        <li>
-          <LogOutButton />
-        </li>
+        <>
+          <li>
+            <LogOutButton />
+          </li>
+
+          <li>
+            <LocaleSwitcher />
+          </li>
+        </>
       }
     >
       {children}

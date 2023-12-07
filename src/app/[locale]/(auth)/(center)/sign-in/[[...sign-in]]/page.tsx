@@ -1,11 +1,18 @@
 import { SignIn } from '@clerk/nextjs';
-import type { Metadata } from 'next';
+import { getTranslations } from 'next-intl/server';
 
-export const metadata: Metadata = {
-  title: 'Sign in',
-  description:
-    'Seamlessly sign in to your account with our user-friendly login process.',
-};
+export async function generateMetadata({
+  params: { locale },
+}: {
+  params: { locale: string };
+}) {
+  const t = await getTranslations({ locale, namespace: 'SignIn' });
+
+  return {
+    title: t('meta_title'),
+    description: t('meta_description'),
+  };
+}
 
 const SignInPage = () => <SignIn />;
 

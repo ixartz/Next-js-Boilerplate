@@ -1,9 +1,17 @@
-import type { Metadata } from 'next';
+import { getTranslations } from 'next-intl/server';
 
-export const metadata: Metadata = {
-  title: 'Lorem ipsum',
-  description: 'Lorem ipsum',
-};
+export async function generateMetadata({
+  params: { locale },
+}: {
+  params: { locale: string };
+}) {
+  const t = await getTranslations({ locale, namespace: 'About' });
+
+  return {
+    title: t('meta_title'),
+    description: t('meta_description'),
+  };
+}
 
 export default function About() {
   return (

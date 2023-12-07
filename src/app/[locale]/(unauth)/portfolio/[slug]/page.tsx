@@ -1,7 +1,7 @@
-import type { Metadata } from 'next';
+import { getTranslations } from 'next-intl/server';
 
 type IPortfolioDetailProps = {
-  params: { slug: string };
+  params: { slug: string; locale: string };
 };
 
 export async function generateStaticParams() {
@@ -10,10 +10,15 @@ export async function generateStaticParams() {
   }));
 }
 
-export function generateMetadata(props: IPortfolioDetailProps): Metadata {
+export async function generateMetadata(props: IPortfolioDetailProps) {
+  const t = await getTranslations({
+    locale: props.params.locale,
+    namespace: 'PortfolioSlug',
+  });
+
   return {
-    title: `Porfolio ${props.params.slug}`,
-    description: `Porfolio ${props.params.slug} description`,
+    title: t('meta_title', { slug: props.params.slug }),
+    description: t('meta_description', { slug: props.params.slug }),
   };
 }
 

@@ -1,5 +1,5 @@
-import type { Metadata } from 'next';
 import Image from 'next/image';
+import { getTranslations } from 'next-intl/server';
 
 import { DeleteGuestbookEntry } from '@/components/DeleteGuestbookEntry';
 import { EditableGuestbookEntry } from '@/components/EditableGuestbookEntry';
@@ -7,10 +7,18 @@ import { GuestbookForm } from '@/components/GuestbookForm';
 import { db } from '@/libs/DB';
 import { guestbookTable } from '@/models/Schema';
 
-export const metadata: Metadata = {
-  title: 'Guestbook',
-  description: 'An example of CRUD operation',
-};
+export async function generateMetadata({
+  params: { locale },
+}: {
+  params: { locale: string };
+}) {
+  const t = await getTranslations({ locale, namespace: 'Guestbook' });
+
+  return {
+    title: t('meta_title'),
+    description: t('meta_description'),
+  };
+}
 
 const Guestbook = async () => {
   const guestbook = await db.select().from(guestbookTable).all();

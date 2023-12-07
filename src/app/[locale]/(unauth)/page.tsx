@@ -1,13 +1,20 @@
-import type { Metadata } from 'next';
 import Image from 'next/image';
+import { getTranslations } from 'next-intl/server';
 
 import { Sponsors } from '@/components/Sponsors';
 
-export const metadata: Metadata = {
-  title: 'Next.js Boilerplate Presentation',
-  description:
-    'Next js Boilerplate is the perfect starter code for your project. Build your React application with the Next.js framework.',
-};
+export async function generateMetadata({
+  params: { locale },
+}: {
+  params: { locale: string };
+}) {
+  const t = await getTranslations({ locale, namespace: 'Index' });
+
+  return {
+    title: t('meta_title'),
+    description: t('meta_description'),
+  };
+}
 
 export default function Index() {
   return (
