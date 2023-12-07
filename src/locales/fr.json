@@ -32,5 +32,9 @@
   },
   "UserProfile": {
     "meta_title": "Profil de l'utilisateur"
+  },
+  "DashboardLayout": {
+    "dashboard_link": "Tableau de bord",
+    "user_profile_link": "Gérer votre compte"
   }
 }
