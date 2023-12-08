@@ -1,3 +1,31 @@
+# [3.29.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.28.0...v3.29.0) (2023-12-08)
+
+
+### Features
+
+* add i18n support for client component and typesafety for i18n keys ([2d86247](https://github.com/ixartz/Next-js-Boilerplate/commit/2d862478414c4e6cf06e287acbef50369ef9a119))
+* add i18n support for Dashboard url used in Clerk ([12b89bc](https://github.com/ixartz/Next-js-Boilerplate/commit/12b89bcfa1cae76872fc1504960a5ee417ef5eea))
+* add i18n with Clerk components and remove custom style in global.css file ([5e1af6c](https://github.com/ixartz/Next-js-Boilerplate/commit/5e1af6c9a83cc6988c68fd761bf4945a2e0cdb9c))
+* add i18n with next-intl ([1f43eb2](https://github.com/ixartz/Next-js-Boilerplate/commit/1f43eb247ad8591fef3aa8a34d112dd804eec4c3))
+* add locale switcher UI to change lang ([13b40e3](https://github.com/ixartz/Next-js-Boilerplate/commit/13b40e32d265d341da1cf723c1af36f3ea53e7e1))
+* add metatags in App Router for page migrated from Pages Router ([ce8c277](https://github.com/ixartz/Next-js-Boilerplate/commit/ce8c2770c41abcc3c866d7320de6ef4d8a541715))
+* add support i18n for authMiddleware ([8651d36](https://github.com/ixartz/Next-js-Boilerplate/commit/8651d36279512b0f5e008341916110a8ee6f167a))
+* add tests for page in App Router ([6a722a1](https://github.com/ixartz/Next-js-Boilerplate/commit/6a722a1fec7a236973f794edc6583a245ebb4747))
+* convert all hard coded text and translate in french ([0c3b1b2](https://github.com/ixartz/Next-js-Boilerplate/commit/0c3b1b2f9a8ae5c0d34cb6f3a227a907aca00342))
+* i18n for page metatag ([5e7676d](https://github.com/ixartz/Next-js-Boilerplate/commit/5e7676de0d58238de1d46e662c3c8e6e00bd2c5b))
+* link in BaseTemplate replaced margin with gap ([28b6ff2](https://github.com/ixartz/Next-js-Boilerplate/commit/28b6ff24577b5d4338a7da068e06070c7f50f195))
+* migreate the index page from Page Rotuer to App Router ([fd3e82c](https://github.com/ixartz/Next-js-Boilerplate/commit/fd3e82c2ff837951277a8300fd95f15294b9290a))
+* move messages folder to locales ([305e385](https://github.com/ixartz/Next-js-Boilerplate/commit/305e38504939008ecfbbd3bfb6deaf052e57eae7))
+* remove Page router and migrate about page to App Router ([3965cbf](https://github.com/ixartz/Next-js-Boilerplate/commit/3965cbf89a67a64272b895809a31791ccf383b57))
+* translate text in dashboard layout ([8119f1d](https://github.com/ixartz/Next-js-Boilerplate/commit/8119f1db63853f83710a6cc1f3135b45bc209809))
+
+
+### Reverts
+
+* add back NEXT_PUBLIC_CLERK_SIGN_IN_URL in the previous location ([16ae2ef](https://github.com/ixartz/Next-js-Boilerplate/commit/16ae2ef3a7b2800a3ac4d847bb7afa70743ee805))
+* add back style for a tag link ([c12a7bd](https://github.com/ixartz/Next-js-Boilerplate/commit/c12a7bd400c875a115eefe2a9921db9e36bf644d))
+* use percy/cli 1.27.4 instead of 1.27.5, impossible to upload snapshort with 1.27.5 ([73f8a0b](https://github.com/ixartz/Next-js-Boilerplate/commit/73f8a0b0e9c69f83e5c5a2b51f52159fcc43c654))
+
 # [3.28.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.27.0...v3.28.0) (2023-11-22)
 
 
