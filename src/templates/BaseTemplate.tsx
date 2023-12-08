@@ -18,7 +18,7 @@ const BaseTemplate = (props: IBaseTemplateProps) => {
         <header className="border-b border-gray-300">
           <div className="pb-8 pt-16">
             <h1 className="text-3xl font-bold text-gray-900">
-              {AppConfig.title}
+              {AppConfig.name}
             </h1>
             <h2 className="text-xl">{t('description')}</h2>
           </div>
@@ -41,7 +41,7 @@ const BaseTemplate = (props: IBaseTemplateProps) => {
         <main>{props.children}</main>
 
         <footer className="border-t border-gray-300 py-8 text-center text-sm">
-          © Copyright {new Date().getFullYear()} {AppConfig.title}.
+          © Copyright {new Date().getFullYear()} {AppConfig.name}.
           {` ${t('made_with')} `}
           <a
             href="https://creativedesignsguru.com"
