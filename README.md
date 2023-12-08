@@ -4,7 +4,7 @@
   <a href="https://creativedesignsguru.com/demo/Nextjs-Boilerplate/"><img height="300" src="public/assets/images/nextjs-starter-banner.png?raw=true" alt="Next js starter banner"></a>
 </p>
 
-🚀 Boilerplate and Starter for Next.js with App Router and Page Router support, Tailwind CSS and TypeScript ⚡️ Made with developer experience first: Next.js, TypeScript, ESLint, Prettier, Husky, Lint-Staged, Jest, Testing Library, Commitlint, VSCode, Netlify, PostCSS, Tailwind CSS, Authentication with [Clerk](https://clerk.com?utm_source=github&utm_medium=sponsorship&utm_campaign=nextjs-boilerplate), Database with DrizzleORM (SQLite, PostgreSQL, and MySQL) and [Turso](https://turso.tech/?utm_source=nextjsstarterbp), Monitoring as Code with [Checkly](https://www.checklyhq.com), Storybook, and more.
+🚀 Boilerplate and Starter for Next.js with App Router support, Tailwind CSS and TypeScript ⚡️ Made with developer experience first: Next.js, TypeScript, ESLint, Prettier, Husky, Lint-Staged, Jest, Testing Library, Commitlint, VSCode, Netlify, PostCSS, Tailwind CSS, Authentication with [Clerk](https://clerk.com?utm_source=github&utm_medium=sponsorship&utm_campaign=nextjs-boilerplate), Database with DrizzleORM (SQLite, PostgreSQL, and MySQL) and [Turso](https://turso.tech/?utm_source=nextjsstarterbp), Monitoring as Code with [Checkly](https://www.checklyhq.com), Storybook, Multi-language (i18n), and more
 
 Clone this project and use it to create your own [Next.js](https://nextjs.org) project. You can check a [Next js templates demo](https://creativedesignsguru.com/demo/Nextjs-Boilerplate/).
 
@@ -79,13 +79,14 @@ Clone this project and use it to create your own [Next.js](https://nextjs.org) p
 
 Developer experience first:
 
-- ⚡ [Next.js](https://nextjs.org) with App Router and Page Router support
+- ⚡ [Next.js](https://nextjs.org) with App Router support
 - 🔥 Type checking [TypeScript](https://www.typescriptlang.org)
 - 💎 Integrate with [Tailwind CSS](https://tailwindcss.com)
 - ✅ Strict Mode for TypeScript and React 18
 - 🔒 Authentication with [Clerk](https://clerk.com?utm_source=github&utm_medium=sponsorship&utm_campaign=nextjs-boilerplate): Sign up, Sign in, Sign out, Forgot password, Reset password, and more.
 - 📦 Type-safe ORM with DrizzleORM, compatible with SQLite, PostgreSQL, and MySQL
 - 💽 Global Database with [Turso](https://turso.tech/?utm_source=nextjsstarterbp)
+- 🌐 Multi-language (i18n) with next-intl
 - ♻️ Type-safe environment variables with T3 Env
 - ⌨️ Form with React Hook From
 - 🔴 Validation library with Zod
@@ -211,13 +212,12 @@ turso db tokens create nextjs-boilerplate
 ├── src
 │   ├── app                         # Next JS App (App Router)
 │   ├── components                  # React components
-│   ├── layouts                     # Layouts components
 │   ├── libs                        # 3rd party libraries configuration
+│   ├── locales                     # Locales folder (i18n messages)
 │   ├── models                      # Database models
-│   ├── pages                       # Next JS Pages (page router)
-│   ├── pages.test                  # Next JS Pages tests (this avoids tests to be treated as a Next.js pages)
 │   ├── styles                      # Styles folder
 │   ├── templates                   # Templates folder
+│   ├── types                       # Type definitions
 │   ├── utils                       # Utilities folder
 │   └── validations                 # Validation schemas
 ├── tests
@@ -252,7 +252,11 @@ One of the benefits of using Conventional Commits is that it allows us to automa
 
 ### Testing
 
-All unit tests are located with the source code inside the same directory. So, it makes it easier to find them. Unfortunately, it is not possible with the `pages` folder which is used by Next.js for routing. So, what is why we have a `pages.test` folder to write tests from files located in `pages` folder.
+All unit tests are located with the source code inside the same directory. So, it makes it easier to find them. The project uses Jest and React Testing Library for unit testing. You can run the tests with:
+
+```shell
+npm run test
+```
 
 ### Integration & E2E Testing
 
