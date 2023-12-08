@@ -7,6 +7,8 @@
     "Orta.vscode-jest",
     "humao.rest-client",
     "yoavbls.pretty-ts-errors",
-    "ms-playwright.playwright"
+    "ms-playwright.playwright",
+    "github.vscode-github-actions",
+    "lokalise.i18n-ally"
   ]
 }

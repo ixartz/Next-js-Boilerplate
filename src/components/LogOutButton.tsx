@@ -2,10 +2,12 @@
 
 import { useClerk } from '@clerk/nextjs';
 import { useRouter } from 'next/navigation';
+import { useTranslations } from 'next-intl';
 
 const LogOutButton = () => {
   const router = useRouter();
   const { signOut } = useClerk();
+  const t = useTranslations('DashboardLayout');
 
   return (
     <button
@@ -13,7 +15,7 @@ const LogOutButton = () => {
       type="button"
       onClick={() => signOut(() => router.push('/'))}
     >
-      Sign out
+      {t('sign_out')}
     </button>
   );
 };

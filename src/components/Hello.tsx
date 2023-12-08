@@ -1,11 +1,15 @@
-'use client';
+import { currentUser } from '@clerk/nextjs';
+import { getTranslations } from 'next-intl/server';
 
-import { useUser } from '@clerk/nextjs';
+const Hello = async () => {
+  const t = await getTranslations('Dashboard');
+  const user = await currentUser();
 
-const Hello = () => {
-  const { user } = useUser();
-
-  return <p>👋 Hello {user?.primaryEmailAddress?.toString()}</p>;
+  return (
+    <p>
+      👋 {t('hello_message', { email: user?.emailAddresses[0]?.emailAddress })}
+    </p>
+  );
 };
 
 export { Hello };

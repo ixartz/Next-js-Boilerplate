@@ -1,0 +1,66 @@
+{
+  "RootLayout": {
+    "home_link": "Accueil",
+    "about_link": "A propos",
+    "guestbook_link": "Livre d'or",
+    "portfolio_link": "Portfolio",
+    "sign_in_link": "Se connecter",
+    "sign_up_link": "S'inscrire"
+  },
+  "BaseTemplate": {
+    "description": "Code de démarrage pour Next.js avec Tailwind CSS",
+    "made_with": "Fait avec"
+  },
+  "Index": {
+    "meta_title": "Présentation de Next.js Boilerplate",
+    "meta_description": "Next js Boilerplate is the perfect starter code for your project. Build your React application with the Next.js framework."
+  },
+  "Guestbook": {
+    "meta_title": "Livre d'or",
+    "meta_description": "Un exemple de fonctionnement CRUD",
+    "database_powered_by": "Base de données propulsée par"
+  },
+  "GuestbookForm": {
+    "username": "Nom d'utilisateur",
+    "body": "Message",
+    "save": "Sauvegarder"
+  },
+  "About": {
+    "meta_title": "A propos",
+    "meta_description": "A propos description",
+    "lorem_ipsum": "FR - Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione fuga recusandae quidem. Quaerat molestiae blanditiis doloremque possimus labore voluptatibus distinctio recusandae autem esse explicabo molestias officia placeat, accusamus aut saepe.",
+    "lorem_ipsum_2": "FR - Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione fuga recusandae quidem. Quaerat molestiae blanditiis doloremque possimus labore voluptatibus distinctio recusandae autem esse explicabo molestias officia placeat, accusamus aut saepe."
+  },
+  "Portfolio": {
+    "meta_title": "Portfolio",
+    "meta_description": "Bienvenue sur ma page portfolio!",
+    "presentation": "Bienvenue sur ma page portfolio! Vous trouverez ici une collection soigneusement organisée de mon travail et de mes réalisations. À travers ce portfolio, je mets en valeur mon expertise, ma créativité et la valeur que je peux apporter à vos projets.",
+    "portfolio_name": "Portfolio {name}"
+  },
+  "PortfolioSlug": {
+    "meta_title": "Portfolio {slug}",
+    "meta_description": "Porfolio {slug} description",
+    "header": "Portfolio {slug}",
+    "content": "Created a set of promotional materials and branding elements for a corporate event. Crafted a visually unified theme, encompassing a logo, posters, banners, and digital assets. Integrated the client's brand identity while infusing it with a contemporary and innovative approach. Garnered favorable responses from event attendees, resulting in a successful event with heightened participant engagement and increased brand visibility."
+  },
+  "SignIn": {
+    "meta_title": "Se connecter",
+    "meta_description": "Connectez-vous à votre compte avec facilité."
+  },
+  "SignUp": {
+    "meta_title": "S'inscrire",
+    "meta_description": "Créez un compte sans effort grâce à notre processus d'inscription intuitif."
+  },
+  "Dashboard": {
+    "meta_title": "Dashboard",
+    "hello_message": "Bonjour {email}!"
+  },
+  "UserProfile": {
+    "meta_title": "Profil de l'utilisateur"
+  },
+  "DashboardLayout": {
+    "dashboard_link": "Tableau de bord",
+    "user_profile_link": "Gérer votre compte",
+    "sign_out": "Se déconnecter"
+  }
+}

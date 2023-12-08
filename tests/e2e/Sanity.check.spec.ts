@@ -46,14 +46,5 @@ test.describe('Sanity', () => {
 
       await expect(page.locator('main').getByRole('link')).toHaveCount(6);
     });
-
-    test('should navigate to the blog page', async ({ page }) => {
-      await page.goto(targetUrl);
-
-      await page.getByRole('link', { name: 'Blog' }).click();
-      await expect(page).toHaveURL(/blog$/);
-
-      await expect(page.locator('main').getByRole('link')).toHaveCount(10);
-    });
   });
 });

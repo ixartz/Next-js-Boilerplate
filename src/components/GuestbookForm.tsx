@@ -2,6 +2,7 @@
 
 import { zodResolver } from '@hookform/resolvers/zod';
 import { useRouter } from 'next/navigation';
+import { useTranslations } from 'next-intl';
 import { useForm } from 'react-hook-form';
 import type { z } from 'zod';
 
@@ -28,6 +29,7 @@ const GuestbookForm = (props: IGuestbookFormProps) => {
     defaultValues: props.edit ? props.defaultValues : undefined,
   });
   const router = useRouter();
+  const t = useTranslations('GuestbookForm');
 
   const handleCreate = handleSubmit(async (data) => {
     if (props.edit) {
@@ -63,7 +65,7 @@ const GuestbookForm = (props: IGuestbookFormProps) => {
     <form onSubmit={handleCreate}>
       <div>
         <label className="text-sm font-bold text-gray-700" htmlFor="username">
-          Username
+          {t('username')}
           <input
             id="username"
             className="mt-2 w-full appearance-none rounded border px-3 py-2 leading-tight text-gray-700 focus:outline-none focus:ring focus:ring-blue-300/50"
@@ -79,7 +81,7 @@ const GuestbookForm = (props: IGuestbookFormProps) => {
 
       <div className="mt-3">
         <label className="text-sm font-bold text-gray-700" htmlFor="body">
-          Body
+          {t('body')}
           <input
             id="body"
             className="mt-2 w-full appearance-none rounded border px-3 py-2 leading-tight text-gray-700 focus:outline-none focus:ring focus:ring-blue-300/50"
@@ -98,7 +100,7 @@ const GuestbookForm = (props: IGuestbookFormProps) => {
           className="rounded bg-blue-500 px-5 py-1 font-bold text-white hover:bg-blue-600 focus:outline-none focus:ring focus:ring-blue-300/50"
           type="submit"
         >
-          Save
+          {t('save')}
         </button>
       </div>
     </form>
