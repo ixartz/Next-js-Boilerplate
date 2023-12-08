@@ -1,4 +1,7 @@
 import { render, screen, within } from '@testing-library/react';
+import { NextIntlClientProvider } from 'next-intl';
+
+import messages from '@/locales/en.json';
 
 import { BaseTemplate } from './BaseTemplate';
 
@@ -6,17 +9,19 @@ describe('Base template', () => {
   describe('Render method', () => {
     it('should have 3 menu items', () => {
       render(
-        <BaseTemplate
-          leftNav={
-            <>
-              <li>link 1</li>
-              <li>link 2</li>
-              <li>link 3</li>
-            </>
-          }
-        >
-          {null}
-        </BaseTemplate>,
+        <NextIntlClientProvider locale="en" messages={messages}>
+          <BaseTemplate
+            leftNav={
+              <>
+                <li>link 1</li>
+                <li>link 2</li>
+                <li>link 3</li>
+              </>
+            }
+          >
+            {null}
+          </BaseTemplate>
+        </NextIntlClientProvider>,
       );
 
       const menuItemList = screen.getAllByRole('listitem');
@@ -25,7 +30,11 @@ describe('Base template', () => {
     });
 
     it('should have a link to support creativedesignsguru.com', () => {
-      render(<BaseTemplate leftNav={<li>1</li>}>{null}</BaseTemplate>);
+      render(
+        <NextIntlClientProvider locale="en" messages={messages}>
+          <BaseTemplate leftNav={<li>1</li>}>{null}</BaseTemplate>
+        </NextIntlClientProvider>,
+      );
 
       const copyrightSection = screen.getByText(/© Copyright/);
       const copyrightLink = within(copyrightSection).getByRole('link');

@@ -1,4 +1,7 @@
 import { render, screen } from '@testing-library/react';
+import { NextIntlClientProvider } from 'next-intl';
+
+import messages from '@/locales/en.json';
 
 import About from './page';
 
@@ -8,7 +11,11 @@ import About from './page';
 describe('About page', () => {
   describe('Render method', () => {
     it('should have two paragraphs of `Lorem ipsum`', () => {
-      render(<About />);
+      render(
+        <NextIntlClientProvider locale="en" messages={messages}>
+          <About />
+        </NextIntlClientProvider>,
+      );
 
       const paragraph = screen.getAllByText(/Lorem ipsum/);
 
