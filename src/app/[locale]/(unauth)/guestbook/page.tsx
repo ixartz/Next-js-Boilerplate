@@ -22,6 +22,7 @@ export async function generateMetadata({
 
 const Guestbook = async () => {
   const guestbook = await db.select().from(guestbookTable).all();
+  const t = await getTranslations('Guestbook');
 
   return (
     <>
@@ -42,7 +43,7 @@ const Guestbook = async () => {
       </div>
 
       <div className="mt-2 text-center text-sm">
-        Database powered by{' '}
+        {`${t('database_powered_by')} `}
         <a
           href="https://turso.tech/?utm_source=nextjsstarterbp"
           target="_blank"

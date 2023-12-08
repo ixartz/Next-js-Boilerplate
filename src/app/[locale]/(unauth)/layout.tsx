@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { useTranslations } from 'next-intl';
 
 import LocaleSwitcher from '@/components/LocaleSwitcher';
 import { BaseTemplate } from '@/templates/BaseTemplate';
@@ -8,6 +9,8 @@ export default function Layout({
 }: {
   children: React.ReactNode;
 }) {
+  const t = useTranslations('RootLayout');
+
   return (
     <BaseTemplate
       leftNav={
@@ -17,7 +20,7 @@ export default function Layout({
               href="/"
               className="border-none text-gray-700 hover:text-gray-900"
             >
-              Home
+              {t('home_link')}
             </Link>
           </li>
           <li>
@@ -25,7 +28,7 @@ export default function Layout({
               href="/about/"
               className="border-none text-gray-700 hover:text-gray-900"
             >
-              About
+              {t('about_link')}
             </Link>
           </li>
           <li>
@@ -33,7 +36,7 @@ export default function Layout({
               href="/guestbook/"
               className="border-none text-gray-700 hover:text-gray-900"
             >
-              Guestbook
+              {t('guestbook_link')}
             </Link>
           </li>
           <li>
@@ -41,7 +44,7 @@ export default function Layout({
               href="/portfolio/"
               className="border-none text-gray-700 hover:text-gray-900"
             >
-              Portfolio
+              {t('portfolio_link')}
             </Link>
           </li>
           <li>
@@ -61,7 +64,7 @@ export default function Layout({
               href="/sign-in/"
               className="border-none text-gray-700 hover:text-gray-900"
             >
-              Sign in
+              {t('sign_in_link')}
             </Link>
           </li>
 
@@ -70,7 +73,7 @@ export default function Layout({
               href="/sign-up/"
               className="border-none text-gray-700 hover:text-gray-900"
             >
-              Sign up
+              {t('sign_up_link')}
             </Link>
           </li>
 

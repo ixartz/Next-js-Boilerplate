@@ -1,3 +1,4 @@
+import { useTranslations } from 'next-intl';
 import { getTranslations } from 'next-intl/server';
 
 type IPortfolioDetailProps = {
@@ -22,20 +23,16 @@ export async function generateMetadata(props: IPortfolioDetailProps) {
   };
 }
 
-const PortfolioDetail = (props: IPortfolioDetailProps) => (
-  <>
-    <h1 className="capitalize">Porfolio {props.params.slug}</h1>
-    <p>
-      Created a set of promotional materials and branding elements for a
-      corporate event. Crafted a visually unified theme, encompassing a logo,
-      posters, banners, and digital assets. Integrated the client&apos;s brand
-      identity while infusing it with a contemporary and innovative approach.
-      Garnered favorable responses from event attendees, resulting in a
-      successful event with heightened participant engagement and increased
-      brand visibility.
-    </p>
-  </>
-);
+const PortfolioDetail = (props: IPortfolioDetailProps) => {
+  const t = useTranslations('PortfolioSlug');
+
+  return (
+    <>
+      <h1 className="capitalize">{t('header', { slug: props.params.slug })}</h1>
+      <p>{t('content')}</p>
+    </>
+  );
+};
 
 export const dynamicParams = false;
 

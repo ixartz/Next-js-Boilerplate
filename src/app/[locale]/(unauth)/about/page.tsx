@@ -1,3 +1,4 @@
+import { useTranslations } from 'next-intl';
 import { getTranslations } from 'next-intl/server';
 
 export async function generateMetadata({
@@ -14,20 +15,12 @@ export async function generateMetadata({
 }
 
 export default function About() {
+  const t = useTranslations('About');
+
   return (
     <>
-      <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione fuga
-        recusandae quidem. Quaerat molestiae blanditiis doloremque possimus
-        labore voluptatibus distinctio recusandae autem esse explicabo molestias
-        officia placeat, accusamus aut saepe.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione fuga
-        recusandae quidem. Quaerat molestiae blanditiis doloremque possimus
-        labore voluptatibus distinctio recusandae autem esse explicabo molestias
-        officia placeat, accusamus aut saepe.
-      </p>
+      <p>{t('lorem_ipsum')}</p>
+      <p>{t('lorem_ipsum_2')}</p>
     </>
   );
 }

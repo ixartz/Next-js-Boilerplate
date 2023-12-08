@@ -6,7 +6,6 @@ const localePrefix: LocalePrefix = 'as-needed';
 export const AppConfig = {
   site_name: 'Starter',
   title: 'Nextjs Starter',
-  description: 'Starter code for your Nextjs Boilerplate with Tailwind CSS',
   locales: ['en', 'fr'],
   defaultLocale: 'en',
   localePrefix,
