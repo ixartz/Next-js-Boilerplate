@@ -1,10 +1,15 @@
 import '@/styles/global.css';
 
+import * as Spotlight from '@spotlightjs/spotlight';
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { NextIntlClientProvider, useMessages } from 'next-intl';
 
 import { AppConfig } from '@/utils/AppConfig';
+
+if (typeof window !== 'undefined' && process.env.NODE_ENV === 'development') {
+  Spotlight.init();
+}
 
 export const metadata: Metadata = {
   icons: [
