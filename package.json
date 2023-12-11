@@ -29,6 +29,7 @@
     "@clerk/nextjs": "^4.28.1",
     "@hookform/resolvers": "^3.3.2",
     "@libsql/client": "^0.3.6",
+    "@spotlightjs/spotlight": "^1.1.1",
     "@t3-oss/env-nextjs": "^0.7.1",
     "checkly": "^4.5.2",
     "drizzle-orm": "^0.29.1",
