@@ -1,3 +1,10 @@
+# [3.30.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.29.0...v3.30.0) (2023-12-12)
+
+
+### Features
+
+* add GitHub Actions to sync with Crowdin ([ccc86e9](https://github.com/ixartz/Next-js-Boilerplate/commit/ccc86e9e4df89dadd3214ae167972038f44108a6))
+
 # [3.29.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.28.0...v3.29.0) (2023-12-08)
 
 

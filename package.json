@@ -1,6 +1,6 @@
 {
   "name": "next-js-boilerplate",
-  "version": "3.29.0",
+  "version": "3.30.0",
   "scripts": {
     "dev": "next dev",
     "build": "npm run db:migrate && next build",
