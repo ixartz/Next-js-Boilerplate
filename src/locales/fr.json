@@ -13,7 +13,7 @@
   },
   "Index": {
     "meta_title": "Présentation de Next.js Boilerplate",
-    "meta_description": "Next js Boilerplate is the perfect starter code for your project. Build your React application with the Next.js framework."
+    "meta_description": "Next js Boilerplate est le code de démarrage parfait pour votre projet. Construisez votre application React avec le framework Next.js."
   },
   "Guestbook": {
     "meta_title": "Livre d'or",
@@ -34,14 +34,14 @@
   "Portfolio": {
     "meta_title": "Portfolio",
     "meta_description": "Bienvenue sur ma page portfolio!",
-    "presentation": "Bienvenue sur ma page portfolio! Vous trouverez ici une collection soigneusement organisée de mon travail et de mes réalisations. À travers ce portfolio, je mets en valeur mon expertise, ma créativité et la valeur que je peux apporter à vos projets.",
+    "presentation": "Bienvenue sur ma page portfolio ! Vous trouverez ici une collection soigneusement organisée de mon travail et de mes réalisations. À travers ce portfolio, je mets en valeur mon expertise, ma créativité et la valeur que je peux apporter à vos projets.",
     "portfolio_name": "Portfolio {name}"
   },
   "PortfolioSlug": {
     "meta_title": "Portfolio {slug}",
-    "meta_description": "Porfolio {slug} description",
+    "meta_description": "Description du Porfolio {slug}",
     "header": "Portfolio {slug}",
-    "content": "Created a set of promotional materials and branding elements for a corporate event. Crafted a visually unified theme, encompassing a logo, posters, banners, and digital assets. Integrated the client's brand identity while infusing it with a contemporary and innovative approach. Garnered favorable responses from event attendees, resulting in a successful event with heightened participant engagement and increased brand visibility."
+    "content": "Créé un ensemble de matériel promotionnel et d'éléments de marquage pour un événement d'entreprise. Conçu un thème visuellement unifié, englobant un logo, des affiches, des bannières et des actifs numériques. Intégrer l'identité de marque du client tout en l'insufflant à une approche contemporaine et innovante. Des réponses favorables de la part des participants ont été obtenues, ce qui a donné lieu à un événement réussi avec un engagement accru des participants et une meilleure visibilité de la marque."
   },
   "SignIn": {
     "meta_title": "Se connecter",
@@ -52,7 +52,7 @@
     "meta_description": "Créez un compte sans effort grâce à notre processus d'inscription intuitif."
   },
   "Dashboard": {
-    "meta_title": "Dashboard",
+    "meta_title": "Tableau de bord",
     "hello_message": "Bonjour {email}!"
   },
   "UserProfile": {
