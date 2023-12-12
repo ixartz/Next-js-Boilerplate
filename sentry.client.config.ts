@@ -8,8 +8,6 @@ import * as Spotlight from '@spotlightjs/spotlight';
 Sentry.init({
   // dsn: '___DSN___',
 
-  spotlight: process.env.NODE_ENV === 'development',
-
   // Adjust this value in production, or use tracesSampler for greater control
   tracesSampleRate: 1,
 
