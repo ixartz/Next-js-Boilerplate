@@ -28,7 +28,7 @@ const Sponsors = () => (
           <a href="https://l.crowdin.com/next-js">
             <Image
               src="https://support.crowdin.com/assets/logos/core-logo/svg/crowdin-core-logo-cDark.svg"
-              alt="PostHog"
+              alt="Crowdin"
               width={260}
               height={224}
             />

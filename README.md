@@ -200,7 +200,6 @@ turso db tokens create nextjs-boilerplate
 ```shell
 .
 ├── README.md                       # README file
-├── __checks__                      # Monitoring as Code, tests run periodically
 ├── __mocks__                       # Mocks for testing
 ├── .github                         # GitHub folder
 ├── .husky                          # Husky configuration
@@ -221,7 +220,7 @@ turso db tokens create nextjs-boilerplate
 │   ├── utils                       # Utilities folder
 │   └── validations                 # Validation schemas
 ├── tests
-│   ├── e2e                         # E2E tests
+│   ├── e2e                         # E2E tests, also includes Monitoring as Code
 │   └── integration                 # Integration tests
 ├── tailwind.config.js              # Tailwind CSS configuration
 └── tsconfig.json                   # TypeScript configuration

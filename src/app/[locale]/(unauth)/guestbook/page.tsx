@@ -57,8 +57,8 @@ const Guestbook = async () => {
           className="mx-auto mt-2"
           src="/assets/images/turso.png"
           alt="SQLite Developer Experience"
-          width={65}
-          height={56}
+          width={130}
+          height={112}
         />
       </a>
     </>
