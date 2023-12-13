@@ -34,8 +34,8 @@ test.describe('Sanity', () => {
       await expect(page).toHaveURL(/about$/);
 
       await expect(
-        page.getByText('Lorem ipsum dolor sit amet', { exact: false }),
-      ).toHaveCount(2);
+        page.getByText('Welcome to our About page', { exact: false }),
+      ).toBeVisible();
     });
 
     test('should navigate to the portfolio page', async ({ page }) => {
