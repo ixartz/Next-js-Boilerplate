@@ -195,6 +195,8 @@ turso db tokens create nextjs-boilerplate
 # DATABASE_AUTH_TOKEN=[your-auth-token]
 ```
 
+### Translation (i18n) setup
+
 ### Project structure
 
 ```shell
