@@ -195,12 +195,19 @@ turso db tokens create nextjs-boilerplate
 # DATABASE_AUTH_TOKEN=[your-auth-token]
 ```
 
+### Translation (i18n) setup
+
+For translation, the project uses `next-intl` combined with [Crowdin](https://l.crowdin.com/next-js). As a developer, you only need to take care of the English (or another default language) version. Other languages are automatically generated and handled by Crowdin. You can use Crowdin to collaborate with your translation team or translate the messages yourself with the help of machine translation.
+
+To set up translation (i18n), create an account at [Crowdin.com](https://l.crowdin.com/next-js) and create a new project. In the newly created project, you will able to find the project ID. You'll also require to create a new Personal Access Tokens by going to Account Settings > API. Then, in your GitHub Actions, you need to define the following environment variables `CROWDIN_PROJECT_ID` and `CROWDIN_PERSONAL_TOKEN`.
+
+After defining the environment variables in your GitHub Actions, your localization files will be synchronized with Crowdin everytime you push a new commit to the `main` branch.
+
 ### Project structure
 
 ```shell
 .
 ├── README.md                       # README file
-├── __checks__                      # Monitoring as Code, tests run periodically
 ├── __mocks__                       # Mocks for testing
 ├── .github                         # GitHub folder
 ├── .husky                          # Husky configuration
@@ -221,7 +228,7 @@ turso db tokens create nextjs-boilerplate
 │   ├── utils                       # Utilities folder
 │   └── validations                 # Validation schemas
 ├── tests
-│   ├── e2e                         # E2E tests
+│   ├── e2e                         # E2E tests, also includes Monitoring as Code
 │   └── integration                 # Integration tests
 ├── tailwind.config.js              # Tailwind CSS configuration
 └── tsconfig.json                   # TypeScript configuration

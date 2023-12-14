@@ -10,16 +10,16 @@ import About from './page';
 
 describe('About page', () => {
   describe('Render method', () => {
-    it('should have two paragraphs of `Lorem ipsum`', () => {
+    it('should have a text starting with `Welcome to our About page`', () => {
       render(
         <NextIntlClientProvider locale="en" messages={messages}>
           <About />
         </NextIntlClientProvider>,
       );
 
-      const paragraph = screen.getAllByText(/Lorem ipsum/);
+      const paragraph = screen.getByText(/Welcome to our About page/);
 
-      expect(paragraph).toHaveLength(2);
+      expect(paragraph).toBeInTheDocument();
     });
   });
 });
