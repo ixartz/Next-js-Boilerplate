@@ -28,8 +28,8 @@
   "About": {
     "meta_title": "A propos",
     "meta_description": "A propos description",
-    "lorem_ipsum": "FR - Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione fuga recusandae quidem. Quaerat molestiae blanditiis doloremque possimus labore voluptatibus distinctio recusandae autem esse explicabo molestias officia placeat, accusamus aut saepe.",
-    "lorem_ipsum_2": "FR - Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione fuga recusandae quidem. Quaerat molestiae blanditiis doloremque possimus labore voluptatibus distinctio recusandae autem esse explicabo molestias officia placeat, accusamus aut saepe."
+    "about_paragraph": "Bienvenue sur notre page À propos ! Nous sommes une équipe de passionnés et dévoués à la création de logiciels.",
+    "translation_powered_by": "Traduction propulsée par"
   },
   "Portfolio": {
     "meta_title": "Portfolio",
