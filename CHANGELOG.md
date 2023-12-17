@@ -1,3 +1,10 @@
+## [3.30.1](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.30.0...v3.30.1) (2023-12-17)
+
+
+### Bug Fixes
+
+* api routes not found after apply intl middleware ([4650a5e](https://github.com/ixartz/Next-js-Boilerplate/commit/4650a5e293716dee7704c6082839aaf94b63e7ad)), closes [#209](https://github.com/ixartz/Next-js-Boilerplate/issues/209)
+
 # [3.30.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.29.0...v3.30.0) (2023-12-12)
 
 
