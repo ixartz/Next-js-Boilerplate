@@ -1,6 +1,6 @@
 import { expect, test } from '@playwright/test';
 
-// Don't use the default user agent
+// Don't use the default user agent to avoid the requests to be blocked by Clerk middleware.
 test.use({ userAgent: '' });
 
 test.describe('Guestbook', () => {
