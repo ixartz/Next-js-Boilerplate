@@ -208,7 +208,6 @@ After defining the environment variables in your GitHub Actions, your localizati
 ```shell
 .
 ├── README.md                       # README file
-├── __mocks__                       # Mocks for testing
 ├── .github                         # GitHub folder
 ├── .husky                          # Husky configuration
 ├── .storybook                      # Storybook folder

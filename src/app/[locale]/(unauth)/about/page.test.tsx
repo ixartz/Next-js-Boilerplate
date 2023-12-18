@@ -5,9 +5,6 @@ import messages from '@/locales/en.json';
 
 import About from './page';
 
-// The easiest solution to mock `next/router`: https://github.com/vercel/next.js/issues/7479
-// The mock has been moved to `__mocks__` folder to avoid duplication
-
 describe('About page', () => {
   describe('Render method', () => {
     it('should have a text starting with `Welcome to our About page`', () => {
