@@ -6,13 +6,13 @@ import { useTranslations } from 'next-intl';
 import { useForm } from 'react-hook-form';
 import type { z } from 'zod';
 
-import { GuestbookSchema } from '@/validations/GuestbookValidation';
+import { GuestbookValidation } from '@/validations/GuestbookValidation';
 
 type IGuestbookFormProps =
   | {
       edit: true;
       id: number;
-      defaultValues: z.infer<typeof GuestbookSchema>;
+      defaultValues: z.infer<typeof GuestbookValidation>;
       handleStopEditing: () => void;
     }
   | { edit?: false };
@@ -24,8 +24,8 @@ const GuestbookForm = (props: IGuestbookFormProps) => {
     reset,
     setFocus,
     formState: { errors },
-  } = useForm<z.infer<typeof GuestbookSchema>>({
-    resolver: zodResolver(GuestbookSchema),
+  } = useForm<z.infer<typeof GuestbookValidation>>({
+    resolver: zodResolver(GuestbookValidation),
     defaultValues: props.edit ? props.defaultValues : undefined,
   });
   const router = useRouter();

@@ -1,7 +1,7 @@
 import { sql } from 'drizzle-orm';
 import { integer, sqliteTable, text } from 'drizzle-orm/sqlite-core';
 
-export const guestbookTable = sqliteTable('guestbook', {
+export const guestbookSchema = sqliteTable('guestbook', {
   id: integer('id').primaryKey(),
   username: text('username').notNull(),
   body: text('body').notNull(),
