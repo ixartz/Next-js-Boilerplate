@@ -3,19 +3,19 @@ import { NextResponse } from 'next/server';
 import { z } from 'zod';
 
 import { db } from '@/libs/DB';
-import { guestbookTable } from '@/models/Schema';
+import { guestbookSchema } from '@/models/Schema';
 import {
-  DeleteGuestbookSchema,
-  EditGuestbookSchema,
-  GuestbookSchema,
+  DeleteGuestbookValidation,
+  EditGuestbookValidation,
+  GuestbookValidation,
 } from '@/validations/GuestbookValidation';
 
 export const POST = async (request: Request) => {
   try {
     const json = await request.json();
-    const body = GuestbookSchema.parse(json);
+    const body = GuestbookValidation.parse(json);
 
-    const guestbook = await db.insert(guestbookTable).values(body).returning();
+    const guestbook = await db.insert(guestbookSchema).values(body).returning();
 
     return NextResponse.json({
       id: guestbook[0]?.id,
@@ -32,15 +32,15 @@ export const POST = async (request: Request) => {
 export const PUT = async (request: Request) => {
   try {
     const json = await request.json();
-    const body = EditGuestbookSchema.parse(json);
+    const body = EditGuestbookValidation.parse(json);
 
     await db
-      .update(guestbookTable)
+      .update(guestbookSchema)
       .set({
         ...body,
         updatedAt: sql`(strftime('%s', 'now'))`,
       })
-      .where(eq(guestbookTable.id, body.id))
+      .where(eq(guestbookSchema.id, body.id))
       .run();
 
     return NextResponse.json({});
@@ -56,9 +56,12 @@ export const PUT = async (request: Request) => {
 export const DELETE = async (request: Request) => {
   try {
     const json = await request.json();
-    const body = DeleteGuestbookSchema.parse(json);
+    const body = DeleteGuestbookValidation.parse(json);
 
-    await db.delete(guestbookTable).where(eq(guestbookTable.id, body.id)).run();
+    await db
+      .delete(guestbookSchema)
+      .where(eq(guestbookSchema.id, body.id))
+      .run();
 
     return NextResponse.json({});
   } catch (error) {

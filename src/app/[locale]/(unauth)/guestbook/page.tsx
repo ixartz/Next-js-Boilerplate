@@ -5,7 +5,7 @@ import { DeleteGuestbookEntry } from '@/components/DeleteGuestbookEntry';
 import { EditableGuestbookEntry } from '@/components/EditableGuestbookEntry';
 import { GuestbookForm } from '@/components/GuestbookForm';
 import { db } from '@/libs/DB';
-import { guestbookTable } from '@/models/Schema';
+import { guestbookSchema } from '@/models/Schema';
 
 export async function generateMetadata({
   params: { locale },
@@ -21,7 +21,7 @@ export async function generateMetadata({
 }
 
 const Guestbook = async () => {
-  const guestbook = await db.select().from(guestbookTable).all();
+  const guestbook = await db.select().from(guestbookSchema).all();
   const t = await getTranslations('Guestbook');
 
   return (

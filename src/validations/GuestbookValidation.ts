@@ -1,16 +1,16 @@
 import { z } from 'zod';
 
-export const GuestbookSchema = z.object({
+export const GuestbookValidation = z.object({
   username: z.string().min(1),
   body: z.string().min(1),
 });
 
-export const EditGuestbookSchema = z.object({
+export const EditGuestbookValidation = z.object({
   id: z.coerce.number(),
   username: z.string().min(1),
   body: z.string().min(1),
 });
 
-export const DeleteGuestbookSchema = z.object({
+export const DeleteGuestbookValidation = z.object({
   id: z.coerce.number(),
 });
