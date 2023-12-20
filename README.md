@@ -4,7 +4,7 @@
   <a href="https://creativedesignsguru.com/demo/Nextjs-Boilerplate/"><img height="300" src="public/assets/images/nextjs-starter-banner.png?raw=true" alt="Next js starter banner"></a>
 </p>
 
-🚀 Boilerplate and Starter for Next.js with App Router support, Tailwind CSS and TypeScript ⚡️ Made with developer experience first: Next.js, TypeScript, ESLint, Prettier, Husky, Lint-Staged, Jest, Testing Library, Commitlint, VSCode, Netlify, PostCSS, Tailwind CSS, Authentication with [Clerk](https://clerk.com?utm_source=github&utm_medium=sponsorship&utm_campaign=nextjs-boilerplate), Database with DrizzleORM (SQLite, PostgreSQL, and MySQL) and [Turso](https://turso.tech/?utm_source=nextjsstarterbp), Monitoring as Code with [Checkly](https://www.checklyhq.com), Storybook, Multi-language (i18n), and more
+🚀 Boilerplate and Starter for Next.js with App Router support, Tailwind CSS and TypeScript ⚡️ Made with developer experience first: Next.js, TypeScript, ESLint, Prettier, Husky, Lint-Staged, Jest, Testing Library, Commitlint, VSCode, Netlify, PostCSS, Tailwind CSS, Authentication with [Clerk](https://clerk.com?utm_source=github&utm_medium=sponsorship&utm_campaign=nextjs-boilerplate), Database with DrizzleORM (SQLite, PostgreSQL, and MySQL) and [Turso](https://turso.tech/?utm_source=nextjsstarterbp), Error Monitoring with [Sentry](https://sentry.io), Monitoring as Code with [Checkly](https://www.checklyhq.com), Storybook, Multi-language (i18n), and more
 
 Clone this project and use it to create your own [Next.js](https://nextjs.org) project. You can check a [Next js templates demo](https://creativedesignsguru.com/demo/Nextjs-Boilerplate/).
 
@@ -100,6 +100,7 @@ Developer experience first:
 - 🧪 Integration and E2E Testing with Playwright
 - 👷 Run tests on pull request with GitHub Actions
 - 🎉 Storybook for UI development
+- 🚨 Error Monitoring with [Sentry](https://sentry.io)
 - 🖥️ Monitoring as Code with [Checkly](https://www.checklyhq.com)
 - 🎁 Automatic changelog generation with Semantic Release
 - 🔍 Visual testing with Percy (Optional)
@@ -323,6 +324,12 @@ Clone this repository on own GitHub account and deploy to Netlify in one click:
 [![Netlify Deploy button](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/ixartz/Next-js-Boilerplate)
 
 During the setup, you need to define the `DATABASE_URL` and `DATABASE_AUTH_TOKEN` environment variables.
+
+### Error Monitoring
+
+The project uses [Sentry](https://sentry.io) to monitor errors. For development environment, you don't need to do anything: NextJS Boilerplate is already configured to use Sentry and Spotlight (Sentry for Development). All errors will be automatically sent to your local Spotlight instance. So, you can try the Sentry experience locally.
+
+For production environment, you need to create a Sentry account and create a new project. Then, in `next.config.mjs`, you need to update the `org` and `project` attribute in `withSentryConfig` function. You also need to add your Sentry DSN in `sentry.client.config.ts`, `sentry.edge.config.ts` and `sentry.server.config.ts`.
 
 ### Checkly monitoring
 
