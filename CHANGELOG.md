@@ -1,3 +1,15 @@
+# [3.31.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.30.1...v3.31.0) (2023-12-20)
+
+
+### Features
+
+* add FIXME tag for Sentry configuration ([2eceef1](https://github.com/ixartz/Next-js-Boilerplate/commit/2eceef14257232c89f625acfe475c1aa7f220e46))
+* add Sentry and launch spotlight.js in dev mode ([a1326ae](https://github.com/ixartz/Next-js-Boilerplate/commit/a1326aebb4ade33dc8a4429e749fb482ed906754))
+* add spotlight ([34086c1](https://github.com/ixartz/Next-js-Boilerplate/commit/34086c1b8636bdc391c31ceed062a1e858d81539))
+* enable Sentry Spotlight only in development mode ([62cc01a](https://github.com/ixartz/Next-js-Boilerplate/commit/62cc01ab2e1ae5594a4b91f931f313a904ff4b7d))
+* ignore technical exception throw by React RSC in Sentry ([4bf9503](https://github.com/ixartz/Next-js-Boilerplate/commit/4bf95038600a28ea3e98e84dabec4df5fd9af609))
+* in global error get locale in params and set in html lang attribute ([c3b4d25](https://github.com/ixartz/Next-js-Boilerplate/commit/c3b4d25d3be6a5ceed48f2d365bd14e44ff9b114))
+
 ## [3.30.1](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.30.0...v3.30.1) (2023-12-17)
 
 
