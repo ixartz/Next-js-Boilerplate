@@ -1,3 +1,10 @@
+# [3.32.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.31.0...v3.32.0) (2023-12-22)
+
+
+### Features
+
+* add code coverage reporting with Codecov ([08abd23](https://github.com/ixartz/Next-js-Boilerplate/commit/08abd23acbb5fb770046900901a367d60f18695e))
+
 # [3.31.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.30.1...v3.31.0) (2023-12-20)
 
 
