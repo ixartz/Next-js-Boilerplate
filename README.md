@@ -334,7 +334,7 @@ For production environment, you need to create a Sentry account and create a new
 
 ### Code coverage
 
-NextJS Boilerplate relies on [Codecov](https://codecov.io) for code coverage reporting solution. Create a Codecov account and connect it to your GitHub account. On your Codecov dashboard, it should display a list of your repositories. Select the repository you want to enable Codecov for and copy the token. Then, in your GitHub Actions, you need to define the `CODECOV_TOKEN` environment variable.
+NextJS Boilerplate relies on [Codecov](https://codecov.io) for code coverage reporting solution. Create a Codecov account and connect it to your GitHub account. On your Codecov dashboard, it should display a list of your repositories. Select the repository you want to enable Codecov for and copy the token. Then, in your GitHub Actions, you need to define the `CODECOV_TOKEN` environment variable and paste the token you copied.
 
 ### Checkly monitoring
 
