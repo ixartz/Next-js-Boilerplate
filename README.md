@@ -101,7 +101,7 @@ Developer experience first:
 - 👷 Run tests on pull request with GitHub Actions
 - 🎉 Storybook for UI development
 - 🚨 Error Monitoring with [Sentry](https://sentry.io)
-- ± Code coverage with Codecov
+- ☂️ Code coverage with Codecov
 - 🖥️ Monitoring as Code with [Checkly](https://www.checklyhq.com)
 - 🎁 Automatic changelog generation with Semantic Release
 - 🔍 Visual testing with Percy (Optional)
