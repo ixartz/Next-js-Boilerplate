@@ -101,6 +101,7 @@ Developer experience first:
 - 👷 Run tests on pull request with GitHub Actions
 - 🎉 Storybook for UI development
 - 🚨 Error Monitoring with [Sentry](https://sentry.io)
+- ☂️ Code coverage with [Codecov] (https://codecov.io)
 - 🖥️ Monitoring as Code with [Checkly](https://www.checklyhq.com)
 - 🎁 Automatic changelog generation with Semantic Release
 - 🔍 Visual testing with Percy (Optional)
@@ -330,6 +331,12 @@ During the setup, you need to define the `DATABASE_URL` and `DATABASE_AUTH_TOKEN
 The project uses [Sentry](https://sentry.io) to monitor errors. For development environment, you don't need to do anything: NextJS Boilerplate is already configured to use Sentry and Spotlight (Sentry for Development). All errors will be automatically sent to your local Spotlight instance. So, you can try the Sentry experience locally.
 
 For production environment, you need to create a Sentry account and create a new project. Then, in `next.config.mjs`, you need to update the `org` and `project` attribute in `withSentryConfig` function. You also need to add your Sentry DSN in `sentry.client.config.ts`, `sentry.edge.config.ts` and `sentry.server.config.ts`.
+
+### Code coverage
+
+NextJS Boilerplate relies on [Codecov](https://codecov.io) for code coverage reporting solution. To use Codecov, create a Codecov account and connect it to your GitHub account. On your Codecov dashboard, it should display a list of your repositories. Select the repository you want to enable Codecov for and copy the token. Then, in your GitHub Actions, you need to define the `CODECOV_TOKEN` environment variable and paste the token you copied.
+
+Be sure to create the `CODECOV_TOKEN` as a Github Actions secret, do not paste it directly into your source code.
 
 ### Checkly monitoring
 
