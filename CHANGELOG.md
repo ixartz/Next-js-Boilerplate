@@ -1,3 +1,10 @@
+## [3.32.1](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.32.0...v3.32.1) (2023-12-27)
+
+
+### Bug Fixes
+
+* typo in en.json file for Portfolio word ([4d42b3d](https://github.com/ixartz/Next-js-Boilerplate/commit/4d42b3d11feeb1134961c0c688a6659b5e88364e))
+
 # [3.32.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.31.0...v3.32.0) (2023-12-22)
 
 
