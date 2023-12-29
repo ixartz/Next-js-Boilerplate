@@ -77,7 +77,7 @@ Clone this project and use it to create your own [Next.js](https://nextjs.org) p
 
 ### Features
 
-Developer experience first:
+Developer experience first, extremely flexible code structure and only keep what you need:
 
 - ⚡ [Next.js](https://nextjs.org) with App Router support
 - 🔥 Type checking [TypeScript](https://www.typescriptlang.org)
@@ -345,6 +345,26 @@ The project uses [Checkly](https://www.checklyhq.com) to ensure that your produc
 To use Checkly, you must first create an account on [their website](https://www.checklyhq.com). Once you have an account, you can set the `CHECKLY_API_KEY` environment variable in GitHub Actions by generating a new API key in the Checkly Dashboard. Additionally, you will need to define the `CHECKLY_ACCOUNT_ID`, which can also be found in your Checkly Dashboard under User Settings > General.
 
 To complete the setup, make sure to update the `checkly.config.ts` file with your own email address and production URL.
+
+### Useful commands
+
+#### Bundle Analyzer
+
+NextJS Boilerplate comes with a built-in bundle analyzer. It can be used to analyze the size of your JavaScript bundles. To begin, run the following command:
+
+```shell
+npm run build-stats
+```
+
+By running the command, it'll automatically open a new browser window with the results.
+
+#### Database Studio
+
+The project is already configured with Drizzle Studio to explore the database. You can run the following command to open the database studio:
+
+```shell
+npm run db:studio
+```
 
 ### Known warnings
 
