@@ -366,6 +366,8 @@ The project is already configured with Drizzle Studio to explore the database. Y
 npm run db:studio
 ```
 
+Then, you can open https://local.drizzle.studio with your favorite browser to explore your database.
+
 ### Known warnings
 
 #### webpack.cache.PackFileCacheStrategy
