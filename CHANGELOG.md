@@ -1,3 +1,10 @@
+# [3.33.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.32.1...v3.33.0) (2024-01-03)
+
+
+### Features
+
+* enable SWC compiler in Storybook ([5b4c61e](https://github.com/ixartz/Next-js-Boilerplate/commit/5b4c61ea11164b6e5853cefe363d2d433cda374d))
+
 ## [3.32.1](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.32.0...v3.32.1) (2023-12-27)
 
 
