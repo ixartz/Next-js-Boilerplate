@@ -2,7 +2,7 @@
   "compilerOptions": {
     "lib": ["dom", "dom.iterable", "esnext"],
     "module": "esnext",
-    "moduleResolution": "node",
+    "moduleResolution": "bundler",
     "resolveJsonModule": true,
     "removeComments": true,
     "preserveConstEnums": true,
@@ -21,7 +21,6 @@
 
     "target": "es2017",
     "outDir": "out",
-    "declaration": true,
     "sourceMap": true,
 
     "esModuleInterop": true,
