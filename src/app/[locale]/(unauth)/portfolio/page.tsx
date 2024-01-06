@@ -42,6 +42,26 @@ const Portfolio = () => {
           </Link>
         ))}
       </div>
+
+      <div className="mt-5 text-center text-sm">
+        {`${t('monitoring_powered_by')} `}
+        <a
+          href="https://www.checklyhq.com/?utm_source=github&utm_medium=sponsorship&utm_campaign=next-js-boilerplate"
+          target="_blank"
+        >
+          Checkly
+        </a>
+      </div>
+
+      <a href="https://www.checklyhq.com/?utm_source=github&utm_medium=sponsorship&utm_campaign=next-js-boilerplate">
+        <Image
+          className="mx-auto mt-2"
+          src="/assets/images/checkly-logo-light.png"
+          alt="Checkly"
+          width={130}
+          height={112}
+        />
+      </a>
     </>
   );
 };
