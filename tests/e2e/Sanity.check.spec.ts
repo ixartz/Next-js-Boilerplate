@@ -44,7 +44,11 @@ test.describe('Sanity', () => {
       await page.getByRole('link', { name: 'Portfolio' }).click();
       await expect(page).toHaveURL(/portfolio$/);
 
-      await expect(page.locator('main').getByRole('link')).toHaveCount(6);
+      await expect(
+        page.locator('main').getByRole('link', {
+          name: /^Portfolio/,
+        }),
+      ).toHaveCount(6);
     });
   });
 });
