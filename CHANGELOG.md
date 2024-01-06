@@ -1,3 +1,14 @@
+# [3.34.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.33.0...v3.34.0) (2024-01-06)
+
+
+### Features
+
+* add type definition in Postcss config ([07906ff](https://github.com/ixartz/Next-js-Boilerplate/commit/07906ff20a7c8d2b0c24cc1f33c93b0bc541b9c3))
+* change commitlint config from JS to TS ([6509805](https://github.com/ixartz/Next-js-Boilerplate/commit/650980539eb16c4ef0f5d1ed3e833cdb08faaf86))
+* change jest config extension from js to TypeScript ([1cdea44](https://github.com/ixartz/Next-js-Boilerplate/commit/1cdea44c2a193e9df792dc997f6aa5304e043ff6))
+* change nodeResolution to the new bundler from TypeScript 5.0 ([59282a2](https://github.com/ixartz/Next-js-Boilerplate/commit/59282a2f028a10b841f4af42248e4ecd2c41c080))
+* convert Tailwind config file from JS to TS ([aff3b27](https://github.com/ixartz/Next-js-Boilerplate/commit/aff3b276c6b857570c3ec0b68de3cd5efaaeebbd))
+
 # [3.33.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.32.1...v3.33.0) (2024-01-03)
 
 
