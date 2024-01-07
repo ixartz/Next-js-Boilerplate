@@ -5,11 +5,7 @@ import LocaleSwitcher from '@/components/LocaleSwitcher';
 import { LogOutButton } from '@/components/LogOutButton';
 import { BaseTemplate } from '@/templates/BaseTemplate';
 
-export default function DashboardLayout({
-  children, // will be a page or nested layout
-}: {
-  children: React.ReactNode;
-}) {
+export default function DashboardLayout(props: { children: React.ReactNode }) {
   const t = useTranslations('DashboardLayout');
 
   return (
@@ -46,7 +42,7 @@ export default function DashboardLayout({
         </>
       }
     >
-      {children}
+      {props.children}
     </BaseTemplate>
   );
 }

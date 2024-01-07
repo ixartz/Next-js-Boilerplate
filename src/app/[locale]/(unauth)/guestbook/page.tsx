@@ -7,12 +7,11 @@ import { GuestbookForm } from '@/components/GuestbookForm';
 import { db } from '@/libs/DB';
 import { guestbookSchema } from '@/models/Schema';
 
-export async function generateMetadata({
-  params: { locale },
-}: {
-  params: { locale: string };
-}) {
-  const t = await getTranslations({ locale, namespace: 'Guestbook' });
+export async function generateMetadata(props: { params: { locale: string } }) {
+  const t = await getTranslations({
+    locale: props.params.locale,
+    namespace: 'Guestbook',
+  });
 
   return {
     title: t('meta_title'),
