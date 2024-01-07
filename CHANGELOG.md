@@ -1,3 +1,18 @@
+# [3.35.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.34.0...v3.35.0) (2024-01-07)
+
+
+### Features
+
+* automatically run migrate in DB instead of running in NPM scripts ([b202686](https://github.com/ixartz/Next-js-Boilerplate/commit/b202686687a41eb38cf92a0451f03b5f0a854a2d))
+* e2e tests run against next start with production code ([a57f724](https://github.com/ixartz/Next-js-Boilerplate/commit/a57f72402c459b75aec65472db7030557974643b))
+* jest fail on console error and warn ([2dd92f2](https://github.com/ixartz/Next-js-Boilerplate/commit/2dd92f2db19df25210f0aa6eb8b9c44136a16ab7))
+
+
+### Reverts
+
+* change related to running playwright with next start ([1a2d0b6](https://github.com/ixartz/Next-js-Boilerplate/commit/1a2d0b6473e6e7b4965c7df353d39645a8688273))
+* change related to running playwright with next start ([e9e0c17](https://github.com/ixartz/Next-js-Boilerplate/commit/e9e0c1790a8e76b51ee8a0b1012cc3492349bd1b))
+
 # [3.34.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.33.0...v3.34.0) (2024-01-06)
 
 
