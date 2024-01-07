@@ -295,8 +295,8 @@ For your information, the database migration is not compatible with the Edge run
 
 ```tsx
 if (process.env.NODE_ENV !== 'production') {
-   await migrate(db, { migrationsFolder: './migrations' });
- }
+  await migrate(db, { migrationsFolder: './migrations' });
+}
 ```
 
 After disabling it, you are required to run the migration manually with:
