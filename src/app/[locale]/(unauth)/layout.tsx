@@ -4,11 +4,7 @@ import { useTranslations } from 'next-intl';
 import LocaleSwitcher from '@/components/LocaleSwitcher';
 import { BaseTemplate } from '@/templates/BaseTemplate';
 
-export default function Layout({
-  children, // will be a page or nested layout
-}: {
-  children: React.ReactNode;
-}) {
+export default function Layout(props: { children: React.ReactNode }) {
   const t = useTranslations('RootLayout');
 
   return (
@@ -84,7 +80,7 @@ export default function Layout({
       }
     >
       <div className="py-5 text-xl [&_a:hover]:border-b-2 [&_a:hover]:border-blue-700 [&_a]:text-blue-700 [&_p]:my-6 [&_ul]:my-6">
-        {children}
+        {props.children}
       </div>
     </BaseTemplate>
   );

@@ -4,13 +4,11 @@ import { useState } from 'react';
 
 import { GuestbookForm } from './GuestbookForm';
 
-type IEditableGuestbookEntryProps = {
+const EditableGuestbookEntry = (props: {
   id: number;
   username: string;
   body: string;
-};
-
-const EditableGuestbookEntry = (props: IEditableGuestbookEntryProps) => {
+}) => {
   const [isEditing, setIsEditing] = useState(false);
 
   const handleEdit = () => {

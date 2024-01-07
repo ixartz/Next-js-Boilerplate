@@ -3,13 +3,11 @@ import { type ReactNode } from 'react';
 
 import { AppConfig } from '@/utils/AppConfig';
 
-type IBaseTemplateProps = {
+const BaseTemplate = (props: {
   leftNav: ReactNode;
   rightNav?: ReactNode;
   children: ReactNode;
-};
-
-const BaseTemplate = (props: IBaseTemplateProps) => {
+}) => {
   const t = useTranslations('BaseTemplate');
 
   return (

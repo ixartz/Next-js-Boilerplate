@@ -31,26 +31,24 @@ export const metadata: Metadata = {
   ],
 };
 
-export default function RootLayout({
-  // Layouts must accept a children prop.
-  // This will be populated with nested layouts or pages
-  children,
-  params: { locale },
-}: {
+export default function RootLayout(props: {
   children: React.ReactNode;
   params: { locale: string };
 }) {
   // Validate that the incoming `locale` parameter is valid
-  if (!AppConfig.locales.includes(locale)) notFound();
+  if (!AppConfig.locales.includes(props.params.locale)) notFound();
 
   // Using internationalization in Client Components
   const messages = useMessages();
 
   return (
-    <html lang={locale}>
+    <html lang={props.params.locale}>
       <body>
-        <NextIntlClientProvider locale={locale} messages={messages}>
-          {children}
+        <NextIntlClientProvider
+          locale={props.params.locale}
+          messages={messages}
+        >
+          {props.children}
         </NextIntlClientProvider>
       </body>
     </html>

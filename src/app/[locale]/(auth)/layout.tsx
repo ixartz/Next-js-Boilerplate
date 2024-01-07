@@ -1,10 +1,7 @@
 import { enUS, frFR } from '@clerk/localizations';
 import { ClerkProvider } from '@clerk/nextjs';
 
-export default function AuthLayout({
-  children, // will be a page or nested layout
-  params: { locale },
-}: {
+export default function AuthLayout(props: {
   children: React.ReactNode;
   params: { locale: string };
 }) {
@@ -13,14 +10,14 @@ export default function AuthLayout({
   let signUpUrl = '/sign-up';
   let dashboardUrl = '/dashboard';
 
-  if (locale === 'fr') {
+  if (props.params.locale === 'fr') {
     clerkLocale = frFR;
   }
 
-  if (locale !== 'en') {
-    signInUrl = `/${locale}${signInUrl}`;
-    signUpUrl = `/${locale}${signUpUrl}`;
-    dashboardUrl = `/${locale}${dashboardUrl}`;
+  if (props.params.locale !== 'en') {
+    signInUrl = `/${props.params.locale}${signInUrl}`;
+    signUpUrl = `/${props.params.locale}${signUpUrl}`;
+    dashboardUrl = `/${props.params.locale}${dashboardUrl}`;
   }
 
   return (
@@ -31,7 +28,7 @@ export default function AuthLayout({
       afterSignInUrl={dashboardUrl}
       afterSignUpUrl={dashboardUrl}
     >
-      {children}
+      {props.children}
     </ClerkProvider>
   );
 }

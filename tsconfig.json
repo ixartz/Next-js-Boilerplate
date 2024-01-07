@@ -35,11 +35,14 @@
     "isolatedModules": true,
     "incremental": true,
 
+    // Path aliases
     "baseUrl": ".",
     "paths": {
       "@/*": ["./src/*"],
       "@/public/*": ["./public/*"]
     },
+
+    // Editor support
     "plugins": [
       {
         "name": "next"

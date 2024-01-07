@@ -1,12 +1,11 @@
 import { SignUp } from '@clerk/nextjs';
 import { getTranslations } from 'next-intl/server';
 
-export async function generateMetadata({
-  params: { locale },
-}: {
-  params: { locale: string };
-}) {
-  const t = await getTranslations({ locale, namespace: 'SignUp' });
+export async function generateMetadata(props: { params: { locale: string } }) {
+  const t = await getTranslations({
+    locale: props.params.locale,
+    namespace: 'SignUp',
+  });
 
   return {
     title: t('meta_title'),
