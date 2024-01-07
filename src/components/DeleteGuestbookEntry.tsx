@@ -2,11 +2,7 @@
 
 import { useRouter } from 'next/navigation';
 
-type IDeleteGuestbookEntryProps = {
-  id: number;
-};
-
-const DeleteGuestbookEntry = (props: IDeleteGuestbookEntryProps) => {
+const DeleteGuestbookEntry = (props: { id: number }) => {
   const router = useRouter();
 
   const handleDelete = async () => {
