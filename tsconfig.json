@@ -40,6 +40,8 @@
       "@/*": ["./src/*"],
       "@/public/*": ["./public/*"]
     },
+
+    // Editor support
     "plugins": [
       {
         "name": "next"
