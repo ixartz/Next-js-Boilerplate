@@ -29,7 +29,7 @@ test.describe('Guestbook', () => {
       await guestbookList.getByText('Username').fill(updatedUsername);
       await guestbookList.getByRole('button', { name: 'Save' }).click();
 
-      // Verify update
+      // Verify after update
       await expect(guestbookList.getByText(updatedUsername)).toBeVisible();
 
       // Delete
