@@ -22,7 +22,6 @@ const GuestbookForm = (props: IGuestbookFormProps) => {
     handleSubmit,
     register,
     reset,
-    setFocus,
     formState: { errors },
   } = useForm<z.infer<typeof GuestbookValidation>>({
     resolver: zodResolver(GuestbookValidation),
@@ -54,7 +53,6 @@ const GuestbookForm = (props: IGuestbookFormProps) => {
         body: JSON.stringify(data),
       });
 
-      setFocus('username');
       reset();
     }
 
