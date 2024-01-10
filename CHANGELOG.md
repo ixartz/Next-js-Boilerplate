@@ -1,3 +1,16 @@
+# [3.36.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.35.0...v3.36.0) (2024-01-10)
+
+
+### Features
+
+* prod environement use the same method to migrate ([f6cfe7f](https://github.com/ixartz/Next-js-Boilerplate/commit/f6cfe7fa7583621c9161aa478f1d958d5c93c083))
+
+
+### Reverts
+
+* add back process.env.NODE_ENV check in README file for migrate ([853f3dc](https://github.com/ixartz/Next-js-Boilerplate/commit/853f3dc4cbade618902b382023fe6a6a8e947082))
+* only run migration in development, if it run in production, it also run during the build ([c94a600](https://github.com/ixartz/Next-js-Boilerplate/commit/c94a6007b20f71fe10b10c76a05659364ee920ff))
+
 # [3.35.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.34.0...v3.35.0) (2024-01-07)
 
 
