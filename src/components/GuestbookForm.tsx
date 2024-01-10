@@ -22,7 +22,6 @@ const GuestbookForm = (props: IGuestbookFormProps) => {
     handleSubmit,
     register,
     reset,
-    setFocus,
     formState: { errors },
   } = useForm<z.infer<typeof GuestbookValidation>>({
     resolver: zodResolver(GuestbookValidation),
@@ -54,7 +53,6 @@ const GuestbookForm = (props: IGuestbookFormProps) => {
         body: JSON.stringify(data),
       });
 
-      setFocus('username');
       reset();
     }
 
@@ -64,10 +62,13 @@ const GuestbookForm = (props: IGuestbookFormProps) => {
   return (
     <form onSubmit={handleCreate}>
       <div>
-        <label className="text-sm font-bold text-gray-700" htmlFor="username">
+        <label
+          className="text-sm font-bold text-gray-700"
+          htmlFor={`username${props.edit ? `-${props.id}` : ''}`}
+        >
           {t('username')}
           <input
-            id="username"
+            id={`username${props.edit ? `-${props.id}` : ''}`}
             className="mt-2 w-full appearance-none rounded border px-3 py-2 leading-tight text-gray-700 focus:outline-none focus:ring focus:ring-blue-300/50"
             {...register('username')}
           />
@@ -80,10 +81,13 @@ const GuestbookForm = (props: IGuestbookFormProps) => {
       </div>
 
       <div className="mt-3">
-        <label className="text-sm font-bold text-gray-700" htmlFor="body">
+        <label
+          className="text-sm font-bold text-gray-700"
+          htmlFor={`body${props.edit ? `-${props.id}` : ''}`}
+        >
           {t('body')}
           <input
-            id="body"
+            id={`body${props.edit ? `-${props.id}` : ''}`}
             className="mt-2 w-full appearance-none rounded border px-3 py-2 leading-tight text-gray-700 focus:outline-none focus:ring focus:ring-blue-300/50"
             {...register('body')}
           />

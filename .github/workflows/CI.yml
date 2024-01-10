@@ -24,7 +24,7 @@ jobs:
           node-version: ${{ matrix.node-version }}
           cache: "npm"
       - run: npm ci
-      - run: npx next build
+      - run: npm run build
 
   test:
     strategy:
@@ -44,6 +44,9 @@ jobs:
           node-version: ${{ matrix.node-version }}
           cache: "npm"
       - run: npm ci
+
+      - name: Build Next.js for E2E tests
+        run: npm run build
 
       - if: github.event_name == 'pull_request'
         name: Validate all commits from PR
