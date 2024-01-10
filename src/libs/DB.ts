@@ -12,4 +12,6 @@ const client = createClient({
 export const db = drizzle(client);
 
 // Disable migrate function if using Edge runtime and use `npm run db:migrate` instead
-await migrate(db, { migrationsFolder: './migrations' });
+if (process.env.NODE_ENV !== 'production') {
+  await migrate(db, { migrationsFolder: './migrations' });
+}
