@@ -13,6 +13,6 @@ export async function generateMetadata(props: { params: { locale: string } }) {
   };
 }
 
-const SignInPage = () => <SignIn />;
+const SignInPage = () => <SignIn path="/sign-in" />;
 
 export default SignInPage;

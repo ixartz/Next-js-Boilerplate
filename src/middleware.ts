@@ -1,5 +1,8 @@
-import { authMiddleware, redirectToSignIn } from '@clerk/nextjs';
-import type { NextRequest } from 'next/server';
+import {
+  clerkMiddleware,
+  experimental_createRouteMatcher,
+  redirectToSignIn,
+} from '@clerk/nextjs/server';
 import createMiddleware from 'next-intl/middleware';
 
 import { AppConfig } from './utils/AppConfig';
@@ -10,23 +13,18 @@ const intlMiddleware = createMiddleware({
   defaultLocale: AppConfig.defaultLocale,
 });
 
-export default authMiddleware({
-  publicRoutes: (req: NextRequest) =>
-    !req.nextUrl.pathname.includes('/dashboard'),
-
-  beforeAuth: (req) => {
-    // Execute next-intl middleware before Clerk's auth middleware
-    return intlMiddleware(req);
-  },
-
-  // eslint-disable-next-line consistent-return
-  afterAuth(auth, req) {
-    // Handle users who aren't authenticated
-    if (!auth.userId && !auth.isPublicRoute) {
+export default clerkMiddleware(
+  (auth, req) => {
+    const isProtectedRoute = experimental_createRouteMatcher([
+      'dashboard/(.*)',
+    ]);
+    if (!auth().userId && isProtectedRoute(req)) {
       return redirectToSignIn({ returnBackUrl: req.url });
     }
+    return intlMiddleware(req);
   },
-});
+  { debug: true },
+);
 
 export const config = {
   matcher: ['/((?!.+\\.[\\w]+$|_next).*)', '/', '/(api|trpc)(.*)'],
