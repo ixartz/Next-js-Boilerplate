@@ -28,7 +28,7 @@
   },
   "dependencies": {
     "@clerk/localizations": "^1.26.13",
-    "@clerk/nextjs": "^4.29.1",
+    "@clerk/nextjs": "^5.0.0-beta-v5.20",
     "@hookform/resolvers": "^3.3.3",
     "@libsql/client": "^0.3.6",
     "@sentry/nextjs": "^7.91.0",
@@ -105,7 +105,7 @@
     "lint-staged": "^15.2.0",
     "npm-run-all": "^4.1.5",
     "postcss": "^8.4.32",
-    "prettier": "^3.1.1",
+    "prettier": "^3.2.4",
     "rimraf": "^5.0.5",
     "semantic-release": "^22.0.12",
     "start-server-and-test": "^2.0.3",
