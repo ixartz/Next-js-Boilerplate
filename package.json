@@ -28,7 +28,7 @@
   },
   "dependencies": {
     "@clerk/localizations": "^1.26.13",
-    "@clerk/nextjs": "^4.29.1",
+    "@clerk/nextjs": "5.0.0-alpha-v5.17",
     "@hookform/resolvers": "^3.3.3",
     "@libsql/client": "^0.3.6",
     "@sentry/nextjs": "^7.91.0",
