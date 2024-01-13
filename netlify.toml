@@ -1,3 +1,9 @@
 [build]
   command = "npm run build"
   publish = ".next"
+
+[template.environment]
+  DATABASE_URL = "Database URL, e.g. Turso Database URL"
+  DATABASE_AUTH_TOKEN = "Database Credentials"
+  NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY = "Clerk Publishable Key"
+  CLERK_SECRET_KEY = "Clerk Secret Key"
