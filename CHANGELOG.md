@@ -1,3 +1,10 @@
+# [3.37.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.36.0...v3.37.0) (2024-01-13)
+
+
+### Features
+
+* add environment variables for one click deploy Netlify ([5becdbf](https://github.com/ixartz/Next-js-Boilerplate/commit/5becdbf59f43fdfe893c5b7b62cac1246787a07e))
+
 # [3.36.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.35.0...v3.36.0) (2024-01-10)
 
 
