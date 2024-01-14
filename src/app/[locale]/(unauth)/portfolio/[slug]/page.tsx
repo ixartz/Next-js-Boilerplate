@@ -5,7 +5,7 @@ type IPortfolioDetailProps = {
   params: { slug: string; locale: string };
 };
 
-export async function generateStaticParams() {
+export function generateStaticParams() {
   return Array.from(Array(6).keys()).map((elt) => ({
     slug: `${elt}`,
   }));
