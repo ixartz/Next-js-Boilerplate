@@ -1,11 +1,11 @@
 'use client';
 
 import { zodResolver } from '@hookform/resolvers/zod';
-import { useRouter } from 'next/navigation';
 import { useTranslations } from 'next-intl';
 import { useForm } from 'react-hook-form';
 import type { z } from 'zod';
 
+import { createGuestbook, updateGuestbook } from '@/actions/GuestbookAction';
 import { GuestbookValidation } from '@/validations/GuestbookValidation';
 
 type IGuestbookFormProps =
@@ -19,7 +19,6 @@ type IGuestbookFormProps =
 
 const GuestbookForm = (props: IGuestbookFormProps) => {
   const {
-    handleSubmit,
     register,
     reset,
     formState: { errors },
@@ -27,40 +26,22 @@ const GuestbookForm = (props: IGuestbookFormProps) => {
     resolver: zodResolver(GuestbookValidation),
     defaultValues: props.edit ? props.defaultValues : undefined,
   });
-  const router = useRouter();
   const t = useTranslations('GuestbookForm');
 
-  const handleCreate = handleSubmit(async (data) => {
-    if (props.edit) {
-      await fetch(`/api/guestbook`, {
-        method: 'PUT',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
-          id: props.id,
-          ...data,
-        }),
-      });
-
-      props.handleStopEditing();
-    } else {
-      await fetch(`/api/guestbook`, {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(data),
-      });
-
-      reset();
-    }
-
-    router.refresh();
-  });
-
   return (
-    <form onSubmit={handleCreate}>
+    <form
+      action={async (formData) => {
+        if (props.edit) {
+          await updateGuestbook(props.id, formData);
+
+          props.handleStopEditing();
+        } else {
+          await createGuestbook(formData);
+        }
+
+        reset();
+      }}
+    >
       <div>
         <label
           className="text-sm font-bold text-gray-700"

@@ -4,7 +4,7 @@ import { getTranslations } from 'next-intl/server';
 import { DeleteGuestbookEntry } from '@/components/DeleteGuestbookEntry';
 import { EditableGuestbookEntry } from '@/components/EditableGuestbookEntry';
 import { GuestbookForm } from '@/components/GuestbookForm';
-import { db } from '@/libs/DB';
+import { getDb } from '@/libs/getDB';
 import { guestbookSchema } from '@/models/Schema';
 
 export async function generateMetadata(props: { params: { locale: string } }) {
@@ -20,7 +20,7 @@ export async function generateMetadata(props: { params: { locale: string } }) {
 }
 
 const Guestbook = async () => {
-  const guestbook = await db.select().from(guestbookSchema).all();
+  const guestbook = await (await getDb()).select().from(guestbookSchema).all();
   const t = await getTranslations('Guestbook');
 
   return (
