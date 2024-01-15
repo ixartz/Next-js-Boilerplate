@@ -18,7 +18,8 @@
   "Guestbook": {
     "meta_title": "Guestbook",
     "meta_description": "An example of CRUD operation",
-    "database_powered_by": "Database powered by"
+    "database_powered_by": "Database powered by",
+    "loading_guestbook": "Loading guestbook..."
   },
   "GuestbookForm": {
     "username": "Username",

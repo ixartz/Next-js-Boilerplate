@@ -1,11 +1,10 @@
 import Image from 'next/image';
+import { useTranslations } from 'next-intl';
 import { getTranslations } from 'next-intl/server';
+import { Suspense } from 'react';
 
-import { DeleteGuestbookEntry } from '@/components/DeleteGuestbookEntry';
-import { EditableGuestbookEntry } from '@/components/EditableGuestbookEntry';
 import { GuestbookForm } from '@/components/GuestbookForm';
-import { db } from '@/libs/DB';
-import { guestbookSchema } from '@/models/Schema';
+import { GuestbookList } from '@/components/GuestbookList';
 
 export async function generateMetadata(props: { params: { locale: string } }) {
   const t = await getTranslations({
@@ -19,27 +18,16 @@ export async function generateMetadata(props: { params: { locale: string } }) {
   };
 }
 
-const Guestbook = async () => {
-  const guestbook = await db.select().from(guestbookSchema).all();
-  const t = await getTranslations('Guestbook');
+const Guestbook = () => {
+  const t = useTranslations('Guestbook');
 
   return (
     <>
       <GuestbookForm />
 
-      <div className="mt-5" data-testid="guestbook-list">
-        {guestbook.map((elt) => (
-          <div key={elt.id} className="mb-1 flex items-center gap-x-1">
-            <DeleteGuestbookEntry id={elt.id} />
-
-            <EditableGuestbookEntry
-              id={elt.id}
-              username={elt.username}
-              body={elt.body}
-            />
-          </div>
-        ))}
-      </div>
+      <Suspense fallback={<p>{t('loading_guestbook')}</p>}>
+        <GuestbookList />
+      </Suspense>
 
       <div className="mt-2 text-center text-sm">
         {`${t('database_powered_by')} `}
