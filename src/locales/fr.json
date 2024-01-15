@@ -18,7 +18,8 @@
   "Guestbook": {
     "meta_title": "Livre d'or",
     "meta_description": "Un exemple de fonctionnement CRUD",
-    "database_powered_by": "Base de données propulsée par"
+    "database_powered_by": "Base de données propulsée par",
+    "loading_guestbook": "Chargement du livre d'or..."
   },
   "GuestbookForm": {
     "username": "Nom d'utilisateur",
