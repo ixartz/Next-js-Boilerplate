@@ -28,7 +28,7 @@ const DeleteGuestbookEntry = (props: { id: number }) => {
       }}
     >
       <svg
-        className="h-6 w-6 stroke-current"
+        className="size-6 stroke-current"
         fill="none"
         strokeLinecap="round"
         strokeLinejoin="round"
