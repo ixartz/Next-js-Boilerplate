@@ -40,7 +40,7 @@ export default withSentryConfig(
     silent: true,
     // FIXME: Add your Sentry organization and project names
     org: 'nextjs-boilerplate-org',
-    project: 'nextjs-boilerplate-project',
+    project: 'nextjs-boilerplate',
   },
   {
     // For all available options, see:
