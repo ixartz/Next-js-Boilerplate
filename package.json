@@ -29,6 +29,7 @@
   "dependencies": {
     "@clerk/localizations": "^1.26.13",
     "@clerk/nextjs": "^4.29.3",
+    "@hono/zod-validator": "^0.1.11",
     "@hookform/resolvers": "^3.3.4",
     "@libsql/client": "^0.3.6",
     "@sentry/nextjs": "^7.93.0",
@@ -36,6 +37,7 @@
     "@t3-oss/env-nextjs": "^0.7.3",
     "checkly": "^4.5.2",
     "drizzle-orm": "^0.29.3",
+    "hono": "^3.12.5",
     "next": "^14.0.4",
     "next-intl": "^3.4.2",
     "next-sitemap": "^4.2.3",
@@ -43,6 +45,7 @@
     "react-dom": "^18.2.0",
     "react-hook-form": "^7.49.3",
     "sharp": "^0.33.2",
+    "swr": "^2.2.4",
     "zod": "^3.22.4"
   },
   "devDependencies": {
