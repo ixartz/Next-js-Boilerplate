@@ -76,7 +76,7 @@
     "cross-env": "^7.0.3",
     "cssnano": "^6.0.3",
     "dotenv-cli": "^7.3.0",
-    "drizzle-kit": "^0.20.13",
+    "drizzle-kit": "^0.20.11",
     "encoding": "^0.1.13",
     "eslint": "^8.56.0",
     "eslint-config-airbnb": "^19.0.4",
