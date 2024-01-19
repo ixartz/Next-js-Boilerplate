@@ -1,3 +1,10 @@
+# [3.38.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.37.0...v3.38.0) (2024-01-19)
+
+
+### Features
+
+* update to Next.js 14.1 ([5dab52d](https://github.com/ixartz/Next-js-Boilerplate/commit/5dab52d58648a12b5779f04d642ad4b2010931b0))
+
 # [3.37.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.36.0...v3.37.0) (2024-01-13)
 
 
