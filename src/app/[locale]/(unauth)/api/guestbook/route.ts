@@ -2,6 +2,7 @@ import { eq, sql } from 'drizzle-orm';
 import { NextResponse } from 'next/server';
 
 import { db } from '@/libs/DB';
+import { logger } from '@/libs/Logger';
 import { guestbookSchema } from '@/models/Schema';
 import {
   DeleteGuestbookValidation,
@@ -17,14 +18,22 @@ export const POST = async (request: Request) => {
     return NextResponse.json(parse.error.format(), { status: 422 });
   }
 
-  const guestbook = await db
-    .insert(guestbookSchema)
-    .values(parse.data)
-    .returning();
+  try {
+    const guestbook = await db
+      .insert(guestbookSchema)
+      .values(parse.data)
+      .returning();
 
-  return NextResponse.json({
-    id: guestbook[0]?.id,
-  });
+    logger.info('A new guestbook has been created');
+
+    return NextResponse.json({
+      id: guestbook[0]?.id,
+    });
+  } catch (error) {
+    logger.error(error, 'An error occurred while creating a guestbook');
+
+    return NextResponse.json({}, { status: 500 });
+  }
 };
 
 export const PUT = async (request: Request) => {
@@ -35,16 +44,24 @@ export const PUT = async (request: Request) => {
     return NextResponse.json(parse.error.format(), { status: 422 });
   }
 
-  await db
-    .update(guestbookSchema)
-    .set({
-      ...parse.data,
-      updatedAt: sql`(strftime('%s', 'now'))`,
-    })
-    .where(eq(guestbookSchema.id, parse.data.id))
-    .run();
+  try {
+    await db
+      .update(guestbookSchema)
+      .set({
+        ...parse.data,
+        updatedAt: sql`(strftime('%s', 'now'))`,
+      })
+      .where(eq(guestbookSchema.id, parse.data.id))
+      .run();
 
-  return NextResponse.json({});
+    logger.info('A guestbook entry has been updated');
+
+    return NextResponse.json({});
+  } catch (error) {
+    logger.error(error, 'An error occurred while updating a guestbook');
+
+    return NextResponse.json({}, { status: 500 });
+  }
 };
 
 export const DELETE = async (request: Request) => {
@@ -55,10 +72,18 @@ export const DELETE = async (request: Request) => {
     return NextResponse.json(parse.error.format(), { status: 422 });
   }
 
-  await db
-    .delete(guestbookSchema)
-    .where(eq(guestbookSchema.id, parse.data.id))
-    .run();
+  try {
+    await db
+      .delete(guestbookSchema)
+      .where(eq(guestbookSchema.id, parse.data.id))
+      .run();
 
-  return NextResponse.json({});
+    logger.info('A guestbook entry has been deleted');
+
+    return NextResponse.json({});
+  } catch (error) {
+    logger.error(error, 'An error occurred while deleting a guestbook');
+
+    return NextResponse.json({}, { status: 500 });
+  }
 };
