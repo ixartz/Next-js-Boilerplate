@@ -1,6 +1,5 @@
 import { eq, sql } from 'drizzle-orm';
 import { NextResponse } from 'next/server';
-import { z } from 'zod';
 
 import { db } from '@/libs/DB';
 import { guestbookSchema } from '@/models/Schema';
@@ -11,64 +10,55 @@ import {
 } from '@/validations/GuestbookValidation';
 
 export const POST = async (request: Request) => {
-  try {
-    const json = await request.json();
-    const body = GuestbookValidation.parse(json);
+  const json = await request.json();
+  const parse = GuestbookValidation.safeParse(json);
 
-    const guestbook = await db.insert(guestbookSchema).values(body).returning();
-
-    return NextResponse.json({
-      id: guestbook[0]?.id,
-    });
-  } catch (error) {
-    if (error instanceof z.ZodError) {
-      return NextResponse.json(error.format(), { status: 422 });
-    }
-
-    return NextResponse.json({}, { status: 500 });
+  if (!parse.success) {
+    return NextResponse.json(parse.error.format(), { status: 422 });
   }
+
+  const guestbook = await db
+    .insert(guestbookSchema)
+    .values(parse.data)
+    .returning();
+
+  return NextResponse.json({
+    id: guestbook[0]?.id,
+  });
 };
 
 export const PUT = async (request: Request) => {
-  try {
-    const json = await request.json();
-    const body = EditGuestbookValidation.parse(json);
+  const json = await request.json();
+  const parse = EditGuestbookValidation.safeParse(json);
 
-    await db
-      .update(guestbookSchema)
-      .set({
-        ...body,
-        updatedAt: sql`(strftime('%s', 'now'))`,
-      })
-      .where(eq(guestbookSchema.id, body.id))
-      .run();
-
-    return NextResponse.json({});
-  } catch (error) {
-    if (error instanceof z.ZodError) {
-      return NextResponse.json(error.format(), { status: 422 });
-    }
-
-    return NextResponse.json({}, { status: 500 });
+  if (!parse.success) {
+    return NextResponse.json(parse.error.format(), { status: 422 });
   }
+
+  await db
+    .update(guestbookSchema)
+    .set({
+      ...parse.data,
+      updatedAt: sql`(strftime('%s', 'now'))`,
+    })
+    .where(eq(guestbookSchema.id, parse.data.id))
+    .run();
+
+  return NextResponse.json({});
 };
 
 export const DELETE = async (request: Request) => {
-  try {
-    const json = await request.json();
-    const body = DeleteGuestbookValidation.parse(json);
+  const json = await request.json();
+  const parse = DeleteGuestbookValidation.safeParse(json);
 
-    await db
-      .delete(guestbookSchema)
-      .where(eq(guestbookSchema.id, body.id))
-      .run();
-
-    return NextResponse.json({});
-  } catch (error) {
-    if (error instanceof z.ZodError) {
-      return NextResponse.json(error.format(), { status: 422 });
-    }
-
-    return NextResponse.json({}, { status: 500 });
+  if (!parse.success) {
+    return NextResponse.json(parse.error.format(), { status: 422 });
   }
+
+  await db
+    .delete(guestbookSchema)
+    .where(eq(guestbookSchema.id, parse.data.id))
+    .run();
+
+  return NextResponse.json({});
 };
