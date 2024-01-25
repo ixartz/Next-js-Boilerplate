@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 import { getTranslations } from 'next-intl/server';
 
@@ -30,6 +31,33 @@ const PortfolioDetail = (props: IPortfolioDetailProps) => {
     <>
       <h1 className="capitalize">{t('header', { slug: props.params.slug })}</h1>
       <p>{t('content')}</p>
+
+      <div className="mt-5 text-center text-sm">
+        {`${t('error_reporting_powered_by')} `}
+        <a
+          href="https://sentry.io/for/nextjs/?utm_source=github&utm_medium=paid-community&utm_campaign=general-fy25q1-nextjs&utm_content=github-banner-nextjsboilerplate-logo"
+          target="_blank"
+        >
+          Sentry
+        </a>{' '}
+        - {`${t('coverage_powered_by')} `}
+        <a
+          href="https://about.codecov.io/codecov-free-trial/?utm_source=github&utm_medium=paid-community&utm_campaign=general-fy25q1-nextjs&utm_content=github-banner-nextjsboilerplate-logo"
+          target="_blank"
+        >
+          Codecov
+        </a>
+      </div>
+
+      <a href="https://sentry.io/for/nextjs/?utm_source=github&utm_medium=paid-community&utm_campaign=general-fy25q1-nextjs&utm_content=github-banner-nextjsboilerplate-logo">
+        <Image
+          className="mx-auto mt-2"
+          src="/assets/images/sentry-dark.png"
+          alt="Sentry"
+          width={130}
+          height={112}
+        />
+      </a>
     </>
   );
 };
