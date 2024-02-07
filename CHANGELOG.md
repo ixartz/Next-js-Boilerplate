@@ -1,3 +1,10 @@
+# [3.40.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.39.0...v3.40.0) (2024-02-07)
+
+
+### Features
+
+* add pino.js as Logger ([1d35f43](https://github.com/ixartz/Next-js-Boilerplate/commit/1d35f43efd5e250498d2d30654be672e4e2d91c9))
+
 # [3.39.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.38.0...v3.39.0) (2024-02-07)
 
 
