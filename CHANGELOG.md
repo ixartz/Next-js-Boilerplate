@@ -1,3 +1,10 @@
+# [3.39.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.38.0...v3.39.0) (2024-02-07)
+
+
+### Features
+
+* add preferType on VSCode ([a55bc6a](https://github.com/ixartz/Next-js-Boilerplate/commit/a55bc6a4b543c47ec491c5a84806f62c93dc1aa4))
+
 # [3.38.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.37.0...v3.38.0) (2024-01-19)
 
 
