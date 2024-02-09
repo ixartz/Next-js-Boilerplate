@@ -35,6 +35,7 @@ const PortfolioDetail = (props: IPortfolioDetailProps) => {
       <div className="mt-5 text-center text-sm">
         {`${t('error_reporting_powered_by')} `}
         <a
+          className="text-blue-700 hover:border-b-2 hover:border-blue-700"
           href="https://sentry.io/for/nextjs/?utm_source=github&utm_medium=paid-community&utm_campaign=general-fy25q1-nextjs&utm_content=github-banner-nextjsboilerplate-logo"
           target="_blank"
         >
@@ -42,6 +43,7 @@ const PortfolioDetail = (props: IPortfolioDetailProps) => {
         </a>{' '}
         - {`${t('coverage_powered_by')} `}
         <a
+          className="text-blue-700 hover:border-b-2 hover:border-blue-700"
           href="https://about.codecov.io/codecov-free-trial/?utm_source=github&utm_medium=paid-community&utm_campaign=general-fy25q1-nextjs&utm_content=github-banner-nextjsboilerplate-logo"
           target="_blank"
         >
@@ -49,7 +51,10 @@ const PortfolioDetail = (props: IPortfolioDetailProps) => {
         </a>
       </div>
 
-      <a href="https://sentry.io/for/nextjs/?utm_source=github&utm_medium=paid-community&utm_campaign=general-fy25q1-nextjs&utm_content=github-banner-nextjsboilerplate-logo">
+      <a
+        href="https://sentry.io/for/nextjs/?utm_source=github&utm_medium=paid-community&utm_campaign=general-fy25q1-nextjs&utm_content=github-banner-nextjsboilerplate-logo"
+        target="_blank"
+      >
         <Image
           className="mx-auto mt-2"
           src="/assets/images/sentry-dark.png"
