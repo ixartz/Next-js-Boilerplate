@@ -1,3 +1,11 @@
+# [3.41.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.40.0...v3.41.0) (2024-02-09)
+
+
+### Features
+
+* add target blank for links going outside ([37ba36e](https://github.com/ixartz/Next-js-Boilerplate/commit/37ba36e5e3815d87cf882dc9aaf8b69b5849b49e))
+* make the index page of the boilerplate cleaner ([f3a3f9b](https://github.com/ixartz/Next-js-Boilerplate/commit/f3a3f9b306bfaed85058d59cd15e62db158468ca))
+
 # [3.40.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.39.0...v3.40.0) (2024-02-07)
 
 
