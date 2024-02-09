@@ -37,7 +37,7 @@
     "meta_description": "Bienvenue sur la page de mon portfolio !",
     "presentation": "Bienvenue sur ma page portfolio ! Vous trouverez ici une collection soigneusement organisée de mon travail et de mes réalisations. À travers ce portfolio, je mets en valeur mon expertise, ma créativité et la valeur que je peux apporter à vos projets.",
     "portfolio_name": "Portfolio {name}",
-    "monitoring_powered_by": "Monitoring propulsé par"
+    "log_management_powered_by": "Gestion des logs propulsée par"
   },
   "PortfolioSlug": {
     "meta_title": "Portfolio {slug}",
