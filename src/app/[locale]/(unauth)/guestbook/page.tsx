@@ -32,6 +32,7 @@ const Guestbook = () => {
       <div className="mt-2 text-center text-sm">
         {`${t('database_powered_by')} `}
         <a
+          className="text-blue-700 hover:border-b-2 hover:border-blue-700"
           href="https://turso.tech/?utm_source=nextjsstarterbp"
           target="_blank"
         >
@@ -39,7 +40,7 @@ const Guestbook = () => {
         </a>
       </div>
 
-      <a href="https://turso.tech/?utm_source=nextjsstarterbp">
+      <a href="https://turso.tech/?utm_source=nextjsstarterbp" target="_blank">
         <Image
           className="mx-auto mt-2"
           src="/assets/images/turso.png"

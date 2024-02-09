@@ -22,41 +22,37 @@ const Portfolio = () => {
     <>
       <p>{t('presentation')}</p>
 
-      <div className="grid grid-cols-1 gap-8 md:grid-cols-2 xl:grid-cols-3">
+      <div className="grid grid-cols-1 justify-items-start gap-3 md:grid-cols-2 xl:grid-cols-3">
         {Array.from(Array(6).keys()).map((elt) => (
-          <Link className="border-none" key={elt} href={`/portfolio/${elt}`}>
-            <div className="overflow-hidden rounded-lg">
-              <div className="relative h-28 w-full">
-                <Image
-                  src="/assets/images/nextjs-starter-banner.png"
-                  alt="Portfolio project"
-                  fill
-                />
-              </div>
-
-              <div className="bg-blue-200 p-3 text-xl font-bold">
-                {t('portfolio_name', { name: elt })}
-              </div>
-            </div>
+          <Link
+            className="hover:text-blue-700"
+            key={elt}
+            href={`/portfolio/${elt}`}
+          >
+            {t('portfolio_name', { name: elt })}
           </Link>
         ))}
       </div>
 
       <div className="mt-5 text-center text-sm">
-        {`${t('monitoring_powered_by')} `}
+        {`${t('log_management_powered_by')} `}
         <a
-          href="https://www.checklyhq.com/?utm_source=github&utm_medium=sponsorship&utm_campaign=next-js-boilerplate"
+          className="text-blue-700 hover:border-b-2 hover:border-blue-700"
+          href="https://betterstack.com/?utm_source=github&utm_medium=sponsorship&utm_campaign=next-js-boilerplate"
           target="_blank"
         >
-          Checkly
+          Better Stack
         </a>
       </div>
 
-      <a href="https://www.checklyhq.com/?utm_source=github&utm_medium=sponsorship&utm_campaign=next-js-boilerplate">
+      <a
+        href="https://betterstack.com/?utm_source=github&utm_medium=sponsorship&utm_campaign=next-js-boilerplate"
+        target="_blank"
+      >
         <Image
           className="mx-auto mt-2"
-          src="/assets/images/checkly-logo-light.png"
-          alt="Checkly"
+          src="/assets/images/better-stack-dark.png"
+          alt="Better Stack"
           width={130}
           height={112}
         />

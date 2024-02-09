@@ -22,7 +22,7 @@ test.describe('Sanity', () => {
 
       await expect(
         page.getByRole('heading', {
-          name: 'Boilerplate code for your Nextjs project with Tailwind CSS',
+          name: 'Boilerplate Code for Your Next.js Project with Tailwind CSS',
         }),
       ).toBeVisible();
     });
