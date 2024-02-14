@@ -270,6 +270,7 @@ You can easily configure Next js Boilerplate by making a search in the whole pro
 - `public/apple-touch-icon.png`, `public/favicon.ico`, `public/favicon-16x16.png` and `public/favicon-32x32.png`: your website favicon, you can generate from https://favicon.io/favicon-converter/
 - `src/utils/AppConfig.ts`: configuration file
 - `src/templates/BaseTemplate.tsx`: default theme
+- `next.config.mjs`: Next.js configuration
 - `next-sitemap.config.js`: sitemap configuration
 - `.env`: default environment variables
 
@@ -527,3 +528,5 @@ See [LICENSE](LICENSE) for more information.
 ---
 
 Made with ♥ by [CreativeDesignsGuru](https://creativedesignsguru.com) [![Twitter](https://img.shields.io/twitter/url/https/twitter.com/cloudposse.svg?style=social&label=Follow%20%40Ixartz)](https://twitter.com/ixartz)
+
+[![Sponsor Next JS Boilerplate](https://cdn.buymeacoffee.com/buttons/default-red.png)](https://github.com/sponsors/ixartz)
