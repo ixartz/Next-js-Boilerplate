@@ -4,25 +4,14 @@
 /node_modules
 /.pnp
 .pnp.js
+.yarn/install-state.gz
 
 # testing
 /coverage
 
-# cypress
-cypress/screenshots
-cypress/videos
-
 # next.js
-/.next
-/out
-
-# next-sitemap
-public/robots.txt
-public/sitemap.xml
-public/sitemap-*.xml
-
-# cache
-.swc/
+/.next/
+/out/
 
 # production
 /build
@@ -30,20 +19,18 @@ public/sitemap-*.xml
 # misc
 .DS_Store
 *.pem
-Thumbs.db
 
 # debug
 npm-debug.log*
-pnpm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# dotenv local files
+# local env files
 .env*.local
-.env
-
-# local folder
-local
 
 # vercel
 .vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
