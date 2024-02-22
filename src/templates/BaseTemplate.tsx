@@ -1,12 +1,11 @@
 import { useTranslations } from 'next-intl';
-import { type ReactNode } from 'react';
 
 import { AppConfig } from '@/utils/AppConfig';
 
 const BaseTemplate = (props: {
-  leftNav: ReactNode;
-  rightNav?: ReactNode;
-  children: ReactNode;
+  leftNav: React.ReactNode;
+  rightNav?: React.ReactNode;
+  children: React.ReactNode;
 }) => {
   const t = useTranslations('BaseTemplate');
 
