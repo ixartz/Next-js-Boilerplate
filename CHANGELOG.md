@@ -1,3 +1,10 @@
+# [3.42.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.41.0...v3.42.0) (2024-02-22)
+
+
+### Features
+
+* remove import React when it's not needed ([a7082d3](https://github.com/ixartz/Next-js-Boilerplate/commit/a7082d3492d9a426218829f86554b2aeda9da8fd))
+
 # [3.41.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.40.0...v3.41.0) (2024-02-09)
 
 
