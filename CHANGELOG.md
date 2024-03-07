@@ -1,3 +1,10 @@
+# [3.43.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.42.0...v3.43.0) (2024-03-07)
+
+
+### Features
+
+* use eslintrc.json and give release.yml permission in GitHub Actions ([a329518](https://github.com/ixartz/Next-js-Boilerplate/commit/a32951811e157696ab915eebd6b71b09f49ccb83))
+
 # [3.42.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.41.0...v3.42.0) (2024-02-22)
 
 
