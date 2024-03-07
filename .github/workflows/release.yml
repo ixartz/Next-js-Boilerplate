@@ -17,6 +17,11 @@ jobs:
     name: Create a new release
     runs-on: ubuntu-latest
 
+    permissions:
+      contents: write # to be able to publish a GitHub release
+      issues: write # to be able to comment on released issues
+      pull-requests: write # to be able to comment on released pull requests
+
     steps:
       - uses: actions/checkout@v3
         with:
