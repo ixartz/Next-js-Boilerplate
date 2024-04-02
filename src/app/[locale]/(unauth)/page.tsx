@@ -88,15 +88,7 @@ export default function Index() {
         >
           Checkly
         </a>
-        , Storybook, Multi-language (i18n), One-Click Deploy on{' '}
-        <a
-          className="text-blue-700 hover:border-b-2 hover:border-blue-700"
-          href="https://www.netlify.com"
-          target="_blank"
-        >
-          Netlify
-        </a>
-        , and more.
+        , Storybook, Multi-language (i18n), and more.
       </p>
     </>
   );
