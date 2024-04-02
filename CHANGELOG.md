@@ -1,3 +1,10 @@
+# [3.44.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.43.0...v3.44.0) (2024-04-02)
+
+
+### Features
+
+* run migration only in development and eslint-disable need to be at the top ([db94f31](https://github.com/ixartz/Next-js-Boilerplate/commit/db94f31615cd5ffcc3739ab56572646f7ce1f177))
+
 # [3.43.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.42.0...v3.43.0) (2024-03-07)
 
 
