@@ -1,3 +1,11 @@
+## [3.44.1](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.44.0...v3.44.1) (2024-04-03)
+
+
+### Bug Fixes
+
+* add Twitter in the index page ([75dfb8b](https://github.com/ixartz/Next-js-Boilerplate/commit/75dfb8bc5ca40446005f8d405add52d09071f62a))
+* use new VSCode Jest configuration ([e92e4e0](https://github.com/ixartz/Next-js-Boilerplate/commit/e92e4e09c636944d85cec38683738520224acebb))
+
 # [3.44.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.43.0...v3.44.0) (2024-04-02)
 
 
