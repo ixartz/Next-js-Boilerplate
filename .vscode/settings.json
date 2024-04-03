@@ -18,12 +18,11 @@
     "next/dist/client/router.d.ts"
   ],
   "typescript.preferences.preferTypeOnlyAutoImports": true, // Prefer type-only imports
-  "jest.autoRun": {
-    "watch": false // Start the jest with the watch flag
-    // "onStartup": ["all-tests"] // Run all tests upon project launch
-  },
-  "jest.showCoverageOnLoad": true, // Show code coverage when the project is launched
-  "jest.autoRevealOutput": "on-exec-error", // Don't automatically open test explorer terminal on launch
+  "jest.runMode": {
+    "type": "on-save",
+    "testFileOnly": true,
+    "coverage": true
+  }, // Configure Jest extension
   // Multiple language settings for json and jsonc files
   "[json][jsonc][yaml]": {
     "editor.formatOnSave": true,
