@@ -1,3 +1,10 @@
+# [3.45.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.44.1...v3.45.0) (2024-04-04)
+
+
+### Features
+
+* remove next-sitemap and use the native Next.js sitemap/robots.txt ([135a435](https://github.com/ixartz/Next-js-Boilerplate/commit/135a4350bef905d2a38a8901d42e5fa304fb92bc))
+
 ## [3.44.1](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.44.0...v3.44.1) (2024-04-03)
 
 
