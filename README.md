@@ -136,7 +136,7 @@ Developer experience first, extremely flexible code structure and only keep what
 - 💡 Absolute Imports using `@` prefix
 - 🗂 VSCode configuration: Debug, Settings, Tasks and Extensions
 - 🤖 SEO metadata, JSON-LD and Open Graph tags
-- 🗺️ Sitemap.xml and robots.txt with next-sitemap
+- 🗺️ Sitemap.xml and robots.txt
 - ⌘ Database exploration with Drizzle Studio and CLI migration tool with Drizzle Kit
 - ⚙️ [Bundler Analyzer](https://www.npmjs.com/package/@next/bundle-analyzer)
 - 🌈 Include a FREE minimalist theme
@@ -270,7 +270,6 @@ You can easily configure Next js Boilerplate by making a search in the whole pro
 - `src/utils/AppConfig.ts`: configuration file
 - `src/templates/BaseTemplate.tsx`: default theme
 - `next.config.mjs`: Next.js configuration
-- `next-sitemap.config.js`: sitemap configuration
 - `.env`: default environment variables
 
 You have access to the whole code source if you need further customization. The provided code is only example for you to start your project. The sky is the limit 🚀.
