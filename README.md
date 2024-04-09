@@ -215,7 +215,7 @@ turso db show nextjs-boilerplate --url
 # DATABASE_URL=libsql://[RANDOM-CHARS]-[DB-NAME]-[ORG-NAME].turso.io
 ```
 
-Finally, you also need to create a new environement variable `DATABASE_AUTH_TOKEN` in `.env.local` (not tracked by Git) with the auth token provided by Turso:
+Finally, you also need to create a new environment variable `DATABASE_AUTH_TOKEN` in `.env.local` (not tracked by Git) with the auth token provided by Turso:
 
 ```shell
 turso db tokens create nextjs-boilerplate
