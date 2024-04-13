@@ -43,7 +43,7 @@ const Guestbook = () => {
       <a href="https://turso.tech/?utm_source=nextjsstarterbp" target="_blank">
         <Image
           className="mx-auto mt-2"
-          src="/assets/images/turso.png"
+          src="/assets/images/turso-light.png"
           alt="SQLite Developer Experience"
           width={130}
           height={112}

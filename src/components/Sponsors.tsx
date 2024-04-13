@@ -23,7 +23,7 @@ const Sponsors = () => (
             target="_blank"
           >
             <Image
-              src="/assets/images/turso.png"
+              src="/assets/images/turso-light.png"
               alt="SQLite Developer Experience"
               width={260}
               height={224}
