@@ -1,3 +1,11 @@
+# [3.46.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.45.0...v3.46.0) (2024-04-13)
+
+
+### Features
+
+* new turso logo ([3e781fc](https://github.com/ixartz/Next-js-Boilerplate/commit/3e781fc75201a7271a3a640a0b665adb1560add6))
+* use new Turso tagline ([601ba6b](https://github.com/ixartz/Next-js-Boilerplate/commit/601ba6b2a4beb1a0c6779964d2d654bd3553f044))
+
 # [3.45.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.44.1...v3.45.0) (2024-04-04)
 
 
