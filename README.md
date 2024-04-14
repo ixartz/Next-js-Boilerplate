@@ -440,7 +440,11 @@ See [LICENSE](LICENSE) for more information.
     </td>
     <td align="center" width="33%">
       <a href="https://turso.tech/?utm_source=nextjsstarterbp">
-        <img src="public/assets/images/turso.png?raw=true" alt="SQLite Developer Experience">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="public/assets/images/turso-white.png?raw=true">
+          <source media="(prefers-color-scheme: light)" srcset="public/assets/images/turso-dark.png?raw=true">
+          <img alt="Turso - SQLite for Production" src="public/assets/images/turso-dark.png?raw=true">
+        </picture>
       </a>
     </td>
     <td align="center" width="33%">
