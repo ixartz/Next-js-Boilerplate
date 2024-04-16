@@ -1,7 +1,11 @@
 import type { Config } from 'tailwindcss';
 
 export default {
-  content: ['./src/**/*.{js,ts,jsx,tsx}'],
+  content: [
+    './src/**/*.{js,ts,jsx,tsx}',
+    './pages/**/*.{ts,tsx}',
+    './public/**/*.html',
+  ],
   theme: {
     fontSize: {
       xs: '0.75rem',
@@ -14,6 +18,19 @@ export default {
       '4xl': '2.25rem',
       '5xl': '3rem',
       '6xl': '4rem',
+    },
+    colors: {
+      'border-blue': '#1f1d33',
+      transparent: 'transparent',
+      current: 'currentColor',
+      white: '#ffffff',
+      purple: '#3f3cbb',
+      midnight: '#121063',
+      metal: '#565584',
+      tahiti: '#3ab7bf',
+      silver: '#ecebff',
+      'bubble-gum': '#ff77e9',
+      bermuda: '#78dcca',
     },
     extend: {
       colors: {
@@ -38,6 +55,18 @@ export default {
           700: '#2b6cb0',
           800: '#2c5282',
           900: '#2a4365',
+        },
+        'dark-blue': {
+          100: '#f3f2f8',
+          200: '#c2c1d4',
+          300: '#a19ebf',
+          400: '#8580ac',
+          500: '#736da2',
+          600: '#6a649d',
+          700: '#5a548a',
+          800: '#504b7c',
+          900: '#443f6e',
+          1000: '#652e8c',
         },
       },
     },
