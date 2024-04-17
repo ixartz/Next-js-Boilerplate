@@ -1,3 +1,5 @@
+/* eslint-disable tailwindcss/no-custom-classname */
+
 'use client';
 
 import { zodResolver } from '@hookform/resolvers/zod';
@@ -74,7 +76,7 @@ const GuestbookForm = (props: IGuestbookFormProps) => {
           />
         </label>
         {errors.username?.message && (
-          <div className="my-2 text-xs italic text-red-500">
+          <div className="text-red-500 my-2 text-xs italic">
             {errors.username?.message}
           </div>
         )}
@@ -93,7 +95,7 @@ const GuestbookForm = (props: IGuestbookFormProps) => {
           />
         </label>
         {errors.body?.message && (
-          <div className="my-2 text-xs italic text-red-500">
+          <div className="text-red-500 my-2 text-xs italic">
             {errors.body?.message}
           </div>
         )}

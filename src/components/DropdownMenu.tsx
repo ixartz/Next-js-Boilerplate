@@ -1,3 +1,5 @@
+/* eslint-disable tailwindcss/no-custom-classname */
+/* eslint-disable tailwindcss/no-contradicting-classname */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 
 'use client';
@@ -17,7 +19,7 @@ export default function DropdownMenu() {
         onClick={toggleDropdown}
         id="dropdownDefaultButton"
         data-dropdown-toggle="dropdownDots"
-        className="focus:ring-gray-50  inline-flex items-center rounded-lg bg-white p-2 text-center text-sm font-medium text-gray-900 hover:bg-gray-100 focus:outline-none focus:ring-1 focus:ring-gray-300"
+        className="inline-flex  items-center rounded-lg bg-white p-2 text-center text-sm font-medium text-gray-900 hover:bg-gray-100 focus:outline-none focus:ring-1 focus:ring-gray-300"
         type="button"
       >
         {isOpen ? (
@@ -61,7 +63,7 @@ export default function DropdownMenu() {
             <input
               type="text"
               id="first_name"
-              className="bg-gray-50 m-2 block w-full rounded-full border border-gray-300 p-2.5 text-sm text-gray-600 focus:border-gray-500 focus:outline-none focus:ring-1 focus:ring-gray-500"
+              className="m-2 block w-full rounded-full border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-600 focus:border-gray-500 focus:outline-none focus:ring-1 focus:ring-gray-500"
               placeholder="ค้นหาบน Pantip"
             />
           </div>

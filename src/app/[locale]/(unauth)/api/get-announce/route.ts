@@ -1,7 +1,6 @@
 /* eslint-disable @typescript-eslint/no-shadow */
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
-import type { NextApiRequest } from 'next';
-import { NextResponse } from 'next/server';
+import { type NextRequest, NextResponse } from 'next/server';
 import puppeteer from 'puppeteer';
 
 async function scrapeAnnounceElements(url: string) {
@@ -40,11 +39,11 @@ async function scrapeAnnounceElements(url: string) {
   return result;
 }
 
-export async function GET(req: NextApiRequest) {
+export async function GET(req: NextRequest) {
   try {
     const { searchParams } = new URL(
       req.url as string,
-      `http://${req.headers.host}`,
+      `http://${req.headers.get('host')}`,
     );
 
     const url = searchParams.get('url');
