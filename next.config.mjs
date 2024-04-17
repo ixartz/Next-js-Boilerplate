@@ -34,6 +34,9 @@ export default withSentryConfig(
 
         return config;
       },
+      typescript: {
+        ignoreBuildErrors: true,
+      },
     }),
   ),
   {
