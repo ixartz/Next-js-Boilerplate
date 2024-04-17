@@ -24,7 +24,7 @@ export default function Layout(props: { children: React.ReactNode }) {
     return (
       <div>
         <header>
-          <nav className="px-y-4  bg-white py-2.5 lg:px-6">
+          <nav className="px-y-6  border-b border-gray-300 bg-white py-2.5 lg:px-6">
             <div className="mx-auto flex max-w-screen-xl flex-wrap items-center justify-between max-lg:px-4 ">
               <div className="flex items-center">
                 <DropdownMenu />
@@ -89,7 +89,7 @@ export default function Layout(props: { children: React.ReactNode }) {
                 <input
                   type="text"
                   id="first_name"
-                  className="bg-gray-50 block w-full min-w-96 rounded-full border border-gray-300 p-2.5 text-sm text-gray-600 focus:border-gray-500 focus:outline-none focus:ring-1 focus:ring-gray-500"
+                  className="block w-full min-w-96 rounded-full border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-600 focus:border-gray-500 focus:outline-none focus:ring-1 focus:ring-gray-500"
                   placeholder="ค้นหาบน Pantip"
                 />
               </div>
@@ -103,7 +103,7 @@ export default function Layout(props: { children: React.ReactNode }) {
             </div>
           </nav>
         </header>
-        {props.children}
+        <div className="container mx-auto">{props.children}</div>
       </div>
     );
   }

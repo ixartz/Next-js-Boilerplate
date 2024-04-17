@@ -1,4 +1,7 @@
+/* eslint-disable import/no-extraneous-dependencies */
 import type { Config } from 'tailwindcss';
+
+const colors = require('tailwindcss/colors');
 
 export default {
   content: [
@@ -21,9 +24,6 @@ export default {
     },
     colors: {
       'border-blue': '#1f1d33',
-      transparent: 'transparent',
-      current: 'currentColor',
-      white: '#ffffff',
       purple: '#3f3cbb',
       midnight: '#121063',
       metal: '#565584',
@@ -31,6 +31,14 @@ export default {
       silver: '#ecebff',
       'bubble-gum': '#ff77e9',
       bermuda: '#78dcca',
+      transparent: 'transparent',
+      current: 'currentColor',
+      black: colors.black,
+      white: colors.white,
+      gray: colors.gray,
+      emerald: colors.emerald,
+      indigo: colors.indigo,
+      yellow: colors.yellow,
     },
     extend: {
       colors: {

@@ -88,12 +88,7 @@
       "files": ["*.stories.*"],
       "extends": ["plugin:storybook/recommended"],
       "rules": {
-        "import/no-extraneous-dependencies": [
-          "error",
-          {
-            "devDependencies": true
-          }
-        ]
+        "import/no-extraneous-dependencies": "off"
       }
     }
   ]

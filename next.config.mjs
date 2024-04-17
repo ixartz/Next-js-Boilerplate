@@ -14,6 +14,18 @@ const bundleAnalyzer = withBundleAnalyzer({
 export default withSentryConfig(
   bundleAnalyzer(
     withNextIntlConfig({
+      env: {
+        DATABASE_URL: process.env.DATABASE_URL,
+      },
+      images: {
+        remotePatterns: [
+          {
+            protocol: 'https',
+            hostname: '**',
+          },
+        ],
+      },
+
       eslint: {
         dirs: ['.'],
       },
