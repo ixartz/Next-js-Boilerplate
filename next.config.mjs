@@ -14,9 +14,16 @@ const bundleAnalyzer = withBundleAnalyzer({
 export default withSentryConfig(
   bundleAnalyzer(
     withNextIntlConfig({
-      env: {
-        DATABASE_URL: process.env.DATABASE_URL,
+      async redirects() {
+        return [
+          {
+            source: '/',
+            destination: '/pantip',
+            permanent: true,
+          },
+        ];
       },
+
       images: {
         remotePatterns: [
           {
