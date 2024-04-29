@@ -1,6 +1,7 @@
 import { getTranslations } from 'next-intl/server';
 
 import { Sponsors } from '@/components/Sponsors';
+import { Button } from '@/components/ui/button';
 
 export async function generateMetadata(props: { params: { locale: string } }) {
   const t = await getTranslations({
@@ -17,6 +18,7 @@ export async function generateMetadata(props: { params: { locale: string } }) {
 export default function Index() {
   return (
     <>
+      <Button>Click Me!</Button>
       <p>
         Explore our GitHub project for more information about{' '}
         <a
