@@ -3,7 +3,7 @@
 import { zodResolver } from '@hookform/resolvers/zod';
 import { useRouter } from 'next/navigation';
 import { useTranslations } from 'next-intl';
-import { useForm } from 'react-hook-form';
+import { type SubmitHandler, useForm } from 'react-hook-form';
 import type { z } from 'zod';
 
 import { GuestbookValidation } from '@/validations/GuestbookValidation';
@@ -13,9 +13,12 @@ type IGuestbookFormProps =
       edit: true;
       id: number;
       defaultValues: z.infer<typeof GuestbookValidation>;
-      handleStopEditing: () => void;
+      onValid: SubmitHandler<z.infer<typeof GuestbookValidation>>;
     }
-  | { edit?: false };
+  | {
+      edit?: false;
+      onValid: SubmitHandler<z.infer<typeof GuestbookValidation>>;
+    };
 
 const GuestbookForm = (props: IGuestbookFormProps) => {
   const {
@@ -31,31 +34,9 @@ const GuestbookForm = (props: IGuestbookFormProps) => {
   const t = useTranslations('GuestbookForm');
 
   const handleCreate = handleSubmit(async (data) => {
-    if (props.edit) {
-      await fetch(`/api/guestbook`, {
-        method: 'PUT',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
-          id: props.id,
-          ...data,
-        }),
-      });
+    await props.onValid(data);
 
-      props.handleStopEditing();
-    } else {
-      await fetch(`/api/guestbook`, {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(data),
-      });
-
-      reset();
-    }
-
+    reset();
     router.refresh();
   });
 
