@@ -3,7 +3,7 @@ import { useTranslations } from 'next-intl';
 import { getTranslations } from 'next-intl/server';
 import { Suspense } from 'react';
 
-import { GuestbookForm } from '@/components/GuestbookForm';
+import { AddGuestbookForm } from '@/components/AddGuestbookForm';
 import { GuestbookList } from '@/components/GuestbookList';
 
 export async function generateMetadata(props: { params: { locale: string } }) {
@@ -23,7 +23,7 @@ const Guestbook = () => {
 
   return (
     <>
-      <GuestbookForm />
+      <AddGuestbookForm />
 
       <Suspense fallback={<p>{t('loading_guestbook')}</p>}>
         <GuestbookList />

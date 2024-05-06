@@ -15,10 +15,6 @@ const EditableGuestbookEntry = (props: {
     setIsEditing((value) => !value);
   };
 
-  const handleStopEditing = () => {
-    setIsEditing(false);
-  };
-
   return (
     <>
       <button
@@ -49,7 +45,20 @@ const EditableGuestbookEntry = (props: {
               username: props.username,
               body: props.body,
             }}
-            handleStopEditing={handleStopEditing}
+            onValid={async (data) => {
+              await fetch(`/api/guestbook`, {
+                method: 'PUT',
+                headers: {
+                  'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({
+                  id: props.id,
+                  ...data,
+                }),
+              });
+
+              setIsEditing(false);
+            }}
           />
         ) : (
           <>
