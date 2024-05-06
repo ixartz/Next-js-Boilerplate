@@ -40,8 +40,8 @@
     "next-intl": "^3.12.2",
     "pino": "^8.21.0",
     "pino-pretty": "^11.0.0",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
+    "react": "~18.2.0",
+    "react-dom": "~18.2.0",
     "react-hook-form": "^7.51.4",
     "sharp": "^0.33.3",
     "zod": "^3.23.6"
