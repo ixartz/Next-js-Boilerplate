@@ -35,24 +35,32 @@ const Portfolio = () => {
       </div>
 
       <div className="mt-5 text-center text-sm">
-        {`${t('log_management_powered_by')} `}
+        {`${t('error_reporting_powered_by')} `}
         <a
           className="text-blue-700 hover:border-b-2 hover:border-blue-700"
-          href="https://betterstack.com/?utm_source=github&utm_medium=sponsorship&utm_campaign=next-js-boilerplate"
+          href="https://sentry.io/for/nextjs/?utm_source=github&utm_medium=paid-community&utm_campaign=general-fy25q1-nextjs&utm_content=github-banner-nextjsboilerplate-logo"
           target="_blank"
         >
-          Better Stack
+          Sentry
+        </a>{' '}
+        - {`${t('coverage_powered_by')} `}
+        <a
+          className="text-blue-700 hover:border-b-2 hover:border-blue-700"
+          href="https://about.codecov.io/codecov-free-trial/?utm_source=github&utm_medium=paid-community&utm_campaign=general-fy25q1-nextjs&utm_content=github-banner-nextjsboilerplate-logo"
+          target="_blank"
+        >
+          Codecov
         </a>
       </div>
 
       <a
-        href="https://betterstack.com/?utm_source=github&utm_medium=sponsorship&utm_campaign=next-js-boilerplate"
+        href="https://sentry.io/for/nextjs/?utm_source=github&utm_medium=paid-community&utm_campaign=general-fy25q1-nextjs&utm_content=github-banner-nextjsboilerplate-logo"
         target="_blank"
       >
         <Image
           className="mx-auto mt-2"
-          src="/assets/images/better-stack-dark.png"
-          alt="Better Stack"
+          src="/assets/images/sentry-dark.png"
+          alt="Sentry"
           width={130}
           height={112}
         />

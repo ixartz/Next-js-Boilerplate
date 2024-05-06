@@ -91,15 +91,8 @@ export default function Index() {
         >
           Better Stack
         </a>
-        , Monitoring as Code with{' '}
-        <a
-          className="text-blue-700 hover:border-b-2 hover:border-blue-700"
-          href="https://www.checklyhq.com/?utm_source=github&amp;utm_medium=sponsorship&amp;utm_campaign=next-js-boilerplate"
-          target="_blank"
-        >
-          Checkly
-        </a>
-        , Storybook, Multi-language (i18n), and more.
+        , Monitoring as Code with Checkly, Storybook, Multi-language (i18n), and
+        more.
       </p>
     </>
   );

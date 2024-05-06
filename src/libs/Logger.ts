@@ -1,6 +1,6 @@
 import pino from 'pino';
 
-import { Env } from './Env.mjs';
+import { Env } from './Env';
 
 let options = {};
 
