@@ -1,4 +1,4 @@
-import { currentUser } from '@clerk/nextjs';
+import { currentUser } from '@clerk/nextjs/server';
 import { getTranslations } from 'next-intl/server';
 
 const Hello = async () => {

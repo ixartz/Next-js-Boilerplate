@@ -25,8 +25,8 @@ export default function AuthLayout(props: {
       localization={clerkLocale}
       signInUrl={signInUrl}
       signUpUrl={signUpUrl}
-      afterSignInUrl={dashboardUrl}
-      afterSignUpUrl={dashboardUrl}
+      signInFallbackRedirectUrl={dashboardUrl}
+      signUpFallbackRedirectUrl={dashboardUrl}
     >
       {props.children}
     </ClerkProvider>
