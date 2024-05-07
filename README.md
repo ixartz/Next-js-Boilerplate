@@ -399,14 +399,6 @@ npm run db:studio
 
 Then, you can open https://local.drizzle.studio with your favorite browser to explore your database.
 
-### Known warnings
-
-#### webpack.cache.PackFileCacheStrategy
-
-Warning: webpack.cache.PackFileCacheStrategy Serializing big strings (104kiB) impacts deserialization performance (consider using Buffer instead and decode when needed)
-
-This warning is caused by using `Clerk` and `next-intl` middlewares. It only happens when both middlewares are used together.
-
 ### VSCode information (optional)
 
 If you are VSCode users, you can have a better integration with VSCode by installing the suggested extension in `.vscode/extension.json`. The starter code comes up with Settings for a seamless integration with VSCode. The Debug configuration is also provided for frontend and backend debugging experience.
