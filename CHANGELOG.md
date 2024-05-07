@@ -1,3 +1,18 @@
+# [3.47.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.46.0...v3.47.0) (2024-05-07)
+
+
+### Features
+
+* make dashboard without lang protected route in Clerk ([704466b](https://github.com/ixartz/Next-js-Boilerplate/commit/704466bbab40e366d0c1e17b66d7f5f0e97b902b))
+* run Clerk middleware only needed ([5aeee06](https://github.com/ixartz/Next-js-Boilerplate/commit/5aeee0609bb9abbccf17aa0d2900cffdc7c3a18a))
+* upgrade to Clerk v5 and use Clerk's Core 2 ([c1978f1](https://github.com/ixartz/Next-js-Boilerplate/commit/c1978f181a7c29e443fe407d91dfb9c2ae147f04))
+
+
+### Reverts
+
+* add back process.env.NEXT_PUBLIC_CLERK_SIGN_IN_URL ([f8cb9f4](https://github.com/ixartz/Next-js-Boilerplate/commit/f8cb9f441e08ec4f0e4501e4b42b4923adbc01a1))
+* downgrade React to 18.2 due to testing errors, error raised in Next.js issue [#65161](https://github.com/ixartz/Next-js-Boilerplate/issues/65161) ([1815eb3](https://github.com/ixartz/Next-js-Boilerplate/commit/1815eb3670f53b4d949a06505e8ef3afd4ab0ee5))
+
 # [3.46.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.45.0...v3.46.0) (2024-04-13)
 
 
