@@ -1,3 +1,10 @@
+# [3.48.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.47.0...v3.48.0) (2024-05-09)
+
+
+### Features
+
+* add custom configuration for i18n ally VSCode extension ([46f9459](https://github.com/ixartz/Next-js-Boilerplate/commit/46f945963c02eb29efc802fb0f3b1220b10bdf13))
+
 # [3.47.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.46.0...v3.47.0) (2024-05-07)
 
 
