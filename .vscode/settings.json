@@ -15,7 +15,9 @@
   "typescript.preferences.autoImportFileExcludePatterns": [
     // useRouter should be imported from `next/navigation` instead of `next/router`
     "next/router.d.ts",
-    "next/dist/client/router.d.ts"
+    "next/dist/client/router.d.ts",
+    // give priority for Link to next/link instead of lucide-react
+    "lucide-react"
   ],
   "typescript.preferences.preferTypeOnlyAutoImports": true, // Prefer type-only imports
   "jest.runMode": {
@@ -23,6 +25,12 @@
     "testFileOnly": true,
     "coverage": true
   }, // Configure Jest extension
+  "jest.outputConfig": {
+    "revealOn": "error",
+    "revealWithFocus": "test-results",
+    "clearOnRun": "none"
+  }, // Switch to test-results view when test fails
+  "testing.openTesting": "neverOpen", // For a consistent Jest output experience, the simplest solution is to set to "neverOpen"
   // Multiple language settings for json and jsonc files
   "[json][jsonc][yaml]": {
     "editor.formatOnSave": true,
