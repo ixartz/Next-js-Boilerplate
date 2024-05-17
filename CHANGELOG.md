@@ -1,3 +1,10 @@
+# [3.49.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.48.0...v3.49.0) (2024-05-17)
+
+
+### Features
+
+* vscode jest open test result view on test fails and add unauthenticatedUrl in clerk middleware ([2a68124](https://github.com/ixartz/Next-js-Boilerplate/commit/2a681244f834b6ea55bcd5cd3105f8b4a9df4a05))
+
 # [3.48.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.47.0...v3.48.0) (2024-05-09)
 
 
