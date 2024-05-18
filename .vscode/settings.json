@@ -20,17 +20,7 @@
     "lucide-react"
   ],
   "typescript.preferences.preferTypeOnlyAutoImports": true, // Prefer type-only imports
-  "jest.runMode": {
-    "type": "on-save",
-    "testFileOnly": true,
-    "coverage": true
-  }, // Configure Jest extension
-  "jest.outputConfig": {
-    "revealOn": "error",
-    "revealWithFocus": "test-results",
-    "clearOnRun": "none"
-  }, // Switch to test-results view when test fails
-  "testing.openTesting": "neverOpen", // For a consistent Jest output experience, the simplest solution is to set to "neverOpen"
+  "testing.openTesting": "neverOpen", // Don't open the testing view automatically when running tests
   // Multiple language settings for json and jsonc files
   "[json][jsonc][yaml]": {
     "editor.formatOnSave": true,

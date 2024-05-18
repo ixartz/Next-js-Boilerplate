@@ -35,6 +35,9 @@
     "isolatedModules": true,
     "incremental": true,
 
+    // Load types
+    "types": ["vitest/globals"],
+
     // Path aliases
     "baseUrl": ".",
     "paths": {
@@ -55,7 +58,6 @@
     "**/*.ts",
     "**/*.tsx",
     ".storybook/*.ts",
-    ".next/types/**/*.ts",
-    "src/libs/Env.ts"
+    ".next/types/**/*.ts"
   ]
 }

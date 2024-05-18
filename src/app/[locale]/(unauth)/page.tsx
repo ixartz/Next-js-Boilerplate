@@ -58,8 +58,8 @@ export default function Index() {
           ⚡️
         </span>{' '}
         Made with developer experience first: Next.js, TypeScript, ESLint,
-        Prettier, Husky, Lint-Staged, Jest, Testing Library, Commitlint, VSCode,
-        PostCSS, Tailwind CSS, Authentication with{' '}
+        Prettier, Husky, Lint-Staged, Jest (replaced by Vitest), Testing
+        Library, Commitlint, VSCode, PostCSS, Tailwind CSS, Authentication with{' '}
         <a
           className="text-blue-700 hover:border-b-2 hover:border-blue-700"
           href="https://clerk.com?utm_source=github&amp;utm_medium=sponsorship&amp;utm_campaign=nextjs-boilerplate"
