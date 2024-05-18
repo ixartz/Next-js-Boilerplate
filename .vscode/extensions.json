@@ -4,7 +4,7 @@
     "mikestead.dotenv",
     "csstools.postcss",
     "bradlc.vscode-tailwindcss",
-    "Orta.vscode-jest",
+    "vitest.explorer",
     "humao.rest-client",
     "yoavbls.pretty-ts-errors",
     "ms-playwright.playwright",

@@ -35,6 +35,9 @@
     "isolatedModules": true,
     "incremental": true,
 
+    // Load types
+    "types": ["vitest/globals"],
+
     // Path aliases
     "baseUrl": ".",
     "paths": {
