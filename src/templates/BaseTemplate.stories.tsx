@@ -10,11 +10,11 @@ import { BaseTemplate } from './BaseTemplate';
 const meta = {
   title: 'Example/BaseTemplate',
   component: BaseTemplate,
-  tags: ['autodocs'],
   parameters: {
     // More on how to position stories at: https://storybook.js.org/docs/7.0/react/configure/story-layout
     layout: 'fullscreen',
   },
+  tags: ['autodocs'],
   decorators: [
     (Story) => (
       <NextIntlClientProvider locale="en" messages={messages}>
@@ -25,7 +25,7 @@ const meta = {
 } satisfies Meta<typeof BaseTemplate>;
 
 export default meta;
-type Story = StoryObj<typeof BaseTemplate>;
+type Story = StoryObj<typeof meta>;
 
 export const BaseWithReactComponent = {
   args: {

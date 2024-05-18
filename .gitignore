@@ -13,6 +13,7 @@
 
 # storybook
 storybook-static
+*storybook.log
 
 # playwright
 /test-results/
