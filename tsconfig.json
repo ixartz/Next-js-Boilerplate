@@ -55,7 +55,6 @@
     "**/*.ts",
     "**/*.tsx",
     ".storybook/*.ts",
-    ".next/types/**/*.ts",
-    "src/libs/Env.ts"
+    ".next/types/**/*.ts"
   ]
 }

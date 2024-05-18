@@ -78,7 +78,6 @@
     "cssnano": "^7.0.1",
     "dotenv-cli": "^7.4.1",
     "drizzle-kit": "^0.20.18",
-    "encoding": "^0.1.13",
     "eslint": "^8.57.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-airbnb-typescript": "^18.0.0",
