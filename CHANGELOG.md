@@ -1,3 +1,16 @@
+# [3.50.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.49.0...v3.50.0) (2024-05-18)
+
+
+### Features
+
+* replace Jest by Vitest for better DX ([2504504](https://github.com/ixartz/Next-js-Boilerplate/commit/25045041bb0af1fc4065ccffdb4d4d9b715c5823))
+* update to Storybook v8 ([51b20a6](https://github.com/ixartz/Next-js-Boilerplate/commit/51b20a64f8f7a9780cb4c81b6ec2f0d1ac8779c5))
+
+
+### Reverts
+
+* reuse vitest.config.mts to avoid warning when running the tests ([f923242](https://github.com/ixartz/Next-js-Boilerplate/commit/f9232425d3cca895bcf3b45355dbee2caaedccce))
+
 # [3.49.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.48.0...v3.49.0) (2024-05-17)
 
 
