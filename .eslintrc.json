@@ -17,7 +17,7 @@
   "overrides": [
     // Configuration for TypeScript files
     {
-      "files": ["**/*.ts", "**/*.tsx"],
+      "files": ["**/*.ts", "**/*.tsx", "**/*.mts"],
       "plugins": [
         "@typescript-eslint",
         "unused-imports",
@@ -31,6 +31,7 @@
         "next/core-web-vitals",
         "plugin:prettier/recommended"
       ],
+      "parser": "@typescript-eslint/parser",
       "parserOptions": {
         "project": "./tsconfig.json"
       },
