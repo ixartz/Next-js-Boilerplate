@@ -1,3 +1,10 @@
+## [3.50.1](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.50.0...v3.50.1) (2024-05-20)
+
+
+### Bug Fixes
+
+* add eslint support for .mts file ([cd58d38](https://github.com/ixartz/Next-js-Boilerplate/commit/cd58d3806206e269d712e0976f4101af26275e44))
+
 # [3.50.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.49.0...v3.50.0) (2024-05-18)
 
 
