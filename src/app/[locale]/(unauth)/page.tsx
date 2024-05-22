@@ -18,14 +18,14 @@ export default function Index() {
   return (
     <>
       <p>
-        Explore our GitHub project for more information about{' '}
+        Looking for a SaaS Boilerplate?{' '}
         <a
           className="text-blue-700 hover:border-b-2 hover:border-blue-700"
-          href="https://github.com/ixartz/Next-js-Boilerplate"
+          href="https://nextjs-boilerplate.com/pro-saas-starter-kit"
         >
-          Next.js Boilerplate
-        </a>
-        .
+          Next.js Boilerplate Pro
+        </a>{' '}
+        can help you build your SaaS.
       </p>
       <p>
         Follow{' '}
