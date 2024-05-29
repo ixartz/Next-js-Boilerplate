@@ -15,7 +15,8 @@ jobs:
         node-version: [20.x]
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
-    if: github.event.deployment_status.state == 'success' # Only run when the deployment was successful.
+    # Only run when the deployment was successful
+    if: github.event.deployment_status.state == 'success'
 
     name: Test E2E on Checkly
     runs-on: ubuntu-latest
