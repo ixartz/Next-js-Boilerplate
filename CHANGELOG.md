@@ -1,3 +1,10 @@
+# [3.51.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.50.1...v3.51.0) (2024-05-29)
+
+
+### Features
+
+* update to Drizzle kit 0.21 version, no need to have dialect in command line ([62aa678](https://github.com/ixartz/Next-js-Boilerplate/commit/62aa6786117637e6b76c97f6c98f7ca6e8c343b0))
+
 ## [3.50.1](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.50.0...v3.50.1) (2024-05-20)
 
 
