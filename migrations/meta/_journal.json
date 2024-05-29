@@ -1,12 +1,12 @@
 {
-  "version": "5",
+  "version": "6",
   "dialect": "sqlite",
   "entries": [
     {
       "idx": 0,
-      "version": "5",
-      "when": 1693571350622,
-      "tag": "0000_blushing_warhawk",
+      "version": "6",
+      "when": 1716976326006,
+      "tag": "0000_init_db",
       "breakpoints": true
     }
   ]
