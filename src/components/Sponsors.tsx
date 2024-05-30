@@ -10,7 +10,7 @@ const Sponsors = () => (
             target="_blank"
           >
             <Image
-              src="/assets/images/clerk.png"
+              src="/assets/images/clerk-logo-dark.png"
               alt="Clerk – Authentication & User Management for Next.js"
               width={260}
               height={224}
