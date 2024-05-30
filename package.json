@@ -15,7 +15,7 @@
     "test": "vitest run",
     "commit": "cz",
     "db:generate": "drizzle-kit generate",
-    "db:migrate": "drizzle-kit migrate",
+    "db:migrate": "dotenv -c -- drizzle-kit migrate",
     "db:studio": "dotenv -c -- drizzle-kit studio",
     "test:e2e": "playwright test",
     "storybook": "storybook dev -p 6006",
