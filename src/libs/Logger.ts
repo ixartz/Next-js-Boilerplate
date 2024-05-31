@@ -1,12 +1,18 @@
-import 'pino-pretty';
+import pino, { type DestinationStream } from 'pino';
+import pretty from 'pino-pretty';
 
-import pino from 'pino';
+import { Env } from './Env';
 
-export const logger = pino({
-  transport: {
-    target: 'pino-pretty',
-    options: {
-      colorize: true,
-    },
-  },
-});
+let stream: DestinationStream;
+
+if (Env.LOGTAIL_SOURCE_TOKEN) {
+  stream = pretty({
+    colorize: true,
+  });
+} else {
+  stream = pretty({
+    colorize: true,
+  });
+}
+
+export const logger = pino({ base: undefined }, stream);
