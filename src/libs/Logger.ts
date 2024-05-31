@@ -8,14 +8,14 @@ let stream: DestinationStream;
 
 if (Env.LOGTAIL_SOURCE_TOKEN) {
   // Use in production
-  stream = await logtail({
-    sourceToken: Env.LOGTAIL_SOURCE_TOKEN,
-    options: {
-      sendLogsToConsoleOutput: true,
-      sendLogsToBetterStack: true,
-      contextObjectMaxDepth: 0,
-    },
-  });
+  stream = pino.multistream([
+    await logtail({
+      sourceToken: Env.LOGTAIL_SOURCE_TOKEN,
+      options: {
+        sendLogsToBetterStack: true,
+      },
+    }),
+  ]);
 } else {
   stream = pretty({
     colorize: true,
