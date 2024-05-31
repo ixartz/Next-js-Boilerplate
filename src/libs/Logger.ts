@@ -5,7 +5,10 @@ import { Env } from './Env';
 
 const stream = await logtail({
   sourceToken: Env.LOGTAIL_SOURCE_TOKEN ?? '',
-  options: {},
+  options: {
+    sendLogsToConsoleOutput: true,
+    sendLogsToBetterStack: true,
+  },
 });
 
 // if (Env.LOGTAIL_SOURCE_TOKEN) {
