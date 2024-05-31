@@ -1,25 +1,27 @@
-import pino from 'pino';
+import logtail from '@logtail/pino';
+import pino, { type DestinationStream } from 'pino';
+import pretty from 'pino-pretty';
 
 import { Env } from './Env';
 
-let options = {};
+let stream: DestinationStream;
 
 if (Env.LOGTAIL_SOURCE_TOKEN) {
-  options = {
-    transport: {
-      target: '@logtail/pino',
-      options: { sourceToken: Env.LOGTAIL_SOURCE_TOKEN },
-    },
-  };
-} else {
-  options = {
-    transport: {
-      target: 'pino-pretty',
+  stream = pino.multistream([
+    await logtail({
+      sourceToken: Env.LOGTAIL_SOURCE_TOKEN,
       options: {
-        colorize: true,
+        sendLogsToBetterStack: true,
       },
+    }),
+    {
+      stream: pretty(), // Prints logs to the console
     },
-  };
+  ]);
+} else {
+  stream = pretty({
+    colorize: true,
+  });
 }
 
-export const logger = pino(options);
+export const logger = pino({ base: undefined }, stream);
