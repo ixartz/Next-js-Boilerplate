@@ -19,10 +19,15 @@ export const POST = async (request: Request) => {
   }
 
   try {
-    logger.info('A guestbook entry has been rapidly');
+    const guestbook = await db
+      .insert(guestbookSchema)
+      .values(parse.data)
+      .returning();
+
+    logger.info('A new guestbook has been created');
 
     return NextResponse.json({
-      id: 10,
+      id: guestbook[0]?.id,
     });
   } catch (error) {
     logger.error(error, 'An error occurred while creating a guestbook');
