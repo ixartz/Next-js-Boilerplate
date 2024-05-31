@@ -13,6 +13,7 @@ if (Env.LOGTAIL_SOURCE_TOKEN) {
       target: '@logtail/pino',
       options: { sourceToken: Env.LOGTAIL_SOURCE_TOKEN },
     },
+    base: undefined,
   };
 } else {
   options = {
