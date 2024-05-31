@@ -18,15 +18,13 @@ export const POST = async (request: Request) => {
     return NextResponse.json(parse.error.format(), { status: 422 });
   }
 
-  logger.info('A new guestbook has been created');
-
   try {
     const guestbook = await db
       .insert(guestbookSchema)
       .values(parse.data)
       .returning();
 
-    logger.info('A new guestbook has been created');
+    logger.info('A guestbook entry has been rapidly');
 
     return NextResponse.json({
       id: guestbook[0]?.id,
