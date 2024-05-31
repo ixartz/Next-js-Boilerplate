@@ -1,8 +1,10 @@
 import pino from 'pino';
-import pretty from 'pino-pretty';
 
-const stream = pretty({
-  colorize: true,
+export const logger = pino({
+  transport: {
+    target: 'pino-pretty',
+    options: {
+      colorize: true,
+    },
+  },
 });
-
-export const logger = pino({ base: undefined }, stream);
