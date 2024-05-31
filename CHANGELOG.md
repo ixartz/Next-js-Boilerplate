@@ -1,3 +1,10 @@
+# [3.52.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.51.0...v3.52.0) (2024-05-31)
+
+
+### Features
+
+* update Drizzle configuration for Drizzle Kit 0.22 and improve ([5159455](https://github.com/ixartz/Next-js-Boilerplate/commit/5159455ab2cfb569702b33a7e2135ec23f32d598))
+
 # [3.51.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.50.1...v3.51.0) (2024-05-29)
 
 
