@@ -25,6 +25,7 @@ export const POST = async (request: Request) => {
       .returning();
 
     logger.info('A new guestbook has been created');
+    logger.flush();
 
     return NextResponse.json({
       id: guestbook[0]?.id,
