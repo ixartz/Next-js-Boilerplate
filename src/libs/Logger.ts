@@ -15,6 +15,9 @@ if (Env.LOGTAIL_SOURCE_TOKEN) {
         sendLogsToBetterStack: true,
       },
     }),
+    {
+      stream: process.stdout,
+    },
   ]);
 } else {
   stream = pretty({
