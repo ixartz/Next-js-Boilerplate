@@ -13,11 +13,12 @@ if (Env.LOGTAIL_SOURCE_TOKEN) {
       sourceToken: Env.LOGTAIL_SOURCE_TOKEN,
       options: {
         sendLogsToBetterStack: true,
+        sendLogsToConsoleOutput: true,
       },
     }),
-    {
-      stream: pretty(),
-    },
+    // {
+    //   stream: pretty(),
+    // },
   ]);
 } else {
   stream = pretty({
