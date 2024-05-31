@@ -16,7 +16,7 @@ if (Env.LOGTAIL_SOURCE_TOKEN) {
       },
     }),
     {
-      stream: process.stdout,
+      stream: pretty(),
     },
   ]);
 } else {
