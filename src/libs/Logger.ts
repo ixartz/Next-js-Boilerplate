@@ -7,18 +7,16 @@ import { Env } from './Env';
 let stream: DestinationStream;
 
 if (Env.LOGTAIL_SOURCE_TOKEN) {
-  // Use in production
   stream = pino.multistream([
     await logtail({
       sourceToken: Env.LOGTAIL_SOURCE_TOKEN,
       options: {
         sendLogsToBetterStack: true,
-        sendLogsToConsoleOutput: true,
       },
     }),
-    // {
-    //   stream: pretty(),
-    // },
+    {
+      stream: pretty(), // Prints logs to the console
+    },
   ]);
 } else {
   stream = pretty({
