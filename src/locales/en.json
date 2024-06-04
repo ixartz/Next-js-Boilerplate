@@ -19,7 +19,8 @@
     "meta_title": "Guestbook",
     "meta_description": "An example of CRUD operation",
     "database_powered_by": "Database powered by",
-    "loading_guestbook": "Loading guestbook..."
+    "loading_guestbook": "Loading guestbook...",
+    "error_reporting_powered_by": "Error reporting powered by"
   },
   "GuestbookForm": {
     "username": "Username",

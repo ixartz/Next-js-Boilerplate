@@ -30,21 +30,24 @@ const Guestbook = () => {
       </Suspense>
 
       <div className="mt-2 text-center text-sm">
-        {`${t('database_powered_by')} `}
+        {`${t('error_reporting_powered_by')} `}
         <a
           className="text-blue-700 hover:border-b-2 hover:border-blue-700"
-          href="https://turso.tech/?utm_source=nextjsstarterbp"
+          href="https://sentry.io/for/nextjs/?utm_source=github&utm_medium=paid-community&utm_campaign=general-fy25q1-nextjs&utm_content=github-banner-nextjsboilerplate-logo"
           target="_blank"
         >
-          Turso
+          Sentry
         </a>
       </div>
 
-      <a href="https://turso.tech/?utm_source=nextjsstarterbp" target="_blank">
+      <a
+        href="https://sentry.io/for/nextjs/?utm_source=github&utm_medium=paid-community&utm_campaign=general-fy25q1-nextjs&utm_content=github-banner-nextjsboilerplate-logo"
+        target="_blank"
+      >
         <Image
           className="mx-auto mt-2"
-          src="/assets/images/turso-dark.png"
-          alt="SQLite Developer Experience"
+          src="/assets/images/sentry-dark.png"
+          alt="Sentry"
           width={130}
           height={112}
         />
