@@ -19,7 +19,8 @@
     "meta_title": "Livre d'or",
     "meta_description": "Un exemple de fonctionnement CRUD",
     "database_powered_by": "Base de données propulsée par",
-    "loading_guestbook": "Chargement du livre d'or..."
+    "loading_guestbook": "Chargement du livre d'or...",
+    "error_reporting_powered_by": "Rapport d'erreur propulsé par"
   },
   "GuestbookForm": {
     "username": "Nom d'utilisateur",
