@@ -4,12 +4,12 @@ import { EmailAlertChannel, Frequency } from 'checkly/constructs';
 
 const emailChannel = new EmailAlertChannel('email-channel-1', {
   // FIXME: add your own email address, Checkly will send you an email notification if a check fails
-  address: 'contact@creativedesignsguru.com',
+  address: 'flavio.ever@outlook.com',
   sendDegraded: true,
 });
 
 export const config = defineConfig({
-  projectName: 'Next.js Boilerplate',
+  projectName: 'Next.js Boilerplate Test',
   logicalId: 'nextjs-boilerplate',
   repoUrl: 'https://github.com/ixartz/Next-js-Boilerplate',
   checks: {
@@ -20,7 +20,7 @@ export const config = defineConfig({
       {
         key: 'PRODUCTION_URL',
         // FIXME: Add your own production URL
-        value: 'https://google.com',
+        value: 'https://www.flavioever.dev',
       },
     ],
     browserChecks: {
