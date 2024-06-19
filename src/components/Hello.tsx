@@ -19,7 +19,7 @@ const Hello = async () => {
         >
           Next.js Boilerplate SaaS
         </a>{' '}
-        can help you build one.
+        can help you build one...
       </p>
     </>
   );
