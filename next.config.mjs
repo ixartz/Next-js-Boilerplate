@@ -25,6 +25,9 @@ export default withSentryConfig(
       },
       poweredByHeader: false,
       reactStrictMode: true,
+      experimental: {
+        serverComponentsExternalPackages: ['@electric-sql/pglite'],
+      },
     }),
   ),
   {

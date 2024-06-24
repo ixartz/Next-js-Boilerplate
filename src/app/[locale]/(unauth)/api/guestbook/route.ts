@@ -1,4 +1,4 @@
-import { eq, sql } from 'drizzle-orm';
+import { eq } from 'drizzle-orm';
 import { NextResponse } from 'next/server';
 
 import { db } from '@/libs/DB';
@@ -48,11 +48,10 @@ export const PUT = async (request: Request) => {
     await db
       .update(guestbookSchema)
       .set({
-        ...parse.data,
-        updatedAt: sql`(strftime('%s', 'now'))`,
+        body: parse.data.body,
+        username: parse.data.username,
       })
-      .where(eq(guestbookSchema.id, parse.data.id))
-      .run();
+      .where(eq(guestbookSchema.id, parse.data.id));
 
     logger.info('A guestbook entry has been updated');
 
@@ -75,8 +74,7 @@ export const DELETE = async (request: Request) => {
   try {
     await db
       .delete(guestbookSchema)
-      .where(eq(guestbookSchema.id, parse.data.id))
-      .run();
+      .where(eq(guestbookSchema.id, parse.data.id));
 
     logger.info('A guestbook entry has been deleted');
 
