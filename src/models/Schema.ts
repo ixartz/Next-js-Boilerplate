@@ -1,14 +1,12 @@
-import { sql } from 'drizzle-orm';
-import { integer, sqliteTable, text } from 'drizzle-orm/sqlite-core';
+import { pgTable, serial, text, timestamp } from 'drizzle-orm/pg-core';
 
-export const guestbookSchema = sqliteTable('guestbook', {
-  id: integer('id').primaryKey(),
+export const guestbookSchema = pgTable('guestbook', {
+  id: serial('id'),
   username: text('username').notNull(),
   body: text('body').notNull(),
-  createdAt: integer('created_at', { mode: 'timestamp' }).default(
-    sql`(strftime('%s', 'now'))`,
-  ),
-  updatedAt: integer('updated_at', { mode: 'timestamp' }).default(
-    sql`(strftime('%s', 'now'))`,
-  ),
+  updatedAt: timestamp('updated_at', { mode: 'date' })
+    .defaultNow()
+    .$onUpdate(() => new Date())
+    .notNull(),
+  createdAt: timestamp('created_at', { mode: 'date' }).defaultNow().notNull(),
 });

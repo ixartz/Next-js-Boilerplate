@@ -6,7 +6,10 @@ import { DeleteGuestbookEntry } from './DeleteGuestbookEntry';
 import { EditableGuestbookEntry } from './EditableGuestbookEntry';
 
 const GuestbookList = async () => {
-  const guestbook = await db.select().from(guestbookSchema).all();
+  const guestbook = await db
+    .select()
+    .from(guestbookSchema)
+    .orderBy(guestbookSchema.createdAt);
 
   logger.info('Get all guestbook entries');
 

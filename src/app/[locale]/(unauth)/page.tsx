@@ -67,15 +67,8 @@ export default function Index() {
         >
           Clerk
         </a>
-        , Database with DrizzleORM (SQLite, PostgreSQL, and MySQL) and{' '}
-        <a
-          className="text-blue-700 hover:border-b-2 hover:border-blue-700"
-          href="https://turso.tech/?utm_source=nextjsstarterbp"
-          target="_blank"
-        >
-          Turso
-        </a>
-        , Error Monitoring with{' '}
+        , Database with DrizzleORM (PostgreSQL, SQLite, and MySQL), Error
+        Monitoring with{' '}
         <a
           className="text-blue-700 hover:border-b-2 hover:border-blue-700"
           href="https://sentry.io/for/nextjs/?utm_source=github&amp;utm_medium=paid-community&amp;utm_campaign=general-fy25q1-nextjs&amp;utm_content=github-banner-nextjsboilerplate-logo"
