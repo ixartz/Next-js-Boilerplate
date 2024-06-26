@@ -1,3 +1,12 @@
+# [3.53.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.52.0...v3.53.0) (2024-06-26)
+
+
+### Features
+
+* add updateAt and createdAt attribute in guestbook ([80d369a](https://github.com/ixartz/Next-js-Boilerplate/commit/80d369a9d374cb5557356d9ea794719e3a1f59d5))
+* create a new environement file for production ([988a051](https://github.com/ixartz/Next-js-Boilerplate/commit/988a051515666e7698a42f066198e7eb8dd44f32))
+* switch to Postgres in Drizzle ORM ([1d725e8](https://github.com/ixartz/Next-js-Boilerplate/commit/1d725e8d280e1848e792aba7c8102371b3c038a8))
+
 # [3.52.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.51.0...v3.52.0) (2024-05-31)
 
 
