@@ -141,6 +141,7 @@ Built-in feature from Next.js:
 ### Philosophy
 
 - Nothing is hidden from you, so you have the freedom to make the necessary adjustments to fit your needs and preferences.
+- Dependencies are updated every month
 - Easy to customize
 - Minimal code
 - SEO-friendly
@@ -159,6 +160,8 @@ git clone --depth=1 https://github.com/ixartz/Next-js-Boilerplate.git my-project
 cd my-project-name
 npm install
 ```
+
+For your information, all dependencies are updated every month.
 
 Then, you can run the project locally in development mode with live reload by executing:
 
