@@ -1,92 +1,193 @@
-import { getTranslations } from 'next-intl/server';
-
-import { Sponsors } from '@/components/Sponsors';
-
+import { getTranslations } from "next-intl/server";
+import TabsBarWithUnderlineMain from "src/components/tailwind-ui/application-ui/navigation/tabs/bar_with_underline_main";
+import HeroSimpleCentredWithBackgroundImage from "src/components/tailwind-ui/marketing/sections/heroes/simple_centered_with_background_image";
+import {
+  SportsEsports,
+  SportsSoccer,
+  Hiking,
+  Pool,
+  SportsScore,
+  SportsBasketball,
+  Sailing,
+  SportsBar,
+  SportsTennis,
+  VideogameAsset,
+  SportsGymnastics,
+  SportsMotorsports,
+  Surfing,
+  SportsKabaddi,
+  Sports,
+  GolfCourse,
+  SportsVolleyball,
+  SportsBaseball,
+  SportsMartialArts,
+  DownhillSkiing,
+  Scoreboard,
+  Kayaking,
+  SportsFootball,
+  SportsHandball,
+  Skateboarding,
+  SportsGolf,
+  SportsCricket,
+  NordicWalking,
+  RollerSkating,
+  Kitesurfing,
+  SportsMma,
+  Paragliding,
+  Snowboarding,
+  SportsHockey,
+  IceSkating,
+  Snowshoeing,
+  SportsRugby,
+  Sledding,
+  Snowmobile,
+  VideogameAssetOff,
+} from "@mui/icons-material";
 export async function generateMetadata(props: { params: { locale: string } }) {
   const t = await getTranslations({
     locale: props.params.locale,
-    namespace: 'Index',
+    namespace: "Index",
   });
 
   return {
-    title: t('meta_title'),
-    description: t('meta_description'),
+    title: t("meta_title"),
+    description: t("meta_description"),
   };
 }
 
 export default function Index() {
   return (
-    <>
-      <p>
-        Looking for a SaaS Boilerplate?{' '}
-        <a
-          className="text-blue-700 hover:border-b-2 hover:border-blue-700"
-          href="https://nextjs-boilerplate.com/pro-saas-starter-kit"
-        >
-          Next.js Boilerplate SaaS
-        </a>{' '}
-        can help you build one.
-      </p>
-      <p>
-        Follow{' '}
-        <a
-          className="text-blue-700 hover:border-b-2 hover:border-blue-700"
-          href="https://twitter.com/ixartz"
-          target="_blank"
-        >
-          @Ixartz on Twitter
-        </a>{' '}
-        for updates and more information about the boilerplate.
-      </p>
-      <p>
-        Our sponsors&apos; exceptional support has made this project possible.
-        Their services integrate seamlessly with the boilerplate, and we
-        recommend trying them out.
-      </p>
-      <h2 className="mt-5 text-2xl font-bold">Sponsors</h2>
-      <Sponsors />
-      <h2 className="mt-5 text-2xl font-bold">
-        Boilerplate Code for Your Next.js Project with Tailwind CSS
-      </h2>
-      <p className="text-base">
-        <span role="img" aria-label="rocket">
-          🚀
-        </span>{' '}
-        Next.js Boilerplate is a developer-friendly starter code for Next.js
-        projects, built with Tailwind CSS, and TypeScript.{' '}
-        <span role="img" aria-label="zap">
-          ⚡️
-        </span>{' '}
-        Made with developer experience first: Next.js, TypeScript, ESLint,
-        Prettier, Husky, Lint-Staged, Jest (replaced by Vitest), Testing
-        Library, Commitlint, VSCode, PostCSS, Tailwind CSS, Authentication with{' '}
-        <a
-          className="text-blue-700 hover:border-b-2 hover:border-blue-700"
-          href="https://clerk.com?utm_source=github&amp;utm_medium=sponsorship&amp;utm_campaign=nextjs-boilerplate"
-          target="_blank"
-        >
-          Clerk
-        </a>
-        , Database with DrizzleORM (PostgreSQL, SQLite, and MySQL), Error
-        Monitoring with{' '}
-        <a
-          className="text-blue-700 hover:border-b-2 hover:border-blue-700"
-          href="https://sentry.io/for/nextjs/?utm_source=github&amp;utm_medium=paid-community&amp;utm_campaign=general-fy25q1-nextjs&amp;utm_content=github-banner-nextjsboilerplate-logo"
-          target="_blank"
-        >
-          Sentry
-        </a>
-        , Logging with Pino.js and Log Management with{' '}
-        <a
-          className="text-blue-700 hover:border-b-2 hover:border-blue-700"
-          href="https://betterstack.com/?utm_source=github&amp;utm_medium=sponsorship&amp;utm_campaign=next-js-boilerplate"
-          target="_blank"
-        >
-          Better Stack
-        </a>
-        , Monitoring as Code with Checkly, Storybook, Multi-language (i18n), and
-        more.
-      </p>
-    </>
+    <div>
+      <TabsBarWithUnderlineMain />
+      <div className="w-full">
+        <ul className="flex space-x-4">
+          <li>
+            <SportsEsports />
+          </li>
+          <li>
+            <SportsSoccer />
+          </li>
+          <li>
+            <Hiking />
+          </li>
+          <li>
+            <Pool />
+          </li>
+          <li>
+            <SportsScore />
+          </li>
+          <li>
+            <SportsBasketball />
+          </li>
+          <li>
+            <Sailing />
+          </li>
+          <li>
+            <SportsBar />
+          </li>
+          <li>
+            <SportsTennis />
+          </li>
+          <li>
+            <VideogameAsset />
+          </li>
+          <li>
+            <SportsGymnastics />
+          </li>
+          <li>
+            <SportsMotorsports />
+          </li>
+          <li>
+            <Surfing />
+          </li>
+          <li>
+            <SportsKabaddi />
+          </li>
+          <li>
+            <Sports />
+          </li>
+          <li>
+            <GolfCourse />
+          </li>
+          <li>
+            <SportsVolleyball />
+          </li>
+          <li>
+            <SportsBaseball />
+          </li>
+          <li>
+            <SportsMartialArts />
+          </li>
+          <li>
+            <DownhillSkiing />
+          </li>
+          <li>
+            <Scoreboard />
+          </li>
+          <li>
+            <Kayaking />
+          </li>
+          <li>
+            <SportsFootball />
+          </li>
+          <li>
+            <SportsHandball />
+          </li>
+          <li>
+            <Skateboarding />
+          </li>
+        </ul>
+
+        <ul className="flex space-x-4 mt-2">
+          <li>
+            <SportsGolf />
+          </li>
+          <li>
+            <SportsCricket />
+          </li>
+          <li>
+            <NordicWalking />
+          </li>
+          <li>
+            <RollerSkating />
+          </li>
+          <li>
+            <Kitesurfing />
+          </li>
+          <li>
+            <SportsMma />
+          </li>
+          <li>
+            <Paragliding />
+          </li>
+          <li>
+            <Snowboarding />
+          </li>
+          <li>
+            <SportsHockey />
+          </li>
+          <li>
+            <IceSkating />
+          </li>
+          <li>
+            <Snowshoeing />
+          </li>
+          <li>
+            <SportsRugby />
+          </li>
+          <li>
+            <Sledding />
+          </li>
+          <li>
+            <Snowmobile />
+          </li>
+          <li>
+            <VideogameAssetOff />
+          </li>
+        </ul>
+
+        {/* <HeroSimpleCentredWithBackgroundImage /> */}
+      </div>
+    </div>
   );
 }
