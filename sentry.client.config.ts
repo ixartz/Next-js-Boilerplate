@@ -10,7 +10,7 @@ Sentry.init({
   // dsn: '___DSN___',
 
   // Adjust this value in production, or use tracesSampler for greater control
-  tracesSampleRate: 1,
+  tracesSampleRate: 0, //** should be 1 */
 
   // Setting this option to true will print useful information to the console while you're setting up Sentry.
   debug: false,

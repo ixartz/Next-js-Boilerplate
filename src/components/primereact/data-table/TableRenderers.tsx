@@ -1,6 +1,11 @@
 import React from 'react';
 import { Game } from '../../../types';
 
+// Define a type for the outcome
+interface Outcome {
+  price: number; // or whatever the type of price is
+}
+
 export const renderDate = (rowData: Game) => {
   const formatDate = (dateTimeString: string): string => {
     const dateObj = new Date(dateTimeString);
@@ -52,37 +57,28 @@ export const renderTeams = (rowData: Game) => {
   return (
     <>
       <span className="block leading-3 mt-2 mb-1">{rowData.home_team}</span>
-      {/* <span className="block text-center"> v </span> */}
       <span className="block leading-3 mt-1 mb-2">{rowData.away_team}</span>
     </>
   );
 };
-export const renderHomePrice = (rowData: Game) => {
-  if (
-    rowData?.bookmakers[0]?.markets[0]?.outcomes[0] !== undefined &&
-    rowData?.bookmakers[0]?.markets[0]?.outcomes.length > 0
-  ) {
-    return rowData?.bookmakers[0]?.markets[0]?.outcomes[0].price;
+
+export const renderHomePrice = (outcomes: Outcome[]) => {
+  if (outcomes[0] !== undefined) {
+    return outcomes[0].price;
   }
   return null;
 };
 
-export const renderAwayPrice = (rowData: Game) => {
-  if (
-    rowData?.bookmakers[0]?.markets[0]?.outcomes[1] !== undefined &&
-    rowData.bookmakers[0].markets[0].outcomes?.length > 1
-  ) {
-    return rowData.bookmakers[0].markets[0].outcomes[1].price;
+export const renderAwayPrice = (outcomes: Outcome[]) => {
+  if (outcomes[1] !== undefined) {
+    return outcomes[1].price;
   }
   return null;
 };
 
-export const renderDrawPrice = (rowData: Game) => {
-  if (
-    rowData?.bookmakers[0]?.markets[0]?.outcomes[2] !== undefined &&
-    rowData.bookmakers[0].markets[0].outcomes?.length > 2
-  ) {
-    return rowData.bookmakers[0].markets[0].outcomes[2].price;
+export const renderDrawPrice = (outcomes: Outcome[]) => {
+  if (outcomes[2] !== undefined) {
+    return outcomes[2].price;
   }
   return null;
 };

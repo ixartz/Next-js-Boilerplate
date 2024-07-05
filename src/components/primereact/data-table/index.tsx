@@ -83,49 +83,60 @@ const DataTableComponent: FC<Props> = ({ sportType }) => {
       />,
     ];
 
-    // Add Home column if outcomes[0] exists
-    if (renderHomePrice !== null) {
-      columns.push(
-        <Column
-          key="home"
-          header="Home"
-          headerClassName="bg-gray-50 border-b border-t border-gray-300 py-2 w-[70px]"
-          bodyClassName="border-b border-t border-gray-300"
-          body={(rowData) =>
-            renderHomePrice(rowData) !== null ? renderHomePrice(rowData) : '-'
-          }
-        />,
-      );
-    }
+    // Determine if outcomes are present and add columns accordingly
+    if (data.length > 0 && data[0]?.bookmakers?.[0]?.markets?.[0]?.outcomes) {
+      const outcomes = data[0].bookmakers[0].markets[0].outcomes;
 
-    // Add Draw column if outcomes[2] exists
-    if (renderDrawPrice !== null) {
-      columns.push(
-        <Column
-          key="draw"
-          header="Draw"
-          headerClassName="bg-gray-50 border-b border-t border-gray-300 py-2 w-[70px]"
-          bodyClassName="border-b border-t border-gray-300"
-          body={(rowData) =>
-            renderDrawPrice(rowData) !== null ? renderDrawPrice(rowData) : '-'
-          }
-        />,
-      );
-    }
+      if (outcomes[0] !== undefined) {
+        columns.push(
+          <Column
+            key="home"
+            header="Home"
+            headerClassName="bg-gray-50 border-b border-t border-gray-300 py-2 w-[70px]"
+            bodyClassName="border-b border-t border-gray-300"
+            body={(rowData) =>
+              renderHomePrice(rowData.bookmakers[0].markets[0].outcomes) !==
+              null
+                ? renderHomePrice(rowData.bookmakers[0].markets[0].outcomes)
+                : '-'
+            }
+          />,
+        );
+      }
 
-    // Add Away column if outcomes[1] exists
-    if (renderAwayPrice !== null) {
-      columns.push(
-        <Column
-          key="away"
-          header="Away"
-          headerClassName="bg-gray-50 border-r border-b border-t border-gray-300 py-2 text-center w-[70px]"
-          bodyClassName="border-r border-b border-t border-gray-300"
-          body={(rowData) =>
-            renderAwayPrice(rowData) !== null ? renderAwayPrice(rowData) : '-'
-          }
-        />,
-      );
+      if (outcomes[2] !== undefined) {
+        columns.push(
+          <Column
+            key="draw"
+            header="Draw"
+            headerClassName="bg-gray-50 border-b border-t border-gray-300 py-2 w-[70px]"
+            bodyClassName="border-b border-t border-gray-300"
+            body={(rowData) =>
+              renderDrawPrice(rowData.bookmakers[0].markets[0].outcomes) !==
+              null
+                ? renderDrawPrice(rowData.bookmakers[0].markets[0].outcomes)
+                : '-'
+            }
+          />,
+        );
+      }
+
+      if (outcomes[1] !== undefined) {
+        columns.push(
+          <Column
+            key="away"
+            header="Away"
+            headerClassName="bg-gray-50 border-r border-b border-t border-gray-300 py-2 text-center w-[70px]"
+            bodyClassName="border-r border-b border-t border-gray-300"
+            body={(rowData) =>
+              renderAwayPrice(rowData.bookmakers[0].markets[0].outcomes) !==
+              null
+                ? renderAwayPrice(rowData.bookmakers[0].markets[0].outcomes)
+                : '-'
+            }
+          />,
+        );
+      }
     }
 
     return columns;
