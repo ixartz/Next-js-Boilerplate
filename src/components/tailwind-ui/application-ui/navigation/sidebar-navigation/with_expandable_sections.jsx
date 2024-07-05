@@ -1,44 +1,44 @@
-import { Disclosure } from "@headlessui/react";
-import { ChevronRightIcon } from "@heroicons/react/20/solid";
+import { Disclosure } from '@headlessui/react';
+import { ChevronRightIcon } from '@heroicons/react/20/solid';
 
-const popular = [
-  { name: "Euro 2024", href: "#", current: false },
-  { name: "Wimbledon", href: "#", current: false },
-  { name: "Tour de France", href: "#", current: false },
-];
+// const popular = [
+//   { name: "Euro 2024", href: "#", current: false },
+//   { name: "Wimbledon", href: "#", current: false },
+//   { name: "Tour de France", href: "#", current: false },
+// ];
 const navigation = [
-  { name: "American Football", bets: 100, href: "#", current: false },
-  { name: "Australian Rules", bets: 100, href: "#", current: false },
-  { name: "Badminton", bets: 100, href: "#", current: false },
-  { name: "Basketbal", bets: 100, href: "#", current: false },
-  { name: "Beachvolleybal", bets: 100, href: "#", current: false },
-  { name: "Boksen", bets: 100, href: "#", current: false },
-  { name: "Bowlen", bets: 100, href: "#", current: false },
-  { name: "Cricket", bets: 100, href: "#", current: false },
-  { name: "Darts", bets: 100, href: "#", current: false },
-  { name: "Formule 1", bets: 100, href: "#", current: false },
-  { name: "Golf", bets: 100, href: "#", current: false },
-  { name: "Handbal", bets: 100, href: "#", current: false },
-  { name: "Honkbal", bets: 100, href: "#", current: false },
-  { name: "IJshockey", bets: 100, href: "#", current: false },
-  { name: "Lacrosse", bets: 100, href: "#", current: false },
-  { name: "Motorsport", bets: 100, href: "#", current: false },
-  { name: "Netbal", bets: 100, href: "#", current: false },
-  { name: "Olympische Spelen", bets: 100, href: "#", current: false },
-  { name: "Paardenraces", bets: 100, href: "#", current: false },
-  { name: "Rugby League", bets: 100, href: "#", current: false },
-  { name: "Rugby Union", bets: 100, href: "#", current: false },
-  { name: "Snooker", bets: 100, href: "#", current: false },
-  { name: "Tafeltennis", bets: 100, href: "#", current: false },
-  { name: "Tennis", bets: 100, href: "#", current: false },
-  { name: "Trotting", bets: 100, href: "#", current: false },
-  { name: "UFC/MMA", bets: 100, href: "#", current: false },
-  { name: "Uniboosts", bets: 100, href: "#", current: false },
-  { name: "Virtual Sports", bets: 100, href: "#", current: false },
-  { name: "Voetbal", bets: 100, href: "#", current: false },
-  { name: "Volleybal", bets: 100, href: "#", current: false },
-  { name: "Wielrennen", bets: 100, href: "#", current: false },
-  { name: "Wintersport", bets: 100, href: "#", current: false },
+  { name: 'American Football', bets: 100, href: '#', current: false },
+  { name: 'Australian Rules', bets: 100, href: '#', current: false },
+  { name: 'Badminton', bets: 100, href: '#', current: false },
+  { name: 'Basketbal', bets: 100, href: '#', current: false },
+  { name: 'Beachvolleybal', bets: 100, href: '#', current: false },
+  { name: 'Boksen', bets: 100, href: '#', current: false },
+  { name: 'Bowlen', bets: 100, href: '#', current: false },
+  { name: 'Cricket', bets: 100, href: '#', current: false },
+  { name: 'Darts', bets: 100, href: '#', current: false },
+  { name: 'Formule 1', bets: 100, href: '#', current: false },
+  { name: 'Golf', bets: 100, href: '#', current: false },
+  { name: 'Handbal', bets: 100, href: '#', current: false },
+  { name: 'Honkbal', bets: 100, href: '#', current: false },
+  { name: 'IJshockey', bets: 100, href: '#', current: false },
+  { name: 'Lacrosse', bets: 100, href: '#', current: false },
+  { name: 'Motorsport', bets: 100, href: '#', current: false },
+  { name: 'Netbal', bets: 100, href: '#', current: false },
+  { name: 'Olympische Spelen', bets: 100, href: '#', current: false },
+  { name: 'Paardenraces', bets: 100, href: '#', current: false },
+  { name: 'Rugby League', bets: 100, href: '#', current: false },
+  { name: 'Rugby Union', bets: 100, href: '#', current: false },
+  { name: 'Snooker', bets: 100, href: '#', current: false },
+  { name: 'Tafeltennis', bets: 100, href: '#', current: false },
+  { name: 'Tennis', bets: 100, href: '#', current: false },
+  { name: 'Trotting', bets: 100, href: '#', current: false },
+  { name: 'UFC/MMA', bets: 100, href: '#', current: false },
+  { name: 'Uniboosts', bets: 100, href: '#', current: false },
+  { name: 'Virtual Sports', bets: 100, href: '#', current: false },
+  { name: 'Voetbal', bets: 100, href: '#', current: false },
+  { name: 'Volleybal', bets: 100, href: '#', current: false },
+  { name: 'Wielrennen', bets: 100, href: '#', current: false },
+  { name: 'Wintersport', bets: 100, href: '#', current: false },
   // {
   //   name: 'Teams',
   //   current: false,
@@ -64,12 +64,12 @@ const navigation = [
 ];
 
 function classNames(...classes) {
-  return classes.filter(Boolean).join(" ");
+  return classes.filter(Boolean).join(' ');
 }
 
 export default function SideNavWithExpandableSections() {
   return (
-    <div className="flex grow flex-col overflow-y-aut bg-white px-6">
+    <div className="flex grow flex-col overflow-y-aut bg-white">
       <div className="flex shrink-0 items-center">
         {/* <img
           className="h-8 w-auto"
@@ -87,8 +87,8 @@ export default function SideNavWithExpandableSections() {
                     <a
                       href={item.href}
                       className={classNames(
-                        item.current ? "bg-gray-50" : "hover:bg-gray-900",
-                        "block px-4 pr-2 text-sm leading-6 font-semibold text-white"
+                        item.current ? 'bg-gray-50' : 'hover:bg-gray-900',
+                        'block px-4 pr-2 text-sm leading-6 font-semibold text-white',
                       )}
                     >
                       <div className="flex justify-between text-xxs">
@@ -102,16 +102,16 @@ export default function SideNavWithExpandableSections() {
                         <>
                           <Disclosure.Button
                             className={classNames(
-                              item.current ? "bg-gray-50" : "hover:bg-gray-50",
-                              "flex items-center w-full text-left rounded-md p-2 gap-x-3 text-sm leading-6 font-semibold text-gray-700"
+                              item.current ? 'bg-gray-50' : 'hover:bg-gray-50',
+                              'flex items-center w-full text-left rounded-md p-2 gap-x-3 text-sm leading-6 font-semibold text-gray-700',
                             )}
                           >
                             <ChevronRightIcon
                               className={classNames(
                                 open
-                                  ? "rotate-90 text-gray-500"
-                                  : "text-gray-400",
-                                "h-5 w-5 shrink-0"
+                                  ? 'rotate-90 text-gray-500'
+                                  : 'text-gray-400',
+                                'h-5 w-5 shrink-0',
                               )}
                               aria-hidden="true"
                             />
@@ -125,9 +125,9 @@ export default function SideNavWithExpandableSections() {
                                   href={subItem.href}
                                   className={classNames(
                                     subItem.current
-                                      ? "bg-gray-50"
-                                      : "hover:bg-gray-50",
-                                    "block rounded-md py-2 pr-2 pl-9 text-sm leading-6 text-gray-700"
+                                      ? 'bg-gray-50'
+                                      : 'hover:bg-gray-50',
+                                    'block rounded-md py-2 pr-2 pl-9 text-sm leading-6 text-gray-700',
                                   )}
                                 >
                                   {subItem.name}

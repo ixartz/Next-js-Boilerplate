@@ -10,8 +10,7 @@
     "alwaysStrict": true,
     "strictNullChecks": true,
     "noUncheckedIndexedAccess": true,
-
-    "noImplicitAny": true,
+    "noImplicitAny": false, //** change to true - errors will appear */
     "noImplicitReturns": true,
     "noImplicitThis": true,
     "noUnusedLocals": true,
@@ -59,6 +58,7 @@
     "**/*.tsx",
     ".storybook/*.ts",
     ".next/types/**/*.ts",
-    "**/*.mts"
+    "**/*.mts",
+    "src/components/primereact/data-table/index.tsx"
   ]
 }

@@ -1,18 +1,10 @@
-
-"use client"
-import { useState } from 'react'
-import { Dialog } from '@headlessui/react'
-import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
-
-const navigation = [
-  { name: 'Product', href: '#' },
-  { name: 'Features', href: '#' },
-  { name: 'Marketplace', href: '#' },
-  { name: 'Company', href: '#' },
-]
+'use client';
+// import { useState } from 'react'
+// import { Dialog } from '@headlessui/react'
+// import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 
 export default function HeroSimpleCentredWithBackgroundImage() {
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+  // const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
     <div className="bg-gray-900 w-full">
@@ -132,8 +124,9 @@ export default function HeroSimpleCentredWithBackgroundImage() {
               Data to enrich your online business
             </h1>
             <p className="mt-6 text-lg leading-8 text-gray-300">
-              Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet
-              fugiat veniam occaecat fugiat aliqua.
+              Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui
+              lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat
+              fugiat aliqua.
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <a
@@ -142,7 +135,10 @@ export default function HeroSimpleCentredWithBackgroundImage() {
               >
                 Get started
               </a>
-              <a href="#" className="text-sm font-semibold leading-6 text-white">
+              <a
+                href="#"
+                className="text-sm font-semibold leading-6 text-white"
+              >
                 Learn more <span aria-hidden="true">→</span>
               </a>
             </div>
@@ -162,5 +158,5 @@ export default function HeroSimpleCentredWithBackgroundImage() {
         </div>
       </div>
     </div>
-  )
+  );
 }
