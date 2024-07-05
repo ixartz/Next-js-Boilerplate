@@ -49,8 +49,8 @@ export default function NavMain() {
                   className="mx-auto my-3"
                   src="/assets/images/logo/casa-dourada-dark.png"
                   alt={AppConfig.name}
-                  width={828}
-                  height={308}
+                  width={40}
+                  height={107}
                   layout="responsive"
                 />
                 <div className="hidden md:ml-6 md:flex md:items-center md:space-x-4">
