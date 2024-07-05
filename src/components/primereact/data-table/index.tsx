@@ -23,12 +23,17 @@ interface Props {
 const DataTableComponent: FC<Props> = ({ sportType }) => {
   const [data, setData] = useState<Game[]>([]);
   const [first, setFirst] = useState(0);
-  // const [rows, setRows] = useState(10); // Number of rows per page
+  const [rows, setRows] = useState(10); // Number of rows per page
 
   useEffect(() => {
     const fetchData = async () => {
-      const newData = await fetchGameData(sportType);
-      setData(newData);
+      try {
+        const newData = await fetchGameData(sportType);
+        setData(newData);
+      } catch (error) {
+        console.error('Error fetching data:', error);
+        setData([]); // Set data to empty array in case of error
+      }
     };
 
     fetchData();
@@ -85,7 +90,6 @@ const DataTableComponent: FC<Props> = ({ sportType }) => {
       />,
     ];
 
-    // Determine if outcomes are present and add columns accordingly
     if (data.length > 0 && data[0]?.bookmakers?.[0]?.markets?.[0]?.outcomes) {
       const outcomes = data[0].bookmakers[0].markets[0].outcomes;
 
@@ -144,12 +148,13 @@ const DataTableComponent: FC<Props> = ({ sportType }) => {
     return columns;
   };
 
-  if (data.length === 0) {
-    return <div>Loading...</div>;
-  }
+  const onPageChange = (event: { first: number; rows: number }) => {
+    setFirst(event.first);
+    setRows(event.rows);
+  };
 
   if (data.length === 0) {
-    return <div>No data available</div>;
+    return <div>Loading...</div>;
   }
 
   return (
@@ -159,12 +164,11 @@ const DataTableComponent: FC<Props> = ({ sportType }) => {
         className="p-datatable-striped text-xxs lg:text-xs"
         header={headerTemplate()}
         first={first}
-        // rows={rows}
+        rows={rows}
         paginator
         paginatorPosition="bottom"
-        totalRecords={data.length} // Assuming all data is loaded initially
-        onPage={(e) => setFirst(e.first)}
-        // onPageChange={(e) => setRows(e.rows)}
+        totalRecords={data.length}
+        onPage={onPageChange}
       >
         {getColumns()}
       </DataTable>
