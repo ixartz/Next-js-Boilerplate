@@ -1,9 +1,9 @@
-'use client'; //** remove for ssr? */
+'use client';
 import { useTranslations } from 'next-intl';
 import { AppConfig } from '@/utils/AppConfig';
-import SideNavWithExpandableSections from '../components/tailwind-ui/application-ui/navigation/sidebar-navigation/with_expandable_sections';
-import TabsBarWithUnderline from '../components/tailwind-ui/application-ui/navigation/tabs/bar_with_underline_header';
 import NavMain from '@/components/tailwind-ui/application-ui/navigation/navbars/dark_with_quick_action';
+import SideNavWithExpandableSections from '@/components/tailwind-ui/application-ui/navigation/sidebar-navigation/with_expandable_sections';
+import TabsBarWithUnderline from '@/components/tailwind-ui/application-ui/navigation/tabs/bar_with_underline_header';
 
 const BaseTemplate = (props: {
   leftNav: React.ReactNode;
@@ -26,7 +26,7 @@ const BaseTemplate = (props: {
           <div>
             <nav className="w-full">
               <ul className="flex flex-wrap gap-x-5 text-xl w-full">
-                {/* {props.leftNav} */}
+                {props.leftNav}
                 <NavMain />
               </ul>
             </nav>
@@ -36,11 +36,11 @@ const BaseTemplate = (props: {
                 <TabsBarWithUnderline />
               </div>
             </nav>
-            {/* <nav>
+            <nav>
               <ul className="flex flex-wrap gap-x-5 text-xl">
                 {props.rightNav}
               </ul>
-            </nav> */}
+            </nav>
           </div>
         </header>
 
