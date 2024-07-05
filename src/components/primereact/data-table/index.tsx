@@ -22,6 +22,8 @@ interface Props {
 
 const DataTableComponent: FC<Props> = ({ sportType }) => {
   const [data, setData] = useState<Game[]>([]);
+  const [first, setFirst] = useState(0);
+  // const [rows, setRows] = useState(10); // Number of rows per page
 
   useEffect(() => {
     const fetchData = async () => {
@@ -142,12 +144,27 @@ const DataTableComponent: FC<Props> = ({ sportType }) => {
     return columns;
   };
 
+  if (data.length === 0) {
+    return <div>Loading...</div>;
+  }
+
+  if (data.length === 0) {
+    return <div>No data available</div>;
+  }
+
   return (
     <div className="datatable">
       <DataTable
         value={data}
         className="p-datatable-striped text-xxs lg:text-xs"
         header={headerTemplate()}
+        first={first}
+        // rows={rows}
+        paginator
+        paginatorPosition="bottom"
+        totalRecords={data.length} // Assuming all data is loaded initially
+        onPage={(e) => setFirst(e.first)}
+        // onPageChange={(e) => setRows(e.rows)}
       >
         {getColumns()}
       </DataTable>

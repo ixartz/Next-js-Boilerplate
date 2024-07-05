@@ -88,6 +88,7 @@
     "babel-plugin-transform-import-meta": "^2.2.1",
     "checkly": "^4.7.0",
     "commitizen": "^4.3.0",
+    "critical": "^7.1.2",
     "cross-env": "^7.0.3",
     "cssnano": "^7.0.3",
     "dotenv-cli": "^7.4.2",
