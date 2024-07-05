@@ -1,9 +1,9 @@
 "use client";
 import { useTranslations } from "next-intl";
 import { AppConfig } from "@/utils/AppConfig";
-import NavMain from "/src/components/tailwind-ui/application-ui/navigation/navbars/dark_with_quick_action";
-import SideNavWithExpandableSections from "/src/components/tailwind-ui/application-ui/navigation/sidebar-navigation/with_expandable_sections";
-import TabsBarWithUnderline from "/src/components/tailwind-ui/application-ui/navigation/tabs/bar_with_underline_header";
+import NavMain from "@/components/tailwind-ui/application-ui/navigation/navbars/dark_with_quick_action";
+import SideNavWithExpandableSections from "@/components/tailwind-ui/application-ui/navigation/sidebar-navigation/with_expandable_sections";
+import TabsBarWithUnderline from "@/components/tailwind-ui/application-ui/navigation/tabs/bar_with_underline_header";
 
 const BaseTemplate = (props: {
   // leftNav: React.ReactNode;
@@ -15,7 +15,7 @@ const BaseTemplate = (props: {
   return (
     <div className="w-full text-gray-700 antialiased">
       <div className="mx-auto">
-        <header className=" bg-green-800 px-3 sm:px-6">
+        <header className="bg-green-800 px-3 sm:px-6">
           {/* <div className="pb-8 pt-16">
             <h1 className="text-3xl font-bold text-gray-900">
              

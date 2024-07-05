@@ -57,36 +57,30 @@ export const renderTeams = (rowData: Game) => {
 };
 export const renderHomePrice = (rowData: Game) => {
   if (
-    rowData.bookmakers.length > 0 &&
-    rowData.bookmakers[0].markets.length > 0 &&
-    rowData.bookmakers[0].markets[0].outcomes.length > 0
+    rowData?.bookmakers?.[0]?.markets?.length !== undefined &&
+    rowData?.bookmakers[0]?.markets[0]?.outcomes?.length > 0
   ) {
-    return rowData?.bookmakers[0].markets[0].outcomes[0].price;
-  } else {
-    return null;
+    return rowData.bookmakers[0].markets[0].outcomes[0].price;
   }
+  return null;
 };
 
 export const renderAwayPrice = (rowData: Game) => {
   if (
-    rowData.bookmakers.length > 0 &&
-    rowData.bookmakers[0].markets.length > 0 &&
-    rowData.bookmakers[0].markets[0].outcomes.length > 1
+    rowData?.bookmakers?.[0]?.markets?.length !== undefined &&
+    rowData.bookmakers[0].markets[0].outcomes?.length > 1
   ) {
-    return rowData?.bookmakers[0].markets[0].outcomes[1].price;
-  } else {
-    return null;
+    return rowData.bookmakers[0].markets[0].outcomes[1].price;
   }
+  return null;
 };
 
 export const renderDrawPrice = (rowData: Game) => {
   if (
-    rowData.bookmakers.length > 0 &&
-    rowData.bookmakers[0].markets.length > 0 &&
-    rowData.bookmakers[0].markets[0].outcomes.length > 2
+    rowData?.bookmakers?.[0]?.markets?.length !== undefined &&
+    rowData.bookmakers[0].markets[0].outcomes?.length > 2
   ) {
-    return rowData?.bookmakers[0].markets[0].outcomes[2].price;
-  } else {
-    return null;
+    return rowData.bookmakers[0].markets[0].outcomes[2].price;
   }
+  return null;
 };

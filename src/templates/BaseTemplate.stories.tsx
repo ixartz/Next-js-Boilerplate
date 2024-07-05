@@ -30,12 +30,12 @@ type Story = StoryObj<typeof meta>;
 export const BaseWithReactComponent = {
   args: {
     children: <div>Children node</div>,
-    leftNav: (
-      <>
-        <li>Link 1</li>
-        <li>Link 2</li>
-      </>
-    ),
+    // leftNav: (
+    //   <>
+    //     <li>Link 1</li>
+    //     <li>Link 2</li>
+    //   </>
+    // ),
   },
 } satisfies Story;
 

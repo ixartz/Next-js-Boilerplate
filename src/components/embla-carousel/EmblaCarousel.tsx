@@ -3,7 +3,8 @@ import React, { useEffect } from 'react'
 import useEmblaCarousel from 'embla-carousel-react'
 
 export function EmblaCarousel() {
-  const [emblaRef, emblaApi] = useEmblaCarousel({ loop: false })
+  // const [emblaRef, emblaApi] = useEmblaCarousel({ loop: false })
+  const [emblaApi] = useEmblaCarousel({ loop: false })
 
   useEffect(() => {
     if (emblaApi) {
@@ -19,6 +20,6 @@ export function EmblaCarousel() {
     //     <div className="embla__slide">Slide 3</div>
     //   </div>
     // </div>
-    <div>HI</div>
+    <div>TEST</div>
   )
 }
