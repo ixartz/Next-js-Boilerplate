@@ -23,3 +23,7 @@
   color: #fff;
   border-color: #007ad9;
 }
+
+.p-datatable-header {
+  background-color: transparent;
+}
