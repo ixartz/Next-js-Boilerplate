@@ -2,7 +2,7 @@ import { AppConfig } from '@/utils/AppConfig';
 import { Fragment } from 'react';
 import { Disclosure, Menu, Transition } from '@headlessui/react';
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline';
-// import Image from 'next/image';
+import Image from 'next/image';
 
 const user = {
   name: 'Tom Cook',
@@ -45,21 +45,16 @@ export default function NavMain() {
                     )}
                   </Disclosure.Button>
                 </div>
-                {/* <Image
-                  className="mx-auto my-3"
-                  src="/assets/images/logo/casa-dourada-dark.png"
-                  alt={AppConfig.name}
-                  width={40}
-                  height={107}
-                  layout="responsive"
-                /> */}
-                <img
-                  className="mx-auto my-3 w-[108px]"
-                  src="/assets/images/logo/casa-dourada-dark.png"
-                  alt={AppConfig.name}
-                  width={40}
-                  height={108}
-                />
+                <div className="w-[108px]">
+                  <Image
+                    className="mx-auto my-3 w-[108px]"
+                    src="/assets/images/logo/casa-dourada-dark.png"
+                    alt={AppConfig.name}
+                    width={40}
+                    height={108}
+                    loading="eager"
+                  />
+                </div>
                 <div className="hidden md:ml-6 md:flex md:items-center md:space-x-4">
                   {navigation.map((item) => (
                     <a
