@@ -1,0 +1,25 @@
+/* Override pagination styles */
+.p-paginator .p-paginator-pages {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.p-paginator .p-paginator-pages .p-paginator-page {
+  background-color: #f0f0f0;
+  color: #333;
+  border: 1px solid #ccc;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.p-paginator .p-paginator-pages .p-paginator-page:hover {
+  background-color: #e0e0e0;
+}
+
+.p-paginator .p-paginator-pages .p-paginator-page.p-paginator-element-active {
+  background-color: #007ad9;
+  color: #fff;
+  border-color: #007ad9;
+}
