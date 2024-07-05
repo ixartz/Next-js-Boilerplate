@@ -10,37 +10,37 @@ export default function DashboardLayout(props: { children: React.ReactNode }) {
 
   return (
     <BaseTemplate
-      leftNav={
-        <>
-          <li>
-            <Link
-              href="/dashboard/"
-              className="border-none text-gray-700 hover:text-gray-900"
-            >
-              {t('dashboard_link')}
-            </Link>
-          </li>
-          <li>
-            <Link
-              href="/dashboard/user-profile/"
-              className="border-none text-gray-700 hover:text-gray-900"
-            >
-              {t('user_profile_link')}
-            </Link>
-          </li>
-        </>
-      }
-      rightNav={
-        <>
-          <li>
-            <LogOutButton />
-          </li>
+      // leftNav={
+      //   <>
+      //     <li>
+      //       <Link
+      //         href="/dashboard/"
+      //         className="border-none text-gray-700 hover:text-gray-900"
+      //       >
+      //         {t('dashboard_link')}
+      //       </Link>
+      //     </li>
+      //     <li>
+      //       <Link
+      //         href="/dashboard/user-profile/"
+      //         className="border-none text-gray-700 hover:text-gray-900"
+      //       >
+      //         {t('user_profile_link')}
+      //       </Link>
+      //     </li>
+      //   </>
+      // }
+      // rightNav={
+      //   <>
+      //     <li>
+      //       <LogOutButton />
+      //     </li>
 
-          <li>
-            <LocaleSwitcher />
-          </li>
-        </>
-      }
+      //     <li>
+      //       <LocaleSwitcher />
+      //     </li>
+      //   </>
+      // }
     >
       {props.children}
     </BaseTemplate>
