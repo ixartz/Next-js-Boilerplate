@@ -1,6 +1,9 @@
 import { getTranslations } from "next-intl/server";
 import TabsBarWithUnderlineMain from "src/components/tailwind-ui/application-ui/navigation/tabs/bar_with_underline_main";
 import HeroSimpleCentredWithBackgroundImage from "src/components/tailwind-ui/marketing/sections/heroes/simple_centered_with_background_image";
+
+import DataTableComponent from "src/components/primereact/data-table";
+
 import {
   SportsEsports,
   SportsSoccer,
@@ -43,6 +46,7 @@ import {
   Snowmobile,
   VideogameAssetOff,
 } from "@mui/icons-material";
+
 export async function generateMetadata(props: { params: { locale: string } }) {
   const t = await getTranslations({
     locale: props.params.locale,
@@ -59,8 +63,13 @@ export default function Index() {
   return (
     <div>
       <TabsBarWithUnderlineMain />
-      <div className="w-full">
-        <ul className="flex space-x-4">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <DataTableComponent sportType="soccer" />
+        <DataTableComponent sportType="americanfootball_nfl" />
+      </div>
+
+      {/* <HeroSimpleCentredWithBackgroundImage /> */}
+      {/* <ul className="flex space-x-4">
           <li>
             <SportsEsports />
           </li>
@@ -184,10 +193,7 @@ export default function Index() {
           <li>
             <VideogameAssetOff />
           </li>
-        </ul>
-
-        {/* <HeroSimpleCentredWithBackgroundImage /> */}
-      </div>
+        </ul> */}
     </div>
   );
 }

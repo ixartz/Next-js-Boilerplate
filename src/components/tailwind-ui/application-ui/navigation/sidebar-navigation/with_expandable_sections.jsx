@@ -1,11 +1,11 @@
 import { Disclosure } from "@headlessui/react";
 import { ChevronRightIcon } from "@heroicons/react/20/solid";
 
-const popular = [
-  { name: "Euro 2024", href: "#", current: false },
-  { name: "Wimbledon", href: "#", current: false },
-  { name: "Tour de France", href: "#", current: false },
-];
+// const popular = [
+//   { name: "Euro 2024", href: "#", current: false },
+//   { name: "Wimbledon", href: "#", current: false },
+//   { name: "Tour de France", href: "#", current: false },
+// ];
 const navigation = [
   { name: "American Football", bets: 100, href: "#", current: false },
   { name: "Australian Rules", bets: 100, href: "#", current: false },
@@ -69,7 +69,7 @@ function classNames(...classes) {
 
 export default function SideNavWithExpandableSections() {
   return (
-    <div className="flex grow flex-col overflow-y-aut bg-white px-6">
+    <div className="flex grow flex-col overflow-y-aut bg-white">
       <div className="flex shrink-0 items-center">
         {/* <img
           className="h-8 w-auto"

@@ -46,10 +46,10 @@ export default function TabsBarWithUnderlineMain() {
       </div>
       <div className="hidden sm:block w-full bg-gray-800">
         <nav
-          className="isolate flex w-1/2"
+          className="isolate flex max-w-[600px]"
           aria-label="Tabs"
         >
-          {tabs.map((tab, tabIdx) => (
+          {tabs.map((tab) => (
             <a
               key={tab.name}
               href={tab.href}

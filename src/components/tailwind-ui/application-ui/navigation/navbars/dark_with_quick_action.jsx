@@ -1,8 +1,7 @@
-import { AppConfig } from "@/utils/AppConfig";
+import { AppConfig } from "@/utils/AppConfig.ts";
 import { Fragment } from "react";
 import { Disclosure, Menu, Transition } from "@headlessui/react";
 import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/react/24/outline";
-import { PlusIcon } from "@heroicons/react/20/solid";
 import Image from "next/image";
 
 const user = {
@@ -29,7 +28,7 @@ function classNames(...classes) {
 
 export default function NavMain() {
   return (
-    <Disclosure as="nav" className="bg-green-800 w-full">
+    <Disclosure as="nav" className="w-full">
       {({ open }) => (
         <>
           <div className="mx-auto max-w-screen-xl">

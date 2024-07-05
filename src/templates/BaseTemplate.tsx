@@ -6,8 +6,8 @@ import SideNavWithExpandableSections from "/src/components/tailwind-ui/applicati
 import TabsBarWithUnderline from "/src/components/tailwind-ui/application-ui/navigation/tabs/bar_with_underline_header";
 
 const BaseTemplate = (props: {
-  leftNav: React.ReactNode;
-  rightNav?: React.ReactNode;
+  // leftNav: React.ReactNode;
+  // rightNav?: React.ReactNode;
   children: React.ReactNode;
 }) => {
   const t = useTranslations("BaseTemplate");
@@ -15,7 +15,7 @@ const BaseTemplate = (props: {
   return (
     <div className="w-full text-gray-700 antialiased">
       <div className="mx-auto">
-        <header>
+        <header className=" bg-green-800 px-3 sm:px-6">
           {/* <div className="pb-8 pt-16">
             <h1 className="text-3xl font-bold text-gray-900">
              
@@ -23,7 +23,7 @@ const BaseTemplate = (props: {
             <h2 className="text-xl">{t("description")}</h2>
           </div> */}
 
-          <div className="">
+          <div>
             <nav className="w-full">
               <ul className="flex flex-wrap gap-x-5 text-xl w-full">
                 {/* {props.leftNav} */}
@@ -44,9 +44,9 @@ const BaseTemplate = (props: {
           </div>
         </header>
 
-        <main className="mx-auto max-w-screen-xl pt-4">
+        <main className="mx-auto max-w-screen-xl pt-4 px-3 sm:px-6">
           <div className="flex w-full">
-            <div className="w-64">
+            <div className="w-64 mr-4 hidden sm:block">
               <SideNavWithExpandableSections />
             </div>
             <div className="w-full">{props.children}</div>
@@ -63,12 +63,6 @@ const BaseTemplate = (props: {
             Molto SEO
           </a>
           .
-          {/*
-           * PLEASE READ THIS SECTION
-           * I'm an indie maker with limited resources and funds, I'll really appreciate if you could have a link to my website.
-           * The link doesn't need to appear on every pages, one link on one page is enough.
-           * For example, in the `About` page. Thank you for your support, it'll mean a lot to me.
-           */}
         </footer>
       </div>
     </div>
