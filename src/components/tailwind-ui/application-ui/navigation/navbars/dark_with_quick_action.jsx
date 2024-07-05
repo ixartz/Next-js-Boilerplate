@@ -54,11 +54,11 @@ export default function NavMain() {
                   layout="responsive"
                 /> */}
                 <img
-                  className="mx-auto my-3 w-full"
+                  className="mx-auto my-3 w-[108px]"
                   src="/assets/images/logo/casa-dourada-dark.png"
                   alt={AppConfig.name}
                   width={40}
-                  height={107}
+                  height={108}
                 />
                 <div className="hidden md:ml-6 md:flex md:items-center md:space-x-4">
                   {navigation.map((item) => (
