@@ -36,6 +36,7 @@
     "@hookform/resolvers": "^3.6.0",
     "@logtail/pino": "^0.4.22",
     "@mui/icons-material": "^5.15.21",
+    "@netlify/functions": "^2.8.1",
     "@sentry/nextjs": "^7.118.0",
     "@spotlightjs/spotlight": "^1.2.17",
     "@t3-oss/env-nextjs": "^0.10.1",

@@ -15,6 +15,7 @@ import {
 
 import { fetchGameData } from '@/services/apiService';
 import { SportsFootball, SportsSoccer } from '@mui/icons-material';
+// import useOddsDataDataFetch from '../hooks/useOddsDataDataFetch';
 
 interface Props {
   sportType: 'americanfootball_nfl' | 'soccer';
@@ -39,6 +40,23 @@ const DataTableComponent: FC<Props> = ({ sportType }) => {
     fetchData();
   }, [sportType]);
 
+  // useEffect(() => {
+  //   const fetchData = async () => {
+  //     try {
+  //       const response = await fetch('/netlify/functions/getData'); // Replace with your Netlify Function endpoint
+  //       if (response.ok) {
+  //         const jsonData = await response.json();
+  //         setData(jsonData);
+  //       } else {
+  //         console.error('Failed to fetch data');
+  //       }
+  //     } catch (error) {
+  //       console.error('Error fetching data:', error);
+  //     }
+  //   };
+
+  //   fetchData();
+  // }, []);
   const iconMapping: { [key in Props['sportType']]: JSX.Element } = {
     americanfootball_nfl: <SportsFootball />,
     soccer: <SportsSoccer />,
