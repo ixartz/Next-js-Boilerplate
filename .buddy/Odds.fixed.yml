@@ -1,0 +1,6 @@
+- pipeline: "Odds"
+  on: "CLICK"
+  refs:
+  - "refs/heads/main"
+  - "refs/heads/pre-production"
+  fail_on_prepare_env_warning: true
