@@ -28,4 +28,4 @@ jobs:
 
       - name: Deploy to Netlify
         run: |
-          curl -X POST -d '{}' https://api.netlify.com/build_hooks/your_build_hook_id  # Replace with your Netlify build hook URL
+          curl -X POST -d '{}' https://api.netlify.com/build_hooks/66893afb7957cd9eb0413eaa  # Replace with your Netlify build hook URL
