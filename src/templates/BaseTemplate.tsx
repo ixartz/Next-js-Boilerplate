@@ -3,6 +3,7 @@ import { useTranslations } from 'next-intl';
 import { AppConfig } from '@/utils/AppConfig';
 import SideNavWithExpandableSections from '../components/tailwind-ui/application-ui/navigation/sidebar-navigation/with_expandable_sections';
 import TabsBarWithUnderline from '../components/tailwind-ui/application-ui/navigation/tabs/bar_with_underline_header';
+import NavMain from '@/components/tailwind-ui/application-ui/navigation/navbars/dark_with_quick_action';
 
 const BaseTemplate = (props: {
   leftNav: React.ReactNode;
@@ -25,6 +26,7 @@ const BaseTemplate = (props: {
           <div>
             <nav className="flex flex-wrap gap-x-5 text-xl w-full">
               {/* {props.leftNav} */}
+              <NavMain />
             </nav>
 
             <nav className="w-full bg-green-800">

@@ -143,7 +143,7 @@ export default function SideNavWithExpandableSections() {
               ))}
             </ul>
           </li>
-          <li className="-mx-6 mt-auto">
+          {/* <li className="-mx-6 mt-auto">
             <a
               href="#"
               className="flex items-center gap-x-4 px-6 py-3 text-sm font-semibold leading-6 text-gray-900 hover:bg-gray-50"
@@ -156,7 +156,7 @@ export default function SideNavWithExpandableSections() {
               <span className="sr-only">Your profile</span>
               <span aria-hidden="true">Tom Cook</span>
             </a>
-          </li>
+          </li> */}
         </ul>
       </nav>
     </div>
