@@ -2,7 +2,6 @@ import { AppConfig } from '@/utils/AppConfig';
 import { Fragment } from 'react';
 import { Disclosure, Menu, Transition } from '@headlessui/react';
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline';
-import Image from 'next/image';
 
 const user = {
   name: 'Tom Cook',
@@ -45,13 +44,13 @@ export default function NavMain() {
                     )}
                   </Disclosure.Button>
                 </div>
-                <div className="w-[108px]">
-                  <Image
-                    className="mx-auto my-3 w-[108px]"
+                <div>
+                  <img
+                    className="mx-auto my-3"
                     src="/assets/images/logo/casa-dourada-dark.png"
                     alt={AppConfig.name}
-                    width={40}
-                    height={108}
+                    width={108}
+                    height={40}
                     loading="eager"
                   />
                 </div>
@@ -64,7 +63,7 @@ export default function NavMain() {
                         item.current
                           ? ' text-white'
                           : 'text-gray-300 hover:bg-gray-700 hover:text-white',
-                        'rounded-md px-3 py-2 text-sm font-medium',
+                        'rounded-md px-3 py-2 text-sm font-medium'
                       )}
                       aria-current={item.current ? 'page' : undefined}
                     >
@@ -121,7 +120,7 @@ export default function NavMain() {
                                 href={item.href}
                                 className={classNames(
                                   active ? 'bg-gray-100' : '',
-                                  'block px-4 py-2 text-sm text-gray-700',
+                                  'block px-4 py-2 text-sm text-gray-700'
                                 )}
                               >
                                 {item.name}
@@ -148,7 +147,7 @@ export default function NavMain() {
                     item.current
                       ? 'bg-gray-900 text-white'
                       : 'text-gray-300 hover:bg-gray-700 hover:text-white',
-                    'block rounded-md px-3 py-2 text-base font-medium',
+                    'block rounded-md px-3 py-2 text-base font-medium'
                   )}
                   aria-current={item.current ? 'page' : undefined}
                 >
