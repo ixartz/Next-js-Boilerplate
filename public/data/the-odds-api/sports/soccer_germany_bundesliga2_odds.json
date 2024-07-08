@@ -1,0 +1,236 @@
+[
+  {
+    "id": "c10ec8c5c940936efb836cf5a8ab5791",
+    "sport_key": "soccer_germany_bundesliga2",
+    "sport_title": "Bundesliga 2 - Germany",
+    "commence_time": "2024-08-02T18:30:00Z",
+    "home_team": "1. FC K\u00f6ln",
+    "away_team": "Hamburger SV",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:42:42Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:42Z",
+            "outcomes": [
+              { "name": "1. FC K\u00f6ln", "price": 140 },
+              { "name": "Hamburger SV", "price": 175 },
+              { "name": "Draw", "price": 240 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "a5b5e40a0443c3ae21a57f543da2a45e",
+    "sport_key": "soccer_germany_bundesliga2",
+    "sport_title": "Bundesliga 2 - Germany",
+    "commence_time": "2024-08-03T19:00:00Z",
+    "home_team": "SSV Ulm 1846",
+    "away_team": "1. FC Kaiserslautern",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:42:42Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:42Z",
+            "outcomes": [
+              { "name": "1. FC Kaiserslautern", "price": 160 },
+              { "name": "SSV Ulm 1846", "price": 155 },
+              { "name": "Draw", "price": 230 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ae9e7ffeebda15b6786f860556b6c9bc",
+    "sport_key": "soccer_germany_bundesliga2",
+    "sport_title": "Bundesliga 2 - Germany",
+    "commence_time": "2024-08-03T19:00:00Z",
+    "home_team": "1. FC Magdeburg",
+    "away_team": "Elversberg",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:42:42Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:42Z",
+            "outcomes": [
+              { "name": "1. FC Magdeburg", "price": -105 },
+              { "name": "Elversberg", "price": 260 },
+              { "name": "Draw", "price": 250 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "be1da043f40c0fecf32b410f7598c8f1",
+    "sport_key": "soccer_germany_bundesliga2",
+    "sport_title": "Bundesliga 2 - Germany",
+    "commence_time": "2024-08-03T19:00:00Z",
+    "home_team": "Karlsruher SC",
+    "away_team": "1. FC N\u00fcrnberg",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:42:42Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:42Z",
+            "outcomes": [
+              { "name": "1. FC N\u00fcrnberg", "price": 250 },
+              { "name": "Karlsruher SC", "price": -105 },
+              { "name": "Draw", "price": 250 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fc89dce19b39d10694f0ae925309b984",
+    "sport_key": "soccer_germany_bundesliga2",
+    "sport_title": "Bundesliga 2 - Germany",
+    "commence_time": "2024-08-03T19:00:00Z",
+    "home_team": "FC Schalke 04",
+    "away_team": "Eintracht Braunschweig",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:42:42Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:42Z",
+            "outcomes": [
+              { "name": "Eintracht Braunschweig", "price": 380 },
+              { "name": "FC Schalke 04", "price": -150 },
+              { "name": "Draw", "price": 290 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "8160d9b5c52bf285014d27a9edf9e069",
+    "sport_key": "soccer_germany_bundesliga2",
+    "sport_title": "Bundesliga 2 - Germany",
+    "commence_time": "2024-08-03T19:00:00Z",
+    "home_team": "SV Darmstadt 98",
+    "away_team": "Fortuna D\u00fcsseldorf",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:42:42Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:42Z",
+            "outcomes": [
+              { "name": "Fortuna D\u00fcsseldorf", "price": 155 },
+              { "name": "SV Darmstadt 98", "price": 155 },
+              { "name": "Draw", "price": 240 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cb057b831e7591064bb32479441a8caa",
+    "sport_key": "soccer_germany_bundesliga2",
+    "sport_title": "Bundesliga 2 - Germany",
+    "commence_time": "2024-08-03T19:00:00Z",
+    "home_team": "Greuther F\u00fcrth",
+    "away_team": "SC Preu\u00dfen M\u00fcnster",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:42:42Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:42Z",
+            "outcomes": [
+              { "name": "Greuther F\u00fcrth", "price": -135 },
+              { "name": "SC Preu\u00dfen M\u00fcnster", "price": 320 },
+              { "name": "Draw", "price": 280 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c1b86b165b59478fe59c58a0326ed09d",
+    "sport_key": "soccer_germany_bundesliga2",
+    "sport_title": "Bundesliga 2 - Germany",
+    "commence_time": "2024-08-03T19:00:00Z",
+    "home_team": "Hannover 96",
+    "away_team": "Jahn Regensburg",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:42:42Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:42Z",
+            "outcomes": [
+              { "name": "Hannover 96", "price": -185 },
+              { "name": "Jahn Regensburg", "price": 440 },
+              { "name": "Draw", "price": 320 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "0647c7f506896086966d27b351b1cc32",
+    "sport_key": "soccer_germany_bundesliga2",
+    "sport_title": "Bundesliga 2 - Germany",
+    "commence_time": "2024-08-03T19:00:00Z",
+    "home_team": "Hertha Berlin",
+    "away_team": "SC Paderborn",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:42:42Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:42Z",
+            "outcomes": [
+              { "name": "Hertha Berlin", "price": -105 },
+              { "name": "SC Paderborn", "price": 250 },
+              { "name": "Draw", "price": 260 }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

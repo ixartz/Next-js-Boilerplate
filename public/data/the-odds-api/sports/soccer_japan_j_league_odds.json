@@ -1,0 +1,400 @@
+[
+  {
+    "id": "fb532b7995032c0ab5e968f718e0b383",
+    "sport_key": "soccer_japan_j_league",
+    "sport_title": "J League",
+    "commence_time": "2024-07-07T10:00:00Z",
+    "home_team": "Avispa Fukuoka",
+    "away_team": "Kyoto Purple Sanga",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:44:01Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:01Z",
+            "outcomes": [
+              { "name": "Avispa Fukuoka", "price": 105 },
+              { "name": "Kyoto Purple Sanga", "price": 280 },
+              { "name": "Draw", "price": 200 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2024-07-06T13:44:24Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:24Z",
+            "outcomes": [
+              { "name": "Avispa Fukuoka", "price": 105 },
+              { "name": "Kyoto Purple Sanga", "price": 275 },
+              { "name": "Draw", "price": 210 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:44:41Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:41Z",
+            "outcomes": [
+              { "name": "Avispa Fukuoka", "price": 106 },
+              { "name": "Kyoto Purple Sanga", "price": 285 },
+              { "name": "Draw", "price": 218 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:41Z",
+            "outcomes": [
+              { "name": "Avispa Fukuoka", "price": 101, "point": -0.5 },
+              { "name": "Kyoto Purple Sanga", "price": -135, "point": 0.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:44:24Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:24Z",
+            "outcomes": [
+              { "name": "Avispa Fukuoka", "price": 105 },
+              { "name": "Kyoto Purple Sanga", "price": 290 },
+              { "name": "Draw", "price": 215 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:44:50Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:50Z",
+            "outcomes": [
+              { "name": "Avispa Fukuoka", "price": 110 },
+              { "name": "Kyoto Purple Sanga", "price": 285 },
+              { "name": "Draw", "price": 205 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:50Z",
+            "outcomes": [
+              { "name": "Avispa Fukuoka", "price": -128, "point": -0.25 },
+              { "name": "Kyoto Purple Sanga", "price": 108, "point": 0.25 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:24Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:24Z",
+            "outcomes": [
+              { "name": "Avispa Fukuoka", "price": 110 },
+              { "name": "Kyoto Purple Sanga", "price": 260 },
+              { "name": "Draw", "price": 215 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:44:24Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:24Z",
+            "outcomes": [
+              { "name": "Avispa Fukuoka", "price": 106 },
+              { "name": "Kyoto Purple Sanga", "price": 250 },
+              { "name": "Draw", "price": 215 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:24Z",
+            "outcomes": [
+              { "name": "Avispa Fukuoka", "price": 106, "point": -0.5 },
+              { "name": "Kyoto Purple Sanga", "price": -126, "point": 0.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T13:44:24Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:24Z",
+            "outcomes": [
+              { "name": "Avispa Fukuoka", "price": 106 },
+              { "name": "Kyoto Purple Sanga", "price": 250 },
+              { "name": "Draw", "price": 215 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:24Z",
+            "outcomes": [
+              { "name": "Avispa Fukuoka", "price": 106, "point": -0.5 },
+              { "name": "Kyoto Purple Sanga", "price": -126, "point": 0.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:44:41Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:41Z",
+            "outcomes": [
+              { "name": "Avispa Fukuoka", "price": 110 },
+              { "name": "Kyoto Purple Sanga", "price": 260 },
+              { "name": "Draw", "price": 210 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "38e9d437d4a5df9118a7d3edcecf07f1",
+    "sport_key": "soccer_japan_j_league",
+    "sport_title": "J League",
+    "commence_time": "2024-07-13T05:00:00Z",
+    "home_team": "Consadole Sapporo",
+    "away_team": "Vissel Kobe",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:44:01Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:01Z",
+            "outcomes": [
+              { "name": "Consadole Sapporo", "price": 550 },
+              { "name": "Vissel Kobe", "price": -240 },
+              { "name": "Draw", "price": 320 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2024-07-06T13:44:24Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:24Z",
+            "outcomes": [
+              { "name": "Consadole Sapporo", "price": 500 },
+              { "name": "Vissel Kobe", "price": -210 },
+              { "name": "Draw", "price": 325 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:44:24Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:24Z",
+            "outcomes": [
+              { "name": "Consadole Sapporo", "price": 500 },
+              { "name": "Vissel Kobe", "price": -220 },
+              { "name": "Draw", "price": 330 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:44:41Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:41Z",
+            "outcomes": [
+              { "name": "Consadole Sapporo", "price": 500 },
+              { "name": "Vissel Kobe", "price": -202 },
+              { "name": "Draw", "price": 330 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:41Z",
+            "outcomes": [
+              { "name": "Consadole Sapporo", "price": -182, "point": 1.5 },
+              { "name": "Vissel Kobe", "price": 129, "point": -1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:44:50Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:50Z",
+            "outcomes": [
+              { "name": "Consadole Sapporo", "price": 500 },
+              { "name": "Vissel Kobe", "price": -195 },
+              { "name": "Draw", "price": 320 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:50Z",
+            "outcomes": [
+              { "name": "Consadole Sapporo", "price": 102, "point": 1.0 },
+              { "name": "Vissel Kobe", "price": -122, "point": -1.0 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "4919396f874ac7e0d2ee21a5b30dc4f2",
+    "sport_key": "soccer_japan_j_league",
+    "sport_title": "J League",
+    "commence_time": "2024-07-13T10:00:00Z",
+    "home_team": "FC Tokyo",
+    "away_team": "Albirex Niigata",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:44:01Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:01Z",
+            "outcomes": [
+              { "name": "Albirex Niigata", "price": 185 },
+              { "name": "FC Tokyo", "price": 140 },
+              { "name": "Draw", "price": 210 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2024-07-06T13:44:24Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:24Z",
+            "outcomes": [
+              { "name": "Albirex Niigata", "price": 185 },
+              { "name": "FC Tokyo", "price": 140 },
+              { "name": "Draw", "price": 220 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:44:41Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:41Z",
+            "outcomes": [
+              { "name": "Albirex Niigata", "price": 189 },
+              { "name": "FC Tokyo", "price": 141 },
+              { "name": "Draw", "price": 224 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:41Z",
+            "outcomes": [
+              { "name": "Albirex Niigata", "price": -185, "point": 0.5 },
+              { "name": "FC Tokyo", "price": 132, "point": -0.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:44:24Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:24Z",
+            "outcomes": [
+              { "name": "Albirex Niigata", "price": 190 },
+              { "name": "FC Tokyo", "price": 140 },
+              { "name": "Draw", "price": 215 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:44:50Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:50Z",
+            "outcomes": [
+              { "name": "Albirex Niigata", "price": 190 },
+              { "name": "FC Tokyo", "price": 145 },
+              { "name": "Draw", "price": 215 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:50Z",
+            "outcomes": [
+              { "name": "Albirex Niigata", "price": -130, "point": 0.25 },
+              { "name": "FC Tokyo", "price": 110, "point": -0.25 }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

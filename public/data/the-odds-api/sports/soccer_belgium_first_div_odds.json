@@ -1,0 +1,210 @@
+[
+  {
+    "id": "8bd6344386f3b6212f7c2781a1b6eafd",
+    "sport_key": "soccer_belgium_first_div",
+    "sport_title": "Belgium First Div",
+    "commence_time": "2024-07-26T18:45:00Z",
+    "home_team": "Club Brugge",
+    "away_team": "KV Mechelen",
+    "bookmakers": [
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:43:45Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:45Z",
+            "outcomes": [
+              { "name": "Club Brugge", "price": -250 },
+              { "name": "KV Mechelen", "price": 700 },
+              { "name": "Draw", "price": 350 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cffbd6b4850d7edb72d6f7235f604a3f",
+    "sport_key": "soccer_belgium_first_div",
+    "sport_title": "Belgium First Div",
+    "commence_time": "2024-07-27T14:00:00Z",
+    "home_team": "Dender",
+    "away_team": "Union Saint-Gilloise",
+    "bookmakers": [
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:43:45Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:45Z",
+            "outcomes": [
+              { "name": "Dender", "price": 700 },
+              { "name": "Union Saint-Gilloise", "price": -250 },
+              { "name": "Draw", "price": 350 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "d8071e7615538fbb6b69ac1c8ae6a003",
+    "sport_key": "soccer_belgium_first_div",
+    "sport_title": "Belgium First Div",
+    "commence_time": "2024-07-27T16:15:00Z",
+    "home_team": "Beerschot Wilrijk",
+    "away_team": "Leuven",
+    "bookmakers": [
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:43:45Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:45Z",
+            "outcomes": [
+              { "name": "Beerschot Wilrijk", "price": 180 },
+              { "name": "Leuven", "price": 140 },
+              { "name": "Draw", "price": 250 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "3eb88be593f7f1203264cd03f04c177c",
+    "sport_key": "soccer_belgium_first_div",
+    "sport_title": "Belgium First Div",
+    "commence_time": "2024-07-27T18:45:00Z",
+    "home_team": "Anderlecht",
+    "away_team": "Sint Truiden",
+    "bookmakers": [
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:43:45Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:45Z",
+            "outcomes": [
+              { "name": "Anderlecht", "price": -150 },
+              { "name": "Sint Truiden", "price": 380 },
+              { "name": "Draw", "price": 290 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "e2e8a172f87927ac0f3088d8a70b9ce4",
+    "sport_key": "soccer_belgium_first_div",
+    "sport_title": "Belgium First Div",
+    "commence_time": "2024-07-28T11:30:00Z",
+    "home_team": "Genk",
+    "away_team": "Standard Liege",
+    "bookmakers": [
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:43:45Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:45Z",
+            "outcomes": [
+              { "name": "Genk", "price": -250 },
+              { "name": "Standard Liege", "price": 700 },
+              { "name": "Draw", "price": 350 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "d8b9eb54915ca4e6762ecc0994721fdb",
+    "sport_key": "soccer_belgium_first_div",
+    "sport_title": "Belgium First Div",
+    "commence_time": "2024-07-28T14:00:00Z",
+    "home_team": "KV Kortrijk",
+    "away_team": "Gent",
+    "bookmakers": [
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:43:45Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:45Z",
+            "outcomes": [
+              { "name": "Gent", "price": -225 },
+              { "name": "KV Kortrijk", "price": 600 },
+              { "name": "Draw", "price": 340 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "766fab1dbcbfe02c9a0d119686e3d61a",
+    "sport_key": "soccer_belgium_first_div",
+    "sport_title": "Belgium First Div",
+    "commence_time": "2024-07-28T16:30:00Z",
+    "home_team": "Charleroi",
+    "away_team": "Royal Antwerp",
+    "bookmakers": [
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:43:45Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:45Z",
+            "outcomes": [
+              { "name": "Charleroi", "price": 315 },
+              { "name": "Royal Antwerp", "price": -125 },
+              { "name": "Draw", "price": 275 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ea5826041d09652e492547b05a3cf7c8",
+    "sport_key": "soccer_belgium_first_div",
+    "sport_title": "Belgium First Div",
+    "commence_time": "2024-07-28T17:15:00Z",
+    "home_team": "Westerlo",
+    "away_team": "Cercle Brugge KSV",
+    "bookmakers": [
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:43:45Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:45Z",
+            "outcomes": [
+              { "name": "Cercle Brugge KSV", "price": 110 },
+              { "name": "Westerlo", "price": 235 },
+              { "name": "Draw", "price": 250 }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

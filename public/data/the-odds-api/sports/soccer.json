@@ -1,0 +1,2002 @@
+[
+  {
+    "id": "2dee43d34dd16cd2cf974cb8aa638c04",
+    "sport_key": "soccer_korea_kleague1",
+    "sport_title": "K League 1",
+    "commence_time": "2024-07-06T10:30:07Z",
+    "home_team": "Daegu FC",
+    "away_team": "Pohang Steelers",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T12:35:46Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T12:35:46Z",
+            "outcomes": [
+              { "name": "Daegu FC", "price": 1400 },
+              { "name": "Pohang Steelers", "price": 1600 },
+              { "name": "Draw", "price": -2100 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T12:39:02Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T12:39:02Z",
+            "outcomes": [
+              { "name": "Daegu FC", "price": 2300 },
+              { "name": "Pohang Steelers", "price": -455 },
+              { "name": "Draw", "price": 350 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T12:39:02Z",
+            "outcomes": [
+              { "name": "Daegu FC", "price": -400, "point": 1.5 },
+              { "name": "Pohang Steelers", "price": 245, "point": -1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T12:38:15Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T12:38:15Z",
+            "outcomes": [
+              { "name": "Daegu FC", "price": 2200 },
+              { "name": "Pohang Steelers", "price": 2000 },
+              { "name": "Draw", "price": -5000 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T12:37:31Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T12:37:31Z",
+            "outcomes": [
+              { "name": "Daegu FC", "price": 1300 },
+              { "name": "Pohang Steelers", "price": 1100 },
+              { "name": "Draw", "price": -1500 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T12:36:18Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T12:36:18Z",
+            "outcomes": [
+              { "name": "Daegu FC", "price": 1800 },
+              { "name": "Pohang Steelers", "price": 1400 },
+              { "name": "Draw", "price": -2500 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "8134b1890f648ce4fcc0f2185b567080",
+    "sport_key": "soccer_china_superleague",
+    "sport_title": "Super League - China",
+    "commence_time": "2024-07-06T11:00:02Z",
+    "home_team": "Tianjin Jinmen Tiger FC",
+    "away_team": "Changchun Yatai",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T12:48:04Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T12:48:04Z",
+            "outcomes": [
+              { "name": "Changchun Yatai", "price": 600 },
+              { "name": "Tianjin Jinmen Tiger FC", "price": 420 },
+              { "name": "Draw", "price": -310 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T12:48:09Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T12:48:09Z",
+            "outcomes": [
+              { "name": "Changchun Yatai", "price": 2300 },
+              { "name": "Tianjin Jinmen Tiger FC", "price": -455 },
+              { "name": "Draw", "price": 350 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T12:48:09Z",
+            "outcomes": [
+              { "name": "Changchun Yatai", "price": -455, "point": 1.5 },
+              { "name": "Tianjin Jinmen Tiger FC", "price": 275, "point": -1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T12:48:09Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T12:48:09Z",
+            "outcomes": [
+              { "name": "Changchun Yatai", "price": 475 },
+              { "name": "Tianjin Jinmen Tiger FC", "price": 320 },
+              { "name": "Draw", "price": -205 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T12:48:09Z",
+            "outcomes": [
+              { "name": "Changchun Yatai", "price": 130, "point": 0.0 },
+              { "name": "Tianjin Jinmen Tiger FC", "price": -157, "point": 0.0 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T12:48:09Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T12:48:09Z",
+            "outcomes": [
+              { "name": "Changchun Yatai", "price": 450 },
+              { "name": "Tianjin Jinmen Tiger FC", "price": 360 },
+              { "name": "Draw", "price": -205 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T12:48:17Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T12:48:17Z",
+            "outcomes": [
+              { "name": "Changchun Yatai", "price": 425 },
+              { "name": "Tianjin Jinmen Tiger FC", "price": 350 },
+              { "name": "Draw", "price": -275 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ffd895b292d460a01099d5fa2e04bda8",
+    "sport_key": "soccer_china_superleague",
+    "sport_title": "Super League - China",
+    "commence_time": "2024-07-06T11:35:10Z",
+    "home_team": "Shanghai Shenhua FC",
+    "away_team": "Shandong Luneng Taishan FC",
+    "bookmakers": [
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T12:48:09Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T12:48:09Z",
+            "outcomes": [
+              {
+                "name": "Shandong Luneng Taishan FC",
+                "price": -200,
+                "point": 4.5
+              },
+              { "name": "Shanghai Shenhua FC", "price": 140, "point": -4.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T12:48:09Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T12:48:09Z",
+            "outcomes": [
+              {
+                "name": "Shandong Luneng Taishan FC",
+                "price": 102,
+                "point": 4.0
+              },
+              { "name": "Shanghai Shenhua FC", "price": -122, "point": -4.0 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "8fb9cd62f307e87f33ab8d15f6ec0b20",
+    "sport_key": "soccer_finland_veikkausliiga",
+    "sport_title": "Veikkausliiga - Finland",
+    "commence_time": "2024-07-06T12:00:00Z",
+    "home_team": "Ilves Tampere",
+    "away_team": "HJK Helsinki",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T12:47:24Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T12:47:24Z",
+            "outcomes": [
+              { "name": "HJK Helsinki", "price": 1800 },
+              { "name": "Ilves Tampere", "price": -1050 },
+              { "name": "Draw", "price": 700 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T12:47:46Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T12:47:46Z",
+            "outcomes": [
+              { "name": "HJK Helsinki", "price": 1625 },
+              { "name": "Ilves Tampere", "price": -1000 },
+              { "name": "Draw", "price": 575 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T12:47:46Z",
+            "outcomes": [
+              { "name": "HJK Helsinki", "price": 145, "point": 1.5 },
+              { "name": "Ilves Tampere", "price": -222, "point": -1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T12:47:46Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T12:47:46Z",
+            "outcomes": [
+              { "name": "HJK Helsinki", "price": 2200 },
+              { "name": "Ilves Tampere", "price": -1100 },
+              { "name": "Draw", "price": 800 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T12:47:47Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T12:47:47Z",
+            "outcomes": [
+              { "name": "HJK Helsinki", "price": 2100 },
+              { "name": "Ilves Tampere", "price": -1400 },
+              { "name": "Draw", "price": 825 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T12:47:47Z",
+            "outcomes": [
+              { "name": "HJK Helsinki", "price": -122, "point": 2.0 },
+              { "name": "Ilves Tampere", "price": -108, "point": -2.0 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T12:47:42Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T12:47:42Z",
+            "outcomes": [
+              { "name": "HJK Helsinki", "price": 1900 },
+              { "name": "Ilves Tampere", "price": -1100 },
+              { "name": "Draw", "price": 750 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c4ffe3345c09807a9706cab3c08da374",
+    "sport_key": "soccer_china_superleague",
+    "sport_title": "Super League - China",
+    "commence_time": "2024-07-06T12:00:23Z",
+    "home_team": "Cangzhou Mighty Lions",
+    "away_team": "Shenzhen Peng City FC",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T12:48:04Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T12:48:04Z",
+            "outcomes": [
+              { "name": "Cangzhou Mighty Lions", "price": 280 },
+              { "name": "Shenzhen Peng City FC", "price": 150 },
+              { "name": "Draw", "price": 155 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T12:48:09Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T12:48:09Z",
+            "outcomes": [
+              { "name": "Cangzhou Mighty Lions", "price": -133 },
+              { "name": "Shenzhen Peng City FC", "price": 330 },
+              { "name": "Draw", "price": 220 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T12:48:09Z",
+            "outcomes": [
+              { "name": "Cangzhou Mighty Lions", "price": -133, "point": -0.5 },
+              { "name": "Shenzhen Peng City FC", "price": -111, "point": 0.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T12:48:09Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T12:48:09Z",
+            "outcomes": [
+              { "name": "Cangzhou Mighty Lions", "price": 270 },
+              { "name": "Shenzhen Peng City FC", "price": 137 },
+              { "name": "Draw", "price": 157 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T12:48:09Z",
+            "outcomes": [
+              { "name": "Cangzhou Mighty Lions", "price": -122, "point": 0.25 },
+              { "name": "Shenzhen Peng City FC", "price": 102, "point": -0.25 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T12:48:09Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T12:48:09Z",
+            "outcomes": [
+              { "name": "Cangzhou Mighty Lions", "price": 300 },
+              { "name": "Shenzhen Peng City FC", "price": 140 },
+              { "name": "Draw", "price": 150 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T12:48:17Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T12:48:17Z",
+            "outcomes": [
+              { "name": "Cangzhou Mighty Lions", "price": 270 },
+              { "name": "Shenzhen Peng City FC", "price": 115 },
+              { "name": "Draw", "price": 138 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "6fd878da14443e97f85fdce38cbc84d8",
+    "sport_key": "soccer_sweden_allsvenskan",
+    "sport_title": "Allsvenskan - Sweden",
+    "commence_time": "2024-07-06T13:00:00Z",
+    "home_team": "IF Elfsborg",
+    "away_team": "IF Brommapojkarna",
+    "bookmakers": [
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T12:47:47Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T12:47:47Z",
+            "outcomes": [
+              { "name": "IF Brommapojkarna", "price": 310 },
+              { "name": "IF Elfsborg", "price": -130 },
+              { "name": "Draw", "price": 300 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T12:46:57Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T12:46:57Z",
+            "outcomes": [
+              { "name": "IF Brommapojkarna", "price": 330 },
+              { "name": "IF Elfsborg", "price": -150 },
+              { "name": "Draw", "price": 290 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T12:47:48Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T12:47:48Z",
+            "outcomes": [
+              { "name": "IF Brommapojkarna", "price": 340 },
+              { "name": "IF Elfsborg", "price": -140 },
+              { "name": "Draw", "price": 300 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T12:47:48Z",
+            "outcomes": [
+              { "name": "IF Brommapojkarna", "price": -108, "point": 0.75 },
+              { "name": "IF Elfsborg", "price": -112, "point": -0.75 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T12:48:06Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T12:48:06Z",
+            "outcomes": [
+              { "name": "IF Brommapojkarna", "price": 340 },
+              { "name": "IF Elfsborg", "price": -145 },
+              { "name": "Draw", "price": 320 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2024-07-06T12:42:20Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T12:42:20Z",
+            "outcomes": [
+              { "name": "IF Brommapojkarna", "price": 330 },
+              { "name": "IF Elfsborg", "price": -145 },
+              { "name": "Draw", "price": 295 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T12:48:14Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T12:48:14Z",
+            "outcomes": [
+              { "name": "IF Brommapojkarna", "price": 330 },
+              { "name": "IF Elfsborg", "price": -137 },
+              { "name": "Draw", "price": 300 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T12:48:14Z",
+            "outcomes": [
+              { "name": "IF Brommapojkarna", "price": 107, "point": 0.5 },
+              { "name": "IF Elfsborg", "price": -143, "point": -0.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T12:46:02Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T12:46:02Z",
+            "outcomes": [
+              { "name": "IF Brommapojkarna", "price": 320 },
+              { "name": "IF Elfsborg", "price": -135 },
+              { "name": "Draw", "price": 290 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-07-06T12:47:42Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T12:47:42Z",
+            "outcomes": [
+              { "name": "IF Brommapojkarna", "price": 321 },
+              { "name": "IF Elfsborg", "price": -138 },
+              { "name": "Draw", "price": 310 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T12:48:07Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T12:48:07Z",
+            "outcomes": [
+              { "name": "IF Brommapojkarna", "price": 345 },
+              { "name": "IF Elfsborg", "price": -142 },
+              { "name": "Draw", "price": 320 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T12:48:07Z",
+            "outcomes": [
+              { "name": "IF Brommapojkarna", "price": -107, "point": 0.75 },
+              { "name": "IF Elfsborg", "price": -113, "point": -0.75 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T12:48:03Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T12:48:03Z",
+            "outcomes": [
+              { "name": "IF Brommapojkarna", "price": 345 },
+              { "name": "IF Elfsborg", "price": -142 },
+              { "name": "Draw", "price": 320 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T12:48:03Z",
+            "outcomes": [
+              { "name": "IF Brommapojkarna", "price": -107, "point": 0.75 },
+              { "name": "IF Elfsborg", "price": -113, "point": -0.75 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "f078a1a042b4833d91ff77d4e3dcfbeb",
+    "sport_key": "soccer_sweden_allsvenskan",
+    "sport_title": "Allsvenskan - Sweden",
+    "commence_time": "2024-07-06T13:00:00Z",
+    "home_team": "Mj\u00e4llby AIF",
+    "away_team": "IK Sirius",
+    "bookmakers": [
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T12:47:47Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T12:47:47Z",
+            "outcomes": [
+              { "name": "IK Sirius", "price": 290 },
+              { "name": "Mj\u00e4llby AIF", "price": -106 },
+              { "name": "Draw", "price": 245 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T12:46:57Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T12:46:57Z",
+            "outcomes": [
+              { "name": "IK Sirius", "price": 280 },
+              { "name": "Mj\u00e4llby AIF", "price": -115 },
+              { "name": "Draw", "price": 230 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T12:47:48Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T12:47:48Z",
+            "outcomes": [
+              { "name": "IK Sirius", "price": 285 },
+              { "name": "Mj\u00e4llby AIF", "price": -110 },
+              { "name": "Draw", "price": 255 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T12:47:48Z",
+            "outcomes": [
+              { "name": "IK Sirius", "price": -115, "point": 0.5 },
+              { "name": "Mj\u00e4llby AIF", "price": -105, "point": -0.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T12:48:06Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T12:48:06Z",
+            "outcomes": [
+              { "name": "IK Sirius", "price": 280 },
+              { "name": "Mj\u00e4llby AIF", "price": -105 },
+              { "name": "Draw", "price": 260 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2024-07-06T12:42:20Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T12:42:20Z",
+            "outcomes": [
+              { "name": "IK Sirius", "price": 275 },
+              { "name": "Mj\u00e4llby AIF", "price": -110 },
+              { "name": "Draw", "price": 250 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T12:48:14Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T12:48:14Z",
+            "outcomes": [
+              { "name": "IK Sirius", "price": 275 },
+              { "name": "Mj\u00e4llby AIF", "price": -105 },
+              { "name": "Draw", "price": 255 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T12:48:14Z",
+            "outcomes": [
+              { "name": "IK Sirius", "price": -120, "point": 0.5 },
+              { "name": "Mj\u00e4llby AIF", "price": -110, "point": -0.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T12:46:02Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T12:46:02Z",
+            "outcomes": [
+              { "name": "IK Sirius", "price": 260 },
+              { "name": "Mj\u00e4llby AIF", "price": -105 },
+              { "name": "Draw", "price": 250 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-07-06T12:47:42Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T12:47:42Z",
+            "outcomes": [
+              { "name": "IK Sirius", "price": 229 },
+              { "name": "Mj\u00e4llby AIF", "price": 113 },
+              { "name": "Draw", "price": 238 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T12:47:42Z",
+            "outcomes": [
+              { "name": "IK Sirius", "price": -143, "point": 0.5 },
+              { "name": "Mj\u00e4llby AIF", "price": 113, "point": -0.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T12:48:07Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T12:48:07Z",
+            "outcomes": [
+              { "name": "IK Sirius", "price": 277 },
+              { "name": "Mj\u00e4llby AIF", "price": 100 },
+              { "name": "Draw", "price": 252 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T12:48:07Z",
+            "outcomes": [
+              { "name": "IK Sirius", "price": -120, "point": 0.5 },
+              { "name": "Mj\u00e4llby AIF", "price": 100, "point": -0.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T12:48:03Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T12:48:03Z",
+            "outcomes": [
+              { "name": "IK Sirius", "price": 277 },
+              { "name": "Mj\u00e4llby AIF", "price": 100 },
+              { "name": "Draw", "price": 252 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T12:48:03Z",
+            "outcomes": [
+              { "name": "IK Sirius", "price": -120, "point": 0.5 },
+              { "name": "Mj\u00e4llby AIF", "price": 100, "point": -0.5 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "f32519d5790866fe620b06ed44362719",
+    "sport_key": "soccer_brazil_serie_b",
+    "sport_title": "Brazil S\u00e9rie B",
+    "commence_time": "2024-07-06T14:00:00Z",
+    "home_team": "Am\u00e9rica Mineiro",
+    "away_team": "Operario PR",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T12:47:41Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T12:47:41Z",
+            "outcomes": [
+              { "name": "Am\u00e9rica Mineiro", "price": -170 },
+              { "name": "Operario PR", "price": 550 },
+              { "name": "Draw", "price": 250 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T12:47:40Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T12:47:40Z",
+            "outcomes": [
+              { "name": "Am\u00e9rica Mineiro", "price": -160 },
+              { "name": "Operario PR", "price": 425 },
+              { "name": "Draw", "price": 240 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T12:47:30Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T12:47:30Z",
+            "outcomes": [
+              { "name": "Am\u00e9rica Mineiro", "price": -160 },
+              { "name": "Operario PR", "price": 480 },
+              { "name": "Draw", "price": 242 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T12:47:30Z",
+            "outcomes": [
+              { "name": "Am\u00e9rica Mineiro", "price": -164, "point": -0.5 },
+              { "name": "Operario PR", "price": 118, "point": 0.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T12:47:45Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T12:47:45Z",
+            "outcomes": [
+              { "name": "Am\u00e9rica Mineiro", "price": -155 },
+              { "name": "Operario PR", "price": 500 },
+              { "name": "Draw", "price": 250 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T12:47:45Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T12:47:45Z",
+            "outcomes": [
+              { "name": "Am\u00e9rica Mineiro", "price": -155 },
+              { "name": "Operario PR", "price": 475 },
+              { "name": "Draw", "price": 230 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T12:47:31Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T12:47:31Z",
+            "outcomes": [
+              { "name": "Am\u00e9rica Mineiro", "price": -155 },
+              { "name": "Operario PR", "price": 475 },
+              { "name": "Draw", "price": 235 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T12:47:31Z",
+            "outcomes": [
+              { "name": "Am\u00e9rica Mineiro", "price": -125, "point": -0.75 },
+              { "name": "Operario PR", "price": -105, "point": 0.75 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-07-06T12:47:40Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T12:47:40Z",
+            "outcomes": [
+              { "name": "Am\u00e9rica Mineiro", "price": -155 },
+              { "name": "Operario PR", "price": 475 },
+              { "name": "Draw", "price": 235 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T12:47:40Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T12:47:40Z",
+            "outcomes": [
+              { "name": "Am\u00e9rica Mineiro", "price": -161 },
+              { "name": "Operario PR", "price": 440 },
+              { "name": "Draw", "price": 235 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T12:47:40Z",
+            "outcomes": [
+              { "name": "Am\u00e9rica Mineiro", "price": -118, "point": -0.75 },
+              { "name": "Operario PR", "price": -102, "point": 0.75 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T12:48:06Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T12:48:06Z",
+            "outcomes": [
+              { "name": "Am\u00e9rica Mineiro", "price": -161 },
+              { "name": "Operario PR", "price": 440 },
+              { "name": "Draw", "price": 235 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T12:48:06Z",
+            "outcomes": [
+              { "name": "Am\u00e9rica Mineiro", "price": -118, "point": -0.75 },
+              { "name": "Operario PR", "price": -102, "point": 0.75 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "6ad708fb21b11f0eee9310760e74a5bb",
+    "sport_key": "soccer_finland_veikkausliiga",
+    "sport_title": "Veikkausliiga - Finland",
+    "commence_time": "2024-07-06T14:00:00Z",
+    "home_team": "VPS Vaasa",
+    "away_team": "Eken\u00e4s IF",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T12:47:24Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T12:47:24Z",
+            "outcomes": [
+              { "name": "Eken\u00e4s IF", "price": 800 },
+              { "name": "VPS Vaasa", "price": -360 },
+              { "name": "Draw", "price": 400 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T12:47:46Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T12:47:46Z",
+            "outcomes": [
+              { "name": "Eken\u00e4s IF", "price": 720 },
+              { "name": "VPS Vaasa", "price": -295 },
+              { "name": "Draw", "price": 420 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T12:47:46Z",
+            "outcomes": [
+              { "name": "Eken\u00e4s IF", "price": -123, "point": 1.5 },
+              { "name": "VPS Vaasa", "price": -106, "point": -1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T12:47:46Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T12:47:46Z",
+            "outcomes": [
+              { "name": "Eken\u00e4s IF", "price": 700 },
+              { "name": "VPS Vaasa", "price": -295 },
+              { "name": "Draw", "price": 425 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T12:47:47Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T12:47:47Z",
+            "outcomes": [
+              { "name": "Eken\u00e4s IF", "price": 675 },
+              { "name": "VPS Vaasa", "price": -305 },
+              { "name": "Draw", "price": 400 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T12:47:47Z",
+            "outcomes": [
+              { "name": "Eken\u00e4s IF", "price": -122, "point": 1.5 },
+              { "name": "VPS Vaasa", "price": -108, "point": -1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T12:47:46Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T12:47:46Z",
+            "outcomes": [
+              { "name": "Eken\u00e4s IF", "price": 700 },
+              { "name": "VPS Vaasa", "price": -315 },
+              { "name": "Draw", "price": 425 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T12:47:42Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T12:47:42Z",
+            "outcomes": [
+              { "name": "Eken\u00e4s IF", "price": 750 },
+              { "name": "VPS Vaasa", "price": -300 },
+              { "name": "Draw", "price": 400 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-07-06T12:47:42Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T12:47:42Z",
+            "outcomes": [
+              { "name": "Eken\u00e4s IF", "price": 754 },
+              { "name": "VPS Vaasa", "price": -309 },
+              { "name": "Draw", "price": 420 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T12:47:42Z",
+            "outcomes": [
+              { "name": "Eken\u00e4s IF", "price": -116, "point": 1.5 },
+              { "name": "VPS Vaasa", "price": -114, "point": -1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T12:47:47Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T12:47:47Z",
+            "outcomes": [
+              { "name": "Eken\u00e4s IF", "price": 770 },
+              { "name": "VPS Vaasa", "price": -278 },
+              { "name": "Draw", "price": 410 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T12:47:47Z",
+            "outcomes": [
+              { "name": "Eken\u00e4s IF", "price": -119, "point": 1.5 },
+              { "name": "VPS Vaasa", "price": -101, "point": -1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T12:48:13Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T12:48:13Z",
+            "outcomes": [
+              { "name": "Eken\u00e4s IF", "price": 770 },
+              { "name": "VPS Vaasa", "price": -278 },
+              { "name": "Draw", "price": 410 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T12:48:13Z",
+            "outcomes": [
+              { "name": "Eken\u00e4s IF", "price": -119, "point": 1.5 },
+              { "name": "VPS Vaasa", "price": -101, "point": -1.5 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "e719418d4bf1ee022c828e18ea0d0138",
+    "sport_key": "soccer_uefa_european_championship",
+    "sport_title": "UEFA Euro 2024",
+    "commence_time": "2024-07-06T16:00:00Z",
+    "home_team": "England",
+    "away_team": "Switzerland",
+    "bookmakers": [
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T12:47:39Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T12:47:39Z",
+            "outcomes": [
+              { "name": "England", "price": 125 },
+              { "name": "Switzerland", "price": 285 },
+              { "name": "Draw", "price": 195 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T12:47:56Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T12:47:56Z",
+            "outcomes": [
+              { "name": "England", "price": 120 },
+              { "name": "Switzerland", "price": 290 },
+              { "name": "Draw", "price": 190 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T12:47:39Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T12:47:39Z",
+            "outcomes": [
+              { "name": "England", "price": 120 },
+              { "name": "Switzerland", "price": 280 },
+              { "name": "Draw", "price": 190 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T12:47:39Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T12:47:39Z",
+            "outcomes": [
+              { "name": "England", "price": 125 },
+              { "name": "Switzerland", "price": 290 },
+              { "name": "Draw", "price": 195 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2024-07-06T12:43:46Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T12:43:46Z",
+            "outcomes": [
+              { "name": "England", "price": 120 },
+              { "name": "Switzerland", "price": 290 },
+              { "name": "Draw", "price": 190 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T12:47:29Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T12:47:29Z",
+            "outcomes": [
+              { "name": "England", "price": 119 },
+              { "name": "Switzerland", "price": 290 },
+              { "name": "Draw", "price": 188 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T12:47:29Z",
+            "outcomes": [
+              { "name": "England", "price": 115, "point": -0.5 },
+              { "name": "Switzerland", "price": -147, "point": 0.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T12:48:13Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T12:48:13Z",
+            "outcomes": [
+              { "name": "England", "price": 120 },
+              { "name": "Switzerland", "price": 295 },
+              { "name": "Draw", "price": 190 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T12:48:13Z",
+            "outcomes": [
+              { "name": "England", "price": -118, "point": -0.25 },
+              { "name": "Switzerland", "price": -102, "point": 0.25 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-07-06T12:47:29Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T12:47:29Z",
+            "outcomes": [
+              { "name": "England", "price": 125 },
+              { "name": "Switzerland", "price": 280 },
+              { "name": "Draw", "price": 190 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T12:47:29Z",
+            "outcomes": [
+              { "name": "England", "price": 125, "point": -0.5 },
+              { "name": "Switzerland", "price": -145, "point": 0.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T12:48:18Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T12:48:18Z",
+            "outcomes": [
+              { "name": "England", "price": 127 },
+              { "name": "Switzerland", "price": 295 },
+              { "name": "Draw", "price": 193 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T12:48:18Z",
+            "outcomes": [
+              { "name": "England", "price": -116, "point": -0.25 },
+              { "name": "Switzerland", "price": -104, "point": 0.25 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "08048be72322a2375a9727b3cf64abce",
+    "sport_key": "soccer_uefa_european_championship",
+    "sport_title": "UEFA Euro 2024",
+    "commence_time": "2024-07-06T19:00:00Z",
+    "home_team": "Netherlands",
+    "away_team": "Turkey",
+    "bookmakers": [
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T12:47:39Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T12:47:39Z",
+            "outcomes": [
+              { "name": "Netherlands", "price": -175 },
+              { "name": "Turkey", "price": 500 },
+              { "name": "Draw", "price": 310 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T12:47:56Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T12:47:56Z",
+            "outcomes": [
+              { "name": "Netherlands", "price": -175 },
+              { "name": "Turkey", "price": 500 },
+              { "name": "Draw", "price": 300 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T12:47:39Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T12:47:39Z",
+            "outcomes": [
+              { "name": "Netherlands", "price": -175 },
+              { "name": "Turkey", "price": 500 },
+              { "name": "Draw", "price": 290 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T12:47:39Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T12:47:39Z",
+            "outcomes": [
+              { "name": "Netherlands", "price": -170 },
+              { "name": "Turkey", "price": 500 },
+              { "name": "Draw", "price": 300 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2024-07-06T12:43:46Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T12:43:46Z",
+            "outcomes": [
+              { "name": "Netherlands", "price": -180 },
+              { "name": "Turkey", "price": 475 },
+              { "name": "Draw", "price": 315 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T12:47:29Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T12:47:29Z",
+            "outcomes": [
+              { "name": "Netherlands", "price": -181 },
+              { "name": "Turkey", "price": 470 },
+              { "name": "Draw", "price": 310 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T12:47:29Z",
+            "outcomes": [
+              { "name": "Netherlands", "price": -184, "point": -0.5 },
+              { "name": "Turkey", "price": 143, "point": 0.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T12:48:18Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T12:48:18Z",
+            "outcomes": [
+              { "name": "Netherlands", "price": -170 },
+              { "name": "Turkey", "price": 525 },
+              { "name": "Draw", "price": 308 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T12:48:18Z",
+            "outcomes": [
+              { "name": "Netherlands", "price": -108, "point": -1.0 },
+              { "name": "Turkey", "price": -112, "point": 1.0 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-07-06T12:47:29Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T12:47:29Z",
+            "outcomes": [
+              { "name": "Netherlands", "price": -171 },
+              { "name": "Turkey", "price": 529 },
+              { "name": "Draw", "price": 309 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T12:47:29Z",
+            "outcomes": [
+              { "name": "Netherlands", "price": -110, "point": -1.0 },
+              { "name": "Turkey", "price": -110, "point": 1.0 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T12:48:13Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T12:48:13Z",
+            "outcomes": [
+              { "name": "Netherlands", "price": -180 },
+              { "name": "Turkey", "price": 475 },
+              { "name": "Draw", "price": 330 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T12:48:13Z",
+            "outcomes": [
+              { "name": "Netherlands", "price": -108, "point": -1.0 },
+              { "name": "Turkey", "price": -112, "point": 1.0 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "46d24021cfee0179622ce3eed35bd8c0",
+    "sport_key": "soccer_brazil_serie_b",
+    "sport_title": "Brazil S\u00e9rie B",
+    "commence_time": "2024-07-06T20:00:00Z",
+    "home_team": "Goi\u00e1s",
+    "away_team": "Chapecoense",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T12:47:41Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T12:47:41Z",
+            "outcomes": [
+              { "name": "Chapecoense", "price": 600 },
+              { "name": "Goi\u00e1s", "price": -190 },
+              { "name": "Draw", "price": 270 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T12:47:30Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T12:47:30Z",
+            "outcomes": [
+              { "name": "Chapecoense", "price": 500 },
+              { "name": "Goi\u00e1s", "price": -176 },
+              { "name": "Draw", "price": 265 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T12:47:30Z",
+            "outcomes": [
+              { "name": "Chapecoense", "price": 129, "point": 0.5 },
+              { "name": "Goi\u00e1s", "price": -182, "point": -0.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T12:47:40Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T12:47:40Z",
+            "outcomes": [
+              { "name": "Chapecoense", "price": 475 },
+              { "name": "Goi\u00e1s", "price": -175 },
+              { "name": "Draw", "price": 260 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T12:47:45Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T12:47:45Z",
+            "outcomes": [
+              { "name": "Chapecoense", "price": 550 },
+              { "name": "Goi\u00e1s", "price": -175 },
+              { "name": "Draw", "price": 275 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T12:47:45Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T12:47:45Z",
+            "outcomes": [
+              { "name": "Chapecoense", "price": 520 },
+              { "name": "Goi\u00e1s", "price": -182 },
+              { "name": "Draw", "price": 275 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T12:47:31Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T12:47:31Z",
+            "outcomes": [
+              { "name": "Chapecoense", "price": 500 },
+              { "name": "Goi\u00e1s", "price": -170 },
+              { "name": "Draw", "price": 255 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T12:47:31Z",
+            "outcomes": [
+              { "name": "Chapecoense", "price": -135, "point": 1.0 },
+              { "name": "Goi\u00e1s", "price": 105, "point": -1.0 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-07-06T12:47:40Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T12:47:40Z",
+            "outcomes": [
+              { "name": "Chapecoense", "price": 500 },
+              { "name": "Goi\u00e1s", "price": -170 },
+              { "name": "Draw", "price": 255 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T12:47:40Z",
+            "outcomes": [
+              { "name": "Chapecoense", "price": -135, "point": 1.0 },
+              { "name": "Goi\u00e1s", "price": 105, "point": -1.0 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T12:48:06Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T12:48:06Z",
+            "outcomes": [
+              { "name": "Chapecoense", "price": 470 },
+              { "name": "Goi\u00e1s", "price": -182 },
+              { "name": "Draw", "price": 255 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T12:48:06Z",
+            "outcomes": [
+              { "name": "Chapecoense", "price": -124, "point": 1.0 },
+              { "name": "Goi\u00e1s", "price": 104, "point": -1.0 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T12:47:40Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T12:47:40Z",
+            "outcomes": [
+              { "name": "Chapecoense", "price": 470 },
+              { "name": "Goi\u00e1s", "price": -182 },
+              { "name": "Draw", "price": 255 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T12:47:40Z",
+            "outcomes": [
+              { "name": "Chapecoense", "price": -124, "point": 1.0 },
+              { "name": "Goi\u00e1s", "price": 104, "point": -1.0 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ca58b52fcdccd71b4710eb5903215541",
+    "sport_key": "soccer_conmebol_copa_america",
+    "sport_title": "Copa Am\u00e9rica",
+    "commence_time": "2024-07-06T22:00:00Z",
+    "home_team": "Colombia",
+    "away_team": "Panama",
+    "bookmakers": [
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2024-07-06T12:42:53Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T12:42:53Z",
+            "outcomes": [
+              { "name": "Colombia", "price": -319 },
+              { "name": "Panama", "price": 900 },
+              { "name": "Draw", "price": 400 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T12:46:13Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T12:46:13Z",
+            "outcomes": [
+              { "name": "Colombia", "price": -300 },
+              { "name": "Panama", "price": 900 },
+              { "name": "Draw", "price": 400 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T12:47:15Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T12:47:15Z",
+            "outcomes": [
+              { "name": "Colombia", "price": -320 },
+              { "name": "Panama", "price": 1000 },
+              { "name": "Draw", "price": 410 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T12:47:15Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T12:47:15Z",
+            "outcomes": [
+              { "name": "Colombia", "price": -335 },
+              { "name": "Panama", "price": 950 },
+              { "name": "Draw", "price": 420 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2024-07-06T12:47:22Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T12:47:22Z",
+            "outcomes": [
+              { "name": "Colombia", "price": -320 },
+              { "name": "Panama", "price": 900 },
+              { "name": "Draw", "price": 400 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T12:47:14Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T12:47:14Z",
+            "outcomes": [
+              { "name": "Colombia", "price": -300 },
+              { "name": "Panama", "price": 900 },
+              { "name": "Draw", "price": 400 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T12:47:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T12:47:21Z",
+            "outcomes": [
+              { "name": "Colombia", "price": -315 },
+              { "name": "Panama", "price": 900 },
+              { "name": "Draw", "price": 420 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T12:47:21Z",
+            "outcomes": [
+              { "name": "Colombia", "price": -105, "point": -1.5 },
+              { "name": "Panama", "price": -115, "point": 1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-07-06T12:47:15Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T12:47:15Z",
+            "outcomes": [
+              { "name": "Colombia", "price": -319 },
+              { "name": "Panama", "price": 987 },
+              { "name": "Draw", "price": 418 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T12:47:15Z",
+            "outcomes": [
+              { "name": "Colombia", "price": 100, "point": -1.5 },
+              { "name": "Panama", "price": -120, "point": 1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T12:47:14Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T12:47:14Z",
+            "outcomes": [
+              { "name": "Colombia", "price": -300 },
+              { "name": "Panama", "price": 1000 },
+              { "name": "Draw", "price": 415 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T12:47:14Z",
+            "outcomes": [
+              { "name": "Colombia", "price": 100, "point": -1.5 },
+              { "name": "Panama", "price": -120, "point": 1.5 }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

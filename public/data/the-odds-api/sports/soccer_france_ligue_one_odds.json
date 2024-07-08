@@ -1,0 +1,740 @@
+[
+  {
+    "id": "51a364eacc466800e0c14e9064e8ede9",
+    "sport_key": "soccer_france_ligue_one",
+    "sport_title": "Ligue 1 - France",
+    "commence_time": "2024-08-18T15:00:00Z",
+    "home_team": "AS Monaco",
+    "away_team": "Saint Etienne",
+    "bookmakers": [
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:44:41Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:41Z",
+            "outcomes": [
+              { "name": "AS Monaco", "price": -191 },
+              { "name": "Saint Etienne", "price": 420 },
+              { "name": "Draw", "price": 330 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:41Z",
+            "outcomes": [
+              { "name": "AS Monaco", "price": 131, "point": -1.5 },
+              { "name": "Saint Etienne", "price": -183, "point": 1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2024-07-06T13:44:50Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:50Z",
+            "outcomes": [
+              { "name": "AS Monaco", "price": -190 },
+              { "name": "Saint Etienne", "price": 425 },
+              { "name": "Draw", "price": 335 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:44:41Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:41Z",
+            "outcomes": [
+              { "name": "AS Monaco", "price": -210 },
+              { "name": "Saint Etienne", "price": 475 },
+              { "name": "Draw", "price": 360 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:42:41Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:41Z",
+            "outcomes": [
+              { "name": "AS Monaco", "price": -210 },
+              { "name": "Saint Etienne", "price": 490 },
+              { "name": "Draw", "price": 350 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1187ef689eb0215c2122e5e070b57bae",
+    "sport_key": "soccer_france_ligue_one",
+    "sport_title": "Ligue 1 - France",
+    "commence_time": "2024-08-18T15:00:00Z",
+    "home_team": "Angers",
+    "away_team": "RC Lens",
+    "bookmakers": [
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2024-07-06T13:44:50Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:50Z",
+            "outcomes": [
+              { "name": "Angers", "price": 330 },
+              { "name": "RC Lens", "price": -135 },
+              { "name": "Draw", "price": 265 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:44:41Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:41Z",
+            "outcomes": [
+              { "name": "Angers", "price": 330 },
+              { "name": "RC Lens", "price": -135 },
+              { "name": "Draw", "price": 265 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:41Z",
+            "outcomes": [
+              { "name": "Angers", "price": 101, "point": 0.5 },
+              { "name": "RC Lens", "price": -139, "point": -0.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:44:41Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:41Z",
+            "outcomes": [
+              { "name": "Angers", "price": 340 },
+              { "name": "RC Lens", "price": -130 },
+              { "name": "Draw", "price": 270 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:42:41Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:41Z",
+            "outcomes": [
+              { "name": "Angers", "price": 350 },
+              { "name": "RC Lens", "price": -140 },
+              { "name": "Draw", "price": 260 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "794b9a47fea5efa178a84d8d03eda256",
+    "sport_key": "soccer_france_ligue_one",
+    "sport_title": "Ligue 1 - France",
+    "commence_time": "2024-08-18T15:00:00Z",
+    "home_team": "Auxerre",
+    "away_team": "Nice",
+    "bookmakers": [
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:44:41Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:41Z",
+            "outcomes": [
+              { "name": "Auxerre", "price": 228 },
+              { "name": "Nice", "price": 116 },
+              { "name": "Draw", "price": 220 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:41Z",
+            "outcomes": [
+              { "name": "Auxerre", "price": -154, "point": 0.5 },
+              { "name": "Nice", "price": 111, "point": -0.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2024-07-06T13:44:50Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:50Z",
+            "outcomes": [
+              { "name": "Auxerre", "price": 225 },
+              { "name": "Nice", "price": 115 },
+              { "name": "Draw", "price": 220 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:44:41Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:41Z",
+            "outcomes": [
+              { "name": "Auxerre", "price": 235 },
+              { "name": "Nice", "price": 120 },
+              { "name": "Draw", "price": 220 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:42:41Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:41Z",
+            "outcomes": [
+              { "name": "Auxerre", "price": 230 },
+              { "name": "Nice", "price": 120 },
+              { "name": "Draw", "price": 230 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "f795f155fb2e4847466ce6c96b571b67",
+    "sport_key": "soccer_france_ligue_one",
+    "sport_title": "Ligue 1 - France",
+    "commence_time": "2024-08-18T15:00:00Z",
+    "home_team": "Brest",
+    "away_team": "Marseille",
+    "bookmakers": [
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:44:41Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:41Z",
+            "outcomes": [
+              { "name": "Brest", "price": 133 },
+              { "name": "Marseille", "price": 187 },
+              { "name": "Draw", "price": 232 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:41Z",
+            "outcomes": [
+              { "name": "Brest", "price": 127, "point": -0.5 },
+              { "name": "Marseille", "price": -177, "point": 0.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2024-07-06T13:44:50Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:50Z",
+            "outcomes": [
+              { "name": "Brest", "price": 135 },
+              { "name": "Marseille", "price": 185 },
+              { "name": "Draw", "price": 230 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:44:41Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:41Z",
+            "outcomes": [
+              { "name": "Brest", "price": 135 },
+              { "name": "Marseille", "price": 195 },
+              { "name": "Draw", "price": 230 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:42:41Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:41Z",
+            "outcomes": [
+              { "name": "Brest", "price": 130 },
+              { "name": "Marseille", "price": 195 },
+              { "name": "Draw", "price": 240 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "3b8b001d7dde7e0ceae6d378957217a2",
+    "sport_key": "soccer_france_ligue_one",
+    "sport_title": "Ligue 1 - France",
+    "commence_time": "2024-08-18T15:00:00Z",
+    "home_team": "Le Havre",
+    "away_team": "Paris Saint Germain",
+    "bookmakers": [
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:44:41Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:41Z",
+            "outcomes": [
+              { "name": "Le Havre", "price": 490 },
+              { "name": "Paris Saint Germain", "price": -220 },
+              { "name": "Draw", "price": 340 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:41Z",
+            "outcomes": [
+              { "name": "Le Havre", "price": -165, "point": 1.5 },
+              { "name": "Paris Saint Germain", "price": 119, "point": -1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2024-07-06T13:44:50Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:50Z",
+            "outcomes": [
+              { "name": "Le Havre", "price": 500 },
+              { "name": "Paris Saint Germain", "price": -220 },
+              { "name": "Draw", "price": 345 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:44:41Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:41Z",
+            "outcomes": [
+              { "name": "Le Havre", "price": 500 },
+              { "name": "Paris Saint Germain", "price": -220 },
+              { "name": "Draw", "price": 360 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:42:41Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:41Z",
+            "outcomes": [
+              { "name": "Le Havre", "price": 500 },
+              { "name": "Paris Saint Germain", "price": -210 },
+              { "name": "Draw", "price": 350 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "61a64811d071f2810ff057836d03531c",
+    "sport_key": "soccer_france_ligue_one",
+    "sport_title": "Ligue 1 - France",
+    "commence_time": "2024-08-18T15:00:00Z",
+    "home_team": "Stade de Reims",
+    "away_team": "Lille",
+    "bookmakers": [
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:44:41Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:41Z",
+            "outcomes": [
+              { "name": "Lille", "price": -109 },
+              { "name": "Stade de Reims", "price": 265 },
+              { "name": "Draw", "price": 250 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:41Z",
+            "outcomes": [
+              { "name": "Lille", "price": -113, "point": -0.5 },
+              { "name": "Stade de Reims", "price": -122, "point": 0.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2024-07-06T13:44:50Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:50Z",
+            "outcomes": [
+              { "name": "Lille", "price": -110 },
+              { "name": "Stade de Reims", "price": 265 },
+              { "name": "Draw", "price": 250 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:44:41Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:41Z",
+            "outcomes": [
+              { "name": "Lille", "price": -105 },
+              { "name": "Stade de Reims", "price": 275 },
+              { "name": "Draw", "price": 250 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:42:41Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:41Z",
+            "outcomes": [
+              { "name": "Lille", "price": -105 },
+              { "name": "Stade de Reims", "price": 280 },
+              { "name": "Draw", "price": 250 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "63bbc77a4da5881de167e285df4eeaa2",
+    "sport_key": "soccer_france_ligue_one",
+    "sport_title": "Ligue 1 - France",
+    "commence_time": "2024-08-18T15:00:00Z",
+    "home_team": "Rennes",
+    "away_team": "Lyon",
+    "bookmakers": [
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:44:41Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:41Z",
+            "outcomes": [
+              { "name": "Lyon", "price": 204 },
+              { "name": "Rennes", "price": 117 },
+              { "name": "Draw", "price": 244 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:41Z",
+            "outcomes": [
+              { "name": "Lyon", "price": -156, "point": 0.5 },
+              { "name": "Rennes", "price": 112, "point": -0.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2024-07-06T13:44:50Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:50Z",
+            "outcomes": [
+              { "name": "Lyon", "price": 205 },
+              { "name": "Rennes", "price": 115 },
+              { "name": "Draw", "price": 245 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:44:41Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:41Z",
+            "outcomes": [
+              { "name": "Lyon", "price": 210 },
+              { "name": "Rennes", "price": 120 },
+              { "name": "Draw", "price": 240 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:42:41Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:41Z",
+            "outcomes": [
+              { "name": "Lyon", "price": 210 },
+              { "name": "Rennes", "price": 120 },
+              { "name": "Draw", "price": 240 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bd096068890e221ba92399525dfb8a98",
+    "sport_key": "soccer_france_ligue_one",
+    "sport_title": "Ligue 1 - France",
+    "commence_time": "2024-08-18T15:00:00Z",
+    "home_team": "Montpellier",
+    "away_team": "Strasbourg",
+    "bookmakers": [
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:44:41Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:41Z",
+            "outcomes": [
+              { "name": "Montpellier", "price": -102 },
+              { "name": "Strasbourg", "price": 255 },
+              { "name": "Draw", "price": 242 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:41Z",
+            "outcomes": [
+              { "name": "Montpellier", "price": -106, "point": -0.5 },
+              { "name": "Strasbourg", "price": -130, "point": 0.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2024-07-06T13:44:50Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:50Z",
+            "outcomes": [
+              { "name": "Montpellier", "price": 100 },
+              { "name": "Strasbourg", "price": 255 },
+              { "name": "Draw", "price": 245 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:44:41Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:41Z",
+            "outcomes": [
+              { "name": "Montpellier", "price": 100 },
+              { "name": "Strasbourg", "price": 260 },
+              { "name": "Draw", "price": 240 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:42:41Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:41Z",
+            "outcomes": [
+              { "name": "Montpellier", "price": 100 },
+              { "name": "Strasbourg", "price": 270 },
+              { "name": "Draw", "price": 240 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ddd34bc92f30932b7dc67c5b51eecee4",
+    "sport_key": "soccer_france_ligue_one",
+    "sport_title": "Ligue 1 - France",
+    "commence_time": "2024-08-18T15:00:00Z",
+    "home_team": "Toulouse",
+    "away_team": "Nantes",
+    "bookmakers": [
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:44:41Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:41Z",
+            "outcomes": [
+              { "name": "Nantes", "price": 290 },
+              { "name": "Toulouse", "price": -109 },
+              { "name": "Draw", "price": 232 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:41Z",
+            "outcomes": [
+              { "name": "Nantes", "price": -121, "point": 0.5 },
+              { "name": "Toulouse", "price": -113, "point": -0.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2024-07-06T13:44:50Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:50Z",
+            "outcomes": [
+              { "name": "Nantes", "price": 290 },
+              { "name": "Toulouse", "price": -110 },
+              { "name": "Draw", "price": 235 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:44:41Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:41Z",
+            "outcomes": [
+              { "name": "Nantes", "price": 270 },
+              { "name": "Toulouse", "price": 100 },
+              { "name": "Draw", "price": 230 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:42:41Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:41Z",
+            "outcomes": [
+              { "name": "Nantes", "price": 290 },
+              { "name": "Toulouse", "price": 100 },
+              { "name": "Draw", "price": 230 }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,226 @@
+[
+  {
+    "id": "e1dd2bc0fa38ee53116f047cf3d0327e",
+    "sport_key": "icehockey_nhl",
+    "sport_title": "NHL",
+    "commence_time": "2024-10-04T17:00:00Z",
+    "home_team": "Buffalo Sabres",
+    "away_team": "New Jersey Devils",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:42:39Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:39Z",
+            "outcomes": [
+              { "name": "Buffalo Sabres", "price": 136 },
+              { "name": "New Jersey Devils", "price": -162 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:42:39Z",
+            "outcomes": [
+              { "name": "Buffalo Sabres", "price": -180, "point": 1.5 },
+              { "name": "New Jersey Devils", "price": 150, "point": -1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:44:09Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:09Z",
+            "outcomes": [
+              { "name": "Buffalo Sabres", "price": 138 },
+              { "name": "New Jersey Devils", "price": -166 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:09Z",
+            "outcomes": [
+              { "name": "Buffalo Sabres", "price": -178, "point": 1.5 },
+              { "name": "New Jersey Devils", "price": 146, "point": -1.5 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "029a4b6055f060f4a3f18a36905ba8dd",
+    "sport_key": "icehockey_nhl",
+    "sport_title": "NHL",
+    "commence_time": "2024-10-08T20:30:00Z",
+    "home_team": "Seattle Kraken",
+    "away_team": "St Louis Blues",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:42:39Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:39Z",
+            "outcomes": [
+              { "name": "Seattle Kraken", "price": -125 },
+              { "name": "St Louis Blues", "price": 105 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:42:39Z",
+            "outcomes": [
+              { "name": "Seattle Kraken", "price": 190, "point": -1.5 },
+              { "name": "St Louis Blues", "price": -230, "point": 1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:44:09Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:09Z",
+            "outcomes": [
+              { "name": "Seattle Kraken", "price": -134 },
+              { "name": "St Louis Blues", "price": 112 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:09Z",
+            "outcomes": [
+              { "name": "Seattle Kraken", "price": 190, "point": -1.5 },
+              { "name": "St Louis Blues", "price": -235, "point": 1.5 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "f94b8afa273442d9a53f1bebec1d6b1d",
+    "sport_key": "icehockey_nhl",
+    "sport_title": "NHL",
+    "commence_time": "2024-10-08T23:00:00Z",
+    "home_team": "Florida Panthers",
+    "away_team": "Boston Bruins",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:42:39Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:39Z",
+            "outcomes": [
+              { "name": "Boston Bruins", "price": 124 },
+              { "name": "Florida Panthers", "price": -148 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:42:39Z",
+            "outcomes": [
+              { "name": "Boston Bruins", "price": -205, "point": 1.5 },
+              { "name": "Florida Panthers", "price": 170, "point": -1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:44:09Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:09Z",
+            "outcomes": [
+              { "name": "Boston Bruins", "price": 128 },
+              { "name": "Florida Panthers", "price": -154 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:09Z",
+            "outcomes": [
+              { "name": "Boston Bruins", "price": -205, "point": 1.5 },
+              { "name": "Florida Panthers", "price": 168, "point": -1.5 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c1c86627576754e0acb6110b6382a54a",
+    "sport_key": "icehockey_nhl",
+    "sport_title": "NHL",
+    "commence_time": "2024-10-09T02:00:00Z",
+    "home_team": "Utah Hockey Club",
+    "away_team": "Chicago Blackhawks",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:42:39Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:39Z",
+            "outcomes": [
+              { "name": "Chicago Blackhawks", "price": 145 },
+              { "name": "Utah Hockey Club", "price": -175 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:42:39Z",
+            "outcomes": [
+              { "name": "Chicago Blackhawks", "price": -175, "point": 1.5 },
+              { "name": "Utah Hockey Club", "price": 145, "point": -1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:44:09Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:09Z",
+            "outcomes": [
+              { "name": "Chicago Blackhawks", "price": 152 },
+              { "name": "Utah Hockey Club", "price": -184 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:09Z",
+            "outcomes": [
+              { "name": "Chicago Blackhawks", "price": -176, "point": 1.5 },
+              { "name": "Utah Hockey Club", "price": 146, "point": -1.5 }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

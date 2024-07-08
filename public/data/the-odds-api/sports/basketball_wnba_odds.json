@@ -1,0 +1,574 @@
+[
+  {
+    "id": "a93b473935fe043a6d2d30d5e3f41339",
+    "sport_key": "basketball_wnba",
+    "sport_title": "WNBA",
+    "commence_time": "2024-07-06T17:00:00Z",
+    "home_team": "Indiana Fever",
+    "away_team": "New York Liberty",
+    "bookmakers": [
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:04Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:04Z",
+            "outcomes": [
+              { "name": "Indiana Fever", "price": 400 },
+              { "name": "New York Liberty", "price": -560 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:04Z",
+            "outcomes": [
+              { "name": "Indiana Fever", "price": -112, "point": 10.0 },
+              { "name": "New York Liberty", "price": -112, "point": -10.0 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:44:04Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:04Z",
+            "outcomes": [
+              { "name": "Indiana Fever", "price": 390 },
+              { "name": "New York Liberty", "price": -550 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:04Z",
+            "outcomes": [
+              { "name": "Indiana Fever", "price": -110, "point": 10.0 },
+              { "name": "New York Liberty", "price": -110, "point": -10.0 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:43:11Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:11Z",
+            "outcomes": [
+              { "name": "Indiana Fever", "price": 394 },
+              { "name": "New York Liberty", "price": -556 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:11Z",
+            "outcomes": [
+              { "name": "Indiana Fever", "price": -110, "point": 10.0 },
+              { "name": "New York Liberty", "price": -110, "point": -10.0 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:44:17Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:17Z",
+            "outcomes": [
+              { "name": "Indiana Fever", "price": 420 },
+              { "name": "New York Liberty", "price": -526 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:17Z",
+            "outcomes": [
+              { "name": "Indiana Fever", "price": -104, "point": 10.0 },
+              { "name": "New York Liberty", "price": -112, "point": -10.0 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T13:43:55Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:55Z",
+            "outcomes": [
+              { "name": "Indiana Fever", "price": 420 },
+              { "name": "New York Liberty", "price": -525 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:55Z",
+            "outcomes": [
+              { "name": "Indiana Fever", "price": -106, "point": 10.0 },
+              { "name": "New York Liberty", "price": -114, "point": -10.0 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:44:17Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:17Z",
+            "outcomes": [
+              { "name": "Indiana Fever", "price": 410 },
+              { "name": "New York Liberty", "price": -550 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:17Z",
+            "outcomes": [
+              { "name": "Indiana Fever", "price": -108, "point": 10.0 },
+              { "name": "New York Liberty", "price": -112, "point": -10.0 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2024-07-06T13:44:05Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:05Z",
+            "outcomes": [
+              { "name": "Indiana Fever", "price": 400 },
+              { "name": "New York Liberty", "price": -550 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:05Z",
+            "outcomes": [
+              { "name": "Indiana Fever", "price": -110, "point": 10.0 },
+              { "name": "New York Liberty", "price": -110, "point": -10.0 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:43:25Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:25Z",
+            "outcomes": [
+              { "name": "Indiana Fever", "price": 400 },
+              { "name": "New York Liberty", "price": -550 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:25Z",
+            "outcomes": [
+              { "name": "Indiana Fever", "price": 100, "point": 9.5 },
+              { "name": "New York Liberty", "price": -120, "point": -9.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:43:55Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:55Z",
+            "outcomes": [
+              { "name": "Indiana Fever", "price": 410 },
+              { "name": "New York Liberty", "price": -585 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:55Z",
+            "outcomes": [
+              { "name": "Indiana Fever", "price": -110, "point": 10.0 },
+              { "name": "New York Liberty", "price": -110, "point": -10.0 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-07-06T13:43:24Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:24Z",
+            "outcomes": [
+              { "name": "Indiana Fever", "price": 415 },
+              { "name": "New York Liberty", "price": -550 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:24Z",
+            "outcomes": [
+              { "name": "Indiana Fever", "price": -110, "point": 10.0 },
+              { "name": "New York Liberty", "price": -110, "point": -10.0 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2024-07-06T13:44:04Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:04Z",
+            "outcomes": [
+              { "name": "Indiana Fever", "price": 425 },
+              { "name": "New York Liberty", "price": -550 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:04Z",
+            "outcomes": [
+              { "name": "Indiana Fever", "price": -110, "point": 10.0 },
+              { "name": "New York Liberty", "price": -110, "point": -10.0 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "wynnbet",
+        "title": "WynnBET",
+        "last_update": "2024-07-06T13:43:12Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:12Z",
+            "outcomes": [
+              { "name": "Indiana Fever", "price": 415 },
+              { "name": "New York Liberty", "price": -549 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:12Z",
+            "outcomes": [
+              { "name": "Indiana Fever", "price": -110, "point": 9.5 },
+              { "name": "New York Liberty", "price": -110, "point": -9.5 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "92b8b69719c1d8d8b8c7a896861003f4",
+    "sport_key": "basketball_wnba",
+    "sport_title": "WNBA",
+    "commence_time": "2024-07-07T00:00:00Z",
+    "home_team": "Minnesota Lynx",
+    "away_team": "Washington Mystics",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:44:04Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:04Z",
+            "outcomes": [
+              { "name": "Minnesota Lynx", "price": -385 },
+              { "name": "Washington Mystics", "price": 290 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:04Z",
+            "outcomes": [
+              { "name": "Minnesota Lynx", "price": -108, "point": -8.5 },
+              { "name": "Washington Mystics", "price": -112, "point": 8.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:43:11Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:11Z",
+            "outcomes": [
+              { "name": "Minnesota Lynx", "price": -455 },
+              { "name": "Washington Mystics", "price": 312 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:11Z",
+            "outcomes": [
+              { "name": "Minnesota Lynx", "price": -110, "point": -8.5 },
+              { "name": "Washington Mystics", "price": -110, "point": 8.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:04Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:04Z",
+            "outcomes": [
+              { "name": "Minnesota Lynx", "price": -420 },
+              { "name": "Washington Mystics", "price": 320 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:04Z",
+            "outcomes": [
+              { "name": "Minnesota Lynx", "price": -112, "point": -8.5 },
+              { "name": "Washington Mystics", "price": -112, "point": 8.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "wynnbet",
+        "title": "WynnBET",
+        "last_update": "2024-07-06T13:43:12Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:12Z",
+            "outcomes": [
+              { "name": "Minnesota Lynx", "price": -400 },
+              { "name": "Washington Mystics", "price": 315 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:12Z",
+            "outcomes": [
+              { "name": "Minnesota Lynx", "price": -110, "point": -8.5 },
+              { "name": "Washington Mystics", "price": -110, "point": 8.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2024-07-06T13:44:04Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:04Z",
+            "outcomes": [
+              { "name": "Minnesota Lynx", "price": -400 },
+              { "name": "Washington Mystics", "price": 330 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:04Z",
+            "outcomes": [
+              { "name": "Minnesota Lynx", "price": -110, "point": -8.5 },
+              { "name": "Washington Mystics", "price": -110, "point": 8.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:43:25Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:25Z",
+            "outcomes": [
+              { "name": "Minnesota Lynx", "price": -450 },
+              { "name": "Washington Mystics", "price": 340 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:25Z",
+            "outcomes": [
+              { "name": "Minnesota Lynx", "price": -110, "point": -8.5 },
+              { "name": "Washington Mystics", "price": -110, "point": 8.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2024-07-06T13:44:05Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:05Z",
+            "outcomes": [
+              { "name": "Minnesota Lynx", "price": -430 },
+              { "name": "Washington Mystics", "price": 328 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:05Z",
+            "outcomes": [
+              { "name": "Minnesota Lynx", "price": -110, "point": -8.5 },
+              { "name": "Washington Mystics", "price": -110, "point": 8.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T13:43:55Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:55Z",
+            "outcomes": [
+              { "name": "Minnesota Lynx", "price": -405 },
+              { "name": "Washington Mystics", "price": 325 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:55Z",
+            "outcomes": [
+              { "name": "Minnesota Lynx", "price": -117, "point": -8.0 },
+              { "name": "Washington Mystics", "price": -103, "point": 8.0 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:44:17Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:17Z",
+            "outcomes": [
+              { "name": "Minnesota Lynx", "price": -405 },
+              { "name": "Washington Mystics", "price": 325 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:17Z",
+            "outcomes": [
+              { "name": "Minnesota Lynx", "price": -115, "point": -8.0 },
+              { "name": "Washington Mystics", "price": -101, "point": 8.0 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:43:55Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:55Z",
+            "outcomes": [
+              { "name": "Minnesota Lynx", "price": -435 },
+              { "name": "Washington Mystics", "price": 325 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:55Z",
+            "outcomes": [
+              { "name": "Minnesota Lynx", "price": -105, "point": -8.5 },
+              { "name": "Washington Mystics", "price": -115, "point": 8.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:44:17Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:17Z",
+            "outcomes": [
+              { "name": "Minnesota Lynx", "price": -425 },
+              { "name": "Washington Mystics", "price": 330 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:17Z",
+            "outcomes": [
+              { "name": "Minnesota Lynx", "price": -115, "point": -8.0 },
+              { "name": "Washington Mystics", "price": -105, "point": 8.0 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-07-06T13:43:24Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:24Z",
+            "outcomes": [
+              { "name": "Minnesota Lynx", "price": -405 },
+              { "name": "Washington Mystics", "price": 325 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:24Z",
+            "outcomes": [
+              { "name": "Minnesota Lynx", "price": -110, "point": -8.5 },
+              { "name": "Washington Mystics", "price": -110, "point": 8.5 }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

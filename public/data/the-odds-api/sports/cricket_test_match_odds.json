@@ -1,0 +1,60 @@
+[
+  {
+    "id": "0899858cd6eb2021e5fd4f16e26480c6",
+    "sport_key": "cricket_test_match",
+    "sport_title": "Test Matches",
+    "commence_time": "2024-07-10T10:00:00Z",
+    "home_team": "England",
+    "away_team": "West Indies",
+    "bookmakers": [
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:12Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:12Z",
+            "outcomes": [
+              { "name": "England", "price": -480 },
+              { "name": "West Indies", "price": 900 },
+              { "name": "Draw", "price": 650 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:42:50Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:50Z",
+            "outcomes": [
+              { "name": "England", "price": -330 },
+              { "name": "West Indies", "price": 950 },
+              { "name": "Draw", "price": 400 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:44:12Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:12Z",
+            "outcomes": [
+              { "name": "England", "price": -450 },
+              { "name": "West Indies", "price": -110 },
+              { "name": "Draw", "price": 550 }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

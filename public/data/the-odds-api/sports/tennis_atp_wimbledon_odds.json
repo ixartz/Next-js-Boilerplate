@@ -1,0 +1,1307 @@
+[
+  {
+    "id": "255735dcf27d5c8f1ed009751039936d",
+    "sport_key": "tennis_atp_wimbledon",
+    "sport_title": "ATP Wimbledon",
+    "commence_time": "2024-07-06T11:59:19Z",
+    "home_team": "Giovanni Mpetshi Perricard",
+    "away_team": "Emil Ruusuvuori",
+    "bookmakers": [
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:44:34Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:34Z",
+            "outcomes": [
+              { "name": "Emil Ruusuvuori", "price": -185 },
+              { "name": "Giovanni Mpetshi Perricard", "price": 135 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:44:35Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:35Z",
+            "outcomes": [
+              { "name": "Emil Ruusuvuori", "price": -185 },
+              { "name": "Giovanni Mpetshi Perricard", "price": 140 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:43:53Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:53Z",
+            "outcomes": [
+              { "name": "Emil Ruusuvuori", "price": -170 },
+              { "name": "Giovanni Mpetshi Perricard", "price": 140 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:53Z",
+            "outcomes": [
+              { "name": "Emil Ruusuvuori", "price": -110, "point": -2.5 },
+              {
+                "name": "Giovanni Mpetshi Perricard",
+                "price": -120,
+                "point": 2.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:42:50Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:50Z",
+            "outcomes": [
+              { "name": "Emil Ruusuvuori", "price": -170 },
+              { "name": "Giovanni Mpetshi Perricard", "price": 140 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:44:34Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:34Z",
+            "outcomes": [
+              { "name": "Emil Ruusuvuori", "price": -167 },
+              { "name": "Giovanni Mpetshi Perricard", "price": 135 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:34Z",
+            "outcomes": [
+              { "name": "Emil Ruusuvuori", "price": -105, "point": -2.5 },
+              {
+                "name": "Giovanni Mpetshi Perricard",
+                "price": -133,
+                "point": 2.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2024-07-06T13:44:15Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:15Z",
+            "outcomes": [
+              { "name": "Emil Ruusuvuori", "price": -170 },
+              { "name": "Giovanni Mpetshi Perricard", "price": 135 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:15Z",
+            "outcomes": [
+              { "name": "Emil Ruusuvuori", "price": -135, "point": -1.5 },
+              {
+                "name": "Giovanni Mpetshi Perricard",
+                "price": 105,
+                "point": 1.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "wynnbet",
+        "title": "WynnBET",
+        "last_update": "2024-07-06T13:44:35Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:35Z",
+            "outcomes": [
+              { "name": "Emil Ruusuvuori", "price": -182 },
+              { "name": "Giovanni Mpetshi Perricard", "price": 147 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:35Z",
+            "outcomes": [
+              { "name": "Emil Ruusuvuori", "price": -106, "point": -2.5 },
+              {
+                "name": "Giovanni Mpetshi Perricard",
+                "price": -125,
+                "point": 2.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "48ebc258abdaf78e59334ab8ac473f10",
+    "sport_key": "tennis_atp_wimbledon",
+    "sport_title": "ATP Wimbledon",
+    "commence_time": "2024-07-06T12:00:41Z",
+    "home_team": "Arthur Fils",
+    "away_team": "Roman Safiullin",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:44:35Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:35Z",
+            "outcomes": [
+              { "name": "Arthur Fils", "price": -170 },
+              { "name": "Roman Safiullin", "price": 130 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:43:53Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:53Z",
+            "outcomes": [
+              { "name": "Arthur Fils", "price": -170 },
+              { "name": "Roman Safiullin", "price": 140 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:53Z",
+            "outcomes": [
+              { "name": "Arthur Fils", "price": -115, "point": -2.5 },
+              { "name": "Roman Safiullin", "price": -115, "point": 2.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:44:34Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:34Z",
+            "outcomes": [
+              { "name": "Arthur Fils", "price": -175 },
+              { "name": "Roman Safiullin", "price": 130 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2024-07-06T13:44:15Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:15Z",
+            "outcomes": [
+              { "name": "Arthur Fils", "price": -150 },
+              { "name": "Roman Safiullin", "price": 120 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:15Z",
+            "outcomes": [
+              { "name": "Arthur Fils", "price": -105, "point": -1.5 },
+              { "name": "Roman Safiullin", "price": -125, "point": 1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:44:34Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:34Z",
+            "outcomes": [
+              { "name": "Arthur Fils", "price": -143 },
+              { "name": "Roman Safiullin", "price": 115 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:34Z",
+            "outcomes": [
+              { "name": "Arthur Fils", "price": -118, "point": -1.5 },
+              { "name": "Roman Safiullin", "price": -118, "point": 1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "wynnbet",
+        "title": "WynnBET",
+        "last_update": "2024-07-06T13:44:35Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:35Z",
+            "outcomes": [
+              { "name": "Arthur Fils", "price": -161 },
+              { "name": "Roman Safiullin", "price": 131 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:35Z",
+            "outcomes": [
+              { "name": "Arthur Fils", "price": -115, "point": -2.5 },
+              { "name": "Roman Safiullin", "price": -115, "point": 2.5 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "a13b371bc983941e459f44d2d5f05d22",
+    "sport_key": "tennis_atp_wimbledon",
+    "sport_title": "ATP Wimbledon",
+    "commence_time": "2024-07-06T12:39:37Z",
+    "home_team": "Cameron Norrie",
+    "away_team": "Alexander Zverev",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:44:35Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:35Z",
+            "outcomes": [
+              { "name": "Alexander Zverev", "price": -1400 },
+              { "name": "Cameron Norrie", "price": 850 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:43:53Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:53Z",
+            "outcomes": [
+              { "name": "Alexander Zverev", "price": -1400 },
+              { "name": "Cameron Norrie", "price": 775 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:53Z",
+            "outcomes": [
+              { "name": "Alexander Zverev", "price": -135, "point": -5.5 },
+              { "name": "Cameron Norrie", "price": 105, "point": 5.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:44:27Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:27Z",
+            "outcomes": [
+              { "name": "Alexander Zverev", "price": -800 },
+              { "name": "Cameron Norrie", "price": 500 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:44:34Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:34Z",
+            "outcomes": [
+              { "name": "Alexander Zverev", "price": -1000 },
+              { "name": "Cameron Norrie", "price": 525 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:44:34Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:34Z",
+            "outcomes": [
+              { "name": "Alexander Zverev", "price": -3333 },
+              { "name": "Cameron Norrie", "price": 975 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:34Z",
+            "outcomes": [
+              { "name": "Alexander Zverev", "price": -200, "point": -5.5 },
+              { "name": "Cameron Norrie", "price": 140, "point": 5.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2024-07-06T13:44:15Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:15Z",
+            "outcomes": [
+              { "name": "Alexander Zverev", "price": -1600 },
+              { "name": "Cameron Norrie", "price": 750 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:15Z",
+            "outcomes": [
+              { "name": "Alexander Zverev", "price": -110, "point": -5.5 },
+              { "name": "Cameron Norrie", "price": -120, "point": 5.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "wynnbet",
+        "title": "WynnBET",
+        "last_update": "2024-07-06T13:44:35Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:35Z",
+            "outcomes": [
+              { "name": "Alexander Zverev", "price": -1667 },
+              { "name": "Cameron Norrie", "price": 840 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:35Z",
+            "outcomes": [
+              { "name": "Alexander Zverev", "price": -143, "point": -5.5 },
+              { "name": "Cameron Norrie", "price": 108, "point": 5.5 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2b8dc5e7b16d1fc92fffe4038eeb8d08",
+    "sport_key": "tennis_atp_wimbledon",
+    "sport_title": "ATP Wimbledon",
+    "commence_time": "2024-07-06T13:57:00Z",
+    "home_team": "Holger Rune",
+    "away_team": "Quentin Halys",
+    "bookmakers": [
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:34Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:34Z",
+            "outcomes": [
+              { "name": "Holger Rune", "price": -345 },
+              { "name": "Quentin Halys", "price": 255 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:44:35Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:35Z",
+            "outcomes": [
+              { "name": "Holger Rune", "price": -340 },
+              { "name": "Quentin Halys", "price": 255 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:43:53Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:53Z",
+            "outcomes": [
+              { "name": "Holger Rune", "price": -350 },
+              { "name": "Quentin Halys", "price": 275 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:53Z",
+            "outcomes": [
+              { "name": "Holger Rune", "price": -105, "point": -4.0 },
+              { "name": "Quentin Halys", "price": -125, "point": 4.0 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:44:34Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:34Z",
+            "outcomes": [
+              { "name": "Holger Rune", "price": -350 },
+              { "name": "Quentin Halys", "price": 260 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:44:27Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:27Z",
+            "outcomes": [
+              { "name": "Holger Rune", "price": -345 },
+              { "name": "Quentin Halys", "price": 270 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:44:34Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:34Z",
+            "outcomes": [
+              { "name": "Holger Rune", "price": -360 },
+              { "name": "Quentin Halys", "price": 260 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:34Z",
+            "outcomes": [
+              { "name": "Holger Rune", "price": -141, "point": -3.5 },
+              { "name": "Quentin Halys", "price": 102, "point": 3.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T13:44:59Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:59Z",
+            "outcomes": [
+              { "name": "Holger Rune", "price": -325 },
+              { "name": "Quentin Halys", "price": 270 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:59Z",
+            "outcomes": [
+              { "name": "Holger Rune", "price": -105, "point": -4.0 },
+              { "name": "Quentin Halys", "price": -115, "point": 4.0 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:44:36Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:36Z",
+            "outcomes": [
+              { "name": "Holger Rune", "price": -325 },
+              { "name": "Quentin Halys", "price": 270 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:36Z",
+            "outcomes": [
+              { "name": "Holger Rune", "price": -105, "point": -4.0 },
+              { "name": "Quentin Halys", "price": -115, "point": 4.0 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2024-07-06T13:44:15Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:15Z",
+            "outcomes": [
+              { "name": "Holger Rune", "price": -320 },
+              { "name": "Quentin Halys", "price": 235 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:15Z",
+            "outcomes": [
+              { "name": "Holger Rune", "price": 115, "point": -4.5 },
+              { "name": "Quentin Halys", "price": -145, "point": 4.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "wynnbet",
+        "title": "WynnBET",
+        "last_update": "2024-07-06T13:44:35Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:35Z",
+            "outcomes": [
+              { "name": "Holger Rune", "price": -333 },
+              { "name": "Quentin Halys", "price": 280 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:35Z",
+            "outcomes": [
+              { "name": "Holger Rune", "price": -133, "point": -3.5 },
+              { "name": "Quentin Halys", "price": 110, "point": 3.5 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "5e8d59991142e2ffc2c3b3e4a88f10fa",
+    "sport_key": "tennis_atp_wimbledon",
+    "sport_title": "ATP Wimbledon",
+    "commence_time": "2024-07-06T14:05:00Z",
+    "home_team": "Francisco Comesana",
+    "away_team": "Lorenzo Musetti",
+    "bookmakers": [
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:44:34Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:34Z",
+            "outcomes": [
+              { "name": "Francisco Comesana", "price": 400 },
+              { "name": "Lorenzo Musetti", "price": -650 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:34Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:34Z",
+            "outcomes": [
+              { "name": "Francisco Comesana", "price": 450 },
+              { "name": "Lorenzo Musetti", "price": -670 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:44:35Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:35Z",
+            "outcomes": [
+              { "name": "Francisco Comesana", "price": 475 },
+              { "name": "Lorenzo Musetti", "price": -650 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:43:53Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:53Z",
+            "outcomes": [
+              { "name": "Francisco Comesana", "price": 500 },
+              { "name": "Lorenzo Musetti", "price": -750 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:53Z",
+            "outcomes": [
+              { "name": "Francisco Comesana", "price": -110, "point": 6.0 },
+              { "name": "Lorenzo Musetti", "price": -120, "point": -6.0 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:44:34Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:34Z",
+            "outcomes": [
+              { "name": "Francisco Comesana", "price": 420 },
+              { "name": "Lorenzo Musetti", "price": -649 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:34Z",
+            "outcomes": [
+              { "name": "Francisco Comesana", "price": -145, "point": 6.5 },
+              { "name": "Lorenzo Musetti", "price": 105, "point": -6.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:44:36Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:36Z",
+            "outcomes": [
+              { "name": "Francisco Comesana", "price": 475 },
+              { "name": "Lorenzo Musetti", "price": -649 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:36Z",
+            "outcomes": [
+              { "name": "Francisco Comesana", "price": -105, "point": 6.0 },
+              { "name": "Lorenzo Musetti", "price": -115, "point": -6.0 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T13:44:59Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:59Z",
+            "outcomes": [
+              { "name": "Francisco Comesana", "price": 475 },
+              { "name": "Lorenzo Musetti", "price": -650 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:59Z",
+            "outcomes": [
+              { "name": "Francisco Comesana", "price": -105, "point": 6.0 },
+              { "name": "Lorenzo Musetti", "price": -115, "point": -6.0 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2024-07-06T13:44:15Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:15Z",
+            "outcomes": [
+              { "name": "Francisco Comesana", "price": 440 },
+              { "name": "Lorenzo Musetti", "price": -700 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:15Z",
+            "outcomes": [
+              { "name": "Francisco Comesana", "price": 120, "point": 5.5 },
+              { "name": "Lorenzo Musetti", "price": -150, "point": -5.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "wynnbet",
+        "title": "WynnBET",
+        "last_update": "2024-07-06T13:44:35Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:35Z",
+            "outcomes": [
+              { "name": "Francisco Comesana", "price": 470 },
+              { "name": "Lorenzo Musetti", "price": -588 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:35Z",
+            "outcomes": [
+              { "name": "Francisco Comesana", "price": -133, "point": 6.5 },
+              { "name": "Lorenzo Musetti", "price": 110, "point": -6.5 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "e7598bca224613e2219945646d24e6a5",
+    "sport_key": "tennis_atp_wimbledon",
+    "sport_title": "ATP Wimbledon",
+    "commence_time": "2024-07-06T14:45:00Z",
+    "home_team": "Taylor Fritz",
+    "away_team": "Alejandro Tabilo",
+    "bookmakers": [
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:34Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:34Z",
+            "outcomes": [
+              { "name": "Alejandro Tabilo", "price": 360 },
+              { "name": "Taylor Fritz", "price": -500 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:43:53Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:53Z",
+            "outcomes": [
+              { "name": "Alejandro Tabilo", "price": 425 },
+              { "name": "Taylor Fritz", "price": -600 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:53Z",
+            "outcomes": [
+              { "name": "Alejandro Tabilo", "price": -115, "point": 5.5 },
+              { "name": "Taylor Fritz", "price": -115, "point": -5.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:44:34Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:34Z",
+            "outcomes": [
+              { "name": "Alejandro Tabilo", "price": 375 },
+              { "name": "Taylor Fritz", "price": -550 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:44:35Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:35Z",
+            "outcomes": [
+              { "name": "Alejandro Tabilo", "price": 390 },
+              { "name": "Taylor Fritz", "price": -500 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:44:27Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:27Z",
+            "outcomes": [
+              { "name": "Alejandro Tabilo", "price": 420 },
+              { "name": "Taylor Fritz", "price": -580 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:44:34Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:34Z",
+            "outcomes": [
+              { "name": "Alejandro Tabilo", "price": 390 },
+              { "name": "Taylor Fritz", "price": -599 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:34Z",
+            "outcomes": [
+              { "name": "Alejandro Tabilo", "price": -139, "point": 5.5 },
+              { "name": "Taylor Fritz", "price": 101, "point": -5.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:44:36Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:36Z",
+            "outcomes": [
+              { "name": "Alejandro Tabilo", "price": 425 },
+              { "name": "Taylor Fritz", "price": -549 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:36Z",
+            "outcomes": [
+              { "name": "Alejandro Tabilo", "price": -120, "point": 5.5 },
+              { "name": "Taylor Fritz", "price": 100, "point": -5.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T13:44:59Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:59Z",
+            "outcomes": [
+              { "name": "Alejandro Tabilo", "price": 425 },
+              { "name": "Taylor Fritz", "price": -550 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:59Z",
+            "outcomes": [
+              { "name": "Alejandro Tabilo", "price": -120, "point": 5.5 },
+              { "name": "Taylor Fritz", "price": 100, "point": -5.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2024-07-06T13:44:15Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:15Z",
+            "outcomes": [
+              { "name": "Alejandro Tabilo", "price": 350 },
+              { "name": "Taylor Fritz", "price": -550 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:15Z",
+            "outcomes": [
+              { "name": "Alejandro Tabilo", "price": -115, "point": 5.5 },
+              { "name": "Taylor Fritz", "price": -115, "point": -5.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "wynnbet",
+        "title": "WynnBET",
+        "last_update": "2024-07-06T13:44:35Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:35Z",
+            "outcomes": [
+              { "name": "Alejandro Tabilo", "price": 450 },
+              { "name": "Taylor Fritz", "price": -556 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:35Z",
+            "outcomes": [
+              { "name": "Alejandro Tabilo", "price": -128, "point": 5.5 },
+              { "name": "Taylor Fritz", "price": 105, "point": -5.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-07-06T13:44:56Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:56Z",
+            "outcomes": [
+              { "name": "Alejandro Tabilo", "price": 400 },
+              { "name": "Taylor Fritz", "price": -600 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:56Z",
+            "outcomes": [
+              { "name": "Alejandro Tabilo", "price": -115, "point": 5.5 },
+              { "name": "Taylor Fritz", "price": -115, "point": -5.5 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "f93f471d4143c03c8eef5d61e56f90ed",
+    "sport_key": "tennis_atp_wimbledon",
+    "sport_title": "ATP Wimbledon",
+    "commence_time": "2024-07-06T16:12:00Z",
+    "home_team": "Alexei Popyrin",
+    "away_team": "Novak Djokovic",
+    "bookmakers": [
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:44:34Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:34Z",
+            "outcomes": [
+              { "name": "Alexei Popyrin", "price": 450 },
+              { "name": "Novak Djokovic", "price": -700 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:34Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:34Z",
+            "outcomes": [
+              { "name": "Alexei Popyrin", "price": 510 },
+              { "name": "Novak Djokovic", "price": -835 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:44:35Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:35Z",
+            "outcomes": [
+              { "name": "Alexei Popyrin", "price": 500 },
+              { "name": "Novak Djokovic", "price": -750 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:43:53Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:53Z",
+            "outcomes": [
+              { "name": "Alexei Popyrin", "price": 525 },
+              { "name": "Novak Djokovic", "price": -800 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:53Z",
+            "outcomes": [
+              { "name": "Alexei Popyrin", "price": 100, "point": 5.5 },
+              { "name": "Novak Djokovic", "price": -130, "point": -5.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2024-07-06T13:44:15Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:15Z",
+            "outcomes": [
+              { "name": "Alexei Popyrin", "price": 500 },
+              { "name": "Novak Djokovic", "price": -900 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:15Z",
+            "outcomes": [
+              { "name": "Alexei Popyrin", "price": -105, "point": 5.5 },
+              { "name": "Novak Djokovic", "price": -125, "point": -5.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:44:27Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:27Z",
+            "outcomes": [
+              { "name": "Alexei Popyrin", "price": 580 },
+              { "name": "Novak Djokovic", "price": -880 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:44:36Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:36Z",
+            "outcomes": [
+              { "name": "Alexei Popyrin", "price": 550 },
+              { "name": "Novak Djokovic", "price": -800 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:36Z",
+            "outcomes": [
+              { "name": "Alexei Popyrin", "price": 105, "point": 5.5 },
+              { "name": "Novak Djokovic", "price": -125, "point": -5.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T13:44:59Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:59Z",
+            "outcomes": [
+              { "name": "Alexei Popyrin", "price": 550 },
+              { "name": "Novak Djokovic", "price": -800 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:59Z",
+            "outcomes": [
+              { "name": "Alexei Popyrin", "price": 105, "point": 5.5 },
+              { "name": "Novak Djokovic", "price": -125, "point": -5.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:44:34Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:34Z",
+            "outcomes": [
+              { "name": "Alexei Popyrin", "price": 490 },
+              { "name": "Novak Djokovic", "price": -847 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:34Z",
+            "outcomes": [
+              { "name": "Alexei Popyrin", "price": -104, "point": 5.5 },
+              { "name": "Novak Djokovic", "price": -133, "point": -5.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-07-06T13:44:56Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:56Z",
+            "outcomes": [
+              { "name": "Alexei Popyrin", "price": 500 },
+              { "name": "Novak Djokovic", "price": -800 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:56Z",
+            "outcomes": [
+              { "name": "Alexei Popyrin", "price": -105, "point": 5.5 },
+              { "name": "Novak Djokovic", "price": -125, "point": -5.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "wynnbet",
+        "title": "WynnBET",
+        "last_update": "2024-07-06T13:44:35Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:35Z",
+            "outcomes": [
+              { "name": "Alexei Popyrin", "price": 490 },
+              { "name": "Novak Djokovic", "price": -625 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:35Z",
+            "outcomes": [
+              { "name": "Alexei Popyrin", "price": 102, "point": 5.5 },
+              { "name": "Novak Djokovic", "price": -125, "point": -5.5 }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

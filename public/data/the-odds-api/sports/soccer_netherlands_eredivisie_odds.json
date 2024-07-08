@@ -1,0 +1,236 @@
+[
+  {
+    "id": "5a3e319b846c28048d15a7764d366a6c",
+    "sport_key": "soccer_netherlands_eredivisie",
+    "sport_title": "Dutch Eredivisie",
+    "commence_time": "2024-08-09T18:00:00Z",
+    "home_team": "Groningen",
+    "away_team": "NAC Breda",
+    "bookmakers": [
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:45Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:45Z",
+            "outcomes": [
+              { "name": "Groningen", "price": -112 },
+              { "name": "NAC Breda", "price": 290 },
+              { "name": "Draw", "price": 260 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "634a7b7cec54ec0d1aaea1ef92b2ea79",
+    "sport_key": "soccer_netherlands_eredivisie",
+    "sport_title": "Dutch Eredivisie",
+    "commence_time": "2024-08-10T14:30:00Z",
+    "home_team": "Feyenoord",
+    "away_team": "Willem II",
+    "bookmakers": [
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:45Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:45Z",
+            "outcomes": [
+              { "name": "Feyenoord", "price": -1000 },
+              { "name": "Willem II", "price": 2000 },
+              { "name": "Draw", "price": 850 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2913306f52f3e022b294f0b0c09ac4b6",
+    "sport_key": "soccer_netherlands_eredivisie",
+    "sport_title": "Dutch Eredivisie",
+    "commence_time": "2024-08-10T16:45:00Z",
+    "home_team": "NEC Nijmegen",
+    "away_team": "FC Twente Enschede",
+    "bookmakers": [
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:45Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:45Z",
+            "outcomes": [
+              { "name": "FC Twente Enschede", "price": -112 },
+              { "name": "NEC Nijmegen", "price": 290 },
+              { "name": "Draw", "price": 260 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cdd7a2295559abd5cc0502dbe169ad26",
+    "sport_key": "soccer_netherlands_eredivisie",
+    "sport_title": "Dutch Eredivisie",
+    "commence_time": "2024-08-10T18:00:00Z",
+    "home_team": "FC Utrecht",
+    "away_team": "FC Zwolle",
+    "bookmakers": [
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:45Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:45Z",
+            "outcomes": [
+              { "name": "FC Utrecht", "price": -200 },
+              { "name": "FC Zwolle", "price": 550 },
+              { "name": "Draw", "price": 315 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "3f91fe4593218c947785ffbdf3d22c39",
+    "sport_key": "soccer_netherlands_eredivisie",
+    "sport_title": "Dutch Eredivisie",
+    "commence_time": "2024-08-10T19:00:00Z",
+    "home_team": "PSV Eindhoven",
+    "away_team": "RKC Waalwijk",
+    "bookmakers": [
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:45Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:45Z",
+            "outcomes": [
+              { "name": "PSV Eindhoven", "price": -1000 },
+              { "name": "RKC Waalwijk", "price": 2000 },
+              { "name": "Draw", "price": 850 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "e4b4ae7a3a6f2d82bf6fdba41620edd3",
+    "sport_key": "soccer_netherlands_eredivisie",
+    "sport_title": "Dutch Eredivisie",
+    "commence_time": "2024-08-11T10:15:00Z",
+    "home_team": "Sparta Rotterdam",
+    "away_team": "Heracles Almelo",
+    "bookmakers": [
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:45Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:45Z",
+            "outcomes": [
+              { "name": "Heracles Almelo", "price": 350 },
+              { "name": "Sparta Rotterdam", "price": -143 },
+              { "name": "Draw", "price": 300 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "10f5537b0d86163d53099edf0c2b3b7a",
+    "sport_key": "soccer_netherlands_eredivisie",
+    "sport_title": "Dutch Eredivisie",
+    "commence_time": "2024-08-11T12:30:00Z",
+    "home_team": "Almere City",
+    "away_team": "AZ Alkmaar",
+    "bookmakers": [
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:45Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:45Z",
+            "outcomes": [
+              { "name": "Almere City", "price": 340 },
+              { "name": "AZ Alkmaar", "price": -134 },
+              { "name": "Draw", "price": 280 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "4bcd1721674142f4278e698f2b71b136",
+    "sport_key": "soccer_netherlands_eredivisie",
+    "sport_title": "Dutch Eredivisie",
+    "commence_time": "2024-08-11T12:30:00Z",
+    "home_team": "Go Ahead Eagles",
+    "away_team": "Fortuna Sittard",
+    "bookmakers": [
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:45Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:45Z",
+            "outcomes": [
+              { "name": "Fortuna Sittard", "price": 220 },
+              { "name": "Go Ahead Eagles", "price": 120 },
+              { "name": "Draw", "price": 240 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "a1098e6b3267df79bf456bba18e283f2",
+    "sport_key": "soccer_netherlands_eredivisie",
+    "sport_title": "Dutch Eredivisie",
+    "commence_time": "2024-08-11T14:45:00Z",
+    "home_team": "Ajax",
+    "away_team": "Heerenveen",
+    "bookmakers": [
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:45Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:45Z",
+            "outcomes": [
+              { "name": "Ajax", "price": -250 },
+              { "name": "Heerenveen", "price": 700 },
+              { "name": "Draw", "price": 350 }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

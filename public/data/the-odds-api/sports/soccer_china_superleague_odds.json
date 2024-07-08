@@ -1,0 +1,1024 @@
+[
+  {
+    "id": "ffd895b292d460a01099d5fa2e04bda8",
+    "sport_key": "soccer_china_superleague",
+    "sport_title": "Super League - China",
+    "commence_time": "2024-07-06T11:35:10Z",
+    "home_team": "Shanghai Shenhua FC",
+    "away_team": "Shandong Luneng Taishan FC",
+    "bookmakers": [
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:44:33Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:33Z",
+            "outcomes": [
+              {
+                "name": "Shandong Luneng Taishan FC",
+                "price": -333,
+                "point": 6.5
+              },
+              { "name": "Shanghai Shenhua FC", "price": 205, "point": -6.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:31:42Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:31:42Z",
+            "outcomes": [
+              {
+                "name": "Shandong Luneng Taishan FC",
+                "price": 335,
+                "point": 6.0
+              },
+              { "name": "Shanghai Shenhua FC", "price": -450, "point": -6.0 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c4ffe3345c09807a9706cab3c08da374",
+    "sport_key": "soccer_china_superleague",
+    "sport_title": "Super League - China",
+    "commence_time": "2024-07-06T12:00:23Z",
+    "home_team": "Cangzhou Mighty Lions",
+    "away_team": "Shenzhen Peng City FC",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:42:01Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:01Z",
+            "outcomes": [
+              { "name": "Cangzhou Mighty Lions", "price": 650 },
+              { "name": "Shenzhen Peng City FC", "price": 380 },
+              { "name": "Draw", "price": -290 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:44:33Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:33Z",
+            "outcomes": [
+              { "name": "Cangzhou Mighty Lions", "price": 315 },
+              { "name": "Shenzhen Peng City FC", "price": 160 },
+              { "name": "Draw", "price": 100 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:33Z",
+            "outcomes": [
+              { "name": "Cangzhou Mighty Lions", "price": -250, "point": 0.5 },
+              { "name": "Shenzhen Peng City FC", "price": 160, "point": -0.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:44:33Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:33Z",
+            "outcomes": [
+              { "name": "Cangzhou Mighty Lions", "price": 675 },
+              { "name": "Shenzhen Peng City FC", "price": 370 },
+              { "name": "Draw", "price": -290 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:44:33Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:33Z",
+            "outcomes": [
+              { "name": "Cangzhou Mighty Lions", "price": 800 },
+              { "name": "Shenzhen Peng City FC", "price": 450 },
+              { "name": "Draw", "price": -350 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:43:51Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:51Z",
+            "outcomes": [
+              { "name": "Cangzhou Mighty Lions", "price": 575 },
+              { "name": "Shenzhen Peng City FC", "price": 360 },
+              { "name": "Draw", "price": -350 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "988cf0b38036f9901c694b04d92524f6",
+    "sport_key": "soccer_china_superleague",
+    "sport_title": "Super League - China",
+    "commence_time": "2024-07-07T11:00:00Z",
+    "home_team": "Nantong Zhiyun FC",
+    "away_team": "Chengdu Rongcheng FC",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:43:36Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:36Z",
+            "outcomes": [
+              { "name": "Chengdu Rongcheng FC", "price": -270 },
+              { "name": "Nantong Zhiyun FC", "price": 600 },
+              { "name": "Draw", "price": 390 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2024-07-06T13:44:13Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:13Z",
+            "outcomes": [
+              { "name": "Chengdu Rongcheng FC", "price": -245 },
+              { "name": "Nantong Zhiyun FC", "price": 525 },
+              { "name": "Draw", "price": 370 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:44:33Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:33Z",
+            "outcomes": [
+              { "name": "Chengdu Rongcheng FC", "price": -204 },
+              { "name": "Nantong Zhiyun FC", "price": 480 },
+              { "name": "Draw", "price": 360 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:33Z",
+            "outcomes": [
+              { "name": "Chengdu Rongcheng FC", "price": 122, "point": -1.5 },
+              { "name": "Nantong Zhiyun FC", "price": -161, "point": 1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:44:33Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:33Z",
+            "outcomes": [
+              { "name": "Chengdu Rongcheng FC", "price": -235 },
+              { "name": "Nantong Zhiyun FC", "price": 550 },
+              { "name": "Draw", "price": 390 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:33Z",
+            "outcomes": [
+              { "name": "Chengdu Rongcheng FC", "price": -112, "point": -1.25 },
+              { "name": "Nantong Zhiyun FC", "price": -108, "point": 1.25 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:44:33Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:33Z",
+            "outcomes": [
+              { "name": "Chengdu Rongcheng FC", "price": -250 },
+              { "name": "Nantong Zhiyun FC", "price": 650 },
+              { "name": "Draw", "price": 360 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:17Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:17Z",
+            "outcomes": [
+              { "name": "Chengdu Rongcheng FC", "price": -240 },
+              { "name": "Nantong Zhiyun FC", "price": 550 },
+              { "name": "Draw", "price": 375 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-07-06T13:44:03Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:03Z",
+            "outcomes": [
+              { "name": "Chengdu Rongcheng FC", "price": -230 },
+              { "name": "Nantong Zhiyun FC", "price": 525 },
+              { "name": "Draw", "price": 380 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:43:51Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:51Z",
+            "outcomes": [
+              { "name": "Chengdu Rongcheng FC", "price": -250 },
+              { "name": "Nantong Zhiyun FC", "price": 475 },
+              { "name": "Draw", "price": 375 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:44:14Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:14Z",
+            "outcomes": [
+              { "name": "Chengdu Rongcheng FC", "price": -278 },
+              { "name": "Nantong Zhiyun FC", "price": 530 },
+              { "name": "Draw", "price": 350 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:14Z",
+            "outcomes": [
+              { "name": "Chengdu Rongcheng FC", "price": -115, "point": -1.25 },
+              { "name": "Nantong Zhiyun FC", "price": -105, "point": 1.25 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T13:44:42Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:42Z",
+            "outcomes": [
+              { "name": "Chengdu Rongcheng FC", "price": -278 },
+              { "name": "Nantong Zhiyun FC", "price": 530 },
+              { "name": "Draw", "price": 350 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:42Z",
+            "outcomes": [
+              { "name": "Chengdu Rongcheng FC", "price": -115, "point": -1.25 },
+              { "name": "Nantong Zhiyun FC", "price": -105, "point": 1.25 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2bffaa67f84b82569e1802d2d5b29411",
+    "sport_key": "soccer_china_superleague",
+    "sport_title": "Super League - China",
+    "commence_time": "2024-07-07T11:35:00Z",
+    "home_team": "Beijing FC",
+    "away_team": "Wuhan Three Towns",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:43:36Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:36Z",
+            "outcomes": [
+              { "name": "Beijing FC", "price": -155 },
+              { "name": "Wuhan Three Towns", "price": 360 },
+              { "name": "Draw", "price": 310 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2024-07-06T13:44:13Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:13Z",
+            "outcomes": [
+              { "name": "Beijing FC", "price": -145 },
+              { "name": "Wuhan Three Towns", "price": 325 },
+              { "name": "Draw", "price": 300 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:44:33Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:33Z",
+            "outcomes": [
+              { "name": "Beijing FC", "price": -141 },
+              { "name": "Wuhan Three Towns", "price": 330 },
+              { "name": "Draw", "price": 310 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:33Z",
+            "outcomes": [
+              { "name": "Beijing FC", "price": -147, "point": -0.5 },
+              { "name": "Wuhan Three Towns", "price": 111, "point": 0.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:44:33Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:33Z",
+            "outcomes": [
+              { "name": "Beijing FC", "price": -140 },
+              { "name": "Wuhan Three Towns", "price": 330 },
+              { "name": "Draw", "price": 295 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:33Z",
+            "outcomes": [
+              { "name": "Beijing FC", "price": -112, "point": -0.75 },
+              { "name": "Wuhan Three Towns", "price": -108, "point": 0.75 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:44:33Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:33Z",
+            "outcomes": [
+              { "name": "Beijing FC", "price": -140 },
+              { "name": "Wuhan Three Towns", "price": 330 },
+              { "name": "Draw", "price": 310 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:17Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:17Z",
+            "outcomes": [
+              { "name": "Beijing FC", "price": -155 },
+              { "name": "Wuhan Three Towns", "price": 345 },
+              { "name": "Draw", "price": 310 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-07-06T13:44:03Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:03Z",
+            "outcomes": [
+              { "name": "Beijing FC", "price": -140 },
+              { "name": "Wuhan Three Towns", "price": 330 },
+              { "name": "Draw", "price": 295 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:43:51Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:51Z",
+            "outcomes": [
+              { "name": "Beijing FC", "price": -150 },
+              { "name": "Wuhan Three Towns", "price": 320 },
+              { "name": "Draw", "price": 300 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:44:14Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:14Z",
+            "outcomes": [
+              { "name": "Beijing FC", "price": -140 },
+              { "name": "Wuhan Three Towns", "price": 285 },
+              { "name": "Draw", "price": 285 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:14Z",
+            "outcomes": [
+              { "name": "Beijing FC", "price": 105, "point": -0.75 },
+              { "name": "Wuhan Three Towns", "price": -125, "point": 0.75 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T13:44:42Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:42Z",
+            "outcomes": [
+              { "name": "Beijing FC", "price": -140 },
+              { "name": "Wuhan Three Towns", "price": 285 },
+              { "name": "Draw", "price": 285 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:42Z",
+            "outcomes": [
+              { "name": "Beijing FC", "price": 105, "point": -0.75 },
+              { "name": "Wuhan Three Towns", "price": -125, "point": 0.75 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "a3fd632eb418051fa6349779d2b769a5",
+    "sport_key": "soccer_china_superleague",
+    "sport_title": "Super League - China",
+    "commence_time": "2024-07-07T11:35:00Z",
+    "home_team": "Qingdao Hainiu FC",
+    "away_team": "Qingdao West Coast FC",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:43:36Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:36Z",
+            "outcomes": [
+              { "name": "Qingdao Hainiu FC", "price": -140 },
+              { "name": "Qingdao West Coast FC", "price": 320 },
+              { "name": "Draw", "price": 300 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2024-07-06T13:44:13Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:13Z",
+            "outcomes": [
+              { "name": "Qingdao Hainiu FC", "price": -135 },
+              { "name": "Qingdao West Coast FC", "price": 300 },
+              { "name": "Draw", "price": 290 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:44:33Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:33Z",
+            "outcomes": [
+              { "name": "Qingdao Hainiu FC", "price": -130 },
+              { "name": "Qingdao West Coast FC", "price": 310 },
+              { "name": "Draw", "price": 300 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:33Z",
+            "outcomes": [
+              { "name": "Qingdao Hainiu FC", "price": -135, "point": -0.5 },
+              { "name": "Qingdao West Coast FC", "price": 102, "point": 0.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:44:33Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:33Z",
+            "outcomes": [
+              { "name": "Qingdao Hainiu FC", "price": -125 },
+              { "name": "Qingdao West Coast FC", "price": 300 },
+              { "name": "Draw", "price": 290 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:33Z",
+            "outcomes": [
+              { "name": "Qingdao Hainiu FC", "price": -120, "point": -0.5 },
+              { "name": "Qingdao West Coast FC", "price": 100, "point": 0.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:44:33Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:33Z",
+            "outcomes": [
+              { "name": "Qingdao Hainiu FC", "price": -125 },
+              { "name": "Qingdao West Coast FC", "price": 300 },
+              { "name": "Draw", "price": 295 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:17Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:17Z",
+            "outcomes": [
+              { "name": "Qingdao Hainiu FC", "price": -125 },
+              { "name": "Qingdao West Coast FC", "price": 290 },
+              { "name": "Draw", "price": 285 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-07-06T13:44:03Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:03Z",
+            "outcomes": [
+              { "name": "Qingdao Hainiu FC", "price": -125 },
+              { "name": "Qingdao West Coast FC", "price": 300 },
+              { "name": "Draw", "price": 290 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:03Z",
+            "outcomes": [
+              { "name": "Qingdao Hainiu FC", "price": -120, "point": -0.5 },
+              { "name": "Qingdao West Coast FC", "price": -110, "point": 0.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:43:51Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:51Z",
+            "outcomes": [
+              { "name": "Qingdao Hainiu FC", "price": -135 },
+              { "name": "Qingdao West Coast FC", "price": 290 },
+              { "name": "Draw", "price": 270 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:44:14Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:14Z",
+            "outcomes": [
+              { "name": "Qingdao Hainiu FC", "price": -137 },
+              { "name": "Qingdao West Coast FC", "price": 290 },
+              { "name": "Draw", "price": 265 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:14Z",
+            "outcomes": [
+              { "name": "Qingdao Hainiu FC", "price": -137, "point": -0.5 },
+              { "name": "Qingdao West Coast FC", "price": 117, "point": 0.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T13:44:42Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:42Z",
+            "outcomes": [
+              { "name": "Qingdao Hainiu FC", "price": -137 },
+              { "name": "Qingdao West Coast FC", "price": 290 },
+              { "name": "Draw", "price": 265 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:42Z",
+            "outcomes": [
+              { "name": "Qingdao Hainiu FC", "price": -137, "point": -0.5 },
+              { "name": "Qingdao West Coast FC", "price": 117, "point": 0.5 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "9f0df2efd608cbc134716b1aaf82bf05",
+    "sport_key": "soccer_china_superleague",
+    "sport_title": "Super League - China",
+    "commence_time": "2024-07-07T12:00:00Z",
+    "home_team": "Zhejiang",
+    "away_team": "Meizhou Hakka",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:43:36Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:36Z",
+            "outcomes": [
+              { "name": "Meizhou Hakka", "price": 650 },
+              { "name": "Zhejiang", "price": -310 },
+              { "name": "Draw", "price": 410 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2024-07-06T13:44:13Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:13Z",
+            "outcomes": [
+              { "name": "Meizhou Hakka", "price": 575 },
+              { "name": "Zhejiang", "price": -280 },
+              { "name": "Draw", "price": 400 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:44:33Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:33Z",
+            "outcomes": [
+              { "name": "Meizhou Hakka", "price": 600 },
+              { "name": "Zhejiang", "price": -265 },
+              { "name": "Draw", "price": 420 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:33Z",
+            "outcomes": [
+              { "name": "Meizhou Hakka", "price": -127, "point": 1.5 },
+              { "name": "Zhejiang", "price": -105, "point": -1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:44:33Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:33Z",
+            "outcomes": [
+              { "name": "Meizhou Hakka", "price": 600 },
+              { "name": "Zhejiang", "price": -265 },
+              { "name": "Draw", "price": 400 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:33Z",
+            "outcomes": [
+              { "name": "Meizhou Hakka", "price": -120, "point": 1.5 },
+              { "name": "Zhejiang", "price": 100, "point": -1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:44:33Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:33Z",
+            "outcomes": [
+              { "name": "Meizhou Hakka", "price": 650 },
+              { "name": "Zhejiang", "price": -290 },
+              { "name": "Draw", "price": 450 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:17Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:17Z",
+            "outcomes": [
+              { "name": "Meizhou Hakka", "price": 650 },
+              { "name": "Zhejiang", "price": -315 },
+              { "name": "Draw", "price": 450 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:43:51Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:51Z",
+            "outcomes": [
+              { "name": "Meizhou Hakka", "price": 575 },
+              { "name": "Zhejiang", "price": -275 },
+              { "name": "Draw", "price": 400 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:44:14Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:14Z",
+            "outcomes": [
+              { "name": "Meizhou Hakka", "price": 480 },
+              { "name": "Zhejiang", "price": -270 },
+              { "name": "Draw", "price": 360 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:14Z",
+            "outcomes": [
+              { "name": "Meizhou Hakka", "price": -125, "point": 1.5 },
+              { "name": "Zhejiang", "price": 105, "point": -1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T13:44:42Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:42Z",
+            "outcomes": [
+              { "name": "Meizhou Hakka", "price": 480 },
+              { "name": "Zhejiang", "price": -270 },
+              { "name": "Draw", "price": 360 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:42Z",
+            "outcomes": [
+              { "name": "Meizhou Hakka", "price": -125, "point": 1.5 },
+              { "name": "Zhejiang", "price": 105, "point": -1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-07-06T13:44:03Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:03Z",
+            "outcomes": [
+              { "name": "Meizhou Hakka", "price": 480 },
+              { "name": "Zhejiang", "price": -270 },
+              { "name": "Draw", "price": 360 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:03Z",
+            "outcomes": [
+              { "name": "Meizhou Hakka", "price": -125, "point": 1.5 },
+              { "name": "Zhejiang", "price": -105, "point": -1.5 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "6c18327e57c31a28a798e3d0eca7ec8c",
+    "sport_key": "soccer_china_superleague",
+    "sport_title": "Super League - China",
+    "commence_time": "2024-07-13T12:00:00Z",
+    "home_team": "Shanghai Shenhua FC",
+    "away_team": "Changchun Yatai",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:43:36Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:36Z",
+            "outcomes": [
+              { "name": "Changchun Yatai", "price": 1000 },
+              { "name": "Shanghai Shenhua FC", "price": -420 },
+              { "name": "Draw", "price": 500 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "0553da86fc65446a45b4762f4f737958",
+    "sport_key": "soccer_china_superleague",
+    "sport_title": "Super League - China",
+    "commence_time": "2024-07-13T12:00:00Z",
+    "home_team": "Shenzhen Peng City FC",
+    "away_team": "Henan FC",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:43:36Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:36Z",
+            "outcomes": [
+              { "name": "Henan FC", "price": 150 },
+              { "name": "Shenzhen Peng City FC", "price": 170 },
+              { "name": "Draw", "price": 250 }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

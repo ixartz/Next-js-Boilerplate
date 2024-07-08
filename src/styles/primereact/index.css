@@ -27,3 +27,7 @@
 .p-datatable-header {
   background-color: transparent;
 }
+
+.p-datatable-tbody > tr > td {
+  @apply py-0;
+}

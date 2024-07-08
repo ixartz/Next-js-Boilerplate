@@ -1,0 +1,474 @@
+[
+  {
+    "id": "500d746c7df7a4cf3e18c2d8711e4c80",
+    "sport_key": "soccer_england_league2",
+    "sport_title": "League 2",
+    "commence_time": "2024-08-09T19:00:00Z",
+    "home_team": "Chesterfield FC",
+    "away_team": "Swindon Town",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:43:45Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:45Z",
+            "outcomes": [
+              { "name": "Chesterfield FC", "price": -165 },
+              { "name": "Swindon Town", "price": 360 },
+              { "name": "Draw", "price": 320 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:44:48Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:48Z",
+            "outcomes": [
+              { "name": "Chesterfield FC", "price": -145 },
+              { "name": "Swindon Town", "price": 310 },
+              { "name": "Draw", "price": 310 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bab20ec297342feca9daaed95a97f4e7",
+    "sport_key": "soccer_england_league2",
+    "sport_title": "League 2",
+    "commence_time": "2024-08-10T14:00:00Z",
+    "home_team": "Doncaster Rovers",
+    "away_team": "Accrington Stanley",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:43:45Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:45Z",
+            "outcomes": [
+              { "name": "Accrington Stanley", "price": 360 },
+              { "name": "Doncaster Rovers", "price": -145 },
+              { "name": "Draw", "price": 280 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:44:48Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:48Z",
+            "outcomes": [
+              { "name": "Accrington Stanley", "price": 333 },
+              { "name": "Doncaster Rovers", "price": -135 },
+              { "name": "Draw", "price": 280 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "9dcb7bd48cd29e0f0bf4c227ed7ed355",
+    "sport_key": "soccer_england_league2",
+    "sport_title": "League 2",
+    "commence_time": "2024-08-10T14:00:00Z",
+    "home_team": "Barrow",
+    "away_team": "Crewe Alexandra",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:43:45Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:45Z",
+            "outcomes": [
+              { "name": "Barrow", "price": 110 },
+              { "name": "Crewe Alexandra", "price": 240 },
+              { "name": "Draw", "price": 240 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "b57d3765f478b6645cbfe5329ca87031",
+    "sport_key": "soccer_england_league2",
+    "sport_title": "League 2",
+    "commence_time": "2024-08-10T14:00:00Z",
+    "home_team": "Milton Keynes Dons",
+    "away_team": "Bradford City",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:43:45Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:45Z",
+            "outcomes": [
+              { "name": "Bradford City", "price": 250 },
+              { "name": "Milton Keynes Dons", "price": 100 },
+              { "name": "Draw", "price": 250 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:44:48Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:48Z",
+            "outcomes": [
+              { "name": "Bradford City", "price": 230 },
+              { "name": "Milton Keynes Dons", "price": 105 },
+              { "name": "Draw", "price": 250 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "b922b814476531bc1e2aa07046f96f73",
+    "sport_key": "soccer_england_league2",
+    "sport_title": "League 2",
+    "commence_time": "2024-08-10T14:00:00Z",
+    "home_team": "Harrogate Town",
+    "away_team": "Bromley FC",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:43:45Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:45Z",
+            "outcomes": [
+              { "name": "Bromley FC", "price": 260 },
+              { "name": "Harrogate Town", "price": 100 },
+              { "name": "Draw", "price": 250 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:44:48Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:48Z",
+            "outcomes": [
+              { "name": "Bromley FC", "price": 230 },
+              { "name": "Harrogate Town", "price": 105 },
+              { "name": "Draw", "price": 250 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cd6469de94f18b78cce21033543d6b09",
+    "sport_key": "soccer_england_league2",
+    "sport_title": "League 2",
+    "commence_time": "2024-08-10T14:00:00Z",
+    "home_team": "Gillingham",
+    "away_team": "Carlisle United",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:43:45Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:45Z",
+            "outcomes": [
+              { "name": "Carlisle United", "price": 270 },
+              { "name": "Gillingham", "price": 100 },
+              { "name": "Draw", "price": 240 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:44:48Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:48Z",
+            "outcomes": [
+              { "name": "Carlisle United", "price": 240 },
+              { "name": "Gillingham", "price": 105 },
+              { "name": "Draw", "price": 240 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "b6c84df5c0935ce70796413999b2006f",
+    "sport_key": "soccer_england_league2",
+    "sport_title": "League 2",
+    "commence_time": "2024-08-10T14:00:00Z",
+    "home_team": "Cheltenham Town",
+    "away_team": "Newport County",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:43:45Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:45Z",
+            "outcomes": [
+              { "name": "Cheltenham Town", "price": -130 },
+              { "name": "Newport County", "price": 330 },
+              { "name": "Draw", "price": 260 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:44:48Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:48Z",
+            "outcomes": [
+              { "name": "Cheltenham Town", "price": -120 },
+              { "name": "Newport County", "price": 290 },
+              { "name": "Draw", "price": 270 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "00e283500991adfdcd2442576c430876",
+    "sport_key": "soccer_england_league2",
+    "sport_title": "League 2",
+    "commence_time": "2024-08-10T14:00:00Z",
+    "home_team": "Wimbledon",
+    "away_team": "Colchester United",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:43:45Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:45Z",
+            "outcomes": [
+              { "name": "Colchester United", "price": 280 },
+              { "name": "Wimbledon", "price": -105 },
+              { "name": "Draw", "price": 250 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "e05a6aaf9326059a2c09523c45b5b649",
+    "sport_key": "soccer_england_league2",
+    "sport_title": "League 2",
+    "commence_time": "2024-08-10T14:00:00Z",
+    "home_team": "Fleetwood Town",
+    "away_team": "Grimsby Town",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:43:45Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:45Z",
+            "outcomes": [
+              { "name": "Fleetwood Town", "price": -120 },
+              { "name": "Grimsby Town", "price": 290 },
+              { "name": "Draw", "price": 250 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:44:48Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:48Z",
+            "outcomes": [
+              { "name": "Fleetwood Town", "price": -105 },
+              { "name": "Grimsby Town", "price": 270 },
+              { "name": "Draw", "price": 250 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "6c4eaf2edc860194231169511b354f94",
+    "sport_key": "soccer_england_league2",
+    "sport_title": "League 2",
+    "commence_time": "2024-08-10T14:00:00Z",
+    "home_team": "Walsall",
+    "away_team": "Morecambe",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:43:45Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:45Z",
+            "outcomes": [
+              { "name": "Morecambe", "price": 340 },
+              { "name": "Walsall", "price": -145 },
+              { "name": "Draw", "price": 290 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:44:48Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:48Z",
+            "outcomes": [
+              { "name": "Morecambe", "price": 320 },
+              { "name": "Walsall", "price": -135 },
+              { "name": "Draw", "price": 290 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ff9fbca5e755a439940d4ec0543f97a7",
+    "sport_key": "soccer_england_league2",
+    "sport_title": "League 2",
+    "commence_time": "2024-08-10T14:00:00Z",
+    "home_team": "Tranmere Rovers",
+    "away_team": "Notts County",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:43:45Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:45Z",
+            "outcomes": [
+              { "name": "Notts County", "price": 180 },
+              { "name": "Tranmere Rovers", "price": 140 },
+              { "name": "Draw", "price": 250 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:44:48Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:48Z",
+            "outcomes": [
+              { "name": "Notts County", "price": 165 },
+              { "name": "Tranmere Rovers", "price": 135 },
+              { "name": "Draw", "price": 260 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "466aa2eee2cebc099d936b13623d2403",
+    "sport_key": "soccer_england_league2",
+    "sport_title": "League 2",
+    "commence_time": "2024-08-10T14:00:00Z",
+    "home_team": "Salford City",
+    "away_team": "Port Vale",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:43:45Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:45Z",
+            "outcomes": [
+              { "name": "Port Vale", "price": 240 },
+              { "name": "Salford City", "price": 105 },
+              { "name": "Draw", "price": 250 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:44:48Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:48Z",
+            "outcomes": [
+              { "name": "Port Vale", "price": 220 },
+              { "name": "Salford City", "price": 110 },
+              { "name": "Draw", "price": 250 }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

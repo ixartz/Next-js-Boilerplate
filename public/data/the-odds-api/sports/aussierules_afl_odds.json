@@ -1,0 +1,934 @@
+[
+  {
+    "id": "6db3e13a78906096ce82e5e876f5842d",
+    "sport_key": "aussierules_afl",
+    "sport_title": "AFL",
+    "commence_time": "2024-07-07T03:10:00Z",
+    "home_team": "Melbourne Demons",
+    "away_team": "West Coast Eagles",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:43:30Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:30Z",
+            "outcomes": [
+              { "name": "Melbourne Demons", "price": -900 },
+              { "name": "West Coast Eagles", "price": 500 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:30Z",
+            "outcomes": [
+              { "name": "Melbourne Demons", "price": -115, "point": -33.5 },
+              { "name": "West Coast Eagles", "price": -115, "point": 33.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:42:27Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:27Z",
+            "outcomes": [
+              { "name": "Melbourne Demons", "price": -800 },
+              { "name": "West Coast Eagles", "price": 475 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:42:27Z",
+            "outcomes": [
+              { "name": "Melbourne Demons", "price": -115, "point": -33.5 },
+              { "name": "West Coast Eagles", "price": -115, "point": 33.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2024-07-06T13:43:45Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:45Z",
+            "outcomes": [
+              { "name": "Melbourne Demons", "price": -699 },
+              { "name": "West Coast Eagles", "price": 425 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:43:30Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:30Z",
+            "outcomes": [
+              { "name": "Melbourne Demons", "price": -769 },
+              { "name": "West Coast Eagles", "price": 405 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:43:18Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:18Z",
+            "outcomes": [
+              { "name": "Melbourne Demons", "price": -670 },
+              { "name": "West Coast Eagles", "price": 450 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-07-06T13:43:46Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:46Z",
+            "outcomes": [
+              { "name": "Melbourne Demons", "price": -110, "point": -33.5 },
+              { "name": "West Coast Eagles", "price": -110, "point": 33.5 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "e333621bb2090ce79407c6d4e23d0d14",
+    "sport_key": "aussierules_afl",
+    "sport_title": "AFL",
+    "commence_time": "2024-07-07T05:20:00Z",
+    "home_team": "St Kilda Saints",
+    "away_team": "Sydney Swans",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:43:30Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:30Z",
+            "outcomes": [
+              { "name": "St Kilda Saints", "price": 330 },
+              { "name": "Sydney Swans", "price": -475 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:30Z",
+            "outcomes": [
+              { "name": "St Kilda Saints", "price": -115, "point": 25.5 },
+              { "name": "Sydney Swans", "price": -115, "point": -25.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:42:27Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:27Z",
+            "outcomes": [
+              { "name": "St Kilda Saints", "price": 305 },
+              { "name": "Sydney Swans", "price": -460 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:42:27Z",
+            "outcomes": [
+              { "name": "St Kilda Saints", "price": -115, "point": 25.5 },
+              { "name": "Sydney Swans", "price": -115, "point": -25.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2024-07-06T13:43:45Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:45Z",
+            "outcomes": [
+              { "name": "St Kilda Saints", "price": 295 },
+              { "name": "Sydney Swans", "price": -426 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:43:30Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:30Z",
+            "outcomes": [
+              { "name": "St Kilda Saints", "price": 277 },
+              { "name": "Sydney Swans", "price": -435 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:30Z",
+            "outcomes": [
+              { "name": "St Kilda Saints", "price": -118, "point": 25.5 },
+              { "name": "Sydney Swans", "price": -118, "point": -25.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:43:18Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:18Z",
+            "outcomes": [
+              { "name": "St Kilda Saints", "price": 300 },
+              { "name": "Sydney Swans", "price": -400 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-07-06T13:43:46Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:46Z",
+            "outcomes": [
+              { "name": "St Kilda Saints", "price": 320 },
+              { "name": "Sydney Swans", "price": -400 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:46Z",
+            "outcomes": [
+              { "name": "St Kilda Saints", "price": -110, "point": 25.5 },
+              { "name": "Sydney Swans", "price": -110, "point": -25.5 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "d60931342ea7f72049719927a3fe7c20",
+    "sport_key": "aussierules_afl",
+    "sport_title": "AFL",
+    "commence_time": "2024-07-07T06:10:00Z",
+    "home_team": "Brisbane Lions",
+    "away_team": "Adelaide Crows",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:43:30Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:30Z",
+            "outcomes": [
+              { "name": "Adelaide Crows", "price": 295 },
+              { "name": "Brisbane Lions", "price": -400 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:30Z",
+            "outcomes": [
+              { "name": "Adelaide Crows", "price": -115, "point": 27.5 },
+              { "name": "Brisbane Lions", "price": -115, "point": -27.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:42:27Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:27Z",
+            "outcomes": [
+              { "name": "Adelaide Crows", "price": 350 },
+              { "name": "Brisbane Lions", "price": -550 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:42:27Z",
+            "outcomes": [
+              { "name": "Adelaide Crows", "price": -115, "point": 27.5 },
+              { "name": "Brisbane Lions", "price": -115, "point": -27.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:43:18Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:18Z",
+            "outcomes": [
+              { "name": "Adelaide Crows", "price": 320 },
+              { "name": "Brisbane Lions", "price": -455 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2024-07-06T13:43:45Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:45Z",
+            "outcomes": [
+              { "name": "Adelaide Crows", "price": 305 },
+              { "name": "Brisbane Lions", "price": -450 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:43:30Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:30Z",
+            "outcomes": [
+              { "name": "Adelaide Crows", "price": 289 },
+              { "name": "Brisbane Lions", "price": -455 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:30Z",
+            "outcomes": [
+              { "name": "Adelaide Crows", "price": -115, "point": 26.5 },
+              { "name": "Brisbane Lions", "price": -120, "point": -26.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-07-06T13:43:46Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:46Z",
+            "outcomes": [
+              { "name": "Adelaide Crows", "price": 335 },
+              { "name": "Brisbane Lions", "price": -430 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:46Z",
+            "outcomes": [
+              { "name": "Adelaide Crows", "price": -110, "point": 28.5 },
+              { "name": "Brisbane Lions", "price": -110, "point": -28.5 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "77b7f404728d9117824942178cdce364",
+    "sport_key": "aussierules_afl",
+    "sport_title": "AFL",
+    "commence_time": "2024-07-12T09:40:00Z",
+    "home_team": "Collingwood Magpies",
+    "away_team": "Geelong Cats",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:43:30Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:30Z",
+            "outcomes": [
+              { "name": "Collingwood Magpies", "price": -110 },
+              { "name": "Geelong Cats", "price": -120 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:30Z",
+            "outcomes": [
+              { "name": "Collingwood Magpies", "price": -115, "point": -0.5 },
+              { "name": "Geelong Cats", "price": -115, "point": 0.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2024-07-06T13:43:45Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:45Z",
+            "outcomes": [
+              { "name": "Collingwood Magpies", "price": -115 },
+              { "name": "Geelong Cats", "price": -110 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:43:30Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:30Z",
+            "outcomes": [
+              { "name": "Collingwood Magpies", "price": -132 },
+              { "name": "Geelong Cats", "price": -118 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "7441f3f0430d70fcd293fe6d3b54d4a7",
+    "sport_key": "aussierules_afl",
+    "sport_title": "AFL",
+    "commence_time": "2024-07-13T03:45:00Z",
+    "home_team": "Hawthorn Hawks",
+    "away_team": "Fremantle Dockers",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:43:30Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:30Z",
+            "outcomes": [
+              { "name": "Fremantle Dockers", "price": -140 },
+              { "name": "Hawthorn Hawks", "price": 100 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:30Z",
+            "outcomes": [
+              { "name": "Fremantle Dockers", "price": -115, "point": -1.5 },
+              { "name": "Hawthorn Hawks", "price": -115, "point": 1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:42:27Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:27Z",
+            "outcomes": [
+              { "name": "Fremantle Dockers", "price": 100 },
+              { "name": "Hawthorn Hawks", "price": -130 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:42:27Z",
+            "outcomes": [
+              { "name": "Fremantle Dockers", "price": -115, "point": 3.5 },
+              { "name": "Hawthorn Hawks", "price": -115, "point": -3.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2024-07-06T13:43:45Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:45Z",
+            "outcomes": [
+              { "name": "Fremantle Dockers", "price": -110 },
+              { "name": "Hawthorn Hawks", "price": -115 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:43:30Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:30Z",
+            "outcomes": [
+              { "name": "Fremantle Dockers", "price": -118 },
+              { "name": "Hawthorn Hawks", "price": -132 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:30Z",
+            "outcomes": [
+              { "name": "Fremantle Dockers", "price": -127, "point": 1.5 },
+              { "name": "Hawthorn Hawks", "price": -123, "point": -1.5 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c942dec976df4b053d2aa3d331a6de6b",
+    "sport_key": "aussierules_afl",
+    "sport_title": "AFL",
+    "commence_time": "2024-07-13T03:45:00Z",
+    "home_team": "Sydney Swans",
+    "away_team": "North Melbourne Kangaroos",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:43:30Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:30Z",
+            "outcomes": [
+              { "name": "North Melbourne Kangaroos", "price": 750 },
+              { "name": "Sydney Swans", "price": -2000 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:30Z",
+            "outcomes": [
+              {
+                "name": "North Melbourne Kangaroos",
+                "price": -115,
+                "point": 55.5
+              },
+              { "name": "Sydney Swans", "price": -115, "point": -55.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:42:27Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:27Z",
+            "outcomes": [
+              { "name": "North Melbourne Kangaroos", "price": 1000 },
+              { "name": "Sydney Swans", "price": -2500 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:42:27Z",
+            "outcomes": [
+              {
+                "name": "North Melbourne Kangaroos",
+                "price": -115,
+                "point": 55.5
+              },
+              { "name": "Sydney Swans", "price": -115, "point": -55.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2024-07-06T13:43:45Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:45Z",
+            "outcomes": [
+              { "name": "North Melbourne Kangaroos", "price": 1000 },
+              { "name": "Sydney Swans", "price": -3333 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:43:30Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:30Z",
+            "outcomes": [
+              { "name": "North Melbourne Kangaroos", "price": 664 },
+              { "name": "Sydney Swans", "price": -5000 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "37a550866101302031ac387edca751cb",
+    "sport_key": "aussierules_afl",
+    "sport_title": "AFL",
+    "commence_time": "2024-07-13T06:35:00Z",
+    "home_team": "Western Bulldogs",
+    "away_team": "Carlton Blues",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:43:30Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:30Z",
+            "outcomes": [
+              { "name": "Carlton Blues", "price": -200 },
+              { "name": "Western Bulldogs", "price": 150 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:30Z",
+            "outcomes": [
+              { "name": "Carlton Blues", "price": -115, "point": -14.5 },
+              { "name": "Western Bulldogs", "price": -115, "point": 14.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:42:27Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:27Z",
+            "outcomes": [
+              { "name": "Carlton Blues", "price": -205 },
+              { "name": "Western Bulldogs", "price": 155 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:42:27Z",
+            "outcomes": [
+              { "name": "Carlton Blues", "price": -115, "point": -12.5 },
+              { "name": "Western Bulldogs", "price": -115, "point": 12.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2024-07-06T13:43:45Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:45Z",
+            "outcomes": [
+              { "name": "Carlton Blues", "price": -205 },
+              { "name": "Western Bulldogs", "price": 160 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:43:30Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:30Z",
+            "outcomes": [
+              { "name": "Carlton Blues", "price": -227 },
+              { "name": "Western Bulldogs", "price": 141 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:30Z",
+            "outcomes": [
+              { "name": "Carlton Blues", "price": -122, "point": -12.5 },
+              { "name": "Western Bulldogs", "price": -127, "point": 12.5 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "870809d83aa439c9d70fad0f3dffd7bb",
+    "sport_key": "aussierules_afl",
+    "sport_title": "AFL",
+    "commence_time": "2024-07-13T09:30:00Z",
+    "home_team": "Adelaide Crows",
+    "away_team": "St Kilda Saints",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:43:30Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:30Z",
+            "outcomes": [
+              { "name": "Adelaide Crows", "price": -225 },
+              { "name": "St Kilda Saints", "price": 165 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:30Z",
+            "outcomes": [
+              { "name": "Adelaide Crows", "price": -115, "point": -14.5 },
+              { "name": "St Kilda Saints", "price": -115, "point": 14.5 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "7b969039457cd03e9de66385badea743",
+    "sport_key": "aussierules_afl",
+    "sport_title": "AFL",
+    "commence_time": "2024-07-13T09:30:00Z",
+    "home_team": "Melbourne Demons",
+    "away_team": "Essendon Bombers",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:43:30Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:30Z",
+            "outcomes": [
+              { "name": "Essendon Bombers", "price": -135 },
+              { "name": "Melbourne Demons", "price": 100 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:30Z",
+            "outcomes": [
+              { "name": "Essendon Bombers", "price": -115, "point": -3.5 },
+              { "name": "Melbourne Demons", "price": -115, "point": 3.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:42:27Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:27Z",
+            "outcomes": [
+              { "name": "Essendon Bombers", "price": -135 },
+              { "name": "Melbourne Demons", "price": 105 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:42:27Z",
+            "outcomes": [
+              { "name": "Essendon Bombers", "price": -115, "point": -4.5 },
+              { "name": "Melbourne Demons", "price": -115, "point": 4.5 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c27a80f0113de805d8657eeb60634a68",
+    "sport_key": "aussierules_afl",
+    "sport_title": "AFL",
+    "commence_time": "2024-07-14T03:10:00Z",
+    "home_team": "Gold Coast Suns",
+    "away_team": "Port Adelaide Power",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:43:30Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:30Z",
+            "outcomes": [
+              { "name": "Gold Coast Suns", "price": -160 },
+              { "name": "Port Adelaide Power", "price": 120 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:30Z",
+            "outcomes": [
+              { "name": "Gold Coast Suns", "price": -115, "point": -9.5 },
+              { "name": "Port Adelaide Power", "price": -115, "point": 9.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:43:18Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:18Z",
+            "outcomes": [
+              { "name": "Gold Coast Suns", "price": -167 },
+              { "name": "Port Adelaide Power", "price": 135 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "a92dc669985ef094ccab323406877159",
+    "sport_key": "aussierules_afl",
+    "sport_title": "AFL",
+    "commence_time": "2024-07-14T05:20:00Z",
+    "home_team": "Richmond Tigers",
+    "away_team": "Greater Western Sydney Giants",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:43:30Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:30Z",
+            "outcomes": [
+              { "name": "Greater Western Sydney Giants", "price": -400 },
+              { "name": "Richmond Tigers", "price": 270 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:30Z",
+            "outcomes": [
+              {
+                "name": "Greater Western Sydney Giants",
+                "price": -115,
+                "point": -25.5
+              },
+              { "name": "Richmond Tigers", "price": -115, "point": 25.5 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "837b6d7c667534efec157a5e63d24026",
+    "sport_key": "aussierules_afl",
+    "sport_title": "AFL",
+    "commence_time": "2024-07-14T06:40:00Z",
+    "home_team": "West Coast Eagles",
+    "away_team": "Brisbane Lions",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:43:30Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:30Z",
+            "outcomes": [
+              { "name": "Brisbane Lions", "price": -500 },
+              { "name": "West Coast Eagles", "price": 320 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:30Z",
+            "outcomes": [
+              { "name": "Brisbane Lions", "price": -115, "point": -27.5 },
+              { "name": "West Coast Eagles", "price": -115, "point": 27.5 }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

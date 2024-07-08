@@ -1,0 +1,454 @@
+[
+  {
+    "id": "d23cd145c298043681ee81da466bda3e",
+    "sport_key": "soccer_conmebol_copa_libertadores",
+    "sport_title": "Copa Libertadores",
+    "commence_time": "2024-08-13T22:00:00Z",
+    "home_team": "Gr\u00eamio",
+    "away_team": "Fluminense-RJ",
+    "bookmakers": [
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:16Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:16Z",
+            "outcomes": [
+              { "name": "Fluminense-RJ", "price": 250 },
+              { "name": "Gr\u00eamio", "price": 120 },
+              { "name": "Draw", "price": 220 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:43:55Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:55Z",
+            "outcomes": [
+              { "name": "Fluminense-RJ", "price": 248 },
+              { "name": "Gr\u00eamio", "price": 110 },
+              { "name": "Draw", "price": 218 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:55Z",
+            "outcomes": [
+              { "name": "Fluminense-RJ", "price": -146, "point": 0.5 },
+              { "name": "Gr\u00eamio", "price": 105, "point": -0.5 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "051ad979033b63e3efb7348008899b39",
+    "sport_key": "soccer_conmebol_copa_libertadores",
+    "sport_title": "Copa Libertadores",
+    "commence_time": "2024-08-14T00:30:00Z",
+    "home_team": "San Lorenzo",
+    "away_team": "Clube Atl\u00e9tico Mineiro",
+    "bookmakers": [
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:16Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:16Z",
+            "outcomes": [
+              { "name": "Clube Atl\u00e9tico Mineiro", "price": 190 },
+              { "name": "San Lorenzo", "price": 150 },
+              { "name": "Draw", "price": 215 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:43:55Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:55Z",
+            "outcomes": [
+              { "name": "Clube Atl\u00e9tico Mineiro", "price": 186 },
+              { "name": "San Lorenzo", "price": 147 },
+              { "name": "Draw", "price": 208 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:55Z",
+            "outcomes": [
+              {
+                "name": "Clube Atl\u00e9tico Mineiro",
+                "price": -196,
+                "point": 0.5
+              },
+              { "name": "San Lorenzo", "price": 139, "point": -0.5 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "54915c8716ef72b8500615d0e8522055",
+    "sport_key": "soccer_conmebol_copa_libertadores",
+    "sport_title": "Copa Libertadores",
+    "commence_time": "2024-08-14T00:30:00Z",
+    "home_team": "Colo Colo",
+    "away_team": "Junior FC",
+    "bookmakers": [
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:16Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:16Z",
+            "outcomes": [
+              { "name": "Colo Colo", "price": -112 },
+              { "name": "Junior FC", "price": 335 },
+              { "name": "Draw", "price": 230 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:43:56Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:56Z",
+            "outcomes": [
+              { "name": "Colo Colo", "price": -110 },
+              { "name": "Junior FC", "price": 340 },
+              { "name": "Draw", "price": 225 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:56Z",
+            "outcomes": [
+              { "name": "Colo Colo", "price": -110, "point": -0.5 },
+              { "name": "Junior FC", "price": -120, "point": 0.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:43:55Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:55Z",
+            "outcomes": [
+              { "name": "Colo Colo", "price": -113 },
+              { "name": "Junior FC", "price": 330 },
+              { "name": "Draw", "price": 216 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:55Z",
+            "outcomes": [
+              { "name": "Colo Colo", "price": -116, "point": -0.5 },
+              { "name": "Junior FC", "price": -118, "point": 0.5 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "8001f912f78b70b04acbd3e104ea0a2c",
+    "sport_key": "soccer_conmebol_copa_libertadores",
+    "sport_title": "Copa Libertadores",
+    "commence_time": "2024-08-14T22:00:00Z",
+    "home_team": "Pe\u00f1arol Montevideo",
+    "away_team": "The Strongest",
+    "bookmakers": [
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:16Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:16Z",
+            "outcomes": [
+              { "name": "Pe\u00f1arol Montevideo", "price": -400 },
+              { "name": "The Strongest", "price": 1400 },
+              { "name": "Draw", "price": 420 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:43:55Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:55Z",
+            "outcomes": [
+              { "name": "Pe\u00f1arol Montevideo", "price": -420 },
+              { "name": "The Strongest", "price": 1075 },
+              { "name": "Draw", "price": 430 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:55Z",
+            "outcomes": [
+              {
+                "name": "Pe\u00f1arol Montevideo",
+                "price": -136,
+                "point": -1.5
+              },
+              { "name": "The Strongest", "price": -101, "point": 1.5 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "07af0b6bf4c484c20c632af27cf8fd2d",
+    "sport_key": "soccer_conmebol_copa_libertadores",
+    "sport_title": "Copa Libertadores",
+    "commence_time": "2024-08-14T23:00:00Z",
+    "home_team": "Flamengo-RJ",
+    "away_team": "Club Bol\u00edvar",
+    "bookmakers": [
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:16Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:16Z",
+            "outcomes": [
+              { "name": "Club Bol\u00edvar", "price": 1400 },
+              { "name": "Flamengo-RJ", "price": -670 },
+              { "name": "Draw", "price": 700 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "f42ce8885230439d18f88c6f5c40ae6b",
+    "sport_key": "soccer_conmebol_copa_libertadores",
+    "sport_title": "Copa Libertadores",
+    "commence_time": "2024-08-14T23:00:00Z",
+    "home_team": "Nacional de Montevideo",
+    "away_team": "Sao Paulo",
+    "bookmakers": [
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:16Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:16Z",
+            "outcomes": [
+              { "name": "Nacional de Montevideo", "price": 180 },
+              { "name": "Sao Paulo", "price": 160 },
+              { "name": "Draw", "price": 215 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "df8d09ab3bd380017de601066b8a0435",
+    "sport_key": "soccer_conmebol_copa_libertadores",
+    "sport_title": "Copa Libertadores",
+    "commence_time": "2024-08-15T00:30:00Z",
+    "home_team": "Botafogo",
+    "away_team": "Palmeiras-SP",
+    "bookmakers": [
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:16Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:16Z",
+            "outcomes": [
+              { "name": "Botafogo", "price": 165 },
+              { "name": "Palmeiras-SP", "price": 160 },
+              { "name": "Draw", "price": 230 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:43:55Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:55Z",
+            "outcomes": [
+              { "name": "Botafogo", "price": 162 },
+              { "name": "Palmeiras-SP", "price": 160 },
+              { "name": "Draw", "price": 220 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:55Z",
+            "outcomes": [
+              { "name": "Botafogo", "price": -214, "point": 0.5 },
+              { "name": "Palmeiras-SP", "price": 151, "point": -0.5 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "0bdaf73afc21d3ef12248494b4c40eea",
+    "sport_key": "soccer_conmebol_copa_libertadores",
+    "sport_title": "Copa Libertadores",
+    "commence_time": "2024-08-15T00:30:00Z",
+    "home_team": "Club Atletico Talleres",
+    "away_team": "River Plate",
+    "bookmakers": [
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:16Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:16Z",
+            "outcomes": [
+              { "name": "Club Atletico Talleres", "price": 210 },
+              { "name": "River Plate", "price": 140 },
+              { "name": "Draw", "price": 210 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:43:55Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:55Z",
+            "outcomes": [
+              { "name": "Club Atletico Talleres", "price": 204 },
+              { "name": "River Plate", "price": 136 },
+              { "name": "Draw", "price": 206 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:55Z",
+            "outcomes": [
+              { "name": "Club Atletico Talleres", "price": -181, "point": 0.5 },
+              { "name": "River Plate", "price": 130, "point": -0.5 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "a06a585076dc644f8f569fce9dc5e024",
+    "sport_key": "soccer_conmebol_copa_libertadores",
+    "sport_title": "Copa Libertadores",
+    "commence_time": "2024-08-15T22:00:00Z",
+    "home_team": "Nacional de Montevideo",
+    "away_team": "Sao Paulo",
+    "bookmakers": [
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:43:55Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:55Z",
+            "outcomes": [
+              { "name": "Nacional de Montevideo", "price": 175 },
+              { "name": "Sao Paulo", "price": 155 },
+              { "name": "Draw", "price": 208 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:55Z",
+            "outcomes": [
+              { "name": "Nacional de Montevideo", "price": -208, "point": 0.5 },
+              { "name": "Sao Paulo", "price": 147, "point": -0.5 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "085077fc8ea604d8228e5b180c430a3e",
+    "sport_key": "soccer_conmebol_copa_libertadores",
+    "sport_title": "Copa Libertadores",
+    "commence_time": "2024-08-16T00:30:00Z",
+    "home_team": "Flamengo-RJ",
+    "away_team": "Club Bol\u00edvar",
+    "bookmakers": [
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:43:55Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:55Z",
+            "outcomes": [
+              { "name": "Club Bol\u00edvar", "price": 1225 },
+              { "name": "Flamengo-RJ", "price": -676 },
+              { "name": "Draw", "price": 640 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:55Z",
+            "outcomes": [
+              { "name": "Club Bol\u00edvar", "price": -144, "point": 2.5 },
+              { "name": "Flamengo-RJ", "price": 104, "point": -2.5 }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

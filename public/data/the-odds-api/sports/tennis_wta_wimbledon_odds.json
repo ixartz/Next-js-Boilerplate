@@ -1,0 +1,2321 @@
+[
+  {
+    "id": "b6d9bd9cc8694d4c7cfa131ac39309cf",
+    "sport_key": "tennis_wta_wimbledon",
+    "sport_title": "WTA Wimbledon",
+    "commence_time": "2024-07-06T11:59:58Z",
+    "home_team": "Anna Kalinskaya",
+    "away_team": "Liudmila Samsonova",
+    "bookmakers": [
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:45:00Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:45:00Z",
+            "outcomes": [
+              { "name": "Anna Kalinskaya", "price": -185 },
+              { "name": "Liudmila Samsonova", "price": 155 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:45:00Z",
+            "outcomes": [
+              { "name": "Anna Kalinskaya", "price": -120, "point": -2.5 },
+              { "name": "Liudmila Samsonova", "price": -110, "point": 2.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:44:35Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:35Z",
+            "outcomes": [
+              { "name": "Anna Kalinskaya", "price": -125 },
+              { "name": "Liudmila Samsonova", "price": -105 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:43:37Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:37Z",
+            "outcomes": [
+              { "name": "Anna Kalinskaya", "price": -185 },
+              { "name": "Liudmila Samsonova", "price": 150 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:44:35Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:35Z",
+            "outcomes": [
+              { "name": "Anna Kalinskaya", "price": -190 },
+              { "name": "Liudmila Samsonova", "price": 140 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:45:07Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:45:07Z",
+            "outcomes": [
+              { "name": "Anna Kalinskaya", "price": -182 },
+              { "name": "Liudmila Samsonova", "price": 145 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:45:07Z",
+            "outcomes": [
+              { "name": "Anna Kalinskaya", "price": -125, "point": -2.5 },
+              { "name": "Liudmila Samsonova", "price": -105, "point": 2.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "wynnbet",
+        "title": "WynnBET",
+        "last_update": "2024-07-06T13:44:56Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:56Z",
+            "outcomes": [
+              { "name": "Anna Kalinskaya", "price": -164 },
+              { "name": "Liudmila Samsonova", "price": 133 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:56Z",
+            "outcomes": [
+              { "name": "Anna Kalinskaya", "price": -109, "point": -2.5 },
+              { "name": "Liudmila Samsonova", "price": -122, "point": 2.5 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ec26e812c7e1f2425c15b36a5f13720a",
+    "sport_key": "tennis_wta_wimbledon",
+    "sport_title": "WTA Wimbledon",
+    "commence_time": "2024-07-06T12:00:50Z",
+    "home_team": "Barbora Krejcikova",
+    "away_team": "Jessica Bouzas Maneiro",
+    "bookmakers": [
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2024-07-06T13:44:20Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:20Z",
+            "outcomes": [
+              { "name": "Barbora Krejcikova", "price": -1200 },
+              { "name": "Jessica Bouzas Maneiro", "price": 600 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:20Z",
+            "outcomes": [
+              { "name": "Barbora Krejcikova", "price": 145, "point": -8.5 },
+              { "name": "Jessica Bouzas Maneiro", "price": -180, "point": 8.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:45:00Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:45:00Z",
+            "outcomes": [
+              { "name": "Barbora Krejcikova", "price": -1400 },
+              { "name": "Jessica Bouzas Maneiro", "price": 775 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:45:00Z",
+            "outcomes": [
+              { "name": "Barbora Krejcikova", "price": 125, "point": -8.5 },
+              { "name": "Jessica Bouzas Maneiro", "price": -165, "point": 8.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:44:35Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:35Z",
+            "outcomes": [
+              { "name": "Barbora Krejcikova", "price": -800 },
+              { "name": "Jessica Bouzas Maneiro", "price": 500 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:44:35Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:35Z",
+            "outcomes": [
+              { "name": "Barbora Krejcikova", "price": -1600 },
+              { "name": "Jessica Bouzas Maneiro", "price": 675 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:45:09Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:45:08Z",
+            "outcomes": [
+              { "name": "Barbora Krejcikova", "price": -800 },
+              { "name": "Jessica Bouzas Maneiro", "price": 550 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:45:07Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:45:07Z",
+            "outcomes": [
+              { "name": "Barbora Krejcikova", "price": -2000 },
+              { "name": "Jessica Bouzas Maneiro", "price": 775 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:45:07Z",
+            "outcomes": [
+              { "name": "Barbora Krejcikova", "price": 135, "point": -8.5 },
+              { "name": "Jessica Bouzas Maneiro", "price": -182, "point": 8.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "wynnbet",
+        "title": "WynnBET",
+        "last_update": "2024-07-06T13:44:56Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:56Z",
+            "outcomes": [
+              { "name": "Barbora Krejcikova", "price": -1111 },
+              { "name": "Jessica Bouzas Maneiro", "price": 650 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:56Z",
+            "outcomes": [
+              { "name": "Barbora Krejcikova", "price": -222, "point": -7.5 },
+              { "name": "Jessica Bouzas Maneiro", "price": 163, "point": 7.5 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "a2b7caaf726f3f1034476929c999f057",
+    "sport_key": "tennis_wta_wimbledon",
+    "sport_title": "WTA Wimbledon",
+    "commence_time": "2024-07-06T12:01:30Z",
+    "home_team": "Harriet Dart",
+    "away_team": "Xinyu Wang",
+    "bookmakers": [
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:45:00Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:45:00Z",
+            "outcomes": [
+              { "name": "Harriet Dart", "price": -110 },
+              { "name": "Xinyu Wang", "price": -110 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:45:00Z",
+            "outcomes": [
+              { "name": "Harriet Dart", "price": -115, "point": -0.5 },
+              { "name": "Xinyu Wang", "price": -115, "point": 0.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:44:35Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:35Z",
+            "outcomes": [
+              { "name": "Harriet Dart", "price": -105 },
+              { "name": "Xinyu Wang", "price": -125 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:44:35Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:35Z",
+            "outcomes": [
+              { "name": "Harriet Dart", "price": -120 },
+              { "name": "Xinyu Wang", "price": -110 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:45:09Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:45:08Z",
+            "outcomes": [
+              { "name": "Harriet Dart", "price": -115 },
+              { "name": "Xinyu Wang", "price": -105 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:45:07Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:45:07Z",
+            "outcomes": [
+              { "name": "Harriet Dart", "price": -111 },
+              { "name": "Xinyu Wang", "price": -111 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:45:07Z",
+            "outcomes": [
+              { "name": "Harriet Dart", "price": -118, "point": -0.5 },
+              { "name": "Xinyu Wang", "price": -118, "point": 0.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2024-07-06T13:44:20Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:20Z",
+            "outcomes": [
+              { "name": "Harriet Dart", "price": -125 },
+              { "name": "Xinyu Wang", "price": -105 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:20Z",
+            "outcomes": [
+              { "name": "Harriet Dart", "price": -120, "point": -0.5 },
+              { "name": "Xinyu Wang", "price": -110, "point": 0.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "wynnbet",
+        "title": "WynnBET",
+        "last_update": "2024-07-06T13:44:56Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:56Z",
+            "outcomes": [
+              { "name": "Harriet Dart", "price": -110 },
+              { "name": "Xinyu Wang", "price": -110 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:56Z",
+            "outcomes": [
+              { "name": "Harriet Dart", "price": -115, "point": -0.5 },
+              { "name": "Xinyu Wang", "price": -115, "point": 0.5 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "6d077a65f73a402fdfb3816024130cb3",
+    "sport_key": "tennis_wta_wimbledon",
+    "sport_title": "WTA Wimbledon",
+    "commence_time": "2024-07-06T13:43:20Z",
+    "home_team": "Bernarda Pera",
+    "away_team": "Jelena Ostapenko",
+    "bookmakers": [
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:45:00Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:45:00Z",
+            "outcomes": [
+              { "name": "Bernarda Pera", "price": 425 },
+              { "name": "Jelena Ostapenko", "price": -600 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:45:00Z",
+            "outcomes": [
+              { "name": "Bernarda Pera", "price": 105, "point": 4.5 },
+              { "name": "Jelena Ostapenko", "price": -135, "point": -4.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:44:35Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:35Z",
+            "outcomes": [
+              { "name": "Bernarda Pera", "price": 600 },
+              { "name": "Jelena Ostapenko", "price": -900 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:44:35Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:35Z",
+            "outcomes": [
+              { "name": "Bernarda Pera", "price": 550 },
+              { "name": "Jelena Ostapenko", "price": -1100 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:45:09Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:45:09Z",
+            "outcomes": [
+              { "name": "Bernarda Pera", "price": 600 },
+              { "name": "Jelena Ostapenko", "price": -950 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:45:07Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:45:07Z",
+            "outcomes": [
+              { "name": "Bernarda Pera", "price": 355 },
+              { "name": "Jelena Ostapenko", "price": -500 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:45:07Z",
+            "outcomes": [
+              { "name": "Bernarda Pera", "price": -105, "point": 4.5 },
+              { "name": "Jelena Ostapenko", "price": -133, "point": -4.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2024-07-06T13:44:20Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:20Z",
+            "outcomes": [
+              { "name": "Bernarda Pera", "price": 750 },
+              { "name": "Jelena Ostapenko", "price": -1600 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:20Z",
+            "outcomes": [
+              { "name": "Bernarda Pera", "price": 130, "point": 5.5 },
+              { "name": "Jelena Ostapenko", "price": -160, "point": -5.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:36:32Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:36:32Z",
+            "outcomes": [
+              { "name": "Bernarda Pera", "price": 400 },
+              { "name": "Jelena Ostapenko", "price": -500 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:36:32Z",
+            "outcomes": [
+              { "name": "Bernarda Pera", "price": -105, "point": 5.0 },
+              { "name": "Jelena Ostapenko", "price": -115, "point": -5.0 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T13:38:00Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:38:00Z",
+            "outcomes": [
+              { "name": "Bernarda Pera", "price": 400 },
+              { "name": "Jelena Ostapenko", "price": -500 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:38:00Z",
+            "outcomes": [
+              { "name": "Bernarda Pera", "price": -105, "point": 5.0 },
+              { "name": "Jelena Ostapenko", "price": -115, "point": -5.0 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "wynnbet",
+        "title": "WynnBET",
+        "last_update": "2024-07-06T13:44:56Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:56Z",
+            "outcomes": [
+              { "name": "Bernarda Pera", "price": 710 },
+              { "name": "Jelena Ostapenko", "price": -1250 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:56Z",
+            "outcomes": [
+              { "name": "Bernarda Pera", "price": -137, "point": 6.5 },
+              { "name": "Jelena Ostapenko", "price": 103, "point": -6.5 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "7ed7e67d1db70d098bf0f7b3e154e27c",
+    "sport_key": "tennis_wta_wimbledon",
+    "sport_title": "WTA Wimbledon",
+    "commence_time": "2024-07-06T13:48:00Z",
+    "home_team": "Danielle Collins",
+    "away_team": "Beatriz Haddad Maia",
+    "bookmakers": [
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:45:00Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:45:00Z",
+            "outcomes": [
+              { "name": "Beatriz Haddad Maia", "price": 135 },
+              { "name": "Danielle Collins", "price": -165 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:45:00Z",
+            "outcomes": [
+              { "name": "Beatriz Haddad Maia", "price": -110, "point": 2.5 },
+              { "name": "Danielle Collins", "price": -120, "point": -2.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:44:35Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:35Z",
+            "outcomes": [
+              { "name": "Beatriz Haddad Maia", "price": 145 },
+              { "name": "Danielle Collins", "price": -185 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:44:35Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:35Z",
+            "outcomes": [
+              { "name": "Beatriz Haddad Maia", "price": 140 },
+              { "name": "Danielle Collins", "price": -185 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:43:37Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:37Z",
+            "outcomes": [
+              { "name": "Beatriz Haddad Maia", "price": 150 },
+              { "name": "Danielle Collins", "price": -182 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:35Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:35Z",
+            "outcomes": [
+              { "name": "Beatriz Haddad Maia", "price": 140 },
+              { "name": "Danielle Collins", "price": -177 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:45:07Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:45:06Z",
+            "outcomes": [
+              { "name": "Beatriz Haddad Maia", "price": 142 },
+              { "name": "Danielle Collins", "price": -183 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:45:06Z",
+            "outcomes": [
+              { "name": "Beatriz Haddad Maia", "price": -106, "point": 2.5 },
+              { "name": "Danielle Collins", "price": -131, "point": -2.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2024-07-06T13:44:20Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:20Z",
+            "outcomes": [
+              { "name": "Beatriz Haddad Maia", "price": 150 },
+              { "name": "Danielle Collins", "price": -190 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:20Z",
+            "outcomes": [
+              { "name": "Beatriz Haddad Maia", "price": -105, "point": 2.5 },
+              { "name": "Danielle Collins", "price": -125, "point": -2.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T13:45:08Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:45:08Z",
+            "outcomes": [
+              { "name": "Beatriz Haddad Maia", "price": 150 },
+              { "name": "Danielle Collins", "price": -170 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:45:08Z",
+            "outcomes": [
+              { "name": "Beatriz Haddad Maia", "price": -110, "point": 2.5 },
+              { "name": "Danielle Collins", "price": -110, "point": -2.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:45:01Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:45:01Z",
+            "outcomes": [
+              { "name": "Beatriz Haddad Maia", "price": 150 },
+              { "name": "Danielle Collins", "price": -170 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:45:01Z",
+            "outcomes": [
+              { "name": "Beatriz Haddad Maia", "price": -110, "point": 2.5 },
+              { "name": "Danielle Collins", "price": -110, "point": -2.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "wynnbet",
+        "title": "WynnBET",
+        "last_update": "2024-07-06T13:44:56Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:56Z",
+            "outcomes": [
+              { "name": "Beatriz Haddad Maia", "price": 150 },
+              { "name": "Danielle Collins", "price": -169 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:56Z",
+            "outcomes": [
+              { "name": "Beatriz Haddad Maia", "price": -104, "point": 2.5 },
+              { "name": "Danielle Collins", "price": -118, "point": -2.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-07-06T13:45:07Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:45:07Z",
+            "outcomes": [
+              { "name": "Beatriz Haddad Maia", "price": 150 },
+              { "name": "Danielle Collins", "price": -180 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:45:07Z",
+            "outcomes": [
+              { "name": "Beatriz Haddad Maia", "price": -110, "point": 2.5 },
+              { "name": "Danielle Collins", "price": -120, "point": -2.5 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "b094c07741e442b0e6a05e37b66e5af1",
+    "sport_key": "tennis_wta_wimbledon",
+    "sport_title": "WTA Wimbledon",
+    "commence_time": "2024-07-06T14:12:00Z",
+    "home_team": "Ons Jabeur",
+    "away_team": "Elina Svitolina",
+    "bookmakers": [
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:45:00Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:45:00Z",
+            "outcomes": [
+              { "name": "Elina Svitolina", "price": 165 },
+              { "name": "Ons Jabeur", "price": -200 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:45:00Z",
+            "outcomes": [
+              { "name": "Elina Svitolina", "price": -115, "point": 3.0 },
+              { "name": "Ons Jabeur", "price": -115, "point": -3.0 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:44:35Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:35Z",
+            "outcomes": [
+              { "name": "Elina Svitolina", "price": 160 },
+              { "name": "Ons Jabeur", "price": -200 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:44:35Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:35Z",
+            "outcomes": [
+              { "name": "Elina Svitolina", "price": 160 },
+              { "name": "Ons Jabeur", "price": -210 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:45:09Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:45:09Z",
+            "outcomes": [
+              { "name": "Elina Svitolina", "price": 168 },
+              { "name": "Ons Jabeur", "price": -210 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:35Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:35Z",
+            "outcomes": [
+              { "name": "Elina Svitolina", "price": 165 },
+              { "name": "Ons Jabeur", "price": -210 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:45:07Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:45:06Z",
+            "outcomes": [
+              { "name": "Elina Svitolina", "price": 161 },
+              { "name": "Ons Jabeur", "price": -210 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:45:06Z",
+            "outcomes": [
+              { "name": "Elina Svitolina", "price": -123, "point": 3.5 },
+              { "name": "Ons Jabeur", "price": -112, "point": -3.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2024-07-06T13:44:20Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:20Z",
+            "outcomes": [
+              { "name": "Elina Svitolina", "price": 155 },
+              { "name": "Ons Jabeur", "price": -200 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:20Z",
+            "outcomes": [
+              { "name": "Elina Svitolina", "price": 105, "point": 2.5 },
+              { "name": "Ons Jabeur", "price": -135, "point": -2.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:45:01Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:45:01Z",
+            "outcomes": [
+              { "name": "Elina Svitolina", "price": 169 },
+              { "name": "Ons Jabeur", "price": -199 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:45:01Z",
+            "outcomes": [
+              { "name": "Elina Svitolina", "price": -105, "point": 3.0 },
+              { "name": "Ons Jabeur", "price": -115, "point": -3.0 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T13:45:08Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:45:08Z",
+            "outcomes": [
+              { "name": "Elina Svitolina", "price": 169 },
+              { "name": "Ons Jabeur", "price": -199 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:45:08Z",
+            "outcomes": [
+              { "name": "Elina Svitolina", "price": -105, "point": 3.0 },
+              { "name": "Ons Jabeur", "price": -115, "point": -3.0 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-07-06T13:45:07Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:45:07Z",
+            "outcomes": [
+              { "name": "Elina Svitolina", "price": 165 },
+              { "name": "Ons Jabeur", "price": -200 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:45:07Z",
+            "outcomes": [
+              { "name": "Elina Svitolina", "price": -115, "point": 3.0 },
+              { "name": "Ons Jabeur", "price": -115, "point": -3.0 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "wynnbet",
+        "title": "WynnBET",
+        "last_update": "2024-07-06T13:44:56Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:56Z",
+            "outcomes": [
+              { "name": "Elina Svitolina", "price": 170 },
+              { "name": "Ons Jabeur", "price": -192 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:56Z",
+            "outcomes": [
+              { "name": "Elina Svitolina", "price": -125, "point": 3.5 },
+              { "name": "Ons Jabeur", "price": 102, "point": -3.5 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "f02f27424d2a618a322a594c72d39201",
+    "sport_key": "tennis_wta_wimbledon",
+    "sport_title": "WTA Wimbledon",
+    "commence_time": "2024-07-06T14:20:00Z",
+    "home_team": "Iga Swiatek",
+    "away_team": "Yulia Putintseva",
+    "bookmakers": [
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:35Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:35Z",
+            "outcomes": [
+              { "name": "Iga Swiatek", "price": -1115 },
+              { "name": "Yulia Putintseva", "price": 550 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:44:35Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:35Z",
+            "outcomes": [
+              { "name": "Iga Swiatek", "price": -1000 },
+              { "name": "Yulia Putintseva", "price": 650 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:44:35Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:35Z",
+            "outcomes": [
+              { "name": "Iga Swiatek", "price": -900 },
+              { "name": "Yulia Putintseva", "price": 525 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:45:00Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:45:00Z",
+            "outcomes": [
+              { "name": "Iga Swiatek", "price": -1100 },
+              { "name": "Yulia Putintseva", "price": 650 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:45:00Z",
+            "outcomes": [
+              { "name": "Iga Swiatek", "price": -115, "point": -5.5 },
+              { "name": "Yulia Putintseva", "price": -115, "point": 5.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T13:45:08Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:45:08Z",
+            "outcomes": [
+              { "name": "Iga Swiatek", "price": -900 },
+              { "name": "Yulia Putintseva", "price": 600 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:45:08Z",
+            "outcomes": [
+              { "name": "Iga Swiatek", "price": -115, "point": -5.5 },
+              { "name": "Yulia Putintseva", "price": -105, "point": 5.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "wynnbet",
+        "title": "WynnBET",
+        "last_update": "2024-07-06T13:44:56Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:56Z",
+            "outcomes": [
+              { "name": "Iga Swiatek", "price": -909 },
+              { "name": "Yulia Putintseva", "price": 675 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:56Z",
+            "outcomes": [
+              { "name": "Iga Swiatek", "price": -128, "point": -5.5 },
+              { "name": "Yulia Putintseva", "price": 105, "point": 5.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:45:07Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:45:06Z",
+            "outcomes": [
+              { "name": "Iga Swiatek", "price": -1000 },
+              { "name": "Yulia Putintseva", "price": 570 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:45:06Z",
+            "outcomes": [
+              { "name": "Iga Swiatek", "price": -140, "point": -5.5 },
+              { "name": "Yulia Putintseva", "price": 102, "point": 5.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:45:01Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:45:01Z",
+            "outcomes": [
+              { "name": "Iga Swiatek", "price": -901 },
+              { "name": "Yulia Putintseva", "price": 600 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:45:01Z",
+            "outcomes": [
+              { "name": "Iga Swiatek", "price": -115, "point": -5.5 },
+              { "name": "Yulia Putintseva", "price": -105, "point": 5.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-07-06T13:45:07Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:45:07Z",
+            "outcomes": [
+              { "name": "Iga Swiatek", "price": -1100 },
+              { "name": "Yulia Putintseva", "price": 700 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:45:07Z",
+            "outcomes": [
+              { "name": "Iga Swiatek", "price": -115, "point": -5.5 },
+              { "name": "Yulia Putintseva", "price": -115, "point": 5.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2024-07-06T13:44:20Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:20Z",
+            "outcomes": [
+              { "name": "Iga Swiatek", "price": -900 },
+              { "name": "Yulia Putintseva", "price": 500 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:20Z",
+            "outcomes": [
+              { "name": "Iga Swiatek", "price": -130, "point": -5.5 },
+              { "name": "Yulia Putintseva", "price": 100, "point": 5.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:45:09Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:45:09Z",
+            "outcomes": [
+              { "name": "Iga Swiatek", "price": -1050 },
+              { "name": "Yulia Putintseva", "price": 660 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "a21e33197c05b115ee5ec9c3e98f23d6",
+    "sport_key": "tennis_wta_wimbledon",
+    "sport_title": "WTA Wimbledon",
+    "commence_time": "2024-07-06T15:35:00Z",
+    "home_team": "Elena Rybakina",
+    "away_team": "Caroline Wozniacki",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:44:35Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:35Z",
+            "outcomes": [
+              { "name": "Caroline Wozniacki", "price": 260 },
+              { "name": "Elena Rybakina", "price": -330 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:35Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:35Z",
+            "outcomes": [
+              { "name": "Caroline Wozniacki", "price": 260 },
+              { "name": "Elena Rybakina", "price": -345 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:45:09Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:45:09Z",
+            "outcomes": [
+              { "name": "Caroline Wozniacki", "price": 280 },
+              { "name": "Elena Rybakina", "price": -360 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:44:35Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:35Z",
+            "outcomes": [
+              { "name": "Caroline Wozniacki", "price": 260 },
+              { "name": "Elena Rybakina", "price": -350 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:45:00Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:45:00Z",
+            "outcomes": [
+              { "name": "Caroline Wozniacki", "price": 275 },
+              { "name": "Elena Rybakina", "price": -350 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:45:00Z",
+            "outcomes": [
+              { "name": "Caroline Wozniacki", "price": -105, "point": 4.0 },
+              { "name": "Elena Rybakina", "price": -125, "point": -4.0 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:45:07Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:45:07Z",
+            "outcomes": [
+              { "name": "Caroline Wozniacki", "price": 260 },
+              { "name": "Elena Rybakina", "price": -360 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:45:07Z",
+            "outcomes": [
+              { "name": "Caroline Wozniacki", "price": -145, "point": 4.5 },
+              { "name": "Elena Rybakina", "price": 105, "point": -4.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2024-07-06T13:44:20Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:20Z",
+            "outcomes": [
+              { "name": "Caroline Wozniacki", "price": 270 },
+              { "name": "Elena Rybakina", "price": -380 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:20Z",
+            "outcomes": [
+              { "name": "Caroline Wozniacki", "price": -140, "point": 4.5 },
+              { "name": "Elena Rybakina", "price": 110, "point": -4.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:45:01Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:45:01Z",
+            "outcomes": [
+              { "name": "Caroline Wozniacki", "price": 270 },
+              { "name": "Elena Rybakina", "price": -325 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:45:01Z",
+            "outcomes": [
+              { "name": "Caroline Wozniacki", "price": -102, "point": 4.0 },
+              { "name": "Elena Rybakina", "price": -118, "point": -4.0 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T13:45:08Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:45:08Z",
+            "outcomes": [
+              { "name": "Caroline Wozniacki", "price": 270 },
+              { "name": "Elena Rybakina", "price": -325 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:45:08Z",
+            "outcomes": [
+              { "name": "Caroline Wozniacki", "price": -102, "point": 4.0 },
+              { "name": "Elena Rybakina", "price": -118, "point": -4.0 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "wynnbet",
+        "title": "WynnBET",
+        "last_update": "2024-07-06T13:44:56Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:56Z",
+            "outcomes": [
+              { "name": "Caroline Wozniacki", "price": 280 },
+              { "name": "Elena Rybakina", "price": -333 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:56Z",
+            "outcomes": [
+              { "name": "Caroline Wozniacki", "price": -132, "point": 4.5 },
+              { "name": "Elena Rybakina", "price": 108, "point": -4.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-07-06T13:45:07Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:45:07Z",
+            "outcomes": [
+              { "name": "Caroline Wozniacki", "price": 235 },
+              { "name": "Elena Rybakina", "price": -310 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:45:07Z",
+            "outcomes": [
+              { "name": "Caroline Wozniacki", "price": -110, "point": 4.0 },
+              { "name": "Elena Rybakina", "price": -120, "point": -4.0 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "e4b71f80f2ebecb3f1598e8da36f725e",
+    "sport_key": "tennis_wta_wimbledon",
+    "sport_title": "WTA Wimbledon",
+    "commence_time": "2024-07-07T00:00:00Z",
+    "home_team": "Emma Navarro",
+    "away_team": "Coco Gauff",
+    "bookmakers": [
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:45:01Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:45:01Z",
+            "outcomes": [
+              { "name": "Coco Gauff", "price": -355 },
+              { "name": "Emma Navarro", "price": 285 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:45:01Z",
+            "outcomes": [
+              { "name": "Coco Gauff", "price": -104, "point": -4.5 },
+              { "name": "Emma Navarro", "price": -116, "point": 4.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "wynnbet",
+        "title": "WynnBET",
+        "last_update": "2024-07-06T13:44:56Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:56Z",
+            "outcomes": [
+              { "name": "Coco Gauff", "price": -333 },
+              { "name": "Emma Navarro", "price": 280 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:56Z",
+            "outcomes": [
+              { "name": "Coco Gauff", "price": -109, "point": -4.5 },
+              { "name": "Emma Navarro", "price": -112, "point": 4.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:44:35Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:35Z",
+            "outcomes": [
+              { "name": "Coco Gauff", "price": -350 },
+              { "name": "Emma Navarro", "price": 260 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:44:35Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:35Z",
+            "outcomes": [
+              { "name": "Coco Gauff", "price": -350 },
+              { "name": "Emma Navarro", "price": 270 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T13:45:08Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:45:08Z",
+            "outcomes": [
+              { "name": "Coco Gauff", "price": -355 },
+              { "name": "Emma Navarro", "price": 285 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:45:08Z",
+            "outcomes": [
+              { "name": "Coco Gauff", "price": -104, "point": -4.5 },
+              { "name": "Emma Navarro", "price": -116, "point": 4.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:45:00Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:45:00Z",
+            "outcomes": [
+              { "name": "Coco Gauff", "price": -400 },
+              { "name": "Emma Navarro", "price": 300 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:45:00Z",
+            "outcomes": [
+              { "name": "Coco Gauff", "price": -110, "point": -4.5 },
+              { "name": "Emma Navarro", "price": -120, "point": 4.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2024-07-06T13:44:20Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:20Z",
+            "outcomes": [
+              { "name": "Coco Gauff", "price": -400 },
+              { "name": "Emma Navarro", "price": 280 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:20Z",
+            "outcomes": [
+              { "name": "Coco Gauff", "price": -110, "point": -4.5 },
+              { "name": "Emma Navarro", "price": -120, "point": 4.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:45:09Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:45:09Z",
+            "outcomes": [
+              { "name": "Coco Gauff", "price": -400 },
+              { "name": "Emma Navarro", "price": 290 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:35Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:35Z",
+            "outcomes": [
+              { "name": "Coco Gauff", "price": -385 },
+              { "name": "Emma Navarro", "price": 290 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:45:07Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:45:07Z",
+            "outcomes": [
+              { "name": "Coco Gauff", "price": -410 },
+              { "name": "Emma Navarro", "price": 280 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "e9ccfdca0b694912a776f303fe8ee5f7",
+    "sport_key": "tennis_wta_wimbledon",
+    "sport_title": "WTA Wimbledon",
+    "commence_time": "2024-07-07T00:00:00Z",
+    "home_team": "Jasmine Paolini",
+    "away_team": "Madison Keys",
+    "bookmakers": [
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:45:01Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:45:01Z",
+            "outcomes": [
+              { "name": "Jasmine Paolini", "price": 206 },
+              { "name": "Madison Keys", "price": -246 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:45:01Z",
+            "outcomes": [
+              { "name": "Jasmine Paolini", "price": -105, "point": 3.0 },
+              { "name": "Madison Keys", "price": -115, "point": -3.0 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "wynnbet",
+        "title": "WynnBET",
+        "last_update": "2024-07-06T13:44:56Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:56Z",
+            "outcomes": [
+              { "name": "Jasmine Paolini", "price": 180 },
+              { "name": "Madison Keys", "price": -208 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:56Z",
+            "outcomes": [
+              { "name": "Jasmine Paolini", "price": -112, "point": 3.5 },
+              { "name": "Madison Keys", "price": -109, "point": -3.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:44:35Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:35Z",
+            "outcomes": [
+              { "name": "Jasmine Paolini", "price": 180 },
+              { "name": "Madison Keys", "price": -250 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:44:35Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:35Z",
+            "outcomes": [
+              { "name": "Jasmine Paolini", "price": 195 },
+              { "name": "Madison Keys", "price": -245 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T13:45:08Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:45:08Z",
+            "outcomes": [
+              { "name": "Jasmine Paolini", "price": 206 },
+              { "name": "Madison Keys", "price": -246 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:45:08Z",
+            "outcomes": [
+              { "name": "Jasmine Paolini", "price": -105, "point": 3.0 },
+              { "name": "Madison Keys", "price": -115, "point": -3.0 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:45:00Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:45:00Z",
+            "outcomes": [
+              { "name": "Jasmine Paolini", "price": 180 },
+              { "name": "Madison Keys", "price": -220 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:45:00Z",
+            "outcomes": [
+              { "name": "Jasmine Paolini", "price": -115, "point": 3.5 },
+              { "name": "Madison Keys", "price": -115, "point": -3.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2024-07-06T13:44:20Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:20Z",
+            "outcomes": [
+              { "name": "Jasmine Paolini", "price": 170 },
+              { "name": "Madison Keys", "price": -220 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:45:09Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:45:09Z",
+            "outcomes": [
+              { "name": "Jasmine Paolini", "price": 188 },
+              { "name": "Madison Keys", "price": -230 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:35Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:35Z",
+            "outcomes": [
+              { "name": "Jasmine Paolini", "price": 170 },
+              { "name": "Madison Keys", "price": -215 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:45:07Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:45:07Z",
+            "outcomes": [
+              { "name": "Jasmine Paolini", "price": 167 },
+              { "name": "Madison Keys", "price": -228 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "04bcf7621e2696cbfb0532297a2e3820",
+    "sport_key": "tennis_wta_wimbledon",
+    "sport_title": "WTA Wimbledon",
+    "commence_time": "2024-07-07T10:00:00Z",
+    "home_team": "Paula Badosa",
+    "away_team": "Donna Vekic",
+    "bookmakers": [
+      {
+        "key": "wynnbet",
+        "title": "WynnBET",
+        "last_update": "2024-07-06T13:44:56Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:56Z",
+            "outcomes": [
+              { "name": "Donna Vekic", "price": 130 },
+              { "name": "Paula Badosa", "price": -147 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:56Z",
+            "outcomes": [
+              { "name": "Donna Vekic", "price": -122, "point": 2.5 },
+              { "name": "Paula Badosa", "price": 100, "point": -2.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:44:35Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:35Z",
+            "outcomes": [
+              { "name": "Donna Vekic", "price": 120 },
+              { "name": "Paula Badosa", "price": -155 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:44:35Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:35Z",
+            "outcomes": [
+              { "name": "Donna Vekic", "price": 125 },
+              { "name": "Paula Badosa", "price": -160 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:45:00Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:45:00Z",
+            "outcomes": [
+              { "name": "Donna Vekic", "price": 120 },
+              { "name": "Paula Badosa", "price": -145 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:45:00Z",
+            "outcomes": [
+              { "name": "Donna Vekic", "price": -110, "point": 2.0 },
+              { "name": "Paula Badosa", "price": -120, "point": -2.0 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:45:09Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:45:09Z",
+            "outcomes": [
+              { "name": "Donna Vekic", "price": 128 },
+              { "name": "Paula Badosa", "price": -154 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:45:01Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:45:01Z",
+            "outcomes": [
+              { "name": "Donna Vekic", "price": 136 },
+              { "name": "Paula Badosa", "price": -156 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:45:01Z",
+            "outcomes": [
+              { "name": "Donna Vekic", "price": 100, "point": 1.5 },
+              { "name": "Paula Badosa", "price": -120, "point": -1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T13:45:08Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:45:08Z",
+            "outcomes": [
+              { "name": "Donna Vekic", "price": 136 },
+              { "name": "Paula Badosa", "price": -156 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:45:08Z",
+            "outcomes": [
+              { "name": "Donna Vekic", "price": 100, "point": 1.5 },
+              { "name": "Paula Badosa", "price": -120, "point": -1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:35Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:35Z",
+            "outcomes": [
+              { "name": "Donna Vekic", "price": 123 },
+              { "name": "Paula Badosa", "price": -155 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:45:07Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:45:07Z",
+            "outcomes": [
+              { "name": "Donna Vekic", "price": 117 },
+              { "name": "Paula Badosa", "price": -156 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2024-07-06T13:44:20Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:20Z",
+            "outcomes": [
+              { "name": "Donna Vekic", "price": 130 },
+              { "name": "Paula Badosa", "price": -160 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:20Z",
+            "outcomes": [
+              { "name": "Donna Vekic", "price": -105, "point": 1.5 },
+              { "name": "Paula Badosa", "price": -125, "point": -1.5 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "aa1a8290735fe565384942f497f50f06",
+    "sport_key": "tennis_wta_wimbledon",
+    "sport_title": "WTA Wimbledon",
+    "commence_time": "2024-07-07T10:00:00Z",
+    "home_team": "Lulu Sun",
+    "away_team": "Emma Raducanu",
+    "bookmakers": [
+      {
+        "key": "wynnbet",
+        "title": "WynnBET",
+        "last_update": "2024-07-06T13:44:56Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:56Z",
+            "outcomes": [
+              { "name": "Emma Raducanu", "price": -667 },
+              { "name": "Lulu Sun", "price": 525 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:56Z",
+            "outcomes": [
+              { "name": "Emma Raducanu", "price": 100, "point": -5.5 },
+              { "name": "Lulu Sun", "price": -122, "point": 5.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:44:35Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:35Z",
+            "outcomes": [
+              { "name": "Emma Raducanu", "price": -700 },
+              { "name": "Lulu Sun", "price": 450 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:44:35Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:35Z",
+            "outcomes": [
+              { "name": "Emma Raducanu", "price": -700 },
+              { "name": "Lulu Sun", "price": 500 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:45:00Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:45:00Z",
+            "outcomes": [
+              { "name": "Emma Raducanu", "price": -700 },
+              { "name": "Lulu Sun", "price": 475 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:45:00Z",
+            "outcomes": [
+              { "name": "Emma Raducanu", "price": -105, "point": -5.5 },
+              { "name": "Lulu Sun", "price": -125, "point": 5.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2024-07-06T13:44:20Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:20Z",
+            "outcomes": [
+              { "name": "Emma Raducanu", "price": -650 },
+              { "name": "Lulu Sun", "price": 400 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:45:09Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:45:09Z",
+            "outcomes": [
+              { "name": "Emma Raducanu", "price": -800 },
+              { "name": "Lulu Sun", "price": 540 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:45:01Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:45:01Z",
+            "outcomes": [
+              { "name": "Emma Raducanu", "price": -699 },
+              { "name": "Lulu Sun", "price": 500 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:45:01Z",
+            "outcomes": [
+              { "name": "Emma Raducanu", "price": 105, "point": -5.5 },
+              { "name": "Lulu Sun", "price": -125, "point": 5.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T13:45:08Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:45:08Z",
+            "outcomes": [
+              { "name": "Emma Raducanu", "price": -700 },
+              { "name": "Lulu Sun", "price": 500 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:45:08Z",
+            "outcomes": [
+              { "name": "Emma Raducanu", "price": 105, "point": -5.5 },
+              { "name": "Lulu Sun", "price": -125, "point": 5.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:35Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:35Z",
+            "outcomes": [
+              { "name": "Emma Raducanu", "price": -770 },
+              { "name": "Lulu Sun", "price": 480 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:45:07Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:45:07Z",
+            "outcomes": [
+              { "name": "Emma Raducanu", "price": -800 },
+              { "name": "Lulu Sun", "price": 460 }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

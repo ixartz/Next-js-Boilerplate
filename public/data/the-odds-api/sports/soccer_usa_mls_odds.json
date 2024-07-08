@@ -1,0 +1,4738 @@
+[
+  {
+    "id": "b23a3ac09ad0773d466913763bb2b5ce",
+    "sport_key": "soccer_usa_mls",
+    "sport_title": "MLS",
+    "commence_time": "2024-07-06T23:30:00Z",
+    "home_team": "Columbus Crew SC",
+    "away_team": "Toronto FC",
+    "bookmakers": [
+      {
+        "key": "wynnbet",
+        "title": "WynnBET",
+        "last_update": "2024-07-06T13:44:41Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:41Z",
+            "outcomes": [
+              { "name": "Columbus Crew SC", "price": -278 },
+              { "name": "Toronto FC", "price": 650 },
+              { "name": "Draw", "price": 450 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2024-07-06T13:44:49Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:49Z",
+            "outcomes": [
+              { "name": "Columbus Crew SC", "price": -280 },
+              { "name": "Toronto FC", "price": 600 },
+              { "name": "Draw", "price": 400 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:41:27Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:41:27Z",
+            "outcomes": [
+              { "name": "Columbus Crew SC", "price": -290 },
+              { "name": "Toronto FC", "price": 650 },
+              { "name": "Draw", "price": 410 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:44:25Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:25Z",
+            "outcomes": [
+              { "name": "Columbus Crew SC", "price": -275 },
+              { "name": "Toronto FC", "price": 630 },
+              { "name": "Draw", "price": 430 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:25Z",
+            "outcomes": [
+              { "name": "Columbus Crew SC", "price": -109, "point": -1.5 },
+              { "name": "Toronto FC", "price": -122, "point": 1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:44:10Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:10Z",
+            "outcomes": [
+              { "name": "Columbus Crew SC", "price": -265 },
+              { "name": "Toronto FC", "price": 600 },
+              { "name": "Draw", "price": 440 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:10Z",
+            "outcomes": [
+              { "name": "Columbus Crew SC", "price": -102, "point": -1.5 },
+              { "name": "Toronto FC", "price": -118, "point": 1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:43:36Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:36Z",
+            "outcomes": [
+              { "name": "Columbus Crew SC", "price": -250 },
+              { "name": "Toronto FC", "price": 575 },
+              { "name": "Draw", "price": 400 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-07-06T13:44:50Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:50Z",
+            "outcomes": [
+              { "name": "Columbus Crew SC", "price": -260 },
+              { "name": "Toronto FC", "price": 650 },
+              { "name": "Draw", "price": 410 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:50Z",
+            "outcomes": [
+              { "name": "Columbus Crew SC", "price": -112, "point": -1.5 },
+              { "name": "Toronto FC", "price": -118, "point": 1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:50Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:50Z",
+            "outcomes": [
+              { "name": "Columbus Crew SC", "price": -278 },
+              { "name": "Toronto FC", "price": 650 },
+              { "name": "Draw", "price": 410 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:44:49Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:49Z",
+            "outcomes": [
+              { "name": "Columbus Crew SC", "price": -280 },
+              { "name": "Toronto FC", "price": 600 },
+              { "name": "Draw", "price": 400 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2024-07-06T13:41:53Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:41:53Z",
+            "outcomes": [
+              { "name": "Columbus Crew SC", "price": -260 },
+              { "name": "Toronto FC", "price": 650 },
+              { "name": "Draw", "price": 400 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T13:44:49Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:49Z",
+            "outcomes": [
+              { "name": "Columbus Crew SC", "price": -255 },
+              { "name": "Toronto FC", "price": 655 },
+              { "name": "Draw", "price": 440 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:49Z",
+            "outcomes": [
+              { "name": "Columbus Crew SC", "price": -120, "point": -1.25 },
+              { "name": "Toronto FC", "price": 100, "point": 1.25 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:44:50Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:50Z",
+            "outcomes": [
+              { "name": "Columbus Crew SC", "price": -255 },
+              { "name": "Toronto FC", "price": 655 },
+              { "name": "Draw", "price": 440 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:50Z",
+            "outcomes": [
+              { "name": "Columbus Crew SC", "price": -120, "point": -1.25 },
+              { "name": "Toronto FC", "price": 100, "point": 1.25 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "0ca34072d5f3ff28cce061763f2ec7e3",
+    "sport_key": "soccer_usa_mls",
+    "sport_title": "MLS",
+    "commence_time": "2024-07-06T23:30:00Z",
+    "home_team": "Orlando City SC",
+    "away_team": "D.C. United",
+    "bookmakers": [
+      {
+        "key": "wynnbet",
+        "title": "WynnBET",
+        "last_update": "2024-07-06T13:44:41Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:41Z",
+            "outcomes": [
+              { "name": "D.C. United", "price": 350 },
+              { "name": "Orlando City SC", "price": -137 },
+              { "name": "Draw", "price": 300 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2024-07-06T13:44:49Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:49Z",
+            "outcomes": [
+              { "name": "D.C. United", "price": 345 },
+              { "name": "Orlando City SC", "price": -150 },
+              { "name": "Draw", "price": 295 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:41:27Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:41:27Z",
+            "outcomes": [
+              { "name": "D.C. United", "price": 360 },
+              { "name": "Orlando City SC", "price": -150 },
+              { "name": "Draw", "price": 300 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:44:10Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:10Z",
+            "outcomes": [
+              { "name": "D.C. United", "price": 360 },
+              { "name": "Orlando City SC", "price": -145 },
+              { "name": "Draw", "price": 320 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:10Z",
+            "outcomes": [
+              { "name": "D.C. United", "price": -102, "point": 0.75 },
+              { "name": "Orlando City SC", "price": -118, "point": -0.75 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:44:25Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:25Z",
+            "outcomes": [
+              { "name": "D.C. United", "price": 360 },
+              { "name": "Orlando City SC", "price": -147 },
+              { "name": "Draw", "price": 310 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:25Z",
+            "outcomes": [
+              { "name": "D.C. United", "price": 115, "point": 0.5 },
+              { "name": "Orlando City SC", "price": -154, "point": -0.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:43:36Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:36Z",
+            "outcomes": [
+              { "name": "D.C. United", "price": 350 },
+              { "name": "Orlando City SC", "price": -150 },
+              { "name": "Draw", "price": 300 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-07-06T13:44:50Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:50Z",
+            "outcomes": [
+              { "name": "D.C. United", "price": 360 },
+              { "name": "Orlando City SC", "price": -145 },
+              { "name": "Draw", "price": 320 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:50Z",
+            "outcomes": [
+              { "name": "D.C. United", "price": 115, "point": 0.5 },
+              { "name": "Orlando City SC", "price": -145, "point": -0.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:50Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:50Z",
+            "outcomes": [
+              { "name": "D.C. United", "price": 350 },
+              { "name": "Orlando City SC", "price": -148 },
+              { "name": "Draw", "price": 300 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:44:49Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:49Z",
+            "outcomes": [
+              { "name": "D.C. United", "price": 340 },
+              { "name": "Orlando City SC", "price": -155 },
+              { "name": "Draw", "price": 300 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2024-07-06T13:41:53Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:41:53Z",
+            "outcomes": [
+              { "name": "D.C. United", "price": 360 },
+              { "name": "Orlando City SC", "price": -145 },
+              { "name": "Draw", "price": 300 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T13:44:49Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:49Z",
+            "outcomes": [
+              { "name": "D.C. United", "price": 375 },
+              { "name": "Orlando City SC", "price": -140 },
+              { "name": "Draw", "price": 315 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:49Z",
+            "outcomes": [
+              { "name": "D.C. United", "price": -105, "point": 0.75 },
+              { "name": "Orlando City SC", "price": -115, "point": -0.75 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:44:50Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:50Z",
+            "outcomes": [
+              { "name": "D.C. United", "price": 375 },
+              { "name": "Orlando City SC", "price": -140 },
+              { "name": "Draw", "price": 315 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:50Z",
+            "outcomes": [
+              { "name": "D.C. United", "price": -105, "point": 0.75 },
+              { "name": "Orlando City SC", "price": -115, "point": -0.75 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "0ea003fb255bbb0ab9bb15d6b8b2ae8c",
+    "sport_key": "soccer_usa_mls",
+    "sport_title": "MLS",
+    "commence_time": "2024-07-06T23:30:00Z",
+    "home_team": "FC Cincinnati",
+    "away_team": "Inter Miami CF",
+    "bookmakers": [
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:44:25Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:25Z",
+            "outcomes": [
+              { "name": "FC Cincinnati", "price": -137 },
+              { "name": "Inter Miami CF", "price": 330 },
+              { "name": "Draw", "price": 300 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:25Z",
+            "outcomes": [
+              { "name": "FC Cincinnati", "price": -143, "point": -0.5 },
+              { "name": "Inter Miami CF", "price": 108, "point": 0.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "wynnbet",
+        "title": "WynnBET",
+        "last_update": "2024-07-06T13:44:41Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:41Z",
+            "outcomes": [
+              { "name": "FC Cincinnati", "price": -133 },
+              { "name": "Inter Miami CF", "price": 330 },
+              { "name": "Draw", "price": 300 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:44:10Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:10Z",
+            "outcomes": [
+              { "name": "FC Cincinnati", "price": -135 },
+              { "name": "Inter Miami CF", "price": 330 },
+              { "name": "Draw", "price": 310 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:10Z",
+            "outcomes": [
+              { "name": "FC Cincinnati", "price": -110, "point": -0.75 },
+              { "name": "Inter Miami CF", "price": -110, "point": 0.75 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:41:27Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:41:27Z",
+            "outcomes": [
+              { "name": "FC Cincinnati", "price": -145 },
+              { "name": "Inter Miami CF", "price": 340 },
+              { "name": "Draw", "price": 300 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2024-07-06T13:44:49Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:49Z",
+            "outcomes": [
+              { "name": "FC Cincinnati", "price": -140 },
+              { "name": "Inter Miami CF", "price": 320 },
+              { "name": "Draw", "price": 290 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:43:36Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:36Z",
+            "outcomes": [
+              { "name": "FC Cincinnati", "price": -140 },
+              { "name": "Inter Miami CF", "price": 320 },
+              { "name": "Draw", "price": 290 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-07-06T13:44:50Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:50Z",
+            "outcomes": [
+              { "name": "FC Cincinnati", "price": -140 },
+              { "name": "Inter Miami CF", "price": 335 },
+              { "name": "Draw", "price": 315 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:50Z",
+            "outcomes": [
+              { "name": "FC Cincinnati", "price": -140, "point": -0.5 },
+              { "name": "Inter Miami CF", "price": 110, "point": 0.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:50Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:50Z",
+            "outcomes": [
+              { "name": "FC Cincinnati", "price": -141 },
+              { "name": "Inter Miami CF", "price": 330 },
+              { "name": "Draw", "price": 300 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:44:49Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:49Z",
+            "outcomes": [
+              { "name": "FC Cincinnati", "price": -145 },
+              { "name": "Inter Miami CF", "price": 320 },
+              { "name": "Draw", "price": 295 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2024-07-06T13:41:53Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:41:53Z",
+            "outcomes": [
+              { "name": "FC Cincinnati", "price": -135 },
+              { "name": "Inter Miami CF", "price": 320 },
+              { "name": "Draw", "price": 300 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:44:50Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:50Z",
+            "outcomes": [
+              { "name": "FC Cincinnati", "price": -135 },
+              { "name": "Inter Miami CF", "price": 347 },
+              { "name": "Draw", "price": 322 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:50Z",
+            "outcomes": [
+              { "name": "FC Cincinnati", "price": -109, "point": -0.75 },
+              { "name": "Inter Miami CF", "price": -111, "point": 0.75 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T13:44:49Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:49Z",
+            "outcomes": [
+              { "name": "FC Cincinnati", "price": -135 },
+              { "name": "Inter Miami CF", "price": 347 },
+              { "name": "Draw", "price": 322 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:49Z",
+            "outcomes": [
+              { "name": "FC Cincinnati", "price": -109, "point": -0.75 },
+              { "name": "Inter Miami CF", "price": -111, "point": 0.75 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2065cd52f59d31e49c055c127553d548",
+    "sport_key": "soccer_usa_mls",
+    "sport_title": "MLS",
+    "commence_time": "2024-07-06T23:30:00Z",
+    "home_team": "Montreal Impact",
+    "away_team": "Vancouver Whitecaps FC",
+    "bookmakers": [
+      {
+        "key": "wynnbet",
+        "title": "WynnBET",
+        "last_update": "2024-07-06T13:44:41Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:41Z",
+            "outcomes": [
+              { "name": "Montreal Impact", "price": 175 },
+              { "name": "Vancouver Whitecaps FC", "price": 140 },
+              { "name": "Draw", "price": 275 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2024-07-06T13:44:49Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:49Z",
+            "outcomes": [
+              { "name": "Montreal Impact", "price": 165 },
+              { "name": "Vancouver Whitecaps FC", "price": 135 },
+              { "name": "Draw", "price": 255 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:41:27Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:41:27Z",
+            "outcomes": [
+              { "name": "Montreal Impact", "price": 160 },
+              { "name": "Vancouver Whitecaps FC", "price": 145 },
+              { "name": "Draw", "price": 250 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:43:36Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:36Z",
+            "outcomes": [
+              { "name": "Montreal Impact", "price": 165 },
+              { "name": "Vancouver Whitecaps FC", "price": 140 },
+              { "name": "Draw", "price": 260 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:44:25Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:25Z",
+            "outcomes": [
+              { "name": "Montreal Impact", "price": 172 },
+              { "name": "Vancouver Whitecaps FC", "price": 140 },
+              { "name": "Draw", "price": 260 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:25Z",
+            "outcomes": [
+              { "name": "Montreal Impact", "price": -179, "point": 0.5 },
+              { "name": "Vancouver Whitecaps FC", "price": 133, "point": -0.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:44:10Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:10Z",
+            "outcomes": [
+              { "name": "Montreal Impact", "price": 175 },
+              { "name": "Vancouver Whitecaps FC", "price": 140 },
+              { "name": "Draw", "price": 270 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:10Z",
+            "outcomes": [
+              { "name": "Montreal Impact", "price": 105, "point": 0.0 },
+              { "name": "Vancouver Whitecaps FC", "price": -125, "point": 0.0 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-07-06T13:44:50Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:50Z",
+            "outcomes": [
+              { "name": "Montreal Impact", "price": 175 },
+              { "name": "Vancouver Whitecaps FC", "price": 140 },
+              { "name": "Draw", "price": 270 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:50Z",
+            "outcomes": [
+              { "name": "Montreal Impact", "price": -107, "point": 0.0 },
+              { "name": "Vancouver Whitecaps FC", "price": -123, "point": 0.0 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:50Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:50Z",
+            "outcomes": [
+              { "name": "Montreal Impact", "price": 155 },
+              { "name": "Vancouver Whitecaps FC", "price": 150 },
+              { "name": "Draw", "price": 265 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:44:49Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:49Z",
+            "outcomes": [
+              { "name": "Montreal Impact", "price": 165 },
+              { "name": "Vancouver Whitecaps FC", "price": 135 },
+              { "name": "Draw", "price": 265 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2024-07-06T13:41:53Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:41:53Z",
+            "outcomes": [
+              { "name": "Montreal Impact", "price": 170 },
+              { "name": "Vancouver Whitecaps FC", "price": 145 },
+              { "name": "Draw", "price": 260 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:44:50Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:50Z",
+            "outcomes": [
+              { "name": "Montreal Impact", "price": 175 },
+              { "name": "Vancouver Whitecaps FC", "price": 146 },
+              { "name": "Draw", "price": 279 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:50Z",
+            "outcomes": [
+              { "name": "Montreal Impact", "price": 106, "point": 0.0 },
+              { "name": "Vancouver Whitecaps FC", "price": -126, "point": 0.0 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T13:44:49Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:49Z",
+            "outcomes": [
+              { "name": "Montreal Impact", "price": 175 },
+              { "name": "Vancouver Whitecaps FC", "price": 146 },
+              { "name": "Draw", "price": 279 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:49Z",
+            "outcomes": [
+              { "name": "Montreal Impact", "price": 106, "point": 0.0 },
+              { "name": "Vancouver Whitecaps FC", "price": -126, "point": 0.0 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "e2d408a2e8732707c9b840b2c4c6c468",
+    "sport_key": "soccer_usa_mls",
+    "sport_title": "MLS",
+    "commence_time": "2024-07-06T23:30:00Z",
+    "home_team": "Philadelphia Union",
+    "away_team": "New York Red Bulls",
+    "bookmakers": [
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2024-07-06T13:44:49Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:49Z",
+            "outcomes": [
+              { "name": "New York Red Bulls", "price": 130 },
+              { "name": "Philadelphia Union", "price": 175 },
+              { "name": "Draw", "price": 260 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:44:10Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:10Z",
+            "outcomes": [
+              { "name": "New York Red Bulls", "price": 135 },
+              { "name": "Philadelphia Union", "price": 180 },
+              { "name": "Draw", "price": 280 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:10Z",
+            "outcomes": [
+              { "name": "New York Red Bulls", "price": 105, "point": -0.25 },
+              { "name": "Philadelphia Union", "price": -125, "point": 0.25 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "wynnbet",
+        "title": "WynnBET",
+        "last_update": "2024-07-06T13:44:41Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:41Z",
+            "outcomes": [
+              { "name": "New York Red Bulls", "price": 130 },
+              { "name": "Philadelphia Union", "price": 185 },
+              { "name": "Draw", "price": 275 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:41:27Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:41:27Z",
+            "outcomes": [
+              { "name": "New York Red Bulls", "price": 125 },
+              { "name": "Philadelphia Union", "price": 185 },
+              { "name": "Draw", "price": 260 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:43:36Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:36Z",
+            "outcomes": [
+              { "name": "New York Red Bulls", "price": 130 },
+              { "name": "Philadelphia Union", "price": 180 },
+              { "name": "Draw", "price": 260 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:44:25Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:25Z",
+            "outcomes": [
+              { "name": "New York Red Bulls", "price": 136 },
+              { "name": "Philadelphia Union", "price": 173 },
+              { "name": "Draw", "price": 270 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:25Z",
+            "outcomes": [
+              { "name": "New York Red Bulls", "price": 129, "point": -0.5 },
+              { "name": "Philadelphia Union", "price": -172, "point": 0.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-07-06T13:44:50Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:50Z",
+            "outcomes": [
+              { "name": "New York Red Bulls", "price": 135 },
+              { "name": "Philadelphia Union", "price": 180 },
+              { "name": "Draw", "price": 280 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:50Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:50Z",
+            "outcomes": [
+              { "name": "New York Red Bulls", "price": 133 },
+              { "name": "Philadelphia Union", "price": 175 },
+              { "name": "Draw", "price": 265 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:44:49Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:49Z",
+            "outcomes": [
+              { "name": "New York Red Bulls", "price": 130 },
+              { "name": "Philadelphia Union", "price": 170 },
+              { "name": "Draw", "price": 265 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2024-07-06T13:41:53Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:41:53Z",
+            "outcomes": [
+              { "name": "New York Red Bulls", "price": 135 },
+              { "name": "Philadelphia Union", "price": 185 },
+              { "name": "Draw", "price": 250 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:44:50Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:50Z",
+            "outcomes": [
+              { "name": "New York Red Bulls", "price": 128 },
+              { "name": "Philadelphia Union", "price": 179 },
+              { "name": "Draw", "price": 279 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:50Z",
+            "outcomes": [
+              { "name": "New York Red Bulls", "price": -125, "point": 0.0 },
+              { "name": "Philadelphia Union", "price": 105, "point": 0.0 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T13:44:49Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:49Z",
+            "outcomes": [
+              { "name": "New York Red Bulls", "price": 128 },
+              { "name": "Philadelphia Union", "price": 179 },
+              { "name": "Draw", "price": 279 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:49Z",
+            "outcomes": [
+              { "name": "New York Red Bulls", "price": -125, "point": 0.0 },
+              { "name": "Philadelphia Union", "price": 105, "point": 0.0 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "b3fd6da5ac25a544cb0183015c3c254f",
+    "sport_key": "soccer_usa_mls",
+    "sport_title": "MLS",
+    "commence_time": "2024-07-07T00:30:00Z",
+    "home_team": "Austin FC",
+    "away_team": "New York City FC",
+    "bookmakers": [
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2024-07-06T13:44:49Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:49Z",
+            "outcomes": [
+              { "name": "Austin FC", "price": 175 },
+              { "name": "New York City FC", "price": 135 },
+              { "name": "Draw", "price": 240 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "wynnbet",
+        "title": "WynnBET",
+        "last_update": "2024-07-06T13:44:41Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:41Z",
+            "outcomes": [
+              { "name": "Austin FC", "price": 180 },
+              { "name": "New York City FC", "price": 140 },
+              { "name": "Draw", "price": 260 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:41:27Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:41:27Z",
+            "outcomes": [
+              { "name": "Austin FC", "price": 180 },
+              { "name": "New York City FC", "price": 140 },
+              { "name": "Draw", "price": 240 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:44:25Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:25Z",
+            "outcomes": [
+              { "name": "Austin FC", "price": 181 },
+              { "name": "New York City FC", "price": 139 },
+              { "name": "Draw", "price": 250 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:25Z",
+            "outcomes": [
+              { "name": "Austin FC", "price": -175, "point": 0.5 },
+              { "name": "New York City FC", "price": 132, "point": -0.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:43:36Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:36Z",
+            "outcomes": [
+              { "name": "Austin FC", "price": 188 },
+              { "name": "New York City FC", "price": 125 },
+              { "name": "Draw", "price": 250 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:44:10Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:10Z",
+            "outcomes": [
+              { "name": "Austin FC", "price": 180 },
+              { "name": "New York City FC", "price": 140 },
+              { "name": "Draw", "price": 260 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:10Z",
+            "outcomes": [
+              { "name": "Austin FC", "price": 108, "point": 0.0 },
+              { "name": "New York City FC", "price": -128, "point": 0.0 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-07-06T13:44:50Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:50Z",
+            "outcomes": [
+              { "name": "Austin FC", "price": 180 },
+              { "name": "New York City FC", "price": 140 },
+              { "name": "Draw", "price": 260 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:50Z",
+            "outcomes": [
+              { "name": "Austin FC", "price": -102, "point": 0.0 },
+              { "name": "New York City FC", "price": -128, "point": 0.0 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:50Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:50Z",
+            "outcomes": [
+              { "name": "Austin FC", "price": 180 },
+              { "name": "New York City FC", "price": 140 },
+              { "name": "Draw", "price": 240 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:44:49Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:49Z",
+            "outcomes": [
+              { "name": "Austin FC", "price": 175 },
+              { "name": "New York City FC", "price": 135 },
+              { "name": "Draw", "price": 245 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2024-07-06T13:41:53Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:41:53Z",
+            "outcomes": [
+              { "name": "Austin FC", "price": 185 },
+              { "name": "New York City FC", "price": 140 },
+              { "name": "Draw", "price": 240 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T13:44:49Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:49Z",
+            "outcomes": [
+              { "name": "Austin FC", "price": 186 },
+              { "name": "New York City FC", "price": 145 },
+              { "name": "Draw", "price": 260 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:49Z",
+            "outcomes": [
+              { "name": "Austin FC", "price": 110, "point": 0.0 },
+              { "name": "New York City FC", "price": -130, "point": 0.0 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:44:50Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:50Z",
+            "outcomes": [
+              { "name": "Austin FC", "price": 186 },
+              { "name": "New York City FC", "price": 145 },
+              { "name": "Draw", "price": 260 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:50Z",
+            "outcomes": [
+              { "name": "Austin FC", "price": 110, "point": 0.0 },
+              { "name": "New York City FC", "price": -130, "point": 0.0 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "9cf3e2377a539153013101af5f016bf0",
+    "sport_key": "soccer_usa_mls",
+    "sport_title": "MLS",
+    "commence_time": "2024-07-07T01:30:00Z",
+    "home_team": "Real Salt Lake",
+    "away_team": "Atlanta United FC",
+    "bookmakers": [
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2024-07-06T13:44:49Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:49Z",
+            "outcomes": [
+              { "name": "Atlanta United FC", "price": 425 },
+              { "name": "Real Salt Lake", "price": -195 },
+              { "name": "Draw", "price": 345 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:44:25Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:25Z",
+            "outcomes": [
+              { "name": "Atlanta United FC", "price": 430 },
+              { "name": "Real Salt Lake", "price": -187 },
+              { "name": "Draw", "price": 360 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:25Z",
+            "outcomes": [
+              { "name": "Atlanta United FC", "price": -172, "point": 1.5 },
+              { "name": "Real Salt Lake", "price": 129, "point": -1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "wynnbet",
+        "title": "WynnBET",
+        "last_update": "2024-07-06T13:44:41Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:41Z",
+            "outcomes": [
+              { "name": "Atlanta United FC", "price": 475 },
+              { "name": "Real Salt Lake", "price": -185 },
+              { "name": "Draw", "price": 340 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:41:27Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:41:27Z",
+            "outcomes": [
+              { "name": "Atlanta United FC", "price": 430 },
+              { "name": "Real Salt Lake", "price": -185 },
+              { "name": "Draw", "price": 340 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:43:36Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:36Z",
+            "outcomes": [
+              { "name": "Atlanta United FC", "price": 425 },
+              { "name": "Real Salt Lake", "price": -190 },
+              { "name": "Draw", "price": 340 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:44:10Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:10Z",
+            "outcomes": [
+              { "name": "Atlanta United FC", "price": 440 },
+              { "name": "Real Salt Lake", "price": -185 },
+              { "name": "Draw", "price": 370 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:10Z",
+            "outcomes": [
+              { "name": "Atlanta United FC", "price": -102, "point": 1.0 },
+              { "name": "Real Salt Lake", "price": -118, "point": -1.0 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-07-06T13:44:50Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:50Z",
+            "outcomes": [
+              { "name": "Atlanta United FC", "price": 443 },
+              { "name": "Real Salt Lake", "price": -184 },
+              { "name": "Draw", "price": 355 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:50Z",
+            "outcomes": [
+              { "name": "Atlanta United FC", "price": -113, "point": 1.0 },
+              { "name": "Real Salt Lake", "price": -117, "point": -1.0 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:50Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:50Z",
+            "outcomes": [
+              { "name": "Atlanta United FC", "price": 480 },
+              { "name": "Real Salt Lake", "price": -190 },
+              { "name": "Draw", "price": 310 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:44:49Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:49Z",
+            "outcomes": [
+              { "name": "Atlanta United FC", "price": 425 },
+              { "name": "Real Salt Lake", "price": -200 },
+              { "name": "Draw", "price": 340 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2024-07-06T13:41:53Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:41:53Z",
+            "outcomes": [
+              { "name": "Atlanta United FC", "price": 450 },
+              { "name": "Real Salt Lake", "price": -190 },
+              { "name": "Draw", "price": 340 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T13:44:49Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:49Z",
+            "outcomes": [
+              { "name": "Atlanta United FC", "price": 480 },
+              { "name": "Real Salt Lake", "price": -183 },
+              { "name": "Draw", "price": 362 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:49Z",
+            "outcomes": [
+              { "name": "Atlanta United FC", "price": -103, "point": 1.0 },
+              { "name": "Real Salt Lake", "price": -117, "point": -1.0 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:44:50Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:50Z",
+            "outcomes": [
+              { "name": "Atlanta United FC", "price": 480 },
+              { "name": "Real Salt Lake", "price": -183 },
+              { "name": "Draw", "price": 362 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:50Z",
+            "outcomes": [
+              { "name": "Atlanta United FC", "price": -103, "point": 1.0 },
+              { "name": "Real Salt Lake", "price": -117, "point": -1.0 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "208ff36b827a6977983ef7cbe9db54a9",
+    "sport_key": "soccer_usa_mls",
+    "sport_title": "MLS",
+    "commence_time": "2024-07-07T02:30:00Z",
+    "home_team": "Seattle Sounders FC",
+    "away_team": "New England Revolution",
+    "bookmakers": [
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:44:25Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:25Z",
+            "outcomes": [
+              { "name": "New England Revolution", "price": 470 },
+              { "name": "Seattle Sounders FC", "price": -206 },
+              { "name": "Draw", "price": 370 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:25Z",
+            "outcomes": [
+              { "name": "New England Revolution", "price": -159, "point": 1.5 },
+              { "name": "Seattle Sounders FC", "price": 119, "point": -1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2024-07-06T13:44:49Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:49Z",
+            "outcomes": [
+              { "name": "New England Revolution", "price": 475 },
+              { "name": "Seattle Sounders FC", "price": -215 },
+              { "name": "Draw", "price": 355 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "wynnbet",
+        "title": "WynnBET",
+        "last_update": "2024-07-06T13:44:41Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:41Z",
+            "outcomes": [
+              { "name": "New England Revolution", "price": 550 },
+              { "name": "Seattle Sounders FC", "price": -208 },
+              { "name": "Draw", "price": 350 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:41:27Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:41:27Z",
+            "outcomes": [
+              { "name": "New England Revolution", "price": 500 },
+              { "name": "Seattle Sounders FC", "price": -220 },
+              { "name": "Draw", "price": 350 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:43:36Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:36Z",
+            "outcomes": [
+              { "name": "New England Revolution", "price": 500 },
+              { "name": "Seattle Sounders FC", "price": -210 },
+              { "name": "Draw", "price": 350 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:44:10Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:10Z",
+            "outcomes": [
+              { "name": "New England Revolution", "price": 500 },
+              { "name": "Seattle Sounders FC", "price": -205 },
+              { "name": "Draw", "price": 370 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:10Z",
+            "outcomes": [
+              {
+                "name": "New England Revolution",
+                "price": -122,
+                "point": 1.25
+              },
+              { "name": "Seattle Sounders FC", "price": 102, "point": -1.25 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-07-06T13:44:50Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:50Z",
+            "outcomes": [
+              { "name": "New England Revolution", "price": 515 },
+              { "name": "Seattle Sounders FC", "price": -210 },
+              { "name": "Draw", "price": 370 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:50Z",
+            "outcomes": [
+              { "name": "New England Revolution", "price": 100, "point": 1.0 },
+              { "name": "Seattle Sounders FC", "price": -130, "point": -1.0 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:50Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:50Z",
+            "outcomes": [
+              { "name": "New England Revolution", "price": 480 },
+              { "name": "Seattle Sounders FC", "price": -210 },
+              { "name": "Draw", "price": 360 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:44:49Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:49Z",
+            "outcomes": [
+              { "name": "New England Revolution", "price": 475 },
+              { "name": "Seattle Sounders FC", "price": -220 },
+              { "name": "Draw", "price": 350 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2024-07-06T13:41:53Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:41:53Z",
+            "outcomes": [
+              { "name": "New England Revolution", "price": 500 },
+              { "name": "Seattle Sounders FC", "price": -200 },
+              { "name": "Draw", "price": 340 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:44:50Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:50Z",
+            "outcomes": [
+              { "name": "New England Revolution", "price": 525 },
+              { "name": "Seattle Sounders FC", "price": -200 },
+              { "name": "Draw", "price": 380 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:50Z",
+            "outcomes": [
+              {
+                "name": "New England Revolution",
+                "price": -120,
+                "point": 1.25
+              },
+              { "name": "Seattle Sounders FC", "price": 100, "point": -1.25 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T13:44:49Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:49Z",
+            "outcomes": [
+              { "name": "New England Revolution", "price": 525 },
+              { "name": "Seattle Sounders FC", "price": -200 },
+              { "name": "Draw", "price": 380 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:49Z",
+            "outcomes": [
+              {
+                "name": "New England Revolution",
+                "price": -120,
+                "point": 1.25
+              },
+              { "name": "Seattle Sounders FC", "price": 100, "point": -1.25 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "4464105f6714d8fb58fb03b8cb84b9a5",
+    "sport_key": "soccer_usa_mls",
+    "sport_title": "MLS",
+    "commence_time": "2024-07-08T00:30:00Z",
+    "home_team": "San Jose Earthquakes",
+    "away_team": "Chicago Fire",
+    "bookmakers": [
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2024-07-06T13:44:49Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:49Z",
+            "outcomes": [
+              { "name": "Chicago Fire", "price": 195 },
+              { "name": "San Jose Earthquakes", "price": 110 },
+              { "name": "Draw", "price": 275 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:41:27Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:41:27Z",
+            "outcomes": [
+              { "name": "Chicago Fire", "price": 185 },
+              { "name": "San Jose Earthquakes", "price": 115 },
+              { "name": "Draw", "price": 280 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:44:25Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:25Z",
+            "outcomes": [
+              { "name": "Chicago Fire", "price": 200 },
+              { "name": "San Jose Earthquakes", "price": 114 },
+              { "name": "Draw", "price": 285 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:25Z",
+            "outcomes": [
+              { "name": "Chicago Fire", "price": -145, "point": 0.5 },
+              { "name": "San Jose Earthquakes", "price": 109, "point": -0.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "wynnbet",
+        "title": "WynnBET",
+        "last_update": "2024-07-06T13:44:41Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:41Z",
+            "outcomes": [
+              { "name": "Chicago Fire", "price": 195 },
+              { "name": "San Jose Earthquakes", "price": 120 },
+              { "name": "Draw", "price": 285 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:44:10Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:10Z",
+            "outcomes": [
+              { "name": "Chicago Fire", "price": 210 },
+              { "name": "San Jose Earthquakes", "price": 110 },
+              { "name": "Draw", "price": 295 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:10Z",
+            "outcomes": [
+              { "name": "Chicago Fire", "price": -102, "point": 0.25 },
+              { "name": "San Jose Earthquakes", "price": -118, "point": -0.25 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-07-06T13:44:50Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:50Z",
+            "outcomes": [
+              { "name": "Chicago Fire", "price": 210 },
+              { "name": "San Jose Earthquakes", "price": 110 },
+              { "name": "Draw", "price": 295 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:50Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:50Z",
+            "outcomes": [
+              { "name": "Chicago Fire", "price": 200 },
+              { "name": "San Jose Earthquakes", "price": 112 },
+              { "name": "Draw", "price": 285 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:43:36Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:36Z",
+            "outcomes": [
+              { "name": "Chicago Fire", "price": 200 },
+              { "name": "San Jose Earthquakes", "price": 110 },
+              { "name": "Draw", "price": 275 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:44:49Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:49Z",
+            "outcomes": [
+              { "name": "Chicago Fire", "price": 190 },
+              { "name": "San Jose Earthquakes", "price": 110 },
+              { "name": "Draw", "price": 275 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T13:44:49Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:49Z",
+            "outcomes": [
+              { "name": "Chicago Fire", "price": 205 },
+              { "name": "San Jose Earthquakes", "price": 120 },
+              { "name": "Draw", "price": 295 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:49Z",
+            "outcomes": [
+              { "name": "Chicago Fire", "price": -110, "point": 0.25 },
+              { "name": "San Jose Earthquakes", "price": -110, "point": -0.25 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:44:50Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:50Z",
+            "outcomes": [
+              { "name": "Chicago Fire", "price": 205 },
+              { "name": "San Jose Earthquakes", "price": 120 },
+              { "name": "Draw", "price": 295 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:50Z",
+            "outcomes": [
+              { "name": "Chicago Fire", "price": -110, "point": 0.25 },
+              { "name": "San Jose Earthquakes", "price": -110, "point": -0.25 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2024-07-06T13:41:53Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:41:53Z",
+            "outcomes": [
+              { "name": "Chicago Fire", "price": 200 },
+              { "name": "San Jose Earthquakes", "price": 115 },
+              { "name": "Draw", "price": 280 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "9dc1f10cf2be885f246388974cbaa3ab",
+    "sport_key": "soccer_usa_mls",
+    "sport_title": "MLS",
+    "commence_time": "2024-07-08T00:30:00Z",
+    "home_team": "Sporting Kansas City",
+    "away_team": "FC Dallas",
+    "bookmakers": [
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2024-07-06T13:44:49Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:49Z",
+            "outcomes": [
+              { "name": "FC Dallas", "price": 270 },
+              { "name": "Sporting Kansas City", "price": -120 },
+              { "name": "Draw", "price": 275 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:44:25Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:25Z",
+            "outcomes": [
+              { "name": "FC Dallas", "price": 275 },
+              { "name": "Sporting Kansas City", "price": -114 },
+              { "name": "Draw", "price": 280 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:25Z",
+            "outcomes": [
+              { "name": "FC Dallas", "price": -111, "point": 0.5 },
+              { "name": "Sporting Kansas City", "price": -119, "point": -0.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "wynnbet",
+        "title": "WynnBET",
+        "last_update": "2024-07-06T13:44:41Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:41Z",
+            "outcomes": [
+              { "name": "FC Dallas", "price": 300 },
+              { "name": "Sporting Kansas City", "price": -118 },
+              { "name": "Draw", "price": 285 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:41:27Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:41:27Z",
+            "outcomes": [
+              { "name": "FC Dallas", "price": 290 },
+              { "name": "Sporting Kansas City", "price": -125 },
+              { "name": "Draw", "price": 290 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:43:36Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:36Z",
+            "outcomes": [
+              { "name": "FC Dallas", "price": 270 },
+              { "name": "Sporting Kansas City", "price": -120 },
+              { "name": "Draw", "price": 280 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:44:10Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:10Z",
+            "outcomes": [
+              { "name": "FC Dallas", "price": 275 },
+              { "name": "Sporting Kansas City", "price": -115 },
+              { "name": "Draw", "price": 295 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:10Z",
+            "outcomes": [
+              { "name": "FC Dallas", "price": -108, "point": 0.5 },
+              { "name": "Sporting Kansas City", "price": -112, "point": -0.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-07-06T13:44:50Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:50Z",
+            "outcomes": [
+              { "name": "FC Dallas", "price": 275 },
+              { "name": "Sporting Kansas City", "price": -115 },
+              { "name": "Draw", "price": 295 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:50Z",
+            "outcomes": [
+              { "name": "FC Dallas", "price": -115, "point": 0.5 },
+              { "name": "Sporting Kansas City", "price": -112, "point": -0.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:50Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:50Z",
+            "outcomes": [
+              { "name": "FC Dallas", "price": 300 },
+              { "name": "Sporting Kansas City", "price": -120 },
+              { "name": "Draw", "price": 270 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:44:49Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:49Z",
+            "outcomes": [
+              { "name": "FC Dallas", "price": 280 },
+              { "name": "Sporting Kansas City", "price": -125 },
+              { "name": "Draw", "price": 285 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:44:50Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:50Z",
+            "outcomes": [
+              { "name": "FC Dallas", "price": 310 },
+              { "name": "Sporting Kansas City", "price": -120 },
+              { "name": "Draw", "price": 305 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:50Z",
+            "outcomes": [
+              { "name": "FC Dallas", "price": -120, "point": 0.75 },
+              { "name": "Sporting Kansas City", "price": 100, "point": -0.75 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T13:44:49Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:49Z",
+            "outcomes": [
+              { "name": "FC Dallas", "price": 310 },
+              { "name": "Sporting Kansas City", "price": -120 },
+              { "name": "Draw", "price": 305 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:49Z",
+            "outcomes": [
+              { "name": "FC Dallas", "price": -120, "point": 0.75 },
+              { "name": "Sporting Kansas City", "price": 100, "point": -0.75 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2024-07-06T13:41:53Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:41:53Z",
+            "outcomes": [
+              { "name": "FC Dallas", "price": 280 },
+              { "name": "Sporting Kansas City", "price": -110 },
+              { "name": "Draw", "price": 270 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "487ef7ef6723431bc19009970eba3595",
+    "sport_key": "soccer_usa_mls",
+    "sport_title": "MLS",
+    "commence_time": "2024-07-08T00:30:00Z",
+    "home_team": "Houston Dynamo",
+    "away_team": "Los Angeles FC",
+    "bookmakers": [
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2024-07-06T13:44:49Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:49Z",
+            "outcomes": [
+              { "name": "Houston Dynamo", "price": 165 },
+              { "name": "Los Angeles FC", "price": 140 },
+              { "name": "Draw", "price": 245 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "wynnbet",
+        "title": "WynnBET",
+        "last_update": "2024-07-06T13:44:41Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:41Z",
+            "outcomes": [
+              { "name": "Houston Dynamo", "price": 180 },
+              { "name": "Los Angeles FC", "price": 145 },
+              { "name": "Draw", "price": 250 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:41:27Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:41:27Z",
+            "outcomes": [
+              { "name": "Houston Dynamo", "price": 175 },
+              { "name": "Los Angeles FC", "price": 140 },
+              { "name": "Draw", "price": 240 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:44:25Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:25Z",
+            "outcomes": [
+              { "name": "Houston Dynamo", "price": 171 },
+              { "name": "Los Angeles FC", "price": 146 },
+              { "name": "Draw", "price": 250 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:25Z",
+            "outcomes": [
+              { "name": "Houston Dynamo", "price": -185, "point": 0.5 },
+              { "name": "Los Angeles FC", "price": 138, "point": -0.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:43:36Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:36Z",
+            "outcomes": [
+              { "name": "Houston Dynamo", "price": 165 },
+              { "name": "Los Angeles FC", "price": 145 },
+              { "name": "Draw", "price": 250 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:44:10Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:10Z",
+            "outcomes": [
+              { "name": "Houston Dynamo", "price": 170 },
+              { "name": "Los Angeles FC", "price": 145 },
+              { "name": "Draw", "price": 260 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:10Z",
+            "outcomes": [
+              { "name": "Houston Dynamo", "price": 100, "point": 0.0 },
+              { "name": "Los Angeles FC", "price": -120, "point": 0.0 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-07-06T13:44:50Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:50Z",
+            "outcomes": [
+              { "name": "Houston Dynamo", "price": 170 },
+              { "name": "Los Angeles FC", "price": 145 },
+              { "name": "Draw", "price": 260 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:50Z",
+            "outcomes": [
+              { "name": "Houston Dynamo", "price": -110, "point": 0.0 },
+              { "name": "Los Angeles FC", "price": -120, "point": 0.0 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:50Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:50Z",
+            "outcomes": [
+              { "name": "Houston Dynamo", "price": 170 },
+              { "name": "Los Angeles FC", "price": 143 },
+              { "name": "Draw", "price": 255 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:44:49Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:49Z",
+            "outcomes": [
+              { "name": "Houston Dynamo", "price": 170 },
+              { "name": "Los Angeles FC", "price": 140 },
+              { "name": "Draw", "price": 240 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T13:44:49Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:49Z",
+            "outcomes": [
+              { "name": "Houston Dynamo", "price": 182 },
+              { "name": "Los Angeles FC", "price": 147 },
+              { "name": "Draw", "price": 264 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:49Z",
+            "outcomes": [
+              { "name": "Houston Dynamo", "price": 105, "point": 0.0 },
+              { "name": "Los Angeles FC", "price": -125, "point": 0.0 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:44:50Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:50Z",
+            "outcomes": [
+              { "name": "Houston Dynamo", "price": 182 },
+              { "name": "Los Angeles FC", "price": 147 },
+              { "name": "Draw", "price": 264 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:50Z",
+            "outcomes": [
+              { "name": "Houston Dynamo", "price": 105, "point": 0.0 },
+              { "name": "Los Angeles FC", "price": -125, "point": 0.0 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2024-07-06T13:41:53Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:41:53Z",
+            "outcomes": [
+              { "name": "Houston Dynamo", "price": 175 },
+              { "name": "Los Angeles FC", "price": 145 },
+              { "name": "Draw", "price": 250 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "5d9d5f6705ae987344e866706de68cd5",
+    "sport_key": "soccer_usa_mls",
+    "sport_title": "MLS",
+    "commence_time": "2024-07-08T01:30:00Z",
+    "home_team": "Colorado Rapids",
+    "away_team": "St. Louis City SC",
+    "bookmakers": [
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2024-07-06T13:44:49Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:49Z",
+            "outcomes": [
+              { "name": "Colorado Rapids", "price": -135 },
+              { "name": "St. Louis City SC", "price": 295 },
+              { "name": "Draw", "price": 290 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:41:27Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:41:27Z",
+            "outcomes": [
+              { "name": "Colorado Rapids", "price": -135 },
+              { "name": "St. Louis City SC", "price": 300 },
+              { "name": "Draw", "price": 300 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "wynnbet",
+        "title": "WynnBET",
+        "last_update": "2024-07-06T13:44:41Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:41Z",
+            "outcomes": [
+              { "name": "Colorado Rapids", "price": -125 },
+              { "name": "St. Louis City SC", "price": 300 },
+              { "name": "Draw", "price": 300 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:44:25Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:25Z",
+            "outcomes": [
+              { "name": "Colorado Rapids", "price": -129 },
+              { "name": "St. Louis City SC", "price": 300 },
+              { "name": "Draw", "price": 300 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:25Z",
+            "outcomes": [
+              { "name": "Colorado Rapids", "price": -135, "point": -0.5 },
+              { "name": "St. Louis City SC", "price": 101, "point": 0.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:43:36Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:36Z",
+            "outcomes": [
+              { "name": "Colorado Rapids", "price": -130 },
+              { "name": "St. Louis City SC", "price": 290 },
+              { "name": "Draw", "price": 300 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:44:10Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:10Z",
+            "outcomes": [
+              { "name": "Colorado Rapids", "price": -130 },
+              { "name": "St. Louis City SC", "price": 310 },
+              { "name": "Draw", "price": 310 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:10Z",
+            "outcomes": [
+              { "name": "Colorado Rapids", "price": -102, "point": -0.75 },
+              { "name": "St. Louis City SC", "price": -118, "point": 0.75 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-07-06T13:44:50Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:50Z",
+            "outcomes": [
+              { "name": "Colorado Rapids", "price": -130 },
+              { "name": "St. Louis City SC", "price": 315 },
+              { "name": "Draw", "price": 305 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:50Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:50Z",
+            "outcomes": [
+              { "name": "Colorado Rapids", "price": -141 },
+              { "name": "St. Louis City SC", "price": 335 },
+              { "name": "Draw", "price": 300 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:44:49Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:49Z",
+            "outcomes": [
+              { "name": "Colorado Rapids", "price": -135 },
+              { "name": "St. Louis City SC", "price": 300 },
+              { "name": "Draw", "price": 295 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:44:50Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:50Z",
+            "outcomes": [
+              { "name": "Colorado Rapids", "price": -130 },
+              { "name": "St. Louis City SC", "price": 331 },
+              { "name": "Draw", "price": 320 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:50Z",
+            "outcomes": [
+              { "name": "Colorado Rapids", "price": -102, "point": -0.75 },
+              { "name": "St. Louis City SC", "price": -118, "point": 0.75 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T13:44:49Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:49Z",
+            "outcomes": [
+              { "name": "Colorado Rapids", "price": -130 },
+              { "name": "St. Louis City SC", "price": 331 },
+              { "name": "Draw", "price": 320 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:49Z",
+            "outcomes": [
+              { "name": "Colorado Rapids", "price": -102, "point": -0.75 },
+              { "name": "St. Louis City SC", "price": -118, "point": 0.75 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2024-07-06T13:41:53Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:41:53Z",
+            "outcomes": [
+              { "name": "Colorado Rapids", "price": -125 },
+              { "name": "St. Louis City SC", "price": 300 },
+              { "name": "Draw", "price": 300 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "de7b915a61a9c24475025e491ccba7f7",
+    "sport_key": "soccer_usa_mls",
+    "sport_title": "MLS",
+    "commence_time": "2024-07-08T02:30:00Z",
+    "home_team": "LA Galaxy",
+    "away_team": "Minnesota United FC",
+    "bookmakers": [
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2024-07-06T13:44:49Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:49Z",
+            "outcomes": [
+              { "name": "LA Galaxy", "price": -165 },
+              { "name": "Minnesota United FC", "price": 355 },
+              { "name": "Draw", "price": 330 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "wynnbet",
+        "title": "WynnBET",
+        "last_update": "2024-07-06T13:44:41Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:41Z",
+            "outcomes": [
+              { "name": "LA Galaxy", "price": -161 },
+              { "name": "Minnesota United FC", "price": 400 },
+              { "name": "Draw", "price": 330 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:41:27Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:41:27Z",
+            "outcomes": [
+              { "name": "LA Galaxy", "price": -175 },
+              { "name": "Minnesota United FC", "price": 400 },
+              { "name": "Draw", "price": 320 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:43:36Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:36Z",
+            "outcomes": [
+              { "name": "LA Galaxy", "price": -165 },
+              { "name": "Minnesota United FC", "price": 350 },
+              { "name": "Draw", "price": 340 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:44:25Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:25Z",
+            "outcomes": [
+              { "name": "LA Galaxy", "price": -162 },
+              { "name": "Minnesota United FC", "price": 370 },
+              { "name": "Draw", "price": 340 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:25Z",
+            "outcomes": [
+              { "name": "LA Galaxy", "price": -169, "point": -0.5 },
+              { "name": "Minnesota United FC", "price": 126, "point": 0.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:44:10Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:10Z",
+            "outcomes": [
+              { "name": "LA Galaxy", "price": -160 },
+              { "name": "Minnesota United FC", "price": 370 },
+              { "name": "Draw", "price": 350 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:10Z",
+            "outcomes": [
+              { "name": "LA Galaxy", "price": -102, "point": -1.0 },
+              { "name": "Minnesota United FC", "price": -118, "point": 1.0 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-07-06T13:44:50Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:50Z",
+            "outcomes": [
+              { "name": "LA Galaxy", "price": -160 },
+              { "name": "Minnesota United FC", "price": 370 },
+              { "name": "Draw", "price": 350 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:50Z",
+            "outcomes": [
+              { "name": "LA Galaxy", "price": -112, "point": -1.0 },
+              { "name": "Minnesota United FC", "price": -118, "point": 1.0 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:50Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:50Z",
+            "outcomes": [
+              { "name": "LA Galaxy", "price": -155 },
+              { "name": "Minnesota United FC", "price": 360 },
+              { "name": "Draw", "price": 320 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:44:49Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:49Z",
+            "outcomes": [
+              { "name": "LA Galaxy", "price": -170 },
+              { "name": "Minnesota United FC", "price": 360 },
+              { "name": "Draw", "price": 340 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:44:50Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:50Z",
+            "outcomes": [
+              { "name": "LA Galaxy", "price": -160 },
+              { "name": "Minnesota United FC", "price": 400 },
+              { "name": "Draw", "price": 355 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:50Z",
+            "outcomes": [
+              { "name": "LA Galaxy", "price": -104, "point": -1.0 },
+              { "name": "Minnesota United FC", "price": -116, "point": 1.0 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T13:44:49Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:49Z",
+            "outcomes": [
+              { "name": "LA Galaxy", "price": -160 },
+              { "name": "Minnesota United FC", "price": 400 },
+              { "name": "Draw", "price": 355 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:49Z",
+            "outcomes": [
+              { "name": "LA Galaxy", "price": -104, "point": -1.0 },
+              { "name": "Minnesota United FC", "price": -116, "point": 1.0 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2024-07-06T13:41:53Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:41:53Z",
+            "outcomes": [
+              { "name": "LA Galaxy", "price": -160 },
+              { "name": "Minnesota United FC", "price": 360 },
+              { "name": "Draw", "price": 340 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "0aec55e1c7ead5d0903367ca8e14814c",
+    "sport_key": "soccer_usa_mls",
+    "sport_title": "MLS",
+    "commence_time": "2024-07-08T02:30:00Z",
+    "home_team": "Portland Timbers",
+    "away_team": "Nashville SC",
+    "bookmakers": [
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2024-07-06T13:44:49Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:49Z",
+            "outcomes": [
+              { "name": "Nashville SC", "price": 305 },
+              { "name": "Portland Timbers", "price": -130 },
+              { "name": "Draw", "price": 270 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "wynnbet",
+        "title": "WynnBET",
+        "last_update": "2024-07-06T13:44:41Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:41Z",
+            "outcomes": [
+              { "name": "Nashville SC", "price": 320 },
+              { "name": "Portland Timbers", "price": -118 },
+              { "name": "Draw", "price": 275 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:41:27Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:41:27Z",
+            "outcomes": [
+              { "name": "Nashville SC", "price": 320 },
+              { "name": "Portland Timbers", "price": -130 },
+              { "name": "Draw", "price": 270 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:43:36Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:36Z",
+            "outcomes": [
+              { "name": "Nashville SC", "price": 300 },
+              { "name": "Portland Timbers", "price": -125 },
+              { "name": "Draw", "price": 280 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:44:25Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:25Z",
+            "outcomes": [
+              { "name": "Nashville SC", "price": 310 },
+              { "name": "Portland Timbers", "price": -124 },
+              { "name": "Draw", "price": 280 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:25Z",
+            "outcomes": [
+              { "name": "Nashville SC", "price": -102, "point": 0.5 },
+              { "name": "Portland Timbers", "price": -130, "point": -0.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:44:10Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:10Z",
+            "outcomes": [
+              { "name": "Nashville SC", "price": 310 },
+              { "name": "Portland Timbers", "price": -125 },
+              { "name": "Draw", "price": 290 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:10Z",
+            "outcomes": [
+              { "name": "Nashville SC", "price": 100, "point": 0.5 },
+              { "name": "Portland Timbers", "price": -120, "point": -0.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-07-06T13:44:50Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:50Z",
+            "outcomes": [
+              { "name": "Nashville SC", "price": 310 },
+              { "name": "Portland Timbers", "price": -125 },
+              { "name": "Draw", "price": 290 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:50Z",
+            "outcomes": [
+              { "name": "Nashville SC", "price": -110, "point": 0.5 },
+              { "name": "Portland Timbers", "price": -120, "point": -0.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:50Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:50Z",
+            "outcomes": [
+              { "name": "Nashville SC", "price": 310 },
+              { "name": "Portland Timbers", "price": -124 },
+              { "name": "Draw", "price": 265 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:44:49Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:49Z",
+            "outcomes": [
+              { "name": "Nashville SC", "price": 310 },
+              { "name": "Portland Timbers", "price": -130 },
+              { "name": "Draw", "price": 270 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:44:50Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:50Z",
+            "outcomes": [
+              { "name": "Nashville SC", "price": 327 },
+              { "name": "Portland Timbers", "price": -120 },
+              { "name": "Draw", "price": 290 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:50Z",
+            "outcomes": [
+              { "name": "Nashville SC", "price": 100, "point": 0.5 },
+              { "name": "Portland Timbers", "price": -120, "point": -0.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T13:44:49Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:49Z",
+            "outcomes": [
+              { "name": "Nashville SC", "price": 327 },
+              { "name": "Portland Timbers", "price": -120 },
+              { "name": "Draw", "price": 290 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:49Z",
+            "outcomes": [
+              { "name": "Nashville SC", "price": 100, "point": 0.5 },
+              { "name": "Portland Timbers", "price": -120, "point": -0.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2024-07-06T13:41:53Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:41:53Z",
+            "outcomes": [
+              { "name": "Nashville SC", "price": 320 },
+              { "name": "Portland Timbers", "price": -125 },
+              { "name": "Draw", "price": 270 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "7bf9a3712d69b88e3317fb4373776919",
+    "sport_key": "soccer_usa_mls",
+    "sport_title": "MLS",
+    "commence_time": "2024-07-13T23:30:00Z",
+    "home_team": "Montreal Impact",
+    "away_team": "Atlanta United FC",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:41:27Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:41:27Z",
+            "outcomes": [
+              { "name": "Atlanta United FC", "price": 200 },
+              { "name": "Montreal Impact", "price": 120 },
+              { "name": "Draw", "price": 250 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2024-07-06T13:44:49Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:49Z",
+            "outcomes": [
+              { "name": "Atlanta United FC", "price": 195 },
+              { "name": "Montreal Impact", "price": 120 },
+              { "name": "Draw", "price": 245 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:44:10Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:10Z",
+            "outcomes": [
+              { "name": "Atlanta United FC", "price": 205 },
+              { "name": "Montreal Impact", "price": 125 },
+              { "name": "Draw", "price": 260 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:10Z",
+            "outcomes": [
+              { "name": "Atlanta United FC", "price": -115, "point": 0.25 },
+              { "name": "Montreal Impact", "price": -105, "point": -0.25 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-07-06T13:44:50Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:50Z",
+            "outcomes": [
+              { "name": "Atlanta United FC", "price": 205 },
+              { "name": "Montreal Impact", "price": 125 },
+              { "name": "Draw", "price": 260 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:43:36Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:36Z",
+            "outcomes": [
+              { "name": "Atlanta United FC", "price": 200 },
+              { "name": "Montreal Impact", "price": 125 },
+              { "name": "Draw", "price": 240 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "19a26926fc229a085ebf7ce1397c2337",
+    "sport_key": "soccer_usa_mls",
+    "sport_title": "MLS",
+    "commence_time": "2024-07-13T23:30:00Z",
+    "home_team": "FC Cincinnati",
+    "away_team": "Charlotte FC",
+    "bookmakers": [
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2024-07-06T13:44:49Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:49Z",
+            "outcomes": [
+              { "name": "Charlotte FC", "price": 390 },
+              { "name": "FC Cincinnati", "price": -170 },
+              { "name": "Draw", "price": 310 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:41:27Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:41:27Z",
+            "outcomes": [
+              { "name": "Charlotte FC", "price": 420 },
+              { "name": "FC Cincinnati", "price": -175 },
+              { "name": "Draw", "price": 320 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:44:10Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:10Z",
+            "outcomes": [
+              { "name": "Charlotte FC", "price": 400 },
+              { "name": "FC Cincinnati", "price": -165 },
+              { "name": "Draw", "price": 340 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:10Z",
+            "outcomes": [
+              { "name": "Charlotte FC", "price": -118, "point": 1.0 },
+              { "name": "FC Cincinnati", "price": -102, "point": -1.0 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-07-06T13:44:50Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:50Z",
+            "outcomes": [
+              { "name": "Charlotte FC", "price": 400 },
+              { "name": "FC Cincinnati", "price": -165 },
+              { "name": "Draw", "price": 340 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:50Z",
+            "outcomes": [
+              { "name": "Charlotte FC", "price": -118, "point": 1.0 },
+              { "name": "FC Cincinnati", "price": -112, "point": -1.0 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:43:36Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:36Z",
+            "outcomes": [
+              { "name": "Charlotte FC", "price": 380 },
+              { "name": "FC Cincinnati", "price": -165 },
+              { "name": "Draw", "price": 320 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "556ad1eff4759e1eb213fe55e96d04d9",
+    "sport_key": "soccer_usa_mls",
+    "sport_title": "MLS",
+    "commence_time": "2024-07-13T23:30:00Z",
+    "home_team": "D.C. United",
+    "away_team": "Nashville SC",
+    "bookmakers": [
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2024-07-06T13:44:49Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:49Z",
+            "outcomes": [
+              { "name": "D.C. United", "price": 100 },
+              { "name": "Nashville SC", "price": 235 },
+              { "name": "Draw", "price": 245 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:41:27Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:41:27Z",
+            "outcomes": [
+              { "name": "D.C. United", "price": 105 },
+              { "name": "Nashville SC", "price": 240 },
+              { "name": "Draw", "price": 230 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:44:10Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:10Z",
+            "outcomes": [
+              { "name": "D.C. United", "price": 105 },
+              { "name": "Nashville SC", "price": 245 },
+              { "name": "Draw", "price": 265 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:10Z",
+            "outcomes": [
+              { "name": "D.C. United", "price": -125, "point": -0.25 },
+              { "name": "Nashville SC", "price": 105, "point": 0.25 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-07-06T13:44:50Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:50Z",
+            "outcomes": [
+              { "name": "D.C. United", "price": 105 },
+              { "name": "Nashville SC", "price": 245 },
+              { "name": "Draw", "price": 265 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:43:36Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:36Z",
+            "outcomes": [
+              { "name": "D.C. United", "price": 105 },
+              { "name": "Nashville SC", "price": 240 },
+              { "name": "Draw", "price": 240 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "e062af9ce8677d75cf343be9ceccd693",
+    "sport_key": "soccer_usa_mls",
+    "sport_title": "MLS",
+    "commence_time": "2024-07-13T23:30:00Z",
+    "home_team": "New England Revolution",
+    "away_team": "Orlando City SC",
+    "bookmakers": [
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2024-07-06T13:44:49Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:49Z",
+            "outcomes": [
+              { "name": "New England Revolution", "price": 100 },
+              { "name": "Orlando City SC", "price": 230 },
+              { "name": "Draw", "price": 250 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:41:27Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:41:27Z",
+            "outcomes": [
+              { "name": "New England Revolution", "price": 100 },
+              { "name": "Orlando City SC", "price": 230 },
+              { "name": "Draw", "price": 260 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:44:10Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:10Z",
+            "outcomes": [
+              { "name": "New England Revolution", "price": 105 },
+              { "name": "Orlando City SC", "price": 240 },
+              { "name": "Draw", "price": 270 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:10Z",
+            "outcomes": [
+              {
+                "name": "New England Revolution",
+                "price": -125,
+                "point": -0.25
+              },
+              { "name": "Orlando City SC", "price": 105, "point": 0.25 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-07-06T13:44:50Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:50Z",
+            "outcomes": [
+              { "name": "New England Revolution", "price": 105 },
+              { "name": "Orlando City SC", "price": 240 },
+              { "name": "Draw", "price": 270 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:43:36Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:36Z",
+            "outcomes": [
+              { "name": "New England Revolution", "price": 105 },
+              { "name": "Orlando City SC", "price": 230 },
+              { "name": "Draw", "price": 250 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "0e46365b199fc07a7ad32e592853d898",
+    "sport_key": "soccer_usa_mls",
+    "sport_title": "MLS",
+    "commence_time": "2024-07-13T23:30:00Z",
+    "home_team": "Toronto FC",
+    "away_team": "Philadelphia Union",
+    "bookmakers": [
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2024-07-06T13:44:49Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:49Z",
+            "outcomes": [
+              { "name": "Philadelphia Union", "price": 235 },
+              { "name": "Toronto FC", "price": -105 },
+              { "name": "Draw", "price": 265 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:41:27Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:41:27Z",
+            "outcomes": [
+              { "name": "Philadelphia Union", "price": 250 },
+              { "name": "Toronto FC", "price": -110 },
+              { "name": "Draw", "price": 270 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:44:10Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:10Z",
+            "outcomes": [
+              { "name": "Philadelphia Union", "price": 240 },
+              { "name": "Toronto FC", "price": 100 },
+              { "name": "Draw", "price": 285 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:10Z",
+            "outcomes": [
+              { "name": "Philadelphia Union", "price": -122, "point": 0.5 },
+              { "name": "Toronto FC", "price": 102, "point": -0.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-07-06T13:44:50Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:50Z",
+            "outcomes": [
+              { "name": "Philadelphia Union", "price": 240 },
+              { "name": "Toronto FC", "price": 100 },
+              { "name": "Draw", "price": 285 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:50Z",
+            "outcomes": [
+              { "name": "Philadelphia Union", "price": -122, "point": 0.5 },
+              { "name": "Toronto FC", "price": -108, "point": -0.5 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "929f20bfc98b027fd5bfd4bc5c064d61",
+    "sport_key": "soccer_usa_mls",
+    "sport_title": "MLS",
+    "commence_time": "2024-07-14T00:30:00Z",
+    "home_team": "Austin FC",
+    "away_team": "Seattle Sounders FC",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:41:27Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:41:27Z",
+            "outcomes": [
+              { "name": "Austin FC", "price": 140 },
+              { "name": "Seattle Sounders FC", "price": 175 },
+              { "name": "Draw", "price": 250 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2024-07-06T13:44:49Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:49Z",
+            "outcomes": [
+              { "name": "Austin FC", "price": 135 },
+              { "name": "Seattle Sounders FC", "price": 165 },
+              { "name": "Draw", "price": 255 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:44:10Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:10Z",
+            "outcomes": [
+              { "name": "Austin FC", "price": 140 },
+              { "name": "Seattle Sounders FC", "price": 170 },
+              { "name": "Draw", "price": 270 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:10Z",
+            "outcomes": [
+              { "name": "Austin FC", "price": -122, "point": 0.0 },
+              { "name": "Seattle Sounders FC", "price": 102, "point": 0.0 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-07-06T13:44:50Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:50Z",
+            "outcomes": [
+              { "name": "Austin FC", "price": 140 },
+              { "name": "Seattle Sounders FC", "price": 170 },
+              { "name": "Draw", "price": 270 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:50Z",
+            "outcomes": [
+              { "name": "Austin FC", "price": -122, "point": 0.0 },
+              { "name": "Seattle Sounders FC", "price": -108, "point": 0.0 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:43:36Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:36Z",
+            "outcomes": [
+              { "name": "Austin FC", "price": 140 },
+              { "name": "Seattle Sounders FC", "price": 165 },
+              { "name": "Draw", "price": 250 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "f7b1b48596a20709a3e059c3e8e4bb5d",
+    "sport_key": "soccer_usa_mls",
+    "sport_title": "MLS",
+    "commence_time": "2024-07-14T00:30:00Z",
+    "home_team": "Chicago Fire",
+    "away_team": "New York City FC",
+    "bookmakers": [
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2024-07-06T13:44:49Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:49Z",
+            "outcomes": [
+              { "name": "Chicago Fire", "price": 135 },
+              { "name": "New York City FC", "price": 180 },
+              { "name": "Draw", "price": 235 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:41:27Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:41:27Z",
+            "outcomes": [
+              { "name": "Chicago Fire", "price": 130 },
+              { "name": "New York City FC", "price": 190 },
+              { "name": "Draw", "price": 240 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:44:10Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:10Z",
+            "outcomes": [
+              { "name": "Chicago Fire", "price": 140 },
+              { "name": "New York City FC", "price": 190 },
+              { "name": "Draw", "price": 255 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:10Z",
+            "outcomes": [
+              { "name": "Chicago Fire", "price": 105, "point": -0.25 },
+              { "name": "New York City FC", "price": -125, "point": 0.25 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-07-06T13:44:50Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:50Z",
+            "outcomes": [
+              { "name": "Chicago Fire", "price": 140 },
+              { "name": "New York City FC", "price": 190 },
+              { "name": "Draw", "price": 255 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:43:36Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:36Z",
+            "outcomes": [
+              { "name": "Chicago Fire", "price": 135 },
+              { "name": "New York City FC", "price": 185 },
+              { "name": "Draw", "price": 240 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "89e12435a93e1745f13e2e2340bf581e",
+    "sport_key": "soccer_usa_mls",
+    "sport_title": "MLS",
+    "commence_time": "2024-07-14T00:30:00Z",
+    "home_team": "FC Dallas",
+    "away_team": "LA Galaxy",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:41:27Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:41:27Z",
+            "outcomes": [
+              { "name": "FC Dallas", "price": 130 },
+              { "name": "LA Galaxy", "price": 190 },
+              { "name": "Draw", "price": 250 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2024-07-06T13:44:49Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:49Z",
+            "outcomes": [
+              { "name": "FC Dallas", "price": 125 },
+              { "name": "LA Galaxy", "price": 185 },
+              { "name": "Draw", "price": 245 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:44:10Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:10Z",
+            "outcomes": [
+              { "name": "FC Dallas", "price": 130 },
+              { "name": "LA Galaxy", "price": 190 },
+              { "name": "Draw", "price": 265 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:10Z",
+            "outcomes": [
+              { "name": "FC Dallas", "price": 102, "point": -0.25 },
+              { "name": "LA Galaxy", "price": -122, "point": 0.25 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-07-06T13:44:50Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:50Z",
+            "outcomes": [
+              { "name": "FC Dallas", "price": 130 },
+              { "name": "LA Galaxy", "price": 190 },
+              { "name": "Draw", "price": 265 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "07dc2638a0ae2d24bfd7357ada8d94d2",
+    "sport_key": "soccer_usa_mls",
+    "sport_title": "MLS",
+    "commence_time": "2024-07-14T00:30:00Z",
+    "home_team": "Houston Dynamo",
+    "away_team": "Minnesota United FC",
+    "bookmakers": [
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2024-07-06T13:44:49Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:49Z",
+            "outcomes": [
+              { "name": "Houston Dynamo", "price": -125 },
+              { "name": "Minnesota United FC", "price": 290 },
+              { "name": "Draw", "price": 265 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:41:27Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:41:27Z",
+            "outcomes": [
+              { "name": "Houston Dynamo", "price": -125 },
+              { "name": "Minnesota United FC", "price": 300 },
+              { "name": "Draw", "price": 280 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:44:10Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:10Z",
+            "outcomes": [
+              { "name": "Houston Dynamo", "price": -120 },
+              { "name": "Minnesota United FC", "price": 300 },
+              { "name": "Draw", "price": 285 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:10Z",
+            "outcomes": [
+              { "name": "Houston Dynamo", "price": -115, "point": -0.5 },
+              { "name": "Minnesota United FC", "price": -105, "point": 0.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-07-06T13:44:50Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:50Z",
+            "outcomes": [
+              { "name": "Houston Dynamo", "price": -120 },
+              { "name": "Minnesota United FC", "price": 300 },
+              { "name": "Draw", "price": 285 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:50Z",
+            "outcomes": [
+              { "name": "Houston Dynamo", "price": -115, "point": -0.5 },
+              { "name": "Minnesota United FC", "price": -115, "point": 0.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:43:36Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:36Z",
+            "outcomes": [
+              { "name": "Houston Dynamo", "price": -120 },
+              { "name": "Minnesota United FC", "price": 290 },
+              { "name": "Draw", "price": 270 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "7f8ef0358738e752baab2bf2e5574ab0",
+    "sport_key": "soccer_usa_mls",
+    "sport_title": "MLS",
+    "commence_time": "2024-07-14T00:30:00Z",
+    "home_team": "St. Louis City SC",
+    "away_team": "Vancouver Whitecaps FC",
+    "bookmakers": [
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2024-07-06T13:44:49Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:49Z",
+            "outcomes": [
+              { "name": "St. Louis City SC", "price": 100 },
+              { "name": "Vancouver Whitecaps FC", "price": 240 },
+              { "name": "Draw", "price": 245 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:41:27Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:41:27Z",
+            "outcomes": [
+              { "name": "St. Louis City SC", "price": 105 },
+              { "name": "Vancouver Whitecaps FC", "price": 230 },
+              { "name": "Draw", "price": 250 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:44:10Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:10Z",
+            "outcomes": [
+              { "name": "St. Louis City SC", "price": 105 },
+              { "name": "Vancouver Whitecaps FC", "price": 250 },
+              { "name": "Draw", "price": 260 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:10Z",
+            "outcomes": [
+              { "name": "St. Louis City SC", "price": -125, "point": -0.25 },
+              { "name": "Vancouver Whitecaps FC", "price": 105, "point": 0.25 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-07-06T13:44:50Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:50Z",
+            "outcomes": [
+              { "name": "St. Louis City SC", "price": 103 },
+              { "name": "Vancouver Whitecaps FC", "price": 240 },
+              { "name": "Draw", "price": 255 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:43:36Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:36Z",
+            "outcomes": [
+              { "name": "St. Louis City SC", "price": 105 },
+              { "name": "Vancouver Whitecaps FC", "price": 240 },
+              { "name": "Draw", "price": 250 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2f4146e86f40e62303df40b52ccf6903",
+    "sport_key": "soccer_usa_mls",
+    "sport_title": "MLS",
+    "commence_time": "2024-07-14T01:30:00Z",
+    "home_team": "Colorado Rapids",
+    "away_team": "New York Red Bulls",
+    "bookmakers": [
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2024-07-06T13:44:49Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:49Z",
+            "outcomes": [
+              { "name": "Colorado Rapids", "price": 100 },
+              { "name": "New York Red Bulls", "price": 230 },
+              { "name": "Draw", "price": 250 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:41:27Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:41:27Z",
+            "outcomes": [
+              { "name": "Colorado Rapids", "price": 100 },
+              { "name": "New York Red Bulls", "price": 230 },
+              { "name": "Draw", "price": 260 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:44:10Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:10Z",
+            "outcomes": [
+              { "name": "Colorado Rapids", "price": 105 },
+              { "name": "New York Red Bulls", "price": 240 },
+              { "name": "Draw", "price": 270 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:10Z",
+            "outcomes": [
+              { "name": "Colorado Rapids", "price": -125, "point": -0.25 },
+              { "name": "New York Red Bulls", "price": 105, "point": 0.25 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-07-06T13:44:50Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:50Z",
+            "outcomes": [
+              { "name": "Colorado Rapids", "price": 105 },
+              { "name": "New York Red Bulls", "price": 240 },
+              { "name": "Draw", "price": 270 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:43:36Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:36Z",
+            "outcomes": [
+              { "name": "Colorado Rapids", "price": 105 },
+              { "name": "New York Red Bulls", "price": 230 },
+              { "name": "Draw", "price": 250 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "37c8ab467aad885ba56827b7ac42cb58",
+    "sport_key": "soccer_usa_mls",
+    "sport_title": "MLS",
+    "commence_time": "2024-07-14T02:30:00Z",
+    "home_team": "Los Angeles FC",
+    "away_team": "Columbus Crew SC",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:41:27Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:41:27Z",
+            "outcomes": [
+              { "name": "Columbus Crew SC", "price": 330 },
+              { "name": "Los Angeles FC", "price": -140 },
+              { "name": "Draw", "price": 300 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2024-07-06T13:44:49Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:49Z",
+            "outcomes": [
+              { "name": "Columbus Crew SC", "price": 320 },
+              { "name": "Los Angeles FC", "price": -140 },
+              { "name": "Draw", "price": 285 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:44:10Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:10Z",
+            "outcomes": [
+              { "name": "Columbus Crew SC", "price": 330 },
+              { "name": "Los Angeles FC", "price": -135 },
+              { "name": "Draw", "price": 300 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:10Z",
+            "outcomes": [
+              { "name": "Columbus Crew SC", "price": -112, "point": 0.75 },
+              { "name": "Los Angeles FC", "price": -108, "point": -0.75 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-07-06T13:44:50Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:50Z",
+            "outcomes": [
+              { "name": "Columbus Crew SC", "price": 330 },
+              { "name": "Los Angeles FC", "price": -135 },
+              { "name": "Draw", "price": 300 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:43:36Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:36Z",
+            "outcomes": [
+              { "name": "Columbus Crew SC", "price": 320 },
+              { "name": "Los Angeles FC", "price": -135 },
+              { "name": "Draw", "price": 290 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "b4a6c87da540f98a83880f55881bd955",
+    "sport_key": "soccer_usa_mls",
+    "sport_title": "MLS",
+    "commence_time": "2024-07-14T02:30:00Z",
+    "home_team": "Portland Timbers",
+    "away_team": "Real Salt Lake",
+    "bookmakers": [
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2024-07-06T13:44:49Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:49Z",
+            "outcomes": [
+              { "name": "Portland Timbers", "price": 115 },
+              { "name": "Real Salt Lake", "price": 205 },
+              { "name": "Draw", "price": 255 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:41:27Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:41:27Z",
+            "outcomes": [
+              { "name": "Portland Timbers", "price": 110 },
+              { "name": "Real Salt Lake", "price": 210 },
+              { "name": "Draw", "price": 250 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:44:10Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:10Z",
+            "outcomes": [
+              { "name": "Portland Timbers", "price": 115 },
+              { "name": "Real Salt Lake", "price": 215 },
+              { "name": "Draw", "price": 270 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:10Z",
+            "outcomes": [
+              { "name": "Portland Timbers", "price": -112, "point": -0.25 },
+              { "name": "Real Salt Lake", "price": -108, "point": 0.25 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-07-06T13:44:50Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:50Z",
+            "outcomes": [
+              { "name": "Portland Timbers", "price": 115 },
+              { "name": "Real Salt Lake", "price": 215 },
+              { "name": "Draw", "price": 270 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:43:36Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:36Z",
+            "outcomes": [
+              { "name": "Portland Timbers", "price": 115 },
+              { "name": "Real Salt Lake", "price": 210 },
+              { "name": "Draw", "price": 250 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "aae7b0ed16169cc774d645ae30733a6d",
+    "sport_key": "soccer_usa_mls",
+    "sport_title": "MLS",
+    "commence_time": "2024-07-14T02:30:00Z",
+    "home_team": "San Jose Earthquakes",
+    "away_team": "Sporting Kansas City",
+    "bookmakers": [
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2024-07-06T13:44:49Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:49Z",
+            "outcomes": [
+              { "name": "San Jose Earthquakes", "price": -105 },
+              { "name": "Sporting Kansas City", "price": 245 },
+              { "name": "Draw", "price": 270 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:41:27Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:41:27Z",
+            "outcomes": [
+              { "name": "San Jose Earthquakes", "price": -110 },
+              { "name": "Sporting Kansas City", "price": 260 },
+              { "name": "Draw", "price": 270 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:44:10Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:10Z",
+            "outcomes": [
+              { "name": "San Jose Earthquakes", "price": -105 },
+              { "name": "Sporting Kansas City", "price": 255 },
+              { "name": "Draw", "price": 285 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:10Z",
+            "outcomes": [
+              { "name": "San Jose Earthquakes", "price": -102, "point": -0.5 },
+              { "name": "Sporting Kansas City", "price": -118, "point": 0.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-07-06T13:44:50Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:50Z",
+            "outcomes": [
+              { "name": "San Jose Earthquakes", "price": -105 },
+              { "name": "Sporting Kansas City", "price": 255 },
+              { "name": "Draw", "price": 285 }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

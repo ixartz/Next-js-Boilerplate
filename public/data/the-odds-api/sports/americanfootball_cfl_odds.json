@@ -1,0 +1,512 @@
+[
+  {
+    "id": "8e2a21f2ce206f630609ff6ee8fbada1",
+    "sport_key": "americanfootball_cfl",
+    "sport_title": "CFL",
+    "commence_time": "2024-07-06T23:05:00Z",
+    "home_team": "Montreal Alouettes",
+    "away_team": "Calgary Stampeders",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:43:12Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:12Z",
+            "outcomes": [
+              { "name": "Calgary Stampeders", "price": 360 },
+              { "name": "Montreal Alouettes", "price": -470 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:12Z",
+            "outcomes": [
+              { "name": "Calgary Stampeders", "price": -110, "point": 9.5 },
+              { "name": "Montreal Alouettes", "price": -110, "point": -9.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:43:56Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:56Z",
+            "outcomes": [
+              { "name": "Calgary Stampeders", "price": 330 },
+              { "name": "Montreal Alouettes", "price": -450 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:56Z",
+            "outcomes": [
+              { "name": "Calgary Stampeders", "price": -110, "point": 9.5 },
+              { "name": "Montreal Alouettes", "price": -110, "point": -9.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:43:13Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:13Z",
+            "outcomes": [
+              { "name": "Calgary Stampeders", "price": 365 },
+              { "name": "Montreal Alouettes", "price": -490 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:43:32Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:32Z",
+            "outcomes": [
+              { "name": "Calgary Stampeders", "price": 340 },
+              { "name": "Montreal Alouettes", "price": -450 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:32Z",
+            "outcomes": [
+              { "name": "Calgary Stampeders", "price": -105, "point": 9.5 },
+              { "name": "Montreal Alouettes", "price": -115, "point": -9.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:43:32Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:32Z",
+            "outcomes": [
+              { "name": "Calgary Stampeders", "price": 370 },
+              { "name": "Montreal Alouettes", "price": -500 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:32Z",
+            "outcomes": [
+              { "name": "Calgary Stampeders", "price": -110, "point": 9.5 },
+              { "name": "Montreal Alouettes", "price": -110, "point": -9.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2024-07-06T13:42:03Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:03Z",
+            "outcomes": [
+              { "name": "Calgary Stampeders", "price": 360 },
+              { "name": "Montreal Alouettes", "price": -480 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:42:03Z",
+            "outcomes": [
+              { "name": "Calgary Stampeders", "price": -105, "point": 9.5 },
+              { "name": "Montreal Alouettes", "price": -115, "point": -9.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:43:56Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:56Z",
+            "outcomes": [
+              { "name": "Calgary Stampeders", "price": 380 },
+              { "name": "Montreal Alouettes", "price": -469 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:56Z",
+            "outcomes": [
+              { "name": "Calgary Stampeders", "price": -110, "point": 9.5 },
+              { "name": "Montreal Alouettes", "price": -110, "point": -9.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T13:43:32Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:32Z",
+            "outcomes": [
+              { "name": "Calgary Stampeders", "price": 380 },
+              { "name": "Montreal Alouettes", "price": -470 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:32Z",
+            "outcomes": [
+              { "name": "Calgary Stampeders", "price": -110, "point": 9.5 },
+              { "name": "Montreal Alouettes", "price": -110, "point": -9.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2024-07-06T13:43:32Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:32Z",
+            "outcomes": [
+              { "name": "Calgary Stampeders", "price": 375 },
+              { "name": "Montreal Alouettes", "price": -450 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:32Z",
+            "outcomes": [
+              { "name": "Calgary Stampeders", "price": -110, "point": 9.5 },
+              { "name": "Montreal Alouettes", "price": -110, "point": -9.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-07-06T13:43:32Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:32Z",
+            "outcomes": [
+              { "name": "Calgary Stampeders", "price": 360 },
+              { "name": "Montreal Alouettes", "price": -475 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:32Z",
+            "outcomes": [
+              { "name": "Calgary Stampeders", "price": -110, "point": 9.5 },
+              { "name": "Montreal Alouettes", "price": -110, "point": -9.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:43:42Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:42Z",
+            "outcomes": [
+              { "name": "Calgary Stampeders", "price": 355 },
+              { "name": "Montreal Alouettes", "price": -490 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:42Z",
+            "outcomes": [
+              { "name": "Calgary Stampeders", "price": -105, "point": 9.0 },
+              { "name": "Montreal Alouettes", "price": -115, "point": -9.0 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1e88df63c655fce5234cd66171a16b9f",
+    "sport_key": "americanfootball_cfl",
+    "sport_title": "CFL",
+    "commence_time": "2024-07-07T23:00:00Z",
+    "home_team": "Hamilton Tiger-Cats",
+    "away_team": "BC Lions",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:43:12Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:12Z",
+            "outcomes": [
+              { "name": "BC Lions", "price": -250 },
+              { "name": "Hamilton Tiger-Cats", "price": 205 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:12Z",
+            "outcomes": [
+              { "name": "BC Lions", "price": -112, "point": -4.5 },
+              { "name": "Hamilton Tiger-Cats", "price": -108, "point": 4.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:43:56Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:56Z",
+            "outcomes": [
+              { "name": "BC Lions", "price": -250 },
+              { "name": "Hamilton Tiger-Cats", "price": 198 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:56Z",
+            "outcomes": [
+              { "name": "BC Lions", "price": -110, "point": -5.5 },
+              { "name": "Hamilton Tiger-Cats", "price": -110, "point": 5.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:43:13Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:13Z",
+            "outcomes": [
+              { "name": "BC Lions", "price": -245 },
+              { "name": "Hamilton Tiger-Cats", "price": 198 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:43:32Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:32Z",
+            "outcomes": [
+              { "name": "BC Lions", "price": -250 },
+              { "name": "Hamilton Tiger-Cats", "price": 200 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:32Z",
+            "outcomes": [
+              { "name": "BC Lions", "price": -105, "point": -5.5 },
+              { "name": "Hamilton Tiger-Cats", "price": -115, "point": 5.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:43:32Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:32Z",
+            "outcomes": [
+              { "name": "BC Lions", "price": -265 },
+              { "name": "Hamilton Tiger-Cats", "price": 210 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:32Z",
+            "outcomes": [
+              { "name": "BC Lions", "price": -110, "point": -5.5 },
+              { "name": "Hamilton Tiger-Cats", "price": -110, "point": 5.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:43:56Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:56Z",
+            "outcomes": [
+              { "name": "BC Lions", "price": -240 },
+              { "name": "Hamilton Tiger-Cats", "price": 200 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:56Z",
+            "outcomes": [
+              { "name": "BC Lions", "price": -110, "point": -4.5 },
+              { "name": "Hamilton Tiger-Cats", "price": -110, "point": 4.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T13:43:32Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:32Z",
+            "outcomes": [
+              { "name": "BC Lions", "price": -240 },
+              { "name": "Hamilton Tiger-Cats", "price": 200 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:32Z",
+            "outcomes": [
+              { "name": "BC Lions", "price": -110, "point": -4.5 },
+              { "name": "Hamilton Tiger-Cats", "price": -110, "point": 4.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2024-07-06T13:42:03Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:03Z",
+            "outcomes": [
+              { "name": "BC Lions", "price": -240 },
+              { "name": "Hamilton Tiger-Cats", "price": 196 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:42:03Z",
+            "outcomes": [
+              { "name": "BC Lions", "price": -110, "point": -4.5 },
+              { "name": "Hamilton Tiger-Cats", "price": -110, "point": 4.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2024-07-06T13:43:32Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:32Z",
+            "outcomes": [
+              { "name": "BC Lions", "price": -220 },
+              { "name": "Hamilton Tiger-Cats", "price": 190 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:32Z",
+            "outcomes": [
+              { "name": "BC Lions", "price": -110, "point": -5.0 },
+              { "name": "Hamilton Tiger-Cats", "price": -110, "point": 5.0 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-07-06T13:43:32Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:32Z",
+            "outcomes": [
+              { "name": "BC Lions", "price": -240 },
+              { "name": "Hamilton Tiger-Cats", "price": 200 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:32Z",
+            "outcomes": [
+              { "name": "BC Lions", "price": -110, "point": -4.5 },
+              { "name": "Hamilton Tiger-Cats", "price": -110, "point": 4.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:43:42Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:42Z",
+            "outcomes": [
+              { "name": "BC Lions", "price": -235 },
+              { "name": "Hamilton Tiger-Cats", "price": 195 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:42Z",
+            "outcomes": [
+              { "name": "BC Lions", "price": -115, "point": -4.5 },
+              { "name": "Hamilton Tiger-Cats", "price": -105, "point": 4.5 }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

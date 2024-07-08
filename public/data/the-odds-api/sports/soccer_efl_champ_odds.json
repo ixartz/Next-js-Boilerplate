@@ -1,0 +1,882 @@
+[
+  {
+    "id": "12b6070b44b2c9fd6256ab45194635d8",
+    "sport_key": "soccer_efl_champ",
+    "sport_title": "Championship",
+    "commence_time": "2024-08-09T19:00:00Z",
+    "home_team": "Blackburn Rovers",
+    "away_team": "Derby County",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:42:04Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:04Z",
+            "outcomes": [
+              { "name": "Blackburn Rovers", "price": 120 },
+              { "name": "Derby County", "price": 200 },
+              { "name": "Draw", "price": 250 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:43:30Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:30Z",
+            "outcomes": [
+              { "name": "Blackburn Rovers", "price": 118 },
+              { "name": "Derby County", "price": 193 },
+              { "name": "Draw", "price": 255 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:30Z",
+            "outcomes": [
+              { "name": "Blackburn Rovers", "price": 113, "point": -0.5 },
+              { "name": "Derby County", "price": -157, "point": 0.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:43:45Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:45Z",
+            "outcomes": [
+              { "name": "Blackburn Rovers", "price": 125 },
+              { "name": "Derby County", "price": 200 },
+              { "name": "Draw", "price": 260 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:01Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:01Z",
+            "outcomes": [
+              { "name": "Blackburn Rovers", "price": 120 },
+              { "name": "Derby County", "price": 200 },
+              { "name": "Draw", "price": 260 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "52f80bae6b331fefa464f8ca35b768dd",
+    "sport_key": "soccer_efl_champ",
+    "sport_title": "Championship",
+    "commence_time": "2024-08-09T19:00:00Z",
+    "home_team": "Preston North End",
+    "away_team": "Sheffield United",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:42:04Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:04Z",
+            "outcomes": [
+              { "name": "Preston North End", "price": 180 },
+              { "name": "Sheffield United", "price": 145 },
+              { "name": "Draw", "price": 230 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:43:30Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:30Z",
+            "outcomes": [
+              { "name": "Preston North End", "price": 172 },
+              { "name": "Sheffield United", "price": 140 },
+              { "name": "Draw", "price": 238 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:30Z",
+            "outcomes": [
+              { "name": "Preston North End", "price": -187, "point": 0.5 },
+              { "name": "Sheffield United", "price": 133, "point": -0.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:43:45Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:45Z",
+            "outcomes": [
+              { "name": "Preston North End", "price": 180 },
+              { "name": "Sheffield United", "price": 140 },
+              { "name": "Draw", "price": 240 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:01Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:01Z",
+            "outcomes": [
+              { "name": "Preston North End", "price": 180 },
+              { "name": "Sheffield United", "price": 140 },
+              { "name": "Draw", "price": 240 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fa13a27ca379c48b5eebb0dea5205031",
+    "sport_key": "soccer_efl_champ",
+    "sport_title": "Championship",
+    "commence_time": "2024-08-10T11:30:00Z",
+    "home_team": "Hull City",
+    "away_team": "Bristol City",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:42:04Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:04Z",
+            "outcomes": [
+              { "name": "Bristol City", "price": 260 },
+              { "name": "Hull City", "price": 100 },
+              { "name": "Draw", "price": 240 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:43:45Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:45Z",
+            "outcomes": [
+              { "name": "Bristol City", "price": 260 },
+              { "name": "Hull City", "price": 100 },
+              { "name": "Draw", "price": 260 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:01Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:01Z",
+            "outcomes": [
+              { "name": "Bristol City", "price": 260 },
+              { "name": "Hull City", "price": 100 },
+              { "name": "Draw", "price": 250 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "9f476fe1b9a8d5c10de5a1878ade7222",
+    "sport_key": "soccer_efl_champ",
+    "sport_title": "Championship",
+    "commence_time": "2024-08-10T11:30:00Z",
+    "home_team": "Cardiff City",
+    "away_team": "Sunderland",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:42:04Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:04Z",
+            "outcomes": [
+              { "name": "Cardiff City", "price": 145 },
+              { "name": "Sunderland", "price": 190 },
+              { "name": "Draw", "price": 220 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:43:30Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:30Z",
+            "outcomes": [
+              { "name": "Cardiff City", "price": 138 },
+              { "name": "Sunderland", "price": 185 },
+              { "name": "Draw", "price": 224 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:30Z",
+            "outcomes": [
+              { "name": "Cardiff City", "price": 131, "point": -0.5 },
+              { "name": "Sunderland", "price": -184, "point": 0.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:01Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:01Z",
+            "outcomes": [
+              { "name": "Cardiff City", "price": 140 },
+              { "name": "Sunderland", "price": 190 },
+              { "name": "Draw", "price": 230 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "8589f4328090e51c799006f57668789f",
+    "sport_key": "soccer_efl_champ",
+    "sport_title": "Championship",
+    "commence_time": "2024-08-10T11:30:00Z",
+    "home_team": "Stoke City",
+    "away_team": "Coventry City",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:42:04Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:04Z",
+            "outcomes": [
+              { "name": "Coventry City", "price": 210 },
+              { "name": "Stoke City", "price": 115 },
+              { "name": "Draw", "price": 250 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:43:30Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:30Z",
+            "outcomes": [
+              { "name": "Coventry City", "price": 193 },
+              { "name": "Stoke City", "price": 118 },
+              { "name": "Draw", "price": 255 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:30Z",
+            "outcomes": [
+              { "name": "Coventry City", "price": -157, "point": 0.5 },
+              { "name": "Stoke City", "price": 113, "point": -0.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:43:45Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:45Z",
+            "outcomes": [
+              { "name": "Coventry City", "price": 210 },
+              { "name": "Stoke City", "price": 125 },
+              { "name": "Draw", "price": 240 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:01Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:01Z",
+            "outcomes": [
+              { "name": "Coventry City", "price": 200 },
+              { "name": "Stoke City", "price": 120 },
+              { "name": "Draw", "price": 260 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "295fe594028fc278db4463ad1eb8eaac",
+    "sport_key": "soccer_efl_champ",
+    "sport_title": "Championship",
+    "commence_time": "2024-08-10T11:30:00Z",
+    "home_team": "Leeds United",
+    "away_team": "Portsmouth",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:42:04Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:04Z",
+            "outcomes": [
+              { "name": "Leeds United", "price": -310 },
+              { "name": "Portsmouth", "price": 700 },
+              { "name": "Draw", "price": 410 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:43:30Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:30Z",
+            "outcomes": [
+              { "name": "Leeds United", "price": -280 },
+              { "name": "Portsmouth", "price": 630 },
+              { "name": "Draw", "price": 390 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:30Z",
+            "outcomes": [
+              { "name": "Leeds United", "price": -106, "point": -1.5 },
+              { "name": "Portsmouth", "price": -130, "point": 1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:43:45Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:45Z",
+            "outcomes": [
+              { "name": "Leeds United", "price": -250 },
+              { "name": "Portsmouth", "price": 600 },
+              { "name": "Draw", "price": 400 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:01Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:01Z",
+            "outcomes": [
+              { "name": "Leeds United", "price": -286 },
+              { "name": "Portsmouth", "price": 650 },
+              { "name": "Draw", "price": 400 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "261d1faedf1e5d3a4916d85f1350666d",
+    "sport_key": "soccer_efl_champ",
+    "sport_title": "Championship",
+    "commence_time": "2024-08-10T11:30:00Z",
+    "home_team": "Middlesbrough",
+    "away_team": "Swansea City",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:42:04Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:04Z",
+            "outcomes": [
+              { "name": "Middlesbrough", "price": -140 },
+              { "name": "Swansea City", "price": 340 },
+              { "name": "Draw", "price": 270 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:43:30Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:30Z",
+            "outcomes": [
+              { "name": "Middlesbrough", "price": -129 },
+              { "name": "Swansea City", "price": 340 },
+              { "name": "Draw", "price": 246 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:30Z",
+            "outcomes": [
+              { "name": "Middlesbrough", "price": -133, "point": -0.5 },
+              { "name": "Swansea City", "price": -103, "point": 0.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:43:45Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:45Z",
+            "outcomes": [
+              { "name": "Middlesbrough", "price": -125 },
+              { "name": "Swansea City", "price": 340 },
+              { "name": "Draw", "price": 270 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:01Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:01Z",
+            "outcomes": [
+              { "name": "Middlesbrough", "price": -125 },
+              { "name": "Swansea City", "price": 350 },
+              { "name": "Draw", "price": 250 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cab4c72bb2899de1ae53ae15e102948c",
+    "sport_key": "soccer_efl_champ",
+    "sport_title": "Championship",
+    "commence_time": "2024-08-10T11:30:00Z",
+    "home_team": "Millwall",
+    "away_team": "Watford",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:42:04Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:04Z",
+            "outcomes": [
+              { "name": "Millwall", "price": 160 },
+              { "name": "Watford", "price": 180 },
+              { "name": "Draw", "price": 220 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:43:45Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:45Z",
+            "outcomes": [
+              { "name": "Millwall", "price": 155 },
+              { "name": "Watford", "price": 180 },
+              { "name": "Draw", "price": 225 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:01Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:01Z",
+            "outcomes": [
+              { "name": "Millwall", "price": 150 },
+              { "name": "Watford", "price": 180 },
+              { "name": "Draw", "price": 230 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c2fcb9f2c215d4c68667337a820d1780",
+    "sport_key": "soccer_efl_champ",
+    "sport_title": "Championship",
+    "commence_time": "2024-08-10T11:30:00Z",
+    "home_team": "Oxford United",
+    "away_team": "Norwich City",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:42:04Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:04Z",
+            "outcomes": [
+              { "name": "Norwich City", "price": 115 },
+              { "name": "Oxford United", "price": 200 },
+              { "name": "Draw", "price": 260 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:43:30Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:30Z",
+            "outcomes": [
+              { "name": "Norwich City", "price": 114 },
+              { "name": "Oxford United", "price": 193 },
+              { "name": "Draw", "price": 265 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:30Z",
+            "outcomes": [
+              { "name": "Norwich City", "price": 110, "point": -0.5 },
+              { "name": "Oxford United", "price": -152, "point": 0.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:43:45Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:45Z",
+            "outcomes": [
+              { "name": "Norwich City", "price": 120 },
+              { "name": "Oxford United", "price": 200 },
+              { "name": "Draw", "price": 270 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:01Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:01Z",
+            "outcomes": [
+              { "name": "Norwich City", "price": 115 },
+              { "name": "Oxford United", "price": 200 },
+              { "name": "Draw", "price": 275 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "70021af8b14e84ecce65a6b867975eed",
+    "sport_key": "soccer_efl_champ",
+    "sport_title": "Championship",
+    "commence_time": "2024-08-10T11:30:00Z",
+    "home_team": "Queens Park Rangers",
+    "away_team": "West Bromwich Albion",
+    "bookmakers": [
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:43:30Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:30Z",
+            "outcomes": [
+              { "name": "Queens Park Rangers", "price": 165 },
+              { "name": "West Bromwich Albion", "price": 146 },
+              { "name": "Draw", "price": 238 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:30Z",
+            "outcomes": [
+              { "name": "Queens Park Rangers", "price": -195, "point": 0.5 },
+              { "name": "West Bromwich Albion", "price": 138, "point": -0.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:43:45Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:45Z",
+            "outcomes": [
+              { "name": "Queens Park Rangers", "price": 165 },
+              { "name": "West Bromwich Albion", "price": 150 },
+              { "name": "Draw", "price": 250 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:01Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:01Z",
+            "outcomes": [
+              { "name": "Queens Park Rangers", "price": 170 },
+              { "name": "West Bromwich Albion", "price": 150 },
+              { "name": "Draw", "price": 240 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2f25d451dedd9e580762caccb25d56e9",
+    "sport_key": "soccer_efl_champ",
+    "sport_title": "Championship",
+    "commence_time": "2024-08-11T15:00:00Z",
+    "home_team": "Sheffield Wednesday",
+    "away_team": "Plymouth Argyle",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:42:04Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:04Z",
+            "outcomes": [
+              { "name": "Plymouth Argyle", "price": 280 },
+              { "name": "Sheffield Wednesday", "price": -105 },
+              { "name": "Draw", "price": 250 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:43:30Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:30Z",
+            "outcomes": [
+              { "name": "Plymouth Argyle", "price": 300 },
+              { "name": "Sheffield Wednesday", "price": -115 },
+              { "name": "Draw", "price": 240 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:30Z",
+            "outcomes": [
+              { "name": "Plymouth Argyle", "price": -116, "point": 0.5 },
+              { "name": "Sheffield Wednesday", "price": -119, "point": -0.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:43:45Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:45Z",
+            "outcomes": [
+              { "name": "Plymouth Argyle", "price": 300 },
+              { "name": "Sheffield Wednesday", "price": -110 },
+              { "name": "Draw", "price": 260 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:01Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:01Z",
+            "outcomes": [
+              { "name": "Plymouth Argyle", "price": 300 },
+              { "name": "Sheffield Wednesday", "price": -112 },
+              { "name": "Draw", "price": 240 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "38868fe75bf4218d7b3ec5d1df89317e",
+    "sport_key": "soccer_efl_champ",
+    "sport_title": "Championship",
+    "commence_time": "2024-08-12T19:00:00Z",
+    "home_team": "Luton",
+    "away_team": "Burnley",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:42:04Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:04Z",
+            "outcomes": [
+              { "name": "Burnley", "price": 175 },
+              { "name": "Luton", "price": 150 },
+              { "name": "Draw", "price": 240 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:43:45Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:45Z",
+            "outcomes": [
+              { "name": "Burnley", "price": 165 },
+              { "name": "Luton", "price": 155 },
+              { "name": "Draw", "price": 240 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:01Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:01Z",
+            "outcomes": [
+              { "name": "Burnley", "price": 170 },
+              { "name": "Luton", "price": 150 },
+              { "name": "Draw", "price": 240 }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

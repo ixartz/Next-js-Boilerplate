@@ -1,0 +1,4215 @@
+[
+  {
+    "id": "968a7fd91265d6fdbf19bfed86a88bc0",
+    "sport_key": "baseball_mlb",
+    "sport_title": "MLB",
+    "commence_time": "2024-07-06T17:06:00Z",
+    "home_team": "New York Yankees",
+    "away_team": "Boston Red Sox",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:43:52Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:52Z",
+            "outcomes": [
+              { "name": "Boston Red Sox", "price": 164 },
+              { "name": "New York Yankees", "price": -196 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:52Z",
+            "outcomes": [
+              { "name": "Boston Red Sox", "price": -125, "point": 1.5 },
+              { "name": "New York Yankees", "price": 104, "point": -1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:43:50Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:50Z",
+            "outcomes": [
+              { "name": "Boston Red Sox", "price": 172 },
+              { "name": "New York Yankees", "price": -188 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:50Z",
+            "outcomes": [
+              { "name": "Boston Red Sox", "price": -118, "point": 1.5 },
+              { "name": "New York Yankees", "price": 106, "point": -1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T13:43:48Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:48Z",
+            "outcomes": [
+              { "name": "Boston Red Sox", "price": 172 },
+              { "name": "New York Yankees", "price": -188 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:48Z",
+            "outcomes": [
+              { "name": "Boston Red Sox", "price": -122, "point": 1.5 },
+              { "name": "New York Yankees", "price": 102, "point": -1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:44:13Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:13Z",
+            "outcomes": [
+              { "name": "Boston Red Sox", "price": 164 },
+              { "name": "New York Yankees", "price": -196 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:13Z",
+            "outcomes": [
+              { "name": "Boston Red Sox", "price": -120, "point": 1.5 },
+              { "name": "New York Yankees", "price": 100, "point": -1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:43:07Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:07Z",
+            "outcomes": [
+              { "name": "Boston Red Sox", "price": 164 },
+              { "name": "New York Yankees", "price": -198 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:07Z",
+            "outcomes": [
+              { "name": "Boston Red Sox", "price": -125, "point": 1.5 },
+              { "name": "New York Yankees", "price": 105, "point": -1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2024-07-06T13:43:27Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:27Z",
+            "outcomes": [
+              { "name": "Boston Red Sox", "price": 162 },
+              { "name": "New York Yankees", "price": -195 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:27Z",
+            "outcomes": [
+              { "name": "Boston Red Sox", "price": -120, "point": 1.5 },
+              { "name": "New York Yankees", "price": 100, "point": -1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:42:41Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:41Z",
+            "outcomes": [
+              { "name": "Boston Red Sox", "price": 155 },
+              { "name": "New York Yankees", "price": -190 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:42:41Z",
+            "outcomes": [
+              { "name": "Boston Red Sox", "price": -125, "point": 1.5 },
+              { "name": "New York Yankees", "price": 105, "point": -1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-07-06T13:43:49Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:49Z",
+            "outcomes": [
+              { "name": "Boston Red Sox", "price": 168 },
+              { "name": "New York Yankees", "price": -188 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:49Z",
+            "outcomes": [
+              { "name": "Boston Red Sox", "price": -120, "point": 1.5 },
+              { "name": "New York Yankees", "price": 100, "point": -1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2024-07-06T13:44:02Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:02Z",
+            "outcomes": [
+              { "name": "Boston Red Sox", "price": 170 },
+              { "name": "New York Yankees", "price": -190 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:02Z",
+            "outcomes": [
+              { "name": "Boston Red Sox", "price": -120, "point": 1.5 },
+              { "name": "New York Yankees", "price": 100, "point": -1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:03Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:03Z",
+            "outcomes": [
+              { "name": "Boston Red Sox", "price": 163 },
+              { "name": "New York Yankees", "price": -195 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:03Z",
+            "outcomes": [
+              { "name": "Boston Red Sox", "price": -122, "point": 1.5 },
+              { "name": "New York Yankees", "price": 100, "point": -1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:44:04Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:04Z",
+            "outcomes": [
+              { "name": "Boston Red Sox", "price": 160 },
+              { "name": "New York Yankees", "price": -195 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:04Z",
+            "outcomes": [
+              { "name": "Boston Red Sox", "price": -120, "point": 1.5 },
+              { "name": "New York Yankees", "price": 100, "point": -1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "wynnbet",
+        "title": "WynnBET",
+        "last_update": "2024-07-06T13:42:57Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:57Z",
+            "outcomes": [
+              { "name": "Boston Red Sox", "price": 155 },
+              { "name": "New York Yankees", "price": -175 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:42:57Z",
+            "outcomes": [
+              { "name": "Boston Red Sox", "price": -125, "point": 1.5 },
+              { "name": "New York Yankees", "price": 102, "point": -1.5 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "0fb3b62aec06e1ce8c07cadb2b39062c",
+    "sport_key": "baseball_mlb",
+    "sport_title": "MLB",
+    "commence_time": "2024-07-06T18:11:00Z",
+    "home_team": "Minnesota Twins",
+    "away_team": "Houston Astros",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:43:52Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:52Z",
+            "outcomes": [
+              { "name": "Houston Astros", "price": 116 },
+              { "name": "Minnesota Twins", "price": -134 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:52Z",
+            "outcomes": [
+              { "name": "Houston Astros", "price": -196, "point": 1.5 },
+              { "name": "Minnesota Twins", "price": 162, "point": -1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:43:50Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:50Z",
+            "outcomes": [
+              { "name": "Houston Astros", "price": 122 },
+              { "name": "Minnesota Twins", "price": -133 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:50Z",
+            "outcomes": [
+              { "name": "Houston Astros", "price": -183, "point": 1.5 },
+              { "name": "Minnesota Twins", "price": 166, "point": -1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T13:43:48Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:48Z",
+            "outcomes": [
+              { "name": "Houston Astros", "price": 122 },
+              { "name": "Minnesota Twins", "price": -133 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:48Z",
+            "outcomes": [
+              { "name": "Houston Astros", "price": -184, "point": 1.5 },
+              { "name": "Minnesota Twins", "price": 164, "point": -1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:43:07Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:07Z",
+            "outcomes": [
+              { "name": "Houston Astros", "price": 114 },
+              { "name": "Minnesota Twins", "price": -135 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:07Z",
+            "outcomes": [
+              { "name": "Houston Astros", "price": -192, "point": 1.5 },
+              { "name": "Minnesota Twins", "price": 160, "point": -1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2024-07-06T13:43:27Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:27Z",
+            "outcomes": [
+              { "name": "Houston Astros", "price": 115 },
+              { "name": "Minnesota Twins", "price": -135 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:27Z",
+            "outcomes": [
+              { "name": "Houston Astros", "price": -195, "point": 1.5 },
+              { "name": "Minnesota Twins", "price": 162, "point": -1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:44:13Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:13Z",
+            "outcomes": [
+              { "name": "Houston Astros", "price": 110 },
+              { "name": "Minnesota Twins", "price": -130 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:13Z",
+            "outcomes": [
+              { "name": "Houston Astros", "price": -190, "point": 1.5 },
+              { "name": "Minnesota Twins", "price": 155, "point": -1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:42:41Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:41Z",
+            "outcomes": [
+              { "name": "Houston Astros", "price": 115 },
+              { "name": "Minnesota Twins", "price": -135 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:42:41Z",
+            "outcomes": [
+              { "name": "Houston Astros", "price": -190, "point": 1.5 },
+              { "name": "Minnesota Twins", "price": 155, "point": -1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2024-07-06T13:44:02Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:02Z",
+            "outcomes": [
+              { "name": "Houston Astros", "price": 120 },
+              { "name": "Minnesota Twins", "price": -130 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:02Z",
+            "outcomes": [
+              { "name": "Houston Astros", "price": -200, "point": 1.5 },
+              { "name": "Minnesota Twins", "price": 170, "point": -1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-07-06T13:43:49Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:49Z",
+            "outcomes": [
+              { "name": "Houston Astros", "price": 117 },
+              { "name": "Minnesota Twins", "price": -127 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:49Z",
+            "outcomes": [
+              { "name": "Houston Astros", "price": -195, "point": 1.5 },
+              { "name": "Minnesota Twins", "price": 165, "point": -1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:03Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:03Z",
+            "outcomes": [
+              { "name": "Houston Astros", "price": 112 },
+              { "name": "Minnesota Twins", "price": -130 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:03Z",
+            "outcomes": [
+              { "name": "Houston Astros", "price": -210, "point": 1.5 },
+              { "name": "Minnesota Twins", "price": 163, "point": -1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:44:04Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:04Z",
+            "outcomes": [
+              { "name": "Houston Astros", "price": 118 },
+              { "name": "Minnesota Twins", "price": -141 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:04Z",
+            "outcomes": [
+              { "name": "Houston Astros", "price": -185, "point": 1.5 },
+              { "name": "Minnesota Twins", "price": 160, "point": -1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "wynnbet",
+        "title": "WynnBET",
+        "last_update": "2024-07-06T13:42:57Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:57Z",
+            "outcomes": [
+              { "name": "Houston Astros", "price": 111 },
+              { "name": "Minnesota Twins", "price": -122 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:42:57Z",
+            "outcomes": [
+              { "name": "Houston Astros", "price": -200, "point": 1.5 },
+              { "name": "Minnesota Twins", "price": 160, "point": -1.5 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "e019fe2ddc5e8e97127d984cf635ee6e",
+    "sport_key": "baseball_mlb",
+    "sport_title": "MLB",
+    "commence_time": "2024-07-06T18:21:00Z",
+    "home_team": "Chicago Cubs",
+    "away_team": "Los Angeles Angels",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:43:52Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:52Z",
+            "outcomes": [
+              { "name": "Chicago Cubs", "price": -144 },
+              { "name": "Los Angeles Angels", "price": 122 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:52Z",
+            "outcomes": [
+              { "name": "Chicago Cubs", "price": 142, "point": -1.5 },
+              { "name": "Los Angeles Angels", "price": -172, "point": 1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T13:43:48Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:48Z",
+            "outcomes": [
+              { "name": "Chicago Cubs", "price": -142 },
+              { "name": "Los Angeles Angels", "price": 130 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:48Z",
+            "outcomes": [
+              { "name": "Chicago Cubs", "price": 140, "point": -1.5 },
+              { "name": "Los Angeles Angels", "price": -160, "point": 1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:43:50Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:50Z",
+            "outcomes": [
+              { "name": "Chicago Cubs", "price": -142 },
+              { "name": "Los Angeles Angels", "price": 130 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:50Z",
+            "outcomes": [
+              { "name": "Chicago Cubs", "price": 143, "point": -1.5 },
+              { "name": "Los Angeles Angels", "price": -157, "point": 1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:43:07Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:07Z",
+            "outcomes": [
+              { "name": "Chicago Cubs", "price": -148 },
+              { "name": "Los Angeles Angels", "price": 124 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:07Z",
+            "outcomes": [
+              { "name": "Chicago Cubs", "price": 140, "point": -1.5 },
+              { "name": "Los Angeles Angels", "price": -166, "point": 1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2024-07-06T13:43:27Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:27Z",
+            "outcomes": [
+              { "name": "Chicago Cubs", "price": -145 },
+              { "name": "Los Angeles Angels", "price": 122 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:27Z",
+            "outcomes": [
+              { "name": "Chicago Cubs", "price": 140, "point": -1.5 },
+              { "name": "Los Angeles Angels", "price": -165, "point": 1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:44:13Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:13Z",
+            "outcomes": [
+              { "name": "Chicago Cubs", "price": -145 },
+              { "name": "Los Angeles Angels", "price": 124 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:13Z",
+            "outcomes": [
+              { "name": "Chicago Cubs", "price": 140, "point": -1.5 },
+              { "name": "Los Angeles Angels", "price": -160, "point": 1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-07-06T13:43:49Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:49Z",
+            "outcomes": [
+              { "name": "Chicago Cubs", "price": -144 },
+              { "name": "Los Angeles Angels", "price": 129 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:49Z",
+            "outcomes": [
+              { "name": "Chicago Cubs", "price": 140, "point": -1.5 },
+              { "name": "Los Angeles Angels", "price": -160, "point": 1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:42:41Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:41Z",
+            "outcomes": [
+              { "name": "Chicago Cubs", "price": -150 },
+              { "name": "Los Angeles Angels", "price": 125 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:42:41Z",
+            "outcomes": [
+              { "name": "Chicago Cubs", "price": 135, "point": -1.5 },
+              { "name": "Los Angeles Angels", "price": -160, "point": 1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2024-07-06T13:44:02Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:02Z",
+            "outcomes": [
+              { "name": "Chicago Cubs", "price": -150 },
+              { "name": "Los Angeles Angels", "price": 135 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:02Z",
+            "outcomes": [
+              { "name": "Chicago Cubs", "price": 140, "point": -1.5 },
+              { "name": "Los Angeles Angels", "price": -160, "point": 1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:03Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:03Z",
+            "outcomes": [
+              { "name": "Chicago Cubs", "price": -148 },
+              { "name": "Los Angeles Angels", "price": 125 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:03Z",
+            "outcomes": [
+              { "name": "Chicago Cubs", "price": 143, "point": -1.5 },
+              { "name": "Los Angeles Angels", "price": -177, "point": 1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:44:04Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:04Z",
+            "outcomes": [
+              { "name": "Chicago Cubs", "price": -148 },
+              { "name": "Los Angeles Angels", "price": 124 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:04Z",
+            "outcomes": [
+              { "name": "Chicago Cubs", "price": 140, "point": -1.5 },
+              { "name": "Los Angeles Angels", "price": -165, "point": 1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "wynnbet",
+        "title": "WynnBET",
+        "last_update": "2024-07-06T13:42:57Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:57Z",
+            "outcomes": [
+              { "name": "Chicago Cubs", "price": -145 },
+              { "name": "Los Angeles Angels", "price": 132 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:42:57Z",
+            "outcomes": [
+              { "name": "Chicago Cubs", "price": 140, "point": -1.5 },
+              { "name": "Los Angeles Angels", "price": -172, "point": 1.5 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "0d530d4acfc7959b6f2bf5de022ba1a1",
+    "sport_key": "baseball_mlb",
+    "sport_title": "MLB",
+    "commence_time": "2024-07-06T20:06:00Z",
+    "home_team": "Pittsburgh Pirates",
+    "away_team": "New York Mets",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:43:52Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:52Z",
+            "outcomes": [
+              { "name": "New York Mets", "price": -134 },
+              { "name": "Pittsburgh Pirates", "price": 114 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:52Z",
+            "outcomes": [
+              { "name": "New York Mets", "price": 116, "point": -1.5 },
+              { "name": "Pittsburgh Pirates", "price": -140, "point": 1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T13:43:48Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:48Z",
+            "outcomes": [
+              { "name": "New York Mets", "price": -127 },
+              { "name": "Pittsburgh Pirates", "price": 117 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:48Z",
+            "outcomes": [
+              { "name": "New York Mets", "price": 120, "point": -1.5 },
+              { "name": "Pittsburgh Pirates", "price": -140, "point": 1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:43:50Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:50Z",
+            "outcomes": [
+              { "name": "New York Mets", "price": -127 },
+              { "name": "Pittsburgh Pirates", "price": 117 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:50Z",
+            "outcomes": [
+              { "name": "New York Mets", "price": 124, "point": -1.5 },
+              { "name": "Pittsburgh Pirates", "price": -137, "point": 1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:43:07Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:07Z",
+            "outcomes": [
+              { "name": "New York Mets", "price": -135 },
+              { "name": "Pittsburgh Pirates", "price": 114 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:07Z",
+            "outcomes": [
+              { "name": "New York Mets", "price": 120, "point": -1.5 },
+              { "name": "Pittsburgh Pirates", "price": -142, "point": 1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2024-07-06T13:43:27Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:27Z",
+            "outcomes": [
+              { "name": "New York Mets", "price": -130 },
+              { "name": "Pittsburgh Pirates", "price": 110 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:27Z",
+            "outcomes": [
+              { "name": "New York Mets", "price": 122, "point": -1.5 },
+              { "name": "Pittsburgh Pirates", "price": -145, "point": 1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:44:13Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:13Z",
+            "outcomes": [
+              { "name": "New York Mets", "price": -135 },
+              { "name": "Pittsburgh Pirates", "price": 111 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:13Z",
+            "outcomes": [
+              { "name": "New York Mets", "price": 125, "point": -1.5 },
+              { "name": "Pittsburgh Pirates", "price": -145, "point": 1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:42:41Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:41Z",
+            "outcomes": [
+              { "name": "New York Mets", "price": -135 },
+              { "name": "Pittsburgh Pirates", "price": 115 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:42:41Z",
+            "outcomes": [
+              { "name": "New York Mets", "price": 120, "point": -1.5 },
+              { "name": "Pittsburgh Pirates", "price": -145, "point": 1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-07-06T13:43:49Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:49Z",
+            "outcomes": [
+              { "name": "New York Mets", "price": -126 },
+              { "name": "Pittsburgh Pirates", "price": 116 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:49Z",
+            "outcomes": [
+              { "name": "New York Mets", "price": 125, "point": -1.5 },
+              { "name": "Pittsburgh Pirates", "price": -145, "point": 1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2024-07-06T13:44:02Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:02Z",
+            "outcomes": [
+              { "name": "New York Mets", "price": -130 },
+              { "name": "Pittsburgh Pirates", "price": 120 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:02Z",
+            "outcomes": [
+              { "name": "New York Mets", "price": 125, "point": -1.5 },
+              { "name": "Pittsburgh Pirates", "price": -145, "point": 1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:03Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:03Z",
+            "outcomes": [
+              { "name": "New York Mets", "price": -132 },
+              { "name": "Pittsburgh Pirates", "price": 112 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:03Z",
+            "outcomes": [
+              { "name": "New York Mets", "price": 120, "point": -1.5 },
+              { "name": "Pittsburgh Pirates", "price": -148, "point": 1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:44:04Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:04Z",
+            "outcomes": [
+              { "name": "New York Mets", "price": -132 },
+              { "name": "Pittsburgh Pirates", "price": 110 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:04Z",
+            "outcomes": [
+              { "name": "New York Mets", "price": 120, "point": -1.5 },
+              { "name": "Pittsburgh Pirates", "price": -140, "point": 1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "wynnbet",
+        "title": "WynnBET",
+        "last_update": "2024-07-06T13:42:57Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:57Z",
+            "outcomes": [
+              { "name": "New York Mets", "price": -130 },
+              { "name": "Pittsburgh Pirates", "price": 118 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:42:57Z",
+            "outcomes": [
+              { "name": "New York Mets", "price": 120, "point": -1.5 },
+              { "name": "Pittsburgh Pirates", "price": -147, "point": 1.5 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "549017988ced3ebc1e002f65ff185f94",
+    "sport_key": "baseball_mlb",
+    "sport_title": "MLB",
+    "commence_time": "2024-07-06T20:06:00Z",
+    "home_team": "Washington Nationals",
+    "away_team": "St. Louis Cardinals",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:43:52Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:52Z",
+            "outcomes": [
+              { "name": "St. Louis Cardinals", "price": 108 },
+              { "name": "Washington Nationals", "price": -126 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:52Z",
+            "outcomes": [
+              { "name": "St. Louis Cardinals", "price": -194, "point": 1.5 },
+              { "name": "Washington Nationals", "price": 160, "point": -1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T13:43:48Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:48Z",
+            "outcomes": [
+              { "name": "St. Louis Cardinals", "price": 113 },
+              { "name": "Washington Nationals", "price": -123 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:48Z",
+            "outcomes": [
+              { "name": "St. Louis Cardinals", "price": -180, "point": 1.5 },
+              { "name": "Washington Nationals", "price": 160, "point": -1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:43:50Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:50Z",
+            "outcomes": [
+              { "name": "St. Louis Cardinals", "price": 113 },
+              { "name": "Washington Nationals", "price": -123 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:50Z",
+            "outcomes": [
+              { "name": "St. Louis Cardinals", "price": -178, "point": 1.5 },
+              { "name": "Washington Nationals", "price": 162, "point": -1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:43:07Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:07Z",
+            "outcomes": [
+              { "name": "St. Louis Cardinals", "price": 110 },
+              { "name": "Washington Nationals", "price": -130 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:07Z",
+            "outcomes": [
+              { "name": "St. Louis Cardinals", "price": -185, "point": 1.5 },
+              { "name": "Washington Nationals", "price": 154, "point": -1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2024-07-06T13:43:27Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:27Z",
+            "outcomes": [
+              { "name": "St. Louis Cardinals", "price": 110 },
+              { "name": "Washington Nationals", "price": -130 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:27Z",
+            "outcomes": [
+              { "name": "St. Louis Cardinals", "price": -190, "point": 1.5 },
+              { "name": "Washington Nationals", "price": 158, "point": -1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:44:13Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:13Z",
+            "outcomes": [
+              { "name": "St. Louis Cardinals", "price": 106 },
+              { "name": "Washington Nationals", "price": -130 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:13Z",
+            "outcomes": [
+              { "name": "St. Louis Cardinals", "price": -180, "point": 1.5 },
+              { "name": "Washington Nationals", "price": 150, "point": -1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:42:41Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:41Z",
+            "outcomes": [
+              { "name": "St. Louis Cardinals", "price": 105 },
+              { "name": "Washington Nationals", "price": -125 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:42:41Z",
+            "outcomes": [
+              { "name": "St. Louis Cardinals", "price": -190, "point": 1.5 },
+              { "name": "Washington Nationals", "price": 155, "point": -1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-07-06T13:43:49Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:49Z",
+            "outcomes": [
+              { "name": "St. Louis Cardinals", "price": 112 },
+              { "name": "Washington Nationals", "price": -122 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:49Z",
+            "outcomes": [
+              { "name": "St. Louis Cardinals", "price": -190, "point": 1.5 },
+              { "name": "Washington Nationals", "price": 160, "point": -1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2024-07-06T13:44:02Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:02Z",
+            "outcomes": [
+              { "name": "St. Louis Cardinals", "price": 112 },
+              { "name": "Washington Nationals", "price": -122 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:02Z",
+            "outcomes": [
+              { "name": "St. Louis Cardinals", "price": -175, "point": 1.5 },
+              { "name": "Washington Nationals", "price": 155, "point": -1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:03Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:03Z",
+            "outcomes": [
+              { "name": "St. Louis Cardinals", "price": 108 },
+              { "name": "Washington Nationals", "price": -127 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:03Z",
+            "outcomes": [
+              { "name": "St. Louis Cardinals", "price": -195, "point": 1.5 },
+              { "name": "Washington Nationals", "price": 155, "point": -1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:44:04Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:04Z",
+            "outcomes": [
+              { "name": "St. Louis Cardinals", "price": 107 },
+              { "name": "Washington Nationals", "price": -128 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:04Z",
+            "outcomes": [
+              { "name": "St. Louis Cardinals", "price": -185, "point": 1.5 },
+              { "name": "Washington Nationals", "price": 160, "point": -1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "wynnbet",
+        "title": "WynnBET",
+        "last_update": "2024-07-06T13:42:57Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:57Z",
+            "outcomes": [
+              { "name": "St. Louis Cardinals", "price": 113 },
+              { "name": "Washington Nationals", "price": -125 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:42:57Z",
+            "outcomes": [
+              { "name": "St. Louis Cardinals", "price": -189, "point": 1.5 },
+              { "name": "Washington Nationals", "price": 152, "point": -1.5 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ea112d5fa8498cfece02c166dd5e8c09",
+    "sport_key": "baseball_mlb",
+    "sport_title": "MLB",
+    "commence_time": "2024-07-06T20:06:00Z",
+    "home_team": "Texas Rangers",
+    "away_team": "Tampa Bay Rays",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:43:52Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:52Z",
+            "outcomes": [
+              { "name": "Tampa Bay Rays", "price": -106 },
+              { "name": "Texas Rangers", "price": -110 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:52Z",
+            "outcomes": [
+              { "name": "Tampa Bay Rays", "price": 152, "point": -1.5 },
+              { "name": "Texas Rangers", "price": -184, "point": 1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:43:50Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:50Z",
+            "outcomes": [
+              { "name": "Tampa Bay Rays", "price": -105 },
+              { "name": "Texas Rangers", "price": -105 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:50Z",
+            "outcomes": [
+              { "name": "Tampa Bay Rays", "price": 150, "point": -1.5 },
+              { "name": "Texas Rangers", "price": -165, "point": 1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T13:43:48Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:48Z",
+            "outcomes": [
+              { "name": "Tampa Bay Rays", "price": -105 },
+              { "name": "Texas Rangers", "price": -105 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:48Z",
+            "outcomes": [
+              { "name": "Tampa Bay Rays", "price": 147, "point": -1.5 },
+              { "name": "Texas Rangers", "price": -167, "point": 1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:03Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:03Z",
+            "outcomes": [
+              { "name": "Tampa Bay Rays", "price": -112 },
+              { "name": "Texas Rangers", "price": -106 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:03Z",
+            "outcomes": [
+              { "name": "Tampa Bay Rays", "price": 145, "point": -1.5 },
+              { "name": "Texas Rangers", "price": -177, "point": 1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:42:41Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:41Z",
+            "outcomes": [
+              { "name": "Tampa Bay Rays", "price": -110 },
+              { "name": "Texas Rangers", "price": -110 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:42:41Z",
+            "outcomes": [
+              { "name": "Tampa Bay Rays", "price": 155, "point": -1.5 },
+              { "name": "Texas Rangers", "price": -190, "point": 1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:44:13Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:13Z",
+            "outcomes": [
+              { "name": "Tampa Bay Rays", "price": -111 },
+              { "name": "Texas Rangers", "price": -110 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:13Z",
+            "outcomes": [
+              { "name": "Tampa Bay Rays", "price": 145, "point": -1.5 },
+              { "name": "Texas Rangers", "price": -170, "point": 1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2024-07-06T13:43:27Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:27Z",
+            "outcomes": [
+              { "name": "Tampa Bay Rays", "price": -110 },
+              { "name": "Texas Rangers", "price": -110 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:27Z",
+            "outcomes": [
+              { "name": "Tampa Bay Rays", "price": 150, "point": -1.5 },
+              { "name": "Texas Rangers", "price": -178, "point": 1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2024-07-06T13:44:02Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:02Z",
+            "outcomes": [
+              { "name": "Tampa Bay Rays", "price": -109 },
+              { "name": "Texas Rangers", "price": -101 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:02Z",
+            "outcomes": [
+              { "name": "Tampa Bay Rays", "price": 150, "point": -1.5 },
+              { "name": "Texas Rangers", "price": -170, "point": 1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:43:07Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:07Z",
+            "outcomes": [
+              { "name": "Tampa Bay Rays", "price": -110 },
+              { "name": "Texas Rangers", "price": -110 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:07Z",
+            "outcomes": [
+              { "name": "Tampa Bay Rays", "price": 145, "point": -1.5 },
+              { "name": "Texas Rangers", "price": -175, "point": 1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:44:04Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:04Z",
+            "outcomes": [
+              { "name": "Tampa Bay Rays", "price": -108 },
+              { "name": "Texas Rangers", "price": -112 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:04Z",
+            "outcomes": [
+              { "name": "Tampa Bay Rays", "price": -200, "point": 1.5 },
+              { "name": "Texas Rangers", "price": 170, "point": -1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-07-06T13:43:49Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:49Z",
+            "outcomes": [
+              { "name": "Tampa Bay Rays", "price": -104 },
+              { "name": "Texas Rangers", "price": -106 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:49Z",
+            "outcomes": [
+              { "name": "Tampa Bay Rays", "price": 150, "point": -1.5 },
+              { "name": "Texas Rangers", "price": -170, "point": 1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "wynnbet",
+        "title": "WynnBET",
+        "last_update": "2024-07-06T13:42:57Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:57Z",
+            "outcomes": [
+              { "name": "Tampa Bay Rays", "price": -106 },
+              { "name": "Texas Rangers", "price": -104 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:42:57Z",
+            "outcomes": [
+              { "name": "Tampa Bay Rays", "price": 150, "point": -1.5 },
+              { "name": "Texas Rangers", "price": -185, "point": 1.5 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "b746f3e90d286cb80f538d9307507b1f",
+    "sport_key": "baseball_mlb",
+    "sport_title": "MLB",
+    "commence_time": "2024-07-06T20:08:00Z",
+    "home_team": "Oakland Athletics",
+    "away_team": "Baltimore Orioles",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:43:52Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:52Z",
+            "outcomes": [
+              { "name": "Baltimore Orioles", "price": -178 },
+              { "name": "Oakland Athletics", "price": 150 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:52Z",
+            "outcomes": [
+              { "name": "Baltimore Orioles", "price": -106, "point": -1.5 },
+              { "name": "Oakland Athletics", "price": -113, "point": 1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:43:50Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:50Z",
+            "outcomes": [
+              { "name": "Baltimore Orioles", "price": -162 },
+              { "name": "Oakland Athletics", "price": 148 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:50Z",
+            "outcomes": [
+              { "name": "Baltimore Orioles", "price": -101, "point": -1.5 },
+              { "name": "Oakland Athletics", "price": -111, "point": 1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T13:43:48Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:48Z",
+            "outcomes": [
+              { "name": "Baltimore Orioles", "price": -160 },
+              { "name": "Oakland Athletics", "price": 147 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:48Z",
+            "outcomes": [
+              { "name": "Baltimore Orioles", "price": -105, "point": -1.5 },
+              { "name": "Oakland Athletics", "price": -115, "point": 1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:43:07Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:07Z",
+            "outcomes": [
+              { "name": "Baltimore Orioles", "price": -170 },
+              { "name": "Oakland Athletics", "price": 142 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:07Z",
+            "outcomes": [
+              { "name": "Baltimore Orioles", "price": -105, "point": -1.5 },
+              { "name": "Oakland Athletics", "price": -115, "point": 1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2024-07-06T13:43:27Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:27Z",
+            "outcomes": [
+              { "name": "Baltimore Orioles", "price": -170 },
+              { "name": "Oakland Athletics", "price": 143 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:27Z",
+            "outcomes": [
+              { "name": "Baltimore Orioles", "price": -105, "point": -1.5 },
+              { "name": "Oakland Athletics", "price": -115, "point": 1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:44:13Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:13Z",
+            "outcomes": [
+              { "name": "Baltimore Orioles", "price": -175 },
+              { "name": "Oakland Athletics", "price": 143 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:13Z",
+            "outcomes": [
+              { "name": "Baltimore Orioles", "price": -105, "point": -1.5 },
+              { "name": "Oakland Athletics", "price": -115, "point": 1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:42:41Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:41Z",
+            "outcomes": [
+              { "name": "Baltimore Orioles", "price": -185 },
+              { "name": "Oakland Athletics", "price": 150 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:42:41Z",
+            "outcomes": [
+              { "name": "Baltimore Orioles", "price": -110, "point": -1.5 },
+              { "name": "Oakland Athletics", "price": -110, "point": 1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2024-07-06T13:44:02Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:02Z",
+            "outcomes": [
+              { "name": "Baltimore Orioles", "price": -160 },
+              { "name": "Oakland Athletics", "price": 145 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:02Z",
+            "outcomes": [
+              { "name": "Baltimore Orioles", "price": 100, "point": -1.5 },
+              { "name": "Oakland Athletics", "price": -120, "point": 1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:03Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:03Z",
+            "outcomes": [
+              { "name": "Baltimore Orioles", "price": -180 },
+              { "name": "Oakland Athletics", "price": 150 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:03Z",
+            "outcomes": [
+              { "name": "Baltimore Orioles", "price": -110, "point": -1.5 },
+              { "name": "Oakland Athletics", "price": -110, "point": 1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-07-06T13:43:49Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:49Z",
+            "outcomes": [
+              { "name": "Baltimore Orioles", "price": -160 },
+              { "name": "Oakland Athletics", "price": 145 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:49Z",
+            "outcomes": [
+              { "name": "Baltimore Orioles", "price": -105, "point": -1.5 },
+              { "name": "Oakland Athletics", "price": -115, "point": 1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:44:04Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:04Z",
+            "outcomes": [
+              { "name": "Baltimore Orioles", "price": -178 },
+              { "name": "Oakland Athletics", "price": 146 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:04Z",
+            "outcomes": [
+              { "name": "Baltimore Orioles", "price": -110, "point": -1.5 },
+              { "name": "Oakland Athletics", "price": -110, "point": 1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "wynnbet",
+        "title": "WynnBET",
+        "last_update": "2024-07-06T13:42:57Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:57Z",
+            "outcomes": [
+              { "name": "Baltimore Orioles", "price": -170 },
+              { "name": "Oakland Athletics", "price": 155 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:42:57Z",
+            "outcomes": [
+              { "name": "Baltimore Orioles", "price": -109, "point": -1.5 },
+              { "name": "Oakland Athletics", "price": -112, "point": 1.5 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "0aaea21ac748b2ed69c66957dc9c76d4",
+    "sport_key": "baseball_mlb",
+    "sport_title": "MLB",
+    "commence_time": "2024-07-06T20:10:00Z",
+    "home_team": "Cleveland Guardians",
+    "away_team": "San Francisco Giants",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:43:52Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:52Z",
+            "outcomes": [
+              { "name": "Cleveland Guardians", "price": -126 },
+              { "name": "San Francisco Giants", "price": 108 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:52Z",
+            "outcomes": [
+              { "name": "Cleveland Guardians", "price": -200, "point": 1.5 },
+              { "name": "San Francisco Giants", "price": 164, "point": -1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T13:43:48Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:48Z",
+            "outcomes": [
+              { "name": "Cleveland Guardians", "price": -123 },
+              { "name": "San Francisco Giants", "price": 113 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:48Z",
+            "outcomes": [
+              { "name": "Cleveland Guardians", "price": 160, "point": -1.5 },
+              { "name": "San Francisco Giants", "price": -180, "point": 1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:43:50Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:50Z",
+            "outcomes": [
+              { "name": "Cleveland Guardians", "price": -123 },
+              { "name": "San Francisco Giants", "price": 113 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:50Z",
+            "outcomes": [
+              { "name": "Cleveland Guardians", "price": 162, "point": -1.5 },
+              { "name": "San Francisco Giants", "price": -178, "point": 1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:43:07Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:07Z",
+            "outcomes": [
+              { "name": "Cleveland Guardians", "price": -130 },
+              { "name": "San Francisco Giants", "price": 110 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:07Z",
+            "outcomes": [
+              { "name": "Cleveland Guardians", "price": 154, "point": -1.5 },
+              { "name": "San Francisco Giants", "price": -185, "point": 1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2024-07-06T13:43:27Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:27Z",
+            "outcomes": [
+              { "name": "Cleveland Guardians", "price": -130 },
+              { "name": "San Francisco Giants", "price": 110 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:27Z",
+            "outcomes": [
+              { "name": "Cleveland Guardians", "price": 158, "point": -1.5 },
+              { "name": "San Francisco Giants", "price": -190, "point": 1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:44:13Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:13Z",
+            "outcomes": [
+              { "name": "Cleveland Guardians", "price": -133 },
+              { "name": "San Francisco Giants", "price": 109 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:13Z",
+            "outcomes": [
+              { "name": "Cleveland Guardians", "price": 150, "point": -1.5 },
+              { "name": "San Francisco Giants", "price": -180, "point": 1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:42:41Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:41Z",
+            "outcomes": [
+              { "name": "Cleveland Guardians", "price": -125 },
+              { "name": "San Francisco Giants", "price": 105 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:42:41Z",
+            "outcomes": [
+              { "name": "Cleveland Guardians", "price": 150, "point": -1.5 },
+              { "name": "San Francisco Giants", "price": -185, "point": 1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-07-06T13:43:49Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:49Z",
+            "outcomes": [
+              { "name": "Cleveland Guardians", "price": -123 },
+              { "name": "San Francisco Giants", "price": 113 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:49Z",
+            "outcomes": [
+              { "name": "Cleveland Guardians", "price": 160, "point": -1.5 },
+              { "name": "San Francisco Giants", "price": -190, "point": 1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2024-07-06T13:44:02Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:02Z",
+            "outcomes": [
+              { "name": "Cleveland Guardians", "price": -130 },
+              { "name": "San Francisco Giants", "price": 120 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:02Z",
+            "outcomes": [
+              { "name": "Cleveland Guardians", "price": 155, "point": -1.5 },
+              { "name": "San Francisco Giants", "price": -175, "point": 1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:44:04Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:04Z",
+            "outcomes": [
+              { "name": "Cleveland Guardians", "price": -132 },
+              { "name": "San Francisco Giants", "price": 110 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:04Z",
+            "outcomes": [
+              { "name": "Cleveland Guardians", "price": 155, "point": -1.5 },
+              { "name": "San Francisco Giants", "price": -180, "point": 1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:03Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:03Z",
+            "outcomes": [
+              { "name": "Cleveland Guardians", "price": -129 },
+              { "name": "San Francisco Giants", "price": 110 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:03Z",
+            "outcomes": [
+              { "name": "Cleveland Guardians", "price": 163, "point": -1.5 },
+              { "name": "San Francisco Giants", "price": -205, "point": 1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "wynnbet",
+        "title": "WynnBET",
+        "last_update": "2024-07-06T13:42:57Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:57Z",
+            "outcomes": [
+              { "name": "Cleveland Guardians", "price": -125 },
+              { "name": "San Francisco Giants", "price": 113 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:42:57Z",
+            "outcomes": [
+              { "name": "Cleveland Guardians", "price": 155, "point": -1.5 },
+              { "name": "San Francisco Giants", "price": -192, "point": 1.5 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "672448bc62bd53ad702b7bbab7adb6bc",
+    "sport_key": "baseball_mlb",
+    "sport_title": "MLB",
+    "commence_time": "2024-07-06T20:11:00Z",
+    "home_team": "Miami Marlins",
+    "away_team": "Chicago White Sox",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:43:52Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:52Z",
+            "outcomes": [
+              { "name": "Chicago White Sox", "price": -154 },
+              { "name": "Miami Marlins", "price": 130 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:52Z",
+            "outcomes": [
+              { "name": "Chicago White Sox", "price": 114, "point": -1.5 },
+              { "name": "Miami Marlins", "price": -137, "point": 1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:43:50Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:50Z",
+            "outcomes": [
+              { "name": "Chicago White Sox", "price": -150 },
+              { "name": "Miami Marlins", "price": 138 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:50Z",
+            "outcomes": [
+              { "name": "Chicago White Sox", "price": 121, "point": -1.5 },
+              { "name": "Miami Marlins", "price": -133, "point": 1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T13:43:48Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:48Z",
+            "outcomes": [
+              { "name": "Chicago White Sox", "price": -150 },
+              { "name": "Miami Marlins", "price": 138 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:48Z",
+            "outcomes": [
+              { "name": "Chicago White Sox", "price": 117, "point": -1.5 },
+              { "name": "Miami Marlins", "price": -137, "point": 1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:43:07Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:07Z",
+            "outcomes": [
+              { "name": "Chicago White Sox", "price": -155 },
+              { "name": "Miami Marlins", "price": 130 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:07Z",
+            "outcomes": [
+              { "name": "Chicago White Sox", "price": 114, "point": -1.5 },
+              { "name": "Miami Marlins", "price": -135, "point": 1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2024-07-06T13:43:27Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:27Z",
+            "outcomes": [
+              { "name": "Chicago White Sox", "price": -155 },
+              { "name": "Miami Marlins", "price": 130 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:27Z",
+            "outcomes": [
+              { "name": "Chicago White Sox", "price": 115, "point": -1.5 },
+              { "name": "Miami Marlins", "price": -135, "point": 1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:44:13Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:13Z",
+            "outcomes": [
+              { "name": "Chicago White Sox", "price": -159 },
+              { "name": "Miami Marlins", "price": 128 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:13Z",
+            "outcomes": [
+              { "name": "Chicago White Sox", "price": 115, "point": -1.5 },
+              { "name": "Miami Marlins", "price": -135, "point": 1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:42:41Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:41Z",
+            "outcomes": [
+              { "name": "Chicago White Sox", "price": -160 },
+              { "name": "Miami Marlins", "price": 135 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:42:41Z",
+            "outcomes": [
+              { "name": "Chicago White Sox", "price": 110, "point": -1.5 },
+              { "name": "Miami Marlins", "price": -135, "point": 1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-07-06T13:43:49Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:49Z",
+            "outcomes": [
+              { "name": "Chicago White Sox", "price": -150 },
+              { "name": "Miami Marlins", "price": 135 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:49Z",
+            "outcomes": [
+              { "name": "Chicago White Sox", "price": 115, "point": -1.5 },
+              { "name": "Miami Marlins", "price": -135, "point": 1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2024-07-06T13:44:02Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:02Z",
+            "outcomes": [
+              { "name": "Chicago White Sox", "price": -150 },
+              { "name": "Miami Marlins", "price": 135 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:02Z",
+            "outcomes": [
+              { "name": "Chicago White Sox", "price": 115, "point": -1.5 },
+              { "name": "Miami Marlins", "price": -135, "point": 1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:03Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:03Z",
+            "outcomes": [
+              { "name": "Chicago White Sox", "price": -159 },
+              { "name": "Miami Marlins", "price": 135 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:03Z",
+            "outcomes": [
+              { "name": "Chicago White Sox", "price": 112, "point": -1.5 },
+              { "name": "Miami Marlins", "price": -137, "point": 1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:44:04Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:04Z",
+            "outcomes": [
+              { "name": "Chicago White Sox", "price": -157 },
+              { "name": "Miami Marlins", "price": 131 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:04Z",
+            "outcomes": [
+              { "name": "Chicago White Sox", "price": 115, "point": -1.5 },
+              { "name": "Miami Marlins", "price": -135, "point": 1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "wynnbet",
+        "title": "WynnBET",
+        "last_update": "2024-07-06T13:42:57Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:57Z",
+            "outcomes": [
+              { "name": "Chicago White Sox", "price": -155 },
+              { "name": "Miami Marlins", "price": 140 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:42:57Z",
+            "outcomes": [
+              { "name": "Chicago White Sox", "price": 112, "point": -1.5 },
+              { "name": "Miami Marlins", "price": -137, "point": 1.5 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "5e9bbc38b00879eebb87d4cc8784ec59",
+    "sport_key": "baseball_mlb",
+    "sport_title": "MLB",
+    "commence_time": "2024-07-06T20:11:00Z",
+    "home_team": "Cincinnati Reds",
+    "away_team": "Detroit Tigers",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:43:52Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:52Z",
+            "outcomes": [
+              { "name": "Cincinnati Reds", "price": -158 },
+              { "name": "Detroit Tigers", "price": 134 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:52Z",
+            "outcomes": [
+              { "name": "Cincinnati Reds", "price": 130, "point": -1.5 },
+              { "name": "Detroit Tigers", "price": -156, "point": 1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:43:07Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:07Z",
+            "outcomes": [
+              { "name": "Cincinnati Reds", "price": -162 },
+              { "name": "Detroit Tigers", "price": 136 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:07Z",
+            "outcomes": [
+              { "name": "Cincinnati Reds", "price": 130, "point": -1.5 },
+              { "name": "Detroit Tigers", "price": -155, "point": 1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:44:04Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:04Z",
+            "outcomes": [
+              { "name": "Cincinnati Reds", "price": -164 },
+              { "name": "Detroit Tigers", "price": 138 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:04Z",
+            "outcomes": [
+              { "name": "Cincinnati Reds", "price": 130, "point": -1.5 },
+              { "name": "Detroit Tigers", "price": -150, "point": 1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:42:41Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:41Z",
+            "outcomes": [
+              { "name": "Cincinnati Reds", "price": -155 },
+              { "name": "Detroit Tigers", "price": 130 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:42:41Z",
+            "outcomes": [
+              { "name": "Cincinnati Reds", "price": 125, "point": -1.5 },
+              { "name": "Detroit Tigers", "price": -155, "point": 1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2024-07-06T13:43:27Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:27Z",
+            "outcomes": [
+              { "name": "Cincinnati Reds", "price": -165 },
+              { "name": "Detroit Tigers", "price": 140 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:27Z",
+            "outcomes": [
+              { "name": "Cincinnati Reds", "price": 130, "point": -1.5 },
+              { "name": "Detroit Tigers", "price": -155, "point": 1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2024-07-06T13:44:02Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:02Z",
+            "outcomes": [
+              { "name": "Cincinnati Reds", "price": -160 },
+              { "name": "Detroit Tigers", "price": 145 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:02Z",
+            "outcomes": [
+              { "name": "Cincinnati Reds", "price": 130, "point": -1.5 },
+              { "name": "Detroit Tigers", "price": -150, "point": 1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:03Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:03Z",
+            "outcomes": [
+              { "name": "Cincinnati Reds", "price": -159 },
+              { "name": "Detroit Tigers", "price": 135 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:03Z",
+            "outcomes": [
+              { "name": "Cincinnati Reds", "price": 130, "point": -1.5 },
+              { "name": "Detroit Tigers", "price": -162, "point": 1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "wynnbet",
+        "title": "WynnBET",
+        "last_update": "2024-07-06T13:42:57Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:57Z",
+            "outcomes": [
+              { "name": "Cincinnati Reds", "price": -141 },
+              { "name": "Detroit Tigers", "price": 129 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:42:57Z",
+            "outcomes": [
+              { "name": "Cincinnati Reds", "price": 127, "point": -1.5 },
+              { "name": "Detroit Tigers", "price": -156, "point": 1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-07-06T13:43:49Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:49Z",
+            "outcomes": [
+              { "name": "Cincinnati Reds", "price": -157 },
+              { "name": "Detroit Tigers", "price": 142 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:49Z",
+            "outcomes": [
+              { "name": "Cincinnati Reds", "price": 130, "point": -1.5 },
+              { "name": "Detroit Tigers", "price": -150, "point": 1.5 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "6f37d5d5f08b12dd0b5c2d0d1fe12016",
+    "sport_key": "baseball_mlb",
+    "sport_title": "MLB",
+    "commence_time": "2024-07-06T20:11:00Z",
+    "home_team": "Seattle Mariners",
+    "away_team": "Toronto Blue Jays",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:43:52Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:52Z",
+            "outcomes": [
+              { "name": "Seattle Mariners", "price": -120 },
+              { "name": "Toronto Blue Jays", "price": 102 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:52Z",
+            "outcomes": [
+              { "name": "Seattle Mariners", "price": -196, "point": 1.5 },
+              { "name": "Toronto Blue Jays", "price": 162, "point": -1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2024-07-06T13:43:27Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:27Z",
+            "outcomes": [
+              { "name": "Seattle Mariners", "price": -115 },
+              { "name": "Toronto Blue Jays", "price": -105 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:27Z",
+            "outcomes": [
+              { "name": "Seattle Mariners", "price": 175, "point": -1.5 },
+              { "name": "Toronto Blue Jays", "price": -210, "point": 1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:43:50Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:50Z",
+            "outcomes": [
+              { "name": "Seattle Mariners", "price": -109 },
+              { "name": "Toronto Blue Jays", "price": -101 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:50Z",
+            "outcomes": [
+              { "name": "Seattle Mariners", "price": 181, "point": -1.5 },
+              { "name": "Toronto Blue Jays", "price": -200, "point": 1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T13:43:48Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:48Z",
+            "outcomes": [
+              { "name": "Seattle Mariners", "price": -109 },
+              { "name": "Toronto Blue Jays", "price": -101 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:48Z",
+            "outcomes": [
+              { "name": "Seattle Mariners", "price": 175, "point": -1.5 },
+              { "name": "Toronto Blue Jays", "price": -205, "point": 1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2024-07-06T13:44:02Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:02Z",
+            "outcomes": [
+              { "name": "Seattle Mariners", "price": -110 },
+              { "name": "Toronto Blue Jays", "price": 100 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:02Z",
+            "outcomes": [
+              { "name": "Seattle Mariners", "price": 175, "point": -1.5 },
+              { "name": "Toronto Blue Jays", "price": -205, "point": 1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:44:13Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:13Z",
+            "outcomes": [
+              { "name": "Seattle Mariners", "price": -118 },
+              { "name": "Toronto Blue Jays", "price": -104 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:13Z",
+            "outcomes": [
+              { "name": "Seattle Mariners", "price": 160, "point": -1.5 },
+              { "name": "Toronto Blue Jays", "price": -200, "point": 1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:44:04Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:04Z",
+            "outcomes": [
+              { "name": "Seattle Mariners", "price": -117 },
+              { "name": "Toronto Blue Jays", "price": -103 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:04Z",
+            "outcomes": [
+              { "name": "Seattle Mariners", "price": 175, "point": -1.5 },
+              { "name": "Toronto Blue Jays", "price": -210, "point": 1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:42:41Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:41Z",
+            "outcomes": [
+              { "name": "Seattle Mariners", "price": -120 },
+              { "name": "Toronto Blue Jays", "price": 100 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:42:41Z",
+            "outcomes": [
+              { "name": "Seattle Mariners", "price": -210, "point": 1.5 },
+              { "name": "Toronto Blue Jays", "price": 160, "point": -1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:03Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:03Z",
+            "outcomes": [
+              { "name": "Seattle Mariners", "price": -118 },
+              { "name": "Toronto Blue Jays", "price": 100 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:03Z",
+            "outcomes": [
+              { "name": "Seattle Mariners", "price": -215, "point": 1.5 },
+              { "name": "Toronto Blue Jays", "price": 165, "point": -1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:43:07Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:07Z",
+            "outcomes": [
+              { "name": "Seattle Mariners", "price": -115 },
+              { "name": "Toronto Blue Jays", "price": -105 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:07Z",
+            "outcomes": [
+              { "name": "Seattle Mariners", "price": -198, "point": 1.5 },
+              { "name": "Toronto Blue Jays", "price": 164, "point": -1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-07-06T13:43:49Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:49Z",
+            "outcomes": [
+              { "name": "Seattle Mariners", "price": -109 },
+              { "name": "Toronto Blue Jays", "price": -101 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:49Z",
+            "outcomes": [
+              { "name": "Seattle Mariners", "price": 175, "point": -1.5 },
+              { "name": "Toronto Blue Jays", "price": -210, "point": 1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "wynnbet",
+        "title": "WynnBET",
+        "last_update": "2024-07-06T13:42:57Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:57Z",
+            "outcomes": [
+              { "name": "Seattle Mariners", "price": -115 },
+              { "name": "Toronto Blue Jays", "price": 105 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:42:57Z",
+            "outcomes": [
+              { "name": "Seattle Mariners", "price": -200, "point": 1.5 },
+              { "name": "Toronto Blue Jays", "price": 160, "point": -1.5 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "73420906e8e084a80b1bfbbdd9f5f053",
+    "sport_key": "baseball_mlb",
+    "sport_title": "MLB",
+    "commence_time": "2024-07-06T23:16:00Z",
+    "home_team": "Atlanta Braves",
+    "away_team": "Philadelphia Phillies",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:43:52Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:52Z",
+            "outcomes": [
+              { "name": "Atlanta Braves", "price": -112 },
+              { "name": "Philadelphia Phillies", "price": -104 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:52Z",
+            "outcomes": [
+              { "name": "Atlanta Braves", "price": -182, "point": 1.5 },
+              { "name": "Philadelphia Phillies", "price": 150, "point": -1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:43:50Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:50Z",
+            "outcomes": [
+              { "name": "Atlanta Braves", "price": -105 },
+              { "name": "Philadelphia Phillies", "price": -105 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:50Z",
+            "outcomes": [
+              { "name": "Atlanta Braves", "price": -173, "point": 1.5 },
+              { "name": "Philadelphia Phillies", "price": 157, "point": -1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T13:43:48Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:48Z",
+            "outcomes": [
+              { "name": "Atlanta Braves", "price": -105 },
+              { "name": "Philadelphia Phillies", "price": -105 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:48Z",
+            "outcomes": [
+              { "name": "Atlanta Braves", "price": -175, "point": 1.5 },
+              { "name": "Philadelphia Phillies", "price": 155, "point": -1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:43:07Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:07Z",
+            "outcomes": [
+              { "name": "Atlanta Braves", "price": -112 },
+              { "name": "Philadelphia Phillies", "price": -108 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:07Z",
+            "outcomes": [
+              { "name": "Atlanta Braves", "price": -180, "point": 1.5 },
+              { "name": "Philadelphia Phillies", "price": 150, "point": -1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2024-07-06T13:43:27Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:27Z",
+            "outcomes": [
+              { "name": "Atlanta Braves", "price": -115 },
+              { "name": "Philadelphia Phillies", "price": -105 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:27Z",
+            "outcomes": [
+              { "name": "Atlanta Braves", "price": -178, "point": 1.5 },
+              { "name": "Philadelphia Phillies", "price": 150, "point": -1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:44:13Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:13Z",
+            "outcomes": [
+              { "name": "Atlanta Braves", "price": -114 },
+              { "name": "Philadelphia Phillies", "price": -108 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:13Z",
+            "outcomes": [
+              { "name": "Atlanta Braves", "price": -190, "point": 1.5 },
+              { "name": "Philadelphia Phillies", "price": 155, "point": -1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:42:41Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:41Z",
+            "outcomes": [
+              { "name": "Atlanta Braves", "price": -115 },
+              { "name": "Philadelphia Phillies", "price": -105 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-07-06T13:43:49Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:49Z",
+            "outcomes": [
+              { "name": "Atlanta Braves", "price": -106 },
+              { "name": "Philadelphia Phillies", "price": -104 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:49Z",
+            "outcomes": [
+              { "name": "Atlanta Braves", "price": -175, "point": 1.5 },
+              { "name": "Philadelphia Phillies", "price": 155, "point": -1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2024-07-06T13:44:02Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:02Z",
+            "outcomes": [
+              { "name": "Atlanta Braves", "price": -108 },
+              { "name": "Philadelphia Phillies", "price": -102 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:02Z",
+            "outcomes": [
+              { "name": "Atlanta Braves", "price": 175, "point": -1.5 },
+              { "name": "Philadelphia Phillies", "price": -205, "point": 1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:03Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:03Z",
+            "outcomes": [
+              { "name": "Atlanta Braves", "price": -110 },
+              { "name": "Philadelphia Phillies", "price": -106 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:03Z",
+            "outcomes": [
+              { "name": "Atlanta Braves", "price": -190, "point": 1.5 },
+              { "name": "Philadelphia Phillies", "price": 155, "point": -1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:44:04Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:04Z",
+            "outcomes": [
+              { "name": "Atlanta Braves", "price": -109 },
+              { "name": "Philadelphia Phillies", "price": -111 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:04Z",
+            "outcomes": [
+              { "name": "Atlanta Braves", "price": 185, "point": -1.5 },
+              { "name": "Philadelphia Phillies", "price": -225, "point": 1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "wynnbet",
+        "title": "WynnBET",
+        "last_update": "2024-07-06T13:42:57Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:57Z",
+            "outcomes": [
+              { "name": "Atlanta Braves", "price": 102 },
+              { "name": "Philadelphia Phillies", "price": -112 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:42:57Z",
+            "outcomes": [
+              { "name": "Atlanta Braves", "price": -185, "point": 1.5 },
+              { "name": "Philadelphia Phillies", "price": 150, "point": -1.5 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "3c85a87b20c616e75aea19ca6fbdf222",
+    "sport_key": "baseball_mlb",
+    "sport_title": "MLB",
+    "commence_time": "2024-07-06T23:16:00Z",
+    "home_team": "Los Angeles Dodgers",
+    "away_team": "Milwaukee Brewers",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:43:52Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:52Z",
+            "outcomes": [
+              { "name": "Los Angeles Dodgers", "price": -118 },
+              { "name": "Milwaukee Brewers", "price": 100 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:52Z",
+            "outcomes": [
+              { "name": "Los Angeles Dodgers", "price": -192, "point": 1.5 },
+              { "name": "Milwaukee Brewers", "price": 158, "point": -1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:43:50Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:50Z",
+            "outcomes": [
+              { "name": "Los Angeles Dodgers", "price": -106 },
+              { "name": "Milwaukee Brewers", "price": -104 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:50Z",
+            "outcomes": [
+              { "name": "Los Angeles Dodgers", "price": 186, "point": -1.5 },
+              { "name": "Milwaukee Brewers", "price": -205, "point": 1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T13:43:48Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:48Z",
+            "outcomes": [
+              { "name": "Los Angeles Dodgers", "price": -106 },
+              { "name": "Milwaukee Brewers", "price": -104 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:48Z",
+            "outcomes": [
+              { "name": "Los Angeles Dodgers", "price": 180, "point": -1.5 },
+              { "name": "Milwaukee Brewers", "price": -210, "point": 1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:43:07Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:07Z",
+            "outcomes": [
+              { "name": "Los Angeles Dodgers", "price": -112 },
+              { "name": "Milwaukee Brewers", "price": -108 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:07Z",
+            "outcomes": [
+              { "name": "Los Angeles Dodgers", "price": -185, "point": 1.5 },
+              { "name": "Milwaukee Brewers", "price": 154, "point": -1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:44:13Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:13Z",
+            "outcomes": [
+              { "name": "Los Angeles Dodgers", "price": -114 },
+              { "name": "Milwaukee Brewers", "price": -108 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:13Z",
+            "outcomes": [
+              { "name": "Los Angeles Dodgers", "price": 165, "point": -1.5 },
+              { "name": "Milwaukee Brewers", "price": -210, "point": 1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2024-07-06T13:43:27Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:27Z",
+            "outcomes": [
+              { "name": "Los Angeles Dodgers", "price": -115 },
+              { "name": "Milwaukee Brewers", "price": -105 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:27Z",
+            "outcomes": [
+              { "name": "Los Angeles Dodgers", "price": 180, "point": -1.5 },
+              { "name": "Milwaukee Brewers", "price": -220, "point": 1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:42:41Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:41Z",
+            "outcomes": [
+              { "name": "Los Angeles Dodgers", "price": -115 },
+              { "name": "Milwaukee Brewers", "price": -105 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:42:41Z",
+            "outcomes": [
+              { "name": "Los Angeles Dodgers", "price": -190, "point": 1.5 },
+              { "name": "Milwaukee Brewers", "price": 155, "point": -1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2024-07-06T13:44:02Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:02Z",
+            "outcomes": [
+              { "name": "Los Angeles Dodgers", "price": -110 },
+              { "name": "Milwaukee Brewers", "price": 100 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:02Z",
+            "outcomes": [
+              { "name": "Los Angeles Dodgers", "price": 180, "point": -1.5 },
+              { "name": "Milwaukee Brewers", "price": -210, "point": 1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:03Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:03Z",
+            "outcomes": [
+              { "name": "Los Angeles Dodgers", "price": -114 },
+              { "name": "Milwaukee Brewers", "price": -103 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:03Z",
+            "outcomes": [
+              { "name": "Los Angeles Dodgers", "price": -205, "point": 1.5 },
+              { "name": "Milwaukee Brewers", "price": 160, "point": -1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:44:04Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:04Z",
+            "outcomes": [
+              { "name": "Los Angeles Dodgers", "price": -114 },
+              { "name": "Milwaukee Brewers", "price": -106 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:04Z",
+            "outcomes": [
+              { "name": "Los Angeles Dodgers", "price": 185, "point": -1.5 },
+              { "name": "Milwaukee Brewers", "price": -225, "point": 1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-07-06T13:43:49Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:49Z",
+            "outcomes": [
+              { "name": "Los Angeles Dodgers", "price": -106 },
+              { "name": "Milwaukee Brewers", "price": -104 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:49Z",
+            "outcomes": [
+              { "name": "Los Angeles Dodgers", "price": 175, "point": -1.5 },
+              { "name": "Milwaukee Brewers", "price": -210, "point": 1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "wynnbet",
+        "title": "WynnBET",
+        "last_update": "2024-07-06T13:42:57Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:57Z",
+            "outcomes": [
+              { "name": "Los Angeles Dodgers", "price": -110 },
+              { "name": "Milwaukee Brewers", "price": 100 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:42:57Z",
+            "outcomes": [
+              { "name": "Los Angeles Dodgers", "price": -189, "point": 1.5 },
+              { "name": "Milwaukee Brewers", "price": 152, "point": -1.5 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "7dcb9df3e254952e391222dfaedf8516",
+    "sport_key": "baseball_mlb",
+    "sport_title": "MLB",
+    "commence_time": "2024-07-07T01:11:00Z",
+    "home_team": "Colorado Rockies",
+    "away_team": "Kansas City Royals",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:43:52Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:52Z",
+            "outcomes": [
+              { "name": "Colorado Rockies", "price": 146 },
+              { "name": "Kansas City Royals", "price": -174 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:52Z",
+            "outcomes": [
+              { "name": "Colorado Rockies", "price": -106, "point": 1.5 },
+              { "name": "Kansas City Royals", "price": -113, "point": -1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T13:43:48Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:48Z",
+            "outcomes": [
+              { "name": "Colorado Rockies", "price": 153 },
+              { "name": "Kansas City Royals", "price": -167 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:48Z",
+            "outcomes": [
+              { "name": "Colorado Rockies", "price": -107, "point": 1.5 },
+              { "name": "Kansas City Royals", "price": -113, "point": -1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:43:50Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:50Z",
+            "outcomes": [
+              { "name": "Colorado Rockies", "price": 153 },
+              { "name": "Kansas City Royals", "price": -167 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:50Z",
+            "outcomes": [
+              { "name": "Colorado Rockies", "price": -103, "point": 1.5 },
+              { "name": "Kansas City Royals", "price": -109, "point": -1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:43:07Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:07Z",
+            "outcomes": [
+              { "name": "Colorado Rockies", "price": 145 },
+              { "name": "Kansas City Royals", "price": -175 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:07Z",
+            "outcomes": [
+              { "name": "Colorado Rockies", "price": -105, "point": 1.5 },
+              { "name": "Kansas City Royals", "price": -115, "point": -1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2024-07-06T13:43:27Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:27Z",
+            "outcomes": [
+              { "name": "Colorado Rockies", "price": 150 },
+              { "name": "Kansas City Royals", "price": -178 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:27Z",
+            "outcomes": [
+              { "name": "Colorado Rockies", "price": -105, "point": 1.5 },
+              { "name": "Kansas City Royals", "price": -115, "point": -1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:44:13Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:13Z",
+            "outcomes": [
+              { "name": "Colorado Rockies", "price": 144 },
+              { "name": "Kansas City Royals", "price": -179 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:13Z",
+            "outcomes": [
+              { "name": "Colorado Rockies", "price": -110, "point": 1.5 },
+              { "name": "Kansas City Royals", "price": -110, "point": -1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:42:41Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:41Z",
+            "outcomes": [
+              { "name": "Colorado Rockies", "price": 150 },
+              { "name": "Kansas City Royals", "price": -185 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:42:41Z",
+            "outcomes": [
+              { "name": "Colorado Rockies", "price": 100, "point": 1.5 },
+              { "name": "Kansas City Royals", "price": -120, "point": -1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2024-07-06T13:44:02Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:02Z",
+            "outcomes": [
+              { "name": "Colorado Rockies", "price": 157 },
+              { "name": "Kansas City Royals", "price": -172 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:02Z",
+            "outcomes": [
+              { "name": "Colorado Rockies", "price": -105, "point": 1.5 },
+              { "name": "Kansas City Royals", "price": -115, "point": -1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-07-06T13:43:49Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:49Z",
+            "outcomes": [
+              { "name": "Colorado Rockies", "price": 145 },
+              { "name": "Kansas City Royals", "price": -165 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:49Z",
+            "outcomes": [
+              { "name": "Colorado Rockies", "price": -105, "point": 1.5 },
+              { "name": "Kansas City Royals", "price": -115, "point": -1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:03Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:03Z",
+            "outcomes": [
+              { "name": "Colorado Rockies", "price": 148 },
+              { "name": "Kansas City Royals", "price": -177 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:03Z",
+            "outcomes": [
+              { "name": "Colorado Rockies", "price": -108, "point": 1.5 },
+              { "name": "Kansas City Royals", "price": -115, "point": -1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:44:04Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:04Z",
+            "outcomes": [
+              { "name": "Colorado Rockies", "price": 141 },
+              { "name": "Kansas City Royals", "price": -170 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:04Z",
+            "outcomes": [
+              { "name": "Colorado Rockies", "price": -110, "point": 1.5 },
+              { "name": "Kansas City Royals", "price": -110, "point": -1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "wynnbet",
+        "title": "WynnBET",
+        "last_update": "2024-07-06T13:42:57Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:57Z",
+            "outcomes": [
+              { "name": "Colorado Rockies", "price": 158 },
+              { "name": "Kansas City Royals", "price": -175 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:42:57Z",
+            "outcomes": [
+              { "name": "Colorado Rockies", "price": -105, "point": 1.5 },
+              { "name": "Kansas City Royals", "price": -115, "point": -1.5 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "f7f327433c93096e19ed46e76ff782d2",
+    "sport_key": "baseball_mlb",
+    "sport_title": "MLB",
+    "commence_time": "2024-07-07T01:41:00Z",
+    "home_team": "San Diego Padres",
+    "away_team": "Arizona Diamondbacks",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:43:52Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:52Z",
+            "outcomes": [
+              { "name": "Arizona Diamondbacks", "price": 100 },
+              { "name": "San Diego Padres", "price": -118 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:52Z",
+            "outcomes": [
+              { "name": "Arizona Diamondbacks", "price": 168, "point": -1.5 },
+              { "name": "San Diego Padres", "price": -205, "point": 1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:43:50Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:50Z",
+            "outcomes": [
+              { "name": "Arizona Diamondbacks", "price": 107 },
+              { "name": "San Diego Padres", "price": -117 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:50Z",
+            "outcomes": [
+              { "name": "Arizona Diamondbacks", "price": -192, "point": 1.5 },
+              { "name": "San Diego Padres", "price": 174, "point": -1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T13:43:48Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:48Z",
+            "outcomes": [
+              { "name": "Arizona Diamondbacks", "price": 107 },
+              { "name": "San Diego Padres", "price": -117 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:48Z",
+            "outcomes": [
+              { "name": "Arizona Diamondbacks", "price": -195, "point": 1.5 },
+              { "name": "San Diego Padres", "price": 170, "point": -1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:43:07Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:07Z",
+            "outcomes": [
+              { "name": "Arizona Diamondbacks", "price": 102 },
+              { "name": "San Diego Padres", "price": -122 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:07Z",
+            "outcomes": [
+              { "name": "Arizona Diamondbacks", "price": -205, "point": 1.5 },
+              { "name": "San Diego Padres", "price": 170, "point": -1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2024-07-06T13:43:27Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:27Z",
+            "outcomes": [
+              { "name": "Arizona Diamondbacks", "price": 100 },
+              { "name": "San Diego Padres", "price": -120 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:27Z",
+            "outcomes": [
+              { "name": "Arizona Diamondbacks", "price": -205, "point": 1.5 },
+              { "name": "San Diego Padres", "price": 170, "point": -1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:44:13Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:13Z",
+            "outcomes": [
+              { "name": "Arizona Diamondbacks", "price": 101 },
+              { "name": "San Diego Padres", "price": -123 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:13Z",
+            "outcomes": [
+              { "name": "Arizona Diamondbacks", "price": -200, "point": 1.5 },
+              { "name": "San Diego Padres", "price": 160, "point": -1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:42:41Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:41Z",
+            "outcomes": [
+              { "name": "Arizona Diamondbacks", "price": 100 },
+              { "name": "San Diego Padres", "price": -120 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:42:41Z",
+            "outcomes": [
+              { "name": "Arizona Diamondbacks", "price": -225, "point": 1.5 },
+              { "name": "San Diego Padres", "price": 165, "point": -1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2024-07-06T13:44:02Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:02Z",
+            "outcomes": [
+              { "name": "Arizona Diamondbacks", "price": 106 },
+              { "name": "San Diego Padres", "price": -116 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:02Z",
+            "outcomes": [
+              { "name": "Arizona Diamondbacks", "price": -205, "point": 1.5 },
+              { "name": "San Diego Padres", "price": 175, "point": -1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-07-06T13:43:49Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:49Z",
+            "outcomes": [
+              { "name": "Arizona Diamondbacks", "price": 106 },
+              { "name": "San Diego Padres", "price": -116 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:49Z",
+            "outcomes": [
+              { "name": "Arizona Diamondbacks", "price": -200, "point": 1.5 },
+              { "name": "San Diego Padres", "price": 170, "point": -1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:03Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:03Z",
+            "outcomes": [
+              { "name": "Arizona Diamondbacks", "price": 102 },
+              { "name": "San Diego Padres", "price": -120 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:03Z",
+            "outcomes": [
+              { "name": "Arizona Diamondbacks", "price": 175, "point": -1.5 },
+              { "name": "San Diego Padres", "price": -235, "point": 1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:44:04Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:04Z",
+            "outcomes": [
+              { "name": "Arizona Diamondbacks", "price": 102 },
+              { "name": "San Diego Padres", "price": -122 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:04Z",
+            "outcomes": [
+              { "name": "Arizona Diamondbacks", "price": -210, "point": 1.5 },
+              { "name": "San Diego Padres", "price": 175, "point": -1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "wynnbet",
+        "title": "WynnBET",
+        "last_update": "2024-07-06T13:42:57Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:57Z",
+            "outcomes": [
+              { "name": "Arizona Diamondbacks", "price": 110 },
+              { "name": "San Diego Padres", "price": -120 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:42:57Z",
+            "outcomes": [
+              { "name": "Arizona Diamondbacks", "price": 170, "point": -1.5 },
+              { "name": "San Diego Padres", "price": -213, "point": 1.5 }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

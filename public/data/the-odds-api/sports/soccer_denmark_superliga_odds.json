@@ -1,0 +1,398 @@
+[
+  {
+    "id": "3611eb2bf63cd297fb50e79c66770e36",
+    "sport_key": "soccer_denmark_superliga",
+    "sport_title": "Denmark Superliga",
+    "commence_time": "2024-07-19T16:00:00Z",
+    "home_team": "AGF Aarhus",
+    "away_team": "FC Midtjylland",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:43:18Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:18Z",
+            "outcomes": [
+              { "name": "AGF Aarhus", "price": 200 },
+              { "name": "FC Midtjylland", "price": 120 },
+              { "name": "Draw", "price": 230 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:44:26Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:26Z",
+            "outcomes": [
+              { "name": "AGF Aarhus", "price": 205 },
+              { "name": "FC Midtjylland", "price": 130 },
+              { "name": "Draw", "price": 220 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:26Z",
+            "outcomes": [
+              { "name": "AGF Aarhus", "price": -118, "point": 0.25 },
+              { "name": "FC Midtjylland", "price": -102, "point": -0.25 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:10Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:10Z",
+            "outcomes": [
+              { "name": "AGF Aarhus", "price": 210 },
+              { "name": "FC Midtjylland", "price": 120 },
+              { "name": "Draw", "price": 230 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "a094888943887c6d0bd37ee12662db27",
+    "sport_key": "soccer_denmark_superliga",
+    "sport_title": "Denmark Superliga",
+    "commence_time": "2024-07-19T18:00:00Z",
+    "home_team": "FC Nordsjaelland",
+    "away_team": "AaB",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:43:18Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:18Z",
+            "outcomes": [
+              { "name": "AaB", "price": 470 },
+              { "name": "FC Nordsjaelland", "price": -210 },
+              { "name": "Draw", "price": 330 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:44:26Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:26Z",
+            "outcomes": [
+              { "name": "AaB", "price": 500 },
+              { "name": "FC Nordsjaelland", "price": -190 },
+              { "name": "Draw", "price": 320 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:26Z",
+            "outcomes": [
+              { "name": "AaB", "price": 102, "point": 1.0 },
+              { "name": "FC Nordsjaelland", "price": -122, "point": -1.0 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:10Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:10Z",
+            "outcomes": [
+              { "name": "AaB", "price": 500 },
+              { "name": "FC Nordsjaelland", "price": -215 },
+              { "name": "Draw", "price": 325 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "9f49f77ed23883a3a14984bf2fd6a4af",
+    "sport_key": "soccer_denmark_superliga",
+    "sport_title": "Denmark Superliga",
+    "commence_time": "2024-07-21T12:00:00Z",
+    "home_team": "Silkeborg IF",
+    "away_team": "SonderjyskE",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:43:18Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:18Z",
+            "outcomes": [
+              { "name": "Silkeborg IF", "price": -130 },
+              { "name": "SonderjyskE", "price": 300 },
+              { "name": "Draw", "price": 270 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:44:26Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:26Z",
+            "outcomes": [
+              { "name": "Silkeborg IF", "price": -120 },
+              { "name": "SonderjyskE", "price": 320 },
+              { "name": "Draw", "price": 260 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:26Z",
+            "outcomes": [
+              { "name": "Silkeborg IF", "price": -118, "point": -0.5 },
+              { "name": "SonderjyskE", "price": -102, "point": 0.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:10Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:10Z",
+            "outcomes": [
+              { "name": "Silkeborg IF", "price": -125 },
+              { "name": "SonderjyskE", "price": 300 },
+              { "name": "Draw", "price": 250 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "aca290f2374ebee4b2e3d8cc29cc678d",
+    "sport_key": "soccer_denmark_superliga",
+    "sport_title": "Denmark Superliga",
+    "commence_time": "2024-07-21T14:00:00Z",
+    "home_team": "Vejle Boldklub",
+    "away_team": "Randers FC",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:43:18Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:18Z",
+            "outcomes": [
+              { "name": "Randers FC", "price": 140 },
+              { "name": "Vejle Boldklub", "price": 180 },
+              { "name": "Draw", "price": 220 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:44:26Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:26Z",
+            "outcomes": [
+              { "name": "Randers FC", "price": 145 },
+              { "name": "Vejle Boldklub", "price": 185 },
+              { "name": "Draw", "price": 225 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:26Z",
+            "outcomes": [
+              { "name": "Randers FC", "price": -128, "point": 0.0 },
+              { "name": "Vejle Boldklub", "price": 108, "point": 0.0 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:10Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:10Z",
+            "outcomes": [
+              { "name": "Randers FC", "price": 140 },
+              { "name": "Vejle Boldklub", "price": 180 },
+              { "name": "Draw", "price": 230 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "dcc89e38790595e4dadf6e0452b783e3",
+    "sport_key": "soccer_denmark_superliga",
+    "sport_title": "Denmark Superliga",
+    "commence_time": "2024-07-21T16:00:00Z",
+    "home_team": "Viborg FF",
+    "away_team": "Brondby IF",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:43:18Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:18Z",
+            "outcomes": [
+              { "name": "Brondby IF", "price": -115 },
+              { "name": "Viborg FF", "price": 280 },
+              { "name": "Draw", "price": 240 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:44:26Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:26Z",
+            "outcomes": [
+              { "name": "Brondby IF", "price": -105 },
+              { "name": "Viborg FF", "price": 290 },
+              { "name": "Draw", "price": 235 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:26Z",
+            "outcomes": [
+              { "name": "Brondby IF", "price": -102, "point": -0.5 },
+              { "name": "Viborg FF", "price": -118, "point": 0.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:10Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:10Z",
+            "outcomes": [
+              { "name": "Brondby IF", "price": -112 },
+              { "name": "Viborg FF", "price": 300 },
+              { "name": "Draw", "price": 225 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cfdf74347ad0c7750c84608596eb7beb",
+    "sport_key": "soccer_denmark_superliga",
+    "sport_title": "Denmark Superliga",
+    "commence_time": "2024-07-22T17:00:00Z",
+    "home_team": "Lyngby",
+    "away_team": "FC Copenhagen",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:43:18Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:18Z",
+            "outcomes": [
+              { "name": "FC Copenhagen", "price": -200 },
+              { "name": "Lyngby", "price": 490 },
+              { "name": "Draw", "price": 290 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:44:26Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:26Z",
+            "outcomes": [
+              { "name": "FC Copenhagen", "price": -165 },
+              { "name": "Lyngby", "price": 420 },
+              { "name": "Draw", "price": 300 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:26Z",
+            "outcomes": [
+              { "name": "FC Copenhagen", "price": 102, "point": -1.0 },
+              { "name": "Lyngby", "price": -122, "point": 1.0 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:10Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:10Z",
+            "outcomes": [
+              { "name": "FC Copenhagen", "price": -177 },
+              { "name": "Lyngby", "price": 400 },
+              { "name": "Draw", "price": 300 }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

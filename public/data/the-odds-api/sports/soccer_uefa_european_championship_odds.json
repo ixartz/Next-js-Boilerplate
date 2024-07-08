@@ -1,0 +1,560 @@
+[
+  {
+    "id": "e719418d4bf1ee022c828e18ea0d0138",
+    "sport_key": "soccer_uefa_european_championship",
+    "sport_title": "UEFA Euro 2024",
+    "commence_time": "2024-07-06T16:00:00Z",
+    "home_team": "England",
+    "away_team": "Switzerland",
+    "bookmakers": [
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:46Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:46Z",
+            "outcomes": [
+              { "name": "England", "price": 123 },
+              { "name": "Switzerland", "price": 295 },
+              { "name": "Draw", "price": 195 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:43:56Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:56Z",
+            "outcomes": [
+              { "name": "England", "price": 125 },
+              { "name": "Switzerland", "price": 290 },
+              { "name": "Draw", "price": 190 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:44:16Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:16Z",
+            "outcomes": [
+              { "name": "England", "price": 120 },
+              { "name": "Switzerland", "price": 280 },
+              { "name": "Draw", "price": 190 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:44:47Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:47Z",
+            "outcomes": [
+              { "name": "England", "price": 125 },
+              { "name": "Switzerland", "price": 290 },
+              { "name": "Draw", "price": 195 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2024-07-06T13:44:52Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:52Z",
+            "outcomes": [
+              { "name": "England", "price": 125 },
+              { "name": "Switzerland", "price": 280 },
+              { "name": "Draw", "price": 185 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:43:55Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:55Z",
+            "outcomes": [
+              { "name": "England", "price": 125 },
+              { "name": "Switzerland", "price": 300 },
+              { "name": "Draw", "price": 180 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:55Z",
+            "outcomes": [
+              { "name": "England", "price": 119, "point": -0.5 },
+              { "name": "Switzerland", "price": -153, "point": 0.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:44:17Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:17Z",
+            "outcomes": [
+              { "name": "England", "price": 125 },
+              { "name": "Switzerland", "price": 285 },
+              { "name": "Draw", "price": 190 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:17Z",
+            "outcomes": [
+              { "name": "England", "price": -115, "point": -0.25 },
+              { "name": "Switzerland", "price": -105, "point": 0.25 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-07-06T13:44:27Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:27Z",
+            "outcomes": [
+              { "name": "England", "price": 125 },
+              { "name": "Switzerland", "price": 280 },
+              { "name": "Draw", "price": 190 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:27Z",
+            "outcomes": [
+              { "name": "England", "price": 125, "point": -0.5 },
+              { "name": "Switzerland", "price": -145, "point": 0.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T13:44:35Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:35Z",
+            "outcomes": [
+              { "name": "England", "price": 127 },
+              { "name": "Switzerland", "price": 295 },
+              { "name": "Draw", "price": 193 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:35Z",
+            "outcomes": [
+              { "name": "England", "price": -116, "point": -0.25 },
+              { "name": "Switzerland", "price": -104, "point": 0.25 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "08048be72322a2375a9727b3cf64abce",
+    "sport_key": "soccer_uefa_european_championship",
+    "sport_title": "UEFA Euro 2024",
+    "commence_time": "2024-07-06T19:00:00Z",
+    "home_team": "Netherlands",
+    "away_team": "Turkey",
+    "bookmakers": [
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:46Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:46Z",
+            "outcomes": [
+              { "name": "Netherlands", "price": -180 },
+              { "name": "Turkey", "price": 540 },
+              { "name": "Draw", "price": 310 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:43:56Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:56Z",
+            "outcomes": [
+              { "name": "Netherlands", "price": -175 },
+              { "name": "Turkey", "price": 500 },
+              { "name": "Draw", "price": 300 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:44:16Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:16Z",
+            "outcomes": [
+              { "name": "Netherlands", "price": -175 },
+              { "name": "Turkey", "price": 500 },
+              { "name": "Draw", "price": 290 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:44:47Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:47Z",
+            "outcomes": [
+              { "name": "Netherlands", "price": -175 },
+              { "name": "Turkey", "price": 500 },
+              { "name": "Draw", "price": 300 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2024-07-06T13:44:52Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:52Z",
+            "outcomes": [
+              { "name": "Netherlands", "price": -175 },
+              { "name": "Turkey", "price": 500 },
+              { "name": "Draw", "price": 295 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:43:55Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:55Z",
+            "outcomes": [
+              { "name": "Netherlands", "price": -181 },
+              { "name": "Turkey", "price": 470 },
+              { "name": "Draw", "price": 310 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:55Z",
+            "outcomes": [
+              { "name": "Netherlands", "price": -184, "point": -0.5 },
+              { "name": "Turkey", "price": 143, "point": 0.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T13:44:35Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:35Z",
+            "outcomes": [
+              { "name": "Netherlands", "price": -168 },
+              { "name": "Turkey", "price": 515 },
+              { "name": "Draw", "price": 308 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:35Z",
+            "outcomes": [
+              { "name": "Netherlands", "price": -107, "point": -1.0 },
+              { "name": "Turkey", "price": -113, "point": 1.0 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-07-06T13:44:27Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:27Z",
+            "outcomes": [
+              { "name": "Netherlands", "price": -171 },
+              { "name": "Turkey", "price": 529 },
+              { "name": "Draw", "price": 309 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:27Z",
+            "outcomes": [
+              { "name": "Netherlands", "price": -110, "point": -1.0 },
+              { "name": "Turkey", "price": -110, "point": 1.0 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:44:17Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:17Z",
+            "outcomes": [
+              { "name": "Netherlands", "price": -175 },
+              { "name": "Turkey", "price": 500 },
+              { "name": "Draw", "price": 310 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:17Z",
+            "outcomes": [
+              { "name": "Netherlands", "price": -105, "point": -1.0 },
+              { "name": "Turkey", "price": -115, "point": 1.0 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "0eecd9a36a6a7664e2080ed929e1ca8e",
+    "sport_key": "soccer_uefa_european_championship",
+    "sport_title": "UEFA Euro 2024",
+    "commence_time": "2024-07-09T19:00:00Z",
+    "home_team": "Spain",
+    "away_team": "France",
+    "bookmakers": [
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:46Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:46Z",
+            "outcomes": [
+              { "name": "France", "price": 205 },
+              { "name": "Spain", "price": 160 },
+              { "name": "Draw", "price": 200 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:44:16Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:16Z",
+            "outcomes": [
+              { "name": "France", "price": 190 },
+              { "name": "Spain", "price": 160 },
+              { "name": "Draw", "price": 200 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:43:56Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:56Z",
+            "outcomes": [
+              { "name": "France", "price": 210 },
+              { "name": "Spain", "price": 160 },
+              { "name": "Draw", "price": 190 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2024-07-06T13:44:52Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:52Z",
+            "outcomes": [
+              { "name": "France", "price": 210 },
+              { "name": "Spain", "price": 150 },
+              { "name": "Draw", "price": 195 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:43:55Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:55Z",
+            "outcomes": [
+              { "name": "France", "price": 210 },
+              { "name": "Spain", "price": 152 },
+              { "name": "Draw", "price": 193 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:55Z",
+            "outcomes": [
+              { "name": "France", "price": -197, "point": 0.5 },
+              { "name": "Spain", "price": 140, "point": -0.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:44:17Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:17Z",
+            "outcomes": [
+              { "name": "France", "price": 210 },
+              { "name": "Spain", "price": 155 },
+              { "name": "Draw", "price": 200 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:17Z",
+            "outcomes": [
+              { "name": "France", "price": 113, "point": 0.0 },
+              { "name": "Spain", "price": -136, "point": 0.0 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-07-06T13:44:27Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:27Z",
+            "outcomes": [
+              { "name": "France", "price": 210 },
+              { "name": "Spain", "price": 155 },
+              { "name": "Draw", "price": 200 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:27Z",
+            "outcomes": [
+              { "name": "France", "price": 116, "point": 0.0 },
+              { "name": "Spain", "price": -136, "point": 0.0 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T13:44:35Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:35Z",
+            "outcomes": [
+              { "name": "France", "price": 213 },
+              { "name": "Spain", "price": 165 },
+              { "name": "Draw", "price": 195 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:35Z",
+            "outcomes": [
+              { "name": "France", "price": 110, "point": 0.0 },
+              { "name": "Spain", "price": -130, "point": 0.0 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:44:47Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:47Z",
+            "outcomes": [
+              { "name": "France", "price": 205 },
+              { "name": "Spain", "price": 155 },
+              { "name": "Draw", "price": 195 }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

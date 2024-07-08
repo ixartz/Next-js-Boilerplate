@@ -1,0 +1,65 @@
+[
+  {
+    "id": "060d6e2fb481abae704bceb43829c071",
+    "sport_key": "icehockey_sweden_hockey_league",
+    "sport_title": "SHL",
+    "commence_time": "2024-09-21T13:15:00Z",
+    "home_team": "Link\u00f6ping HC",
+    "away_team": "Bryn\u00e4s IF",
+    "bookmakers": []
+  },
+  {
+    "id": "67a88da60c5bdd280fe1ba03731c35a7",
+    "sport_key": "icehockey_sweden_hockey_league",
+    "sport_title": "SHL",
+    "commence_time": "2024-09-21T13:15:00Z",
+    "home_team": "Fr\u00f6lunda HC",
+    "away_team": "Leksands IF",
+    "bookmakers": []
+  },
+  {
+    "id": "5727bdb294fa7cddcc1e1c9c2e128a47",
+    "sport_key": "icehockey_sweden_hockey_league",
+    "sport_title": "SHL",
+    "commence_time": "2024-09-21T13:15:00Z",
+    "home_team": "V\u00e4xj\u00f6 Lakers",
+    "away_team": "HV71",
+    "bookmakers": []
+  },
+  {
+    "id": "6b4b7775b9387f4b771695b1553c8270",
+    "sport_key": "icehockey_sweden_hockey_league",
+    "sport_title": "SHL",
+    "commence_time": "2024-09-21T13:15:00Z",
+    "home_team": "Malm\u00f6 Redhawks",
+    "away_team": "Skellefte\u00e5 AIK",
+    "bookmakers": []
+  },
+  {
+    "id": "1d76081aaff6faa5410684da549917fc",
+    "sport_key": "icehockey_sweden_hockey_league",
+    "sport_title": "SHL",
+    "commence_time": "2024-09-21T16:00:00Z",
+    "home_team": "F\u00e4rjestad BK",
+    "away_team": "R\u00f6gle BK",
+    "bookmakers": []
+  },
+  {
+    "id": "d9b368756dae40c96d4176db86e37ef7",
+    "sport_key": "icehockey_sweden_hockey_league",
+    "sport_title": "SHL",
+    "commence_time": "2024-09-21T16:00:00Z",
+    "home_team": "Lule\u00e5 HF",
+    "away_team": "Timr\u00e5 IK",
+    "bookmakers": []
+  },
+  {
+    "id": "6e489db8967234c90af14b7dad8f6d94",
+    "sport_key": "icehockey_sweden_hockey_league",
+    "sport_title": "SHL",
+    "commence_time": "2024-09-21T16:00:00Z",
+    "home_team": "\u00d6rebro HK",
+    "away_team": "Modo Hockey",
+    "bookmakers": []
+  }
+]

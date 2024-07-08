@@ -5,11 +5,9 @@ export default {
   theme: {
     extend: {
       fontSize: {
-        'xxs': '.65rem',
+        xxs: '.65rem',
       },
     },
   },
-  plugins: [
-    require('@tailwindcss/forms'),
-  ],
+  plugins: [require('@tailwindcss/forms')],
 } satisfies Config;

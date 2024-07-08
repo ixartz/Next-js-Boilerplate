@@ -1,0 +1,1346 @@
+[
+  {
+    "id": "f078a1a042b4833d91ff77d4e3dcfbeb",
+    "sport_key": "soccer_sweden_allsvenskan",
+    "sport_title": "Allsvenskan - Sweden",
+    "commence_time": "2024-07-06T13:00:00Z",
+    "home_team": "Mj\u00e4llby AIF",
+    "away_team": "IK Sirius",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:44:23Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:23Z",
+            "outcomes": [
+              { "name": "IK Sirius", "price": 320 },
+              { "name": "Mj\u00e4llby AIF", "price": 135 },
+              { "name": "Draw", "price": 135 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:44:31Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:31Z",
+            "outcomes": [
+              { "name": "IK Sirius", "price": 270 },
+              { "name": "Mj\u00e4llby AIF", "price": 137 },
+              { "name": "Draw", "price": 157 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:31Z",
+            "outcomes": [
+              { "name": "IK Sirius", "price": -118, "point": 0.25 },
+              { "name": "Mj\u00e4llby AIF", "price": -102, "point": -0.25 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:44:30Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:30Z",
+            "outcomes": [
+              { "name": "IK Sirius", "price": 340 },
+              { "name": "Mj\u00e4llby AIF", "price": 125 },
+              { "name": "Draw", "price": 150 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:44:23Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:23Z",
+            "outcomes": [
+              { "name": "IK Sirius", "price": 270 },
+              { "name": "Mj\u00e4llby AIF", "price": 135 },
+              { "name": "Draw", "price": 140 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "6fd878da14443e97f85fdce38cbc84d8",
+    "sport_key": "soccer_sweden_allsvenskan",
+    "sport_title": "Allsvenskan - Sweden",
+    "commence_time": "2024-07-06T13:00:51Z",
+    "home_team": "IF Elfsborg",
+    "away_team": "IF Brommapojkarna",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:44:23Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:23Z",
+            "outcomes": [
+              { "name": "IF Brommapojkarna", "price": 850 },
+              { "name": "IF Elfsborg", "price": -320 },
+              { "name": "Draw", "price": 350 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:44:31Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:31Z",
+            "outcomes": [
+              { "name": "IF Brommapojkarna", "price": 875 },
+              { "name": "IF Elfsborg", "price": -335 },
+              { "name": "Draw", "price": 370 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:31Z",
+            "outcomes": [
+              { "name": "IF Brommapojkarna", "price": -108, "point": 1.25 },
+              { "name": "IF Elfsborg", "price": -112, "point": -1.25 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:44:30Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:30Z",
+            "outcomes": [
+              { "name": "IF Brommapojkarna", "price": 1100 },
+              { "name": "IF Elfsborg", "price": -425 },
+              { "name": "Draw", "price": 475 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:44:23Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:23Z",
+            "outcomes": [
+              { "name": "IF Brommapojkarna", "price": 900 },
+              { "name": "IF Elfsborg", "price": -375 },
+              { "name": "Draw", "price": 375 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "a2f76c6edd79b0d3f82f3aa764608970",
+    "sport_key": "soccer_sweden_allsvenskan",
+    "sport_title": "Allsvenskan - Sweden",
+    "commence_time": "2024-07-07T12:00:00Z",
+    "home_team": "AIK",
+    "away_team": "Kalmar FF",
+    "bookmakers": [
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:30Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:30Z",
+            "outcomes": [
+              { "name": "AIK", "price": -205 },
+              { "name": "Kalmar FF", "price": 500 },
+              { "name": "Draw", "price": 360 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:44:23Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:23Z",
+            "outcomes": [
+              { "name": "AIK", "price": -220 },
+              { "name": "Kalmar FF", "price": 490 },
+              { "name": "Draw", "price": 330 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:44:31Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:31Z",
+            "outcomes": [
+              { "name": "AIK", "price": -190 },
+              { "name": "Kalmar FF", "price": 460 },
+              { "name": "Draw", "price": 340 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:31Z",
+            "outcomes": [
+              { "name": "AIK", "price": -115, "point": -1.0 },
+              { "name": "Kalmar FF", "price": -105, "point": 1.0 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:44:30Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:30Z",
+            "outcomes": [
+              { "name": "AIK", "price": -190 },
+              { "name": "Kalmar FF", "price": 475 },
+              { "name": "Draw", "price": 350 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2024-07-06T13:44:31Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:31Z",
+            "outcomes": [
+              { "name": "AIK", "price": -195 },
+              { "name": "Kalmar FF", "price": 450 },
+              { "name": "Draw", "price": 330 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:44:45Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:45Z",
+            "outcomes": [
+              { "name": "AIK", "price": -190 },
+              { "name": "Kalmar FF", "price": 460 },
+              { "name": "Draw", "price": 340 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:45Z",
+            "outcomes": [
+              { "name": "AIK", "price": 132, "point": -1.5 },
+              { "name": "Kalmar FF", "price": -179, "point": 1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:44:23Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:23Z",
+            "outcomes": [
+              { "name": "AIK", "price": -200 },
+              { "name": "Kalmar FF", "price": 450 },
+              { "name": "Draw", "price": 340 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-07-06T13:44:23Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:23Z",
+            "outcomes": [
+              { "name": "AIK", "price": -194 },
+              { "name": "Kalmar FF", "price": 460 },
+              { "name": "Draw", "price": 339 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:23Z",
+            "outcomes": [
+              { "name": "AIK", "price": -120, "point": -1.0 },
+              { "name": "Kalmar FF", "price": -110, "point": 1.0 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:44:30Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:30Z",
+            "outcomes": [
+              { "name": "AIK", "price": -190 },
+              { "name": "Kalmar FF", "price": 478 },
+              { "name": "Draw", "price": 348 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:30Z",
+            "outcomes": [
+              { "name": "AIK", "price": -117, "point": -1.0 },
+              { "name": "Kalmar FF", "price": -103, "point": 1.0 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T13:44:40Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:40Z",
+            "outcomes": [
+              { "name": "AIK", "price": -190 },
+              { "name": "Kalmar FF", "price": 478 },
+              { "name": "Draw", "price": 348 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:40Z",
+            "outcomes": [
+              { "name": "AIK", "price": -117, "point": -1.0 },
+              { "name": "Kalmar FF", "price": -103, "point": 1.0 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bc4960559ebad13cd75d91eaa2325b9c",
+    "sport_key": "soccer_sweden_allsvenskan",
+    "sport_title": "Allsvenskan - Sweden",
+    "commence_time": "2024-07-07T12:00:00Z",
+    "home_team": "IFK V\u00e4rnamo",
+    "away_team": "IFK Goteborg",
+    "bookmakers": [
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:30Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:30Z",
+            "outcomes": [
+              { "name": "IFK Goteborg", "price": 133 },
+              { "name": "IFK V\u00e4rnamo", "price": 190 },
+              { "name": "Draw", "price": 250 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:44:23Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:23Z",
+            "outcomes": [
+              { "name": "IFK Goteborg", "price": 135 },
+              { "name": "IFK V\u00e4rnamo", "price": 175 },
+              { "name": "Draw", "price": 230 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:44:31Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:31Z",
+            "outcomes": [
+              { "name": "IFK Goteborg", "price": 150 },
+              { "name": "IFK V\u00e4rnamo", "price": 180 },
+              { "name": "Draw", "price": 230 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:31Z",
+            "outcomes": [
+              { "name": "IFK Goteborg", "price": -122, "point": 0.0 },
+              { "name": "IFK V\u00e4rnamo", "price": 102, "point": 0.0 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:44:30Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:30Z",
+            "outcomes": [
+              { "name": "IFK Goteborg", "price": 145 },
+              { "name": "IFK V\u00e4rnamo", "price": 180 },
+              { "name": "Draw", "price": 240 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2024-07-06T13:44:31Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:31Z",
+            "outcomes": [
+              { "name": "IFK Goteborg", "price": 140 },
+              { "name": "IFK V\u00e4rnamo", "price": 170 },
+              { "name": "Draw", "price": 235 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:44:45Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:45Z",
+            "outcomes": [
+              { "name": "IFK Goteborg", "price": 146 },
+              { "name": "IFK V\u00e4rnamo", "price": 176 },
+              { "name": "Draw", "price": 242 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:45Z",
+            "outcomes": [
+              { "name": "IFK Goteborg", "price": 138, "point": -0.5 },
+              { "name": "IFK V\u00e4rnamo", "price": -185, "point": 0.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:44:23Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:23Z",
+            "outcomes": [
+              { "name": "IFK Goteborg", "price": 140 },
+              { "name": "IFK V\u00e4rnamo", "price": 175 },
+              { "name": "Draw", "price": 240 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-07-06T13:44:23Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:23Z",
+            "outcomes": [
+              { "name": "IFK Goteborg", "price": 143 },
+              { "name": "IFK V\u00e4rnamo", "price": 177 },
+              { "name": "Draw", "price": 243 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:23Z",
+            "outcomes": [
+              { "name": "IFK Goteborg", "price": -135, "point": 0.0 },
+              { "name": "IFK V\u00e4rnamo", "price": 105, "point": 0.0 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T13:44:40Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:40Z",
+            "outcomes": [
+              { "name": "IFK Goteborg", "price": 145 },
+              { "name": "IFK V\u00e4rnamo", "price": 185 },
+              { "name": "Draw", "price": 242 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:40Z",
+            "outcomes": [
+              { "name": "IFK Goteborg", "price": -124, "point": 0.0 },
+              { "name": "IFK V\u00e4rnamo", "price": 104, "point": 0.0 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:44:30Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:30Z",
+            "outcomes": [
+              { "name": "IFK Goteborg", "price": 145 },
+              { "name": "IFK V\u00e4rnamo", "price": 185 },
+              { "name": "Draw", "price": 242 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:30Z",
+            "outcomes": [
+              { "name": "IFK Goteborg", "price": -124, "point": 0.0 },
+              { "name": "IFK V\u00e4rnamo", "price": 104, "point": 0.0 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "637bebeb17a56f6161f19ad20e800691",
+    "sport_key": "soccer_sweden_allsvenskan",
+    "sport_title": "Allsvenskan - Sweden",
+    "commence_time": "2024-07-07T14:30:00Z",
+    "home_team": "GAIS",
+    "away_team": "Hammarby IF",
+    "bookmakers": [
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:30Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:30Z",
+            "outcomes": [
+              { "name": "GAIS", "price": 140 },
+              { "name": "Hammarby IF", "price": 170 },
+              { "name": "Draw", "price": 265 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:44:23Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:23Z",
+            "outcomes": [
+              { "name": "GAIS", "price": 140 },
+              { "name": "Hammarby IF", "price": 165 },
+              { "name": "Draw", "price": 230 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:44:31Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:31Z",
+            "outcomes": [
+              { "name": "GAIS", "price": 145 },
+              { "name": "Hammarby IF", "price": 180 },
+              { "name": "Draw", "price": 230 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:31Z",
+            "outcomes": [
+              { "name": "GAIS", "price": -125, "point": 0.0 },
+              { "name": "Hammarby IF", "price": 105, "point": 0.0 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2024-07-06T13:44:31Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:31Z",
+            "outcomes": [
+              { "name": "GAIS", "price": 140 },
+              { "name": "Hammarby IF", "price": 170 },
+              { "name": "Draw", "price": 240 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:44:45Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:45Z",
+            "outcomes": [
+              { "name": "GAIS", "price": 144 },
+              { "name": "Hammarby IF", "price": 177 },
+              { "name": "Draw", "price": 246 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:45Z",
+            "outcomes": [
+              { "name": "GAIS", "price": 136, "point": -0.5 },
+              { "name": "Hammarby IF", "price": -182, "point": 0.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:44:23Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:23Z",
+            "outcomes": [
+              { "name": "GAIS", "price": 138 },
+              { "name": "Hammarby IF", "price": 170 },
+              { "name": "Draw", "price": 250 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-07-06T13:44:23Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:23Z",
+            "outcomes": [
+              { "name": "GAIS", "price": 145 },
+              { "name": "Hammarby IF", "price": 180 },
+              { "name": "Draw", "price": 230 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:23Z",
+            "outcomes": [
+              { "name": "GAIS", "price": -135, "point": 0.0 },
+              { "name": "Hammarby IF", "price": 105, "point": 0.0 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:44:30Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:30Z",
+            "outcomes": [
+              { "name": "GAIS", "price": 145 },
+              { "name": "Hammarby IF", "price": 180 },
+              { "name": "Draw", "price": 250 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:30Z",
+            "outcomes": [
+              { "name": "GAIS", "price": -126, "point": 0.0 },
+              { "name": "Hammarby IF", "price": 106, "point": 0.0 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T13:44:40Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:40Z",
+            "outcomes": [
+              { "name": "GAIS", "price": 145 },
+              { "name": "Hammarby IF", "price": 180 },
+              { "name": "Draw", "price": 250 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:40Z",
+            "outcomes": [
+              { "name": "GAIS", "price": -126, "point": 0.0 },
+              { "name": "Hammarby IF", "price": 106, "point": 0.0 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "5362d45d1705a218f8f87d3513756d30",
+    "sport_key": "soccer_sweden_allsvenskan",
+    "sport_title": "Allsvenskan - Sweden",
+    "commence_time": "2024-07-07T14:30:00Z",
+    "home_team": "Malmo FF",
+    "away_team": "Halmstads BK",
+    "bookmakers": [
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:30Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:30Z",
+            "outcomes": [
+              { "name": "Halmstads BK", "price": 1400 },
+              { "name": "Malmo FF", "price": -625 },
+              { "name": "Draw", "price": 700 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:44:31Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:31Z",
+            "outcomes": [
+              { "name": "Halmstads BK", "price": 1300 },
+              { "name": "Malmo FF", "price": -600 },
+              { "name": "Draw", "price": 650 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:31Z",
+            "outcomes": [
+              { "name": "Halmstads BK", "price": -122, "point": 2.25 },
+              { "name": "Malmo FF", "price": 102, "point": -2.25 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:44:23Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:23Z",
+            "outcomes": [
+              { "name": "Halmstads BK", "price": 1300 },
+              { "name": "Malmo FF", "price": -800 },
+              { "name": "Draw", "price": 650 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:44:30Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:30Z",
+            "outcomes": [
+              { "name": "Halmstads BK", "price": 1200 },
+              { "name": "Malmo FF", "price": -650 },
+              { "name": "Draw", "price": 700 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2024-07-06T13:44:31Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:31Z",
+            "outcomes": [
+              { "name": "Halmstads BK", "price": 1250 },
+              { "name": "Malmo FF", "price": -649 },
+              { "name": "Draw", "price": 600 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:44:45Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:45Z",
+            "outcomes": [
+              { "name": "Halmstads BK", "price": 1325 },
+              { "name": "Malmo FF", "price": -599 },
+              { "name": "Draw", "price": 660 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:45Z",
+            "outcomes": [
+              { "name": "Halmstads BK", "price": -159, "point": 2.5 },
+              { "name": "Malmo FF", "price": 118, "point": -2.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:44:23Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:23Z",
+            "outcomes": [
+              { "name": "Halmstads BK", "price": 1250 },
+              { "name": "Malmo FF", "price": -550 },
+              { "name": "Draw", "price": 650 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-07-06T13:44:23Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:23Z",
+            "outcomes": [
+              { "name": "Halmstads BK", "price": 1289 },
+              { "name": "Malmo FF", "price": -623 },
+              { "name": "Draw", "price": 679 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:23Z",
+            "outcomes": [
+              { "name": "Halmstads BK", "price": 105, "point": 2.0 },
+              { "name": "Malmo FF", "price": -135, "point": -2.0 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T13:44:40Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:40Z",
+            "outcomes": [
+              { "name": "Halmstads BK", "price": 1400 },
+              { "name": "Malmo FF", "price": -600 },
+              { "name": "Draw", "price": 680 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:40Z",
+            "outcomes": [
+              { "name": "Halmstads BK", "price": 107, "point": 2.0 },
+              { "name": "Malmo FF", "price": -127, "point": -2.0 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:44:30Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:30Z",
+            "outcomes": [
+              { "name": "Halmstads BK", "price": 1400 },
+              { "name": "Malmo FF", "price": -599 },
+              { "name": "Draw", "price": 680 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:30Z",
+            "outcomes": [
+              { "name": "Halmstads BK", "price": 107, "point": 2.0 },
+              { "name": "Malmo FF", "price": -127, "point": -2.0 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "8fba04f35ca3873078e2a47ce0df0a8a",
+    "sport_key": "soccer_sweden_allsvenskan",
+    "sport_title": "Allsvenskan - Sweden",
+    "commence_time": "2024-07-08T17:00:00Z",
+    "home_team": "V\u00e4ster\u00e5s SK",
+    "away_team": "BK Hacken",
+    "bookmakers": [
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:30Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:30Z",
+            "outcomes": [
+              { "name": "BK Hacken", "price": 145 },
+              { "name": "V\u00e4ster\u00e5s SK", "price": 165 },
+              { "name": "Draw", "price": 265 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:44:31Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:31Z",
+            "outcomes": [
+              { "name": "BK Hacken", "price": 135 },
+              { "name": "V\u00e4ster\u00e5s SK", "price": 180 },
+              { "name": "Draw", "price": 270 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:31Z",
+            "outcomes": [
+              { "name": "BK Hacken", "price": 105, "point": -0.25 },
+              { "name": "V\u00e4ster\u00e5s SK", "price": -125, "point": 0.25 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:44:23Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:23Z",
+            "outcomes": [
+              { "name": "BK Hacken", "price": 130 },
+              { "name": "V\u00e4ster\u00e5s SK", "price": 165 },
+              { "name": "Draw", "price": 250 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:44:30Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:30Z",
+            "outcomes": [
+              { "name": "BK Hacken", "price": 135 },
+              { "name": "V\u00e4ster\u00e5s SK", "price": 175 },
+              { "name": "Draw", "price": 260 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:44:45Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:45Z",
+            "outcomes": [
+              { "name": "BK Hacken", "price": 139 },
+              { "name": "V\u00e4ster\u00e5s SK", "price": 174 },
+              { "name": "Draw", "price": 260 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:45Z",
+            "outcomes": [
+              { "name": "BK Hacken", "price": 131, "point": -0.5 },
+              { "name": "V\u00e4ster\u00e5s SK", "price": -175, "point": 0.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2024-07-06T13:44:31Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:31Z",
+            "outcomes": [
+              { "name": "BK Hacken", "price": 135 },
+              { "name": "V\u00e4ster\u00e5s SK", "price": 170 },
+              { "name": "Draw", "price": 255 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:44:23Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:23Z",
+            "outcomes": [
+              { "name": "BK Hacken", "price": 130 },
+              { "name": "V\u00e4ster\u00e5s SK", "price": 170 },
+              { "name": "Draw", "price": 275 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-07-06T13:44:23Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:23Z",
+            "outcomes": [
+              { "name": "BK Hacken", "price": 135 },
+              { "name": "V\u00e4ster\u00e5s SK", "price": 180 },
+              { "name": "Draw", "price": 270 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "32075cee672ad0bdee6e2b6e6c3e9b51",
+    "sport_key": "soccer_sweden_allsvenskan",
+    "sport_title": "Allsvenskan - Sweden",
+    "commence_time": "2024-07-08T17:00:00Z",
+    "home_team": "IFK Norrkoping",
+    "away_team": "Djurgardens IF",
+    "bookmakers": [
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:30Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:30Z",
+            "outcomes": [
+              { "name": "Djurgardens IF", "price": -141 },
+              { "name": "IFK Norrkoping", "price": 360 },
+              { "name": "Draw", "price": 295 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:44:23Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:23Z",
+            "outcomes": [
+              { "name": "Djurgardens IF", "price": -145 },
+              { "name": "IFK Norrkoping", "price": 350 },
+              { "name": "Draw", "price": 270 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:44:31Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:31Z",
+            "outcomes": [
+              { "name": "Djurgardens IF", "price": -140 },
+              { "name": "IFK Norrkoping", "price": 350 },
+              { "name": "Draw", "price": 290 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:31Z",
+            "outcomes": [
+              { "name": "Djurgardens IF", "price": -108, "point": -0.75 },
+              { "name": "IFK Norrkoping", "price": -112, "point": 0.75 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:44:30Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:30Z",
+            "outcomes": [
+              { "name": "Djurgardens IF", "price": -145 },
+              { "name": "IFK Norrkoping", "price": 360 },
+              { "name": "Draw", "price": 290 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:44:45Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:45Z",
+            "outcomes": [
+              { "name": "Djurgardens IF", "price": -138 },
+              { "name": "IFK Norrkoping", "price": 350 },
+              { "name": "Draw", "price": 290 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:45Z",
+            "outcomes": [
+              { "name": "Djurgardens IF", "price": -145, "point": -0.5 },
+              { "name": "IFK Norrkoping", "price": 108, "point": 0.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2024-07-06T13:44:31Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:31Z",
+            "outcomes": [
+              { "name": "Djurgardens IF", "price": -145 },
+              { "name": "IFK Norrkoping", "price": 335 },
+              { "name": "Draw", "price": 280 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:44:23Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:23Z",
+            "outcomes": [
+              { "name": "Djurgardens IF", "price": -140 },
+              { "name": "IFK Norrkoping", "price": 333 },
+              { "name": "Draw", "price": 290 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-07-06T13:44:23Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:23Z",
+            "outcomes": [
+              { "name": "Djurgardens IF", "price": -140 },
+              { "name": "IFK Norrkoping", "price": 350 },
+              { "name": "Draw", "price": 290 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:44:30Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:30Z",
+            "outcomes": [
+              { "name": "Djurgardens IF", "price": -140 },
+              { "name": "IFK Norrkoping", "price": 380 },
+              { "name": "Draw", "price": 285 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:30Z",
+            "outcomes": [
+              { "name": "Djurgardens IF", "price": -108, "point": -0.75 },
+              { "name": "IFK Norrkoping", "price": -112, "point": 0.75 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T13:44:40Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:40Z",
+            "outcomes": [
+              { "name": "Djurgardens IF", "price": -140 },
+              { "name": "IFK Norrkoping", "price": 380 },
+              { "name": "Draw", "price": 285 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:40Z",
+            "outcomes": [
+              { "name": "Djurgardens IF", "price": -108, "point": -0.75 },
+              { "name": "IFK Norrkoping", "price": -112, "point": 0.75 }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

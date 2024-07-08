@@ -1,0 +1,272 @@
+[
+  {
+    "id": "b37e8a788ad864eec148e6609f4babfc",
+    "sport_key": "soccer_league_of_ireland",
+    "sport_title": "League of Ireland",
+    "commence_time": "2024-07-12T18:45:00Z",
+    "home_team": "Bohemians",
+    "away_team": "Sligo Rovers",
+    "bookmakers": [
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2024-07-06T13:44:48Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:48Z",
+            "outcomes": [
+              { "name": "Bohemians", "price": -140 },
+              { "name": "Sligo Rovers", "price": 355 },
+              { "name": "Draw", "price": 265 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:43:30Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:30Z",
+            "outcomes": [
+              { "name": "Bohemians", "price": -146 },
+              { "name": "Sligo Rovers", "price": 340 },
+              { "name": "Draw", "price": 255 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:30Z",
+            "outcomes": [
+              { "name": "Bohemians", "price": -145, "point": -0.5 },
+              { "name": "Sligo Rovers", "price": 105, "point": 0.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:44:48Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:48Z",
+            "outcomes": [
+              { "name": "Bohemians", "price": -140 },
+              { "name": "Sligo Rovers", "price": 360 },
+              { "name": "Draw", "price": 265 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:44:24Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:24Z",
+            "outcomes": [
+              { "name": "Bohemians", "price": -135 },
+              { "name": "Sligo Rovers", "price": 350 },
+              { "name": "Draw", "price": 255 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:24Z",
+            "outcomes": [
+              { "name": "Bohemians", "price": -110, "point": -0.75 },
+              { "name": "Sligo Rovers", "price": -120, "point": 0.75 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "51e68b3215a95d66d569881c8574b6ac",
+    "sport_key": "soccer_league_of_ireland",
+    "sport_title": "League of Ireland",
+    "commence_time": "2024-07-12T18:45:00Z",
+    "home_team": "Dundalk",
+    "away_team": "Drogheda United",
+    "bookmakers": [
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2024-07-06T13:44:48Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:48Z",
+            "outcomes": [
+              { "name": "Drogheda United", "price": 320 },
+              { "name": "Dundalk", "price": -130 },
+              { "name": "Draw", "price": 260 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:43:30Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:30Z",
+            "outcomes": [
+              { "name": "Drogheda United", "price": 310 },
+              { "name": "Dundalk", "price": -133 },
+              { "name": "Draw", "price": 250 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:30Z",
+            "outcomes": [
+              { "name": "Drogheda United", "price": -103, "point": 0.5 },
+              { "name": "Dundalk", "price": -133, "point": -0.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:44:48Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:48Z",
+            "outcomes": [
+              { "name": "Drogheda United", "price": 320 },
+              { "name": "Dundalk", "price": -130 },
+              { "name": "Draw", "price": 265 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:44:24Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:24Z",
+            "outcomes": [
+              { "name": "Drogheda United", "price": 320 },
+              { "name": "Dundalk", "price": -125 },
+              { "name": "Draw", "price": 250 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:24Z",
+            "outcomes": [
+              { "name": "Drogheda United", "price": -105, "point": 0.5 },
+              { "name": "Dundalk", "price": -125, "point": -0.5 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "a5234fe26f318f6d7a49ddf5b05ca12b",
+    "sport_key": "soccer_league_of_ireland",
+    "sport_title": "League of Ireland",
+    "commence_time": "2024-07-12T18:45:00Z",
+    "home_team": "Galway United",
+    "away_team": "Waterford FC",
+    "bookmakers": [
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2024-07-06T13:44:48Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:48Z",
+            "outcomes": [
+              { "name": "Galway United", "price": 105 },
+              { "name": "Waterford FC", "price": 235 },
+              { "name": "Draw", "price": 245 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:43:30Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:30Z",
+            "outcomes": [
+              { "name": "Galway United", "price": 101 },
+              { "name": "Waterford FC", "price": 226 },
+              { "name": "Draw", "price": 238 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:30Z",
+            "outcomes": [
+              { "name": "Galway United", "price": 100, "point": -0.5 },
+              { "name": "Waterford FC", "price": -139, "point": 0.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:44:48Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:48Z",
+            "outcomes": [
+              { "name": "Galway United", "price": -105 },
+              { "name": "Waterford FC", "price": 240 },
+              { "name": "Draw", "price": 270 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:44:24Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:24Z",
+            "outcomes": [
+              { "name": "Galway United", "price": 105 },
+              { "name": "Waterford FC", "price": 235 },
+              { "name": "Draw", "price": 235 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:24Z",
+            "outcomes": [
+              { "name": "Galway United", "price": -130, "point": -0.25 },
+              { "name": "Waterford FC", "price": 100, "point": 0.25 }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

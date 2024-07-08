@@ -1,0 +1,158 @@
+[
+  {
+    "id": "e13a02fc67421e905885aaf438ccb7d9",
+    "sport_key": "soccer_spl",
+    "sport_title": "Premiership - Scotland",
+    "commence_time": "2024-08-03T11:30:00Z",
+    "home_team": "Hearts",
+    "away_team": "Rangers",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:43:18Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:18Z",
+            "outcomes": [
+              { "name": "Hearts", "price": 340 },
+              { "name": "Rangers", "price": -150 },
+              { "name": "Draw", "price": 280 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "d9c2a1007957ec54cf9bad26a2c4cf16",
+    "sport_key": "soccer_spl",
+    "sport_title": "Premiership - Scotland",
+    "commence_time": "2024-08-03T14:00:00Z",
+    "home_team": "Motherwell",
+    "away_team": "Ross County",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:43:18Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:18Z",
+            "outcomes": [
+              { "name": "Motherwell", "price": -130 },
+              { "name": "Ross County", "price": 310 },
+              { "name": "Draw", "price": 250 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "18eeb7d2e5b3a0a37222fe22c765591f",
+    "sport_key": "soccer_spl",
+    "sport_title": "Premiership - Scotland",
+    "commence_time": "2024-08-04T12:30:00Z",
+    "home_team": "Dundee United",
+    "away_team": "Dundee FC",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:43:18Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:18Z",
+            "outcomes": [
+              { "name": "Dundee FC", "price": 180 },
+              { "name": "Dundee United", "price": 140 },
+              { "name": "Draw", "price": 220 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "958898622c41bbd3eda8a6d52e53171f",
+    "sport_key": "soccer_spl",
+    "sport_title": "Premiership - Scotland",
+    "commence_time": "2024-08-04T14:00:00Z",
+    "home_team": "St Mirren",
+    "away_team": "Hibernian",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:43:18Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:18Z",
+            "outcomes": [
+              { "name": "Hibernian", "price": 190 },
+              { "name": "St Mirren", "price": 130 },
+              { "name": "Draw", "price": 220 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "021df21f2c3e253f732706ca0df234d0",
+    "sport_key": "soccer_spl",
+    "sport_title": "Premiership - Scotland",
+    "commence_time": "2024-08-04T15:30:00Z",
+    "home_team": "Celtic",
+    "away_team": "Kilmarnock",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:43:18Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:18Z",
+            "outcomes": [
+              { "name": "Celtic", "price": -600 },
+              { "name": "Kilmarnock", "price": 1200 },
+              { "name": "Draw", "price": 550 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "b7759012af179df592a144644193e911",
+    "sport_key": "soccer_spl",
+    "sport_title": "Premiership - Scotland",
+    "commence_time": "2024-08-05T19:00:00Z",
+    "home_team": "St Johnstone",
+    "away_team": "Aberdeen",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:43:18Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:18Z",
+            "outcomes": [
+              { "name": "Aberdeen", "price": -105 },
+              { "name": "St Johnstone", "price": 270 },
+              { "name": "Draw", "price": 230 }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

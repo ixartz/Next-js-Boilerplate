@@ -1,0 +1,682 @@
+[
+  {
+    "id": "352887e7bb435590bb66327fc6193b5a",
+    "sport_key": "soccer_england_league1",
+    "sport_title": "League 1",
+    "commence_time": "2024-08-09T19:00:00Z",
+    "home_team": "Barnsley",
+    "away_team": "Mansfield Town",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:43:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:21Z",
+            "outcomes": [
+              { "name": "Barnsley", "price": -130 },
+              { "name": "Mansfield Town", "price": 320 },
+              { "name": "Draw", "price": 270 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:44:23Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:23Z",
+            "outcomes": [
+              { "name": "Barnsley", "price": -120 },
+              { "name": "Mansfield Town", "price": 290 },
+              { "name": "Draw", "price": 270 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:40Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:40Z",
+            "outcomes": [
+              { "name": "Barnsley", "price": -121 },
+              { "name": "Mansfield Town", "price": 300 },
+              { "name": "Draw", "price": 275 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "689fe039205254dbd222640a4bbe3765",
+    "sport_key": "soccer_england_league1",
+    "sport_title": "League 1",
+    "commence_time": "2024-08-10T16:30:00Z",
+    "home_team": "Birmingham City",
+    "away_team": "Reading",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:43:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:21Z",
+            "outcomes": [
+              { "name": "Birmingham City", "price": -170 },
+              { "name": "Reading", "price": 410 },
+              { "name": "Draw", "price": 300 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:44:23Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:23Z",
+            "outcomes": [
+              { "name": "Birmingham City", "price": -145 },
+              { "name": "Reading", "price": 360 },
+              { "name": "Draw", "price": 280 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:40Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:40Z",
+            "outcomes": [
+              { "name": "Birmingham City", "price": -167 },
+              { "name": "Reading", "price": 400 },
+              { "name": "Draw", "price": 310 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "a022bd985494eb3b7dbe75543016ea0e",
+    "sport_key": "soccer_england_league1",
+    "sport_title": "League 1",
+    "commence_time": "2024-08-10T16:30:00Z",
+    "home_team": "Crawley Town",
+    "away_team": "Blackpool",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:43:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:21Z",
+            "outcomes": [
+              { "name": "Blackpool", "price": 120 },
+              { "name": "Crawley Town", "price": 210 },
+              { "name": "Draw", "price": 240 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:44:23Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:23Z",
+            "outcomes": [
+              { "name": "Blackpool", "price": 125 },
+              { "name": "Crawley Town", "price": 200 },
+              { "name": "Draw", "price": 240 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:40Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:40Z",
+            "outcomes": [
+              { "name": "Blackpool", "price": 125 },
+              { "name": "Crawley Town", "price": 200 },
+              { "name": "Draw", "price": 250 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "9a6a4a5712ad6007d8698e3970513994",
+    "sport_key": "soccer_england_league1",
+    "sport_title": "League 1",
+    "commence_time": "2024-08-10T16:30:00Z",
+    "home_team": "Leyton Orient",
+    "away_team": "Bolton Wanderers",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:43:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:21Z",
+            "outcomes": [
+              { "name": "Bolton Wanderers", "price": 135 },
+              { "name": "Leyton Orient", "price": 200 },
+              { "name": "Draw", "price": 230 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:44:23Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:23Z",
+            "outcomes": [
+              { "name": "Bolton Wanderers", "price": 138 },
+              { "name": "Leyton Orient", "price": 185 },
+              { "name": "Draw", "price": 230 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:40Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:40Z",
+            "outcomes": [
+              { "name": "Bolton Wanderers", "price": 135 },
+              { "name": "Leyton Orient", "price": 185 },
+              { "name": "Draw", "price": 240 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "6233a60ce0862b762df5602c0558f794",
+    "sport_key": "soccer_england_league1",
+    "sport_title": "League 1",
+    "commence_time": "2024-08-10T16:30:00Z",
+    "home_team": "Bristol Rovers",
+    "away_team": "Northampton Town",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:43:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:21Z",
+            "outcomes": [
+              { "name": "Bristol Rovers", "price": -120 },
+              { "name": "Northampton Town", "price": 290 },
+              { "name": "Draw", "price": 250 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:44:23Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:23Z",
+            "outcomes": [
+              { "name": "Bristol Rovers", "price": -110 },
+              { "name": "Northampton Town", "price": 270 },
+              { "name": "Draw", "price": 250 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:40Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:40Z",
+            "outcomes": [
+              { "name": "Bristol Rovers", "price": -112 },
+              { "name": "Northampton Town", "price": 280 },
+              { "name": "Draw", "price": 260 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "faebbdb877779aa7b53e7ee8401d6b51",
+    "sport_key": "soccer_england_league1",
+    "sport_title": "League 1",
+    "commence_time": "2024-08-10T16:30:00Z",
+    "home_team": "Burton Albion",
+    "away_team": "Lincoln City",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:43:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:21Z",
+            "outcomes": [
+              { "name": "Burton Albion", "price": 175 },
+              { "name": "Lincoln City", "price": 155 },
+              { "name": "Draw", "price": 230 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:44:23Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:23Z",
+            "outcomes": [
+              { "name": "Burton Albion", "price": 165 },
+              { "name": "Lincoln City", "price": 155 },
+              { "name": "Draw", "price": 225 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:40Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:40Z",
+            "outcomes": [
+              { "name": "Burton Albion", "price": 170 },
+              { "name": "Lincoln City", "price": 150 },
+              { "name": "Draw", "price": 240 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "7702cc0002d72b255f5b76d71190ef39",
+    "sport_key": "soccer_england_league1",
+    "sport_title": "League 1",
+    "commence_time": "2024-08-10T16:30:00Z",
+    "home_team": "Stockport County FC",
+    "away_team": "Cambridge United",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:43:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:21Z",
+            "outcomes": [
+              { "name": "Cambridge United", "price": 330 },
+              { "name": "Stockport County FC", "price": -130 },
+              { "name": "Draw", "price": 260 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:44:23Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:23Z",
+            "outcomes": [
+              { "name": "Cambridge United", "price": 310 },
+              { "name": "Stockport County FC", "price": -120 },
+              { "name": "Draw", "price": 260 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:40Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:40Z",
+            "outcomes": [
+              { "name": "Cambridge United", "price": 350 },
+              { "name": "Stockport County FC", "price": -125 },
+              { "name": "Draw", "price": 250 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "911cbfcdb435dfbffe8faa79790d0607",
+    "sport_key": "soccer_england_league1",
+    "sport_title": "League 1",
+    "commence_time": "2024-08-10T16:30:00Z",
+    "home_team": "Wigan Athletic",
+    "away_team": "Charlton Athletic",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:43:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:21Z",
+            "outcomes": [
+              { "name": "Charlton Athletic", "price": 175 },
+              { "name": "Wigan Athletic", "price": 155 },
+              { "name": "Draw", "price": 230 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:44:23Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:23Z",
+            "outcomes": [
+              { "name": "Charlton Athletic", "price": 170 },
+              { "name": "Wigan Athletic", "price": 145 },
+              { "name": "Draw", "price": 240 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:40Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:40Z",
+            "outcomes": [
+              { "name": "Charlton Athletic", "price": 170 },
+              { "name": "Wigan Athletic", "price": 150 },
+              { "name": "Draw", "price": 240 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "165466dca3cf638831cb97b62f917fd8",
+    "sport_key": "soccer_england_league1",
+    "sport_title": "League 1",
+    "commence_time": "2024-08-10T16:30:00Z",
+    "home_team": "Exeter City",
+    "away_team": "Rotherham United",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:43:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:21Z",
+            "outcomes": [
+              { "name": "Exeter City", "price": 200 },
+              { "name": "Rotherham United", "price": 130 },
+              { "name": "Draw", "price": 230 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:40Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:40Z",
+            "outcomes": [
+              { "name": "Exeter City", "price": 200 },
+              { "name": "Rotherham United", "price": 130 },
+              { "name": "Draw", "price": 240 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "5a47f336fc3ce22131f4891bf020b04c",
+    "sport_key": "soccer_england_league1",
+    "sport_title": "League 1",
+    "commence_time": "2024-08-10T16:30:00Z",
+    "home_team": "Peterborough United",
+    "away_team": "Huddersfield Town",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:43:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:21Z",
+            "outcomes": [
+              { "name": "Huddersfield Town", "price": 200 },
+              { "name": "Peterborough United", "price": 120 },
+              { "name": "Draw", "price": 250 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:44:23Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:23Z",
+            "outcomes": [
+              { "name": "Huddersfield Town", "price": 190 },
+              { "name": "Peterborough United", "price": 120 },
+              { "name": "Draw", "price": 260 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:40Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:40Z",
+            "outcomes": [
+              { "name": "Huddersfield Town", "price": 210 },
+              { "name": "Peterborough United", "price": 120 },
+              { "name": "Draw", "price": 250 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "4d7ff6b5cec054b4c8c162569e770729",
+    "sport_key": "soccer_england_league1",
+    "sport_title": "League 1",
+    "commence_time": "2024-08-10T16:30:00Z",
+    "home_team": "Stevenage",
+    "away_team": "Shrewsbury Town",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:43:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:21Z",
+            "outcomes": [
+              { "name": "Shrewsbury Town", "price": 270 },
+              { "name": "Stevenage", "price": 110 },
+              { "name": "Draw", "price": 220 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:44:23Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:23Z",
+            "outcomes": [
+              { "name": "Shrewsbury Town", "price": 250 },
+              { "name": "Stevenage", "price": 110 },
+              { "name": "Draw", "price": 220 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:40Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:40Z",
+            "outcomes": [
+              { "name": "Shrewsbury Town", "price": 260 },
+              { "name": "Stevenage", "price": 110 },
+              { "name": "Draw", "price": 225 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c5cff47cea1a2f61c9dc9a279ab9ee5a",
+    "sport_key": "soccer_england_league1",
+    "sport_title": "League 1",
+    "commence_time": "2024-08-10T16:30:00Z",
+    "home_team": "Wrexham AFC",
+    "away_team": "Wycombe Wanderers",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:43:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:21Z",
+            "outcomes": [
+              { "name": "Wrexham AFC", "price": 110 },
+              { "name": "Wycombe Wanderers", "price": 240 },
+              { "name": "Draw", "price": 250 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:44:23Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:23Z",
+            "outcomes": [
+              { "name": "Wrexham AFC", "price": 100 },
+              { "name": "Wycombe Wanderers", "price": 240 },
+              { "name": "Draw", "price": 250 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:40Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:40Z",
+            "outcomes": [
+              { "name": "Wrexham AFC", "price": 100 },
+              { "name": "Wycombe Wanderers", "price": 250 },
+              { "name": "Draw", "price": 260 }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

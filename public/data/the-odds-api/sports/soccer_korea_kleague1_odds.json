@@ -1,0 +1,634 @@
+[
+  {
+    "id": "976476d6b8736f417b5ca4b9897a885b",
+    "sport_key": "soccer_korea_kleague1",
+    "sport_title": "K League 1",
+    "commence_time": "2024-07-07T10:00:00Z",
+    "home_team": "Daejeon Citizen",
+    "away_team": "Jeonbuk Hyundai Motors",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:43:19Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:19Z",
+            "outcomes": [
+              { "name": "Daejeon Citizen", "price": 175 },
+              { "name": "Jeonbuk Hyundai Motors", "price": 135 },
+              { "name": "Draw", "price": 230 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2024-07-06T13:44:13Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:13Z",
+            "outcomes": [
+              { "name": "Daejeon Citizen", "price": 180 },
+              { "name": "Jeonbuk Hyundai Motors", "price": 135 },
+              { "name": "Draw", "price": 240 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:44:52Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:52Z",
+            "outcomes": [
+              { "name": "Daejeon Citizen", "price": 186 },
+              { "name": "Jeonbuk Hyundai Motors", "price": 137 },
+              { "name": "Draw", "price": 246 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:52Z",
+            "outcomes": [
+              { "name": "Daejeon Citizen", "price": -172, "point": 0.5 },
+              { "name": "Jeonbuk Hyundai Motors", "price": 129, "point": -0.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:43:07Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:07Z",
+            "outcomes": [
+              { "name": "Daejeon Citizen", "price": 185 },
+              { "name": "Jeonbuk Hyundai Motors", "price": 140 },
+              { "name": "Draw", "price": 245 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:44:33Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:33Z",
+            "outcomes": [
+              { "name": "Daejeon Citizen", "price": 185 },
+              { "name": "Jeonbuk Hyundai Motors", "price": 140 },
+              { "name": "Draw", "price": 235 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:33Z",
+            "outcomes": [
+              { "name": "Daejeon Citizen", "price": -132, "point": 0.25 },
+              { "name": "Jeonbuk Hyundai Motors", "price": 102, "point": -0.25 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:44:53Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:53Z",
+            "outcomes": [
+              { "name": "Daejeon Citizen", "price": 180 },
+              { "name": "Jeonbuk Hyundai Motors", "price": 135 },
+              { "name": "Draw", "price": 240 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:44:13Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:13Z",
+            "outcomes": [
+              { "name": "Daejeon Citizen", "price": 172 },
+              { "name": "Jeonbuk Hyundai Motors", "price": 123 },
+              { "name": "Draw", "price": 230 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:13Z",
+            "outcomes": [
+              { "name": "Daejeon Citizen", "price": 112, "point": 0.0 },
+              { "name": "Jeonbuk Hyundai Motors", "price": -132, "point": 0.0 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T13:44:42Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:42Z",
+            "outcomes": [
+              { "name": "Daejeon Citizen", "price": 172 },
+              { "name": "Jeonbuk Hyundai Motors", "price": 123 },
+              { "name": "Draw", "price": 230 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:42Z",
+            "outcomes": [
+              { "name": "Daejeon Citizen", "price": 112, "point": 0.0 },
+              { "name": "Jeonbuk Hyundai Motors", "price": -132, "point": 0.0 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:13Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:13Z",
+            "outcomes": [
+              { "name": "Daejeon Citizen", "price": 170 },
+              { "name": "Jeonbuk Hyundai Motors", "price": 135 },
+              { "name": "Draw", "price": 225 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "6afe809676c39249cb480b16073aa748",
+    "sport_key": "soccer_korea_kleague1",
+    "sport_title": "K League 1",
+    "commence_time": "2024-07-07T10:00:00Z",
+    "home_team": "Gangwon FC",
+    "away_team": "Gwangju FC",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:43:19Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:19Z",
+            "outcomes": [
+              { "name": "Gangwon FC", "price": 165 },
+              { "name": "Gwangju FC", "price": 150 },
+              { "name": "Draw", "price": 220 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2024-07-06T13:44:13Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:13Z",
+            "outcomes": [
+              { "name": "Gangwon FC", "price": 170 },
+              { "name": "Gwangju FC", "price": 150 },
+              { "name": "Draw", "price": 225 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:44:52Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:52Z",
+            "outcomes": [
+              { "name": "Gangwon FC", "price": 174 },
+              { "name": "Gwangju FC", "price": 153 },
+              { "name": "Draw", "price": 232 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:52Z",
+            "outcomes": [
+              { "name": "Gangwon FC", "price": -196, "point": 0.5 },
+              { "name": "Gwangju FC", "price": 144, "point": -0.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:43:07Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:07Z",
+            "outcomes": [
+              { "name": "Gangwon FC", "price": 170 },
+              { "name": "Gwangju FC", "price": 150 },
+              { "name": "Draw", "price": 245 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:44:33Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:33Z",
+            "outcomes": [
+              { "name": "Gangwon FC", "price": 170 },
+              { "name": "Gwangju FC", "price": 150 },
+              { "name": "Draw", "price": 220 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:33Z",
+            "outcomes": [
+              { "name": "Gangwon FC", "price": -105, "point": 0.0 },
+              { "name": "Gwangju FC", "price": -125, "point": 0.0 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:44:53Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:53Z",
+            "outcomes": [
+              { "name": "Gangwon FC", "price": 170 },
+              { "name": "Gwangju FC", "price": 145 },
+              { "name": "Draw", "price": 240 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:44:13Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:13Z",
+            "outcomes": [
+              { "name": "Gangwon FC", "price": 158 },
+              { "name": "Gwangju FC", "price": 137 },
+              { "name": "Draw", "price": 225 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:13Z",
+            "outcomes": [
+              { "name": "Gangwon FC", "price": -102, "point": 0.0 },
+              { "name": "Gwangju FC", "price": -118, "point": 0.0 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T13:44:42Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:42Z",
+            "outcomes": [
+              { "name": "Gangwon FC", "price": 158 },
+              { "name": "Gwangju FC", "price": 137 },
+              { "name": "Draw", "price": 225 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:42Z",
+            "outcomes": [
+              { "name": "Gangwon FC", "price": -102, "point": 0.0 },
+              { "name": "Gwangju FC", "price": -118, "point": 0.0 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:13Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:13Z",
+            "outcomes": [
+              { "name": "Gangwon FC", "price": 163 },
+              { "name": "Gwangju FC", "price": 145 },
+              { "name": "Draw", "price": 220 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "a55c284d1cd07f87b460cca62e25bad2",
+    "sport_key": "soccer_korea_kleague1",
+    "sport_title": "K League 1",
+    "commence_time": "2024-07-09T10:30:00Z",
+    "home_team": "Daegu FC",
+    "away_team": "Incheon United",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:43:19Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:19Z",
+            "outcomes": [
+              { "name": "Daegu FC", "price": 130 },
+              { "name": "Incheon United", "price": 195 },
+              { "name": "Draw", "price": 210 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:44:53Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:53Z",
+            "outcomes": [
+              { "name": "Daegu FC", "price": 135 },
+              { "name": "Incheon United", "price": 195 },
+              { "name": "Draw", "price": 220 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2024-07-06T13:44:13Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:13Z",
+            "outcomes": [
+              { "name": "Daegu FC", "price": 135 },
+              { "name": "Incheon United", "price": 195 },
+              { "name": "Draw", "price": 220 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:44:52Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:52Z",
+            "outcomes": [
+              { "name": "Daegu FC", "price": 137 },
+              { "name": "Incheon United", "price": 200 },
+              { "name": "Draw", "price": 228 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:52Z",
+            "outcomes": [
+              { "name": "Daegu FC", "price": 129, "point": -0.5 },
+              { "name": "Incheon United", "price": -172, "point": 0.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:43:07Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:07Z",
+            "outcomes": [
+              { "name": "Daegu FC", "price": 140 },
+              { "name": "Incheon United", "price": 200 },
+              { "name": "Draw", "price": 215 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:44:33Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:33Z",
+            "outcomes": [
+              { "name": "Daegu FC", "price": 140 },
+              { "name": "Incheon United", "price": 200 },
+              { "name": "Draw", "price": 215 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:33Z",
+            "outcomes": [
+              { "name": "Daegu FC", "price": 100, "point": -0.25 },
+              { "name": "Incheon United", "price": -130, "point": 0.25 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "5a1fee792965af5030f2a2f481319abf",
+    "sport_key": "soccer_korea_kleague1",
+    "sport_title": "K League 1",
+    "commence_time": "2024-07-09T10:30:00Z",
+    "home_team": "Sangju Sangmu FC",
+    "away_team": "Suwon FC",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:43:19Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:19Z",
+            "outcomes": [
+              { "name": "Sangju Sangmu FC", "price": 105 },
+              { "name": "Suwon FC", "price": 230 },
+              { "name": "Draw", "price": 240 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:44:53Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:53Z",
+            "outcomes": [
+              { "name": "Sangju Sangmu FC", "price": 105 },
+              { "name": "Suwon FC", "price": 225 },
+              { "name": "Draw", "price": 250 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2024-07-06T13:44:13Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:13Z",
+            "outcomes": [
+              { "name": "Sangju Sangmu FC", "price": 105 },
+              { "name": "Suwon FC", "price": 225 },
+              { "name": "Draw", "price": 250 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:43:07Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:07Z",
+            "outcomes": [
+              { "name": "Sangju Sangmu FC", "price": 105 },
+              { "name": "Suwon FC", "price": 230 },
+              { "name": "Draw", "price": 245 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:44:52Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:52Z",
+            "outcomes": [
+              { "name": "Sangju Sangmu FC", "price": 110 },
+              { "name": "Suwon FC", "price": 230 },
+              { "name": "Draw", "price": 255 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:52Z",
+            "outcomes": [
+              { "name": "Sangju Sangmu FC", "price": 105, "point": -0.5 },
+              { "name": "Suwon FC", "price": -139, "point": 0.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:44:33Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:33Z",
+            "outcomes": [
+              { "name": "Sangju Sangmu FC", "price": 110 },
+              { "name": "Suwon FC", "price": 230 },
+              { "name": "Draw", "price": 240 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:33Z",
+            "outcomes": [
+              { "name": "Sangju Sangmu FC", "price": -125, "point": -0.25 },
+              { "name": "Suwon FC", "price": -105, "point": 0.25 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:13Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:13Z",
+            "outcomes": [
+              { "name": "Sangju Sangmu FC", "price": 104 },
+              { "name": "Suwon FC", "price": 220 },
+              { "name": "Draw", "price": 235 }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

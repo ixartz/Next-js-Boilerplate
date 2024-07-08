@@ -1,0 +1,895 @@
+[
+  {
+    "id": "1f3c063cfac53a226745fd91670b9847",
+    "sport_key": "soccer_england_efl_cup",
+    "sport_title": "EFL Cup",
+    "commence_time": "2024-08-13T22:00:00Z",
+    "home_team": "Tranmere Rovers",
+    "away_team": "Accrington Stanley",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:42:53Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:53Z",
+            "outcomes": [
+              { "name": "Accrington Stanley", "price": 230 },
+              { "name": "Tranmere Rovers", "price": 100 },
+              { "name": "Draw", "price": 240 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "a75dfde6b4c83937fb4b3da524a065bb",
+    "sport_key": "soccer_england_efl_cup",
+    "sport_title": "EFL Cup",
+    "commence_time": "2024-08-13T22:00:00Z",
+    "home_team": "Wigan Athletic",
+    "away_team": "Barnsley",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:42:53Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:53Z",
+            "outcomes": [
+              { "name": "Barnsley", "price": 200 },
+              { "name": "Wigan Athletic", "price": 120 },
+              { "name": "Draw", "price": 230 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c8f12946a858043d4d8704d9e32b7e5b",
+    "sport_key": "soccer_england_efl_cup",
+    "sport_title": "EFL Cup",
+    "commence_time": "2024-08-13T22:00:00Z",
+    "home_team": "Barrow",
+    "away_team": "Port Vale",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:42:53Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:53Z",
+            "outcomes": [
+              { "name": "Barrow", "price": 140 },
+              { "name": "Port Vale", "price": 160 },
+              { "name": "Draw", "price": 240 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "4bd034b9c7aae09ccf3e0360e04ca6d8",
+    "sport_key": "soccer_england_efl_cup",
+    "sport_title": "EFL Cup",
+    "commence_time": "2024-08-13T22:00:00Z",
+    "home_team": "Charlton Athletic",
+    "away_team": "Birmingham City",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:42:53Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:53Z",
+            "outcomes": [
+              { "name": "Birmingham City", "price": 120 },
+              { "name": "Charlton Athletic", "price": 200 },
+              { "name": "Draw", "price": 230 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bc9136a03401937a144acd908d0f7628",
+    "sport_key": "soccer_england_efl_cup",
+    "sport_title": "EFL Cup",
+    "commence_time": "2024-08-13T22:00:00Z",
+    "home_team": "Stockport County FC",
+    "away_team": "Blackburn Rovers",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:42:53Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:53Z",
+            "outcomes": [
+              { "name": "Blackburn Rovers", "price": 145 },
+              { "name": "Stockport County FC", "price": 165 },
+              { "name": "Draw", "price": 230 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "500b60e19d85c46868e0947d3d15cecd",
+    "sport_key": "soccer_england_efl_cup",
+    "sport_title": "EFL Cup",
+    "commence_time": "2024-08-13T22:00:00Z",
+    "home_team": "Burton Albion",
+    "away_team": "Blackpool",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:42:53Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:53Z",
+            "outcomes": [
+              { "name": "Blackpool", "price": 120 },
+              { "name": "Burton Albion", "price": 180 },
+              { "name": "Draw", "price": 250 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "b0c59f3dc6ca15a992cb0d612dcb7e6e",
+    "sport_key": "soccer_england_efl_cup",
+    "sport_title": "EFL Cup",
+    "commence_time": "2024-08-13T22:00:00Z",
+    "home_team": "Bolton Wanderers",
+    "away_team": "Mansfield Town",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:42:53Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:53Z",
+            "outcomes": [
+              { "name": "Bolton Wanderers", "price": -165 },
+              { "name": "Mansfield Town", "price": 370 },
+              { "name": "Draw", "price": 300 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "7367fbb0c55980a3e4a0ee88ee972e99",
+    "sport_key": "soccer_england_efl_cup",
+    "sport_title": "EFL Cup",
+    "commence_time": "2024-08-13T22:00:00Z",
+    "home_team": "Grimsby Town",
+    "away_team": "Bradford City",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:42:53Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:53Z",
+            "outcomes": [
+              { "name": "Bradford City", "price": 155 },
+              { "name": "Grimsby Town", "price": 150 },
+              { "name": "Draw", "price": 230 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "b187bca54cbaf04e993ca0928f2e1f0d",
+    "sport_key": "soccer_england_efl_cup",
+    "sport_title": "EFL Cup",
+    "commence_time": "2024-08-13T22:00:00Z",
+    "home_team": "Bristol City",
+    "away_team": "Coventry City",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:42:53Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:53Z",
+            "outcomes": [
+              { "name": "Bristol City", "price": 150 },
+              { "name": "Coventry City", "price": 150 },
+              { "name": "Draw", "price": 240 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1d4685e29719e9329e6c0254c29d9c82",
+    "sport_key": "soccer_england_efl_cup",
+    "sport_title": "EFL Cup",
+    "commence_time": "2024-08-13T22:00:00Z",
+    "home_team": "Cardiff City",
+    "away_team": "Bristol Rovers",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:42:53Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:53Z",
+            "outcomes": [
+              { "name": "Bristol Rovers", "price": 390 },
+              { "name": "Cardiff City", "price": -165 },
+              { "name": "Draw", "price": 280 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ce66fb58487450713aa269c6ced6009f",
+    "sport_key": "soccer_england_efl_cup",
+    "sport_title": "EFL Cup",
+    "commence_time": "2024-08-13T22:00:00Z",
+    "home_team": "Bromley FC",
+    "away_team": "Wimbledon",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:42:53Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:53Z",
+            "outcomes": [
+              { "name": "Bromley FC", "price": 185 },
+              { "name": "Wimbledon", "price": 125 },
+              { "name": "Draw", "price": 240 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "3321e8c976a5b578e90cf0af2bebfed5",
+    "sport_key": "soccer_england_efl_cup",
+    "sport_title": "EFL Cup",
+    "commence_time": "2024-08-13T22:00:00Z",
+    "home_team": "Cambridge United",
+    "away_team": "Queens Park Rangers",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:42:53Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:53Z",
+            "outcomes": [
+              { "name": "Cambridge United", "price": 340 },
+              { "name": "Queens Park Rangers", "price": -145 },
+              { "name": "Draw", "price": 270 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "b831c575e7189d305ed08d4610475e60",
+    "sport_key": "soccer_england_efl_cup",
+    "sport_title": "EFL Cup",
+    "commence_time": "2024-08-13T22:00:00Z",
+    "home_team": "Carlisle United",
+    "away_team": "Stoke City",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:42:53Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:53Z",
+            "outcomes": [
+              { "name": "Carlisle United", "price": 390 },
+              { "name": "Stoke City", "price": -165 },
+              { "name": "Draw", "price": 280 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "30936bd3e06e11a850af7ca875ddd823",
+    "sport_key": "soccer_england_efl_cup",
+    "sport_title": "EFL Cup",
+    "commence_time": "2024-08-13T22:00:00Z",
+    "home_team": "Plymouth Argyle",
+    "away_team": "Cheltenham Town",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:42:53Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:53Z",
+            "outcomes": [
+              { "name": "Cheltenham Town", "price": 410 },
+              { "name": "Plymouth Argyle", "price": -170 },
+              { "name": "Draw", "price": 280 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "8fbe9b308bb97da3d3b8e28b38e9c587",
+    "sport_key": "soccer_england_efl_cup",
+    "sport_title": "EFL Cup",
+    "commence_time": "2024-08-13T22:00:00Z",
+    "home_team": "Derby County",
+    "away_team": "Chesterfield FC",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:42:53Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:53Z",
+            "outcomes": [
+              { "name": "Chesterfield FC", "price": 500 },
+              { "name": "Derby County", "price": -195 },
+              { "name": "Draw", "price": 260 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "e42c7a4a734275f96ca8f41342529907",
+    "sport_key": "soccer_england_efl_cup",
+    "sport_title": "EFL Cup",
+    "commence_time": "2024-08-13T22:00:00Z",
+    "home_team": "Colchester United",
+    "away_team": "Reading",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:42:53Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:53Z",
+            "outcomes": [
+              { "name": "Colchester United", "price": 320 },
+              { "name": "Reading", "price": -140 },
+              { "name": "Draw", "price": 260 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "940682bfc6d604308d4ed16c045a12b1",
+    "sport_key": "soccer_england_efl_cup",
+    "sport_title": "EFL Cup",
+    "commence_time": "2024-08-13T22:00:00Z",
+    "home_team": "Crawley Town",
+    "away_team": "Swindon Town",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:42:53Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:53Z",
+            "outcomes": [
+              { "name": "Crawley Town", "price": 100 },
+              { "name": "Swindon Town", "price": 230 },
+              { "name": "Draw", "price": 240 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "e44eb86b014a588986dd5c66f654de43",
+    "sport_key": "soccer_england_efl_cup",
+    "sport_title": "EFL Cup",
+    "commence_time": "2024-08-13T22:00:00Z",
+    "home_team": "Rotherham United",
+    "away_team": "Crewe Alexandra",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:42:53Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:53Z",
+            "outcomes": [
+              { "name": "Crewe Alexandra", "price": 410 },
+              { "name": "Rotherham United", "price": -175 },
+              { "name": "Draw", "price": 300 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "04c724adcdffcc33e80ec34dd55ca93e",
+    "sport_key": "soccer_england_efl_cup",
+    "sport_title": "EFL Cup",
+    "commence_time": "2024-08-13T22:00:00Z",
+    "home_team": "Salford City",
+    "away_team": "Doncaster Rovers",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:42:53Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:53Z",
+            "outcomes": [
+              { "name": "Doncaster Rovers", "price": 185 },
+              { "name": "Salford City", "price": 125 },
+              { "name": "Draw", "price": 230 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "771320ce9297d4070599edf0b91a447c",
+    "sport_key": "soccer_england_efl_cup",
+    "sport_title": "EFL Cup",
+    "commence_time": "2024-08-13T22:00:00Z",
+    "home_team": "Walsall",
+    "away_team": "Exeter City",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:42:53Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:53Z",
+            "outcomes": [
+              { "name": "Exeter City", "price": 100 },
+              { "name": "Walsall", "price": 230 },
+              { "name": "Draw", "price": 240 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2461a0ba2f3d4b5822c0efbbe28f6e93",
+    "sport_key": "soccer_england_efl_cup",
+    "sport_title": "EFL Cup",
+    "commence_time": "2024-08-13T22:00:00Z",
+    "home_team": "Fleetwood Town",
+    "away_team": "West Bromwich Albion",
+    "bookmakers": []
+  },
+  {
+    "id": "dd709146039b75cc3637b9cba8b0fd48",
+    "sport_key": "soccer_england_efl_cup",
+    "sport_title": "EFL Cup",
+    "commence_time": "2024-08-13T22:00:00Z",
+    "home_team": "Swansea City",
+    "away_team": "Gillingham",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:42:53Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:53Z",
+            "outcomes": [
+              { "name": "Gillingham", "price": 500 },
+              { "name": "Swansea City", "price": -220 },
+              { "name": "Draw", "price": 320 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "0dbc4c6a0ff268cc00a021ea90823d52",
+    "sport_key": "soccer_england_efl_cup",
+    "sport_title": "EFL Cup",
+    "commence_time": "2024-08-13T22:00:00Z",
+    "home_team": "Lincoln City",
+    "away_team": "Harrogate Town",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:42:53Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:53Z",
+            "outcomes": [
+              { "name": "Harrogate Town", "price": 550 },
+              { "name": "Lincoln City", "price": -220 },
+              { "name": "Draw", "price": 300 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "4e901a54e845533445c7ca6518ffbc4f",
+    "sport_key": "soccer_england_efl_cup",
+    "sport_title": "EFL Cup",
+    "commence_time": "2024-08-13T22:00:00Z",
+    "home_team": "Huddersfield Town",
+    "away_team": "Morecambe",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:42:53Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:53Z",
+            "outcomes": [
+              { "name": "Huddersfield Town", "price": -185 },
+              { "name": "Morecambe", "price": 450 },
+              { "name": "Draw", "price": 290 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "a3cdeac6c7a2b3058e50b95f86905ad9",
+    "sport_key": "soccer_england_efl_cup",
+    "sport_title": "EFL Cup",
+    "commence_time": "2024-08-13T22:00:00Z",
+    "home_team": "Hull City",
+    "away_team": "Sheffield Wednesday",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:42:53Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:53Z",
+            "outcomes": [
+              { "name": "Hull City", "price": -110 },
+              { "name": "Sheffield Wednesday", "price": 280 },
+              { "name": "Draw", "price": 230 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fb08d411237d3d0c9a4b1bffee005e34",
+    "sport_key": "soccer_england_efl_cup",
+    "sport_title": "EFL Cup",
+    "commence_time": "2024-08-13T22:00:00Z",
+    "home_team": "Leeds United",
+    "away_team": "Middlesbrough",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:42:53Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:53Z",
+            "outcomes": [
+              { "name": "Leeds United", "price": -165 },
+              { "name": "Middlesbrough", "price": 390 },
+              { "name": "Draw", "price": 290 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ab20b7fe89c82927f609d5684f8ced7a",
+    "sport_key": "soccer_england_efl_cup",
+    "sport_title": "EFL Cup",
+    "commence_time": "2024-08-13T22:00:00Z",
+    "home_team": "Leyton Orient",
+    "away_team": "Newport County",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:42:53Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:53Z",
+            "outcomes": [
+              { "name": "Leyton Orient", "price": -210 },
+              { "name": "Newport County", "price": 500 },
+              { "name": "Draw", "price": 300 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bafdc88052665c7deda706cf77a9aece",
+    "sport_key": "soccer_england_efl_cup",
+    "sport_title": "EFL Cup",
+    "commence_time": "2024-08-13T22:00:00Z",
+    "home_team": "Portsmouth",
+    "away_team": "Millwall",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:42:53Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:53Z",
+            "outcomes": [
+              { "name": "Millwall", "price": 185 },
+              { "name": "Portsmouth", "price": 140 },
+              { "name": "Draw", "price": 210 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "801f8d5d95a0ea8b3b822b4784768d80",
+    "sport_key": "soccer_england_efl_cup",
+    "sport_title": "EFL Cup",
+    "commence_time": "2024-08-13T22:00:00Z",
+    "home_team": "Watford",
+    "away_team": "Milton Keynes Dons",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:42:53Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:53Z",
+            "outcomes": [
+              { "name": "Milton Keynes Dons", "price": 500 },
+              { "name": "Watford", "price": -220 },
+              { "name": "Draw", "price": 320 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "947f8b3d86a50f9560a9ccbb267c9317",
+    "sport_key": "soccer_england_efl_cup",
+    "sport_title": "EFL Cup",
+    "commence_time": "2024-08-13T22:00:00Z",
+    "home_team": "Northampton Town",
+    "away_team": "Wycombe Wanderers",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:42:53Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:53Z",
+            "outcomes": [
+              { "name": "Northampton Town", "price": 130 },
+              { "name": "Wycombe Wanderers", "price": 190 },
+              { "name": "Draw", "price": 220 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c4a1b559c667e095602f31d4cffa2edf",
+    "sport_key": "soccer_england_efl_cup",
+    "sport_title": "EFL Cup",
+    "commence_time": "2024-08-13T22:00:00Z",
+    "home_team": "Norwich City",
+    "away_team": "Stevenage",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:42:53Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:53Z",
+            "outcomes": [
+              { "name": "Norwich City", "price": -220 },
+              { "name": "Stevenage", "price": 550 },
+              { "name": "Draw", "price": 310 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "df99422afbeee0db62181d2e621fc239",
+    "sport_key": "soccer_england_efl_cup",
+    "sport_title": "EFL Cup",
+    "commence_time": "2024-08-13T22:00:00Z",
+    "home_team": "Shrewsbury Town",
+    "away_team": "Notts County",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:42:53Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:53Z",
+            "outcomes": [
+              { "name": "Notts County", "price": 200 },
+              { "name": "Shrewsbury Town", "price": 120 },
+              { "name": "Draw", "price": 230 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ccbace4949e265f1e4a8f3cb2645d143",
+    "sport_key": "soccer_england_efl_cup",
+    "sport_title": "EFL Cup",
+    "commence_time": "2024-08-13T22:00:00Z",
+    "home_team": "Oxford United",
+    "away_team": "Peterborough United",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:42:53Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:53Z",
+            "outcomes": [
+              { "name": "Oxford United", "price": 115 },
+              { "name": "Peterborough United", "price": 195 },
+              { "name": "Draw", "price": 240 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2e693466ca1778afe62c39fe66b1d832",
+    "sport_key": "soccer_england_efl_cup",
+    "sport_title": "EFL Cup",
+    "commence_time": "2024-08-13T22:00:00Z",
+    "home_team": "Preston North End",
+    "away_team": "Sunderland",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:42:53Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:53Z",
+            "outcomes": [
+              { "name": "Preston North End", "price": 130 },
+              { "name": "Sunderland", "price": 190 },
+              { "name": "Draw", "price": 220 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "e2d2fb40ec8ff5000d46c6673371e6d5",
+    "sport_key": "soccer_england_efl_cup",
+    "sport_title": "EFL Cup",
+    "commence_time": "2024-08-13T22:00:00Z",
+    "home_team": "Sheffield United",
+    "away_team": "Wrexham AFC",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:42:53Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:53Z",
+            "outcomes": [
+              { "name": "Sheffield United", "price": -185 },
+              { "name": "Wrexham AFC", "price": 410 },
+              { "name": "Draw", "price": 310 }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

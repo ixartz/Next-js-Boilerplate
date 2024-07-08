@@ -1,3 +1,5 @@
+'use client';
+
 import { Disclosure } from '@headlessui/react';
 import { ChevronRightIcon } from '@heroicons/react/20/solid';
 
@@ -10,7 +12,16 @@ const navigation = [
   { name: 'American Football', bets: 100, href: '#', current: false },
   { name: 'Australian Rules', bets: 100, href: '#', current: false },
   { name: 'Badminton', bets: 100, href: '#', current: false },
-  { name: 'Basketbal', bets: 100, href: '#', current: false },
+  {
+    name: 'Basketbal',
+    bets: 100,
+    href: '#',
+    current: false,
+    children: [
+      { name: 'NBA', href: '#', current: false },
+      { name: 'EuroLeague', href: '#', current: false },
+    ],
+  },
   { name: 'Beachvolleybal', bets: 100, href: '#', current: false },
   { name: 'Boksen', bets: 100, href: '#', current: false },
   { name: 'Bowlen', bets: 100, href: '#', current: false },
@@ -69,7 +80,7 @@ function classNames(...classes) {
 
 export default function SideNavWithExpandableSections() {
   return (
-    <div className="flex grow flex-col overflow-y-aut bg-white">
+    <div className="flex grow flex-col overflow-y-auto bg-white">
       <div className="flex shrink-0 items-center">
         {/* <img
           className="h-8 w-auto"
@@ -87,8 +98,8 @@ export default function SideNavWithExpandableSections() {
                     <a
                       href={item.href}
                       className={classNames(
-                        item.current ? 'bg-gray-50' : 'hover:bg-gray-900',
-                        'block px-4 pr-2 text-sm leading-6 font-semibold text-white',
+                        item.current ? 'bg-gray-700' : 'hover:bg-gray-900',
+                        'block px-4 pr-2 text-sm leading-6 font-semibold text-white'
                       )}
                     >
                       <div className="flex justify-between text-xxs">
@@ -99,11 +110,14 @@ export default function SideNavWithExpandableSections() {
                   ) : (
                     <Disclosure as="div">
                       {({ open }) => (
-                        <>
+                        <div className={classNames(open ? 'bg-gray-700' : '')}>
                           <Disclosure.Button
                             className={classNames(
-                              item.current ? 'bg-gray-50' : 'hover:bg-gray-50',
-                              'flex items-center w-full text-left rounded-md p-2 gap-x-3 text-sm leading-6 font-semibold text-gray-700',
+                              item.current
+                                ? 'bg-gray-700'
+                                : 'hover:bg-gray-700',
+                              'flex items-center w-full text-left py-1 px-2 gap-x-1 text-xxs leading-6 font-semibold text-white',
+                              open ? 'bg-gray-700' : ''
                             )}
                           >
                             <ChevronRightIcon
@@ -111,13 +125,13 @@ export default function SideNavWithExpandableSections() {
                                 open
                                   ? 'rotate-90 text-gray-500'
                                   : 'text-gray-400',
-                                'h-5 w-5 shrink-0',
+                                'h-4 w-4 ml-1 shrink-0 text-xxs'
                               )}
                               aria-hidden="true"
                             />
                             {item.name}
                           </Disclosure.Button>
-                          <Disclosure.Panel as="ul" className="mt-1 px-2">
+                          <Disclosure.Panel as="ul">
                             {item.children.map((subItem) => (
                               <li key={subItem.name}>
                                 <Disclosure.Button
@@ -125,9 +139,9 @@ export default function SideNavWithExpandableSections() {
                                   href={subItem.href}
                                   className={classNames(
                                     subItem.current
-                                      ? 'bg-gray-50'
-                                      : 'hover:bg-gray-50',
-                                    'block rounded-md py-2 pr-2 pl-9 text-sm leading-6 text-gray-700',
+                                      ? 'bg-gray-600'
+                                      : 'hover:bg-gray-600',
+                                    'block py-1 pr-2 pl-8 text-xxs leading-6 text-white'
                                   )}
                                 >
                                   {subItem.name}
@@ -135,27 +149,13 @@ export default function SideNavWithExpandableSections() {
                               </li>
                             ))}
                           </Disclosure.Panel>
-                        </>
+                        </div>
                       )}
                     </Disclosure>
                   )}
                 </li>
               ))}
             </ul>
-          </li>
-          <li className="-mx-6 mt-auto">
-            <a
-              href="#"
-              className="flex items-center gap-x-4 px-6 py-3 text-sm font-semibold leading-6 text-gray-900 hover:bg-gray-50"
-            >
-              <img
-                className="h-8 w-8 rounded-full bg-gray-50"
-                src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
-                alt=""
-              />
-              <span className="sr-only">Your profile</span>
-              <span aria-hidden="true">Tom Cook</span>
-            </a>
           </li>
         </ul>
       </nav>

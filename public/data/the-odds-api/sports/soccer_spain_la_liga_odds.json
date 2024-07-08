@@ -1,0 +1,1414 @@
+[
+  {
+    "id": "38629fa92cde8ab93e560ce6f466e675",
+    "sport_key": "soccer_spain_la_liga",
+    "sport_title": "La Liga - Spain",
+    "commence_time": "2024-08-15T17:00:00Z",
+    "home_team": "Athletic Bilbao",
+    "away_team": "Getafe",
+    "bookmakers": [
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:44:51Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:51Z",
+            "outcomes": [
+              { "name": "Athletic Bilbao", "price": -224 },
+              { "name": "Getafe", "price": 600 },
+              { "name": "Draw", "price": 310 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:51Z",
+            "outcomes": [
+              { "name": "Athletic Bilbao", "price": 131, "point": -1.5 },
+              { "name": "Getafe", "price": -183, "point": 1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2024-07-06T13:44:02Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:02Z",
+            "outcomes": [
+              { "name": "Athletic Bilbao", "price": -225 },
+              { "name": "Getafe", "price": 600 },
+              { "name": "Draw", "price": 310 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:44:09Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:09Z",
+            "outcomes": [
+              { "name": "Athletic Bilbao", "price": -255 },
+              { "name": "Getafe", "price": 550 },
+              { "name": "Draw", "price": 310 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:42:43Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:43Z",
+            "outcomes": [
+              { "name": "Athletic Bilbao", "price": -240 },
+              { "name": "Getafe", "price": 700 },
+              { "name": "Draw", "price": 320 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2024-07-06T13:41:54Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:41:54Z",
+            "outcomes": [
+              { "name": "Athletic Bilbao", "price": -210 },
+              { "name": "Getafe", "price": 650 },
+              { "name": "Draw", "price": 300 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T13:44:51Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:51Z",
+            "outcomes": [
+              { "name": "Athletic Bilbao", "price": -230 },
+              { "name": "Getafe", "price": 800 },
+              { "name": "Draw", "price": 313 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:51Z",
+            "outcomes": [
+              { "name": "Athletic Bilbao", "price": -125, "point": -1.0 },
+              { "name": "Getafe", "price": 105, "point": 1.0 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:44:26Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:26Z",
+            "outcomes": [
+              { "name": "Athletic Bilbao", "price": -230 },
+              { "name": "Getafe", "price": 800 },
+              { "name": "Draw", "price": 313 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:26Z",
+            "outcomes": [
+              { "name": "Athletic Bilbao", "price": -125, "point": -1.0 },
+              { "name": "Getafe", "price": 105, "point": 1.0 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "efc7d96ae3cf68744c1aaeb8e0f748f6",
+    "sport_key": "soccer_spain_la_liga",
+    "sport_title": "La Liga - Spain",
+    "commence_time": "2024-08-15T19:30:00Z",
+    "home_team": "Real Betis",
+    "away_team": "Girona",
+    "bookmakers": [
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:44:51Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:51Z",
+            "outcomes": [
+              { "name": "Girona", "price": 148 },
+              { "name": "Real Betis", "price": 161 },
+              { "name": "Draw", "price": 240 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:51Z",
+            "outcomes": [
+              { "name": "Girona", "price": 141, "point": -0.5 },
+              { "name": "Real Betis", "price": -198, "point": 0.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2024-07-06T13:44:02Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:02Z",
+            "outcomes": [
+              { "name": "Girona", "price": 150 },
+              { "name": "Real Betis", "price": 160 },
+              { "name": "Draw", "price": 240 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:44:09Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:09Z",
+            "outcomes": [
+              { "name": "Girona", "price": 145 },
+              { "name": "Real Betis", "price": 165 },
+              { "name": "Draw", "price": 215 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:42:43Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:43Z",
+            "outcomes": [
+              { "name": "Girona", "price": 155 },
+              { "name": "Real Betis", "price": 175 },
+              { "name": "Draw", "price": 230 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2024-07-06T13:41:54Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:41:54Z",
+            "outcomes": [
+              { "name": "Girona", "price": 150 },
+              { "name": "Real Betis", "price": 170 },
+              { "name": "Draw", "price": 240 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T13:44:51Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:51Z",
+            "outcomes": [
+              { "name": "Girona", "price": 161 },
+              { "name": "Real Betis", "price": 175 },
+              { "name": "Draw", "price": 230 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:51Z",
+            "outcomes": [
+              { "name": "Girona", "price": -120, "point": 0.0 },
+              { "name": "Real Betis", "price": 100, "point": 0.0 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:44:26Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:26Z",
+            "outcomes": [
+              { "name": "Girona", "price": 161 },
+              { "name": "Real Betis", "price": 175 },
+              { "name": "Draw", "price": 230 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:26Z",
+            "outcomes": [
+              { "name": "Girona", "price": -120, "point": 0.0 },
+              { "name": "Real Betis", "price": 100, "point": 0.0 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "0c15bbf0c68e6c649776fde31365e164",
+    "sport_key": "soccer_spain_la_liga",
+    "sport_title": "La Liga - Spain",
+    "commence_time": "2024-08-16T17:00:00Z",
+    "home_team": "Celta Vigo",
+    "away_team": "Alav\u00e9s",
+    "bookmakers": [
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2024-07-06T13:44:02Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:02Z",
+            "outcomes": [
+              { "name": "Alav\u00e9s", "price": 285 },
+              { "name": "Celta Vigo", "price": -110 },
+              { "name": "Draw", "price": 230 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:42:43Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:43Z",
+            "outcomes": [
+              { "name": "Alav\u00e9s", "price": 310 },
+              { "name": "Celta Vigo", "price": -120 },
+              { "name": "Draw", "price": 240 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:44:09Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:09Z",
+            "outcomes": [
+              { "name": "Alav\u00e9s", "price": 285 },
+              { "name": "Celta Vigo", "price": -115 },
+              { "name": "Draw", "price": 225 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2024-07-06T13:41:54Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:41:54Z",
+            "outcomes": [
+              { "name": "Alav\u00e9s", "price": 300 },
+              { "name": "Celta Vigo", "price": -105 },
+              { "name": "Draw", "price": 240 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T13:44:51Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:51Z",
+            "outcomes": [
+              { "name": "Alav\u00e9s", "price": 320 },
+              { "name": "Celta Vigo", "price": -104 },
+              { "name": "Draw", "price": 230 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:51Z",
+            "outcomes": [
+              { "name": "Alav\u00e9s", "price": -116, "point": 0.5 },
+              { "name": "Celta Vigo", "price": -104, "point": -0.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:44:26Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:26Z",
+            "outcomes": [
+              { "name": "Alav\u00e9s", "price": 320 },
+              { "name": "Celta Vigo", "price": -104 },
+              { "name": "Draw", "price": 230 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:26Z",
+            "outcomes": [
+              { "name": "Alav\u00e9s", "price": -116, "point": 0.5 },
+              { "name": "Celta Vigo", "price": -104, "point": -0.5 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "47fd546223fafb4833a2daf7317085b0",
+    "sport_key": "soccer_spain_la_liga",
+    "sport_title": "La Liga - Spain",
+    "commence_time": "2024-08-16T19:30:00Z",
+    "home_team": "Las Palmas",
+    "away_team": "Sevilla",
+    "bookmakers": [
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2024-07-06T13:44:02Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:02Z",
+            "outcomes": [
+              { "name": "Las Palmas", "price": 170 },
+              { "name": "Sevilla", "price": 155 },
+              { "name": "Draw", "price": 210 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:44:51Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:51Z",
+            "outcomes": [
+              { "name": "Las Palmas", "price": 172 },
+              { "name": "Sevilla", "price": 155 },
+              { "name": "Draw", "price": 212 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:51Z",
+            "outcomes": [
+              { "name": "Las Palmas", "price": -208, "point": 0.5 },
+              { "name": "Sevilla", "price": 147, "point": -0.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:42:43Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:43Z",
+            "outcomes": [
+              { "name": "Las Palmas", "price": 180 },
+              { "name": "Sevilla", "price": 160 },
+              { "name": "Draw", "price": 210 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2024-07-06T13:41:54Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:41:54Z",
+            "outcomes": [
+              { "name": "Las Palmas", "price": 180 },
+              { "name": "Sevilla", "price": 155 },
+              { "name": "Draw", "price": 220 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:44:09Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:09Z",
+            "outcomes": [
+              { "name": "Las Palmas", "price": 175 },
+              { "name": "Sevilla", "price": 150 },
+              { "name": "Draw", "price": 200 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T13:44:51Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:51Z",
+            "outcomes": [
+              { "name": "Las Palmas", "price": 185 },
+              { "name": "Sevilla", "price": 165 },
+              { "name": "Draw", "price": 210 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:51Z",
+            "outcomes": [
+              { "name": "Las Palmas", "price": 102, "point": 0.0 },
+              { "name": "Sevilla", "price": -122, "point": 0.0 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:44:26Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:26Z",
+            "outcomes": [
+              { "name": "Las Palmas", "price": 185 },
+              { "name": "Sevilla", "price": 165 },
+              { "name": "Draw", "price": 210 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:26Z",
+            "outcomes": [
+              { "name": "Las Palmas", "price": 102, "point": 0.0 },
+              { "name": "Sevilla", "price": -122, "point": 0.0 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c6b5de4b32d76b50483b6e548c8de67a",
+    "sport_key": "soccer_spain_la_liga",
+    "sport_title": "La Liga - Spain",
+    "commence_time": "2024-08-17T17:00:00Z",
+    "home_team": "CA Osasuna",
+    "away_team": "Legan\u00e9s",
+    "bookmakers": [
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2024-07-06T13:44:02Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:02Z",
+            "outcomes": [
+              { "name": "CA Osasuna", "price": -130 },
+              { "name": "Legan\u00e9s", "price": 335 },
+              { "name": "Draw", "price": 255 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:42:43Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:43Z",
+            "outcomes": [
+              { "name": "CA Osasuna", "price": -145 },
+              { "name": "Legan\u00e9s", "price": 380 },
+              { "name": "Draw", "price": 260 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2024-07-06T13:41:54Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:41:54Z",
+            "outcomes": [
+              { "name": "CA Osasuna", "price": -150 },
+              { "name": "Legan\u00e9s", "price": 425 },
+              { "name": "Draw", "price": 270 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:44:09Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:09Z",
+            "outcomes": [
+              { "name": "CA Osasuna", "price": -170 },
+              { "name": "Legan\u00e9s", "price": 400 },
+              { "name": "Draw", "price": 260 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T13:44:51Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:51Z",
+            "outcomes": [
+              { "name": "CA Osasuna", "price": -147 },
+              { "name": "Legan\u00e9s", "price": 430 },
+              { "name": "Draw", "price": 275 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:51Z",
+            "outcomes": [
+              { "name": "CA Osasuna", "price": -115, "point": -0.75 },
+              { "name": "Legan\u00e9s", "price": -105, "point": 0.75 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:44:26Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:26Z",
+            "outcomes": [
+              { "name": "CA Osasuna", "price": -147 },
+              { "name": "Legan\u00e9s", "price": 430 },
+              { "name": "Draw", "price": 275 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:26Z",
+            "outcomes": [
+              { "name": "CA Osasuna", "price": -115, "point": -0.75 },
+              { "name": "Legan\u00e9s", "price": -105, "point": 0.75 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "9816d755b9939d75577166d36687b615",
+    "sport_key": "soccer_spain_la_liga",
+    "sport_title": "La Liga - Spain",
+    "commence_time": "2024-08-17T19:30:00Z",
+    "home_team": "Valencia",
+    "away_team": "Barcelona",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:42:43Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:43Z",
+            "outcomes": [
+              { "name": "Barcelona", "price": -140 },
+              { "name": "Valencia", "price": 340 },
+              { "name": "Draw", "price": 270 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2024-07-06T13:44:02Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:02Z",
+            "outcomes": [
+              { "name": "Barcelona", "price": -130 },
+              { "name": "Valencia", "price": 305 },
+              { "name": "Draw", "price": 270 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:44:51Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:51Z",
+            "outcomes": [
+              { "name": "Barcelona", "price": -130 },
+              { "name": "Valencia", "price": 300 },
+              { "name": "Draw", "price": 270 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:51Z",
+            "outcomes": [
+              { "name": "Barcelona", "price": -134, "point": -0.5 },
+              { "name": "Valencia", "price": -103, "point": 0.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2024-07-06T13:41:54Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:41:54Z",
+            "outcomes": [
+              { "name": "Barcelona", "price": -130 },
+              { "name": "Valencia", "price": 340 },
+              { "name": "Draw", "price": 270 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:44:09Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:09Z",
+            "outcomes": [
+              { "name": "Barcelona", "price": -140 },
+              { "name": "Valencia", "price": 320 },
+              { "name": "Draw", "price": 260 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T13:44:51Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:51Z",
+            "outcomes": [
+              { "name": "Barcelona", "price": -124 },
+              { "name": "Valencia", "price": 335 },
+              { "name": "Draw", "price": 275 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:51Z",
+            "outcomes": [
+              { "name": "Barcelona", "price": -102, "point": -0.75 },
+              { "name": "Valencia", "price": -118, "point": 0.75 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:44:26Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:26Z",
+            "outcomes": [
+              { "name": "Barcelona", "price": -124 },
+              { "name": "Valencia", "price": 335 },
+              { "name": "Draw", "price": 275 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:26Z",
+            "outcomes": [
+              { "name": "Barcelona", "price": -102, "point": -0.75 },
+              { "name": "Valencia", "price": -118, "point": 0.75 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "a2bfd90db948c8592487d225e837c69f",
+    "sport_key": "soccer_spain_la_liga",
+    "sport_title": "La Liga - Spain",
+    "commence_time": "2024-08-18T17:00:00Z",
+    "home_team": "Real Sociedad",
+    "away_team": "Rayo Vallecano",
+    "bookmakers": [
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:44:51Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:51Z",
+            "outcomes": [
+              { "name": "Rayo Vallecano", "price": 540 },
+              { "name": "Real Sociedad", "price": -187 },
+              { "name": "Draw", "price": 265 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:51Z",
+            "outcomes": [
+              { "name": "Rayo Vallecano", "price": 136, "point": 0.5 },
+              { "name": "Real Sociedad", "price": -192, "point": -0.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2024-07-06T13:44:02Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:02Z",
+            "outcomes": [
+              { "name": "Rayo Vallecano", "price": 550 },
+              { "name": "Real Sociedad", "price": -185 },
+              { "name": "Draw", "price": 265 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:44:09Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:09Z",
+            "outcomes": [
+              { "name": "Rayo Vallecano", "price": 500 },
+              { "name": "Real Sociedad", "price": -210 },
+              { "name": "Draw", "price": 270 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2024-07-06T13:41:54Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:41:54Z",
+            "outcomes": [
+              { "name": "Rayo Vallecano", "price": 600 },
+              { "name": "Real Sociedad", "price": -180 },
+              { "name": "Draw", "price": 270 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:42:43Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:43Z",
+            "outcomes": [
+              { "name": "Rayo Vallecano", "price": 600 },
+              { "name": "Real Sociedad", "price": -210 },
+              { "name": "Draw", "price": 280 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T13:44:51Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:51Z",
+            "outcomes": [
+              { "name": "Rayo Vallecano", "price": 575 },
+              { "name": "Real Sociedad", "price": -180 },
+              { "name": "Draw", "price": 285 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:51Z",
+            "outcomes": [
+              { "name": "Rayo Vallecano", "price": -122, "point": 1.0 },
+              { "name": "Real Sociedad", "price": 102, "point": -1.0 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:44:26Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:26Z",
+            "outcomes": [
+              { "name": "Rayo Vallecano", "price": 575 },
+              { "name": "Real Sociedad", "price": -180 },
+              { "name": "Draw", "price": 285 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:26Z",
+            "outcomes": [
+              { "name": "Rayo Vallecano", "price": -122, "point": 1.0 },
+              { "name": "Real Sociedad", "price": 102, "point": -1.0 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ccc8b92448559d8eeb28ccb431b9a33c",
+    "sport_key": "soccer_spain_la_liga",
+    "sport_title": "La Liga - Spain",
+    "commence_time": "2024-08-18T19:30:00Z",
+    "home_team": "Mallorca",
+    "away_team": "Real Madrid",
+    "bookmakers": [
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:44:51Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:51Z",
+            "outcomes": [
+              { "name": "Mallorca", "price": 370 },
+              { "name": "Real Madrid", "price": -153 },
+              { "name": "Draw", "price": 280 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:51Z",
+            "outcomes": [
+              { "name": "Mallorca", "price": 113, "point": 0.5 },
+              { "name": "Real Madrid", "price": -157, "point": -0.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2024-07-06T13:44:02Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:02Z",
+            "outcomes": [
+              { "name": "Mallorca", "price": 375 },
+              { "name": "Real Madrid", "price": -155 },
+              { "name": "Draw", "price": 280 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:44:09Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:09Z",
+            "outcomes": [
+              { "name": "Mallorca", "price": 380 },
+              { "name": "Real Madrid", "price": -165 },
+              { "name": "Draw", "price": 265 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2024-07-06T13:41:54Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:41:54Z",
+            "outcomes": [
+              { "name": "Mallorca", "price": 425 },
+              { "name": "Real Madrid", "price": -150 },
+              { "name": "Draw", "price": 270 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:42:43Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:43Z",
+            "outcomes": [
+              { "name": "Mallorca", "price": 410 },
+              { "name": "Real Madrid", "price": -165 },
+              { "name": "Draw", "price": 270 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T13:44:51Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:51Z",
+            "outcomes": [
+              { "name": "Mallorca", "price": 405 },
+              { "name": "Real Madrid", "price": -146 },
+              { "name": "Draw", "price": 285 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:51Z",
+            "outcomes": [
+              { "name": "Mallorca", "price": -106, "point": 0.75 },
+              { "name": "Real Madrid", "price": -114, "point": -0.75 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:44:26Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:26Z",
+            "outcomes": [
+              { "name": "Mallorca", "price": 405 },
+              { "name": "Real Madrid", "price": -146 },
+              { "name": "Draw", "price": 285 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:26Z",
+            "outcomes": [
+              { "name": "Mallorca", "price": -106, "point": 0.75 },
+              { "name": "Real Madrid", "price": -114, "point": -0.75 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "3399cf3d588f71c9e53ea18d6c672a04",
+    "sport_key": "soccer_spain_la_liga",
+    "sport_title": "La Liga - Spain",
+    "commence_time": "2024-08-19T17:00:00Z",
+    "home_team": "Valladolid",
+    "away_team": "Espanyol",
+    "bookmakers": [
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2024-07-06T13:44:02Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:02Z",
+            "outcomes": [
+              { "name": "Espanyol", "price": 200 },
+              { "name": "Valladolid", "price": 135 },
+              { "name": "Draw", "price": 215 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:44:51Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:51Z",
+            "outcomes": [
+              { "name": "Espanyol", "price": 200 },
+              { "name": "Valladolid", "price": 133 },
+              { "name": "Draw", "price": 216 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:51Z",
+            "outcomes": [
+              { "name": "Espanyol", "price": -177, "point": 0.5 },
+              { "name": "Valladolid", "price": 126, "point": -0.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:42:43Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:43Z",
+            "outcomes": [
+              { "name": "Espanyol", "price": 210 },
+              { "name": "Valladolid", "price": 135 },
+              { "name": "Draw", "price": 220 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2024-07-06T13:41:54Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:41:54Z",
+            "outcomes": [
+              { "name": "Espanyol", "price": 210 },
+              { "name": "Valladolid", "price": 135 },
+              { "name": "Draw", "price": 220 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:44:09Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:09Z",
+            "outcomes": [
+              { "name": "Espanyol", "price": 195 },
+              { "name": "Valladolid", "price": 130 },
+              { "name": "Draw", "price": 205 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T13:44:51Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:51Z",
+            "outcomes": [
+              { "name": "Espanyol", "price": 220 },
+              { "name": "Valladolid", "price": 140 },
+              { "name": "Draw", "price": 212 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:51Z",
+            "outcomes": [
+              { "name": "Espanyol", "price": -125, "point": 0.25 },
+              { "name": "Valladolid", "price": 105, "point": -0.25 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:44:26Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:26Z",
+            "outcomes": [
+              { "name": "Espanyol", "price": 220 },
+              { "name": "Valladolid", "price": 140 },
+              { "name": "Draw", "price": 212 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:26Z",
+            "outcomes": [
+              { "name": "Espanyol", "price": -125, "point": 0.25 },
+              { "name": "Valladolid", "price": 105, "point": -0.25 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "5e64b0f411d60c367e15ea5f2842bfc4",
+    "sport_key": "soccer_spain_la_liga",
+    "sport_title": "La Liga - Spain",
+    "commence_time": "2024-08-19T19:30:00Z",
+    "home_team": "Villarreal",
+    "away_team": "Atl\u00e9tico Madrid",
+    "bookmakers": [
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2024-07-06T13:44:02Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:02Z",
+            "outcomes": [
+              { "name": "Atl\u00e9tico Madrid", "price": 130 },
+              { "name": "Villarreal", "price": 180 },
+              { "name": "Draw", "price": 245 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:44:51Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:51Z",
+            "outcomes": [
+              { "name": "Atl\u00e9tico Madrid", "price": 131 },
+              { "name": "Villarreal", "price": 182 },
+              { "name": "Draw", "price": 244 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:51Z",
+            "outcomes": [
+              { "name": "Atl\u00e9tico Madrid", "price": 125, "point": -0.5 },
+              { "name": "Villarreal", "price": -174, "point": 0.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:42:43Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:43Z",
+            "outcomes": [
+              { "name": "Atl\u00e9tico Madrid", "price": 135 },
+              { "name": "Villarreal", "price": 180 },
+              { "name": "Draw", "price": 240 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2024-07-06T13:41:54Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:41:54Z",
+            "outcomes": [
+              { "name": "Atl\u00e9tico Madrid", "price": 135 },
+              { "name": "Villarreal", "price": 185 },
+              { "name": "Draw", "price": 250 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:44:09Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:09Z",
+            "outcomes": [
+              { "name": "Atl\u00e9tico Madrid", "price": 125 },
+              { "name": "Villarreal", "price": 180 },
+              { "name": "Draw", "price": 225 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T13:44:51Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:51Z",
+            "outcomes": [
+              { "name": "Atl\u00e9tico Madrid", "price": 136 },
+              { "name": "Villarreal", "price": 194 },
+              { "name": "Draw", "price": 248 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:51Z",
+            "outcomes": [
+              { "name": "Atl\u00e9tico Madrid", "price": 106, "point": -0.25 },
+              { "name": "Villarreal", "price": -126, "point": 0.25 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:44:26Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:26Z",
+            "outcomes": [
+              { "name": "Atl\u00e9tico Madrid", "price": 136 },
+              { "name": "Villarreal", "price": 194 },
+              { "name": "Draw", "price": 248 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:26Z",
+            "outcomes": [
+              { "name": "Atl\u00e9tico Madrid", "price": 106, "point": -0.25 },
+              { "name": "Villarreal", "price": -126, "point": 0.25 }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

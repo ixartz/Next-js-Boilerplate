@@ -1,0 +1,2074 @@
+[
+  {
+    "id": "37fec4bfeab248553973e773b3a0fc64",
+    "sport_key": "soccer_brazil_campeonato",
+    "sport_title": "Brazil S\u00e9rie A",
+    "commence_time": "2024-07-06T23:00:00Z",
+    "home_team": "Sao Paulo",
+    "away_team": "Bragantino-SP",
+    "bookmakers": [
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:43:39Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:39Z",
+            "outcomes": [
+              { "name": "Bragantino-SP", "price": 295 },
+              { "name": "Sao Paulo", "price": -105 },
+              { "name": "Draw", "price": 245 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:39Z",
+            "outcomes": [
+              { "name": "Bragantino-SP", "price": -118, "point": 0.5 },
+              { "name": "Sao Paulo", "price": -102, "point": -0.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2024-07-06T13:43:47Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:47Z",
+            "outcomes": [
+              { "name": "Bragantino-SP", "price": 285 },
+              { "name": "Sao Paulo", "price": -110 },
+              { "name": "Draw", "price": 230 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:39:41Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:39:41Z",
+            "outcomes": [
+              { "name": "Bragantino-SP", "price": 320 },
+              { "name": "Sao Paulo", "price": -110 },
+              { "name": "Draw", "price": 220 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:42:43Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:43Z",
+            "outcomes": [
+              { "name": "Bragantino-SP", "price": 295 },
+              { "name": "Sao Paulo", "price": -104 },
+              { "name": "Draw", "price": 236 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:42:43Z",
+            "outcomes": [
+              { "name": "Bragantino-SP", "price": -122, "point": 0.5 },
+              { "name": "Sao Paulo", "price": -109, "point": -0.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-07-06T13:43:47Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:47Z",
+            "outcomes": [
+              { "name": "Bragantino-SP", "price": 295 },
+              { "name": "Sao Paulo", "price": -105 },
+              { "name": "Draw", "price": 245 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:47Z",
+            "outcomes": [
+              { "name": "Bragantino-SP", "price": -112, "point": 0.5 },
+              { "name": "Sao Paulo", "price": -115, "point": -0.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:42:33Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:33Z",
+            "outcomes": [
+              { "name": "Bragantino-SP", "price": 300 },
+              { "name": "Sao Paulo", "price": -105 },
+              { "name": "Draw", "price": 230 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:44:03Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:03Z",
+            "outcomes": [
+              { "name": "Bragantino-SP", "price": 330 },
+              { "name": "Sao Paulo", "price": -104 },
+              { "name": "Draw", "price": 225 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:03Z",
+            "outcomes": [
+              { "name": "Bragantino-SP", "price": -116, "point": 0.5 },
+              { "name": "Sao Paulo", "price": -104, "point": -0.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T13:42:33Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:33Z",
+            "outcomes": [
+              { "name": "Bragantino-SP", "price": 330 },
+              { "name": "Sao Paulo", "price": -104 },
+              { "name": "Draw", "price": 225 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:42:33Z",
+            "outcomes": [
+              { "name": "Bragantino-SP", "price": -116, "point": 0.5 },
+              { "name": "Sao Paulo", "price": -104, "point": -0.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:43:47Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:47Z",
+            "outcomes": [
+              { "name": "Bragantino-SP", "price": 300 },
+              { "name": "Sao Paulo", "price": -106 },
+              { "name": "Draw", "price": 240 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "e01a0caafbf74979a9d142dc03bb5ec8",
+    "sport_key": "soccer_brazil_campeonato",
+    "sport_title": "Brazil S\u00e9rie A",
+    "commence_time": "2024-07-06T23:00:00Z",
+    "home_team": "Flamengo",
+    "away_team": "Cuiab\u00e1",
+    "bookmakers": [
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:43:39Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:39Z",
+            "outcomes": [
+              { "name": "Cuiab\u00e1", "price": 650 },
+              { "name": "Flamengo", "price": -240 },
+              { "name": "Draw", "price": 370 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:39Z",
+            "outcomes": [
+              { "name": "Cuiab\u00e1", "price": -118, "point": 1.25 },
+              { "name": "Flamengo", "price": -102, "point": -1.25 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2024-07-06T13:43:47Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:47Z",
+            "outcomes": [
+              { "name": "Cuiab\u00e1", "price": 650 },
+              { "name": "Flamengo", "price": -250 },
+              { "name": "Draw", "price": 335 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:43:48Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:48Z",
+            "outcomes": [
+              { "name": "Cuiab\u00e1", "price": 700 },
+              { "name": "Flamengo", "price": -250 },
+              { "name": "Draw", "price": 350 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:39:41Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:39:41Z",
+            "outcomes": [
+              { "name": "Cuiab\u00e1", "price": 700 },
+              { "name": "Flamengo", "price": -280 },
+              { "name": "Draw", "price": 340 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:42:43Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:43Z",
+            "outcomes": [
+              { "name": "Cuiab\u00e1", "price": 670 },
+              { "name": "Flamengo", "price": -242 },
+              { "name": "Draw", "price": 350 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:42:43Z",
+            "outcomes": [
+              { "name": "Cuiab\u00e1", "price": -164, "point": 1.5 },
+              { "name": "Flamengo", "price": 123, "point": -1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-07-06T13:43:47Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:47Z",
+            "outcomes": [
+              { "name": "Cuiab\u00e1", "price": 650 },
+              { "name": "Flamengo", "price": -240 },
+              { "name": "Draw", "price": 370 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:42:33Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:33Z",
+            "outcomes": [
+              { "name": "Cuiab\u00e1", "price": 700 },
+              { "name": "Flamengo", "price": -250 },
+              { "name": "Draw", "price": 360 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:44:03Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:03Z",
+            "outcomes": [
+              { "name": "Cuiab\u00e1", "price": 770 },
+              { "name": "Flamengo", "price": -250 },
+              { "name": "Draw", "price": 350 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:03Z",
+            "outcomes": [
+              { "name": "Cuiab\u00e1", "price": -120, "point": 1.25 },
+              { "name": "Flamengo", "price": 100, "point": -1.25 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T13:42:33Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:33Z",
+            "outcomes": [
+              { "name": "Cuiab\u00e1", "price": 770 },
+              { "name": "Flamengo", "price": -250 },
+              { "name": "Draw", "price": 350 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:42:33Z",
+            "outcomes": [
+              { "name": "Cuiab\u00e1", "price": -120, "point": 1.25 },
+              { "name": "Flamengo", "price": 100, "point": -1.25 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:43:47Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:47Z",
+            "outcomes": [
+              { "name": "Cuiab\u00e1", "price": 700 },
+              { "name": "Flamengo", "price": -250 },
+              { "name": "Draw", "price": 375 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "08a3f49d20fbc4d8a5d275fec622d6d6",
+    "sport_key": "soccer_brazil_campeonato",
+    "sport_title": "Brazil S\u00e9rie A",
+    "commence_time": "2024-07-07T19:00:00Z",
+    "home_team": "Cruzeiro",
+    "away_team": "Corinthians",
+    "bookmakers": [
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2024-07-06T13:43:47Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:47Z",
+            "outcomes": [
+              { "name": "Corinthians", "price": 345 },
+              { "name": "Cruzeiro", "price": -125 },
+              { "name": "Draw", "price": 240 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:43:39Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:39Z",
+            "outcomes": [
+              { "name": "Corinthians", "price": 360 },
+              { "name": "Cruzeiro", "price": -120 },
+              { "name": "Draw", "price": 255 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:39Z",
+            "outcomes": [
+              { "name": "Corinthians", "price": 100, "point": 0.5 },
+              { "name": "Cruzeiro", "price": -120, "point": -0.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:39:41Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:39:41Z",
+            "outcomes": [
+              { "name": "Corinthians", "price": 360 },
+              { "name": "Cruzeiro", "price": -125 },
+              { "name": "Draw", "price": 230 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:42:43Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:43Z",
+            "outcomes": [
+              { "name": "Corinthians", "price": 360 },
+              { "name": "Cruzeiro", "price": -123 },
+              { "name": "Draw", "price": 246 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:42:43Z",
+            "outcomes": [
+              { "name": "Corinthians", "price": -103, "point": 0.5 },
+              { "name": "Cruzeiro", "price": -128, "point": -0.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:43:48Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:48Z",
+            "outcomes": [
+              { "name": "Corinthians", "price": 350 },
+              { "name": "Cruzeiro", "price": -120 },
+              { "name": "Draw", "price": 240 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:44:03Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:03Z",
+            "outcomes": [
+              { "name": "Corinthians", "price": 385 },
+              { "name": "Cruzeiro", "price": -124 },
+              { "name": "Draw", "price": 245 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:03Z",
+            "outcomes": [
+              { "name": "Corinthians", "price": 104, "point": 0.5 },
+              { "name": "Cruzeiro", "price": -124, "point": -0.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T13:42:33Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:33Z",
+            "outcomes": [
+              { "name": "Corinthians", "price": 385 },
+              { "name": "Cruzeiro", "price": -124 },
+              { "name": "Draw", "price": 245 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:42:33Z",
+            "outcomes": [
+              { "name": "Corinthians", "price": 104, "point": 0.5 },
+              { "name": "Cruzeiro", "price": -124, "point": -0.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:42:33Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:33Z",
+            "outcomes": [
+              { "name": "Corinthians", "price": 360 },
+              { "name": "Cruzeiro", "price": -125 },
+              { "name": "Draw", "price": 235 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:43:47Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:47Z",
+            "outcomes": [
+              { "name": "Corinthians", "price": 350 },
+              { "name": "Cruzeiro", "price": -121 },
+              { "name": "Draw", "price": 250 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "3be74abadded0ce21f70ab4f30908f5d",
+    "sport_key": "soccer_brazil_campeonato",
+    "sport_title": "Brazil S\u00e9rie A",
+    "commence_time": "2024-07-07T19:00:00Z",
+    "home_team": "Fortaleza",
+    "away_team": "Fluminense",
+    "bookmakers": [
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:43:39Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:39Z",
+            "outcomes": [
+              { "name": "Fluminense", "price": 370 },
+              { "name": "Fortaleza", "price": -135 },
+              { "name": "Draw", "price": 280 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:39Z",
+            "outcomes": [
+              { "name": "Fluminense", "price": -115, "point": 0.75 },
+              { "name": "Fortaleza", "price": -105, "point": -0.75 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:39:41Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:39:41Z",
+            "outcomes": [
+              { "name": "Fluminense", "price": 400 },
+              { "name": "Fortaleza", "price": -150 },
+              { "name": "Draw", "price": 260 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2024-07-06T13:43:47Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:47Z",
+            "outcomes": [
+              { "name": "Fluminense", "price": 360 },
+              { "name": "Fortaleza", "price": -140 },
+              { "name": "Draw", "price": 260 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:42:43Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:43Z",
+            "outcomes": [
+              { "name": "Fluminense", "price": 370 },
+              { "name": "Fortaleza", "price": -136 },
+              { "name": "Draw", "price": 270 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:42:43Z",
+            "outcomes": [
+              { "name": "Fluminense", "price": 106, "point": 0.5 },
+              { "name": "Fortaleza", "price": -141, "point": -0.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:43:48Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:48Z",
+            "outcomes": [
+              { "name": "Fluminense", "price": 360 },
+              { "name": "Fortaleza", "price": -130 },
+              { "name": "Draw", "price": 260 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-07-06T13:43:47Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:47Z",
+            "outcomes": [
+              { "name": "Fluminense", "price": 370 },
+              { "name": "Fortaleza", "price": -135 },
+              { "name": "Draw", "price": 280 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T13:42:33Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:33Z",
+            "outcomes": [
+              { "name": "Fluminense", "price": 390 },
+              { "name": "Fortaleza", "price": -130 },
+              { "name": "Draw", "price": 255 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:42:33Z",
+            "outcomes": [
+              { "name": "Fluminense", "price": -118, "point": 0.75 },
+              { "name": "Fortaleza", "price": -102, "point": -0.75 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:44:03Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:03Z",
+            "outcomes": [
+              { "name": "Fluminense", "price": 390 },
+              { "name": "Fortaleza", "price": -130 },
+              { "name": "Draw", "price": 255 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:03Z",
+            "outcomes": [
+              { "name": "Fluminense", "price": -118, "point": 0.75 },
+              { "name": "Fortaleza", "price": -102, "point": -0.75 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:42:33Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:33Z",
+            "outcomes": [
+              { "name": "Fluminense", "price": 370 },
+              { "name": "Fortaleza", "price": -135 },
+              { "name": "Draw", "price": 255 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:43:47Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:47Z",
+            "outcomes": [
+              { "name": "Fluminense", "price": 375 },
+              { "name": "Fortaleza", "price": -134 },
+              { "name": "Draw", "price": 265 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "d13a546f883a0a53dc48ddf2c67be8bd",
+    "sport_key": "soccer_brazil_campeonato",
+    "sport_title": "Brazil S\u00e9rie A",
+    "commence_time": "2024-07-07T19:00:00Z",
+    "home_team": "Juventude",
+    "away_team": "Gr\u00eamio",
+    "bookmakers": [
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:43:39Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:39Z",
+            "outcomes": [
+              { "name": "Gr\u00eamio", "price": 195 },
+              { "name": "Juventude", "price": 145 },
+              { "name": "Draw", "price": 230 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:39Z",
+            "outcomes": [
+              { "name": "Gr\u00eamio", "price": 110, "point": 0.0 },
+              { "name": "Juventude", "price": -130, "point": 0.0 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2024-07-06T13:43:47Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:47Z",
+            "outcomes": [
+              { "name": "Gr\u00eamio", "price": 185 },
+              { "name": "Juventude", "price": 140 },
+              { "name": "Draw", "price": 215 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:43:48Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:48Z",
+            "outcomes": [
+              { "name": "Gr\u00eamio", "price": 195 },
+              { "name": "Juventude", "price": 140 },
+              { "name": "Draw", "price": 220 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:39:41Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:39:41Z",
+            "outcomes": [
+              { "name": "Gr\u00eamio", "price": 195 },
+              { "name": "Juventude", "price": 150 },
+              { "name": "Draw", "price": 210 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-07-06T13:43:47Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:47Z",
+            "outcomes": [
+              { "name": "Gr\u00eamio", "price": 195 },
+              { "name": "Juventude", "price": 145 },
+              { "name": "Draw", "price": 230 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:47Z",
+            "outcomes": [
+              { "name": "Gr\u00eamio", "price": 100, "point": 0.0 },
+              { "name": "Juventude", "price": -130, "point": 0.0 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:44:03Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:03Z",
+            "outcomes": [
+              { "name": "Gr\u00eamio", "price": 195 },
+              { "name": "Juventude", "price": 155 },
+              { "name": "Draw", "price": 213 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:03Z",
+            "outcomes": [
+              { "name": "Gr\u00eamio", "price": 108, "point": 0.0 },
+              { "name": "Juventude", "price": -128, "point": 0.0 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T13:42:33Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:33Z",
+            "outcomes": [
+              { "name": "Gr\u00eamio", "price": 195 },
+              { "name": "Juventude", "price": 155 },
+              { "name": "Draw", "price": 213 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:42:33Z",
+            "outcomes": [
+              { "name": "Gr\u00eamio", "price": 108, "point": 0.0 },
+              { "name": "Juventude", "price": -128, "point": 0.0 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:42:33Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:33Z",
+            "outcomes": [
+              { "name": "Gr\u00eamio", "price": 185 },
+              { "name": "Juventude", "price": 155 },
+              { "name": "Draw", "price": 210 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:43:47Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:47Z",
+            "outcomes": [
+              { "name": "Gr\u00eamio", "price": 200 },
+              { "name": "Juventude", "price": 140 },
+              { "name": "Draw", "price": 230 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "368f3af7a24351970136044398bd143d",
+    "sport_key": "soccer_brazil_campeonato",
+    "sport_title": "Brazil S\u00e9rie A",
+    "commence_time": "2024-07-07T21:00:00Z",
+    "home_team": "Internacional",
+    "away_team": "Vasco da Gama",
+    "bookmakers": [
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2024-07-06T13:43:47Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:47Z",
+            "outcomes": [
+              { "name": "Internacional", "price": -185 },
+              { "name": "Vasco da Gama", "price": 500 },
+              { "name": "Draw", "price": 285 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:43:39Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:39Z",
+            "outcomes": [
+              { "name": "Internacional", "price": -180 },
+              { "name": "Vasco da Gama", "price": 500 },
+              { "name": "Draw", "price": 310 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:39Z",
+            "outcomes": [
+              { "name": "Internacional", "price": -102, "point": -1.0 },
+              { "name": "Vasco da Gama", "price": -118, "point": 1.0 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:39:41Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:39:41Z",
+            "outcomes": [
+              { "name": "Internacional", "price": -195 },
+              { "name": "Vasco da Gama", "price": 550 },
+              { "name": "Draw", "price": 290 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:42:43Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:43Z",
+            "outcomes": [
+              { "name": "Internacional", "price": -180 },
+              { "name": "Vasco da Gama", "price": 510 },
+              { "name": "Draw", "price": 295 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:42:43Z",
+            "outcomes": [
+              { "name": "Internacional", "price": -189, "point": -0.5 },
+              { "name": "Vasco da Gama", "price": 139, "point": 0.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:43:48Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:48Z",
+            "outcomes": [
+              { "name": "Internacional", "price": -175 },
+              { "name": "Vasco da Gama", "price": 500 },
+              { "name": "Draw", "price": 290 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-07-06T13:43:47Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:47Z",
+            "outcomes": [
+              { "name": "Internacional", "price": -180 },
+              { "name": "Vasco da Gama", "price": 500 },
+              { "name": "Draw", "price": 310 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:47Z",
+            "outcomes": [
+              { "name": "Internacional", "price": -112, "point": -1.0 },
+              { "name": "Vasco da Gama", "price": -118, "point": 1.0 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:44:03Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:03Z",
+            "outcomes": [
+              { "name": "Internacional", "price": -183 },
+              { "name": "Vasco da Gama", "price": 550 },
+              { "name": "Draw", "price": 300 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:03Z",
+            "outcomes": [
+              { "name": "Internacional", "price": -102, "point": -1.0 },
+              { "name": "Vasco da Gama", "price": -118, "point": 1.0 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T13:42:33Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:33Z",
+            "outcomes": [
+              { "name": "Internacional", "price": -183 },
+              { "name": "Vasco da Gama", "price": 550 },
+              { "name": "Draw", "price": 300 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:42:33Z",
+            "outcomes": [
+              { "name": "Internacional", "price": -102, "point": -1.0 },
+              { "name": "Vasco da Gama", "price": -118, "point": 1.0 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:42:33Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:33Z",
+            "outcomes": [
+              { "name": "Internacional", "price": -190 },
+              { "name": "Vasco da Gama", "price": 500 },
+              { "name": "Draw", "price": 295 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:43:47Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:47Z",
+            "outcomes": [
+              { "name": "Internacional", "price": -177 },
+              { "name": "Vasco da Gama", "price": 500 },
+              { "name": "Draw", "price": 300 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c29ff4951917b203013c95a03af0c2f3",
+    "sport_key": "soccer_brazil_campeonato",
+    "sport_title": "Brazil S\u00e9rie A",
+    "commence_time": "2024-07-07T21:30:00Z",
+    "home_team": "Atletico Goianiense",
+    "away_team": "Atletico Paranaense",
+    "bookmakers": [
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:43:39Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:39Z",
+            "outcomes": [
+              { "name": "Atletico Goianiense", "price": 125 },
+              { "name": "Atletico Paranaense", "price": 225 },
+              { "name": "Draw", "price": 235 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:39Z",
+            "outcomes": [
+              { "name": "Atletico Goianiense", "price": -108, "point": -0.25 },
+              { "name": "Atletico Paranaense", "price": -112, "point": 0.25 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:39:41Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:39:41Z",
+            "outcomes": [
+              { "name": "Atletico Goianiense", "price": 125 },
+              { "name": "Atletico Paranaense", "price": 230 },
+              { "name": "Draw", "price": 210 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-07-06T13:43:47Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:47Z",
+            "outcomes": [
+              { "name": "Atletico Goianiense", "price": 125 },
+              { "name": "Atletico Paranaense", "price": 225 },
+              { "name": "Draw", "price": 235 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:42:33Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:33Z",
+            "outcomes": [
+              { "name": "Atletico Goianiense", "price": 125 },
+              { "name": "Atletico Paranaense", "price": 235 },
+              { "name": "Draw", "price": 210 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:44:03Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:03Z",
+            "outcomes": [
+              { "name": "Atletico Goianiense", "price": 130 },
+              { "name": "Atletico Paranaense", "price": 235 },
+              { "name": "Draw", "price": 215 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:03Z",
+            "outcomes": [
+              { "name": "Atletico Goianiense", "price": -108, "point": -0.25 },
+              { "name": "Atletico Paranaense", "price": -112, "point": 0.25 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T13:42:33Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:33Z",
+            "outcomes": [
+              { "name": "Atletico Goianiense", "price": 130 },
+              { "name": "Atletico Paranaense", "price": 235 },
+              { "name": "Draw", "price": 215 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:42:33Z",
+            "outcomes": [
+              { "name": "Atletico Goianiense", "price": -108, "point": -0.25 },
+              { "name": "Atletico Paranaense", "price": -112, "point": 0.25 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:43:47Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:47Z",
+            "outcomes": [
+              { "name": "Atletico Goianiense", "price": 130 },
+              { "name": "Atletico Paranaense", "price": 219 },
+              { "name": "Draw", "price": 230 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2f33364213e5a881abc3f1de17336877",
+    "sport_key": "soccer_brazil_campeonato",
+    "sport_title": "Brazil S\u00e9rie A",
+    "commence_time": "2024-07-07T21:30:00Z",
+    "home_team": "Palmeiras",
+    "away_team": "Bahia",
+    "bookmakers": [
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:43:48Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:48Z",
+            "outcomes": [
+              { "name": "Bahia", "price": 450 },
+              { "name": "Palmeiras", "price": -165 },
+              { "name": "Draw", "price": 300 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2024-07-06T13:43:47Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:47Z",
+            "outcomes": [
+              { "name": "Bahia", "price": 425 },
+              { "name": "Palmeiras", "price": -175 },
+              { "name": "Draw", "price": 305 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:42:43Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:43Z",
+            "outcomes": [
+              { "name": "Bahia", "price": 430 },
+              { "name": "Palmeiras", "price": -171 },
+              { "name": "Draw", "price": 320 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:42:43Z",
+            "outcomes": [
+              { "name": "Bahia", "price": 133, "point": 0.5 },
+              { "name": "Palmeiras", "price": -179, "point": -0.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:43:39Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:39Z",
+            "outcomes": [
+              { "name": "Bahia", "price": 460 },
+              { "name": "Palmeiras", "price": -175 },
+              { "name": "Draw", "price": 330 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:39Z",
+            "outcomes": [
+              { "name": "Bahia", "price": -115, "point": 1.0 },
+              { "name": "Palmeiras", "price": -105, "point": -1.0 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:39:41Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:39:41Z",
+            "outcomes": [
+              { "name": "Bahia", "price": 460 },
+              { "name": "Palmeiras", "price": -190 },
+              { "name": "Draw", "price": 310 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-07-06T13:43:47Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:47Z",
+            "outcomes": [
+              { "name": "Bahia", "price": 460 },
+              { "name": "Palmeiras", "price": -175 },
+              { "name": "Draw", "price": 330 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:47Z",
+            "outcomes": [
+              { "name": "Bahia", "price": -115, "point": 1.0 },
+              { "name": "Palmeiras", "price": -115, "point": -1.0 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:44:03Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:03Z",
+            "outcomes": [
+              { "name": "Bahia", "price": 465 },
+              { "name": "Palmeiras", "price": -175 },
+              { "name": "Draw", "price": 318 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:03Z",
+            "outcomes": [
+              { "name": "Bahia", "price": -117, "point": 1.0 },
+              { "name": "Palmeiras", "price": -103, "point": -1.0 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T13:42:33Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:33Z",
+            "outcomes": [
+              { "name": "Bahia", "price": 465 },
+              { "name": "Palmeiras", "price": -175 },
+              { "name": "Draw", "price": 318 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:42:33Z",
+            "outcomes": [
+              { "name": "Bahia", "price": -117, "point": 1.0 },
+              { "name": "Palmeiras", "price": -103, "point": -1.0 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:42:33Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:33Z",
+            "outcomes": [
+              { "name": "Bahia", "price": 450 },
+              { "name": "Palmeiras", "price": -185 },
+              { "name": "Draw", "price": 310 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:43:47Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:47Z",
+            "outcomes": [
+              { "name": "Bahia", "price": 425 },
+              { "name": "Palmeiras", "price": -165 },
+              { "name": "Draw", "price": 320 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "b103d028c27745b2195a3a7f186705f5",
+    "sport_key": "soccer_brazil_campeonato",
+    "sport_title": "Brazil S\u00e9rie A",
+    "commence_time": "2024-07-07T21:30:00Z",
+    "home_team": "Vitoria",
+    "away_team": "Criciuma",
+    "bookmakers": [
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:43:39Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:39Z",
+            "outcomes": [
+              { "name": "Criciuma", "price": 285 },
+              { "name": "Vitoria", "price": 105 },
+              { "name": "Draw", "price": 230 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:39Z",
+            "outcomes": [
+              { "name": "Criciuma", "price": -128, "point": 0.5 },
+              { "name": "Vitoria", "price": 108, "point": -0.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2024-07-06T13:43:47Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:47Z",
+            "outcomes": [
+              { "name": "Criciuma", "price": 275 },
+              { "name": "Vitoria", "price": 100 },
+              { "name": "Draw", "price": 215 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:43:48Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:48Z",
+            "outcomes": [
+              { "name": "Criciuma", "price": 280 },
+              { "name": "Vitoria", "price": 100 },
+              { "name": "Draw", "price": 230 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:39:41Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:39:41Z",
+            "outcomes": [
+              { "name": "Criciuma", "price": 260 },
+              { "name": "Vitoria", "price": 110 },
+              { "name": "Draw", "price": 230 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:42:43Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:43Z",
+            "outcomes": [
+              { "name": "Criciuma", "price": 285 },
+              { "name": "Vitoria", "price": 104 },
+              { "name": "Draw", "price": 222 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:42:43Z",
+            "outcomes": [
+              { "name": "Criciuma", "price": -132, "point": 0.5 },
+              { "name": "Vitoria", "price": -101, "point": -0.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:44:03Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:03Z",
+            "outcomes": [
+              { "name": "Criciuma", "price": 288 },
+              { "name": "Vitoria", "price": 106 },
+              { "name": "Draw", "price": 225 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:03Z",
+            "outcomes": [
+              { "name": "Criciuma", "price": -126, "point": 0.5 },
+              { "name": "Vitoria", "price": 106, "point": -0.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T13:42:33Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:33Z",
+            "outcomes": [
+              { "name": "Criciuma", "price": 288 },
+              { "name": "Vitoria", "price": 106 },
+              { "name": "Draw", "price": 225 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:42:33Z",
+            "outcomes": [
+              { "name": "Criciuma", "price": -126, "point": 0.5 },
+              { "name": "Vitoria", "price": 106, "point": -0.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:42:33Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:33Z",
+            "outcomes": [
+              { "name": "Criciuma", "price": 270 },
+              { "name": "Vitoria", "price": 105 },
+              { "name": "Draw", "price": 225 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:43:47Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:47Z",
+            "outcomes": [
+              { "name": "Criciuma", "price": 320 },
+              { "name": "Vitoria", "price": 100 },
+              { "name": "Draw", "price": 220 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-07-06T13:43:47Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:47Z",
+            "outcomes": [
+              { "name": "Criciuma", "price": 288 },
+              { "name": "Vitoria", "price": 106 },
+              { "name": "Draw", "price": 225 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:47Z",
+            "outcomes": [
+              { "name": "Criciuma", "price": -126, "point": 0.5 },
+              { "name": "Vitoria", "price": -104, "point": -0.5 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ae0062df7bc0173dd3e8b8c3a206a686",
+    "sport_key": "soccer_brazil_campeonato",
+    "sport_title": "Brazil S\u00e9rie A",
+    "commence_time": "2024-07-07T23:30:00Z",
+    "home_team": "Botafogo",
+    "away_team": "Atletico Mineiro",
+    "bookmakers": [
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2024-07-06T13:43:47Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:47Z",
+            "outcomes": [
+              { "name": "Atletico Mineiro", "price": 280 },
+              { "name": "Botafogo", "price": -105 },
+              { "name": "Draw", "price": 235 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:43:39Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:39Z",
+            "outcomes": [
+              { "name": "Atletico Mineiro", "price": 290 },
+              { "name": "Botafogo", "price": -105 },
+              { "name": "Draw", "price": 250 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:39Z",
+            "outcomes": [
+              { "name": "Atletico Mineiro", "price": -118, "point": 0.5 },
+              { "name": "Botafogo", "price": -102, "point": -0.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:43:48Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:48Z",
+            "outcomes": [
+              { "name": "Atletico Mineiro", "price": 290 },
+              { "name": "Botafogo", "price": 100 },
+              { "name": "Draw", "price": 240 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:42:43Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:43Z",
+            "outcomes": [
+              { "name": "Atletico Mineiro", "price": 290 },
+              { "name": "Botafogo", "price": -104 },
+              { "name": "Draw", "price": 242 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:42:43Z",
+            "outcomes": [
+              { "name": "Atletico Mineiro", "price": -122, "point": 0.5 },
+              { "name": "Botafogo", "price": -109, "point": -0.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:39:41Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:39:41Z",
+            "outcomes": [
+              { "name": "Atletico Mineiro", "price": 290 },
+              { "name": "Botafogo", "price": -105 },
+              { "name": "Draw", "price": 240 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-07-06T13:43:47Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:47Z",
+            "outcomes": [
+              { "name": "Atletico Mineiro", "price": 290 },
+              { "name": "Botafogo", "price": -105 },
+              { "name": "Draw", "price": 250 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:47Z",
+            "outcomes": [
+              { "name": "Atletico Mineiro", "price": -118, "point": 0.5 },
+              { "name": "Botafogo", "price": -112, "point": -0.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:42:33Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:33Z",
+            "outcomes": [
+              { "name": "Atletico Mineiro", "price": 310 },
+              { "name": "Botafogo", "price": -110 },
+              { "name": "Draw", "price": 230 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:44:03Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:03Z",
+            "outcomes": [
+              { "name": "Atletico Mineiro", "price": 325 },
+              { "name": "Botafogo", "price": -108 },
+              { "name": "Draw", "price": 238 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:03Z",
+            "outcomes": [
+              { "name": "Atletico Mineiro", "price": -112, "point": 0.5 },
+              { "name": "Botafogo", "price": -108, "point": -0.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T13:42:33Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:33Z",
+            "outcomes": [
+              { "name": "Atletico Mineiro", "price": 325 },
+              { "name": "Botafogo", "price": -108 },
+              { "name": "Draw", "price": 238 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:42:33Z",
+            "outcomes": [
+              { "name": "Atletico Mineiro", "price": -112, "point": 0.5 },
+              { "name": "Botafogo", "price": -108, "point": -0.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:43:47Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:47Z",
+            "outcomes": [
+              { "name": "Atletico Mineiro", "price": 280 },
+              { "name": "Botafogo", "price": 100 },
+              { "name": "Draw", "price": 250 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "d4538c813341469e2bca440af3e9aff4",
+    "sport_key": "soccer_brazil_campeonato",
+    "sport_title": "Brazil S\u00e9rie A",
+    "commence_time": "2024-07-11T20:30:00Z",
+    "home_team": "Palmeiras",
+    "away_team": "Atletico Goianiense",
+    "bookmakers": [
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2024-07-06T13:43:47Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:47Z",
+            "outcomes": [
+              { "name": "Atletico Goianiense", "price": 1150 },
+              { "name": "Palmeiras", "price": -375 },
+              { "name": "Draw", "price": 375 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:43:39Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:39Z",
+            "outcomes": [
+              { "name": "Atletico Goianiense", "price": 900 },
+              { "name": "Palmeiras", "price": -290 },
+              { "name": "Draw", "price": 380 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:39:41Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:39:41Z",
+            "outcomes": [
+              { "name": "Atletico Goianiense", "price": 700 },
+              { "name": "Palmeiras", "price": -270 },
+              { "name": "Draw", "price": 330 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "665e45c03d13407c32ca73ce33e03547",
+    "sport_key": "soccer_brazil_campeonato",
+    "sport_title": "Brazil S\u00e9rie A",
+    "commence_time": "2024-07-11T21:00:00Z",
+    "home_team": "Flamengo",
+    "away_team": "Fortaleza",
+    "bookmakers": [
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2024-07-06T13:43:47Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:47Z",
+            "outcomes": [
+              { "name": "Flamengo", "price": -175 },
+              { "name": "Fortaleza", "price": 475 },
+              { "name": "Draw", "price": 265 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:43:39Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:39Z",
+            "outcomes": [
+              { "name": "Flamengo", "price": -165 },
+              { "name": "Fortaleza", "price": 500 },
+              { "name": "Draw", "price": 285 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:39:41Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:39:41Z",
+            "outcomes": [
+              { "name": "Flamengo", "price": -170 },
+              { "name": "Fortaleza", "price": 490 },
+              { "name": "Draw", "price": 260 }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,1536 @@
+[
+  {
+    "id": "be3db93f74e548c3e4dd1d26cee2d90e",
+    "sport_key": "soccer_mexico_ligamx",
+    "sport_title": "Liga MX",
+    "commence_time": "2024-07-06T23:00:00Z",
+    "home_team": "Atl\u00e9tico San Luis",
+    "away_team": "Am\u00e9rica",
+    "bookmakers": [
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:14Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:14Z",
+            "outcomes": [
+              { "name": "Am\u00e9rica", "price": -129 },
+              { "name": "Atl\u00e9tico San Luis", "price": 300 },
+              { "name": "Draw", "price": 290 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:44:14Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:14Z",
+            "outcomes": [
+              { "name": "Am\u00e9rica", "price": -130 },
+              { "name": "Atl\u00e9tico San Luis", "price": 330 },
+              { "name": "Draw", "price": 280 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:42:42Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:42Z",
+            "outcomes": [
+              { "name": "Am\u00e9rica", "price": -135 },
+              { "name": "Atl\u00e9tico San Luis", "price": 330 },
+              { "name": "Draw", "price": 280 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:43:08Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:08Z",
+            "outcomes": [
+              { "name": "Am\u00e9rica", "price": -134 },
+              { "name": "Atl\u00e9tico San Luis", "price": 340 },
+              { "name": "Draw", "price": 285 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:08Z",
+            "outcomes": [
+              { "name": "Am\u00e9rica", "price": -139, "point": -0.5 },
+              { "name": "Atl\u00e9tico San Luis", "price": 105, "point": 0.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:44:57Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:57Z",
+            "outcomes": [
+              { "name": "Am\u00e9rica", "price": -130 },
+              { "name": "Atl\u00e9tico San Luis", "price": 340 },
+              { "name": "Draw", "price": 312 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:57Z",
+            "outcomes": [
+              { "name": "Am\u00e9rica", "price": 100, "point": -0.75 },
+              { "name": "Atl\u00e9tico San Luis", "price": -120, "point": 0.75 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T13:43:52Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:52Z",
+            "outcomes": [
+              { "name": "Am\u00e9rica", "price": -130 },
+              { "name": "Atl\u00e9tico San Luis", "price": 340 },
+              { "name": "Draw", "price": 312 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:52Z",
+            "outcomes": [
+              { "name": "Am\u00e9rica", "price": 100, "point": -0.75 },
+              { "name": "Atl\u00e9tico San Luis", "price": -120, "point": 0.75 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-07-06T13:44:14Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:14Z",
+            "outcomes": [
+              { "name": "Am\u00e9rica", "price": -130 },
+              { "name": "Atl\u00e9tico San Luis", "price": 340 },
+              { "name": "Draw", "price": 275 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:14Z",
+            "outcomes": [
+              { "name": "Am\u00e9rica", "price": -125, "point": -0.5 },
+              { "name": "Atl\u00e9tico San Luis", "price": -105, "point": 0.5 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "83a930c5578fde9b3ca432b8312a3466",
+    "sport_key": "soccer_mexico_ligamx",
+    "sport_title": "Liga MX",
+    "commence_time": "2024-07-07T01:00:00Z",
+    "home_team": "Guadalajara",
+    "away_team": "Toluca",
+    "bookmakers": [
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:14Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:14Z",
+            "outcomes": [
+              { "name": "Guadalajara", "price": 128 },
+              { "name": "Toluca", "price": 195 },
+              { "name": "Draw", "price": 245 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:42:42Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:42Z",
+            "outcomes": [
+              { "name": "Guadalajara", "price": 130 },
+              { "name": "Toluca", "price": 195 },
+              { "name": "Draw", "price": 230 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:44:14Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:14Z",
+            "outcomes": [
+              { "name": "Guadalajara", "price": 135 },
+              { "name": "Toluca", "price": 200 },
+              { "name": "Draw", "price": 240 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:43:08Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:08Z",
+            "outcomes": [
+              { "name": "Guadalajara", "price": 131 },
+              { "name": "Toluca", "price": 193 },
+              { "name": "Draw", "price": 250 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:08Z",
+            "outcomes": [
+              { "name": "Guadalajara", "price": 124, "point": -0.5 },
+              { "name": "Toluca", "price": -167, "point": 0.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:44:57Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:57Z",
+            "outcomes": [
+              { "name": "Guadalajara", "price": 140 },
+              { "name": "Toluca", "price": 209 },
+              { "name": "Draw", "price": 240 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:57Z",
+            "outcomes": [
+              { "name": "Guadalajara", "price": 102, "point": -0.25 },
+              { "name": "Toluca", "price": -122, "point": 0.25 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T13:43:52Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:52Z",
+            "outcomes": [
+              { "name": "Guadalajara", "price": 140 },
+              { "name": "Toluca", "price": 209 },
+              { "name": "Draw", "price": 240 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:52Z",
+            "outcomes": [
+              { "name": "Guadalajara", "price": 102, "point": -0.25 },
+              { "name": "Toluca", "price": -122, "point": 0.25 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-07-06T13:44:14Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:14Z",
+            "outcomes": [
+              { "name": "Guadalajara", "price": 135 },
+              { "name": "Toluca", "price": 195 },
+              { "name": "Draw", "price": 235 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:14Z",
+            "outcomes": [
+              { "name": "Guadalajara", "price": -140, "point": 0.0 },
+              { "name": "Toluca", "price": 110, "point": 0.0 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1b03d1ca53ec35f8c0c443da73bccd52",
+    "sport_key": "soccer_mexico_ligamx",
+    "sport_title": "Liga MX",
+    "commence_time": "2024-07-07T01:00:00Z",
+    "home_team": "Tigres",
+    "away_team": "Necaxa",
+    "bookmakers": [
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:14Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:14Z",
+            "outcomes": [
+              { "name": "Necaxa", "price": 525 },
+              { "name": "Tigres", "price": -215 },
+              { "name": "Draw", "price": 340 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:44:14Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:14Z",
+            "outcomes": [
+              { "name": "Necaxa", "price": 550 },
+              { "name": "Tigres", "price": -230 },
+              { "name": "Draw", "price": 370 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:42:42Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:42Z",
+            "outcomes": [
+              { "name": "Necaxa", "price": 600 },
+              { "name": "Tigres", "price": -250 },
+              { "name": "Draw", "price": 360 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:43:08Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:08Z",
+            "outcomes": [
+              { "name": "Necaxa", "price": 520 },
+              { "name": "Tigres", "price": -218 },
+              { "name": "Draw", "price": 370 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:08Z",
+            "outcomes": [
+              { "name": "Necaxa", "price": -161, "point": 1.5 },
+              { "name": "Tigres", "price": 122, "point": -1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:44:57Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:57Z",
+            "outcomes": [
+              { "name": "Necaxa", "price": 580 },
+              { "name": "Tigres", "price": -210 },
+              { "name": "Draw", "price": 375 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:57Z",
+            "outcomes": [
+              { "name": "Necaxa", "price": -122, "point": 1.25 },
+              { "name": "Tigres", "price": 102, "point": -1.25 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T13:43:52Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:52Z",
+            "outcomes": [
+              { "name": "Necaxa", "price": 580 },
+              { "name": "Tigres", "price": -210 },
+              { "name": "Draw", "price": 375 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:52Z",
+            "outcomes": [
+              { "name": "Necaxa", "price": -122, "point": 1.25 },
+              { "name": "Tigres", "price": 102, "point": -1.25 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-07-06T13:44:14Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:14Z",
+            "outcomes": [
+              { "name": "Necaxa", "price": 500 },
+              { "name": "Tigres", "price": -215 },
+              { "name": "Draw", "price": 340 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "23d80bfec8692d97fe0f2a6b142650ad",
+    "sport_key": "soccer_mexico_ligamx",
+    "sport_title": "Liga MX",
+    "commence_time": "2024-07-07T03:00:00Z",
+    "home_team": "Cruz Azul",
+    "away_team": "Mazatl\u00e1n FC",
+    "bookmakers": [
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:14Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:14Z",
+            "outcomes": [
+              { "name": "Cruz Azul", "price": -286 },
+              { "name": "Mazatl\u00e1n FC", "price": 650 },
+              { "name": "Draw", "price": 420 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:44:14Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:14Z",
+            "outcomes": [
+              { "name": "Cruz Azul", "price": -280 },
+              { "name": "Mazatl\u00e1n FC", "price": 650 },
+              { "name": "Draw", "price": 425 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:42:42Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:42Z",
+            "outcomes": [
+              { "name": "Cruz Azul", "price": -320 },
+              { "name": "Mazatl\u00e1n FC", "price": 750 },
+              { "name": "Draw", "price": 420 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:43:08Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:08Z",
+            "outcomes": [
+              { "name": "Cruz Azul", "price": -265 },
+              { "name": "Mazatl\u00e1n FC", "price": 650 },
+              { "name": "Draw", "price": 400 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:08Z",
+            "outcomes": [
+              { "name": "Cruz Azul", "price": -104, "point": -1.5 },
+              { "name": "Mazatl\u00e1n FC", "price": -128, "point": 1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:44:57Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:57Z",
+            "outcomes": [
+              { "name": "Cruz Azul", "price": -270 },
+              { "name": "Mazatl\u00e1n FC", "price": 730 },
+              { "name": "Draw", "price": 440 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:57Z",
+            "outcomes": [
+              { "name": "Cruz Azul", "price": 100, "point": -1.5 },
+              { "name": "Mazatl\u00e1n FC", "price": -120, "point": 1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T13:43:52Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:52Z",
+            "outcomes": [
+              { "name": "Cruz Azul", "price": -270 },
+              { "name": "Mazatl\u00e1n FC", "price": 730 },
+              { "name": "Draw", "price": 440 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:52Z",
+            "outcomes": [
+              { "name": "Cruz Azul", "price": 100, "point": -1.5 },
+              { "name": "Mazatl\u00e1n FC", "price": -120, "point": 1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-07-06T13:44:14Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:14Z",
+            "outcomes": [
+              { "name": "Cruz Azul", "price": -270 },
+              { "name": "Mazatl\u00e1n FC", "price": 730 },
+              { "name": "Draw", "price": 440 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:14Z",
+            "outcomes": [
+              { "name": "Cruz Azul", "price": 100, "point": -1.5 },
+              { "name": "Mazatl\u00e1n FC", "price": -130, "point": 1.5 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bcb48a6a25f14def1ff58452891d6c62",
+    "sport_key": "soccer_mexico_ligamx",
+    "sport_title": "Liga MX",
+    "commence_time": "2024-07-07T18:00:00Z",
+    "home_team": "Pumas",
+    "away_team": "Le\u00f3n",
+    "bookmakers": [
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:14Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:14Z",
+            "outcomes": [
+              { "name": "Le\u00f3n", "price": 285 },
+              { "name": "Pumas", "price": -125 },
+              { "name": "Draw", "price": 295 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:44:14Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:14Z",
+            "outcomes": [
+              { "name": "Le\u00f3n", "price": 280 },
+              { "name": "Pumas", "price": -125 },
+              { "name": "Draw", "price": 285 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:42:42Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:42Z",
+            "outcomes": [
+              { "name": "Le\u00f3n", "price": 300 },
+              { "name": "Pumas", "price": -125 },
+              { "name": "Draw", "price": 280 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:43:08Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:08Z",
+            "outcomes": [
+              { "name": "Le\u00f3n", "price": 280 },
+              { "name": "Pumas", "price": -117 },
+              { "name": "Draw", "price": 290 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:08Z",
+            "outcomes": [
+              { "name": "Le\u00f3n", "price": -108, "point": 0.5 },
+              { "name": "Pumas", "price": -123, "point": -0.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:44:57Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:57Z",
+            "outcomes": [
+              { "name": "Le\u00f3n", "price": 290 },
+              { "name": "Pumas", "price": -116 },
+              { "name": "Draw", "price": 290 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:57Z",
+            "outcomes": [
+              { "name": "Le\u00f3n", "price": -104, "point": 0.5 },
+              { "name": "Pumas", "price": -116, "point": -0.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T13:43:52Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:52Z",
+            "outcomes": [
+              { "name": "Le\u00f3n", "price": 290 },
+              { "name": "Pumas", "price": -116 },
+              { "name": "Draw", "price": 290 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:52Z",
+            "outcomes": [
+              { "name": "Le\u00f3n", "price": -104, "point": 0.5 },
+              { "name": "Pumas", "price": -116, "point": -0.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-07-06T13:44:14Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:14Z",
+            "outcomes": [
+              { "name": "Le\u00f3n", "price": 290 },
+              { "name": "Pumas", "price": -115 },
+              { "name": "Draw", "price": 290 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:14Z",
+            "outcomes": [
+              { "name": "Le\u00f3n", "price": -115, "point": 0.5 },
+              { "name": "Pumas", "price": -115, "point": -0.5 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "da8cebdb8023e3a780792f6ceb655e5a",
+    "sport_key": "soccer_mexico_ligamx",
+    "sport_title": "Liga MX",
+    "commence_time": "2024-07-08T01:06:00Z",
+    "home_team": "Pachuca",
+    "away_team": "Monterrey",
+    "bookmakers": [
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:14Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:14Z",
+            "outcomes": [
+              { "name": "Monterrey", "price": 210 },
+              { "name": "Pachuca", "price": 125 },
+              { "name": "Draw", "price": 235 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:44:14Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:14Z",
+            "outcomes": [
+              { "name": "Monterrey", "price": 200 },
+              { "name": "Pachuca", "price": 120 },
+              { "name": "Draw", "price": 245 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:42:42Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:42Z",
+            "outcomes": [
+              { "name": "Monterrey", "price": 200 },
+              { "name": "Pachuca", "price": 120 },
+              { "name": "Draw", "price": 250 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:43:08Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:08Z",
+            "outcomes": [
+              { "name": "Monterrey", "price": 197 },
+              { "name": "Pachuca", "price": 128 },
+              { "name": "Draw", "price": 250 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:08Z",
+            "outcomes": [
+              { "name": "Monterrey", "price": -161, "point": 0.5 },
+              { "name": "Pachuca", "price": 121, "point": -0.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:44:57Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:57Z",
+            "outcomes": [
+              { "name": "Monterrey", "price": 205 },
+              { "name": "Pachuca", "price": 128 },
+              { "name": "Draw", "price": 253 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:57Z",
+            "outcomes": [
+              { "name": "Monterrey", "price": -117, "point": 0.25 },
+              { "name": "Pachuca", "price": -103, "point": -0.25 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T13:43:52Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:52Z",
+            "outcomes": [
+              { "name": "Monterrey", "price": 205 },
+              { "name": "Pachuca", "price": 128 },
+              { "name": "Draw", "price": 253 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:52Z",
+            "outcomes": [
+              { "name": "Monterrey", "price": -117, "point": 0.25 },
+              { "name": "Pachuca", "price": -103, "point": -0.25 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-07-06T13:44:14Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:14Z",
+            "outcomes": [
+              { "name": "Monterrey", "price": 200 },
+              { "name": "Pachuca", "price": 130 },
+              { "name": "Draw", "price": 255 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:14Z",
+            "outcomes": [
+              { "name": "Monterrey", "price": 115, "point": 0.0 },
+              { "name": "Pachuca", "price": -145, "point": 0.0 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "83602fa1d363f94ee8b87f3ee9b8e024",
+    "sport_key": "soccer_mexico_ligamx",
+    "sport_title": "Liga MX",
+    "commence_time": "2024-07-13T01:00:00Z",
+    "home_team": "Am\u00e9rica",
+    "away_team": "Quer\u00e9taro",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:42:42Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:42Z",
+            "outcomes": [
+              { "name": "Am\u00e9rica", "price": -270 },
+              { "name": "Quer\u00e9taro", "price": 650 },
+              { "name": "Draw", "price": 360 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:14Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:14Z",
+            "outcomes": [
+              { "name": "Am\u00e9rica", "price": -250 },
+              { "name": "Quer\u00e9taro", "price": 650 },
+              { "name": "Draw", "price": 340 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:43:08Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:08Z",
+            "outcomes": [
+              { "name": "Am\u00e9rica", "price": -248 },
+              { "name": "Quer\u00e9taro", "price": 650 },
+              { "name": "Draw", "price": 350 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:08Z",
+            "outcomes": [
+              { "name": "Am\u00e9rica", "price": 107, "point": -1.5 },
+              { "name": "Quer\u00e9taro", "price": -147, "point": 1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-07-06T13:44:14Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:14Z",
+            "outcomes": [
+              { "name": "Am\u00e9rica", "price": -245 },
+              { "name": "Quer\u00e9taro", "price": 650 },
+              { "name": "Draw", "price": 340 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c4bc7faccbc048d23dc7b4f26afd9eb3",
+    "sport_key": "soccer_mexico_ligamx",
+    "sport_title": "Liga MX",
+    "commence_time": "2024-07-13T03:00:00Z",
+    "home_team": "Mazatl\u00e1n FC",
+    "away_team": "Atl\u00e9tico San Luis",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:42:42Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:42Z",
+            "outcomes": [
+              { "name": "Atl\u00e9tico San Luis", "price": 170 },
+              { "name": "Mazatl\u00e1n FC", "price": 150 },
+              { "name": "Draw", "price": 220 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:14Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:14Z",
+            "outcomes": [
+              { "name": "Atl\u00e9tico San Luis", "price": 170 },
+              { "name": "Mazatl\u00e1n FC", "price": 155 },
+              { "name": "Draw", "price": 230 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:43:08Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:08Z",
+            "outcomes": [
+              { "name": "Atl\u00e9tico San Luis", "price": 169 },
+              { "name": "Mazatl\u00e1n FC", "price": 154 },
+              { "name": "Draw", "price": 228 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:08Z",
+            "outcomes": [
+              { "name": "Atl\u00e9tico San Luis", "price": -204, "point": 0.5 },
+              { "name": "Mazatl\u00e1n FC", "price": 144, "point": -0.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-07-06T13:44:14Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:14Z",
+            "outcomes": [
+              { "name": "Atl\u00e9tico San Luis", "price": 175 },
+              { "name": "Mazatl\u00e1n FC", "price": 160 },
+              { "name": "Draw", "price": 220 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:14Z",
+            "outcomes": [
+              { "name": "Atl\u00e9tico San Luis", "price": -112, "point": 0.0 },
+              { "name": "Mazatl\u00e1n FC", "price": -118, "point": 0.0 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "f236009c65526376f81f256cf64ac72e",
+    "sport_key": "soccer_mexico_ligamx",
+    "sport_title": "Liga MX",
+    "commence_time": "2024-07-13T03:00:00Z",
+    "home_team": "Tijuana",
+    "away_team": "Guadalajara",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:42:42Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:42Z",
+            "outcomes": [
+              { "name": "Guadalajara", "price": 175 },
+              { "name": "Tijuana", "price": 155 },
+              { "name": "Draw", "price": 210 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:14Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:14Z",
+            "outcomes": [
+              { "name": "Guadalajara", "price": 180 },
+              { "name": "Tijuana", "price": 150 },
+              { "name": "Draw", "price": 225 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-07-06T13:44:14Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:14Z",
+            "outcomes": [
+              { "name": "Guadalajara", "price": 185 },
+              { "name": "Tijuana", "price": 155 },
+              { "name": "Draw", "price": 215 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:14Z",
+            "outcomes": [
+              { "name": "Guadalajara", "price": -108, "point": 0.0 },
+              { "name": "Tijuana", "price": -122, "point": 0.0 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c6ef965b522ff1d4165762dd368c5073",
+    "sport_key": "soccer_mexico_ligamx",
+    "sport_title": "Liga MX",
+    "commence_time": "2024-07-13T03:05:00Z",
+    "home_team": "Atlas",
+    "away_team": "Tigres",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:42:42Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:42Z",
+            "outcomes": [
+              { "name": "Atlas", "price": 195 },
+              { "name": "Tigres", "price": 130 },
+              { "name": "Draw", "price": 230 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:14Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:14Z",
+            "outcomes": [
+              { "name": "Atlas", "price": 200 },
+              { "name": "Tigres", "price": 135 },
+              { "name": "Draw", "price": 225 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:43:08Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:08Z",
+            "outcomes": [
+              { "name": "Atlas", "price": 198 },
+              { "name": "Tigres", "price": 135 },
+              { "name": "Draw", "price": 224 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:08Z",
+            "outcomes": [
+              { "name": "Atlas", "price": -175, "point": 0.5 },
+              { "name": "Tigres", "price": 126, "point": -0.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-07-06T13:44:14Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:14Z",
+            "outcomes": [
+              { "name": "Atlas", "price": 200 },
+              { "name": "Tigres", "price": 140 },
+              { "name": "Draw", "price": 215 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "9deeda133a57b3725ee2b87485217c41",
+    "sport_key": "soccer_mexico_ligamx",
+    "sport_title": "Liga MX",
+    "commence_time": "2024-07-13T23:00:00Z",
+    "home_team": "Le\u00f3n",
+    "away_team": "Pachuca",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:42:42Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:42Z",
+            "outcomes": [
+              { "name": "Le\u00f3n", "price": 125 },
+              { "name": "Pachuca", "price": 200 },
+              { "name": "Draw", "price": 230 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:14Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:14Z",
+            "outcomes": [
+              { "name": "Le\u00f3n", "price": 125 },
+              { "name": "Pachuca", "price": 210 },
+              { "name": "Draw", "price": 235 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-07-06T13:44:14Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:14Z",
+            "outcomes": [
+              { "name": "Le\u00f3n", "price": 125 },
+              { "name": "Pachuca", "price": 210 },
+              { "name": "Draw", "price": 225 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "55a09a800bd07cb69596ef1aea7e39c7",
+    "sport_key": "soccer_mexico_ligamx",
+    "sport_title": "Liga MX",
+    "commence_time": "2024-07-13T23:00:00Z",
+    "home_team": "Necaxa",
+    "away_team": "Puebla",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:42:42Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:42Z",
+            "outcomes": [
+              { "name": "Necaxa", "price": -140 },
+              { "name": "Puebla", "price": 380 },
+              { "name": "Draw", "price": 260 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:14Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:14Z",
+            "outcomes": [
+              { "name": "Necaxa", "price": -139 },
+              { "name": "Puebla", "price": 400 },
+              { "name": "Draw", "price": 250 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-07-06T13:44:14Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:14Z",
+            "outcomes": [
+              { "name": "Necaxa", "price": -135 },
+              { "name": "Puebla", "price": 400 },
+              { "name": "Draw", "price": 245 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "414788df522811753e3b731204d6a495",
+    "sport_key": "soccer_mexico_ligamx",
+    "sport_title": "Liga MX",
+    "commence_time": "2024-07-14T01:00:00Z",
+    "home_team": "Toluca",
+    "away_team": "FC Ju\u00e1rez",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:42:42Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:42Z",
+            "outcomes": [
+              { "name": "FC Ju\u00e1rez", "price": 500 },
+              { "name": "Toluca", "price": -200 },
+              { "name": "Draw", "price": 320 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:14Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:14Z",
+            "outcomes": [
+              { "name": "FC Ju\u00e1rez", "price": 550 },
+              { "name": "Toluca", "price": -200 },
+              { "name": "Draw", "price": 300 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-07-06T13:44:14Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:14Z",
+            "outcomes": [
+              { "name": "FC Ju\u00e1rez", "price": 550 },
+              { "name": "Toluca", "price": -205 },
+              { "name": "Draw", "price": 310 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "645ac43c2c034c7cf36f8789885ed227",
+    "sport_key": "soccer_mexico_ligamx",
+    "sport_title": "Liga MX",
+    "commence_time": "2024-07-14T01:05:00Z",
+    "home_team": "Santos Laguna",
+    "away_team": "Pumas",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:42:42Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:42Z",
+            "outcomes": [
+              { "name": "Pumas", "price": 150 },
+              { "name": "Santos Laguna", "price": 170 },
+              { "name": "Draw", "price": 220 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:14Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:14Z",
+            "outcomes": [
+              { "name": "Pumas", "price": 150 },
+              { "name": "Santos Laguna", "price": 170 },
+              { "name": "Draw", "price": 240 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-07-06T13:44:14Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:14Z",
+            "outcomes": [
+              { "name": "Pumas", "price": 155 },
+              { "name": "Santos Laguna", "price": 175 },
+              { "name": "Draw", "price": 230 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:14Z",
+            "outcomes": [
+              { "name": "Pumas", "price": -118, "point": 0.0 },
+              { "name": "Santos Laguna", "price": -112, "point": 0.0 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "d71bc8ab93cf9f8cac6b1b527303b471",
+    "sport_key": "soccer_mexico_ligamx",
+    "sport_title": "Liga MX",
+    "commence_time": "2024-07-14T03:10:00Z",
+    "home_team": "Monterrey",
+    "away_team": "Cruz Azul",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:42:42Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:42Z",
+            "outcomes": [
+              { "name": "Cruz Azul", "price": 210 },
+              { "name": "Monterrey", "price": 125 },
+              { "name": "Draw", "price": 220 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:14Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:14Z",
+            "outcomes": [
+              { "name": "Cruz Azul", "price": 230 },
+              { "name": "Monterrey", "price": 120 },
+              { "name": "Draw", "price": 225 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-07-06T13:44:14Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:14Z",
+            "outcomes": [
+              { "name": "Cruz Azul", "price": 230 },
+              { "name": "Monterrey", "price": 125 },
+              { "name": "Draw", "price": 215 }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

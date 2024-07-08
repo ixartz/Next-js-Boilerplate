@@ -1,0 +1,668 @@
+[
+  {
+    "id": "95febdd561d0823b4db430c76298f9e2",
+    "sport_key": "soccer_germany_bundesliga",
+    "sport_title": "Bundesliga - Germany",
+    "commence_time": "2024-08-23T18:30:00Z",
+    "home_team": "Borussia Monchengladbach",
+    "away_team": "Bayer Leverkusen",
+    "bookmakers": [
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:44:22Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:22Z",
+            "outcomes": [
+              { "name": "Bayer Leverkusen", "price": -160 },
+              { "name": "Borussia Monchengladbach", "price": 375 },
+              { "name": "Draw", "price": 333 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2024-07-06T13:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:21Z",
+            "outcomes": [
+              { "name": "Bayer Leverkusen", "price": -160 },
+              { "name": "Borussia Monchengladbach", "price": 345 },
+              { "name": "Draw", "price": 310 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:42:31Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:31Z",
+            "outcomes": [
+              { "name": "Bayer Leverkusen", "price": -170 },
+              { "name": "Borussia Monchengladbach", "price": 380 },
+              { "name": "Draw", "price": 320 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:21Z",
+            "outcomes": [
+              { "name": "Bayer Leverkusen", "price": -180 },
+              { "name": "Borussia Monchengladbach", "price": 350 },
+              { "name": "Draw", "price": 310 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "e836a3c6752a8c04a1c74b5b441571fb",
+    "sport_key": "soccer_germany_bundesliga",
+    "sport_title": "Bundesliga - Germany",
+    "commence_time": "2024-08-24T13:30:00Z",
+    "home_team": "FC St. Pauli",
+    "away_team": "1. FC Heidenheim",
+    "bookmakers": [
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:44:22Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:22Z",
+            "outcomes": [
+              { "name": "1. FC Heidenheim", "price": 240 },
+              { "name": "FC St. Pauli", "price": 110 },
+              { "name": "Draw", "price": 250 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2024-07-06T13:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:21Z",
+            "outcomes": [
+              { "name": "1. FC Heidenheim", "price": 225 },
+              { "name": "FC St. Pauli", "price": 110 },
+              { "name": "Draw", "price": 245 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:42:31Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:31Z",
+            "outcomes": [
+              { "name": "1. FC Heidenheim", "price": 240 },
+              { "name": "FC St. Pauli", "price": 110 },
+              { "name": "Draw", "price": 240 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:21Z",
+            "outcomes": [
+              { "name": "1. FC Heidenheim", "price": 230 },
+              { "name": "FC St. Pauli", "price": 100 },
+              { "name": "Draw", "price": 225 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c47ee94fd25a897a0b55a3ecfcbdece5",
+    "sport_key": "soccer_germany_bundesliga",
+    "sport_title": "Bundesliga - Germany",
+    "commence_time": "2024-08-24T13:30:00Z",
+    "home_team": "Augsburg",
+    "away_team": "Werder Bremen",
+    "bookmakers": [
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:44:22Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:22Z",
+            "outcomes": [
+              { "name": "Augsburg", "price": 115 },
+              { "name": "Werder Bremen", "price": 220 },
+              { "name": "Draw", "price": 260 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2024-07-06T13:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:21Z",
+            "outcomes": [
+              { "name": "Augsburg", "price": 115 },
+              { "name": "Werder Bremen", "price": 200 },
+              { "name": "Draw", "price": 255 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:42:31Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:31Z",
+            "outcomes": [
+              { "name": "Augsburg", "price": 110 },
+              { "name": "Werder Bremen", "price": 220 },
+              { "name": "Draw", "price": 250 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:21Z",
+            "outcomes": [
+              { "name": "Augsburg", "price": 100 },
+              { "name": "Werder Bremen", "price": 220 },
+              { "name": "Draw", "price": 240 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "21f192cdf932c7ef926da2fb1987265d",
+    "sport_key": "soccer_germany_bundesliga",
+    "sport_title": "Bundesliga - Germany",
+    "commence_time": "2024-08-24T13:30:00Z",
+    "home_team": "VfL Wolfsburg",
+    "away_team": "Bayern Munich",
+    "bookmakers": [
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:44:22Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:22Z",
+            "outcomes": [
+              { "name": "Bayern Munich", "price": -225 },
+              { "name": "VfL Wolfsburg", "price": 500 },
+              { "name": "Draw", "price": 425 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2024-07-06T13:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:21Z",
+            "outcomes": [
+              { "name": "Bayern Munich", "price": -210 },
+              { "name": "VfL Wolfsburg", "price": 450 },
+              { "name": "Draw", "price": 365 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:42:31Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:31Z",
+            "outcomes": [
+              { "name": "Bayern Munich", "price": -210 },
+              { "name": "VfL Wolfsburg", "price": 450 },
+              { "name": "Draw", "price": 360 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:21Z",
+            "outcomes": [
+              { "name": "Bayern Munich", "price": -220 },
+              { "name": "VfL Wolfsburg", "price": 425 },
+              { "name": "Draw", "price": 350 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "da36f605fa2bd0b593d589226a1ad627",
+    "sport_key": "soccer_germany_bundesliga",
+    "sport_title": "Bundesliga - Germany",
+    "commence_time": "2024-08-24T13:30:00Z",
+    "home_team": "Borussia Dortmund",
+    "away_team": "Eintracht Frankfurt",
+    "bookmakers": [
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:44:22Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:22Z",
+            "outcomes": [
+              { "name": "Borussia Dortmund", "price": -160 },
+              { "name": "Eintracht Frankfurt", "price": 400 },
+              { "name": "Draw", "price": 320 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2024-07-06T13:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:21Z",
+            "outcomes": [
+              { "name": "Borussia Dortmund", "price": -175 },
+              { "name": "Eintracht Frankfurt", "price": 375 },
+              { "name": "Draw", "price": 320 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:42:31Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:31Z",
+            "outcomes": [
+              { "name": "Borussia Dortmund", "price": -165 },
+              { "name": "Eintracht Frankfurt", "price": 340 },
+              { "name": "Draw", "price": 320 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:21Z",
+            "outcomes": [
+              { "name": "Borussia Dortmund", "price": -150 },
+              { "name": "Eintracht Frankfurt", "price": 295 },
+              { "name": "Draw", "price": 300 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "b71bd39e93e20cc3b7fe41c6c5288d9a",
+    "sport_key": "soccer_germany_bundesliga",
+    "sport_title": "Bundesliga - Germany",
+    "commence_time": "2024-08-24T13:30:00Z",
+    "home_team": "FSV Mainz 05",
+    "away_team": "Union Berlin",
+    "bookmakers": [
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:44:22Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:22Z",
+            "outcomes": [
+              { "name": "FSV Mainz 05", "price": 105 },
+              { "name": "Union Berlin", "price": 270 },
+              { "name": "Draw", "price": 230 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2024-07-06T13:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:21Z",
+            "outcomes": [
+              { "name": "FSV Mainz 05", "price": 100 },
+              { "name": "Union Berlin", "price": 255 },
+              { "name": "Draw", "price": 240 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:42:31Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:31Z",
+            "outcomes": [
+              { "name": "FSV Mainz 05", "price": 100 },
+              { "name": "Union Berlin", "price": 280 },
+              { "name": "Draw", "price": 240 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:21Z",
+            "outcomes": [
+              { "name": "FSV Mainz 05", "price": -110 },
+              { "name": "Union Berlin", "price": 265 },
+              { "name": "Draw", "price": 225 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "e5ab6e8c5e630e8a60f5b5a6a5ccadd2",
+    "sport_key": "soccer_germany_bundesliga",
+    "sport_title": "Bundesliga - Germany",
+    "commence_time": "2024-08-24T13:30:00Z",
+    "home_team": "TSG Hoffenheim",
+    "away_team": "Holstein Kiel",
+    "bookmakers": [
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:44:22Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:22Z",
+            "outcomes": [
+              { "name": "Holstein Kiel", "price": 360 },
+              { "name": "TSG Hoffenheim", "price": -160 },
+              { "name": "Draw", "price": 340 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2024-07-06T13:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:21Z",
+            "outcomes": [
+              { "name": "Holstein Kiel", "price": 425 },
+              { "name": "TSG Hoffenheim", "price": -190 },
+              { "name": "Draw", "price": 325 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:42:31Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:31Z",
+            "outcomes": [
+              { "name": "Holstein Kiel", "price": 430 },
+              { "name": "TSG Hoffenheim", "price": -190 },
+              { "name": "Draw", "price": 330 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:21Z",
+            "outcomes": [
+              { "name": "Holstein Kiel", "price": 360 },
+              { "name": "TSG Hoffenheim", "price": -180 },
+              { "name": "Draw", "price": 310 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "90dfda3f61a737605814f9e001d13eb4",
+    "sport_key": "soccer_germany_bundesliga",
+    "sport_title": "Bundesliga - Germany",
+    "commence_time": "2024-08-24T13:30:00Z",
+    "home_team": "RB Leipzig",
+    "away_team": "VfL Bochum",
+    "bookmakers": [
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:44:22Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:22Z",
+            "outcomes": [
+              { "name": "RB Leipzig", "price": -300 },
+              { "name": "VfL Bochum", "price": 700 },
+              { "name": "Draw", "price": 475 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2024-07-06T13:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:21Z",
+            "outcomes": [
+              { "name": "RB Leipzig", "price": -355 },
+              { "name": "VfL Bochum", "price": 700 },
+              { "name": "Draw", "price": 450 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:42:31Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:31Z",
+            "outcomes": [
+              { "name": "RB Leipzig", "price": -420 },
+              { "name": "VfL Bochum", "price": 800 },
+              { "name": "Draw", "price": 500 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:21Z",
+            "outcomes": [
+              { "name": "RB Leipzig", "price": -390 },
+              { "name": "VfL Bochum", "price": 650 },
+              { "name": "Draw", "price": 475 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "dbd50fab250806608e425d9d3a1d3f70",
+    "sport_key": "soccer_germany_bundesliga",
+    "sport_title": "Bundesliga - Germany",
+    "commence_time": "2024-08-24T13:30:00Z",
+    "home_team": "SC Freiburg",
+    "away_team": "VfB Stuttgart",
+    "bookmakers": [
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:44:22Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:22Z",
+            "outcomes": [
+              { "name": "SC Freiburg", "price": 220 },
+              { "name": "VfB Stuttgart", "price": 120 },
+              { "name": "Draw", "price": 240 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2024-07-06T13:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:21Z",
+            "outcomes": [
+              { "name": "SC Freiburg", "price": 245 },
+              { "name": "VfB Stuttgart", "price": 100 },
+              { "name": "Draw", "price": 255 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:42:31Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:31Z",
+            "outcomes": [
+              { "name": "SC Freiburg", "price": 250 },
+              { "name": "VfB Stuttgart", "price": 100 },
+              { "name": "Draw", "price": 250 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:21Z",
+            "outcomes": [
+              { "name": "SC Freiburg", "price": 245 },
+              { "name": "VfB Stuttgart", "price": -110 },
+              { "name": "Draw", "price": 245 }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

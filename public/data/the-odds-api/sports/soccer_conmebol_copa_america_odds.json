@@ -1,0 +1,512 @@
+[
+  {
+    "id": "ca58b52fcdccd71b4710eb5903215541",
+    "sport_key": "soccer_conmebol_copa_america",
+    "sport_title": "Copa Am\u00e9rica",
+    "commence_time": "2024-07-06T22:00:00Z",
+    "home_team": "Colombia",
+    "away_team": "Panama",
+    "bookmakers": [
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2024-07-06T13:44:19Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:19Z",
+            "outcomes": [
+              { "name": "Colombia", "price": -334 },
+              { "name": "Panama", "price": 950 },
+              { "name": "Draw", "price": 425 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:44:18Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:18Z",
+            "outcomes": [
+              { "name": "Colombia", "price": -350 },
+              { "name": "Panama", "price": 1050 },
+              { "name": "Draw", "price": 425 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:43:30Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:30Z",
+            "outcomes": [
+              { "name": "Colombia", "price": -360 },
+              { "name": "Panama", "price": 1200 },
+              { "name": "Draw", "price": 420 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:19Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:19Z",
+            "outcomes": [
+              { "name": "Colombia", "price": -335 },
+              { "name": "Panama", "price": 1000 },
+              { "name": "Draw", "price": 425 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2024-07-06T13:42:16Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:16Z",
+            "outcomes": [
+              { "name": "Colombia", "price": -360 },
+              { "name": "Panama", "price": 1000 },
+              { "name": "Draw", "price": 425 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:44:19Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:19Z",
+            "outcomes": [
+              { "name": "Colombia", "price": -330 },
+              { "name": "Panama", "price": 1000 },
+              { "name": "Draw", "price": 450 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:44:00Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:00Z",
+            "outcomes": [
+              { "name": "Colombia", "price": -325 },
+              { "name": "Panama", "price": 1000 },
+              { "name": "Draw", "price": 420 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:00Z",
+            "outcomes": [
+              { "name": "Colombia", "price": -110, "point": -1.5 },
+              { "name": "Panama", "price": -110, "point": 1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-07-06T13:44:19Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:19Z",
+            "outcomes": [
+              { "name": "Colombia", "price": -340 },
+              { "name": "Panama", "price": 950 },
+              { "name": "Draw", "price": 440 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:19Z",
+            "outcomes": [
+              { "name": "Colombia", "price": -110, "point": -1.5 },
+              { "name": "Panama", "price": -110, "point": 1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T13:44:19Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:19Z",
+            "outcomes": [
+              { "name": "Colombia", "price": -330 },
+              { "name": "Panama", "price": 1125 },
+              { "name": "Draw", "price": 437 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:19Z",
+            "outcomes": [
+              { "name": "Colombia", "price": -113, "point": -1.5 },
+              { "name": "Panama", "price": -107, "point": 1.5 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "96c0fba0c9a3733c81c5f2163b438bd4",
+    "sport_key": "soccer_conmebol_copa_america",
+    "sport_title": "Copa Am\u00e9rica",
+    "commence_time": "2024-07-07T01:00:00Z",
+    "home_team": "Uruguay",
+    "away_team": "Brazil",
+    "bookmakers": [
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:44:18Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:18Z",
+            "outcomes": [
+              { "name": "Brazil", "price": 160 },
+              { "name": "Uruguay", "price": 200 },
+              { "name": "Draw", "price": 190 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:43:30Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:30Z",
+            "outcomes": [
+              { "name": "Brazil", "price": 160 },
+              { "name": "Uruguay", "price": 200 },
+              { "name": "Draw", "price": 190 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:19Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:19Z",
+            "outcomes": [
+              { "name": "Brazil", "price": 170 },
+              { "name": "Uruguay", "price": 185 },
+              { "name": "Draw", "price": 205 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2024-07-06T13:44:19Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:19Z",
+            "outcomes": [
+              { "name": "Brazil", "price": 160 },
+              { "name": "Uruguay", "price": 195 },
+              { "name": "Draw", "price": 200 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2024-07-06T13:42:16Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:16Z",
+            "outcomes": [
+              { "name": "Brazil", "price": 160 },
+              { "name": "Uruguay", "price": 200 },
+              { "name": "Draw", "price": 190 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:44:19Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:19Z",
+            "outcomes": [
+              { "name": "Brazil", "price": 160 },
+              { "name": "Uruguay", "price": 205 },
+              { "name": "Draw", "price": 195 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:44:00Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:00Z",
+            "outcomes": [
+              { "name": "Brazil", "price": 160 },
+              { "name": "Uruguay", "price": 200 },
+              { "name": "Draw", "price": 200 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:00Z",
+            "outcomes": [
+              { "name": "Brazil", "price": -128, "point": 0.0 },
+              { "name": "Uruguay", "price": 108, "point": 0.0 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-07-06T13:44:19Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:19Z",
+            "outcomes": [
+              { "name": "Brazil", "price": 165 },
+              { "name": "Uruguay", "price": 200 },
+              { "name": "Draw", "price": 200 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:19Z",
+            "outcomes": [
+              { "name": "Brazil", "price": -115, "point": 0.0 },
+              { "name": "Uruguay", "price": -105, "point": 0.0 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T13:44:19Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:19Z",
+            "outcomes": [
+              { "name": "Brazil", "price": 167 },
+              { "name": "Uruguay", "price": 210 },
+              { "name": "Draw", "price": 197 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:19Z",
+            "outcomes": [
+              { "name": "Brazil", "price": -125, "point": 0.0 },
+              { "name": "Uruguay", "price": 105, "point": 0.0 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "61f4dc97a651a40bb57450f054284171",
+    "sport_key": "soccer_conmebol_copa_america",
+    "sport_title": "Copa Am\u00e9rica",
+    "commence_time": "2024-07-10T00:00:00Z",
+    "home_team": "Argentina",
+    "away_team": "Canada",
+    "bookmakers": [
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:44:18Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:18Z",
+            "outcomes": [
+              { "name": "Argentina", "price": -275 },
+              { "name": "Canada", "price": 825 },
+              { "name": "Draw", "price": 380 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:43:30Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:30Z",
+            "outcomes": [
+              { "name": "Argentina", "price": -310 },
+              { "name": "Canada", "price": 800 },
+              { "name": "Draw", "price": 390 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "superbook",
+        "title": "SuperBook",
+        "last_update": "2024-07-06T13:44:19Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:19Z",
+            "outcomes": [
+              { "name": "Argentina", "price": -290 },
+              { "name": "Canada", "price": 800 },
+              { "name": "Draw", "price": 385 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:44:19Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:19Z",
+            "outcomes": [
+              { "name": "Argentina", "price": -310 },
+              { "name": "Canada", "price": 850 },
+              { "name": "Draw", "price": 400 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2024-07-06T13:42:16Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:16Z",
+            "outcomes": [
+              { "name": "Argentina", "price": -280 },
+              { "name": "Canada", "price": 900 },
+              { "name": "Draw", "price": 360 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:19Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:19Z",
+            "outcomes": [
+              { "name": "Argentina", "price": -305 },
+              { "name": "Canada", "price": 850 },
+              { "name": "Draw", "price": 400 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:44:00Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:00Z",
+            "outcomes": [
+              { "name": "Argentina", "price": -290 },
+              { "name": "Canada", "price": 800 },
+              { "name": "Draw", "price": 400 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:00Z",
+            "outcomes": [
+              { "name": "Argentina", "price": 105, "point": -1.5 },
+              { "name": "Canada", "price": -125, "point": 1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-07-06T13:44:19Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:19Z",
+            "outcomes": [
+              { "name": "Argentina", "price": -290 },
+              { "name": "Canada", "price": 800 },
+              { "name": "Draw", "price": 400 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:19Z",
+            "outcomes": [
+              { "name": "Argentina", "price": 105, "point": -1.5 },
+              { "name": "Canada", "price": -125, "point": 1.5 }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

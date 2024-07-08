@@ -1,0 +1,290 @@
+[
+  {
+    "id": "992b742a4141c16168f7fb79d163423e",
+    "sport_key": "lacrosse_pll",
+    "sport_title": "PLL",
+    "commence_time": "2024-07-06T20:30:00Z",
+    "home_team": "Maryland Whipsnakes",
+    "away_team": "Utah Archers",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:41:50Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:41:50Z",
+            "outcomes": [
+              { "name": "Maryland Whipsnakes", "price": 100 },
+              { "name": "Utah Archers", "price": -130 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:41:50Z",
+            "outcomes": [
+              { "name": "Maryland Whipsnakes", "price": -140, "point": 1.5 },
+              { "name": "Utah Archers", "price": 110, "point": -1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:42:30Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:30Z",
+            "outcomes": [
+              { "name": "Maryland Whipsnakes", "price": 110 },
+              { "name": "Utah Archers", "price": -134 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:42:30Z",
+            "outcomes": [
+              { "name": "Maryland Whipsnakes", "price": -134, "point": 1.5 },
+              { "name": "Utah Archers", "price": 110, "point": -1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:43:14Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:14Z",
+            "outcomes": [
+              { "name": "Maryland Whipsnakes", "price": 110 },
+              { "name": "Utah Archers", "price": -130 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:14Z",
+            "outcomes": [
+              { "name": "Maryland Whipsnakes", "price": -140, "point": 1.5 },
+              { "name": "Utah Archers", "price": 115, "point": -1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T13:43:58Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:58Z",
+            "outcomes": [
+              { "name": "Maryland Whipsnakes", "price": 110 },
+              { "name": "Utah Archers", "price": -140 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:58Z",
+            "outcomes": [
+              { "name": "Maryland Whipsnakes", "price": -140, "point": 1.5 },
+              { "name": "Utah Archers", "price": 110, "point": -1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:19Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:19Z",
+            "outcomes": [
+              { "name": "Maryland Whipsnakes", "price": 105 },
+              { "name": "Utah Archers", "price": -134 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:19Z",
+            "outcomes": [
+              { "name": "Maryland Whipsnakes", "price": -139, "point": 1.5 },
+              { "name": "Utah Archers", "price": 110, "point": -1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2024-07-06T13:43:25Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:25Z",
+            "outcomes": [
+              { "name": "Maryland Whipsnakes", "price": 100 },
+              { "name": "Utah Archers", "price": -130 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:25Z",
+            "outcomes": [
+              { "name": "Maryland Whipsnakes", "price": -140, "point": 1.5 },
+              { "name": "Utah Archers", "price": 110, "point": -1.5 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "76dae68ea00cf6ee5d4fa8b5c8eb217d",
+    "sport_key": "lacrosse_pll",
+    "sport_title": "PLL",
+    "commence_time": "2024-07-06T23:00:00Z",
+    "home_team": "Boston Cannons",
+    "away_team": "Philadelphia Waterdogs",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:41:50Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:41:50Z",
+            "outcomes": [
+              { "name": "Boston Cannons", "price": -120 },
+              { "name": "Philadelphia Waterdogs", "price": -110 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:42:30Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:30Z",
+            "outcomes": [
+              { "name": "Boston Cannons", "price": 100 },
+              { "name": "Philadelphia Waterdogs", "price": -122 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:42:30Z",
+            "outcomes": [
+              { "name": "Boston Cannons", "price": -122, "point": 1.5 },
+              { "name": "Philadelphia Waterdogs", "price": 100, "point": -1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:43:14Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:14Z",
+            "outcomes": [
+              { "name": "Boston Cannons", "price": -115 },
+              { "name": "Philadelphia Waterdogs", "price": -105 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:14Z",
+            "outcomes": [
+              { "name": "Boston Cannons", "price": 115, "point": -1.5 },
+              { "name": "Philadelphia Waterdogs", "price": -140, "point": 1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T13:43:58Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:58Z",
+            "outcomes": [
+              { "name": "Boston Cannons", "price": -120 },
+              { "name": "Philadelphia Waterdogs", "price": -110 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:58Z",
+            "outcomes": [
+              { "name": "Boston Cannons", "price": 115, "point": -1.5 },
+              { "name": "Philadelphia Waterdogs", "price": -145, "point": 1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:19Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:19Z",
+            "outcomes": [
+              { "name": "Boston Cannons", "price": -113 },
+              { "name": "Philadelphia Waterdogs", "price": -113 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:19Z",
+            "outcomes": [
+              { "name": "Boston Cannons", "price": -155, "point": 1.5 },
+              { "name": "Philadelphia Waterdogs", "price": 120, "point": -1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2024-07-06T13:43:25Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:25Z",
+            "outcomes": [
+              { "name": "Boston Cannons", "price": -125 },
+              { "name": "Philadelphia Waterdogs", "price": -105 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:43:25Z",
+            "outcomes": [
+              { "name": "Boston Cannons", "price": -105, "point": -1.5 },
+              { "name": "Philadelphia Waterdogs", "price": -135, "point": 1.5 }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,4 +1,6 @@
 {
+  "scss.lint.unknownAtRules": "ignore",
+  "css.customData": [".vscode/tailwind.json"],
   "editor.tabSize": 2,
   "editor.detectIndentation": false,
   "search.exclude": {

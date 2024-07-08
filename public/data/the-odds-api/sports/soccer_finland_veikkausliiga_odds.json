@@ -1,0 +1,933 @@
+[
+  {
+    "id": "8fb9cd62f307e87f33ab8d15f6ec0b20",
+    "sport_key": "soccer_finland_veikkausliiga",
+    "sport_title": "Veikkausliiga - Finland",
+    "commence_time": "2024-07-06T12:00:00Z",
+    "home_team": "Ilves Tampere",
+    "away_team": "HJK Helsinki",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:41:33Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:41:33Z",
+            "outcomes": [
+              { "name": "HJK Helsinki", "price": 10000 },
+              { "name": "Ilves Tampere", "price": -20000 },
+              { "name": "Draw", "price": 10000 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:44:29Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:29Z",
+            "outcomes": [
+              { "name": "HJK Helsinki", "price": 2400 },
+              { "name": "Ilves Tampere", "price": -1429 },
+              { "name": "Draw", "price": 700 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:29Z",
+            "outcomes": [
+              { "name": "HJK Helsinki", "price": 165, "point": 1.5 },
+              { "name": "Ilves Tampere", "price": -250, "point": -1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:37:42Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:37:42Z",
+            "outcomes": [
+              { "name": "HJK Helsinki", "price": 3500 },
+              { "name": "Ilves Tampere", "price": -5000 },
+              { "name": "Draw", "price": 1600 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:44:23Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:23Z",
+            "outcomes": [
+              { "name": "HJK Helsinki", "price": -118, "point": 3.0 },
+              { "name": "Ilves Tampere", "price": -112, "point": -3.0 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "6ad708fb21b11f0eee9310760e74a5bb",
+    "sport_key": "soccer_finland_veikkausliiga",
+    "sport_title": "Veikkausliiga - Finland",
+    "commence_time": "2024-07-06T14:00:00Z",
+    "home_team": "VPS Vaasa",
+    "away_team": "Eken\u00e4s IF",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:44:48Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:48Z",
+            "outcomes": [
+              { "name": "Eken\u00e4s IF", "price": 750 },
+              { "name": "VPS Vaasa", "price": -370 },
+              { "name": "Draw", "price": 430 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:44:29Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:29Z",
+            "outcomes": [
+              { "name": "Eken\u00e4s IF", "price": 720 },
+              { "name": "VPS Vaasa", "price": -295 },
+              { "name": "Draw", "price": 420 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:29Z",
+            "outcomes": [
+              { "name": "Eken\u00e4s IF", "price": -123, "point": 1.5 },
+              { "name": "VPS Vaasa", "price": -106, "point": -1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:44:29Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:29Z",
+            "outcomes": [
+              { "name": "Eken\u00e4s IF", "price": 750 },
+              { "name": "VPS Vaasa", "price": -310 },
+              { "name": "Draw", "price": 450 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:44:23Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:23Z",
+            "outcomes": [
+              { "name": "Eken\u00e4s IF", "price": 675 },
+              { "name": "VPS Vaasa", "price": -305 },
+              { "name": "Draw", "price": 400 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:23Z",
+            "outcomes": [
+              { "name": "Eken\u00e4s IF", "price": -122, "point": 1.5 },
+              { "name": "VPS Vaasa", "price": -108, "point": -1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:29Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:29Z",
+            "outcomes": [
+              { "name": "Eken\u00e4s IF", "price": 700 },
+              { "name": "VPS Vaasa", "price": -315 },
+              { "name": "Draw", "price": 425 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:44:24Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:24Z",
+            "outcomes": [
+              { "name": "Eken\u00e4s IF", "price": 750 },
+              { "name": "VPS Vaasa", "price": -300 },
+              { "name": "Draw", "price": 425 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-07-06T13:44:30Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:30Z",
+            "outcomes": [
+              { "name": "Eken\u00e4s IF", "price": 739 },
+              { "name": "VPS Vaasa", "price": -309 },
+              { "name": "Draw", "price": 425 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:30Z",
+            "outcomes": [
+              { "name": "Eken\u00e4s IF", "price": -113, "point": 1.5 },
+              { "name": "VPS Vaasa", "price": -115, "point": -1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:44:29Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:29Z",
+            "outcomes": [
+              { "name": "Eken\u00e4s IF", "price": 770 },
+              { "name": "VPS Vaasa", "price": -286 },
+              { "name": "Draw", "price": 430 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:29Z",
+            "outcomes": [
+              { "name": "Eken\u00e4s IF", "price": -113, "point": 1.5 },
+              { "name": "VPS Vaasa", "price": -107, "point": -1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T13:44:39Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:39Z",
+            "outcomes": [
+              { "name": "Eken\u00e4s IF", "price": 770 },
+              { "name": "VPS Vaasa", "price": -286 },
+              { "name": "Draw", "price": 430 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:39Z",
+            "outcomes": [
+              { "name": "Eken\u00e4s IF", "price": -113, "point": 1.5 },
+              { "name": "VPS Vaasa", "price": -107, "point": -1.5 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "072b74e1e51eeb7e9d733ee6d27fd2d8",
+    "sport_key": "soccer_finland_veikkausliiga",
+    "sport_title": "Veikkausliiga - Finland",
+    "commence_time": "2024-07-07T15:30:00Z",
+    "home_team": "IFK Mariehamn",
+    "away_team": "FC Haka",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:44:48Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:48Z",
+            "outcomes": [
+              { "name": "FC Haka", "price": 210 },
+              { "name": "IFK Mariehamn", "price": 120 },
+              { "name": "Draw", "price": 220 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:44:29Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:29Z",
+            "outcomes": [
+              { "name": "FC Haka", "price": 206 },
+              { "name": "IFK Mariehamn", "price": 129 },
+              { "name": "Draw", "price": 236 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:29Z",
+            "outcomes": [
+              { "name": "FC Haka", "price": -164, "point": 0.5 },
+              { "name": "IFK Mariehamn", "price": 122, "point": -0.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:44:29Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:29Z",
+            "outcomes": [
+              { "name": "FC Haka", "price": 215 },
+              { "name": "IFK Mariehamn", "price": 120 },
+              { "name": "Draw", "price": 240 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:44:23Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:23Z",
+            "outcomes": [
+              { "name": "FC Haka", "price": 200 },
+              { "name": "IFK Mariehamn", "price": 130 },
+              { "name": "Draw", "price": 220 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:23Z",
+            "outcomes": [
+              { "name": "FC Haka", "price": -122, "point": 0.25 },
+              { "name": "IFK Mariehamn", "price": -108, "point": -0.25 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:29Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:29Z",
+            "outcomes": [
+              { "name": "FC Haka", "price": 205 },
+              { "name": "IFK Mariehamn", "price": 123 },
+              { "name": "Draw", "price": 235 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:44:24Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:24Z",
+            "outcomes": [
+              { "name": "FC Haka", "price": 200 },
+              { "name": "IFK Mariehamn", "price": 125 },
+              { "name": "Draw", "price": 230 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-07-06T13:44:30Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:30Z",
+            "outcomes": [
+              { "name": "FC Haka", "price": 213 },
+              { "name": "IFK Mariehamn", "price": 121 },
+              { "name": "Draw", "price": 241 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:44:29Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:29Z",
+            "outcomes": [
+              { "name": "FC Haka", "price": 185 },
+              { "name": "IFK Mariehamn", "price": 131 },
+              { "name": "Draw", "price": 235 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:29Z",
+            "outcomes": [
+              { "name": "FC Haka", "price": -112, "point": 0.25 },
+              { "name": "IFK Mariehamn", "price": -108, "point": -0.25 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T13:44:39Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:39Z",
+            "outcomes": [
+              { "name": "FC Haka", "price": 185 },
+              { "name": "IFK Mariehamn", "price": 131 },
+              { "name": "Draw", "price": 235 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:39Z",
+            "outcomes": [
+              { "name": "FC Haka", "price": -112, "point": 0.25 },
+              { "name": "IFK Mariehamn", "price": -108, "point": -0.25 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "519798609799fef433e26e990ac430a6",
+    "sport_key": "soccer_finland_veikkausliiga",
+    "sport_title": "Veikkausliiga - Finland",
+    "commence_time": "2024-07-07T15:30:00Z",
+    "home_team": "KuPS Kuopio",
+    "away_team": "IF Gnistan",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:44:48Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:48Z",
+            "outcomes": [
+              { "name": "IF Gnistan", "price": 600 },
+              { "name": "KuPS Kuopio", "price": -260 },
+              { "name": "Draw", "price": 340 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:44:29Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:29Z",
+            "outcomes": [
+              { "name": "IF Gnistan", "price": 560 },
+              { "name": "KuPS Kuopio", "price": -222 },
+              { "name": "Draw", "price": 350 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:29Z",
+            "outcomes": [
+              { "name": "IF Gnistan", "price": -159, "point": 1.5 },
+              { "name": "KuPS Kuopio", "price": 119, "point": -1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:44:29Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:29Z",
+            "outcomes": [
+              { "name": "IF Gnistan", "price": 600 },
+              { "name": "KuPS Kuopio", "price": -245 },
+              { "name": "Draw", "price": 360 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:44:23Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:23Z",
+            "outcomes": [
+              { "name": "IF Gnistan", "price": 525 },
+              { "name": "KuPS Kuopio", "price": -235 },
+              { "name": "Draw", "price": 330 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:23Z",
+            "outcomes": [
+              { "name": "IF Gnistan", "price": -125, "point": 1.25 },
+              { "name": "KuPS Kuopio", "price": -105, "point": -1.25 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:29Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:29Z",
+            "outcomes": [
+              { "name": "IF Gnistan", "price": 575 },
+              { "name": "KuPS Kuopio", "price": -240 },
+              { "name": "Draw", "price": 340 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:44:24Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:24Z",
+            "outcomes": [
+              { "name": "IF Gnistan", "price": 550 },
+              { "name": "KuPS Kuopio", "price": -225 },
+              { "name": "Draw", "price": 350 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-07-06T13:44:30Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:30Z",
+            "outcomes": [
+              { "name": "IF Gnistan", "price": 574 },
+              { "name": "KuPS Kuopio", "price": -231 },
+              { "name": "Draw", "price": 358 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:44:29Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:29Z",
+            "outcomes": [
+              { "name": "IF Gnistan", "price": 580 },
+              { "name": "KuPS Kuopio", "price": -233 },
+              { "name": "Draw", "price": 340 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:29Z",
+            "outcomes": [
+              { "name": "IF Gnistan", "price": -118, "point": 1.25 },
+              { "name": "KuPS Kuopio", "price": -102, "point": -1.25 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T13:44:39Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:39Z",
+            "outcomes": [
+              { "name": "IF Gnistan", "price": 580 },
+              { "name": "KuPS Kuopio", "price": -233 },
+              { "name": "Draw", "price": 340 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:39Z",
+            "outcomes": [
+              { "name": "IF Gnistan", "price": -118, "point": 1.25 },
+              { "name": "KuPS Kuopio", "price": -102, "point": -1.25 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "21ca28c8bc27718244620c74f96a3e7c",
+    "sport_key": "soccer_finland_veikkausliiga",
+    "sport_title": "Veikkausliiga - Finland",
+    "commence_time": "2024-07-08T15:00:00Z",
+    "home_team": "AC Oulu",
+    "away_team": "SJK Sein\u00e4joki",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:44:48Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:48Z",
+            "outcomes": [
+              { "name": "AC Oulu", "price": 230 },
+              { "name": "SJK Sein\u00e4joki", "price": 105 },
+              { "name": "Draw", "price": 240 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:44:29Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:29Z",
+            "outcomes": [
+              { "name": "AC Oulu", "price": 238 },
+              { "name": "SJK Sein\u00e4joki", "price": 106 },
+              { "name": "Draw", "price": 260 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:29Z",
+            "outcomes": [
+              { "name": "AC Oulu", "price": -135, "point": 0.5 },
+              { "name": "SJK Sein\u00e4joki", "price": 101, "point": -0.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:44:23Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:23Z",
+            "outcomes": [
+              { "name": "AC Oulu", "price": 230 },
+              { "name": "SJK Sein\u00e4joki", "price": 105 },
+              { "name": "Draw", "price": 240 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:23Z",
+            "outcomes": [
+              { "name": "AC Oulu", "price": 100, "point": 0.25 },
+              { "name": "SJK Sein\u00e4joki", "price": -130, "point": -0.25 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:44:29Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:29Z",
+            "outcomes": [
+              { "name": "AC Oulu", "price": 230 },
+              { "name": "SJK Sein\u00e4joki", "price": 105 },
+              { "name": "Draw", "price": 255 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:29Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:29Z",
+            "outcomes": [
+              { "name": "AC Oulu", "price": 230 },
+              { "name": "SJK Sein\u00e4joki", "price": 100 },
+              { "name": "Draw", "price": 240 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:44:24Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:24Z",
+            "outcomes": [
+              { "name": "AC Oulu", "price": 225 },
+              { "name": "SJK Sein\u00e4joki", "price": 105 },
+              { "name": "Draw", "price": 260 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-07-06T13:44:30Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:30Z",
+            "outcomes": [
+              { "name": "AC Oulu", "price": 230 },
+              { "name": "SJK Sein\u00e4joki", "price": 105 },
+              { "name": "Draw", "price": 240 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c8127ff43cb0abb01ae08cdd0400b2dd",
+    "sport_key": "soccer_finland_veikkausliiga",
+    "sport_title": "Veikkausliiga - Finland",
+    "commence_time": "2024-07-08T15:00:00Z",
+    "home_team": "FC Inter Turku",
+    "away_team": "FC Lahti",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:44:48Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:48Z",
+            "outcomes": [
+              { "name": "FC Inter Turku", "price": -220 },
+              { "name": "FC Lahti", "price": 500 },
+              { "name": "Draw", "price": 320 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2024-07-06T13:44:29Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:29Z",
+            "outcomes": [
+              { "name": "FC Inter Turku", "price": -191 },
+              { "name": "FC Lahti", "price": 470 },
+              { "name": "Draw", "price": 330 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:29Z",
+            "outcomes": [
+              { "name": "FC Inter Turku", "price": 134, "point": -1.5 },
+              { "name": "FC Lahti", "price": -179, "point": 1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:44:23Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:23Z",
+            "outcomes": [
+              { "name": "FC Inter Turku", "price": -190 },
+              { "name": "FC Lahti", "price": 460 },
+              { "name": "Draw", "price": 310 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:23Z",
+            "outcomes": [
+              { "name": "FC Inter Turku", "price": -122, "point": -1.0 },
+              { "name": "FC Lahti", "price": -108, "point": 1.0 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:44:29Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:29Z",
+            "outcomes": [
+              { "name": "FC Inter Turku", "price": -210 },
+              { "name": "FC Lahti", "price": 500 },
+              { "name": "Draw", "price": 340 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:29Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:29Z",
+            "outcomes": [
+              { "name": "FC Inter Turku", "price": -225 },
+              { "name": "FC Lahti", "price": 490 },
+              { "name": "Draw", "price": 325 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:44:24Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:24Z",
+            "outcomes": [
+              { "name": "FC Inter Turku", "price": -200 },
+              { "name": "FC Lahti", "price": 450 },
+              { "name": "Draw", "price": 333 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-07-06T13:44:30Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:30Z",
+            "outcomes": [
+              { "name": "FC Inter Turku", "price": -190 },
+              { "name": "FC Lahti", "price": 460 },
+              { "name": "Draw", "price": 310 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "last_update": "2024-07-06T13:44:30Z",
+            "outcomes": [
+              { "name": "FC Inter Turku", "price": -122, "point": -1.0 },
+              { "name": "FC Lahti", "price": -108, "point": 1.0 }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

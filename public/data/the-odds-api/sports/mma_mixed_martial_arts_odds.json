@@ -1,0 +1,5151 @@
+[
+  {
+    "id": "777518157f806d38e604e0d29ad4bcaf",
+    "sport_key": "mma_mixed_martial_arts",
+    "sport_title": "MMA",
+    "commence_time": "2024-07-06T19:00:00Z",
+    "home_team": "Eduardo Dutra",
+    "away_team": "Abraham Racho",
+    "bookmakers": [
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:44:22Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:22Z",
+            "outcomes": [
+              { "name": "Abraham Racho", "price": 110 },
+              { "name": "Eduardo Dutra", "price": -145 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:44:23Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:23Z",
+            "outcomes": [
+              { "name": "Abraham Racho", "price": 122 },
+              { "name": "Eduardo Dutra", "price": -142 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "14f1ec0c0edf534b72e8e06eabc40a92",
+    "sport_key": "mma_mixed_martial_arts",
+    "sport_title": "MMA",
+    "commence_time": "2024-07-06T19:00:00Z",
+    "home_team": "Alexandre Duarte",
+    "away_team": "Matheus Felipe",
+    "bookmakers": [
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:44:23Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:23Z",
+            "outcomes": [
+              { "name": "Alexandre Duarte", "price": -400 },
+              { "name": "Matheus Felipe", "price": 300 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:44:22Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:22Z",
+            "outcomes": [
+              { "name": "Alexandre Duarte", "price": -425 },
+              { "name": "Matheus Felipe", "price": 285 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "f2f8f36b74c57bf862ffc781011091ad",
+    "sport_key": "mma_mixed_martial_arts",
+    "sport_title": "MMA",
+    "commence_time": "2024-07-06T19:00:00Z",
+    "home_team": "Fabrizia Ketlinn",
+    "away_team": "Nawira Ferreira",
+    "bookmakers": [
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:44:23Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:23Z",
+            "outcomes": [
+              { "name": "Fabrizia Ketlinn", "price": -115 },
+              { "name": "Nawira Ferreira", "price": -105 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:44:22Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:22Z",
+            "outcomes": [
+              { "name": "Fabrizia Ketlinn", "price": -125 },
+              { "name": "Nawira Ferreira", "price": -105 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ab046b1bd29e784831368a8108839610",
+    "sport_key": "mma_mixed_martial_arts",
+    "sport_title": "MMA",
+    "commence_time": "2024-07-06T19:00:00Z",
+    "home_team": "Guilherme Uriel",
+    "away_team": "Weslley \u00c1lec",
+    "bookmakers": []
+  },
+  {
+    "id": "b42b504ad8449992eb0e95b1992608d1",
+    "sport_key": "mma_mixed_martial_arts",
+    "sport_title": "MMA",
+    "commence_time": "2024-07-06T19:00:00Z",
+    "home_team": "Hugo Paiva",
+    "away_team": "Rodrigo Roldan",
+    "bookmakers": [
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:44:22Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:22Z",
+            "outcomes": [
+              { "name": "Hugo Paiva", "price": -475 },
+              { "name": "Rodrigo Roldan", "price": 315 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:44:23Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:23Z",
+            "outcomes": [
+              { "name": "Hugo Paiva", "price": -400 },
+              { "name": "Rodrigo Roldan", "price": 300 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c17d350e01ca418d3b938f64cb6d5618",
+    "sport_key": "mma_mixed_martial_arts",
+    "sport_title": "MMA",
+    "commence_time": "2024-07-06T19:00:00Z",
+    "home_team": "Jo\u00e3o Moraes",
+    "away_team": "Navir Gonzalez",
+    "bookmakers": []
+  },
+  {
+    "id": "14bf0abefe19629307daa0bfcaa41ced",
+    "sport_key": "mma_mixed_martial_arts",
+    "sport_title": "MMA",
+    "commence_time": "2024-07-06T19:00:00Z",
+    "home_team": "Lany Silva",
+    "away_team": "Pamela Mara",
+    "bookmakers": [
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:44:23Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:23Z",
+            "outcomes": [
+              { "name": "Lany Silva", "price": -599 },
+              { "name": "Pamela Mara", "price": 425 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:44:22Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:22Z",
+            "outcomes": [
+              { "name": "Lany Silva", "price": -600 },
+              { "name": "Pamela Mara", "price": 375 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "637af6642e4b089acb7fc43feefc0f50",
+    "sport_key": "mma_mixed_martial_arts",
+    "sport_title": "MMA",
+    "commence_time": "2024-07-06T19:00:00Z",
+    "home_team": "Leonardo Mesquita",
+    "away_team": "Vladimir Calvo",
+    "bookmakers": [
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:44:22Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:22Z",
+            "outcomes": [
+              { "name": "Leonardo Mesquita", "price": 200 },
+              { "name": "Vladimir Calvo", "price": -275 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:44:23Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:23Z",
+            "outcomes": [
+              { "name": "Leonardo Mesquita", "price": 205 },
+              { "name": "Vladimir Calvo", "price": -240 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "eb921e858e7c96e99f354f29dc55f75a",
+    "sport_key": "mma_mixed_martial_arts",
+    "sport_title": "MMA",
+    "commence_time": "2024-07-07T00:00:00Z",
+    "home_team": "Aieza Bertolso",
+    "away_team": "Alejandra Fernandez",
+    "bookmakers": [
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:44:22Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:22Z",
+            "outcomes": [
+              { "name": "Aieza Bertolso", "price": -2500 },
+              { "name": "Alejandra Fernandez", "price": 1000 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:44:23Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:23Z",
+            "outcomes": [
+              { "name": "Aieza Bertolso", "price": -2500 },
+              { "name": "Alejandra Fernandez", "price": 1200 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "5993c7a4d5defb8d9be3289fcb5f0db1",
+    "sport_key": "mma_mixed_martial_arts",
+    "sport_title": "MMA",
+    "commence_time": "2024-07-07T00:00:00Z",
+    "home_team": "Apollo Gomes",
+    "away_team": "Lionel Abojer",
+    "bookmakers": [
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:44:22Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:22Z",
+            "outcomes": [
+              { "name": "Apollo Gomes", "price": -650 },
+              { "name": "Lionel Abojer", "price": 400 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:44:23Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:23Z",
+            "outcomes": [
+              { "name": "Apollo Gomes", "price": -649 },
+              { "name": "Lionel Abojer", "price": 475 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "e5cce2c65fe319cef7ce8fca7287fc86",
+    "sport_key": "mma_mixed_martial_arts",
+    "sport_title": "MMA",
+    "commence_time": "2024-07-07T00:00:00Z",
+    "home_team": "Marcos Degli",
+    "away_team": "Ignacio Fernandez",
+    "bookmakers": [
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:44:22Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:22Z",
+            "outcomes": [
+              { "name": "Ignacio Fernandez", "price": 750 },
+              { "name": "Marcos Degli", "price": -1600 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:44:23Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:23Z",
+            "outcomes": [
+              { "name": "Ignacio Fernandez", "price": 850 },
+              { "name": "Marcos Degli", "price": -1493 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "168a859f219033eda14c45832cb83121",
+    "sport_key": "mma_mixed_martial_arts",
+    "sport_title": "MMA",
+    "commence_time": "2024-07-07T00:00:00Z",
+    "home_team": "Pedro Doreto",
+    "away_team": "Leandro Solano",
+    "bookmakers": [
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:44:22Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:22Z",
+            "outcomes": [
+              { "name": "Leandro Solano", "price": 150 },
+              { "name": "Pedro Doreto", "price": -200 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "db3436714ea9967300fe1af0f023c218",
+    "sport_key": "mma_mixed_martial_arts",
+    "sport_title": "MMA",
+    "commence_time": "2024-07-07T00:00:00Z",
+    "home_team": "Samuel Dias",
+    "away_team": "Renzo Cortti",
+    "bookmakers": [
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:44:22Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:22Z",
+            "outcomes": [
+              { "name": "Renzo Cortti", "price": 290 },
+              { "name": "Samuel Dias", "price": -435 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:44:23Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:23Z",
+            "outcomes": [
+              { "name": "Renzo Cortti", "price": 375 },
+              { "name": "Samuel Dias", "price": -500 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "eafb2659836db58ec1827e8e74f68e27",
+    "sport_key": "mma_mixed_martial_arts",
+    "sport_title": "MMA",
+    "commence_time": "2024-07-07T01:00:00Z",
+    "home_team": "Carlos Leal",
+    "away_team": "Manuel Mena",
+    "bookmakers": [
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:44:22Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:22Z",
+            "outcomes": [
+              { "name": "Carlos Leal", "price": -2500 },
+              { "name": "Manuel Mena", "price": 1000 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:44:23Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:23Z",
+            "outcomes": [
+              { "name": "Carlos Leal", "price": -2326 },
+              { "name": "Manuel Mena", "price": 1100 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "5eaed98619f360f5072b36b69daf462c",
+    "sport_key": "mma_mixed_martial_arts",
+    "sport_title": "MMA",
+    "commence_time": "2024-07-13T21:00:00Z",
+    "home_team": "Joshua Van",
+    "away_team": "Charles Johnson",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:43:25Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:25Z",
+            "outcomes": [
+              { "name": "Charles Johnson", "price": 160 },
+              { "name": "Joshua Van", "price": -192 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T13:43:17Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:17Z",
+            "outcomes": [
+              { "name": "Charles Johnson", "price": 145 },
+              { "name": "Joshua Van", "price": -170 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:44:23Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:23Z",
+            "outcomes": [
+              { "name": "Charles Johnson", "price": 145 },
+              { "name": "Joshua Van", "price": -170 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:44:22Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:22Z",
+            "outcomes": [
+              { "name": "Charles Johnson", "price": 150 },
+              { "name": "Joshua Van", "price": -180 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:00Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:00Z",
+            "outcomes": [
+              { "name": "Charles Johnson", "price": 143 },
+              { "name": "Joshua Van", "price": -180 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:21Z",
+            "outcomes": [
+              { "name": "Charles Johnson", "price": 165 },
+              { "name": "Joshua Van", "price": -200 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2024-07-06T13:42:30Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:30Z",
+            "outcomes": [
+              { "name": "Charles Johnson", "price": 155 },
+              { "name": "Joshua Van", "price": -185 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "d990bc4f06ae184d05431bb71f2cb8a0",
+    "sport_key": "mma_mixed_martial_arts",
+    "sport_title": "MMA",
+    "commence_time": "2024-07-13T21:00:00Z",
+    "home_team": "Montel Jackson",
+    "away_team": "Da'Mon Blackshear",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:43:25Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:25Z",
+            "outcomes": [
+              { "name": "Da'Mon Blackshear", "price": 124 },
+              { "name": "Montel Jackson", "price": -148 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T13:43:17Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:17Z",
+            "outcomes": [
+              { "name": "Da'Mon Blackshear", "price": 140 },
+              { "name": "Montel Jackson", "price": -160 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:44:23Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:23Z",
+            "outcomes": [
+              { "name": "Da'Mon Blackshear", "price": 140 },
+              { "name": "Montel Jackson", "price": -160 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:00Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:00Z",
+            "outcomes": [
+              { "name": "Da'Mon Blackshear", "price": 120 },
+              { "name": "Montel Jackson", "price": -150 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:44:22Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:22Z",
+            "outcomes": [
+              { "name": "Da'Mon Blackshear", "price": 125 },
+              { "name": "Montel Jackson", "price": -150 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2024-07-06T13:42:30Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:30Z",
+            "outcomes": [
+              { "name": "Da'Mon Blackshear", "price": 122 },
+              { "name": "Montel Jackson", "price": -145 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "b78eee499298f06cdd6e78b2b4873fa6",
+    "sport_key": "mma_mixed_martial_arts",
+    "sport_title": "MMA",
+    "commence_time": "2024-07-13T23:00:00Z",
+    "home_team": "Josh Fremd",
+    "away_team": "Andre Petroski",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:43:25Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:25Z",
+            "outcomes": [
+              { "name": "Andre Petroski", "price": 110 },
+              { "name": "Josh Fremd", "price": -130 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:43:16Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:16Z",
+            "outcomes": [
+              { "name": "Andre Petroski", "price": -104 },
+              { "name": "Josh Fremd", "price": -120 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:00Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:00Z",
+            "outcomes": [
+              { "name": "Andre Petroski", "price": -112 },
+              { "name": "Josh Fremd", "price": -112 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T13:43:17Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:17Z",
+            "outcomes": [
+              { "name": "Andre Petroski", "price": 105 },
+              { "name": "Josh Fremd", "price": -125 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:44:23Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:23Z",
+            "outcomes": [
+              { "name": "Andre Petroski", "price": 105 },
+              { "name": "Josh Fremd", "price": -125 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-07-06T13:44:22Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:22Z",
+            "outcomes": [
+              { "name": "Andre Petroski", "price": -105 },
+              { "name": "Josh Fremd", "price": -125 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:21Z",
+            "outcomes": [
+              { "name": "Andre Petroski", "price": 105 },
+              { "name": "Josh Fremd", "price": -125 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2024-07-06T13:42:30Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:30Z",
+            "outcomes": [
+              { "name": "Andre Petroski", "price": 100 },
+              { "name": "Josh Fremd", "price": -120 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "84f40117887a99249e50c9bd47625778",
+    "sport_key": "mma_mixed_martial_arts",
+    "sport_title": "MMA",
+    "commence_time": "2024-07-13T23:00:00Z",
+    "home_team": "Viviane Araujo",
+    "away_team": "Jasmine Jasudavicius",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:43:16Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:16Z",
+            "outcomes": [
+              { "name": "Jasmine Jasudavicius", "price": -170 },
+              { "name": "Viviane Araujo", "price": 132 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "47559bf8fd185eff6d9054d70f1c809c",
+    "sport_key": "mma_mixed_martial_arts",
+    "sport_title": "MMA",
+    "commence_time": "2024-07-13T23:45:00Z",
+    "home_team": "Luana Santos",
+    "away_team": "Mariya Agapova",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:43:25Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:25Z",
+            "outcomes": [
+              { "name": "Luana Santos", "price": -278 },
+              { "name": "Mariya Agapova", "price": 225 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:44:23Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:23Z",
+            "outcomes": [
+              { "name": "Luana Santos", "price": -235 },
+              { "name": "Mariya Agapova", "price": 200 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T13:43:17Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:17Z",
+            "outcomes": [
+              { "name": "Luana Santos", "price": -235 },
+              { "name": "Mariya Agapova", "price": 200 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:43:16Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:16Z",
+            "outcomes": [
+              { "name": "Luana Santos", "price": -260 },
+              { "name": "Mariya Agapova", "price": 196 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:00Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:00Z",
+            "outcomes": [
+              { "name": "Luana Santos", "price": -278 },
+              { "name": "Mariya Agapova", "price": 215 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:44:22Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:22Z",
+            "outcomes": [
+              { "name": "Luana Santos", "price": -260 },
+              { "name": "Mariya Agapova", "price": 210 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-07-06T13:44:22Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:22Z",
+            "outcomes": [
+              { "name": "Luana Santos", "price": -260 },
+              { "name": "Mariya Agapova", "price": 210 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:21Z",
+            "outcomes": [
+              { "name": "Luana Santos", "price": -275 },
+              { "name": "Mariya Agapova", "price": 225 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2024-07-06T13:42:30Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:30Z",
+            "outcomes": [
+              { "name": "Luana Santos", "price": -280 },
+              { "name": "Mariya Agapova", "price": 230 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "f136ecc844bbb55a63505c3bf67574d1",
+    "sport_key": "mma_mixed_martial_arts",
+    "sport_title": "MMA",
+    "commence_time": "2024-07-14T02:00:00Z",
+    "home_team": "Gabriel Bonfim",
+    "away_team": "Ange Loosa",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:43:25Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:25Z",
+            "outcomes": [
+              { "name": "Ange Loosa", "price": 310 },
+              { "name": "Gabriel Bonfim", "price": -395 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:43:16Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:16Z",
+            "outcomes": [
+              { "name": "Ange Loosa", "price": 285 },
+              { "name": "Gabriel Bonfim", "price": -400 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:44:22Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:22Z",
+            "outcomes": [
+              { "name": "Ange Loosa", "price": 300 },
+              { "name": "Gabriel Bonfim", "price": -400 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:00Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:00Z",
+            "outcomes": [
+              { "name": "Ange Loosa", "price": 310 },
+              { "name": "Gabriel Bonfim", "price": -420 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T13:43:17Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:17Z",
+            "outcomes": [
+              { "name": "Ange Loosa", "price": 300 },
+              { "name": "Gabriel Bonfim", "price": -400 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:44:23Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:23Z",
+            "outcomes": [
+              { "name": "Ange Loosa", "price": 300 },
+              { "name": "Gabriel Bonfim", "price": -400 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-07-06T13:44:22Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:22Z",
+            "outcomes": [
+              { "name": "Ange Loosa", "price": 300 },
+              { "name": "Gabriel Bonfim", "price": -400 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2024-07-06T13:42:30Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:30Z",
+            "outcomes": [
+              { "name": "Ange Loosa", "price": 310 },
+              { "name": "Gabriel Bonfim", "price": -400 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:21Z",
+            "outcomes": [
+              { "name": "Ange Loosa", "price": 300 },
+              { "name": "Gabriel Bonfim", "price": -400 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "25b49af83f26d6bc9832078bd47d705b",
+    "sport_key": "mma_mixed_martial_arts",
+    "sport_title": "MMA",
+    "commence_time": "2024-07-14T02:15:00Z",
+    "home_team": "Abdul Razak Alhassan",
+    "away_team": "Cody Brundage",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:43:25Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:25Z",
+            "outcomes": [
+              { "name": "Abdul Razak Alhassan", "price": -155 },
+              { "name": "Cody Brundage", "price": 130 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:43:16Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:16Z",
+            "outcomes": [
+              { "name": "Abdul Razak Alhassan", "price": -164 },
+              { "name": "Cody Brundage", "price": 128 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:00Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:00Z",
+            "outcomes": [
+              { "name": "Abdul Razak Alhassan", "price": -157 },
+              { "name": "Cody Brundage", "price": 125 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:44:22Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:22Z",
+            "outcomes": [
+              { "name": "Abdul Razak Alhassan", "price": -170 },
+              { "name": "Cody Brundage", "price": 140 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T13:43:17Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:17Z",
+            "outcomes": [
+              { "name": "Abdul Razak Alhassan", "price": -151 },
+              { "name": "Cody Brundage", "price": 131 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:44:23Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:23Z",
+            "outcomes": [
+              { "name": "Abdul Razak Alhassan", "price": -151 },
+              { "name": "Cody Brundage", "price": 131 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-07-06T13:44:22Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:22Z",
+            "outcomes": [
+              { "name": "Abdul Razak Alhassan", "price": -150 },
+              { "name": "Cody Brundage", "price": 120 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:21Z",
+            "outcomes": [
+              { "name": "Abdul Razak Alhassan", "price": -150 },
+              { "name": "Cody Brundage", "price": 125 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2024-07-06T13:42:30Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:30Z",
+            "outcomes": [
+              { "name": "Abdul Razak Alhassan", "price": -160 },
+              { "name": "Cody Brundage", "price": 135 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c7ac5ae6b1d6f8ceb78c4628f9ba7b44",
+    "sport_key": "mma_mixed_martial_arts",
+    "sport_title": "MMA",
+    "commence_time": "2024-07-14T02:45:00Z",
+    "home_team": "Julian Erosa",
+    "away_team": "Christian Rodriguez",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:43:25Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:25Z",
+            "outcomes": [
+              { "name": "Christian Rodriguez", "price": -218 },
+              { "name": "Julian Erosa", "price": 180 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:44:23Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:23Z",
+            "outcomes": [
+              { "name": "Christian Rodriguez", "price": -210 },
+              { "name": "Julian Erosa", "price": 180 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T13:43:17Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:17Z",
+            "outcomes": [
+              { "name": "Christian Rodriguez", "price": -210 },
+              { "name": "Julian Erosa", "price": 180 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:43:16Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:16Z",
+            "outcomes": [
+              { "name": "Christian Rodriguez", "price": -250 },
+              { "name": "Julian Erosa", "price": 190 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:00Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:00Z",
+            "outcomes": [
+              { "name": "Christian Rodriguez", "price": -215 },
+              { "name": "Julian Erosa", "price": 170 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:44:22Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:22Z",
+            "outcomes": [
+              { "name": "Christian Rodriguez", "price": -240 },
+              { "name": "Julian Erosa", "price": 195 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-07-06T13:44:22Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:22Z",
+            "outcomes": [
+              { "name": "Christian Rodriguez", "price": -220 },
+              { "name": "Julian Erosa", "price": 180 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:21Z",
+            "outcomes": [
+              { "name": "Christian Rodriguez", "price": -210 },
+              { "name": "Julian Erosa", "price": 175 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2024-07-06T13:42:30Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:30Z",
+            "outcomes": [
+              { "name": "Christian Rodriguez", "price": -225 },
+              { "name": "Julian Erosa", "price": 185 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "eed81f1631794d208bc952fb68b85048",
+    "sport_key": "mma_mixed_martial_arts",
+    "sport_title": "MMA",
+    "commence_time": "2024-07-14T03:30:00Z",
+    "home_team": "Drew Dober",
+    "away_team": "Jean Silva",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:43:25Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:25Z",
+            "outcomes": [
+              { "name": "Drew Dober", "price": -120 },
+              { "name": "Jean Silva", "price": 100 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:44:23Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:23Z",
+            "outcomes": [
+              { "name": "Drew Dober", "price": -105 },
+              { "name": "Jean Silva", "price": -115 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T13:43:17Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:17Z",
+            "outcomes": [
+              { "name": "Drew Dober", "price": -105 },
+              { "name": "Jean Silva", "price": -115 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:21Z",
+            "outcomes": [
+              { "name": "Drew Dober", "price": -110 },
+              { "name": "Jean Silva", "price": -110 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:00Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:00Z",
+            "outcomes": [
+              { "name": "Drew Dober", "price": -114 },
+              { "name": "Jean Silva", "price": -109 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2024-07-06T13:42:30Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:30Z",
+            "outcomes": [
+              { "name": "Drew Dober", "price": -115 },
+              { "name": "Jean Silva", "price": -105 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "b51e8bd01f3a1d15eb2b9dbb54569eac",
+    "sport_key": "mma_mixed_martial_arts",
+    "sport_title": "MMA",
+    "commence_time": "2024-07-14T04:15:00Z",
+    "home_team": "Santiago Ponzinibbio",
+    "away_team": "Muslim Salikhov",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:43:25Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:25Z",
+            "outcomes": [
+              { "name": "Muslim Salikhov", "price": 170 },
+              { "name": "Santiago Ponzinibbio", "price": -205 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:44:23Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:23Z",
+            "outcomes": [
+              { "name": "Muslim Salikhov", "price": 170 },
+              { "name": "Santiago Ponzinibbio", "price": -200 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T13:43:17Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:17Z",
+            "outcomes": [
+              { "name": "Muslim Salikhov", "price": 170 },
+              { "name": "Santiago Ponzinibbio", "price": -200 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:44:22Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:22Z",
+            "outcomes": [
+              { "name": "Muslim Salikhov", "price": 170 },
+              { "name": "Santiago Ponzinibbio", "price": -210 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:43:16Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:16Z",
+            "outcomes": [
+              { "name": "Muslim Salikhov", "price": 164 },
+              { "name": "Santiago Ponzinibbio", "price": -215 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:00Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:00Z",
+            "outcomes": [
+              { "name": "Muslim Salikhov", "price": 165 },
+              { "name": "Santiago Ponzinibbio", "price": -210 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-07-06T13:44:22Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:22Z",
+            "outcomes": [
+              { "name": "Muslim Salikhov", "price": 170 },
+              { "name": "Santiago Ponzinibbio", "price": -210 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:21Z",
+            "outcomes": [
+              { "name": "Muslim Salikhov", "price": 165 },
+              { "name": "Santiago Ponzinibbio", "price": -200 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2024-07-06T13:42:30Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:30Z",
+            "outcomes": [
+              { "name": "Muslim Salikhov", "price": 170 },
+              { "name": "Santiago Ponzinibbio", "price": -205 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cdf9f184c24df0fe97e64c33fb3abba5",
+    "sport_key": "mma_mixed_martial_arts",
+    "sport_title": "MMA",
+    "commence_time": "2024-07-14T04:45:00Z",
+    "home_team": "Rose Namajunas",
+    "away_team": "Tracy Cortez",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:43:25Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:25Z",
+            "outcomes": [
+              { "name": "Rose Namajunas", "price": -225 },
+              { "name": "Tracy Cortez", "price": 185 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:44:23Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:23Z",
+            "outcomes": [
+              { "name": "Rose Namajunas", "price": -220 },
+              { "name": "Tracy Cortez", "price": 185 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T13:43:17Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:17Z",
+            "outcomes": [
+              { "name": "Rose Namajunas", "price": -220 },
+              { "name": "Tracy Cortez", "price": 185 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:00Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:00Z",
+            "outcomes": [
+              { "name": "Rose Namajunas", "price": -230 },
+              { "name": "Tracy Cortez", "price": 180 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:21Z",
+            "outcomes": [
+              { "name": "Rose Namajunas", "price": -225 },
+              { "name": "Tracy Cortez", "price": 180 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-07-06T13:44:22Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:22Z",
+            "outcomes": [
+              { "name": "Rose Namajunas", "price": -220 },
+              { "name": "Tracy Cortez", "price": 180 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:43:16Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:16Z",
+            "outcomes": [
+              { "name": "Rose Namajunas", "price": -245 },
+              { "name": "Tracy Cortez", "price": 186 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2024-07-06T13:42:30Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:30Z",
+            "outcomes": [
+              { "name": "Rose Namajunas", "price": -220 },
+              { "name": "Tracy Cortez", "price": 180 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:44:22Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:22Z",
+            "outcomes": [
+              { "name": "Rose Namajunas", "price": -220 },
+              { "name": "Tracy Cortez", "price": 180 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "0b876f4e5fc0468705bdd206e65e4797",
+    "sport_key": "mma_mixed_martial_arts",
+    "sport_title": "MMA",
+    "commence_time": "2024-07-20T17:00:00Z",
+    "home_team": "Miguel Trindade",
+    "away_team": "Abraham Vidales",
+    "bookmakers": []
+  },
+  {
+    "id": "6277d26d0b65a6686fadf5c28a746189",
+    "sport_key": "mma_mixed_martial_arts",
+    "sport_title": "MMA",
+    "commence_time": "2024-07-20T17:00:00Z",
+    "home_team": "Tyjani Beztati",
+    "away_team": "Endy Semeleer",
+    "bookmakers": []
+  },
+  {
+    "id": "c0a66ce9d401a769039249c9310629f4",
+    "sport_key": "mma_mixed_martial_arts",
+    "sport_title": "MMA",
+    "commence_time": "2024-07-20T17:00:00Z",
+    "home_team": "Petchpanomrung Kiatmoo9",
+    "away_team": "Kento Haraguchi",
+    "bookmakers": []
+  },
+  {
+    "id": "eb78cbec73d504925bbc419c7121ad69",
+    "sport_key": "mma_mixed_martial_arts",
+    "sport_title": "MMA",
+    "commence_time": "2024-07-20T17:00:00Z",
+    "home_team": "Tayfun \u00d6zcan",
+    "away_team": "Majid Amarouche",
+    "bookmakers": []
+  },
+  {
+    "id": "da00dc10ee71e93563610efff193149f",
+    "sport_key": "mma_mixed_martial_arts",
+    "sport_title": "MMA",
+    "commence_time": "2024-07-20T17:00:00Z",
+    "home_team": "Michael Boapeah",
+    "away_team": "Ulric Bokeme",
+    "bookmakers": []
+  },
+  {
+    "id": "c2c91e2a98e0d1b810a8efe1f75fa5b5",
+    "sport_key": "mma_mixed_martial_arts",
+    "sport_title": "MMA",
+    "commence_time": "2024-07-20T17:00:00Z",
+    "home_team": "Robin Ciric",
+    "away_team": "Nikola Todorovic",
+    "bookmakers": []
+  },
+  {
+    "id": "9f855d70c880f00a8af6d5c758e78c45",
+    "sport_key": "mma_mixed_martial_arts",
+    "sport_title": "MMA",
+    "commence_time": "2024-07-20T23:00:00Z",
+    "home_team": "Amanda Lemos",
+    "away_team": "Virna Jandiroba",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:43:25Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:25Z",
+            "outcomes": [
+              { "name": "Amanda Lemos", "price": 120 },
+              { "name": "Virna Jandiroba", "price": -142 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:44:23Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:23Z",
+            "outcomes": [
+              { "name": "Amanda Lemos", "price": 110 },
+              { "name": "Virna Jandiroba", "price": -130 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T13:43:17Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:17Z",
+            "outcomes": [
+              { "name": "Amanda Lemos", "price": 110 },
+              { "name": "Virna Jandiroba", "price": -130 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2024-07-06T13:42:30Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:30Z",
+            "outcomes": [
+              { "name": "Amanda Lemos", "price": 122 },
+              { "name": "Virna Jandiroba", "price": -145 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:00Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:00Z",
+            "outcomes": [
+              { "name": "Amanda Lemos", "price": 118 },
+              { "name": "Virna Jandiroba", "price": -148 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-07-06T13:44:22Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:22Z",
+            "outcomes": [
+              { "name": "Amanda Lemos", "price": 110 },
+              { "name": "Virna Jandiroba", "price": -140 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "837a18a5bd28c211dd3c8ff88078be50",
+    "sport_key": "mma_mixed_martial_arts",
+    "sport_title": "MMA",
+    "commence_time": "2024-07-20T23:00:00Z",
+    "home_team": "Dooho Choi",
+    "away_team": "Bill Algeo",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:43:25Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:25Z",
+            "outcomes": [
+              { "name": "Bill Algeo", "price": -162 },
+              { "name": "Dooho Choi", "price": 136 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:44:23Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:23Z",
+            "outcomes": [
+              { "name": "Bill Algeo", "price": -160 },
+              { "name": "Dooho Choi", "price": 140 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T13:43:17Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:17Z",
+            "outcomes": [
+              { "name": "Bill Algeo", "price": -160 },
+              { "name": "Dooho Choi", "price": 140 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:00Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:00Z",
+            "outcomes": [
+              { "name": "Bill Algeo", "price": -165 },
+              { "name": "Dooho Choi", "price": 132 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-07-06T13:44:22Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:22Z",
+            "outcomes": [
+              { "name": "Bill Algeo", "price": -162 },
+              { "name": "Dooho Choi", "price": 132 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2024-07-06T13:42:30Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:30Z",
+            "outcomes": [
+              { "name": "Bill Algeo", "price": -160 },
+              { "name": "Dooho Choi", "price": 135 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "6e918162d221005feaa5e7519bb60e67",
+    "sport_key": "mma_mixed_martial_arts",
+    "sport_title": "MMA",
+    "commence_time": "2024-07-20T23:00:00Z",
+    "home_team": "Brad Tavares",
+    "away_team": "Jun Yong Park",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:43:25Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:25Z",
+            "outcomes": [
+              { "name": "Brad Tavares", "price": 145 },
+              { "name": "Jun Yong Park", "price": -175 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:44:23Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:23Z",
+            "outcomes": [
+              { "name": "Brad Tavares", "price": 155 },
+              { "name": "Jun Yong Park", "price": -180 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T13:43:17Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:17Z",
+            "outcomes": [
+              { "name": "Brad Tavares", "price": 155 },
+              { "name": "Jun Yong Park", "price": -180 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:00Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:00Z",
+            "outcomes": [
+              { "name": "Brad Tavares", "price": 138 },
+              { "name": "Jun Yong Park", "price": -175 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-07-06T13:44:22Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:22Z",
+            "outcomes": [
+              { "name": "Brad Tavares", "price": 150 },
+              { "name": "Jun Yong Park", "price": -180 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2024-07-06T13:42:30Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:30Z",
+            "outcomes": [
+              { "name": "Brad Tavares", "price": 145 },
+              { "name": "Jun Yong Park", "price": -175 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "da2b653a8100fd84c9300b09de85209f",
+    "sport_key": "mma_mixed_martial_arts",
+    "sport_title": "MMA",
+    "commence_time": "2024-07-20T23:00:00Z",
+    "home_team": "Brian Kelleher",
+    "away_team": "Cody Gibson",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:43:25Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:25Z",
+            "outcomes": [
+              { "name": "Brian Kelleher", "price": 210 },
+              { "name": "Cody Gibson", "price": -258 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:44:23Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:23Z",
+            "outcomes": [
+              { "name": "Brian Kelleher", "price": 210 },
+              { "name": "Cody Gibson", "price": -250 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T13:43:17Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:17Z",
+            "outcomes": [
+              { "name": "Brian Kelleher", "price": 210 },
+              { "name": "Cody Gibson", "price": -250 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:00Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:00Z",
+            "outcomes": [
+              { "name": "Brian Kelleher", "price": 205 },
+              { "name": "Cody Gibson", "price": -265 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-07-06T13:44:22Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:22Z",
+            "outcomes": [
+              { "name": "Brian Kelleher", "price": 200 },
+              { "name": "Cody Gibson", "price": -250 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2024-07-06T13:42:30Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:30Z",
+            "outcomes": [
+              { "name": "Brian Kelleher", "price": 205 },
+              { "name": "Cody Gibson", "price": -250 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "6d4d17d041c5524c3f9d87bc15770413",
+    "sport_key": "mma_mixed_martial_arts",
+    "sport_title": "MMA",
+    "commence_time": "2024-07-20T23:00:00Z",
+    "home_team": "Cody Durden",
+    "away_team": "Bruno Silva",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:43:25Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:25Z",
+            "outcomes": [
+              { "name": "Bruno Silva", "price": 120 },
+              { "name": "Cody Durden", "price": -142 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:44:23Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:23Z",
+            "outcomes": [
+              { "name": "Bruno Silva", "price": 125 },
+              { "name": "Cody Durden", "price": -145 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T13:43:17Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:17Z",
+            "outcomes": [
+              { "name": "Bruno Silva", "price": 125 },
+              { "name": "Cody Durden", "price": -145 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:00Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:00Z",
+            "outcomes": [
+              { "name": "Bruno Silva", "price": 118 },
+              { "name": "Cody Durden", "price": -148 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-07-06T13:44:22Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:22Z",
+            "outcomes": [
+              { "name": "Bruno Silva", "price": 110 },
+              { "name": "Cody Durden", "price": -140 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2024-07-06T13:42:30Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:30Z",
+            "outcomes": [
+              { "name": "Bruno Silva", "price": 122 },
+              { "name": "Cody Durden", "price": -145 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "956b8c7d96668f4c73ca25ab679660bd",
+    "sport_key": "mma_mixed_martial_arts",
+    "sport_title": "MMA",
+    "commence_time": "2024-07-20T23:00:00Z",
+    "home_team": "Miranda Maverick",
+    "away_team": "Dione Barbosa",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:43:25Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:25Z",
+            "outcomes": [
+              { "name": "Dione Barbosa", "price": 150 },
+              { "name": "Miranda Maverick", "price": -180 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:44:23Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:23Z",
+            "outcomes": [
+              { "name": "Dione Barbosa", "price": 150 },
+              { "name": "Miranda Maverick", "price": -175 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T13:43:17Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:17Z",
+            "outcomes": [
+              { "name": "Dione Barbosa", "price": 150 },
+              { "name": "Miranda Maverick", "price": -175 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-07-06T13:44:22Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:22Z",
+            "outcomes": [
+              { "name": "Dione Barbosa", "price": 150 },
+              { "name": "Miranda Maverick", "price": -180 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2024-07-06T13:42:30Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:30Z",
+            "outcomes": [
+              { "name": "Dione Barbosa", "price": 155 },
+              { "name": "Miranda Maverick", "price": -185 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:00Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:00Z",
+            "outcomes": [
+              { "name": "Dione Barbosa", "price": 145 },
+              { "name": "Miranda Maverick", "price": -182 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2eb51eb68bf43513817ea2d05eaa67b8",
+    "sport_key": "mma_mixed_martial_arts",
+    "sport_title": "MMA",
+    "commence_time": "2024-07-20T23:00:00Z",
+    "home_team": "Hyder Amil",
+    "away_team": "Jeongyoung Lee",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:43:25Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:25Z",
+            "outcomes": [
+              { "name": "Hyder Amil", "price": 220 },
+              { "name": "Jeongyoung Lee", "price": -270 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:44:23Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:23Z",
+            "outcomes": [
+              { "name": "Hyder Amil", "price": 220 },
+              { "name": "Jeongyoung Lee", "price": -260 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T13:43:17Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:17Z",
+            "outcomes": [
+              { "name": "Hyder Amil", "price": 220 },
+              { "name": "Jeongyoung Lee", "price": -260 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:00Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:00Z",
+            "outcomes": [
+              { "name": "Hyder Amil", "price": 215 },
+              { "name": "Jeongyoung Lee", "price": -278 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-07-06T13:44:22Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:22Z",
+            "outcomes": [
+              { "name": "Hyder Amil", "price": 210 },
+              { "name": "Jeongyoung Lee", "price": -260 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2024-07-06T13:42:30Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:30Z",
+            "outcomes": [
+              { "name": "Hyder Amil", "price": 220 },
+              { "name": "Jeongyoung Lee", "price": -270 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "f8cd84212134b4443e1291b6f7aee771",
+    "sport_key": "mma_mixed_martial_arts",
+    "sport_title": "MMA",
+    "commence_time": "2024-07-20T23:00:00Z",
+    "home_team": "Kurt Holobaugh",
+    "away_team": "Kaynan Kruschewsky",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:43:25Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:25Z",
+            "outcomes": [
+              { "name": "Kaynan Kruschewsky", "price": -162 },
+              { "name": "Kurt Holobaugh", "price": 136 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:44:23Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:23Z",
+            "outcomes": [
+              { "name": "Kaynan Kruschewsky", "price": -155 },
+              { "name": "Kurt Holobaugh", "price": 135 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T13:43:17Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:17Z",
+            "outcomes": [
+              { "name": "Kaynan Kruschewsky", "price": -155 },
+              { "name": "Kurt Holobaugh", "price": 135 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:00Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:00Z",
+            "outcomes": [
+              { "name": "Kaynan Kruschewsky", "price": -165 },
+              { "name": "Kurt Holobaugh", "price": 132 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-07-06T13:44:22Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:22Z",
+            "outcomes": [
+              { "name": "Kaynan Kruschewsky", "price": -160 },
+              { "name": "Kurt Holobaugh", "price": 130 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2024-07-06T13:42:30Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:30Z",
+            "outcomes": [
+              { "name": "Kaynan Kruschewsky", "price": -160 },
+              { "name": "Kurt Holobaugh", "price": 135 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "06972e0722a3fc784ba059f45bdc817f",
+    "sport_key": "mma_mixed_martial_arts",
+    "sport_title": "MMA",
+    "commence_time": "2024-07-20T23:00:00Z",
+    "home_team": "Loik Radzhabov",
+    "away_team": "Trey Ogden",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:43:25Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:25Z",
+            "outcomes": [
+              { "name": "Loik Radzhabov", "price": -155 },
+              { "name": "Trey Ogden", "price": 130 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:44:23Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:23Z",
+            "outcomes": [
+              { "name": "Loik Radzhabov", "price": -145 },
+              { "name": "Trey Ogden", "price": 125 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T13:43:17Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:17Z",
+            "outcomes": [
+              { "name": "Loik Radzhabov", "price": -145 },
+              { "name": "Trey Ogden", "price": 125 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:00Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:00Z",
+            "outcomes": [
+              { "name": "Loik Radzhabov", "price": -155 },
+              { "name": "Trey Ogden", "price": 123 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-07-06T13:44:22Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:22Z",
+            "outcomes": [
+              { "name": "Loik Radzhabov", "price": -150 },
+              { "name": "Trey Ogden", "price": 120 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2024-07-06T13:42:30Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:30Z",
+            "outcomes": [
+              { "name": "Loik Radzhabov", "price": -155 },
+              { "name": "Trey Ogden", "price": 130 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ba7250bc68976600b9b0a4f9ec7666a5",
+    "sport_key": "mma_mixed_martial_arts",
+    "sport_title": "MMA",
+    "commence_time": "2024-07-20T23:00:00Z",
+    "home_team": "Luana Carolina",
+    "away_team": "Lucie Pudilova",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:43:25Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:25Z",
+            "outcomes": [
+              { "name": "Luana Carolina", "price": 110 },
+              { "name": "Lucie Pudilova", "price": -130 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:44:23Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:23Z",
+            "outcomes": [
+              { "name": "Luana Carolina", "price": 110 },
+              { "name": "Lucie Pudilova", "price": -130 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T13:43:17Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:17Z",
+            "outcomes": [
+              { "name": "Luana Carolina", "price": 110 },
+              { "name": "Lucie Pudilova", "price": -130 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:00Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:00Z",
+            "outcomes": [
+              { "name": "Luana Carolina", "price": 107 },
+              { "name": "Lucie Pudilova", "price": -132 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-07-06T13:44:22Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:22Z",
+            "outcomes": [
+              { "name": "Luana Carolina", "price": 100 },
+              { "name": "Lucie Pudilova", "price": -130 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2024-07-06T13:42:30Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:30Z",
+            "outcomes": [
+              { "name": "Luana Carolina", "price": 110 },
+              { "name": "Lucie Pudilova", "price": -130 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "05a8e8764703e08ae050905c9b8a05bd",
+    "sport_key": "mma_mixed_martial_arts",
+    "sport_title": "MMA",
+    "commence_time": "2024-07-20T23:00:00Z",
+    "home_team": "Mohammed Usman",
+    "away_team": "Thomas Petersen",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:43:25Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:25Z",
+            "outcomes": [
+              { "name": "Mohammed Usman", "price": -148 },
+              { "name": "Thomas Petersen", "price": 124 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:44:23Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:23Z",
+            "outcomes": [
+              { "name": "Mohammed Usman", "price": -149 },
+              { "name": "Thomas Petersen", "price": 129 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T13:43:17Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:17Z",
+            "outcomes": [
+              { "name": "Mohammed Usman", "price": -149 },
+              { "name": "Thomas Petersen", "price": 129 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-07-06T13:44:22Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:22Z",
+            "outcomes": [
+              { "name": "Mohammed Usman", "price": -145 },
+              { "name": "Thomas Petersen", "price": 115 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2024-07-06T13:42:30Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:30Z",
+            "outcomes": [
+              { "name": "Mohammed Usman", "price": -145 },
+              { "name": "Thomas Petersen", "price": 122 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:00Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:00Z",
+            "outcomes": [
+              { "name": "Mohammed Usman", "price": -150 },
+              { "name": "Thomas Petersen", "price": 120 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cfba9c357203e074750c40f345547d4e",
+    "sport_key": "mma_mixed_martial_arts",
+    "sport_title": "MMA",
+    "commence_time": "2024-07-20T23:00:00Z",
+    "home_team": "Steve Garcia Jr.",
+    "away_team": "Seung-Woo Choi",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:43:25Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:25Z",
+            "outcomes": [
+              { "name": "Seung-Woo Choi", "price": 120 },
+              { "name": "Steve Garcia Jr.", "price": -142 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:44:23Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:23Z",
+            "outcomes": [
+              { "name": "Seung-Woo Choi", "price": 120 },
+              { "name": "Steve Garcia Jr.", "price": -140 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T13:43:17Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:17Z",
+            "outcomes": [
+              { "name": "Seung-Woo Choi", "price": 120 },
+              { "name": "Steve Garcia Jr.", "price": -140 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:00Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:00Z",
+            "outcomes": [
+              { "name": "Seung-Woo Choi", "price": 118 },
+              { "name": "Steve Garcia Jr.", "price": -148 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2024-07-06T13:44:22Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:22Z",
+            "outcomes": [
+              { "name": "Seung-Woo Choi", "price": 112 },
+              { "name": "Steve Garcia Jr.", "price": -142 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2024-07-06T13:42:30Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:30Z",
+            "outcomes": [
+              { "name": "Seung-Woo Choi", "price": 122 },
+              { "name": "Steve Garcia Jr.", "price": -145 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "af179a5790560a233ac803d4b9a3381d",
+    "sport_key": "mma_mixed_martial_arts",
+    "sport_title": "MMA",
+    "commence_time": "2024-07-27T23:00:00Z",
+    "home_team": "Molly McCann",
+    "away_team": "Bruna Brasil",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:43:25Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:25Z",
+            "outcomes": [
+              { "name": "Bruna Brasil", "price": 210 },
+              { "name": "Molly McCann", "price": -258 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:44:23Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:23Z",
+            "outcomes": [
+              { "name": "Bruna Brasil", "price": 245 },
+              { "name": "Molly McCann", "price": -290 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T13:43:17Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:17Z",
+            "outcomes": [
+              { "name": "Bruna Brasil", "price": 245 },
+              { "name": "Molly McCann", "price": -290 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "82818843b3cb3a4a984c6d9bcb340e2d",
+    "sport_key": "mma_mixed_martial_arts",
+    "sport_title": "MMA",
+    "commence_time": "2024-07-27T23:00:00Z",
+    "home_team": "Caolan Loughran",
+    "away_team": "Ramon Taveras",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:43:25Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:25Z",
+            "outcomes": [
+              { "name": "Caolan Loughran", "price": -185 },
+              { "name": "Ramon Taveras", "price": 154 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:44:23Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:23Z",
+            "outcomes": [
+              { "name": "Caolan Loughran", "price": -180 },
+              { "name": "Ramon Taveras", "price": 155 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T13:43:17Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:17Z",
+            "outcomes": [
+              { "name": "Caolan Loughran", "price": -180 },
+              { "name": "Ramon Taveras", "price": 155 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c9d3b75de83e1c62bea49cac1f05d5f2",
+    "sport_key": "mma_mixed_martial_arts",
+    "sport_title": "MMA",
+    "commence_time": "2024-07-27T23:00:00Z",
+    "home_team": "Chris Duncan",
+    "away_team": "Gregory Rodrigues",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:43:25Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:25Z",
+            "outcomes": [
+              { "name": "Chris Duncan", "price": -115 },
+              { "name": "Gregory Rodrigues", "price": -105 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:44:23Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:23Z",
+            "outcomes": [
+              { "name": "Chris Duncan", "price": -130 },
+              { "name": "Gregory Rodrigues", "price": 110 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T13:43:17Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:17Z",
+            "outcomes": [
+              { "name": "Chris Duncan", "price": -130 },
+              { "name": "Gregory Rodrigues", "price": 110 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1659f9ebd099dfb2d2c1839a3f30f019",
+    "sport_key": "mma_mixed_martial_arts",
+    "sport_title": "MMA",
+    "commence_time": "2024-07-27T23:00:00Z",
+    "home_team": "Nathaniel Wood",
+    "away_team": "Daniel Pineda",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:43:25Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:25Z",
+            "outcomes": [
+              { "name": "Daniel Pineda", "price": 310 },
+              { "name": "Nathaniel Wood", "price": -395 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:44:23Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:23Z",
+            "outcomes": [
+              { "name": "Daniel Pineda", "price": 350 },
+              { "name": "Nathaniel Wood", "price": -450 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T13:43:17Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:17Z",
+            "outcomes": [
+              { "name": "Daniel Pineda", "price": 350 },
+              { "name": "Nathaniel Wood", "price": -450 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "b812be0fb592ffc16602d9147dd6a8df",
+    "sport_key": "mma_mixed_martial_arts",
+    "sport_title": "MMA",
+    "commence_time": "2024-07-27T23:00:00Z",
+    "home_team": "Sam Patterson",
+    "away_team": "Kiefer Crosbie",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:43:25Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:25Z",
+            "outcomes": [
+              { "name": "Kiefer Crosbie", "price": 245 },
+              { "name": "Sam Patterson", "price": -305 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:44:23Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:23Z",
+            "outcomes": [
+              { "name": "Kiefer Crosbie", "price": 245 },
+              { "name": "Sam Patterson", "price": -290 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T13:43:17Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:17Z",
+            "outcomes": [
+              { "name": "Kiefer Crosbie", "price": 245 },
+              { "name": "Sam Patterson", "price": -290 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "dcf16b137d3e106a7a35fd40856a4536",
+    "sport_key": "mma_mixed_martial_arts",
+    "sport_title": "MMA",
+    "commence_time": "2024-07-27T23:00:00Z",
+    "home_team": "Michael Parkin",
+    "away_team": "Lukasz Brzeski",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:43:25Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:25Z",
+            "outcomes": [
+              { "name": "Lukasz Brzeski", "price": 170 },
+              { "name": "Michael Parkin", "price": -205 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:44:23Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:23Z",
+            "outcomes": [
+              { "name": "Lukasz Brzeski", "price": 170 },
+              { "name": "Michael Parkin", "price": -200 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T13:43:17Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:17Z",
+            "outcomes": [
+              { "name": "Lukasz Brzeski", "price": 170 },
+              { "name": "Michael Parkin", "price": -200 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "60f49d1a8430755b6ce5e886721419bf",
+    "sport_key": "mma_mixed_martial_arts",
+    "sport_title": "MMA",
+    "commence_time": "2024-07-27T23:00:00Z",
+    "home_team": "Modestas Bukauskas",
+    "away_team": "Marcin Prachnio",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:43:25Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:25Z",
+            "outcomes": [
+              { "name": "Marcin Prachnio", "price": 124 },
+              { "name": "Modestas Bukauskas", "price": -148 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:44:23Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:23Z",
+            "outcomes": [
+              { "name": "Marcin Prachnio", "price": 125 },
+              { "name": "Modestas Bukauskas", "price": -145 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T13:43:17Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:17Z",
+            "outcomes": [
+              { "name": "Marcin Prachnio", "price": 125 },
+              { "name": "Modestas Bukauskas", "price": -145 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "821d2d4bdc341048a47e9b42d26a24f0",
+    "sport_key": "mma_mixed_martial_arts",
+    "sport_title": "MMA",
+    "commence_time": "2024-07-27T23:00:00Z",
+    "home_team": "Oban Elliott",
+    "away_team": "Preston Parsons",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:43:25Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:25Z",
+            "outcomes": [
+              { "name": "Oban Elliott", "price": 124 },
+              { "name": "Preston Parsons", "price": -148 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:44:23Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:23Z",
+            "outcomes": [
+              { "name": "Oban Elliott", "price": 145 },
+              { "name": "Preston Parsons", "price": -170 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T13:43:17Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:17Z",
+            "outcomes": [
+              { "name": "Oban Elliott", "price": 145 },
+              { "name": "Preston Parsons", "price": -170 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "30fd63dcfb3559ecfe8c4ebba85a248a",
+    "sport_key": "mma_mixed_martial_arts",
+    "sport_title": "MMA",
+    "commence_time": "2024-07-27T23:00:00Z",
+    "home_team": "Shauna Bannon",
+    "away_team": "Ravena Oliveira",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:43:25Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:25Z",
+            "outcomes": [
+              { "name": "Ravena Oliveira", "price": -142 },
+              { "name": "Shauna Bannon", "price": 120 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:44:23Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:23Z",
+            "outcomes": [
+              { "name": "Ravena Oliveira", "price": -145 },
+              { "name": "Shauna Bannon", "price": 125 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T13:43:17Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:17Z",
+            "outcomes": [
+              { "name": "Ravena Oliveira", "price": -145 },
+              { "name": "Shauna Bannon", "price": 125 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "7a8b777f805b636e628025df521e069d",
+    "sport_key": "mma_mixed_martial_arts",
+    "sport_title": "MMA",
+    "commence_time": "2024-07-28T02:00:00Z",
+    "home_team": "Arnold Allen",
+    "away_team": "Giga Chikadze",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:43:25Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:25Z",
+            "outcomes": [
+              { "name": "Arnold Allen", "price": -258 },
+              { "name": "Giga Chikadze", "price": 210 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T13:43:17Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:17Z",
+            "outcomes": [
+              { "name": "Arnold Allen", "price": -255 },
+              { "name": "Giga Chikadze", "price": 215 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:44:23Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:23Z",
+            "outcomes": [
+              { "name": "Arnold Allen", "price": -255 },
+              { "name": "Giga Chikadze", "price": 215 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2024-07-06T13:42:30Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:30Z",
+            "outcomes": [
+              { "name": "Arnold Allen", "price": -265 },
+              { "name": "Giga Chikadze", "price": 215 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:00Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:00Z",
+            "outcomes": [
+              { "name": "Arnold Allen", "price": -250 },
+              { "name": "Giga Chikadze", "price": 180 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:43:16Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:16Z",
+            "outcomes": [
+              { "name": "Arnold Allen", "price": -235 },
+              { "name": "Giga Chikadze", "price": 180 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:44:22Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:22Z",
+            "outcomes": [
+              { "name": "Arnold Allen", "price": -260 },
+              { "name": "Giga Chikadze", "price": 210 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2549f68ca0d6627a0928732cbb15be39",
+    "sport_key": "mma_mixed_martial_arts",
+    "sport_title": "MMA",
+    "commence_time": "2024-07-28T02:00:00Z",
+    "home_team": "Bobby Green",
+    "away_team": "Paddy Pimblett",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:43:25Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:25Z",
+            "outcomes": [
+              { "name": "Bobby Green", "price": -155 },
+              { "name": "Paddy Pimblett", "price": 130 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T13:43:17Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:17Z",
+            "outcomes": [
+              { "name": "Bobby Green", "price": -150 },
+              { "name": "Paddy Pimblett", "price": 130 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:44:23Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:23Z",
+            "outcomes": [
+              { "name": "Bobby Green", "price": -150 },
+              { "name": "Paddy Pimblett", "price": 130 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2024-07-06T13:42:30Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:30Z",
+            "outcomes": [
+              { "name": "Bobby Green", "price": -155 },
+              { "name": "Paddy Pimblett", "price": 130 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:00Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:00Z",
+            "outcomes": [
+              { "name": "Bobby Green", "price": -167 },
+              { "name": "Paddy Pimblett", "price": 125 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:43:16Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:16Z",
+            "outcomes": [
+              { "name": "Bobby Green", "price": -186 },
+              { "name": "Paddy Pimblett", "price": 144 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:44:22Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:22Z",
+            "outcomes": [
+              { "name": "Bobby Green", "price": -155 },
+              { "name": "Paddy Pimblett", "price": 130 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:21Z",
+            "outcomes": [
+              { "name": "Bobby Green", "price": -165 },
+              { "name": "Paddy Pimblett", "price": 135 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "3a8bb30e01ce0b0fe3a20661d88039ca",
+    "sport_key": "mma_mixed_martial_arts",
+    "sport_title": "MMA",
+    "commence_time": "2024-07-28T02:00:00Z",
+    "home_team": "Muhammad Mokaev",
+    "away_team": "Manel Kape",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:43:25Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:25Z",
+            "outcomes": [
+              { "name": "Manel Kape", "price": -108 },
+              { "name": "Muhammad Mokaev", "price": -112 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T13:43:17Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:17Z",
+            "outcomes": [
+              { "name": "Manel Kape", "price": -110 },
+              { "name": "Muhammad Mokaev", "price": -110 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:44:23Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:23Z",
+            "outcomes": [
+              { "name": "Manel Kape", "price": -110 },
+              { "name": "Muhammad Mokaev", "price": -110 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2024-07-06T13:42:30Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:30Z",
+            "outcomes": [
+              { "name": "Manel Kape", "price": 100 },
+              { "name": "Muhammad Mokaev", "price": -120 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:00Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:00Z",
+            "outcomes": [
+              { "name": "Manel Kape", "price": -104 },
+              { "name": "Muhammad Mokaev", "price": -129 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:43:16Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:16Z",
+            "outcomes": [
+              { "name": "Manel Kape", "price": -102 },
+              { "name": "Muhammad Mokaev", "price": -125 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:44:22Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:22Z",
+            "outcomes": [
+              { "name": "Manel Kape", "price": 105 },
+              { "name": "Muhammad Mokaev", "price": -125 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "5fda9ae7cee03e1da4e335380d66ccc1",
+    "sport_key": "mma_mixed_martial_arts",
+    "sport_title": "MMA",
+    "commence_time": "2024-07-28T02:30:00Z",
+    "home_team": "Tom Aspinall",
+    "away_team": "Curtis Blaydes",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:43:25Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:25Z",
+            "outcomes": [
+              { "name": "Curtis Blaydes", "price": 215 },
+              { "name": "Tom Aspinall", "price": -265 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T13:43:17Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:17Z",
+            "outcomes": [
+              { "name": "Curtis Blaydes", "price": 210 },
+              { "name": "Tom Aspinall", "price": -250 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:44:23Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:23Z",
+            "outcomes": [
+              { "name": "Curtis Blaydes", "price": 210 },
+              { "name": "Tom Aspinall", "price": -250 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2024-07-06T13:42:30Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:30Z",
+            "outcomes": [
+              { "name": "Curtis Blaydes", "price": 215 },
+              { "name": "Tom Aspinall", "price": -265 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:00Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:00Z",
+            "outcomes": [
+              { "name": "Curtis Blaydes", "price": 215 },
+              { "name": "Tom Aspinall", "price": -278 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:43:16Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:16Z",
+            "outcomes": [
+              { "name": "Curtis Blaydes", "price": 196 },
+              { "name": "Tom Aspinall", "price": -260 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:21Z",
+            "outcomes": [
+              { "name": "Curtis Blaydes", "price": 220 },
+              { "name": "Tom Aspinall", "price": -275 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:44:22Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:22Z",
+            "outcomes": [
+              { "name": "Curtis Blaydes", "price": 220 },
+              { "name": "Tom Aspinall", "price": -275 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "9e90a43da324bbfad6fe9e488f808008",
+    "sport_key": "mma_mixed_martial_arts",
+    "sport_title": "MMA",
+    "commence_time": "2024-07-28T03:00:00Z",
+    "home_team": "Leon Edwards",
+    "away_team": "Belal Muhammad",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:43:25Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:25Z",
+            "outcomes": [
+              { "name": "Belal Muhammad", "price": 170 },
+              { "name": "Leon Edwards", "price": -205 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T13:43:17Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:17Z",
+            "outcomes": [
+              { "name": "Belal Muhammad", "price": 166 },
+              { "name": "Leon Edwards", "price": -191 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:44:23Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:23Z",
+            "outcomes": [
+              { "name": "Belal Muhammad", "price": 166 },
+              { "name": "Leon Edwards", "price": -191 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2024-07-06T13:42:30Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:30Z",
+            "outcomes": [
+              { "name": "Belal Muhammad", "price": 170 },
+              { "name": "Leon Edwards", "price": -205 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:00Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:00Z",
+            "outcomes": [
+              { "name": "Belal Muhammad", "price": 163 },
+              { "name": "Leon Edwards", "price": -205 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:43:16Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:16Z",
+            "outcomes": [
+              { "name": "Belal Muhammad", "price": 162 },
+              { "name": "Leon Edwards", "price": -210 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2024-07-06T13:44:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:21Z",
+            "outcomes": [
+              { "name": "Belal Muhammad", "price": 165 },
+              { "name": "Leon Edwards", "price": -200 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:44:22Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:22Z",
+            "outcomes": [
+              { "name": "Belal Muhammad", "price": 165 },
+              { "name": "Leon Edwards", "price": -200 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c3f7f127f65fe1f9485465640aecfaa9",
+    "sport_key": "mma_mixed_martial_arts",
+    "sport_title": "MMA",
+    "commence_time": "2024-08-03T19:15:00Z",
+    "home_team": "Michael Chiesa",
+    "away_team": "Tony Ferguson",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:43:25Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:25Z",
+            "outcomes": [
+              { "name": "Michael Chiesa", "price": -395 },
+              { "name": "Tony Ferguson", "price": 310 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T13:43:17Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:17Z",
+            "outcomes": [
+              { "name": "Michael Chiesa", "price": -400 },
+              { "name": "Tony Ferguson", "price": 300 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:44:23Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:23Z",
+            "outcomes": [
+              { "name": "Michael Chiesa", "price": -400 },
+              { "name": "Tony Ferguson", "price": 300 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:44:22Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:22Z",
+            "outcomes": [
+              { "name": "Michael Chiesa", "price": -400 },
+              { "name": "Tony Ferguson", "price": 300 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:43:16Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:16Z",
+            "outcomes": [
+              { "name": "Michael Chiesa", "price": -440 },
+              { "name": "Tony Ferguson", "price": 310 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:00Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:00Z",
+            "outcomes": [
+              { "name": "Michael Chiesa", "price": -480 },
+              { "name": "Tony Ferguson", "price": 350 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2024-07-06T13:42:30Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:30Z",
+            "outcomes": [
+              { "name": "Michael Chiesa", "price": -420 },
+              { "name": "Tony Ferguson", "price": 320 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "4e4935f42d33f976acbffb7102216525",
+    "sport_key": "mma_mixed_martial_arts",
+    "sport_title": "MMA",
+    "commence_time": "2024-08-03T19:45:00Z",
+    "home_team": "Mackenzie Dern",
+    "away_team": "Lupita Godinez",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:43:25Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:25Z",
+            "outcomes": [
+              { "name": "Lupita Godinez", "price": -110 },
+              { "name": "Mackenzie Dern", "price": -110 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T13:43:17Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:17Z",
+            "outcomes": [
+              { "name": "Lupita Godinez", "price": -110 },
+              { "name": "Mackenzie Dern", "price": -110 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:44:23Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:23Z",
+            "outcomes": [
+              { "name": "Lupita Godinez", "price": -110 },
+              { "name": "Mackenzie Dern", "price": -110 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:43:16Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:16Z",
+            "outcomes": [
+              { "name": "Lupita Godinez", "price": -120 },
+              { "name": "Mackenzie Dern", "price": -106 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:00Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:00Z",
+            "outcomes": [
+              { "name": "Lupita Godinez", "price": -117 },
+              { "name": "Mackenzie Dern", "price": -107 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2024-07-06T13:42:30Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:30Z",
+            "outcomes": [
+              { "name": "Lupita Godinez", "price": -125 },
+              { "name": "Mackenzie Dern", "price": 105 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "9476fa636555702c05a5310b6f882ca8",
+    "sport_key": "mma_mixed_martial_arts",
+    "sport_title": "MMA",
+    "commence_time": "2024-08-03T20:15:00Z",
+    "home_team": "Marlon Vera",
+    "away_team": "Deiveson Figueiredo",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:43:25Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:25Z",
+            "outcomes": [
+              { "name": "Deiveson Figueiredo", "price": -155 },
+              { "name": "Marlon Vera", "price": 130 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:44:22Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:22Z",
+            "outcomes": [
+              { "name": "Deiveson Figueiredo", "price": -160 },
+              { "name": "Marlon Vera", "price": 130 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:43:16Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:16Z",
+            "outcomes": [
+              { "name": "Deiveson Figueiredo", "price": -160 },
+              { "name": "Marlon Vera", "price": 124 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:00Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:00Z",
+            "outcomes": [
+              { "name": "Deiveson Figueiredo", "price": -155 },
+              { "name": "Marlon Vera", "price": 123 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2024-07-06T13:42:30Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:30Z",
+            "outcomes": [
+              { "name": "Deiveson Figueiredo", "price": -155 },
+              { "name": "Marlon Vera", "price": 130 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "d027b6c003449b4ab76123c58578c432",
+    "sport_key": "mma_mixed_martial_arts",
+    "sport_title": "MMA",
+    "commence_time": "2024-08-03T20:45:00Z",
+    "home_team": "Vicente Luque",
+    "away_team": "Nick Diaz",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:43:25Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:25Z",
+            "outcomes": [
+              { "name": "Nick Diaz", "price": 340 },
+              { "name": "Vicente Luque", "price": -440 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T13:43:17Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:17Z",
+            "outcomes": [
+              { "name": "Nick Diaz", "price": 335 },
+              { "name": "Vicente Luque", "price": -435 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:44:23Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:23Z",
+            "outcomes": [
+              { "name": "Nick Diaz", "price": 335 },
+              { "name": "Vicente Luque", "price": -435 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:44:22Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:22Z",
+            "outcomes": [
+              { "name": "Nick Diaz", "price": 350 },
+              { "name": "Vicente Luque", "price": -450 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:43:16Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:16Z",
+            "outcomes": [
+              { "name": "Nick Diaz", "price": 350 },
+              { "name": "Vicente Luque", "price": -520 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:00Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:00Z",
+            "outcomes": [
+              { "name": "Nick Diaz", "price": 390 },
+              { "name": "Vicente Luque", "price": -530 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2024-07-06T13:42:30Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:30Z",
+            "outcomes": [
+              { "name": "Nick Diaz", "price": 380 },
+              { "name": "Vicente Luque", "price": -500 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "70939bf669ad7c0ee18e2860bb73d81f",
+    "sport_key": "mma_mixed_martial_arts",
+    "sport_title": "MMA",
+    "commence_time": "2024-08-03T21:15:00Z",
+    "home_team": "Cory Sandhagen",
+    "away_team": "Umar Nurmagomedov",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:43:25Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:25Z",
+            "outcomes": [
+              { "name": "Cory Sandhagen", "price": 190 },
+              { "name": "Umar Nurmagomedov", "price": -230 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T13:43:17Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:17Z",
+            "outcomes": [
+              { "name": "Cory Sandhagen", "price": 190 },
+              { "name": "Umar Nurmagomedov", "price": -225 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:44:23Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:23Z",
+            "outcomes": [
+              { "name": "Cory Sandhagen", "price": 190 },
+              { "name": "Umar Nurmagomedov", "price": -225 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:43:16Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:16Z",
+            "outcomes": [
+              { "name": "Cory Sandhagen", "price": 196 },
+              { "name": "Umar Nurmagomedov", "price": -260 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:00Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:00Z",
+            "outcomes": [
+              { "name": "Cory Sandhagen", "price": 215 },
+              { "name": "Umar Nurmagomedov", "price": -278 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2024-07-06T13:42:30Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:30Z",
+            "outcomes": [
+              { "name": "Cory Sandhagen", "price": 205 },
+              { "name": "Umar Nurmagomedov", "price": -250 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "7e7aaf79c48bb8e157b3a1d2dbe05f83",
+    "sport_key": "mma_mixed_martial_arts",
+    "sport_title": "MMA",
+    "commence_time": "2024-08-18T04:00:00Z",
+    "home_team": "Dricus Du Plessis",
+    "away_team": "Israel Adesanya",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2024-07-06T13:43:16Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:16Z",
+            "outcomes": [
+              { "name": "Dricus Du Plessis", "price": 114 },
+              { "name": "Israel Adesanya", "price": -146 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:43:25Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:25Z",
+            "outcomes": [
+              { "name": "Dricus Du Plessis", "price": 114 },
+              { "name": "Israel Adesanya", "price": -135 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:44:23Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:23Z",
+            "outcomes": [
+              { "name": "Dricus Du Plessis", "price": 108 },
+              { "name": "Israel Adesanya", "price": -128 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2024-07-06T13:43:17Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:17Z",
+            "outcomes": [
+              { "name": "Dricus Du Plessis", "price": 108 },
+              { "name": "Israel Adesanya", "price": -128 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2024-07-06T13:44:00Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:00Z",
+            "outcomes": [
+              { "name": "Dricus Du Plessis", "price": 114 },
+              { "name": "Israel Adesanya", "price": -141 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill_us",
+        "title": "Caesars",
+        "last_update": "2024-07-06T13:42:30Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:42:30Z",
+            "outcomes": [
+              { "name": "Dricus Du Plessis", "price": 115 },
+              { "name": "Israel Adesanya", "price": -135 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "a813e3347bd79447c859b1b597231de8",
+    "sport_key": "mma_mixed_martial_arts",
+    "sport_title": "MMA",
+    "commence_time": "2024-09-08T02:00:00Z",
+    "home_team": "Gilbert Burns",
+    "away_team": "Sean Brady",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:43:25Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:25Z",
+            "outcomes": [
+              { "name": "Gilbert Burns", "price": 130 },
+              { "name": "Sean Brady", "price": -155 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "53b81a5fc7fb69a14ffce098d7e36986",
+    "sport_key": "mma_mixed_martial_arts",
+    "sport_title": "MMA",
+    "commence_time": "2024-09-15T02:00:00Z",
+    "home_team": "Michel Pereira",
+    "away_team": "Anthony Hernandez",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2024-07-06T13:43:25Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:43:25Z",
+            "outcomes": [
+              { "name": "Anthony Hernandez", "price": -162 },
+              { "name": "Michel Pereira", "price": 136 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "215e05c26301ea16539209ff0959eb08",
+    "sport_key": "mma_mixed_martial_arts",
+    "sport_title": "MMA",
+    "commence_time": "2024-12-31T22:59:00Z",
+    "home_team": "Alex Pereira",
+    "away_team": "Israel Adesanya",
+    "bookmakers": [
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:44:23Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:23Z",
+            "outcomes": [
+              { "name": "Alex Pereira", "price": 155 },
+              { "name": "Israel Adesanya", "price": -185 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "9cd38bf6370ee077bcfe35797761e0b8",
+    "sport_key": "mma_mixed_martial_arts",
+    "sport_title": "MMA",
+    "commence_time": "2024-12-31T22:59:00Z",
+    "home_team": "Jon Jones",
+    "away_team": "Alex Pereira",
+    "bookmakers": [
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:44:23Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:23Z",
+            "outcomes": [
+              { "name": "Alex Pereira", "price": 450 },
+              { "name": "Jon Jones", "price": -599 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ff9d7b2278b4b993c59b729a76e489de",
+    "sport_key": "mma_mixed_martial_arts",
+    "sport_title": "MMA",
+    "commence_time": "2024-12-31T22:59:00Z",
+    "home_team": "Alex Volkanovski",
+    "away_team": "Sean O'Malley",
+    "bookmakers": []
+  },
+  {
+    "id": "399bb612529db75efd8cad43dc37d395",
+    "sport_key": "mma_mixed_martial_arts",
+    "sport_title": "MMA",
+    "commence_time": "2024-12-31T22:59:00Z",
+    "home_team": "Alexa Grasso",
+    "away_team": "Erin Blanchfield",
+    "bookmakers": []
+  },
+  {
+    "id": "3d0b1d497ae0f738c0b7c89cf42c9d83",
+    "sport_key": "mma_mixed_martial_arts",
+    "sport_title": "MMA",
+    "commence_time": "2024-12-31T22:59:00Z",
+    "home_team": "Alexa Grasso",
+    "away_team": "Valentina Shevchenko",
+    "bookmakers": []
+  },
+  {
+    "id": "fde4348cad63b50b7833c5fbc4c7700a",
+    "sport_key": "mma_mixed_martial_arts",
+    "sport_title": "MMA",
+    "commence_time": "2024-12-31T22:59:00Z",
+    "home_team": "Alexa Grasso",
+    "away_team": "Weili Zhang",
+    "bookmakers": []
+  },
+  {
+    "id": "1e0eb12f7e7c898005f0fbabfe11e155",
+    "sport_key": "mma_mixed_martial_arts",
+    "sport_title": "MMA",
+    "commence_time": "2024-12-31T22:59:00Z",
+    "home_team": "Islam Makhachev",
+    "away_team": "Arman Tsarukyan",
+    "bookmakers": []
+  },
+  {
+    "id": "e272c62e732b0558e2a97b9cb47b65ef",
+    "sport_key": "mma_mixed_martial_arts",
+    "sport_title": "MMA",
+    "commence_time": "2024-12-31T22:59:00Z",
+    "home_team": "Islam Makhachev",
+    "away_team": "Charles Oliveira",
+    "bookmakers": []
+  },
+  {
+    "id": "aa8cff57036327aac691d1ed753a0f2c",
+    "sport_key": "mma_mixed_martial_arts",
+    "sport_title": "MMA",
+    "commence_time": "2024-12-31T22:59:00Z",
+    "home_team": "Conor McGregor",
+    "away_team": "Michael Chandler",
+    "bookmakers": []
+  },
+  {
+    "id": "4d61364d13a8b55036b6e7026c5b0eaf",
+    "sport_key": "mma_mixed_martial_arts",
+    "sport_title": "MMA",
+    "commence_time": "2024-12-31T22:59:00Z",
+    "home_team": "Cris Cyborg",
+    "away_team": "Kayla Harrison",
+    "bookmakers": []
+  },
+  {
+    "id": "4c777448480666d50237dbb64dca58c1",
+    "sport_key": "mma_mixed_martial_arts",
+    "sport_title": "MMA",
+    "commence_time": "2024-12-31T22:59:00Z",
+    "home_team": "Ilia Topuria",
+    "away_team": "Max Holloway",
+    "bookmakers": [
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2024-07-06T13:44:22Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:22Z",
+            "outcomes": [
+              { "name": "Ilia Topuria", "price": -165 },
+              { "name": "Max Holloway", "price": 135 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "6343615e9e0654c382c7e37c781cc2d9",
+    "sport_key": "mma_mixed_martial_arts",
+    "sport_title": "MMA",
+    "commence_time": "2024-12-31T22:59:00Z",
+    "home_team": "Islam Makhachev",
+    "away_team": "Justin Gaethje",
+    "bookmakers": []
+  },
+  {
+    "id": "236fc51a7cf776f05415c3e75128a2a8",
+    "sport_key": "mma_mixed_martial_arts",
+    "sport_title": "MMA",
+    "commence_time": "2024-12-31T22:59:00Z",
+    "home_team": "Sean Strickland",
+    "away_team": "Israel Adesanya",
+    "bookmakers": []
+  },
+  {
+    "id": "8c3ef62bd8cc87e5743d04f213fa39a8",
+    "sport_key": "mma_mixed_martial_arts",
+    "sport_title": "MMA",
+    "commence_time": "2024-12-31T22:59:00Z",
+    "home_team": "Jon Jones",
+    "away_team": "Stipe Miocic",
+    "bookmakers": []
+  },
+  {
+    "id": "a5a23abc454121e45c9d05e69bd124c5",
+    "sport_key": "mma_mixed_martial_arts",
+    "sport_title": "MMA",
+    "commence_time": "2024-12-31T22:59:00Z",
+    "home_team": "Jon Jones",
+    "away_team": "Tom Aspinall",
+    "bookmakers": []
+  },
+  {
+    "id": "ee7264fe85417fe21e4d719ab758266b",
+    "sport_key": "mma_mixed_martial_arts",
+    "sport_title": "MMA",
+    "commence_time": "2024-12-31T22:59:00Z",
+    "home_team": "Leon Edwards",
+    "away_team": "Khamzat Chimaev",
+    "bookmakers": [
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:44:23Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:23Z",
+            "outcomes": [
+              { "name": "Khamzat Chimaev", "price": -200 },
+              { "name": "Leon Edwards", "price": 170 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "dda5e42061651067dc4b1e3881656284",
+    "sport_key": "mma_mixed_martial_arts",
+    "sport_title": "MMA",
+    "commence_time": "2024-12-31T22:59:00Z",
+    "home_team": "Sean Strickland",
+    "away_team": "Khamzat Chimaev",
+    "bookmakers": [
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:44:23Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:23Z",
+            "outcomes": [
+              { "name": "Khamzat Chimaev", "price": -230 },
+              { "name": "Sean Strickland", "price": 195 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1f0f3cc667d5358477587713243aa40e",
+    "sport_key": "mma_mixed_martial_arts",
+    "sport_title": "MMA",
+    "commence_time": "2024-12-31T22:59:00Z",
+    "home_team": "Leon Edwards",
+    "away_team": "Shavkat Rakhmonov",
+    "bookmakers": [
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:44:23Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:23Z",
+            "outcomes": [
+              { "name": "Leon Edwards", "price": 180 },
+              { "name": "Shavkat Rakhmonov", "price": -210 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "d23a25adc9c531e06320723331c74797",
+    "sport_key": "mma_mixed_martial_arts",
+    "sport_title": "MMA",
+    "commence_time": "2024-12-31T22:59:00Z",
+    "home_team": "Sean O'Malley",
+    "away_team": "Merab Dvalishvili",
+    "bookmakers": [
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2024-07-06T13:44:23Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-07-06T13:44:23Z",
+            "outcomes": [
+              { "name": "Merab Dvalishvili", "price": -225 },
+              { "name": "Sean O'Malley", "price": 190 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "517cfd1144352d6b8afd631b8071f1fd",
+    "sport_key": "mma_mixed_martial_arts",
+    "sport_title": "MMA",
+    "commence_time": "2024-12-31T22:59:00Z",
+    "home_team": "Weili Zhang",
+    "away_team": "Tatiana Suarez",
+    "bookmakers": []
+  }
+]
