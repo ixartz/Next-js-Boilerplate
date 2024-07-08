@@ -2,6 +2,7 @@ import { AppConfig } from '@/utils/AppConfig';
 import { Fragment } from 'react';
 import { Disclosure, Menu, Transition } from '@headlessui/react';
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline';
+import { BR } from 'country-flag-icons/react/3x2';
 
 const user = {
   name: 'Tom Cook',
@@ -83,6 +84,7 @@ export default function NavMain() {
                   </button> */}
                 </div>
                 <div className="hidden md:ml-4 md:flex md:flex-shrink-0 md:items-center">
+                  <BR title="Brasil" className="w-8 h-8 mr-3" />
                   <button
                     type="button"
                     className="rounded-full bg-gray-800 p-1 text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
