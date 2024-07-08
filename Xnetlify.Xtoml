@@ -1,6 +1,0 @@
-[build]
-  command = "pip install -r requirements.txt && npm run build"  # Adjust npm run build as per your project
-
-[[functions]]
-  directory = "functions"  # Specify the directory where functions are located
-  # other configuration for functions
