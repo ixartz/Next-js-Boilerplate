@@ -199,7 +199,7 @@ export default function CenteredAccordion() {
     categories.map(([category, questions]) => (
       <Disclosure as="div" key={category} className="py-3 px-4 bg-neutral-800">
         {({ open }) => (
-          <>
+          <dl>
             <dt>
               <Disclosure.Button className="flex w-full items-start justify-between text-left">
                 <span className="text-base font-semibold leading-7 ">
@@ -249,14 +249,14 @@ export default function CenteredAccordion() {
                 ))}
               </dl>
             </Disclosure.Panel>
-          </>
+          </dl>
         )}
       </Disclosure>
     ))
 
   return (
     <div>
-      <div className="mx-auto max-w-7xl px-6 lg:px-8">
+      <div className="mx-auto max-w-7xl">
         <div className="mx-auto max-w-4xl">
           <div className="grid grid-cols-1 gap-y-3 lg:grid-cols-2 lg:gap-x-8">
             <div className="space-y-3 divide-y divide-gray-900/10">

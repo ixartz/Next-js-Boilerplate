@@ -3,15 +3,20 @@ body {
 }
 
 section {
-  @apply py-6 lg:py-20 border-t border-neutral-800
+  @apply py-6 px-4 sm:px-8 lg:py-20 border-t border-neutral-800
+}
+
+p {
+  @apply max-w-[700px];
 }
 
 
 
-/** Fix the tailwind hover: class - this is not working on the site.
+
+/** Fix the tailwind hover: class - this is not working on the siteNav component or buttons in the site.
 Then REMOVE this css.*/
 .temp-css a {
-  @apply font-normal border border-transparent rounded-3xl font-light transition-all duration-300 delay-100;
+  @apply border border-transparent rounded-3xl font-light transition-all duration-300 delay-100;
 }
 
 .temp-css a:hover {

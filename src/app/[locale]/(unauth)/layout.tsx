@@ -1,7 +1,6 @@
 // import { useTranslations } from 'next-intl'
 // import LocaleSwitcher from '@/components/LocaleSwitcher';
 import { BaseTemplate } from '@/templates/BaseTemplate'
-import Link from 'next/link'
 import ReloadIcon from '@/components/icons/ReloadIcon'
 import Button from '@/components/tailwind-ui/reusable/buttons'
 
@@ -13,12 +12,13 @@ export default function Layout(props: { children: React.ReactNode }) {
       leftNav={
         <>
           <li>
-            <Link
+            <a
               href="/"
               className="border-none rounded-full bg-green block p-1"
+              aria-label="refresh"
             >
               <ReloadIcon />
-            </Link>
+            </a>
           </li>
         </>
       }
@@ -32,11 +32,12 @@ export default function Layout(props: { children: React.ReactNode }) {
               hoverColor="green-300"
               textColor="white"
               hoverTextColor="white"
-              // href={t('Login.href')}
               href=""
+              // href={t('Login.href')}
             >
-              Entrar
               {/* {t('Login.site_nav_text')} */}
+              Entrar
+              {/* //** 'Entrar' will be removed and pulled from an array in Strapi  */}
             </Button>
           </li>
           <li>

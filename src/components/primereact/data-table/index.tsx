@@ -8,6 +8,7 @@ import {
   renderDate,
   renderTime,
   renderTeams,
+  renderPrice,
   renderHomePrice,
   renderDrawPrice,
   renderAwayPrice,
@@ -15,7 +16,6 @@ import {
 
 import { fetchGameData } from '@/services/apiService'
 import { SportsFootball, SportsSoccer } from '@mui/icons-material'
-// import useOddsDataDataFetch from '../hooks/useOddsDataDataFetch';
 
 interface Props {
   sportType: 'americanfootball_nfl' | 'soccer'
@@ -24,7 +24,7 @@ interface Props {
 const DataTableComponent: FC<Props> = ({ sportType }) => {
   const [data, setData] = useState<Game[]>([])
   const [first, setFirst] = useState(0)
-  const [rows, setRows] = useState(10) // Number of rows per page
+  const [rows, setRows] = useState(10)
 
   useEffect(() => {
     const fetchData = async () => {
@@ -40,23 +40,6 @@ const DataTableComponent: FC<Props> = ({ sportType }) => {
     fetchData()
   }, [sportType])
 
-  // useEffect(() => {
-  //   const fetchData = async () => {
-  //     try {
-  //       const response = await fetch('/netlify/functions/getData'); // Replace with your Netlify Function endpoint
-  //       if (response.ok) {
-  //         const jsonData = await response.json();
-  //         setData(jsonData);
-  //       } else {
-  //         console.error('Failed to fetch data');
-  //       }
-  //     } catch (error) {
-  //       console.error('Error fetching data:', error);
-  //     }
-  //   };
-
-  //   fetchData();
-  // }, []);
   const iconMapping: { [key in Props['sportType']]: JSX.Element } = {
     americanfootball_nfl: <SportsFootball />,
     soccer: <SportsSoccer />,
@@ -64,8 +47,6 @@ const DataTableComponent: FC<Props> = ({ sportType }) => {
 
   const getCaptionText = () => {
     switch (sportType) {
-      case 'americanfootball_nfl':
-        return 'American Football - NFL'
       case 'soccer':
         return 'Soccer'
       default:
@@ -73,98 +54,72 @@ const DataTableComponent: FC<Props> = ({ sportType }) => {
     }
   }
 
-  const headerTemplate = () => {
-    return (
-      <div className="p-grid">
-        <div className="p-col py-3">
-          {iconMapping[sportType]} <span>{getCaptionText()}</span>
-        </div>
-      </div>
-    )
-  }
+  const headerTemplate = () => (
+    <div className="py-3 pl-2 text-neutral-200 bg-neutral-800 text-base">
+      {iconMapping[sportType]} <span className="pl-1">{getCaptionText()}</span>
+    </div>
+  )
 
-  const getColumns = () => {
-    const columns = [
+  const baseHeaderClassName =
+    'bg-transparent text-inherit border-b border-t border-neutral-500 py-2 w-[70px] bg-opacity-10'
+  const baseBodyClassName =
+    'border-b border-t border-neutral-500 bg-opacity-50 py-0'
+
+  const columnsConfig = [
+    {
+      key: 'date',
+      header: 'Date',
+      body: renderDate,
+      headerClassName: `${baseHeaderClassName} pl-3`,
+      bodyClassName: `${baseBodyClassName} pl-3`,
+    },
+    {
+      key: 'time',
+      header: 'Time',
+      body: renderTime,
+      headerClassName: baseHeaderClassName,
+      bodyClassName: baseBodyClassName,
+    },
+    {
+      key: 'teams',
+      header: 'Teams',
+      body: renderTeams,
+      headerClassName: `${baseHeaderClassName} py-3`,
+      bodyClassName: baseBodyClassName,
+    },
+    {
+      key: 'home',
+      header: 'Home',
+      body: (rowData: Game) => renderPrice(rowData, renderHomePrice),
+      headerClassName: `${baseHeaderClassName} text-right`,
+      bodyClassName: `${baseBodyClassName} text-right`,
+    },
+    {
+      key: 'draw',
+      header: 'Draw',
+      body: (rowData: Game) => renderPrice(rowData, renderDrawPrice),
+      headerClassName: `${baseHeaderClassName} text-right`,
+      bodyClassName: `${baseBodyClassName} text-right`,
+    },
+    {
+      key: 'away',
+      header: 'Away',
+      body: (rowData: Game) => renderPrice(rowData, renderAwayPrice),
+      headerClassName: `${baseHeaderClassName} text-right`,
+      bodyClassName: `${baseBodyClassName} text-right`,
+    },
+  ]
+
+  const getColumns = () =>
+    columnsConfig.map((column) => (
       <Column
-        key="date"
-        header="Date"
-        body={renderDate}
-        headerClassName="bg-gray-50 border-l border-b border-t border-gray-300 py-2 pl-2 w-[70px]"
-        bodyClassName="pl-2 border-l border-b border-t border-gray-300"
-      />,
-      <Column
-        key="time"
-        header="Time"
-        body={renderTime}
-        headerClassName="bg-gray-50 border-b border-t border-gray-300 py-2 w-[70px]"
-        bodyClassName="border-b border-t border-gray-300"
-      />,
-      <Column
-        key="teams"
-        header="Teams"
-        body={renderTeams}
-        headerClassName="bg-gray-50 border-b border-t border-gray-300 py-3"
-        bodyClassName="border-b border-t border-gray-300"
-      />,
-    ]
-
-    if (data.length > 0 && data[0]?.bookmakers?.[0]?.markets?.[0]?.outcomes) {
-      const outcomes = data[0].bookmakers[0].markets[0].outcomes
-
-      if (outcomes[0] !== undefined) {
-        columns.push(
-          <Column
-            key="home"
-            header="Home"
-            headerClassName="bg-gray-50 border-b border-t border-gray-300 py-2 w-[70px]"
-            bodyClassName="border-b border-t border-gray-300"
-            body={(rowData) =>
-              renderHomePrice(rowData.bookmakers[0].markets[0].outcomes) !==
-              null
-                ? renderHomePrice(rowData.bookmakers[0].markets[0].outcomes)
-                : '-'
-            }
-          />
-        )
-      }
-
-      if (outcomes[2] !== undefined) {
-        columns.push(
-          <Column
-            key="draw"
-            header="Draw"
-            headerClassName="bg-gray-50 border-b border-t border-gray-300 py-2 w-[70px]"
-            bodyClassName="border-b border-t border-gray-300"
-            body={(rowData) =>
-              renderDrawPrice(rowData.bookmakers[0].markets[0].outcomes) !==
-              null
-                ? renderDrawPrice(rowData.bookmakers[0].markets[0].outcomes)
-                : '-'
-            }
-          />
-        )
-      }
-
-      if (outcomes[1] !== undefined) {
-        columns.push(
-          <Column
-            key="away"
-            header="Away"
-            headerClassName="bg-gray-50 border-r border-b border-t border-gray-300 py-2 text-center w-[70px]"
-            bodyClassName="border-r border-b border-t border-gray-300"
-            body={(rowData) =>
-              renderAwayPrice(rowData.bookmakers[0].markets[0].outcomes) !==
-              null
-                ? renderAwayPrice(rowData.bookmakers[0].markets[0].outcomes)
-                : '-'
-            }
-          />
-        )
-      }
-    }
-
-    return columns
-  }
+        key={column.key}
+        header={column.header}
+        body={column.body}
+        headerClassName={column.headerClassName}
+        bodyClassName={column.bodyClassName}
+      />
+    ))
 
   const onPageChange = (event: { first: number; rows: number }) => {
     setFirst(event.first)
@@ -176,15 +131,15 @@ const DataTableComponent: FC<Props> = ({ sportType }) => {
   }
 
   return (
-    <div className="datatable">
+    <div className="rounded border border-neutral-500 overflow-hidden">
       <DataTable
         value={data}
-        className="p-datatable-striped text-xxs lg:text-xs"
+        className="p-datatable-striped text-xxs lg:text-xs mx-auto w-full"
         header={headerTemplate()}
         first={first}
         rows={rows}
         paginator
-        paginatorPosition="bottom"
+        paginatorPosition="top"
         totalRecords={data.length}
         onPage={onPageChange}
       >

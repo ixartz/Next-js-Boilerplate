@@ -10,6 +10,6 @@ const DemoBadge = () => (
       </div>
     </a>
   </div>
-);
+)
 
-export { DemoBadge };
+export { DemoBadge }

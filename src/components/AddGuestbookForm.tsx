@@ -1,6 +1,6 @@
-'use client';
+'use client'
 
-import { GuestbookForm } from './GuestbookForm';
+import { GuestbookForm } from './GuestbookForm'
 
 const AddGuestbookForm = () => (
   <GuestbookForm
@@ -11,9 +11,9 @@ const AddGuestbookForm = () => (
           'Content-Type': 'application/json',
         },
         body: JSON.stringify(data),
-      });
+      })
     }}
   />
-);
+)
 
-export { AddGuestbookForm };
+export { AddGuestbookForm }

@@ -17,9 +17,9 @@ const BaseTemplate = (props: {
                   className="mx-auto"
                   src="/assets/images/logo/casa-dourada.webp"
                   alt={AppConfig.name}
+                  loading="eager"
                   width={90}
                   // height={40}
-                  loading="eager"
                 />
               </a>
               <nav>
@@ -41,7 +41,7 @@ const BaseTemplate = (props: {
           </nav>
         </header>
 
-        <main className="mx-auto lg:mt-2.5">
+        <main className="mx-auto lg:mt-2.5 w-full">
           <div className="flex w-full">
             <div className="w-full">{props.children}</div>
           </div>

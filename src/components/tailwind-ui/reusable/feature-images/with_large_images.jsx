@@ -18,10 +18,10 @@ const features = [
 export default function FeatureImages() {
   return (
     <div>
-      <div className="mx-auto flex justify-center max-w-7xl px-6 lg:px-8">
+      <div className="mx-auto flex justify-center max-w-7xl">
         <ul
           role="list"
-          className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:grid-cols-2 lg:mx-0 "
+          className="mx-auto grid grid-cols-1 gap-x-8 gap-y-16 sm:grid-cols-2"
         >
           {features.map((feature) => (
             <li

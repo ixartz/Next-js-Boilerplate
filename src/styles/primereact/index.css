@@ -1,23 +1,14 @@
-.p-paginator .p-paginator-pages {
-  @apply flex justify-center gap-10;
-}
-
-.p-paginator .p-paginator-pages .p-paginator-page {
-  @apply bg-gray-100 text-gray-700 border border-gray-300 px-2 py-1 cursor-pointer transition duration-300;
-}
-
-.p-paginator .p-paginator-pages .p-paginator-page:hover {
-  @apply bg-gray-200;
-}
-
-.p-paginator .p-paginator-pages .p-paginator-page.p-paginator-element-active {
-  @apply bg-blue text-white border-blue;
-}
-
 .p-datatable-header {
-  @apply bg-transparent;
+  @apply bg-transparent p-0;
 }
-
-.p-datatable-tbody > tr > td {
-  @apply py-0;
+.p-column-header-content {
+  @apply inline-block;
+}
+.p-paginator {
+  @apply bg-transparent text-inherit absolute top-0 right-0 pr-1;
+}
+tr,
+th,
+td {
+  @apply bg-transparent text-inherit;
 }
