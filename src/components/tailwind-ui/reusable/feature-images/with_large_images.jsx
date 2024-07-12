@@ -26,10 +26,10 @@ export default function FeatureImages() {
           {features.map((feature) => (
             <li
               key={feature.id}
-              className="block relative rounded-md overflow-hidden border border-neutral-700"
+              className="block relative rounded-md overflow-hidden border border-neutral-700 cursor-pointer"
             >
               <img
-                className="aspect-[3/2] w-full object-cover"
+                className="aspect-[3/2] w-full object-cover hover:scale-105 ease-linear duration-200"
                 src={feature.imageUrl}
                 alt={feature.imageAlt}
               />
