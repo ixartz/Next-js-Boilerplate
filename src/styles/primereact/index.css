@@ -1,31 +1,21 @@
-/* Override pagination styles */
 .p-paginator .p-paginator-pages {
-  display: flex;
-  justify-content: center;
-  gap: 10px;
+  @apply flex justify-center gap-10;
 }
 
 .p-paginator .p-paginator-pages .p-paginator-page {
-  background-color: #f0f0f0;
-  color: #333;
-  border: 1px solid #ccc;
-  padding: 5px 10px;
-  cursor: pointer;
-  transition: background-color 0.3s;
+  @apply bg-gray-100 text-gray-700 border border-gray-300 px-2 py-1 cursor-pointer transition duration-300;
 }
 
 .p-paginator .p-paginator-pages .p-paginator-page:hover {
-  background-color: #e0e0e0;
+  @apply bg-gray-200;
 }
 
 .p-paginator .p-paginator-pages .p-paginator-page.p-paginator-element-active {
-  background-color: #007ad9;
-  color: #fff;
-  border-color: #007ad9;
+  @apply bg-blue text-white border-blue;
 }
 
 .p-datatable-header {
-  background-color: transparent;
+  @apply bg-transparent;
 }
 
 .p-datatable-tbody > tr > td {

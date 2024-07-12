@@ -1,7 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 @import 'primereact/resources/themes/saga-blue/theme.css';
-@import 'primereact/resources/primereact.min.css'; 
-@import './primereact/index.css'
- 
+@import 'primereact/resources/primereact.min.css';
+@import './primereact/index.css';
+
+/** Our in-house css - keep css MINIMAL
+Add SASS & minification
+*/
+@import 'body.css';
+@import 'fonts.css';

@@ -12,7 +12,7 @@
 * added types ([b35ddc9](https://github.com/jamesmoltoseo/Next-js-Boilerplate/commit/b35ddc91ecad81986432dce1ba84c302e6394a5b))
 * api py ([f52b303](https://github.com/jamesmoltoseo/Next-js-Boilerplate/commit/f52b30311d21b220de1a0ef51e39cf6f26203b7d))
 * api routes not found after apply intl middleware ([4650a5e](https://github.com/jamesmoltoseo/Next-js-Boilerplate/commit/4650a5e293716dee7704c6082839aaf94b63e7ad)), closes [#209](https://github.com/jamesmoltoseo/Next-js-Boilerplate/issues/209)
-* basetemplate leftnav ([f6e2676](https://github.com/jamesmoltoseo/Next-js-Boilerplate/commit/f6e26769625d2ec9fff8ee0e7b3654ddbe9e2174))
+* basetemplate leftNav ([f6e2676](https://github.com/jamesmoltoseo/Next-js-Boilerplate/commit/f6e26769625d2ec9fff8ee0e7b3654ddbe9e2174))
 * build issues with prerendering ([ff117b9](https://github.com/jamesmoltoseo/Next-js-Boilerplate/commit/ff117b9750e3609cebbf53a5dea01f0fbf94f865))
 * change matching regex for Cypress files ([861d545](https://github.com/jamesmoltoseo/Next-js-Boilerplate/commit/861d54596b61b7706cfbb681df334d73b34a378e))
 * code styling in blog component pages ([f4a55c4](https://github.com/jamesmoltoseo/Next-js-Boilerplate/commit/f4a55c4234fc03ed719859c12f13bffabd120c6d))

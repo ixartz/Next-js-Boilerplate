@@ -1,0 +1,14 @@
+body {
+  @apply bg-neutral-900 !text-neutral-300 font-custom;
+}
+
+/** Fix the tailwind hover: class - this is not working on the site.
+Then REMOVE this css.*/
+.temp-css a {
+  @apply font-normal border border-transparent rounded-3xl font-light transition-all duration-300 delay-100;
+}
+
+.temp-css a:hover {
+  @apply border border-green-500 text-green-500;
+  box-shadow: 0px 8px 26px -23px rgba(255, 255, 255, 0.75) inset;
+}

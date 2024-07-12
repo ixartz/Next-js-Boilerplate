@@ -1,0 +1,96 @@
+{
+  "RootLayout": {
+    "home_link": "Home",
+    "about_link": "About",
+    "guestbook_link": "Guestbook",
+    "portfolio_link": "Portfolio",
+    "login_link": "Sign in",
+    "register_link": "Sign up"
+  },
+  "BaseTemplate": {
+    "description": "Description_and_titles_to_be_provided_by_writing_team."
+  },
+  "Index": {
+    "meta_title": "Casa de Apostas Esportivas, Blackjack, Roletas",
+    "meta_description": "Description_and_titles_to_be_provided_by_writing_team.",
+    "href": "/"
+  },
+  "Blog": {
+    "meta_title": "Blog",
+    "meta_description": "Description_and_titles_to_be_provided_by_writing_team.",
+    "href": "/blog"
+  },
+  "About": {
+    "meta_title": "Sobre a Casa Dourada",
+    "meta_description": "Description_and_titles_to_be_provided_by_writing_team.",
+    "href": "/sobre-a-casa-dourada",
+    "about_paragraph": "Sample_text",
+    "translation_powered_by": "Sample_text"
+  },
+  "Login": {
+    "meta_title": "Entrar",
+    "meta_description": "Description_and_titles_to_be_provided_by_writing_team.",
+    "href": "/entrar",
+    "site_nav_text": "entrar"
+  },
+  "Register": {
+    "meta_title": "Cadastrar-se",
+    "meta_description": "Description_and_titles_to_be_provided_by_writing_team.",
+    "href": "/cadastro",
+    "site_nav_text": "cadastre-se"
+  },
+  "Sportsbook": {
+    "meta_title": "Description_and_titles_to_be_provided_by_writing_team.",
+    "meta_description": "Description_and_titles_to_be_provided_by_writing_team.",
+    "href": "/apostas-esportivas",
+    "site_nav_text": "apostas esportivas"
+  },
+  "LiveCasino": {
+    "meta_title": "Description_and_titles_to_be_provided_by_writing_team.",
+    "meta_description": "Description_and_titles_to_be_provided_by_writing_team.",
+    "href": "/cassino-ao-vivo",
+    "site_nav_text": "cassino ao vivo"
+  },
+  "CrashGames": {
+    "meta_title": "Description_and_titles_to_be_provided_by_writing_team.",
+    "meta_description": "Description_and_titles_to_be_provided_by_writing_team.",
+    "href": "/jogos-de-crash",
+    "site_nav_text": "jogos de crash"
+  },
+  "SlotGames": {
+    "meta_title": "Description_and_titles_to_be_provided_by_writing_team.",
+    "meta_description": "Description_and_titles_to_be_provided_by_writing_team.",
+    "href": "/caca-niqueis",
+    "site_nav_text": "caça-niqueis"
+  },
+  "SportsExchange": {
+    "meta_title": "Description_and_titles_to_be_provided_by_writing_team.",
+    "meta_description": "Description_and_titles_to_be_provided_by_writing_team.",
+    "href": "/intercambio-esportivo",
+    "site_nav_text": "intercâmbio esportivo"
+  },
+  "Dashboard": {
+    "meta_title": "Description_and_titles_to_be_provided_by_writing_team.",
+    "hello_message": "Sample_text"
+  },
+  "UserProfile": {
+    "meta_title": "Description_and_titles_to_be_provided_by_writing_team."
+  },
+  "DashboardLayout": {
+    "dashboard_link": "Dashboard_link",
+    "user_profile_link": "User_profile_link",
+    "sign_out": "Sign_out_link"
+  },
+  "Guestbook": {
+    "meta_title": "Guestbook",
+    "meta_description": "An example of CRUD operation",
+    "database_powered_by": "Database powered by",
+    "loading_guestbook": "Loading guestbook...",
+    "error_reporting_powered_by": "Error reporting powered by"
+  },
+  "GuestbookForm": {
+    "username": "Username",
+    "body": "Body",
+    "save": "Save"
+  }
+}

@@ -1,70 +1,59 @@
-'use client'; //** remove for ssr? */
-import { useTranslations } from 'next-intl';
-import { AppConfig } from '@/utils/AppConfig';
-import SideNavWithExpandableSections from '../components/tailwind-ui/application-ui/navigation/sidebar-navigation/with_expandable_sections';
-import TabsBarWithUnderline from '../components/tailwind-ui/application-ui/navigation/tabs/bar_with_underline_header';
-import NavMain from '@/components/tailwind-ui/application-ui/navigation/navbars/dark_with_quick_action';
+import { AppConfig } from '@/utils/AppConfig'
 
 const BaseTemplate = (props: {
-  leftNav: React.ReactNode;
-  rightNav?: React.ReactNode;
-  children: React.ReactNode;
+  leftNav: React.ReactNode
+  rightNav?: React.ReactNode
+  siteNav?: React.ReactNode
+  children: React.ReactNode
 }) => {
-  const t = useTranslations('BaseTemplate');
-
   return (
-    <div className="w-full text-gray-700 antialiased">
+    <div className="w-full antialiased h-full">
       <div className="mx-auto">
-        <header className="bg-green-800 px-3 sm:px-6">
-          {/* <div className="pb-8 pt-16">
-            <h1 className="text-3xl font-bold text-gray-900">
-             
-            </h1>
-            <h2 className="text-xl">{t("description")}</h2>
-          </div> */}
-
-          <div>
-            <nav className="flex flex-wrap gap-x-5 text-xl w-full">
-              {/* {props.leftNav} */}
-              <NavMain />
-            </nav>
-
-            <nav className="w-full bg-green-800">
-              <div className="mx-auto max-w-screen-xl">
-                <TabsBarWithUnderline />
-              </div>
-            </nav>
-            {/* <nav>
+        <header>
+          <div className="flex justify-between items-center bg-yellow px-3 sm:px-6">
+            <div className="flex justify-between items-center gap-x-3 py-3">
+              <a href="/">
+                <img
+                  className="mx-auto"
+                  src="/assets/images/logo/casa-dourada.webp"
+                  alt={AppConfig.name}
+                  width={90}
+                  // height={40}
+                  loading="eager"
+                />
+              </a>
+              <nav>
+                <ul className="list-none flex flex-wrap text-xl">
+                  {props.leftNav}
+                </ul>
+              </nav>
+            </div>
+            <nav>
               <ul className="flex flex-wrap gap-x-5 text-xl">
                 {props.rightNav}
               </ul>
-            </nav> */}
+            </nav>
           </div>
+          <nav>
+            <ul className="temp-css hidden lg:flex list-none justify-center gap-x-5 pt-2.5 items-center">
+              {props.siteNav}
+            </ul>
+          </nav>
         </header>
 
-        <main className="mx-auto max-w-screen-xl pt-4 px-3 sm:px-6">
+        <main className="mx-auto mt-2.5">
           <div className="flex w-full">
-            <div className="w-64 mr-4 hidden sm:block">
-              <SideNavWithExpandableSections />
-            </div>
             <div className="w-full">{props.children}</div>
           </div>
         </main>
 
-        <footer className="border-t border-gray-300 py-8 text-center text-sm">
-          © Copyright {new Date().getFullYear()} {AppConfig.name}.
-          {` ${t('made_with')} `}
-          <a
-            href="https://moltoseo.co.uk"
-            className="text-blue-700 hover:border-b-2 hover:border-blue-700"
-          >
-            Molto SEO
-          </a>
-          .
+        {/* border-t border-gray-300  */}
+        <footer className="py-8 text-center text-sm">
+          © Direitos Autorais {new Date().getFullYear()} {AppConfig.name}
         </footer>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export { BaseTemplate };
+export { BaseTemplate }
