@@ -4,7 +4,7 @@ import DataTableComponent from 'src/components/primereact/data-table'
 export async function generateMetadata(props: { params: { locale: string } }) {
   const t = await getTranslations({
     locale: props.params.locale,
-    namespace: 'Index',
+    namespace: 'Portfolio',
   })
 
   return {

@@ -11,27 +11,70 @@
     "description": "Starter code for your Nextjs Boilerplate with Tailwind CSS",
     "made_with": "Made by"
   },
-  "Index": {
+  "Homepage": {
     "meta_title": "Next.js Boilerplate Presentation",
     "meta_description": "Next js Boilerplate is the perfect starter code for your project. Build your React application with the Next.js framework."
   },
-  "Guestbook": {
-    "meta_title": "Guestbook",
-    "meta_description": "An example of CRUD operation",
-    "database_powered_by": "Database powered by",
-    "loading_guestbook": "Loading guestbook...",
-    "error_reporting_powered_by": "Error reporting powered by"
-  },
-  "GuestbookForm": {
-    "username": "Username",
-    "body": "Body",
-    "save": "Save"
+  "Blog": {
+    "meta_title": "Blog",
+    "meta_description": "Description_and_titles_to_be_provided_by_writing_team.",
+    "href": "/blog"
   },
   "About": {
     "meta_title": "About",
     "meta_description": "About page description",
     "about_paragraph": "Welcome to our About page! We are a team of passionate individuals dedicated to creating amazing software.",
     "translation_powered_by": "Translation powered by"
+  },
+  "Login": {
+    "meta_title": "Sign in",
+    "meta_description": "Seamlessly sign in to your account with our user-friendly login process."
+  },
+  "Register": {
+    "meta_title": "Sign up",
+    "meta_description": "Effortlessly create an account through our intuitive sign-up process."
+  },
+  "Sportsbook": {
+    "meta_title": "Description_and_titles_to_be_provided_by_writing_team.",
+    "meta_description": "Description_and_titles_to_be_provided_by_writing_team.",
+    "href": "/apostas-esportivas",
+    "site_nav_text": "apostas esportivas"
+  },
+  "LiveCasino": {
+    "meta_title": "Description_and_titles_to_be_provided_by_writing_team.",
+    "meta_description": "Description_and_titles_to_be_provided_by_writing_team.",
+    "href": "/cassino-ao-vivo",
+    "site_nav_text": "cassino ao vivo"
+  },
+  "CrashGames": {
+    "meta_title": "Description_and_titles_to_be_provided_by_writing_team.",
+    "meta_description": "Description_and_titles_to_be_provided_by_writing_team.",
+    "href": "/jogos-de-crash",
+    "site_nav_text": "jogos de crash"
+  },
+  "SlotGames": {
+    "meta_title": "Description_and_titles_to_be_provided_by_writing_team.",
+    "meta_description": "Description_and_titles_to_be_provided_by_writing_team.",
+    "href": "/caca-niqueis",
+    "site_nav_text": "caça-niqueis"
+  },
+  "SportsExchange": {
+    "meta_title": "Description_and_titles_to_be_provided_by_writing_team.",
+    "meta_description": "Description_and_titles_to_be_provided_by_writing_team.",
+    "href": "/intercambio-esportivo",
+    "site_nav_text": "intercâmbio esportivo"
+  },
+  "Dashboard": {
+    "meta_title": "Description_and_titles_to_be_provided_by_writing_team.",
+    "hello_message": "Sample_text"
+  },
+  "UserProfile": {
+    "meta_title": "Description_and_titles_to_be_provided_by_writing_team."
+  },
+  "DashboardLayout": {
+    "dashboard_link": "Dashboard_link",
+    "user_profile_link": "User_profile_link",
+    "sign_out": "Sign_out_link"
   },
   "Portfolio": {
     "meta_title": "Portfolio",
@@ -48,24 +91,16 @@
     "content": "Created a set of promotional materials and branding elements for a corporate event. Crafted a visually unified theme, encompassing a logo, posters, banners, and digital assets. Integrated the client's brand identity while infusing it with a contemporary and innovative approach. Garnered favorable responses from event attendees, resulting in a successful event with heightened participant engagement and increased brand visibility.",
     "log_management_powered_by": "Log management powered by"
   },
-  "Login": {
-    "meta_title": "Sign in",
-    "meta_description": "Seamlessly sign in to your account with our user-friendly login process."
+  "Guestbook": {
+    "meta_title": "Guestbook",
+    "meta_description": "An example of CRUD operation",
+    "database_powered_by": "Database powered by",
+    "loading_guestbook": "Loading guestbook...",
+    "error_reporting_powered_by": "Error reporting powered by"
   },
-  "Register": {
-    "meta_title": "Sign up",
-    "meta_description": "Effortlessly create an account through our intuitive sign-up process."
-  },
-  "Dashboard": {
-    "meta_title": "Dashboard",
-    "hello_message": "Hello {email}!"
-  },
-  "UserProfile": {
-    "meta_title": "User Profile"
-  },
-  "DashboardLayout": {
-    "dashboard_link": "Dashboard",
-    "user_profile_link": "Manage your account",
-    "sign_out": "Sign out"
+  "GuestbookForm": {
+    "username": "Username",
+    "body": "Body",
+    "save": "Save"
   }
 }
