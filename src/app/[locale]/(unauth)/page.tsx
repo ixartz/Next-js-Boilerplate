@@ -6,7 +6,6 @@ import TextBlocks from '@/components/custom/content/TextBlocks'
 
 //** This data is for demo purposes - this data will come from Strapi */
 import faqs from 'public/data/home/faqs.json'
-//** This data is for demo purposes - this data will come from Strapi */
 import TextContent from 'public/data/home/text-content.json'
 
 export async function generateMetadata(props: { params: { locale: string } }) {
@@ -24,14 +23,17 @@ export async function generateMetadata(props: { params: { locale: string } }) {
 export default function Homepage() {
   return (
     <>
+      {/* welcome text */}
       <section className="py-4 bg-neutral-800 text-center">
         <p className="block text-center mx-auto text-sm !my-0">
+          {/* retrieve all data dynamically */}
           {TextContent?.section_1?.paragraph_1}
         </p>
         <p className="block text-center mx-auto text-sm !my-0">
           {TextContent?.section_1?.paragraph_2}
         </p>
       </section>
+      {/* about us */}
       <section>
         <HighlightCasaDourada>
           <TextBlocks // this component renders text content from json - 'public/data/home/text-content.json'
@@ -41,6 +43,7 @@ export default function Homepage() {
           />
         </HighlightCasaDourada>
       </section>
+      {/* offers */}
       <section>
         <TextBlocks
           heading={TextContent.section_3.heading}
@@ -51,6 +54,7 @@ export default function Homepage() {
           <FeatureImages />
         </div>
       </section>
+      {/* faq */}
       <section>
         <TextBlocks
           heading={TextContent.section_4.heading}
