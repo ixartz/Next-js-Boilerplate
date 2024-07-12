@@ -1,6 +1,7 @@
 import { getTranslations } from 'next-intl/server'
 // import HeroSimpleCentredWithBackgroundImage from "src/components/tailwind-ui/marketing/sections/heroes/simple_centered_with_background_image";
 import HighlightCasaDourada from '@/components/utilities/TextManipulation/HighlightCasaDourada'
+import CenteredAccordion from '@/components/tailwind-ui/reusable/accordion/centered_accordion'
 
 export async function generateMetadata(props: { params: { locale: string } }) {
   const t = await getTranslations({
@@ -31,36 +32,45 @@ const content = {
   offers: {
     title: 'Ofertas',
   },
+  faq: {
+    title: 'FAQ',
+  },
 }
 
 export default function Index() {
   return (
     <div>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4"></div>
-      <HighlightCasaDourada>
-        <div className="bg-neutral-800 pt-2 pb-8 sm:py-5">
-          <div className="mx-auto sm:w-full lg:w-4/5 xl:w-4/5 px-3 sm:px-6">
-            <p className="sm:!my-0 text-base text-center font-normal">
-              {content.intro.paragraph_1}
-            </p>
-            <p className="!my-0 text-base text-center font-normal">
-              {content.intro.paragraph_2}
-            </p>
-          </div>
+      <section className="bg-neutral-800 pt-2 pb-8 sm:py-5">
+        <div className="mx-auto sm:w-full lg:w-4/5 xl:w-4/5 px-3 sm:px-6">
+          <p className="sm:!my-0 text-base text-center font-normal">
+            {content.intro.paragraph_1}
+          </p>
+          <p className="!my-0 text-base text-center font-normal">
+            {content.intro.paragraph_2}
+          </p>
         </div>
-        <div className="mx-auto max-w-[666px] sm:px-6 py-8 px-6">
+      </section>
+      <HighlightCasaDourada>
+        <section className="mx-auto max-w-[666px] sm:px-6 py-8 px-6">
           <h1 className="uppercase text-3xl font-bold">
             {content.about.title}
           </h1>
           <p className="text-sm">{content.about.paragraph_1}</p>
           <p className="text-sm">{content.about.paragraph_2}</p>
-        </div>
+        </section>
       </HighlightCasaDourada>
-      <div className="mx-auto w-full sm:px-6 py-10 px-6 border-t border-neutral-800">
-        <h1 className="uppercase text-3xl font-bold text-center">
+      <section className="mx-auto w-full sm:px-6 py-10 px-6 border-t border-neutral-800">
+        <h2 className="uppercase text-3xl font-bold text-center mb-24">
           {content.offers.title}
-        </h1>
-      </div>
+        </h2>
+      </section>
+      <section>
+        <h2 className="uppercase text-3xl font-bold text-center mb-10">
+          {content.faq.title}
+        </h2>
+        <CenteredAccordion />
+      </section>
+
       {/* <HeroSimpleCentredWithBackgroundImage /> */}
     </div>
   )

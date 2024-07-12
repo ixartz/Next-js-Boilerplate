@@ -1,9 +1,9 @@
-'use client';
+'use client'
 
-import React, { FC, useEffect, useState } from 'react';
-import { DataTable } from 'primereact/datatable';
-import { Column } from 'primereact/column';
-import { Game } from '../../../types';
+import React, { FC, useEffect, useState } from 'react'
+import { DataTable } from 'primereact/datatable'
+import { Column } from 'primereact/column'
+import { Game } from '../../../types'
 import {
   renderDate,
   renderTime,
@@ -11,34 +11,34 @@ import {
   renderHomePrice,
   renderDrawPrice,
   renderAwayPrice,
-} from './TableRenderers';
+} from './TableRenderers'
 
-import { fetchGameData } from '@/services/apiService';
-import { SportsFootball, SportsSoccer } from '@mui/icons-material';
+import { fetchGameData } from '@/services/apiService'
+import { SportsFootball, SportsSoccer } from '@mui/icons-material'
 // import useOddsDataDataFetch from '../hooks/useOddsDataDataFetch';
 
 interface Props {
-  sportType: 'americanfootball_nfl' | 'soccer';
+  sportType: 'americanfootball_nfl' | 'soccer'
 }
 
 const DataTableComponent: FC<Props> = ({ sportType }) => {
-  const [data, setData] = useState<Game[]>([]);
-  const [first, setFirst] = useState(0);
-  const [rows, setRows] = useState(10); // Number of rows per page
+  const [data, setData] = useState<Game[]>([])
+  const [first, setFirst] = useState(0)
+  const [rows, setRows] = useState(10) // Number of rows per page
 
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const newData = await fetchGameData(sportType);
-        setData(newData);
+        const newData = await fetchGameData(sportType)
+        setData(newData)
       } catch (error) {
-        console.error('Error fetching data:', error);
-        setData([]); // Set data to empty array in case of error
+        console.error('Error fetching data:', error)
+        setData([]) // Set data to empty array in case of error
       }
-    };
+    }
 
-    fetchData();
-  }, [sportType]);
+    fetchData()
+  }, [sportType])
 
   // useEffect(() => {
   //   const fetchData = async () => {
@@ -60,18 +60,18 @@ const DataTableComponent: FC<Props> = ({ sportType }) => {
   const iconMapping: { [key in Props['sportType']]: JSX.Element } = {
     americanfootball_nfl: <SportsFootball />,
     soccer: <SportsSoccer />,
-  };
+  }
 
   const getCaptionText = () => {
     switch (sportType) {
       case 'americanfootball_nfl':
-        return 'American Football - NFL';
+        return 'American Football - NFL'
       case 'soccer':
-        return 'Soccer';
+        return 'Soccer'
       default:
-        return '';
+        return ''
     }
-  };
+  }
 
   const headerTemplate = () => {
     return (
@@ -80,8 +80,8 @@ const DataTableComponent: FC<Props> = ({ sportType }) => {
           {iconMapping[sportType]} <span>{getCaptionText()}</span>
         </div>
       </div>
-    );
-  };
+    )
+  }
 
   const getColumns = () => {
     const columns = [
@@ -106,10 +106,10 @@ const DataTableComponent: FC<Props> = ({ sportType }) => {
         headerClassName="bg-gray-50 border-b border-t border-gray-300 py-3"
         bodyClassName="border-b border-t border-gray-300"
       />,
-    ];
+    ]
 
     if (data.length > 0 && data[0]?.bookmakers?.[0]?.markets?.[0]?.outcomes) {
-      const outcomes = data[0].bookmakers[0].markets[0].outcomes;
+      const outcomes = data[0].bookmakers[0].markets[0].outcomes
 
       if (outcomes[0] !== undefined) {
         columns.push(
@@ -124,8 +124,8 @@ const DataTableComponent: FC<Props> = ({ sportType }) => {
                 ? renderHomePrice(rowData.bookmakers[0].markets[0].outcomes)
                 : '-'
             }
-          />,
-        );
+          />
+        )
       }
 
       if (outcomes[2] !== undefined) {
@@ -141,8 +141,8 @@ const DataTableComponent: FC<Props> = ({ sportType }) => {
                 ? renderDrawPrice(rowData.bookmakers[0].markets[0].outcomes)
                 : '-'
             }
-          />,
-        );
+          />
+        )
       }
 
       if (outcomes[1] !== undefined) {
@@ -158,21 +158,21 @@ const DataTableComponent: FC<Props> = ({ sportType }) => {
                 ? renderAwayPrice(rowData.bookmakers[0].markets[0].outcomes)
                 : '-'
             }
-          />,
-        );
+          />
+        )
       }
     }
 
-    return columns;
-  };
+    return columns
+  }
 
   const onPageChange = (event: { first: number; rows: number }) => {
-    setFirst(event.first);
-    setRows(event.rows);
-  };
+    setFirst(event.first)
+    setRows(event.rows)
+  }
 
   if (data.length === 0) {
-    return <div>Loading...</div>;
+    return <div>Loading...</div>
   }
 
   return (
@@ -191,7 +191,7 @@ const DataTableComponent: FC<Props> = ({ sportType }) => {
         {getColumns()}
       </DataTable>
     </div>
-  );
-};
+  )
+}
 
-export default DataTableComponent;
+export default DataTableComponent
