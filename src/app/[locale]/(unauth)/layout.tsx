@@ -108,6 +108,7 @@ export default function Layout(props: { children: React.ReactNode }) {
                 textColor="neutral-200"
                 hoverTextColor="green-500"
                 leftImage={item.image}
+                leftImageAlt={item.text}
                 href={item.href}
               >
                 {item.text}

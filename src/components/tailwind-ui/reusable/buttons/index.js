@@ -10,6 +10,7 @@ const Button = ({
   children,
   href,
   leftImage = '',
+  leftImageAlt = '',
 }) => {
   // Define base and variant classes
   const baseClasses = `flex items-center justify-center uppercase rounded-full text-sm shadow-sm focus:outline-none`
@@ -54,7 +55,7 @@ const Button = ({
       {leftImage && (
         <img
           src={leftImage}
-          alt=""
+          alt={leftImageAlt}
           height="20"
           width="auto"
           className="inline-block h-4 w-4 mr-2"
