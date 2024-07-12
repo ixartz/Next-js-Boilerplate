@@ -2,6 +2,12 @@ body {
   @apply bg-neutral-900 !text-neutral-300 font-custom;
 }
 
+section {
+  @apply py-6 lg:py-20 border-t border-neutral-800
+}
+
+
+
 /** Fix the tailwind hover: class - this is not working on the site.
 Then REMOVE this css.*/
 .temp-css a {

@@ -1,5 +1,5 @@
 import { getTranslations } from 'next-intl/server'
-// import HeroSimpleCentredWithBackgroundImage from "src/components/tailwind-ui/marketing/sections/heroes/simple_centered_with_background_image";
+import FeatureImages from '@/components/tailwind-ui/reusable/feature-images/with_large_images'
 import HighlightCasaDourada from '@/components/utilities/TextManipulation/HighlightCasaDourada'
 import CenteredAccordion from '@/components/tailwind-ui/reusable/accordion/centered_accordion'
 
@@ -51,7 +51,7 @@ export default function Index() {
         </div>
       </section>
       <HighlightCasaDourada>
-        <section className="mx-auto max-w-[666px] sm:px-6 py-8 px-6">
+        <section className="mx-auto max-w-[666px] sm:px-6 px-6">
           <h1 className="uppercase text-3xl font-bold">
             {content.about.title}
           </h1>
@@ -59,10 +59,11 @@ export default function Index() {
           <p className="text-sm">{content.about.paragraph_2}</p>
         </section>
       </HighlightCasaDourada>
-      <section className="mx-auto w-full sm:px-6 py-10 px-6 border-t border-neutral-800">
-        <h2 className="uppercase text-3xl font-bold text-center mb-24">
+      <section className="mx-auto w-full">
+        <h2 className="uppercase text-3xl font-bold text-center mb-10">
           {content.offers.title}
         </h2>
+        <FeatureImages />
       </section>
       <section>
         <h2 className="uppercase text-3xl font-bold text-center mb-10">
@@ -70,8 +71,6 @@ export default function Index() {
         </h2>
         <CenteredAccordion />
       </section>
-
-      {/* <HeroSimpleCentredWithBackgroundImage /> */}
     </div>
   )
 }
