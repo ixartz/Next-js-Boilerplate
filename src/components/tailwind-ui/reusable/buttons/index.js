@@ -40,7 +40,7 @@ const Button = ({
       sizeClasses = 'px-3 py-2'
       break
     case 'lg':
-      sizeClasses = 'px-4 py-2 font-bold' //** remove !important declarations */
+      sizeClasses = 'px-4 py-2 font-bold'
       break
     default:
       sizeClasses = 'px-3 py-2'
