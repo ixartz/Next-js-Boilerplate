@@ -1,12 +1,4 @@
 {
-  "RootLayout": {
-    "home_link": "Home",
-    "about_link": "About",
-    "guestbook_link": "Guestbook",
-    "portfolio_link": "Portfolio",
-    "login_link": "Sign in",
-    "register_link": "Sign up"
-  },
   "BaseTemplate": {
     "description": "Description_and_titles_to_be_provided_by_writing_team.",
     "made_with": ""
@@ -82,21 +74,7 @@
     "user_profile_link": "User_profile_link",
     "sign_out": "Sign_out_link"
   },
-  "Portfolio": {
-    "meta_title": "Playground",
-    "meta_description": "Playground",
-    "presentation": "Playground",
-    "portfolio_name": "Portfolio {name}",
-    "error_reporting_powered_by": "Error reporting powered by",
-    "coverage_powered_by": "Code coverage powered by"
-  },
-  "PortfolioSlug": {
-    "meta_title": "Portfolio {slug}",
-    "meta_description": "Portfolio {slug} description",
-    "header": "Portfolio {slug}",
-    "content": "Created a set of promotional materials and branding elements for a corporate event. Crafted a visually unified theme, encompassing a logo, posters, banners, and digital assets. Integrated the client's brand identity while infusing it with a contemporary and innovative approach. Garnered favorable responses from event attendees, resulting in a successful event with heightened participant engagement and increased brand visibility.",
-    "log_management_powered_by": "Log management powered by"
-  },
+
   "Guestbook": {
     "meta_title": "Guestbook",
     "meta_description": "An example of CRUD operation",

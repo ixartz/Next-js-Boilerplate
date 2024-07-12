@@ -19,15 +19,15 @@ const tabs = [
   { name: 'live casino', href: '#', current: false },
   { name: 'bingo', href: '#', current: false },
   { name: 'poker', href: '#', current: false },
-];
+]
 
 function classNames(...classes) {
-  return classes.filter(Boolean).join(' ');
+  return classes.filter(Boolean).join(' ')
 }
 
 export default function TabsBarWithUnderline() {
   // Find the default tab name, fallback to the first tab if none are marked as current
-  const defaultTabName = tabs.find((tab) => tab.current)?.name || 'sport'; //** this should be dynamic like tabs[0].name */
+  const defaultTabName = tabs.find((tab) => tab.current)?.name || 'sport' //this should be dynamic like tabs[0].name */
 
   return (
     <div>
@@ -56,7 +56,7 @@ export default function TabsBarWithUnderline() {
                 tab.current
                   ? 'bg-green-900'
                   : 'bg-green-800 hover:bg-green-900',
-                'uppercase group relative min-w-0 flex-1 overflow-hidden py-2 px-2 text-center text-sm font-medium text-white hover:bg-gray-50 focus:z-10',
+                'uppercase group relative min-w-0 flex-1 overflow-hidden py-2 px-2 text-center text-sm font-medium text-white hover:bg-gray-50 focus:z-10'
               )}
               aria-current={tab.current ? 'page' : undefined}
             >
@@ -65,7 +65,7 @@ export default function TabsBarWithUnderline() {
                 aria-hidden="true"
                 className={classNames(
                   tab.current ? 'bg-indigo-500' : 'bg-transparent',
-                  'absolute inset-x-0 bottom-0 h-0.5',
+                  'absolute inset-x-0 bottom-0 h-0.5'
                 )}
               />
             </a>
@@ -73,5 +73,5 @@ export default function TabsBarWithUnderline() {
         </nav>
       </div>
     </div>
-  );
+  )
 }

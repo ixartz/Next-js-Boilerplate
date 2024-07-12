@@ -1,10 +1,10 @@
-import '@/styles/global.css';
+import '@/styles/global.css'
 
-import type { Metadata } from 'next';
-import { notFound } from 'next/navigation';
-import { NextIntlClientProvider, useMessages } from 'next-intl';
- 
-import { AppConfig } from '@/utils/AppConfig';
+import type { Metadata } from 'next'
+import { notFound } from 'next/navigation'
+import { NextIntlClientProvider, useMessages } from 'next-intl'
+
+import { AppConfig } from '@/utils/AppConfig'
 
 export const metadata: Metadata = {
   icons: [
@@ -29,17 +29,17 @@ export const metadata: Metadata = {
       url: '/favicon.ico',
     },
   ],
-};
+}
 
 export default function RootLayout(props: {
-  children: React.ReactNode;
-  params: { locale: string };
+  children: React.ReactNode
+  params: { locale: string }
 }) {
   // Validate that the incoming `locale` parameter is valid
-  if (!AppConfig.locales.includes(props.params.locale)) notFound();
+  if (!AppConfig.locales.includes(props.params.locale)) notFound()
 
   // Using internationalization in Client Components
-  const messages = useMessages();
+  const messages = useMessages()
 
   return (
     <html lang={props.params.locale}>
@@ -49,9 +49,8 @@ export default function RootLayout(props: {
           messages={messages}
         >
           {props.children}
-
         </NextIntlClientProvider>
       </body>
     </html>
-  );
+  )
 }

@@ -1,4 +1,4 @@
-import { pgTable, serial, text, timestamp } from 'drizzle-orm/pg-core';
+import { pgTable, serial, text, timestamp } from 'drizzle-orm/pg-core'
 
 export const guestbookSchema = pgTable('guestbook', {
   id: serial('id'),
@@ -9,4 +9,4 @@ export const guestbookSchema = pgTable('guestbook', {
     .$onUpdate(() => new Date())
     .notNull(),
   createdAt: timestamp('created_at', { mode: 'date' }).defaultNow().notNull(),
-});
+})

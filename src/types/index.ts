@@ -1,16 +1,16 @@
 // types.ts
 
 export interface Game {
-  commence_time: string;
-  home_team: string;
-  away_team: string;
+  commence_time: string
+  home_team: string
+  away_team: string
   bookmakers: {
-    title: string;
+    title: string
     markets: {
-      key: string;
+      key: string
       outcomes: {
-        price: string;
-      }[];
-    }[];
-  }[];
+        price: string
+      }[]
+    }[]
+  }[]
 }

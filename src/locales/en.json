@@ -1,18 +1,10 @@
 {
-  "RootLayout": {
-    "home_link": "Home",
-    "about_link": "About",
-    "guestbook_link": "Guestbook",
-    "portfolio_link": "Portfolio",
-    "login_link": "Sign in",
-    "register_link": "Sign up"
-  },
   "BaseTemplate": {
     "description": "Starter code for your Nextjs Boilerplate with Tailwind CSS",
     "made_with": "Made by"
   },
   "Homepage": {
-    "meta_title": "Next.js Boilerplate Presentation",
+    "meta_title": "Test to see if title works in English",
     "meta_description": "Next js Boilerplate is the perfect starter code for your project. Build your React application with the Next.js framework."
   },
   "Blog": {
@@ -27,42 +19,46 @@
     "translation_powered_by": "Translation powered by"
   },
   "Login": {
-    "meta_title": "Sign in",
-    "meta_description": "Seamlessly sign in to your account with our user-friendly login process."
+    "meta_title": "Login",
+    "meta_description": "Seamlessly sign in to your account with our user-friendly login process.",
+    "site_nav_text": "login",
+    "href": "/login"
   },
   "Register": {
-    "meta_title": "Sign up",
-    "meta_description": "Effortlessly create an account through our intuitive sign-up process."
+    "meta_title": "Register",
+    "meta_description": "Effortlessly create an account through our intuitive sign-up process.",
+    "site_nav_text": "register",
+    "href": "/register"
   },
   "Sportsbook": {
     "meta_title": "Description_and_titles_to_be_provided_by_writing_team.",
     "meta_description": "Description_and_titles_to_be_provided_by_writing_team.",
-    "href": "/apostas-esportivas",
-    "site_nav_text": "apostas esportivas"
+    "href": "/sportsbook",
+    "site_nav_text": "Sportsbook"
   },
   "LiveCasino": {
     "meta_title": "Description_and_titles_to_be_provided_by_writing_team.",
     "meta_description": "Description_and_titles_to_be_provided_by_writing_team.",
-    "href": "/cassino-ao-vivo",
-    "site_nav_text": "cassino ao vivo"
+    "href": "/live-casino",
+    "site_nav_text": "Live Casino"
   },
   "CrashGames": {
     "meta_title": "Description_and_titles_to_be_provided_by_writing_team.",
     "meta_description": "Description_and_titles_to_be_provided_by_writing_team.",
-    "href": "/jogos-de-crash",
-    "site_nav_text": "jogos de crash"
+    "href": "/crash-games",
+    "site_nav_text": "Crash Games"
   },
   "SlotGames": {
     "meta_title": "Description_and_titles_to_be_provided_by_writing_team.",
     "meta_description": "Description_and_titles_to_be_provided_by_writing_team.",
-    "href": "/caca-niqueis",
-    "site_nav_text": "caça-niqueis"
+    "href": "/slots",
+    "site_nav_text": "Slots"
   },
   "SportsExchange": {
     "meta_title": "Description_and_titles_to_be_provided_by_writing_team.",
     "meta_description": "Description_and_titles_to_be_provided_by_writing_team.",
-    "href": "/intercambio-esportivo",
-    "site_nav_text": "intercâmbio esportivo"
+    "href": "/sports-exchange",
+    "site_nav_text": "sports exchange"
   },
   "Dashboard": {
     "meta_title": "Description_and_titles_to_be_provided_by_writing_team.",
@@ -76,21 +72,7 @@
     "user_profile_link": "User_profile_link",
     "sign_out": "Sign_out_link"
   },
-  "Portfolio": {
-    "meta_title": "Portfolio",
-    "meta_description": "Welcome to my portfolio page!",
-    "presentation": "Welcome to my portfolio page! Here you will find a carefully curated collection of my work and accomplishments. Through this portfolio, I'm to showcase my expertise, creativity, and the value I can bring to your projects.",
-    "portfolio_name": "Portfolio {name}",
-    "error_reporting_powered_by": "Error reporting powered by",
-    "coverage_powered_by": "Code coverage powered by"
-  },
-  "PortfolioSlug": {
-    "meta_title": "Portfolio {slug}",
-    "meta_description": "Portfolio {slug} description",
-    "header": "Portfolio {slug}",
-    "content": "Created a set of promotional materials and branding elements for a corporate event. Crafted a visually unified theme, encompassing a logo, posters, banners, and digital assets. Integrated the client's brand identity while infusing it with a contemporary and innovative approach. Garnered favorable responses from event attendees, resulting in a successful event with heightened participant engagement and increased brand visibility.",
-    "log_management_powered_by": "Log management powered by"
-  },
+
   "Guestbook": {
     "meta_title": "Guestbook",
     "meta_description": "An example of CRUD operation",
