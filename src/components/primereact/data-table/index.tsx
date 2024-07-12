@@ -33,7 +33,7 @@ const DataTableComponent: FC<Props> = ({ sportType }) => {
         setData(newData)
       } catch (error) {
         console.error('Error fetching data:', error)
-        setData([]) // Set data to empty array in case of error
+        setData([])
       }
     }
 

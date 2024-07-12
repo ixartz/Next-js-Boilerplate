@@ -43,31 +43,27 @@ type ContentProps = {
   heading?: string
   headingLevel?: keyof JSX.IntrinsicElements // Ensure headingLevel is a valid HTML tag
   content: Record<string, string>
-  highlight?: boolean
 }
 
 const Content: React.FC<ContentProps> = ({
   heading,
   headingLevel = 'h2',
   content,
-  highlight = false,
 }) => {
   const HeadingTag = headingLevel
 
   const sectionContent = (
-    <div className="container text-center">
+    <div className="container text-center mx-auto">
       <div className="mx-auto inline-block text-left">
         {heading && (
-          <HeadingTag
-            className={`uppercase text-3xl font-bold ${!highlight && 'mb-10'}`}
-          >
+          <HeadingTag className={`uppercase text-3xl font-bold`}>
             {heading}
           </HeadingTag>
         )}
         {Object.keys(content)
           .filter((key) => key.startsWith('paragraph'))
           .map((key, index) => (
-            <p key={index} className="text-base font-normal">
+            <p key={index} className="text-sm md:text-base font-normal">
               {content[key]}
             </p>
           ))}
@@ -104,7 +100,9 @@ export default function Index() {
           headingLevel="h2"
           content={{}}
         />
-        <FeatureImages />
+        <div className="mt-10">
+          <FeatureImages />
+        </div>
       </section>
       <section>
         <Content
@@ -112,7 +110,9 @@ export default function Index() {
           headingLevel="h2"
           content={{}}
         />
-        <CenteredAccordion />
+        <div className="mt-10">
+          <CenteredAccordion />
+        </div>
       </section>
     </>
   )
