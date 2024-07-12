@@ -10,7 +10,7 @@ const BaseTemplate = (props: {
     <div className="w-full antialiased h-full">
       <div className="mx-auto">
         <header>
-          <div className="flex justify-between items-center bg-yellow px-3 sm:px-6">
+          <div className="flex justify-between items-center bg-yellow px-5 sm:px-8">
             <div className="flex justify-between items-center gap-x-3 py-3">
               <a href="/">
                 <img

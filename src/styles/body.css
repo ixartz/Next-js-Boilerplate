@@ -3,7 +3,7 @@ body {
 }
 
 section {
-  @apply py-6 px-4 sm:px-8 lg:py-20 border-t border-neutral-800
+  @apply py-6 px-6 sm:px-8 lg:py-20 border-t border-neutral-800
 }
 
 p {
