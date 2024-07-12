@@ -38,7 +38,7 @@ export default function Index() {
     <div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4"></div>
       <HighlightCasaDourada>
-        <div className="bg-neutral-800 pt-2 pb-8 lg:py-5">
+        <div className="bg-neutral-800 pt-2 pb-8 sm:py-5">
           <div className="mx-auto sm:w-full lg:w-4/5 xl:w-4/5 px-3 sm:px-6">
             <p className="sm:!my-0 text-base text-center font-normal">
               {content.intro.paragraph_1}

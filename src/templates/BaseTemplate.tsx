@@ -41,7 +41,7 @@ const BaseTemplate = (props: {
           </nav>
         </header>
 
-        <main className="mx-auto mt-2.5">
+        <main className="mx-auto lg:mt-2.5">
           <div className="flex w-full">
             <div className="w-full">{props.children}</div>
           </div>
