@@ -57,7 +57,7 @@ export default function Homepage() {
         <div className="container mx-auto max-w-sm sm:max-w-2xl">
           <div className="flex flex-col items-center justify-center">
             <h2>{textContent.section_3.heading}</h2>
-            <div className="mt-5 lg:mt-10">
+            <div className="mt-8 lg:mt-10">
               <FeatureImages />
             </div>
           </div>
@@ -68,7 +68,7 @@ export default function Homepage() {
       <section>
         <div className="container mx-auto max-w-sm sm:max-w-full md:max-w-2xl lg:max-w-5xl text-center">
           <h2>{textContent.section_4.heading}</h2>
-          <div className="mt-5 sm:mt-10 text-left">
+          <div className="mt-5 sm:mt-8 text-left">
             <CenteredAccordion data={faqs} />
           </div>
         </div>
