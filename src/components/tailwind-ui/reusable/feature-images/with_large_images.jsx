@@ -18,7 +18,7 @@ const features = [
 export default function FeatureImages() {
   return (
     <div>
-      <div className="mx-auto flex justify-center max-w-3xl">
+      <div className="mx-auto flex justify-center container">
         <ul
           role="list"
           className="mx-auto grid grid-cols-1 gap-x-8 gap-y-16 sm:grid-cols-2"

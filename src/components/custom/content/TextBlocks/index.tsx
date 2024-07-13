@@ -14,7 +14,7 @@ const TextBlocks: React.FC<ContentProps> = ({
   const HeadingTag = headingLevel as keyof JSX.IntrinsicElements
 
   return (
-    <div className="container text-center mx-auto">
+    <div className="text-center mx-auto">
       <div className="mx-auto inline-block text-left">
         {heading && <HeadingTag className={`font-bold`}>{heading}</HeadingTag>}
         {Object.keys(content)

@@ -50,25 +50,29 @@ export default function Homepage() {
 
       {/* offers */}
       <section>
-        <TextBlocks
-          heading={textContent.section_3.heading}
-          headingLevel="h2"
-          content={{}}
-        />
-        <div className="mt-5 lg:mt-10">
-          <FeatureImages />
+        <div className="container">
+          <TextBlocks
+            heading={textContent.section_3.heading}
+            headingLevel="h2"
+            content={{}}
+          />
+          <div className="mt-5 lg:mt-10">
+            <FeatureImages />
+          </div>
         </div>
       </section>
 
       {/* faq */}
       <section>
-        <TextBlocks
-          heading={textContent.section_4.heading}
-          headingLevel="h2"
-          content={{}}
-        />
-        <div className="mt-10">
-          <CenteredAccordion data={faqs} />
+        <div className="container">
+          <TextBlocks
+            heading={textContent.section_4.heading}
+            headingLevel="h2"
+            content={{}}
+          />
+          <div className="mt-10">
+            <CenteredAccordion data={faqs} />
+          </div>
         </div>
       </section>
     </>
