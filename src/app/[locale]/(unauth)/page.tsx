@@ -40,7 +40,7 @@ export default function Homepage() {
 
       {/* about us */}
       <section>
-        <div className="container mx-auto max-w-2xl">
+        <div className="container mx-auto max-w-sm">
           <HighlightCasaDourada>
             {/* TextBlocks component - renders text content - 'public/data/home/text-content.json' */}
             <TextBlocks
@@ -66,7 +66,7 @@ export default function Homepage() {
 
       {/* faq */}
       <section>
-        <div className="container mx-auto text-center">
+        <div className="container mx-auto max-w-xs sm:max-w-2xl md:max-w-2xl lg:max-w-5xl text-center">
           <h2>{textContent.section_4.heading}</h2>
           <div className="mt-5 sm:mt-10 text-left">
             <CenteredAccordion data={faqs} />
