@@ -1,3 +1,5 @@
+//** FIX: add to packages.json - "postbuild": "next-sitemap",
+
 const fs = require('fs')
 const path = require('path')
 
