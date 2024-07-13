@@ -47,13 +47,15 @@ export default function CenteredAccordion({ data }) {
                                 />
                               )}
                             </span>
-                            <span className="font-semibold leading-5">
+                            <span className="sm:font-semibold opacity-90 leading-5 sm:pb-1">
                               {item.question}
                             </span>
                           </Disclosure.Button>
                         </dt>
                         <Disclosure.Panel as="dd" className="ml-7 pb-3">
-                          <p className="!mt-1 !mb-2 leading-5">{item.answer}</p>
+                          <p className="mt-1 mb-1 text-xs sm:text-sm leading-5">
+                            {item.answer}
+                          </p>
                         </Disclosure.Panel>
                       </>
                     )}
@@ -67,17 +69,13 @@ export default function CenteredAccordion({ data }) {
     ))
 
   return (
-    <div>
-      <div className="mx-auto max-w-7xl">
-        <div className="mx-auto max-w-4xl">
-          <div className="grid grid-cols-1 gap-y-3 lg:grid-cols-2 lg:gap-x-8">
-            <div className="space-y-3 divide-y divide-gray-900/10">
-              {renderAccordions(firstColumn)}
-            </div>
-            <div className="space-y-3 divide-y divide-gray-900/10">
-              {renderAccordions(secondColumn)}
-            </div>
-          </div>
+    <div className="mx-auto max-w-4xl">
+      <div className="grid grid-cols-1 gap-y-3 lg:grid-cols-2 lg:gap-x-8">
+        <div className="space-y-3 divide-y divide-gray-900/10">
+          {renderAccordions(firstColumn)}
+        </div>
+        <div className="space-y-3 divide-y divide-gray-900/10">
+          {renderAccordions(secondColumn)}
         </div>
       </div>
     </div>

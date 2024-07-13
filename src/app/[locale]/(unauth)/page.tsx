@@ -70,7 +70,7 @@ export default function Homepage() {
             headingLevel="h2"
             content={{}}
           />
-          <div className="mt-10">
+          <div className="mt-5 sm:mt-10">
             <CenteredAccordion data={faqs} />
           </div>
         </div>
