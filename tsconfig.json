@@ -59,6 +59,7 @@
     ".storybook/*.ts",
     ".next/types/**/*.ts",
     "**/*.mts",
-    "src/components/primereact/data-table/index.tsx"
+    "src/components/primereact/data-table/index.tsx",
+    "src/utils/metadataUtil.js"
   ]
 }
