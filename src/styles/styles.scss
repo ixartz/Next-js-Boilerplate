@@ -6,9 +6,9 @@
     Add SASS & minification
 */
 
-@import 'body.css';
-@import 'fonts.css';
-@import 'typography.css';
+@import 'responsive-global/body.scss';
+@import 'responsive-global/fonts.scss';
+@import 'responsive-global/typography.scss';
 
 /** To be deleted when Tailwind hover class is working */
-@import 'temp.css';
+@import 'responsive-global/temp.scss';
