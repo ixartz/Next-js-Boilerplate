@@ -13,7 +13,7 @@ const Button = ({
   leftImageAlt = '',
 }) => {
   // Define base and variant classes
-  const baseClasses = `flex items-center justify-center uppercase rounded-full text-sm shadow-sm focus:outline-none`
+  const baseClasses = `flex items-center justify-center uppercase rounded-full text-xs md:text-sm shadow-sm focus:outline-none`
   let bgClass = `bg-${bgColor}`
   let hoverBgClass = `hover:bg-${hoverColor}`
   let textClass = `text-${textColor}`
@@ -31,7 +31,7 @@ const Button = ({
   let sizeClasses = ''
   switch (size) {
     case 'xs':
-      sizeClasses = 'p0 py-2 px-2 text-xs font-light'
+      sizeClasses = 'p0 py-2 px-2 font-light'
       break
     case 'sm':
       sizeClasses = 'px-2.5 py-1.5'
