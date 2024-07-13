@@ -1,0 +1,27 @@
+/* responsive body fonts */
+body h1,
+body h2 {
+  @apply text-2xl lg:text-3xl uppercase;
+}
+body h3 {
+  @apply text-lg lg:text-lg xl:text-xl uppercase;
+}
+body h4,
+body p,
+body main ul {
+  @apply text-sm lg:text-base;
+}
+body p {
+  @apply mt-3 mb-4 lg:my-4 xl:my-5 leading-5 lg:leading-6;
+}
+
+/** responsive accordion text */
+dl span {
+  @apply text-base lg:text-lg xl:text-lg;
+}
+dl dl span {
+  @apply text-sm;
+}
+dl dl p {
+  @apply text-sm leading-3;
+}

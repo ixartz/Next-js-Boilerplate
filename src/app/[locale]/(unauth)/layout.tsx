@@ -107,7 +107,7 @@ export default function Layout(props: { children: React.ReactNode }) {
       rightNav={generateMemberNavItems()}
       siteNav={generateMainNavItems()}
     >
-      <div className="text-xl [&_p]:my-6">{props.children}</div>
+      <div className="text-xl">{props.children}</div>
 
       {/* Hidden nav */}
       <nav className="hidden">

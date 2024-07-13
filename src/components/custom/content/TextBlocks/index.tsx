@@ -16,15 +16,11 @@ const TextBlocks: React.FC<ContentProps> = ({
   return (
     <div className="container text-center mx-auto">
       <div className="mx-auto inline-block text-left">
-        {heading && (
-          <HeadingTag className={`uppercase text-3xl font-bold`}>
-            {heading}
-          </HeadingTag>
-        )}
+        {heading && <HeadingTag className={`font-bold`}>{heading}</HeadingTag>}
         {Object.keys(content)
           .filter((key) => key.startsWith('paragraph'))
           .map((key, index) => (
-            <p key={index} className="text-sm md:text-base font-normal">
+            <p key={index} className="font-normal">
               {content[key]}
             </p>
           ))}

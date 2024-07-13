@@ -26,12 +26,12 @@ export default function Homepage() {
     <>
       {/* welcome */}
       <section className="py-4 bg-neutral-800 text-center">
-        <p className="block text-center mx-auto text-sm !my-0">
+        <p className="block text-center mx-auto text-xs md:text-sm !my-0">
           {/* retrieve all data dynamically */}
           {textContent?.section_1?.paragraph_1}
           {/** FIX: useTranslations for content */}
         </p>
-        <p className="block text-center mx-auto text-sm !my-0">
+        <p className="block text-center mx-auto text-xs md:text-sm !my-0">
           {textContent?.section_1?.paragraph_2}
         </p>
       </section>
@@ -55,7 +55,7 @@ export default function Homepage() {
           headingLevel="h2"
           content={{}}
         />
-        <div className="mt-10">
+        <div className="mt-5 lg:mt-10">
           <FeatureImages />
         </div>
       </section>
