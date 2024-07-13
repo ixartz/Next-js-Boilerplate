@@ -11,3 +11,15 @@
   @apply border border-green-500 text-green-500;
   box-shadow: 0px 8px 26px -23px rgba(255, 255, 255, 0.75) inset;
 }
+
+a:hover {
+  @apply transition-all duration-300 delay-100
+}
+
+/* FIX: this hack will be removed when Tailwind 'hover:' is working on all elements. */
+.-ml-2 a:hover {
+  @apply bg-blue-200;
+}
+.-ml-2:first-child a:hover {
+  @apply bg-green-400;
+}
