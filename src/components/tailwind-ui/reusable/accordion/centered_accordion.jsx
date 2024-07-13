@@ -16,7 +16,9 @@ export default function CenteredAccordion({ data }) {
           <dl>
             <dt>
               <Disclosure.Button className="flex w-full items-start justify-between text-left">
-                <span className="font-semibold leading-7">{category}</span>
+                <span className="text-sm sm:text-base font-semibold leading-7">
+                  {category}
+                </span>
                 <span className="ml-6 flex h-7 items-center">
                   {open ? (
                     <Remove className="h-6 w-6" aria-hidden="true" />
@@ -26,7 +28,7 @@ export default function CenteredAccordion({ data }) {
                 </span>
               </Disclosure.Button>
             </dt>
-            <Disclosure.Panel as="dd" className="-ml-1 mt-2 pr-3">
+            <Disclosure.Panel as="dd" className="-ml-1 mt-1 pr-3">
               <dl className="mt-0 divide-y divide-gray-900/10">
                 {questions.map((item) => (
                   <Disclosure as="div" key={item.question} className="pt-2">
