@@ -42,9 +42,7 @@ const BaseTemplate = (props: {
         </header>
 
         <main className="mx-auto lg:mt-2.5 w-full">
-          <div className="flex w-full">
-            <div className="w-full">{props.children}</div>
-          </div>
+          <div className="w-full">{props.children}</div>
         </main>
 
         {/* border-t border-gray-300  */}
