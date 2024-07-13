@@ -72,7 +72,7 @@ export default function Layout(props: { children: React.ReactNode }) {
   const generateMemberNavItems = () => (
     <>
       {memberPages.map((item, index) => (
-        <li key={index}>
+        <li key={index} className="-ml-2">
           <Button
             size="lg"
             variant="default"
