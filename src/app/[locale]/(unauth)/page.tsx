@@ -28,22 +28,21 @@ export default function Homepage() {
       <section className="py-4 px-2 bg-neutral-800 text-center">
         <p
           className="inline-block 
-         text-xs md:text-sm !my-0"
+         text-xs md:text-sm my-0"
         >
           {/* retrieve all data dynamically */}
           {textContent?.section_1?.paragraph_1}
-          {/** FIX: useTranslations for content */}
         </p>
-        <p className="block text-center mx-auto text-xs md:text-sm !my-0">
+        <p className="block text-center mx-auto text-xs md:text-sm my-0">
           {textContent?.section_1?.paragraph_2}
         </p>
       </section>
 
       {/* about us */}
       <section>
-        <div className="max-w-2xl mx-auto">
+        <div className="container mx-auto max-w-2xl">
           <HighlightCasaDourada>
-            {/* TextBlocks component - renders text content from json - 'public/data/home/text-content.json' */}
+            {/* TextBlocks component - renders text content - 'public/data/home/text-content.json' */}
             <TextBlocks
               heading={textContent.section_2.heading}
               headingLevel="h1"
@@ -54,15 +53,13 @@ export default function Homepage() {
       </section>
 
       {/* offers */}
-      <section>
-        <div className="flex flex-col items-center justify-center">
-          <TextBlocks
-            heading={textContent.section_3.heading}
-            headingLevel="h2"
-            content={{}}
-          />
-          <div className="mt-5 lg:mt-10">
-            <FeatureImages />
+      <section className="mb-3 md:mb-5">
+        <div className="container mx-auto max-w-xs sm:max-w-2xl">
+          <div className="flex flex-col items-center justify-center">
+            <h2>{textContent.section_3.heading}</h2>
+            <div className="mt-5 lg:mt-10">
+              <FeatureImages />
+            </div>
           </div>
         </div>
       </section>
@@ -70,11 +67,7 @@ export default function Homepage() {
       {/* faq */}
       <section>
         <div className="container mx-auto text-center">
-          <TextBlocks
-            heading={textContent.section_4.heading}
-            headingLevel="h2"
-            content={{}}
-          />
+          <h2>{textContent.section_4.heading}</h2>
           <div className="mt-5 sm:mt-10 text-left">
             <CenteredAccordion data={faqs} />
           </div>
