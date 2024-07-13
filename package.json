@@ -6,7 +6,6 @@
     "dev:next": "next dev",
     "dev": "run-p dev:*",
     "build": "next build",
-    "postbuild": "next-sitemap",
     "start": "next start",
     "build-stats": "cross-env ANALYZE=true npm run build",
     "clean": "rimraf .next .swc out coverage",
