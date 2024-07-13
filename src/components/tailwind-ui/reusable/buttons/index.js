@@ -14,7 +14,7 @@ const Button = ({
   responsive = true,
 }) => {
   // Define base and variant classes
-  const baseClasses = `flex items-center justify-center uppercase rounded-full text-xs ${responsive && 'md:text-sm'} shadow-sm focus:outline-none`
+  const baseClasses = `sflex items-center justify-center uppercase rounded-full text-xs ${responsive && 'lg:text-sm'} shadow-sm focus:outline-none`
 
   let bgClass = `bg-${bgColor}`
   let hoverBgClass = `hover:bg-${hoverColor}`
