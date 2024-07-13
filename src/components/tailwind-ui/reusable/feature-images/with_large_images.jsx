@@ -2,14 +2,14 @@ const features = [
   {
     id: '1',
     heading: 'casino',
-    text: 'Explore various Casino games, card games on our platform.',
+    text: 'Explore various Casino games,\ncard games on our platform.',
     imageUrl: '/assets/images/home/features/cassino-ofertas.webp',
     imageAlt: 'casino offers',
   },
   {
     id: '2',
     heading: 'sports',
-    text: 'All major sports games are available on our platform.',
+    text: 'All major sports games are\navailable on our platform.',
     imageUrl: '/assets/images/home/features/ofertas-esportivas.webp',
     imageAlt: 'casino offers',
   },
@@ -35,7 +35,7 @@ export default function FeatureImages() {
               />
               <div className="absolute text-center w-full py-2 bottom-0 mt-6 text-lg font-semibold tracking-tight text-neutral-200 bg-neutral-800 bg-opacity-75">
                 <h3 className="uppercase">{feature.heading}</h3>
-                <p className="text-sm !m-0 px-24 font-light !leading-4">
+                <p className="text-sm px-2 !m-0 !leading-4 font-light whitespace-pre-line">
                   {feature.text}
                 </p>
               </div>
