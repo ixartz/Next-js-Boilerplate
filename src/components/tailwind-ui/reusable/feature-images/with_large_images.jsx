@@ -21,7 +21,7 @@ export default function FeatureImages() {
       <div className="mx-auto flex justify-center">
         <ul
           role="list"
-          className="mx-auto grid grid-cols-1 gap-8 sm:grid-cols-2"
+          className="mx-auto grid grid-cols-1 gap-x-8 gap-y-16 sm:grid-cols-2"
         >
           {features.map((feature) => (
             <li
@@ -35,7 +35,7 @@ export default function FeatureImages() {
               />
               <div className="absolute text-center w-full py-2 bottom-0 mt-6 text-lg font-semibold tracking-tight text-neutral-200 bg-neutral-800 bg-opacity-75">
                 <h3 className="uppercase">{feature.heading}</h3>
-                <p className="text-sm px-2 !m-0 !leading-4 font-light whitespace-pre-line">
+                <p className="text-sm px-2 m-0 leading-4 font-light whitespace-pre-line">
                   {feature.text}
                 </p>
               </div>

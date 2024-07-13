@@ -2,7 +2,7 @@
 
 import React, { useEffect } from 'react'
 
-const HighlightCasaDourada = ({ children }) => {
+const HighlightCasa = ({ children }) => {
   useEffect(() => {
     // Regular expression to match "casa dourada" case insensitive
     const regex = /\bcasa\s+(dourada)\b/gi // \b for word boundary, gi for global and case-insensitive
@@ -42,4 +42,4 @@ const HighlightCasaDourada = ({ children }) => {
   return <>{children}</>
 }
 
-export default HighlightCasaDourada
+export default HighlightCasa
