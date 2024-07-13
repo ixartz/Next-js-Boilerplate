@@ -1,3 +1,8 @@
+/* font-smoothing */
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
 /* responsive body fonts */
 body h1,
 body h2 {
