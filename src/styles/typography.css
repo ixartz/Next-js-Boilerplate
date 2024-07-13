@@ -1,7 +1,7 @@
 /* responsive body fonts */
 body h1,
 body h2 {
-  @apply tracking-tighter sm:tracking-normal text-2xl lg:text-3xl uppercase;
+  @apply tracking-tight sm:tracking-normal text-2xl lg:text-3xl uppercase;
 }
 body h3 {
   @apply text-lg lg:text-lg xl:text-xl uppercase;
