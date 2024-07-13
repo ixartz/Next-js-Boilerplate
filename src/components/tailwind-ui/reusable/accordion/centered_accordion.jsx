@@ -34,20 +34,20 @@ export default function CenteredAccordion({ data }) {
                       <>
                         <dt>
                           <Disclosure.Button className="flex w-full items-start justify-start text-left">
-                            <span className="flex h-7 mr-1 items-center">
+                            <span className="flex h-5 mr-2 items-center">
                               {open ? (
                                 <ExpandLess
-                                  className="h-6 w-6"
+                                  className="h-5 w-5"
                                   aria-hidden="true"
                                 />
                               ) : (
                                 <ExpandMore
-                                  className="h-6 w-6"
+                                  className="h-5 w-5"
                                   aria-hidden="true"
                                 />
                               )}
                             </span>
-                            <span className="font-semibold leading-7">
+                            <span className="font-semibold leading-5">
                               {item.question}
                             </span>
                           </Disclosure.Button>

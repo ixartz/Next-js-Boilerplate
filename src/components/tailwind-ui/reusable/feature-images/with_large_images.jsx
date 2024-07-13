@@ -35,7 +35,9 @@ export default function FeatureImages() {
               />
               <div className="absolute text-center w-full py-2 bottom-0 mt-6 text-lg font-semibold tracking-tight text-neutral-200 bg-neutral-800 bg-opacity-75">
                 <h3 className="uppercase">{feature.heading}</h3>
-                <p className="text-sm !m-0 px-24 !leading-4">{feature.text}</p>
+                <p className="text-sm !m-0 px-24 font-light !leading-4">
+                  {feature.text}
+                </p>
               </div>
             </li>
           ))}
