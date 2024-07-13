@@ -37,12 +37,12 @@ export default function CenteredAccordion({ data }) {
                             <span className="flex h-5 mr-2 items-center">
                               {open ? (
                                 <ExpandLess
-                                  className="h-5 w-5"
+                                  className="h-5 w-5 text-green-900"
                                   aria-hidden="true"
                                 />
                               ) : (
                                 <ExpandMore
-                                  className="h-5 w-5"
+                                  className="h-5 w-5 text-green-800"
                                   aria-hidden="true"
                                 />
                               )}

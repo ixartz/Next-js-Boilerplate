@@ -12,7 +12,7 @@ body main ul {
   @apply text-sm lg:text-base;
 }
 body p {
-  @apply tracking-tight sm:tracking-normal mt-3 mb-4 lg:my-4 xl:my-5 leading-5 lg:leading-6;
+  @apply tracking-tight sm:tracking-normal mt-3 mb-4 lg:my-4 leading-5 lg:leading-6;
 }
 
 /** responsive accordion text */
