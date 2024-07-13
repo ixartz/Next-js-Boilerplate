@@ -25,7 +25,7 @@ export default function Homepage() {
   return (
     <>
       {/* welcome */}
-      <section className="py-4 bg-neutral-800 text-center">
+      <section className="py-4 px-2 bg-neutral-800 text-center">
         <p className="block text-center mx-auto text-xs md:text-sm !my-0">
           {/* retrieve all data dynamically */}
           {textContent?.section_1?.paragraph_1}
