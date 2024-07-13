@@ -14,17 +14,15 @@ const TextBlocks: React.FC<ContentProps> = ({
   const HeadingTag = headingLevel as keyof JSX.IntrinsicElements
 
   return (
-    <div className="text-center mx-auto">
-      <div className="mx-auto inline-block text-left">
-        {heading && <HeadingTag className={`font-bold`}>{heading}</HeadingTag>}
-        {Object.keys(content)
-          .filter((key) => key.startsWith('paragraph'))
-          .map((key, index) => (
-            <p key={index} className="font-normal">
-              {content[key]}
-            </p>
-          ))}
-      </div>
+    <div className="">
+      {heading && <HeadingTag className={`font-bold`}>{heading}</HeadingTag>}
+      {Object.keys(content)
+        .filter((key) => key.startsWith('paragraph'))
+        .map((key, index) => (
+          <p key={index} className="font-normal">
+            {content[key]}
+          </p>
+        ))}
     </div>
   )
 }

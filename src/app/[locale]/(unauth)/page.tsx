@@ -26,7 +26,10 @@ export default function Homepage() {
     <>
       {/* welcome */}
       <section className="py-4 px-2 bg-neutral-800 text-center">
-        <p className="block text-center mx-auto text-xs md:text-sm !my-0">
+        <p
+          className="inline-block 
+         text-xs md:text-sm !my-0"
+        >
           {/* retrieve all data dynamically */}
           {textContent?.section_1?.paragraph_1}
           {/** FIX: useTranslations for content */}
@@ -38,19 +41,21 @@ export default function Homepage() {
 
       {/* about us */}
       <section>
-        <HighlightCasaDourada>
-          {/* TextBlocks component - renders text content from json - 'public/data/home/text-content.json' */}
-          <TextBlocks
-            heading={textContent.section_2.heading}
-            headingLevel="h1"
-            content={textContent.section_2} // this renders multiple paragraphs related to the heading
-          />
-        </HighlightCasaDourada>
+        <div className="max-w-2xl mx-auto">
+          <HighlightCasaDourada>
+            {/* TextBlocks component - renders text content from json - 'public/data/home/text-content.json' */}
+            <TextBlocks
+              heading={textContent.section_2.heading}
+              headingLevel="h1"
+              content={textContent.section_2} // this renders multiple paragraphs related to the heading
+            />
+          </HighlightCasaDourada>
+        </div>
       </section>
 
       {/* offers */}
       <section>
-        <div className="container">
+        <div className="flex flex-col items-center justify-center">
           <TextBlocks
             heading={textContent.section_3.heading}
             headingLevel="h2"
@@ -64,13 +69,13 @@ export default function Homepage() {
 
       {/* faq */}
       <section>
-        <div className="container">
+        <div className="container mx-auto text-center">
           <TextBlocks
             heading={textContent.section_4.heading}
             headingLevel="h2"
             content={{}}
           />
-          <div className="mt-5 sm:mt-10">
+          <div className="mt-5 sm:mt-10 text-left">
             <CenteredAccordion data={faqs} />
           </div>
         </div>
