@@ -2,13 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-@import 'primereact/resources/themes/saga-blue/theme.css';
-@import 'primereact/resources/primereact.min.css';
-@import './primereact/index.css';
-
 /** Our in-house css - keep css MINIMAL
-Add SASS & minification
+    Add SASS & minification
 */
+
 @import 'body.css';
 @import 'fonts.css';
 @import 'typography.css';
+
+/** To be deleted when Tailwind hover class is working */
+@import 'temp.css';

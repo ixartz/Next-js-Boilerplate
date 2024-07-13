@@ -73,18 +73,5 @@
     "dashboard_link": "Dashboard_link",
     "user_profile_link": "User_profile_link",
     "sign_out": "Sign_out_link"
-  },
-
-  "Guestbook": {
-    "meta_title": "Guestbook",
-    "meta_description": "An example of CRUD operation",
-    "database_powered_by": "Database powered by",
-    "loading_guestbook": "Loading guestbook...",
-    "error_reporting_powered_by": "Error reporting powered by"
-  },
-  "GuestbookForm": {
-    "username": "Username",
-    "body": "Body",
-    "save": "Save"
   }
 }

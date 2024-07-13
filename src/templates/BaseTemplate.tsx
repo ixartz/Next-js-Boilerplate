@@ -19,7 +19,7 @@ const BaseTemplate = (props: {
                   alt={AppConfig.name}
                   loading="eager"
                   width={90}
-                  // height={40}
+                  height={34}
                 />
               </a>
               <nav>

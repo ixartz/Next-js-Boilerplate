@@ -1,0 +1,13 @@
+/** FIX: this should be done with Tailwind 'hover:' class.
+    hover is not working on some elements like links - need to fix this.
+    Then can remove this css
+.*/
+
+.temp-css a {
+  @apply border border-transparent rounded-3xl font-light transition-all duration-300 delay-100;
+}
+
+.temp-css a:hover {
+  @apply border border-green-500 text-green-500;
+  box-shadow: 0px 8px 26px -23px rgba(255, 255, 255, 0.75) inset;
+}

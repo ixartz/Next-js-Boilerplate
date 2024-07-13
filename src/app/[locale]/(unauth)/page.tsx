@@ -24,6 +24,7 @@ export default function Homepage() {
   return (
     <>
       {/* welcome */}
+      {/* sections have default responsive vertical padding which can be overridden */}
       <section id="1" className="p-0">
         <div className="px-2 py-4 bg-neutral-800 text-center">
           <p className="inline-block text-xs md:text-sm my-0 whitespace-pre-line">
@@ -41,7 +42,9 @@ export default function Homepage() {
           <HighlightCasa>
             {/* headings do not need css classes for responsive font sizing unless you want to override default */}
             <h1>{textContent?.section_2?.heading}</h1>
-            <p>{textContent?.section_2?.text}</p>
+            <p className="whitespace-pre-line">
+              {textContent?.section_2?.text}
+            </p>
           </HighlightCasa>
         </div>
       </section>
@@ -52,6 +55,7 @@ export default function Homepage() {
           {/* center items vertically and horizontally */}
           <div className="flex flex-col items-center justify-center">
             <h2>{textContent?.section_3?.heading}</h2>
+            {/* apply vertical margins outside of components */}
             <div className="mt-6 lg:mt-10">
               <FeatureImages />
             </div>
