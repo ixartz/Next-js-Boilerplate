@@ -1,10 +1,10 @@
 /** FIX: this should be done with Tailwind 'hover:' class.
-    hover is not working on some elements like links - need to fix this.
+    '<a hover:' is not working on some elements like links - need to fix this.
     Then can remove this css
 .*/
 
 .temp-css a {
-  @apply border border-transparent rounded-3xl font-light transition-all duration-300 delay-100;
+  @apply border border-transparent rounded-3xl font-light transition-all duration-300;
 }
 
 .temp-css a:hover {
@@ -12,14 +12,22 @@
   box-shadow: 0px 8px 26px -23px rgba(255, 255, 255, 0.75) inset;
 }
 
-a:hover {
-  @apply transition-all duration-300 delay-100
+a {
+  @apply transition-all duration-300;
 }
 
 /* FIX: this hack will be removed when Tailwind 'hover:' is working on all elements. */
-.-ml-2 a:hover {
-  @apply bg-blue-200;
+.-ml-2 a {
+  @apply bg-blue-400;
 }
-.-ml-2:first-child a:hover {
-  @apply bg-green-400;
+.-ml-2:first-child a {
+  @apply bg-green-500;
+}
+
+.-ml-2 a:hover {
+  @apply bg-blue-700;
+}
+.-ml-2:first-child a:hover,
+[aria-label='refresh']:hover {
+  @apply bg-green-700 text-white;
 }

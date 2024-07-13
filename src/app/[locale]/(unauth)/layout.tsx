@@ -1,8 +1,6 @@
 import { useTranslations } from 'next-intl'
-
-// import LocaleSwitcher from '@/components/LocaleSwitcher';
+import { Refresh } from '@mui/icons-material'
 import { BaseTemplate } from '@/templates/BaseTemplate'
-import ReloadIcon from '@/components/icons/ReloadIcon'
 import Button from '@/components/tailwind-ui/reusable/buttons'
 
 export default function Layout(props: { children: React.ReactNode }) {
@@ -97,10 +95,10 @@ export default function Layout(props: { children: React.ReactNode }) {
           <li>
             <a
               href="/"
-              className="border-none rounded-full bg-green block p-1"
+              className="border-none rounded-full bg-green block w-8 h-8 relative block"
               aria-label="refresh"
             >
-              <ReloadIcon />
+              <Refresh className="absolute top-1 left-1 w-6 h-6 rotate-45" />
             </a>
           </li>
         </>
