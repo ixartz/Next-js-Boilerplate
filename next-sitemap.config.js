@@ -17,7 +17,7 @@ const getFilesRecursively = (directory) => {
 
 module.exports = {
   siteUrl: process.env.SITE_URL || '',
-  generateRobotsTxt: true,
+  // generateRobotsTxt: true, //** FIX: when the site goes live, re-enable robots.txt creation */
   additionalPaths: async () => {
     const pagesDir = path.join(__dirname, 'src', 'app') //** ensure this directory is correct */
     const files = getFilesRecursively(pagesDir)
@@ -45,7 +45,7 @@ module.exports = {
     return paths
   },
 }
-// /** need to include blog in separate sitemap?
+// /** need to include blog in a separate sitemap
 // need to be able to prioritise certain pages
 // and include/exclude pages
 // https://www.npmjs.com/package/next-sitemap */

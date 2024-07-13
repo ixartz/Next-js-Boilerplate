@@ -1,9 +1,12 @@
-# *
 User-agent: *
-Allow: /
+Disallow: /
+
+# *
+# User-agent: *
+# Allow: /
 
 # Host
-Host: https://casadourada.bet
+# Host: https://casadourada.bet
 
 # Sitemaps
-Sitemap: https://casadourada.bet/sitemap.xml
+# Sitemap: https://casadourada.bet/sitemap.xml
