@@ -40,7 +40,7 @@ export default function Homepage() {
 
       {/* about us */}
       <section>
-        <div className="container mx-auto max-w-sm">
+        <div className="container mx-auto max-w-sm sm:max-w-2xl">
           <HighlightCasaDourada>
             {/* TextBlocks component - renders text content - 'public/data/home/text-content.json' */}
             <TextBlocks
@@ -54,7 +54,7 @@ export default function Homepage() {
 
       {/* offers */}
       <section className="mb-3 md:mb-5">
-        <div className="container mx-auto max-w-xs sm:max-w-2xl">
+        <div className="container mx-auto max-w-sm sm:max-w-2xl">
           <div className="flex flex-col items-center justify-center">
             <h2>{textContent.section_3.heading}</h2>
             <div className="mt-5 lg:mt-10">
@@ -66,7 +66,7 @@ export default function Homepage() {
 
       {/* faq */}
       <section>
-        <div className="container mx-auto max-w-xs sm:max-w-2xl md:max-w-2xl lg:max-w-5xl text-center">
+        <div className="container mx-auto max-w-sm sm:max-w-full md:max-w-2xl lg:max-w-5xl text-center">
           <h2>{textContent.section_4.heading}</h2>
           <div className="mt-5 sm:mt-10 text-left">
             <CenteredAccordion data={faqs} />
