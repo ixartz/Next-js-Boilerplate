@@ -39,6 +39,9 @@ export default {
       fontFamily: {
         custom: ['Lato Regular', 'sans-serif'],
       },
+      scale: {
+        '101': '1.1',
+      },
     },
   },
   plugins: [require('@tailwindcss/forms')],
