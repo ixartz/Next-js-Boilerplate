@@ -1,7 +1,7 @@
 import percySnapshot from '@percy/playwright';
 import { expect, test } from '@playwright/test';
 
-test.describe('Navigation', () => {
+test.describe('Visual testing', () => {
   test.describe('Static pages', () => {
     test('should take screenshot of the homepage', async ({ page }) => {
       await page.goto('/');
