@@ -45,12 +45,6 @@ jobs:
           cache: "npm"
       - run: npm ci
 
-      - name: Set SENTRY_AUTH_TOKEN env if secret exists
-        run: |
-          if [[ -n "${{ secrets.SENTRY_AUTH_TOKEN }}" ]]; then
-            echo "SENTRY_AUTH_TOKEN=${{ secrets.SENTRY_AUTH_TOKEN }}" >> $GITHUB_ENV
-          fi
-
       - name: Build Next.js for E2E tests
         run: npm run build
 
