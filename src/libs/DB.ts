@@ -14,11 +14,7 @@ import { Env } from './Env';
 let client;
 let drizzle: PgDatabase<any, any, any>;
 
-if (
-  process.env.NEXT_PHASE !== PHASE_PRODUCTION_BUILD &&
-  process.env.NODE_ENV === 'production' &&
-  Env.DATABASE_URL
-) {
+if (process.env.NEXT_PHASE !== PHASE_PRODUCTION_BUILD && Env.DATABASE_URL) {
   client = new Client({
     connectionString: Env.DATABASE_URL,
   });
