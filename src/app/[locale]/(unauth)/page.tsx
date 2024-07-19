@@ -1,4 +1,4 @@
-import { getTranslations } from 'next-intl/server';
+import { getTranslations, unstable_setRequestLocale } from 'next-intl/server';
 
 import { Sponsors } from '@/components/Sponsors';
 
@@ -14,7 +14,9 @@ export async function generateMetadata(props: { params: { locale: string } }) {
   };
 }
 
-export default function Index() {
+export default function Index(props: { params: { locale: string } }) {
+  unstable_setRequestLocale(props.params.locale);
+
   return (
     <>
       <p>

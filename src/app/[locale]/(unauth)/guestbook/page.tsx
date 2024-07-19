@@ -56,4 +56,6 @@ const Guestbook = () => {
   );
 };
 
+export const dynamic = 'force-dynamic';
+
 export default Guestbook;
