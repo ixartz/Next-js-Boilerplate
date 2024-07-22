@@ -47,6 +47,8 @@ jobs:
 
       - name: Build Next.js for E2E tests
         run: npm run build
+        env:
+          SENTRY_AUTH_TOKEN: ${{ secrets.SENTRY_AUTH_TOKEN }}
 
       - if: github.event_name == 'pull_request'
         name: Validate all commits from PR
