@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import { useTranslations } from 'next-intl';
-import { getTranslations } from 'next-intl/server';
+import { getTranslations, unstable_setRequestLocale } from 'next-intl/server';
 
 export async function generateMetadata(props: { params: { locale: string } }) {
   const t = await getTranslations({
@@ -14,7 +14,8 @@ export async function generateMetadata(props: { params: { locale: string } }) {
   };
 }
 
-export default function About() {
+export default function About(props: { params: { locale: string } }) {
+  unstable_setRequestLocale(props.params.locale);
   const t = useTranslations('About');
 
   return (

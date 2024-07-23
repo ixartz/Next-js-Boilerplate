@@ -46,3 +46,5 @@ export default function DashboardLayout(props: { children: React.ReactNode }) {
     </BaseTemplate>
   );
 }
+
+export const dynamic = 'force-dynamic';
