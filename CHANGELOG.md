@@ -1,3 +1,14 @@
+# [3.54.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.53.0...v3.54.0) (2024-07-23)
+
+
+### Features
+
+* add NODE_ENV in t3 env ([17c23f9](https://github.com/ixartz/Next-js-Boilerplate/commit/17c23f9bea037da9ab2ae93b9ecc883a919d9723))
+* add Sentry configuration in environment files and fix meta journal error in production ([2243510](https://github.com/ixartz/Next-js-Boilerplate/commit/2243510438d8b4e0670a309605852c817a6d8492))
+* enable static rendering with i18n ([e6ec268](https://github.com/ixartz/Next-js-Boilerplate/commit/e6ec2682de7d8a5f1b92be67f1fa1499f800f624))
+* middlware should not run for monitoring endpoint ([34b3c0c](https://github.com/ixartz/Next-js-Boilerplate/commit/34b3c0cb2cd732f937755e950197f03c765bdd15))
+* use defineConfig in drizzle.config.ts ([48893e5](https://github.com/ixartz/Next-js-Boilerplate/commit/48893e535bb4889dd83c97aa809a6081b1e9afbd))
+
 # [3.53.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.52.0...v3.53.0) (2024-06-26)
 
 
