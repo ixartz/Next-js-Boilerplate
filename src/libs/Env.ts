@@ -14,7 +14,7 @@ export const Env = createEnv({
     NEXT_PUBLIC_CLERK_SIGN_IN_URL: z.string().min(1),
   },
   shared: {
-    NODE_ENV: z.enum(['development', 'production']),
+    NODE_ENV: z.enum(['test', 'development', 'production']),
   },
   // You need to destructure all the keys manually
   runtimeEnv: {
