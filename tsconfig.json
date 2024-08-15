@@ -1,3 +1,4 @@
+/* eslint-disable jsonc/sort-keys */
 {
   "compilerOptions": {
     "lib": ["dom", "dom.iterable", "esnext"],

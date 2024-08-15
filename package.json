@@ -1,6 +1,7 @@
 {
   "name": "next-js-boilerplate",
   "version": "3.54.0",
+  "author": "Ixartz (https://github.com/ixartz)",
   "scripts": {
     "dev:spotlight": "spotlight-sidecar",
     "dev:next": "next dev",
@@ -10,7 +11,7 @@
     "build-stats": "cross-env ANALYZE=true npm run build",
     "clean": "rimraf .next .swc out coverage",
     "lint": "next lint",
-    "format": "next lint --fix && prettier '**/*.{json,yaml}' --write --ignore-path .gitignore",
+    "lint:fix": "next lint --fix",
     "check-types": "tsc --noEmit --pretty",
     "test": "vitest run",
     "commit": "cz",
@@ -47,11 +48,14 @@
     "zod": "^3.23.8"
   },
   "devDependencies": {
+    "@antfu/eslint-config": "^2.25.1",
     "@commitlint/cli": "^19.3.0",
     "@commitlint/config-conventional": "^19.2.2",
     "@commitlint/cz-commitlint": "^19.2.0",
+    "@eslint-react/eslint-plugin": "^1.9.1",
     "@faker-js/faker": "^8.4.1",
     "@next/bundle-analyzer": "^14.2.5",
+    "@next/eslint-plugin-next": "^14.2.5",
     "@percy/cli": "1.29.0",
     "@percy/playwright": "^1.0.6",
     "@playwright/test": "^1.45.3",
@@ -71,8 +75,6 @@
     "@types/node": "^20.14.11",
     "@types/pg": "^8.11.6",
     "@types/react": "^18.3.3",
-    "@typescript-eslint/eslint-plugin": "^7.17.0",
-    "@typescript-eslint/parser": "^7.17.0",
     "@vitejs/plugin-react": "^4.3.1",
     "@vitest/coverage-v8": "^2.0.4",
     "@vitest/expect": "^2.0.4",
@@ -84,24 +86,15 @@
     "dotenv-cli": "^7.4.2",
     "drizzle-kit": "^0.23.0",
     "eslint": "^8.57.0",
-    "eslint-config-airbnb": "^19.0.4",
-    "eslint-config-airbnb-typescript": "^18.0.0",
-    "eslint-config-next": "^14.2.5",
-    "eslint-config-prettier": "^9.1.0",
-    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-format": "^0.1.2",
     "eslint-plugin-jest-dom": "^5.4.0",
-    "eslint-plugin-jest-formatting": "^3.1.0",
     "eslint-plugin-jsx-a11y": "^6.9.0",
     "eslint-plugin-playwright": "^1.6.2",
-    "eslint-plugin-prettier": "^5.2.1",
-    "eslint-plugin-react": "^7.35.0",
     "eslint-plugin-react-hooks": "^4.6.2",
+    "eslint-plugin-react-refresh": "^0.4.9",
     "eslint-plugin-simple-import-sort": "^12.1.1",
-    "eslint-plugin-storybook": "^0.8.0",
     "eslint-plugin-tailwindcss": "^3.17.4",
-    "eslint-plugin-testing-library": "^6.2.2",
-    "eslint-plugin-unused-imports": "^3.2.0",
-    "eslint-plugin-vitest": "~0.4.1",
+    "eslint-plugin-testing-library": "^6.3.0",
     "http-server": "^14.1.1",
     "husky": "^9.1.1",
     "jiti": "^1.21.6",
@@ -109,7 +102,6 @@
     "lint-staged": "^15.2.7",
     "npm-run-all": "^4.1.5",
     "postcss": "^8.4.39",
-    "prettier": "^3.3.3",
     "rimraf": "^6.0.1",
     "semantic-release": "^24.0.0",
     "start-server-and-test": "^2.0.4",
@@ -119,6 +111,13 @@
     "vite-tsconfig-paths": "^4.3.2",
     "vitest": "^2.0.4",
     "vitest-fail-on-console": "^0.7.0"
+  },
+  "lint-staged": {
+    "*": [
+      "eslint --fix",
+      "eslint"
+    ],
+    "**/*.ts?(x)": "npm run check-types"
   },
   "config": {
     "commitizen": {
@@ -147,6 +146,5 @@
       "@semantic-release/git",
       "@semantic-release/github"
     ]
-  },
-  "author": "Ixartz (https://github.com/ixartz)"
+  }
 }
