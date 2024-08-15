@@ -112,13 +112,6 @@
     "vitest": "^2.0.4",
     "vitest-fail-on-console": "^0.7.0"
   },
-  "lint-staged": {
-    "*": [
-      "eslint --fix",
-      "eslint"
-    ],
-    "**/*.ts?(x)": "npm run check-types"
-  },
   "config": {
     "commitizen": {
       "path": "@commitlint/cz-commitlint"
