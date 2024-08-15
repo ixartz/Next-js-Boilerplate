@@ -10,7 +10,7 @@ export default function DashboardLayout(props: { children: React.ReactNode }) {
 
   return (
     <BaseTemplate
-      leftNav={
+      leftNav={(
         <>
           <li>
             <Link
@@ -29,8 +29,8 @@ export default function DashboardLayout(props: { children: React.ReactNode }) {
             </Link>
           </li>
         </>
-      }
-      rightNav={
+      )}
+      rightNav={(
         <>
           <li>
             <LogOutButton />
@@ -40,7 +40,7 @@ export default function DashboardLayout(props: { children: React.ReactNode }) {
             <LocaleSwitcher />
           </li>
         </>
-      }
+      )}
     >
       {props.children}
     </BaseTemplate>
