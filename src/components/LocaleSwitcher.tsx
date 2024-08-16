@@ -22,7 +22,7 @@ export default function LocaleSwitcher() {
       onChange={handleChange}
       className="border border-gray-300 font-medium focus:outline-none focus-visible:ring"
     >
-      {AppConfig.locales.map((elt) => (
+      {AppConfig.locales.map(elt => (
         <option key={elt} value={elt}>
           {elt.toUpperCase()}
         </option>

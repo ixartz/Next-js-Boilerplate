@@ -12,7 +12,7 @@ const EditableGuestbookEntry = (props: {
   const [isEditing, setIsEditing] = useState(false);
 
   const handleEdit = () => {
-    setIsEditing((value) => !value);
+    setIsEditing(value => !value);
   };
 
   return (
@@ -37,35 +37,40 @@ const EditableGuestbookEntry = (props: {
       </button>
 
       <div className="ml-1 grow">
-        {isEditing ? (
-          <GuestbookForm
-            edit
-            id={props.id}
-            defaultValues={{
-              username: props.username,
-              body: props.body,
-            }}
-            onValid={async (data) => {
-              await fetch(`/api/guestbook`, {
-                method: 'PUT',
-                headers: {
-                  'Content-Type': 'application/json',
-                },
-                body: JSON.stringify({
-                  id: props.id,
-                  ...data,
-                }),
-              });
+        {isEditing
+          ? (
+              <GuestbookForm
+                edit
+                id={props.id}
+                defaultValues={{
+                  username: props.username,
+                  body: props.body,
+                }}
+                onValid={async (data) => {
+                  await fetch(`/api/guestbook`, {
+                    method: 'PUT',
+                    headers: {
+                      'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                      id: props.id,
+                      ...data,
+                    }),
+                  });
 
-              setIsEditing(false);
-            }}
-          />
-        ) : (
-          <>
-            <span className="text-gray-500">{props.username}:</span>{' '}
-            <span className="text-gray-800">{props.body}</span>
-          </>
-        )}
+                  setIsEditing(false);
+                }}
+              />
+            )
+          : (
+              <>
+                <span className="text-gray-500">
+                  {`${props.username}:`}
+                </span>
+                {' '}
+                <span className="text-gray-800">{props.body}</span>
+              </>
+            )}
       </div>
     </>
   );

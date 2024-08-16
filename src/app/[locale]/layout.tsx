@@ -33,7 +33,7 @@ export const metadata: Metadata = {
 };
 
 export function generateStaticParams() {
-  return AppConfig.locales.map((locale) => ({ locale }));
+  return AppConfig.locales.map(locale => ({ locale }));
 }
 
 export default function RootLayout(props: {

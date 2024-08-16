@@ -57,6 +57,7 @@ export default antfu({
   rules: {
     'import/order': 'off', // Avoid conflicts with `simple-import-sort` plugin
     'style/brace-style': ['error', '1tbs'], // Use the default brace style
+    'ts/consistent-type-definitions': ['error', 'type'], // Use `type` instead of `interface`
     'react/prefer-destructuring-assignment': 'off', // Vscode doesn't support automatically destructuring, it's a pain to add a new variable
     'node/prefer-global/process': 'off', // Allow using `process.env`
     'test/index': 'error', // Add padding in test files, remove once https://github.com/vitest-dev/eslint-plugin-vitest/issues/509 is fixed

@@ -10,8 +10,8 @@ type IPortfolioDetailProps = {
 
 export function generateStaticParams() {
   return AppConfig.locales
-    .map((locale) =>
-      Array.from(Array(6).keys()).map((elt) => ({
+    .map(locale =>
+      Array.from(Array(6).keys()).map(elt => ({
         slug: `${elt}`,
         locale,
       })),
@@ -45,7 +45,6 @@ const PortfolioDetail = (props: IPortfolioDetailProps) => {
         <a
           className="text-blue-700 hover:border-b-2 hover:border-blue-700"
           href="https://betterstack.com/?utm_source=github&utm_medium=sponsorship&utm_campaign=next-js-boilerplate"
-          target="_blank"
         >
           Better Stack
         </a>
@@ -53,7 +52,6 @@ const PortfolioDetail = (props: IPortfolioDetailProps) => {
 
       <a
         href="https://betterstack.com/?utm_source=github&utm_medium=sponsorship&utm_campaign=next-js-boilerplate"
-        target="_blank"
       >
         <Image
           className="mx-auto mt-2"
