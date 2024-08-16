@@ -44,8 +44,7 @@ export default antfu({
   },
 }, {
   files: [
-    '**/*.test.ts',
-    '**/*.test.tsx',
+    '**/*.test.ts?(x)',
   ],
   ...testingLibrary.configs['flat/react'],
   ...jestDom.configs['flat/recommended'],
