@@ -29,8 +29,7 @@ export const POST = async (request: Request) => {
     return NextResponse.json({
       id: guestbook[0]?.id,
     });
-  }
-  catch (error) {
+  } catch (error) {
     logger.error(error, 'An error occurred while creating a guestbook');
 
     return NextResponse.json({}, { status: 500 });
@@ -57,8 +56,7 @@ export const PUT = async (request: Request) => {
     logger.info('A guestbook entry has been updated');
 
     return NextResponse.json({});
-  }
-  catch (error) {
+  } catch (error) {
     logger.error(error, 'An error occurred while updating a guestbook');
 
     return NextResponse.json({}, { status: 500 });
@@ -81,8 +79,7 @@ export const DELETE = async (request: Request) => {
     logger.info('A guestbook entry has been deleted');
 
     return NextResponse.json({});
-  }
-  catch (error) {
+  } catch (error) {
     logger.error(error, 'An error occurred while deleting a guestbook');
 
     return NextResponse.json({}, { status: 500 });

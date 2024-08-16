@@ -55,10 +55,11 @@ export default antfu({
   ...playwright.configs['flat/recommended'],
 }, {
   rules: {
-    'import/order': 'off', // Simple import sort is used to avoid conflicts
+    'import/order': 'off', // Avoid conflicts with `simple-import-sort` plugin
+    'style/brace-style': ['error', '1tbs'], // Use the default brace style
     'react/prefer-destructuring-assignment': 'off', // Vscode doesn't support automatically destructuring, it's a pain to add a new variable
-    'node/prefer-global/process': 'off', // Allow using process.env
+    'node/prefer-global/process': 'off', // Allow using `process.env`
     'test/index': 'error', // Add padding in test files, remove once https://github.com/vitest-dev/eslint-plugin-vitest/issues/509 is fixed
-    'test/prefer-lowercase-title': 'off',
+    'test/prefer-lowercase-title': 'off', // Allow using uppercase titles in test titles
   },
 });
