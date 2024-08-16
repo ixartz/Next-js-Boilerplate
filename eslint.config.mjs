@@ -23,8 +23,9 @@ export default antfu({
   },
 
   ignores: [
-    'next-env.d.ts',
     'migrations/**/*',
+    'next-env.d.ts',
+    'package-lock.json',
   ],
 }, ...tailwind.configs['flat/recommended'], jsxA11y.flatConfigs.recommended, {
   plugins: {

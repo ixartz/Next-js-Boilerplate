@@ -83,8 +83,6 @@ export const DELETE = async (request: Request) => {
     return NextResponse.json({});
   }
   catch (error) {
-    console.log('test');
-
     logger.error(error, 'An error occurred while deleting a guestbook');
 
     return NextResponse.json({}, { status: 500 });
