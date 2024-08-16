@@ -56,7 +56,8 @@ export default antfu({
 }, {
   rules: {
     'react/prefer-destructuring-assignment': 'off', // Vscode doesn't support automatically destructuring, it's a pain to add a new variable
-    'test/index': 'error',
+    'node/prefer-global/process': 'off', // Allow using process.env
+    'test/index': 'error', // Add padding in test files, remove once https://github.com/vitest-dev/eslint-plugin-vitest/issues/509 is fixed
     'test/prefer-lowercase-title': 'off',
   },
 });
