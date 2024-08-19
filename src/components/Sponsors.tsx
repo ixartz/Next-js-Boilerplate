@@ -1,3 +1,4 @@
+/* eslint-disable react-dom/no-unsafe-target-blank */
 import Image from 'next/image';
 
 const Sponsors = () => (
@@ -8,6 +9,7 @@ const Sponsors = () => (
           <a
             href="https://clerk.com?utm_source=github&utm_medium=sponsorship&utm_campaign=nextjs-boilerplate"
             target="_blank"
+            rel="noopener"
           >
             <Image
               src="/assets/images/clerk-logo-dark.png"
@@ -18,7 +20,7 @@ const Sponsors = () => (
           </a>
         </td>
         <td className="border-2 border-gray-300 p-3">
-          <a href="https://l.crowdin.com/next-js" target="_blank">
+          <a href="https://l.crowdin.com/next-js" target="_blank" rel="noopener">
             <Image
               src="https://support.crowdin.com/assets/logos/core-logo/svg/crowdin-core-logo-cDark.svg"
               alt="Crowdin"
@@ -31,6 +33,7 @@ const Sponsors = () => (
           <a
             href="https://sentry.io/for/nextjs/?utm_source=github&utm_medium=paid-community&utm_campaign=general-fy25q1-nextjs&utm_content=github-banner-nextjsboilerplate-logo"
             target="_blank"
+            rel="noopener"
           >
             <Image
               src="/assets/images/sentry-dark.png"
@@ -46,6 +49,7 @@ const Sponsors = () => (
           <a
             href="https://posthog.com/?utm_source=github&utm_medium=sponsorship&utm_campaign=next-js-boilerplate"
             target="_blank"
+            rel="noopener"
           >
             <Image
               src="https://posthog.com/brand/posthog-logo.svg"
@@ -59,6 +63,7 @@ const Sponsors = () => (
           <a
             href="https://betterstack.com/?utm_source=github&utm_medium=sponsorship&utm_campaign=next-js-boilerplate"
             target="_blank"
+            rel="noopener"
           >
             <Image
               src="/assets/images/better-stack-dark.png"
@@ -72,6 +77,7 @@ const Sponsors = () => (
           <a
             href="https://www.checklyhq.com/?utm_source=github&utm_medium=sponsorship&utm_campaign=next-js-boilerplate"
             target="_blank"
+            rel="noopener"
           >
             <Image
               src="/assets/images/checkly-logo-light.png"

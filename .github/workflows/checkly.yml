@@ -25,7 +25,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
         with:
-          ref: "${{ github.event.deployment_status.deployment.ref }}"
+          ref: '${{ github.event.deployment_status.deployment.ref }}'
           fetch-depth: 0
 
       - name: Set branch name # workaround to detect branch name in "deployment_status" actions
@@ -34,7 +34,7 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.node-version }}
-          cache: "npm"
+          cache: npm
 
       - name: Restore or cache node_modules
         id: cache-node-modules

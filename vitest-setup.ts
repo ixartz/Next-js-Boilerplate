@@ -1,4 +1,3 @@
-/* eslint-disable import/no-extraneous-dependencies */
 import '@testing-library/jest-dom/vitest';
 
 import failOnConsole from 'vitest-fail-on-console';

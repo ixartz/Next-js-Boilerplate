@@ -11,13 +11,13 @@ describe('Base template', () => {
       render(
         <NextIntlClientProvider locale="en" messages={messages}>
           <BaseTemplate
-            leftNav={
+            leftNav={(
               <>
                 <li>link 1</li>
                 <li>link 2</li>
                 <li>link 3</li>
               </>
-            }
+            )}
           >
             {null}
           </BaseTemplate>

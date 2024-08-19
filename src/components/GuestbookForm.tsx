@@ -10,15 +10,15 @@ import { GuestbookValidation } from '@/validations/GuestbookValidation';
 
 type IGuestbookFormProps =
   | {
-      edit: true;
-      id: number;
-      defaultValues: z.infer<typeof GuestbookValidation>;
-      onValid: SubmitHandler<z.infer<typeof GuestbookValidation>>;
-    }
+    edit: true;
+    id: number;
+    defaultValues: z.infer<typeof GuestbookValidation>;
+    onValid: SubmitHandler<z.infer<typeof GuestbookValidation>>;
+  }
   | {
-      edit?: false;
-      onValid: SubmitHandler<z.infer<typeof GuestbookValidation>>;
-    };
+    edit?: false;
+    onValid: SubmitHandler<z.infer<typeof GuestbookValidation>>;
+  };
 
 const GuestbookForm = (props: IGuestbookFormProps) => {
   const {

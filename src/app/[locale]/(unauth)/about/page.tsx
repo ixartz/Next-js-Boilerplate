@@ -27,13 +27,12 @@ export default function About(props: { params: { locale: string } }) {
         <a
           className="text-blue-700 hover:border-b-2 hover:border-blue-700"
           href="https://l.crowdin.com/next-js"
-          target="_blank"
         >
           Crowdin
         </a>
       </div>
 
-      <a href="https://l.crowdin.com/next-js" target="_blank">
+      <a href="https://l.crowdin.com/next-js">
         <Image
           className="mx-auto mt-2"
           src="https://support.crowdin.com/assets/logos/core-logo/svg/crowdin-core-logo-cDark.svg"
