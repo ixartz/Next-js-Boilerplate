@@ -1,3 +1,19 @@
+# [3.55.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.54.0...v3.55.0) (2024-08-19)
+
+
+### Features
+
+* remove target='blank' in badge ([b033c2e](https://github.com/ixartz/Next-js-Boilerplate/commit/b033c2e1f4ebdff7914ea81830e1c54b5b1a3d96))
+* use new ESLint flat config ([8f31536](https://github.com/ixartz/Next-js-Boilerplate/commit/8f31536f29ce6599fb9ccbfae8dc176080a9215d))
+
+
+### Reverts
+
+* add back lint-staged file configuration ([5c51a94](https://github.com/ixartz/Next-js-Boilerplate/commit/5c51a94147c325ec2a10ea1c7a8f2060397ec32b))
+* comment pre-commit script ([e9d6c7a](https://github.com/ixartz/Next-js-Boilerplate/commit/e9d6c7a34c1dad2b1fb706c300646f098b6437b1))
+* pre-commit script used by Husky ([21acf33](https://github.com/ixartz/Next-js-Boilerplate/commit/21acf33b96dab666587688ea1dfb08c7f5f1ddf4))
+* use default code from next-intl in global.d.ts ([0343b2f](https://github.com/ixartz/Next-js-Boilerplate/commit/0343b2f043480716866350b221a7e986759e6dc6))
+
 # [3.54.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.53.0...v3.54.0) (2024-07-23)
 
 
