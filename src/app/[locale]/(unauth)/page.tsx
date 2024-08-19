@@ -55,7 +55,7 @@ export default function Index(props: { params: { locale: string } }) {
           🚀
         </span>{' '}
         Next.js Boilerplate is a developer-friendly starter code for Next.js
-        projects, built with Tailwind CSS, and TypeScript.{' '}
+        projects, built with Tailwind CSS, and boss.{' '}
         <span role="img" aria-label="zap">
           ⚡️
         </span>{' '}
