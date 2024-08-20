@@ -13,7 +13,8 @@
   },
   "Index": {
     "meta_title": "Présentation de Next.js Boilerplate",
-    "meta_description": "Next js Boilerplate est le code de démarrage parfait pour votre projet. Construisez votre application React avec le framework Next.js."
+    "meta_description": "Next js Boilerplate est le code de démarrage parfait pour votre projet. Construisez votre application React avec le framework Next.js.",
+    "sponsors_title": "Partenaires"
   },
   "Guestbook": {
     "meta_title": "Livre d'or",
