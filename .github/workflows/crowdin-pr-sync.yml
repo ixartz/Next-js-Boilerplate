@@ -1,8 +1,6 @@
 name: Crowdin Action PR sync
 
 on:
-  push:
-    branches: [main]
   pull_request:
     branches: [main]
 
@@ -15,12 +13,13 @@ jobs:
       - uses: actions/checkout@v3
 
       - name: crowdin action
-        uses: crowdin/github-action@v1
+        uses: crowdin/github-action@v2
         with:
           upload_sources: true
           upload_translations: true
           download_translations: true
           create_pull_request: false
+          localization_branch_name: ${{ github.head_ref || github.ref_name }} # explanation here: https://stackoverflow.com/a/71158878
           commit_message: 'chore: new Crowdin translations by GitHub Action'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
