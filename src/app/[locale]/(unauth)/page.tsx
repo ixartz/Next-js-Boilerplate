@@ -1,3 +1,4 @@
+import { useTranslations } from 'next-intl';
 import { getTranslations, unstable_setRequestLocale } from 'next-intl/server';
 
 import { Sponsors } from '@/components/Sponsors';
@@ -16,6 +17,7 @@ export async function generateMetadata(props: { params: { locale: string } }) {
 
 export default function Index(props: { params: { locale: string } }) {
   unstable_setRequestLocale(props.params.locale);
+  const t = useTranslations('Index');
 
   return (
     <>
@@ -46,7 +48,7 @@ export default function Index(props: { params: { locale: string } }) {
         Their services integrate seamlessly with the boilerplate, and we
         recommend trying them out.
       </p>
-      <h2 className="mt-5 text-2xl font-bold">Sponsors</h2>
+      <h2 className="mt-5 text-2xl font-bold">{t('sponsors_title')}</h2>
       <Sponsors />
       <h2 className="mt-5 text-2xl font-bold">
         Boilerplate Code for Your Next.js Project with Tailwind CSS

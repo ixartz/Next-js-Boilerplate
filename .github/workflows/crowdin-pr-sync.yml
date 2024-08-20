@@ -1,0 +1,28 @@
+name: Crowdin Action PR sync
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  synchronize-with-crowdin:
+    name: Synchronize with Crowdin
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: crowdin action
+        uses: crowdin/github-action@v1
+        with:
+          upload_sources: true
+          upload_translations: true
+          download_translations: true
+          create_pull_request: false
+          commit_message: 'chore: new Crowdin translations by GitHub Action'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
+          CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
