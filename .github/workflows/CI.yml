@@ -87,7 +87,7 @@ jobs:
           retention-days: 7
 
   synchronize-with-crowdin:
-    name: Synchronize with Crowdin
+    name: GitHub PR synchronize with Crowdin
     runs-on: ubuntu-latest
 
     needs: [build, test]
