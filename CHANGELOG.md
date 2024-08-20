@@ -1,3 +1,11 @@
+## [3.55.1](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.55.0...v3.55.1) (2024-08-20)
+
+
+### Bug Fixes
+
+* resolve lint sort conflicts ([b9d3de1](https://github.com/ixartz/Next-js-Boilerplate/commit/b9d3de1212b6b77cd61277edce354c290fc3fd86))
+* resolve lint sort conflicts with simple-import-sort ([544c541](https://github.com/ixartz/Next-js-Boilerplate/commit/544c54197ee74930c01b0d28cfd250c6bc384080))
+
 # [3.55.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.54.0...v3.55.0) (2024-08-19)
 
 
