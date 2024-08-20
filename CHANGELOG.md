@@ -1,3 +1,16 @@
+## [3.55.2](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.55.1...v3.55.2) (2024-08-20)
+
+
+### Bug Fixes
+
+* add crowdin synchronize in CI action ([9402e5e](https://github.com/ixartz/Next-js-Boilerplate/commit/9402e5ee4c3e2b8dcb42fe38425b5e93247347c3))
+* automatically sync translation with Crowdin for each PR ([d4ea7d5](https://github.com/ixartz/Next-js-Boilerplate/commit/d4ea7d5ed3e06f468c0cbd57a343c2925672fa1f))
+* automatically sync translation with Crowdin for each PR ([eeb4216](https://github.com/ixartz/Next-js-Boilerplate/commit/eeb421668bcd0dc3fe09c8e9dea8c194e02207e2))
+* checkout HEAD commit instead of the merge commit ([60bfd65](https://github.com/ixartz/Next-js-Boilerplate/commit/60bfd65d83e6e148c47703f4a94e11e1858d70c2))
+* git checkout history in crowdin pr sync action ([5a2fedf](https://github.com/ixartz/Next-js-Boilerplate/commit/5a2fedf951f11c5d4e911e1b9c94dd1018d78df6))
+* only run crowdin pr sync when CI workflow pass ([cc4a9a8](https://github.com/ixartz/Next-js-Boilerplate/commit/cc4a9a80c5c7ffa42bc0ad4a843f037f249ca423))
+* upgrade GitHub actions dependencies ([7b5edfe](https://github.com/ixartz/Next-js-Boilerplate/commit/7b5edfe8ad7fad28e66a8ce92d63d2dd3e9dfbbe))
+
 ## [3.55.1](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.55.0...v3.55.1) (2024-08-20)
 
 
