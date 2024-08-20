@@ -13,7 +13,8 @@
   },
   "Index": {
     "meta_title": "Next.js Boilerplate Presentation",
-    "meta_description": "Next js Boilerplate is the perfect starter code for your project. Build your React application with the Next.js framework."
+    "meta_description": "Next js Boilerplate is the perfect starter code for your project. Build your React application with the Next.js framework.",
+    "sponsors_title": "Sponsors"
   },
   "Guestbook": {
     "meta_title": "Guestbook",
