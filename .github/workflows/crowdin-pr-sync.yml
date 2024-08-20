@@ -1,8 +1,12 @@
 name: Crowdin Action PR sync
 
 on:
-  pull_request:
-    branches: [main]
+  workflow_run:
+    workflows: [CI]
+    types:
+      - completed
+    branches-ignore:
+      - main
 
 jobs:
   synchronize-with-crowdin:
