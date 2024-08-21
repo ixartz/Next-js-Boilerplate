@@ -1,3 +1,10 @@
+## [3.55.3](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.55.2...v3.55.3) (2024-08-21)
+
+
+### Bug Fixes
+
+* update checkly configuration and use playwright baseURl in Checkly ([4a458f3](https://github.com/ixartz/Next-js-Boilerplate/commit/4a458f328f100f427007ec9bd5c7a02e45c55a12))
+
 ## [3.55.2](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.55.1...v3.55.2) (2024-08-20)
 
 
