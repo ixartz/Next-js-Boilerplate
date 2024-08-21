@@ -1,10 +1,19 @@
 import { defineConfig } from 'checkly';
 import { EmailAlertChannel, Frequency } from 'checkly/constructs';
 
+const sendDefaults = {
+  sendFailure: true,
+  sendRecovery: true,
+  sendDegraded: true,
+};
+
+// FIXME: Add your production URL
+const productionURL = 'https://test-checkly2.vercel.app';
+
 const emailChannel = new EmailAlertChannel('email-channel-1', {
   // FIXME: add your own email address, Checkly will send you an email notification if a check fails
   address: 'contact@creativedesignsguru.com',
-  sendDegraded: true,
+  ...sendDefaults,
 });
 
 export const config = defineConfig({
@@ -15,18 +24,19 @@ export const config = defineConfig({
   checks: {
     locations: ['us-east-1', 'eu-west-1'],
     tags: ['website'],
-    runtimeId: '2023.09',
-    environmentVariables: [
-      {
-        key: 'PRODUCTION_URL',
-        // FIXME: Add your own production URL
-        value: 'https://google.com',
-      },
-    ],
+    runtimeId: '2024.02',
     browserChecks: {
       frequency: Frequency.EVERY_24H,
       testMatch: '**/tests/e2e/**/*.check.spec.ts',
       alertChannels: [emailChannel],
+    },
+    playwrightConfig: {
+      use: {
+        baseURL: process.env.ENVIRONMENT_URL || productionURL,
+        extraHTTPHeaders: {
+          'x-vercel-protection-bypass': process.env.VERCEL_BYPASS_TOKEN,
+        },
+      },
     },
   },
   cli: {

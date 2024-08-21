@@ -5,7 +5,6 @@ on: [deployment_status]
 env:
   CHECKLY_API_KEY: ${{ secrets.CHECKLY_API_KEY }}
   CHECKLY_ACCOUNT_ID: ${{ secrets.CHECKLY_ACCOUNT_ID }}
-  ENVIRONMENT_URL: ${{ github.event.deployment_status.environment_url }}
   CHECKLY_TEST_ENVIRONMENT: ${{ github.event.deployment_status.environment }}
 
 jobs:
@@ -49,7 +48,10 @@ jobs:
 
       - name: Run checks # run the checks passing in the ENVIRONMENT_URL and recording a test session.
         id: run-checks
-        run: npx checkly test -e ENVIRONMENT_URL=${{ env.ENVIRONMENT_URL }} --reporter=github --record
+        run: npx checkly test --reporter=github --record
+        env:
+          VERCEL_BYPASS_TOKEN: ${{ secrets.VERCEL_BYPASS_TOKEN }}
+          ENVIRONMENT_URL: ${{ github.event.deployment_status.environment_url }}
 
       - name: Create summary # export the markdown report to the job summary.
         id: create-summary
