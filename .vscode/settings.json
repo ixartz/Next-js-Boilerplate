@@ -31,7 +31,8 @@
   // Auto fix with ESLint on save
   "editor.codeActionsOnSave": [
     "source.addMissingImports",
-    "source.fixAll.eslint"
+    "source.fixAll.eslint",
+    "source.organizeImports"
   ],
 
   // Enable eslint for all supported languages
@@ -57,5 +58,24 @@
     "pcss",
     "postcss",
     "github-actions-workflow"
-  ]
+  ],
+  "workbench.colorCustomizations": {
+    "activityBar.activeBackground": "#44BBA4",
+    "activityBar.background": "#44BBA4",
+    "activityBar.foreground": "#15202b",
+    "activityBar.inactiveForeground": "#15202b99",
+    "activityBarBadge.background": "#c45b62",
+    "activityBarBadge.foreground": "#e7e7e7",
+    "commandCenter.border": "#15202b99",
+    "sash.hoverBorder": "#44BBA4",
+    "statusBar.background": "#44BBA4",
+    "statusBar.foreground": "#15202b",
+    "statusBarItem.hoverBackground": "#359268",
+    "statusBarItem.remoteBackground": "#44BBA4",
+    "statusBarItem.remoteForeground": "#15202b",
+    "titleBar.activeBackground": "#44BBA4",
+    "titleBar.activeForeground": "#15202b",
+    "titleBar.inactiveBackground": "#44BBA499",
+    "titleBar.inactiveForeground": "#15202b99"
+  }
 }
