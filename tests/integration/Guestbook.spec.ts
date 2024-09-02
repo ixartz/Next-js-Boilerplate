@@ -21,6 +21,7 @@ test.describe('Guestbook', () => {
           id: createJson.id,
         },
       });
+
       expect(del.status()).toBe(200);
     });
   });

@@ -7,6 +7,7 @@ test.describe('Guestbook', () => {
       page,
     }) => {
       await page.goto('/guestbook');
+
       await expect(page.getByText('Username')).toBeVisible();
 
       const username = faker.internet.userName();
@@ -34,6 +35,7 @@ test.describe('Guestbook', () => {
 
       // Delete
       await guestbookList.locator('button[aria-label=delete]').last().click();
+
       await expect(guestbookList.getByText(updatedUsername)).toBeHidden();
     });
   });
