@@ -28,6 +28,7 @@ test.describe('Sanity', () => {
       await page.goto(`${baseURL}/`);
 
       await page.getByRole('link', { name: 'About' }).click();
+
       await expect(page).toHaveURL(/about$/);
 
       await expect(
@@ -39,6 +40,7 @@ test.describe('Sanity', () => {
       await page.goto(`${baseURL}/`);
 
       await page.getByRole('link', { name: 'Portfolio' }).click();
+
       await expect(page).toHaveURL(/portfolio$/);
 
       await expect(
