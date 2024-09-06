@@ -16,17 +16,20 @@
     "meta_description": "Next js Boilerplate is the perfect starter code for your project. Build your React application with the Next.js framework.",
     "sponsors_title": "Sponsors"
   },
-  "Guestbook": {
-    "meta_title": "Guestbook",
-    "meta_description": "An example of CRUD operation",
+  "Counter": {
+    "meta_title": "Counter",
+    "meta_description": "An example of DB operation",
     "database_powered_by": "Database powered by",
-    "loading_guestbook": "Loading guestbook...",
+    "loading_counter": "Loading counter...",
     "error_reporting_powered_by": "Error reporting powered by"
   },
   "CounterForm": {
     "description": "The counter is stored in the database and incremented by the value you provide.",
     "label_increment": "Increment by",
     "button_increment": "Increment"
+  },
+  "CurrentCount": {
+    "count": "Count: {count}"
   },
   "About": {
     "meta_title": "About",

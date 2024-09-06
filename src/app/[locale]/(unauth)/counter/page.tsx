@@ -9,7 +9,7 @@ import { CurrentCount } from '@/components/CurrentCount';
 export async function generateMetadata(props: { params: { locale: string } }) {
   const t = await getTranslations({
     locale: props.params.locale,
-    namespace: 'Guestbook',
+    namespace: 'Counter',
   });
 
   return {
@@ -19,14 +19,14 @@ export async function generateMetadata(props: { params: { locale: string } }) {
 }
 
 const Counter = () => {
-  const t = useTranslations('Guestbook');
+  const t = useTranslations('Counter');
 
   return (
     <>
       <CounterForm />
 
       <div className="mt-3">
-        <Suspense fallback={<p>{t('loading_guestbook')}</p>}>
+        <Suspense fallback={<p>{t('loading_counter')}</p>}>
           <CurrentCount />
         </Suspense>
       </div>
