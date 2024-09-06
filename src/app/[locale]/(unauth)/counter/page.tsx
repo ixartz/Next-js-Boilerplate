@@ -3,8 +3,8 @@ import { useTranslations } from 'next-intl';
 import { getTranslations } from 'next-intl/server';
 import { Suspense } from 'react';
 
-import { CounterForm } from '@/components/GuestbookForm';
-import { CurrentCount } from '@/components/GuestbookList';
+import { CounterForm } from '@/components/CounterForm';
+import { CurrentCount } from '@/components/CurrentCount';
 
 export async function generateMetadata(props: { params: { locale: string } }) {
   const t = await getTranslations({
