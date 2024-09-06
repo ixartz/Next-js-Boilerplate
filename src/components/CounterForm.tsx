@@ -9,7 +9,7 @@ import type { z } from 'zod';
 import { CounterValidation } from '@/validations/CounterValidation';
 
 const CounterForm = () => {
-  const t = useTranslations('GuestbookForm');
+  const t = useTranslations('CounterForm');
   const {
     handleSubmit,
     register,
@@ -38,10 +38,10 @@ const CounterForm = () => {
 
   return (
     <form onSubmit={handleIncrement}>
-      <p>The counter is stored in the database and incremented by the value you provide.</p>
+      <p>{t('description')}</p>
       <div>
         <label className="text-sm font-bold text-gray-700" htmlFor="increment">
-          Increment by
+          {t('label_increment')}
           <input
             id="increment"
             type="number"
@@ -60,7 +60,7 @@ const CounterForm = () => {
           className="rounded bg-blue-500 px-5 py-1 font-bold text-white hover:bg-blue-600 focus:outline-none focus:ring focus:ring-blue-300/50"
           type="submit"
         >
-          Increment
+          {t('button_increment')}
         </button>
       </div>
     </form>

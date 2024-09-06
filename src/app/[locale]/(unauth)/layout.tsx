@@ -37,7 +37,7 @@ export default function Layout(props: {
               href="/counter/"
               className="border-none text-gray-700 hover:text-gray-900"
             >
-              {t('guestbook_link')}
+              {t('counter_link')}
             </Link>
           </li>
           <li>

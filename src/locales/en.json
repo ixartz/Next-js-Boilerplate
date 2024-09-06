@@ -2,7 +2,7 @@
   "RootLayout": {
     "home_link": "Home",
     "about_link": "About",
-    "guestbook_link": "Guestbook",
+    "counter_link": "Counter",
     "portfolio_link": "Portfolio",
     "sign_in_link": "Sign in",
     "sign_up_link": "Sign up"
@@ -23,10 +23,10 @@
     "loading_guestbook": "Loading guestbook...",
     "error_reporting_powered_by": "Error reporting powered by"
   },
-  "GuestbookForm": {
-    "username": "Username",
-    "body": "Body",
-    "save": "Save"
+  "CounterForm": {
+    "description": "The counter is stored in the database and incremented by the value you provide.",
+    "label_increment": "Increment by",
+    "button_increment": "Increment"
   },
   "About": {
     "meta_title": "About",
