@@ -3,8 +3,8 @@ import { useTranslations } from 'next-intl';
 import { getTranslations } from 'next-intl/server';
 import { Suspense } from 'react';
 
-import { GuestbookForm } from '@/components/GuestbookForm';
-import { GuestbookList } from '@/components/GuestbookList';
+import { CounterForm } from '@/components/GuestbookForm';
+import { CurrentCount } from '@/components/GuestbookList';
 
 export async function generateMetadata(props: { params: { locale: string } }) {
   const t = await getTranslations({
@@ -18,16 +18,16 @@ export async function generateMetadata(props: { params: { locale: string } }) {
   };
 }
 
-const Guestbook = () => {
+const Counter = () => {
   const t = useTranslations('Guestbook');
 
   return (
     <>
-      <GuestbookForm />
+      <CounterForm />
 
       <div className="mt-3">
         <Suspense fallback={<p>{t('loading_guestbook')}</p>}>
-          <GuestbookList />
+          <CurrentCount />
         </Suspense>
       </div>
 
@@ -58,4 +58,4 @@ const Guestbook = () => {
 
 export const dynamic = 'force-dynamic';
 
-export default Guestbook;
+export default Counter;

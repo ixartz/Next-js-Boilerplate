@@ -6,9 +6,9 @@ import { useTranslations } from 'next-intl';
 import { useForm } from 'react-hook-form';
 import type { z } from 'zod';
 
-import { CounterValidation } from '@/validations/GuestbookValidation';
+import { CounterValidation } from '@/validations/CounterValidation';
 
-const GuestbookForm = () => {
+const CounterForm = () => {
   const t = useTranslations('GuestbookForm');
   const {
     handleSubmit,
@@ -24,7 +24,7 @@ const GuestbookForm = () => {
   const router = useRouter();
 
   const handleIncrement = handleSubmit(async (data) => {
-    await fetch(`/api/guestbook`, {
+    await fetch(`/api/counter`, {
       method: 'PUT',
       headers: {
         'Content-Type': 'application/json',
@@ -67,4 +67,4 @@ const GuestbookForm = () => {
   );
 };
 
-export { GuestbookForm };
+export { CounterForm };

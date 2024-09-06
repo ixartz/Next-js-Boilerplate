@@ -6,7 +6,7 @@ import { logger } from '@/libs/Logger';
 import { counterSchema } from '@/models/Schema';
 import {
   CounterValidation,
-} from '@/validations/GuestbookValidation';
+} from '@/validations/CounterValidation';
 
 export const PUT = async (request: Request) => {
   const json = await request.json();

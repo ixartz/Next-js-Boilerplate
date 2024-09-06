@@ -1,7 +1,7 @@
 import { db } from '@/libs/DB';
 import { logger } from '@/libs/Logger';
 
-const GuestbookList = async () => {
+const CurrentCount = async () => {
   const result = await db.query.counterSchema.findFirst();
   const count = result?.count ?? 0;
 
@@ -16,4 +16,4 @@ const GuestbookList = async () => {
   );
 };
 
-export { GuestbookList };
+export { CurrentCount };
