@@ -1,9 +1,8 @@
-import { pgTable, serial, text, timestamp } from 'drizzle-orm/pg-core';
+import { integer, pgTable, serial, timestamp } from 'drizzle-orm/pg-core';
 
-export const guestbookSchema = pgTable('guestbook', {
+export const counterSchema = pgTable('counter', {
   id: serial('id').primaryKey(),
-  username: text('username').notNull(),
-  body: text('body').notNull(),
+  count: integer('count').default(0),
   updatedAt: timestamp('updated_at', { mode: 'date' })
     .defaultNow()
     .$onUpdate(() => new Date())

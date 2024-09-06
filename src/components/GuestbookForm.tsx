@@ -3,89 +3,64 @@
 import { zodResolver } from '@hookform/resolvers/zod';
 import { useRouter } from 'next/navigation';
 import { useTranslations } from 'next-intl';
-import { type SubmitHandler, useForm } from 'react-hook-form';
+import { useForm } from 'react-hook-form';
 import type { z } from 'zod';
 
-import { GuestbookValidation } from '@/validations/GuestbookValidation';
+import { CounterValidation } from '@/validations/GuestbookValidation';
 
-type IGuestbookFormProps =
-  | {
-    edit: true;
-    id: number;
-    defaultValues: z.infer<typeof GuestbookValidation>;
-    onValid: SubmitHandler<z.infer<typeof GuestbookValidation>>;
-  }
-  | {
-    edit?: false;
-    onValid: SubmitHandler<z.infer<typeof GuestbookValidation>>;
-  };
-
-const GuestbookForm = (props: IGuestbookFormProps) => {
+const GuestbookForm = () => {
+  const t = useTranslations('GuestbookForm');
   const {
     handleSubmit,
     register,
     reset,
     formState: { errors },
-  } = useForm<z.infer<typeof GuestbookValidation>>({
-    resolver: zodResolver(GuestbookValidation),
-    defaultValues: props.edit ? props.defaultValues : undefined,
+  } = useForm<z.infer<typeof CounterValidation>>({
+    resolver: zodResolver(CounterValidation),
+    defaultValues: {
+      increment: 0,
+    },
   });
   const router = useRouter();
-  const t = useTranslations('GuestbookForm');
 
-  const handleCreate = handleSubmit(async (data) => {
-    await props.onValid(data);
+  const handleIncrement = handleSubmit(async (data) => {
+    await fetch(`/api/guestbook`, {
+      method: 'PUT',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(data),
+    });
 
     reset();
     router.refresh();
   });
 
   return (
-    <form onSubmit={handleCreate}>
+    <form onSubmit={handleIncrement}>
+      <p>The counter is stored in the database and incremented by the value you provide.</p>
       <div>
-        <label
-          className="text-sm font-bold text-gray-700"
-          htmlFor={`username${props.edit ? `-${props.id}` : ''}`}
-        >
-          {t('username')}
+        <label className="text-sm font-bold text-gray-700" htmlFor="increment">
+          Increment by
           <input
-            id={`username${props.edit ? `-${props.id}` : ''}`}
-            className="mt-2 w-full appearance-none rounded border px-3 py-2 leading-tight text-gray-700 focus:outline-none focus:ring focus:ring-blue-300/50"
-            {...register('username')}
+            id="increment"
+            type="number"
+            className="ml-2 w-32 appearance-none rounded border px-2 py-1 text-sm leading-tight text-gray-700 focus:outline-none focus:ring focus:ring-blue-300/50"
+            {...register('increment')}
           />
         </label>
-        {errors.username?.message && (
-          <div className="my-2 text-xs italic text-red-500">
-            {errors.username?.message}
-          </div>
+
+        {errors.increment?.message && (
+          <div className="my-2 text-xs italic text-red-500">{errors.increment?.message}</div>
         )}
       </div>
 
-      <div className="mt-3">
-        <label
-          className="text-sm font-bold text-gray-700"
-          htmlFor={`body${props.edit ? `-${props.id}` : ''}`}
-        >
-          {t('body')}
-          <input
-            id={`body${props.edit ? `-${props.id}` : ''}`}
-            className="mt-2 w-full appearance-none rounded border px-3 py-2 leading-tight text-gray-700 focus:outline-none focus:ring focus:ring-blue-300/50"
-            {...register('body')}
-          />
-        </label>
-        {errors.body?.message && (
-          <div className="my-2 text-xs italic text-red-500">
-            {errors.body?.message}
-          </div>
-        )}
-      </div>
-
-      <div className="mt-5">
+      <div className="mt-2">
         <button
           className="rounded bg-blue-500 px-5 py-1 font-bold text-white hover:bg-blue-600 focus:outline-none focus:ring focus:ring-blue-300/50"
           type="submit"
         >
-          {t('save')}
+          Increment
         </button>
       </div>
     </form>

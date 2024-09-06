@@ -3,7 +3,7 @@ import { useTranslations } from 'next-intl';
 import { getTranslations } from 'next-intl/server';
 import { Suspense } from 'react';
 
-import { AddGuestbookForm } from '@/components/AddGuestbookForm';
+import { GuestbookForm } from '@/components/GuestbookForm';
 import { GuestbookList } from '@/components/GuestbookList';
 
 export async function generateMetadata(props: { params: { locale: string } }) {
@@ -23,13 +23,15 @@ const Guestbook = () => {
 
   return (
     <>
-      <AddGuestbookForm />
+      <GuestbookForm />
 
-      <Suspense fallback={<p>{t('loading_guestbook')}</p>}>
-        <GuestbookList />
-      </Suspense>
+      <div className="mt-3">
+        <Suspense fallback={<p>{t('loading_guestbook')}</p>}>
+          <GuestbookList />
+        </Suspense>
+      </div>
 
-      <div className="mt-2 text-center text-sm">
+      <div className="mt-5 text-center text-sm">
         {`${t('error_reporting_powered_by')} `}
         <a
           className="text-blue-700 hover:border-b-2 hover:border-blue-700"
