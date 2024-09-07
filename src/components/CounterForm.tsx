@@ -38,7 +38,7 @@ const CounterForm = () => {
 
   return (
     <form onSubmit={handleIncrement}>
-      <p>{t('description')}</p>
+      <p>{t('presentation')}</p>
       <div>
         <label className="text-sm font-bold text-gray-700" htmlFor="increment">
           {t('label_increment')}

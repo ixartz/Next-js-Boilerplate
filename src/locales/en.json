@@ -24,7 +24,7 @@
     "error_reporting_powered_by": "Error reporting powered by"
   },
   "CounterForm": {
-    "description": "The counter is stored in the database and incremented by the value you provide.",
+    "presentation": "The counter is stored in the database and incremented by the value you provide.",
     "label_increment": "Increment by",
     "button_increment": "Increment"
   },
