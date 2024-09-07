@@ -18,17 +18,19 @@ export const PUT = async (request: Request) => {
 
   try {
     // There is only one row, so we use id=0
-    await db
+    const count = await db
       .insert(counterSchema)
       .values({ id: 0, count: parse.data.increment })
       .onConflictDoUpdate({
         target: counterSchema.id,
         set: { count: sql`${counterSchema.count} + ${parse.data.increment}` },
-      });
+      }).returning();
 
     logger.info('Counter has been incremented');
 
-    return NextResponse.json({});
+    return NextResponse.json({
+      count: count[0]?.count,
+    });
   } catch (error) {
     logger.error(error, 'An error occurred while incrementing the counter');
 
