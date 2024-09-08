@@ -27,7 +27,7 @@ export const config = defineConfig({
     runtimeId: '2024.02',
     browserChecks: {
       frequency: Frequency.EVERY_24H,
-      testMatch: '**/tests/e2e/**/*.check.spec.ts',
+      testMatch: '**/tests/e2e/**/*.check.e2e.ts',
       alertChannels: [emailChannel],
     },
     playwrightConfig: {
