@@ -4,7 +4,24 @@ import { expect, test } from '@playwright/test';
 
 test.describe('Counter', () => {
   test.describe('Increment operation', () => {
-    test('should increment the counter', async ({
+    test('should display error message when incrementing with negative number', async ({
+      page,
+    }) => {
+      await page.goto('/counter');
+
+      const count = page.getByText('Count:');
+      const countText = await count.textContent();
+
+      assert(countText !== null, 'Count should not be null');
+
+      await page.getByLabel('Increment by').fill('-1');
+      await page.getByRole('button', { name: 'Increment' }).click();
+
+      await expect(page.getByText('Number must be greater than or equal to 1')).toBeVisible();
+      await expect(page.getByText('Count:')).toHaveText(countText);
+    });
+
+    test('should increment the counter and validate the count', async ({
       page,
     }) => {
       await page.goto('/counter');
