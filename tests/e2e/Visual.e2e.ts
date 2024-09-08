@@ -78,5 +78,17 @@ test.describe('Visual testing', () => {
 
       await percySnapshot(page, 'Sign in');
     });
+
+    test('i18n fr language', async ({ page }) => {
+      await page.goto('/fr');
+
+      await expect(
+        page.getByRole('heading', {
+          name: 'Code de démarrage pour Next.js avec Tailwind CSS',
+        }),
+      ).toBeVisible();
+
+      await percySnapshot(page, 'Homepage - French');
+    });
   });
 });
