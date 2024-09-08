@@ -43,9 +43,7 @@ test.describe('Visual testing', () => {
       await page.goto('/portfolio');
 
       await expect(
-        page.getByRole('link', {
-          name: 'Portfolio',
-        }),
+        page.getByText('Welcome to my portfolio page!'),
       ).toBeVisible();
 
       await percySnapshot(page, 'Portfolio');
@@ -56,14 +54,14 @@ test.describe('Visual testing', () => {
 
       await expect(
         page.getByRole('link', {
-          name: 'Portfolio',
+          name: 'Portfolio 2',
         }),
       ).toBeVisible();
 
       await percySnapshot(page, 'Portfolio details');
     });
 
-    test('Sign up', async ({ page }) => {
+    test('should take screenshot of the sign-up page', async ({ page }) => {
       await page.goto('/sign-up');
 
       await expect(
@@ -73,11 +71,11 @@ test.describe('Visual testing', () => {
       await percySnapshot(page, 'Sign up');
     });
 
-    test('Sign in', async ({ page }) => {
+    test('should take screenshot of the sign-in page', async ({ page }) => {
       await page.goto('/sign-in');
 
       await expect(
-        page.getByText('Sign in to'),
+        page.getByText('Welcome back!'),
       ).toBeVisible();
 
       await percySnapshot(page, 'Sign in');
