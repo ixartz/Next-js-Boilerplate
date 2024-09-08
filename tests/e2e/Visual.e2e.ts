@@ -53,9 +53,7 @@ test.describe('Visual testing', () => {
       }).click();
 
       await expect(
-        page.getByRole('link', {
-          name: 'Portfolio 2',
-        }),
+        page.getByText('Portfolio 2'),
       ).toBeVisible();
 
       await percySnapshot(page, 'Portfolio details');
