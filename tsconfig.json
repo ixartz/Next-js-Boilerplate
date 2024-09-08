@@ -53,7 +53,7 @@
       }
     ]
   },
-  "exclude": ["./out/**/*", "./node_modules/**/*"],
+  "exclude": ["./out/**/*", "./node_modules/**/*", "**/*.spec.ts"],
   "include": [
     "next-env.d.ts",
     "**/*.ts",
