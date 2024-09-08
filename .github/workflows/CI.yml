@@ -97,6 +97,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           ref: ${{ github.event.pull_request.head.sha }} # Crowdin Actions needs to push commits to the PR branch, checkout HEAD commit instead of merge commit
+          fetch-depth: 0
 
       - name: crowdin action
         uses: crowdin/github-action@v2
