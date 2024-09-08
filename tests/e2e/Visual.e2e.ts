@@ -53,7 +53,7 @@ test.describe('Visual testing', () => {
       }).click();
 
       await expect(
-        page.getByText('Portfolio 2'),
+        page.getByText('Created a set of promotional'),
       ).toBeVisible();
 
       await percySnapshot(page, 'Portfolio details');
