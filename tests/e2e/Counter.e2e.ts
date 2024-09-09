@@ -2,6 +2,9 @@ import assert from 'node:assert';
 
 import { expect, test } from '@playwright/test';
 
+// This test suite will run in serial mode
+test.describe.configure({ mode: 'serial' });
+
 test.describe('Counter', () => {
   test.describe('Increment operation', () => {
     test('should display error message when incrementing with negative number', async ({
