@@ -2,7 +2,7 @@
   "RootLayout": {
     "home_link": "Accueil",
     "about_link": "A propos",
-    "guestbook_link": "Livre d'or",
+    "counter_link": "Compteur",
     "portfolio_link": "Portfolio",
     "sign_in_link": "Se connecter",
     "sign_up_link": "S'inscrire"
@@ -16,17 +16,19 @@
     "meta_description": "Next js Boilerplate est le code de démarrage parfait pour votre projet. Construisez votre application React avec le framework Next.js.",
     "sponsors_title": "Partenaires"
   },
-  "Guestbook": {
-    "meta_title": "Livre d'or",
-    "meta_description": "Un exemple de fonctionnement CRUD",
-    "database_powered_by": "Base de données propulsée par",
-    "loading_guestbook": "Chargement du livre d'or...",
+  "Counter": {
+    "meta_title": "Compteur",
+    "meta_description": "Un exemple d'opération DB",
+    "loading_counter": "Chargement du compteur...",
     "error_reporting_powered_by": "Rapport d'erreur propulsé par"
   },
-  "GuestbookForm": {
-    "username": "Nom d'utilisateur",
-    "body": "Message",
-    "save": "Sauvegarder"
+  "CounterForm": {
+    "presentation": "Le compteur est stocké dans la base de données et incrémenté par la valeur que vous fournissez.",
+    "label_increment": "Incrémenter de",
+    "button_increment": "Incrémenter"
+  },
+  "CurrentCount": {
+    "count": "Nombre : {count}"
   },
   "About": {
     "meta_title": "A propos",

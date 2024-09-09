@@ -11,6 +11,8 @@ const baseURL = `http://localhost:${PORT}`;
  */
 export default defineConfig({
   testDir: './tests',
+  // Look for files with the .spec.js or .e2e.js extension
+  testMatch: '*.@(spec|e2e).?(c|m)[jt]s?(x)',
   // Timeout per test
   timeout: 30 * 1000,
   // Run tests in files in parallel on CI

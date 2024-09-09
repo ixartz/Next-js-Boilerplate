@@ -8,7 +8,7 @@ const sendDefaults = {
 };
 
 // FIXME: Add your production URL
-const productionURL = 'https://test-checkly2.vercel.app';
+const productionURL = 'https://nextjs-boilerplate.com';
 
 const emailChannel = new EmailAlertChannel('email-channel-1', {
   // FIXME: add your own email address, Checkly will send you an email notification if a check fails
@@ -27,7 +27,7 @@ export const config = defineConfig({
     runtimeId: '2024.02',
     browserChecks: {
       frequency: Frequency.EVERY_24H,
-      testMatch: '**/tests/e2e/**/*.check.spec.ts',
+      testMatch: '**/tests/e2e/**/*.check.e2e.ts',
       alertChannels: [emailChannel],
     },
     playwrightConfig: {

@@ -3,13 +3,13 @@ import { useTranslations } from 'next-intl';
 import { getTranslations } from 'next-intl/server';
 import { Suspense } from 'react';
 
-import { AddGuestbookForm } from '@/components/AddGuestbookForm';
-import { GuestbookList } from '@/components/GuestbookList';
+import { CounterForm } from '@/components/CounterForm';
+import { CurrentCount } from '@/components/CurrentCount';
 
 export async function generateMetadata(props: { params: { locale: string } }) {
   const t = await getTranslations({
     locale: props.params.locale,
-    namespace: 'Guestbook',
+    namespace: 'Counter',
   });
 
   return {
@@ -18,18 +18,20 @@ export async function generateMetadata(props: { params: { locale: string } }) {
   };
 }
 
-const Guestbook = () => {
-  const t = useTranslations('Guestbook');
+const Counter = () => {
+  const t = useTranslations('Counter');
 
   return (
     <>
-      <AddGuestbookForm />
+      <CounterForm />
 
-      <Suspense fallback={<p>{t('loading_guestbook')}</p>}>
-        <GuestbookList />
-      </Suspense>
+      <div className="mt-3">
+        <Suspense fallback={<p>{t('loading_counter')}</p>}>
+          <CurrentCount />
+        </Suspense>
+      </div>
 
-      <div className="mt-2 text-center text-sm">
+      <div className="mt-5 text-center text-sm">
         {`${t('error_reporting_powered_by')} `}
         <a
           className="text-blue-700 hover:border-b-2 hover:border-blue-700"
@@ -56,4 +58,4 @@ const Guestbook = () => {
 
 export const dynamic = 'force-dynamic';
 
-export default Guestbook;
+export default Counter;

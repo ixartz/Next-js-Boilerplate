@@ -1,30 +1,25 @@
 {
-  "id": "476c2d87-fe0f-47d2-9386-42280f661547",
+  "id": "fd746382-d1ee-40c4-a173-db4142ca9fef",
   "prevId": "00000000-0000-0000-0000-000000000000",
   "version": "7",
   "dialect": "postgresql",
   "tables": {
-    "public.guestbook": {
-      "name": "guestbook",
+    "public.counter": {
+      "name": "counter",
       "schema": "",
       "columns": {
         "id": {
           "name": "id",
           "type": "serial",
-          "primaryKey": false,
+          "primaryKey": true,
           "notNull": true
         },
-        "username": {
-          "name": "username",
-          "type": "text",
+        "count": {
+          "name": "count",
+          "type": "integer",
           "primaryKey": false,
-          "notNull": true
-        },
-        "body": {
-          "name": "body",
-          "type": "text",
-          "primaryKey": false,
-          "notNull": true
+          "notNull": false,
+          "default": 0
         },
         "updated_at": {
           "name": "updated_at",
@@ -49,6 +44,7 @@
   },
   "enums": {},
   "schemas": {},
+  "sequences": {},
   "_meta": {
     "columns": {},
     "schemas": {},

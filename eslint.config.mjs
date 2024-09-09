@@ -51,6 +51,7 @@ export default antfu({
 }, {
   files: [
     '**/*.spec.ts',
+    '**/*.e2e.ts',
   ],
   ...playwright.configs['flat/recommended'],
 }, {
