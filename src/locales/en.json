@@ -19,7 +19,6 @@
   "Counter": {
     "meta_title": "Counter",
     "meta_description": "An example of DB operation",
-    "database_powered_by": "Database powered by",
     "loading_counter": "Loading counter...",
     "error_reporting_powered_by": "Error reporting powered by"
   },
