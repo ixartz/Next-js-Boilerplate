@@ -49,7 +49,6 @@ jobs:
         run: npm run build
         env:
           SENTRY_AUTH_TOKEN: ${{ secrets.SENTRY_AUTH_TOKEN }}
-          CLERK_SECRET_KEY: ${{ secrets.CLERK_SECRET_KEY }}
 
       - if: github.event_name == 'pull_request'
         name: Validate all commits from PR
