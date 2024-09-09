@@ -1,3 +1,15 @@
+# [3.56.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.55.3...v3.56.0) (2024-09-09)
+
+
+### Bug Fixes
+
+* add missing file ([54c343b](https://github.com/ixartz/Next-js-Boilerplate/commit/54c343b93a0555b60c1e7f000002f57c480694e6))
+
+
+### Features
+
+* use counter instead of guestbook, make the boilerplate easier to use ([3e6b0b8](https://github.com/ixartz/Next-js-Boilerplate/commit/3e6b0b86dfa8b0ef65c71830036021faa74180c5))
+
 ## [3.55.3](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.55.2...v3.55.3) (2024-08-21)
 
 
