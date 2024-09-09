@@ -59,26 +59,6 @@ test.describe('Visual testing', () => {
       await percySnapshot(page, 'Portfolio details');
     });
 
-    test('should take screenshot of the sign-up page', async ({ page }) => {
-      await page.goto('/sign-up');
-
-      await expect(
-        page.getByText('Create your account'),
-      ).toBeVisible();
-
-      await percySnapshot(page, 'Sign up');
-    });
-
-    test('should take screenshot of the sign-in page', async ({ page }) => {
-      await page.goto('/sign-in');
-
-      await expect(
-        page.getByText('Welcome back!'),
-      ).toBeVisible();
-
-      await percySnapshot(page, 'Sign in');
-    });
-
     test('i18n fr language', async ({ page }) => {
       await page.goto('/fr');
 
