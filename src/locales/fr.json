@@ -2,7 +2,7 @@
   "RootLayout": {
     "home_link": "Accueil",
     "about_link": "A propos",
-    "counter_link": "Counter",
+    "counter_link": "Compteur",
     "portfolio_link": "Portfolio",
     "sign_in_link": "Se connecter",
     "sign_up_link": "S'inscrire"
@@ -17,19 +17,18 @@
     "sponsors_title": "Partenaires"
   },
   "Counter": {
-    "meta_title": "Counter",
-    "meta_description": "An example of DB operation",
-    "database_powered_by": "Database powered by",
-    "loading_counter": "Loading counter...",
-    "error_reporting_powered_by": "Error reporting powered by"
+    "meta_title": "Compteur",
+    "meta_description": "Un exemple d'opération DB",
+    "loading_counter": "Chargement du compteur...",
+    "error_reporting_powered_by": "Rapport d'erreur propulsé par"
   },
   "CounterForm": {
-    "presentation": "The counter is stored in the database and incremented by the value you provide.",
-    "label_increment": "Increment by",
-    "button_increment": "Increment"
+    "presentation": "Le compteur est stocké dans la base de données et incrémenté par la valeur que vous fournissez.",
+    "label_increment": "Incrémenter de",
+    "button_increment": "Incrémenter"
   },
   "CurrentCount": {
-    "count": "Count: {count}"
+    "count": "Nombre : {count}"
   },
   "About": {
     "meta_title": "A propos",
