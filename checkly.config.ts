@@ -8,7 +8,7 @@ const sendDefaults = {
 };
 
 // FIXME: Add your production URL
-const productionURL = 'https://nextjs-boilerplate.com';
+const productionURL = 'https://demo.nextjs-boilerplate.com';
 
 const emailChannel = new EmailAlertChannel('email-channel-1', {
   // FIXME: add your own email address, Checkly will send you an email notification if a check fails
