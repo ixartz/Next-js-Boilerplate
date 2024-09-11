@@ -35,7 +35,7 @@ export default function About(props: { params: { locale: string } }) {
       <a href="https://l.crowdin.com/next-js">
         <Image
           className="mx-auto mt-2"
-          src="https://support.crowdin.com/assets/logos/core-logo/svg/crowdin-core-logo-cDark.svg"
+          src="/assets/images/crowdin-dark.png"
           alt="Crowdin Translation Management System"
           width={130}
           height={112}

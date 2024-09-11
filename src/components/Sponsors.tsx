@@ -22,7 +22,7 @@ const Sponsors = () => (
         <td className="border-2 border-gray-300 p-3">
           <a href="https://l.crowdin.com/next-js" target="_blank" rel="noopener">
             <Image
-              src="https://support.crowdin.com/assets/logos/core-logo/svg/crowdin-core-logo-cDark.svg"
+              src="/assets/images/crowdin-dark.png"
               alt="Crowdin"
               width={260}
               height={224}
