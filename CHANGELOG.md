@@ -1,3 +1,12 @@
+## [3.56.1](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.56.0...v3.56.1) (2024-09-11)
+
+
+### Bug Fixes
+
+* enable coverage for unit testing ([eb4534c](https://github.com/ixartz/Next-js-Boilerplate/commit/eb4534c1a30dd90943a35c1583ff9c0c60c9520d))
+* update crowdin image, load the image locally ([5b404b1](https://github.com/ixartz/Next-js-Boilerplate/commit/5b404b1a1b451b6ea839f4a72e002efb8a8b0cf8))
+* use default reporter for vitest ([67e766a](https://github.com/ixartz/Next-js-Boilerplate/commit/67e766a346a6f4eb06b146b6102b3751fc3e22ad))
+
 # [3.56.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.55.3...v3.56.0) (2024-09-09)
 
 
