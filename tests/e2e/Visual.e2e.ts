@@ -23,16 +23,6 @@ test.describe('Visual testing', () => {
       await percySnapshot(page, 'About');
     });
 
-    test('should take screenshot of the counter page', async ({ page }) => {
-      await page.goto('/counter');
-
-      await expect(
-        page.getByRole('link', { name: 'Counter' }),
-      ).toBeVisible();
-
-      await percySnapshot(page, 'Counter');
-    });
-
     test('should take screenshot of the portfolio page and one details page', async ({ page }) => {
       await page.goto('/portfolio');
 
