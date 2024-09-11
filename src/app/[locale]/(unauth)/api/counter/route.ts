@@ -1,4 +1,5 @@
 import { sql } from 'drizzle-orm';
+import { headers } from 'next/headers';
 import { NextResponse } from 'next/server';
 
 import { db } from '@/libs/DB';
@@ -16,11 +17,14 @@ export const PUT = async (request: Request) => {
     return NextResponse.json(parse.error.format(), { status: 422 });
   }
 
+  // `x-e2e-random-id` is used for end-to-end testing to make isolated requests
+  // The default value is 0 when there is no `x-e2e-random-id` header
+  const id = Number(headers().get('x-e2e-random-id')) ?? 0;
+
   try {
-    // There is only one row, so we use id=0
     const count = await db
       .insert(counterSchema)
-      .values({ id: 0, count: parse.data.increment })
+      .values({ id, count: parse.data.increment })
       .onConflictDoUpdate({
         target: counterSchema.id,
         set: { count: sql`${counterSchema.count} + ${parse.data.increment}` },

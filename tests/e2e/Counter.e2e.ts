@@ -2,9 +2,6 @@ import assert from 'node:assert';
 
 import { expect, test } from '@playwright/test';
 
-// This test suite will run in serial mode
-test.describe.configure({ mode: 'serial' });
-
 test.describe('Counter', () => {
   test.describe('Increment operation', () => {
     test('should display error message when incrementing with negative number', async ({
@@ -27,6 +24,12 @@ test.describe('Counter', () => {
     test('should increment the counter and validate the count', async ({
       page,
     }) => {
+      // `x-e2e-random-id` is used for end-to-end testing to make isolated requests
+      // The default value is 0 when there is no `x-e2e-random-id` header
+      const e2eRandomId = Math.floor(Math.random() * 1000000000) + 1;
+      await page.setExtraHTTPHeaders({
+        'x-e2e-random-id': e2eRandomId.toString(),
+      });
       await page.goto('/counter');
 
       const count = page.getByText('Count:');

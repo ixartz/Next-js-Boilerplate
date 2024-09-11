@@ -11,7 +11,6 @@ export default defineConfig({
     coverage: {
       include: ['src/**/*'],
       exclude: ['src/**/*.stories.{js,jsx,ts,tsx}', '**/*.d.ts'],
-      reporter: ['html'],
     },
     environmentMatchGlobs: [['**/*.test.tsx', 'jsdom']],
     setupFiles: ['./vitest-setup.ts'],
