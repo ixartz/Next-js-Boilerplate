@@ -90,10 +90,10 @@ const Sponsors = () => (
       </tr>
       <tr className="h-56">
         <td className="border-2 border-gray-300 p-3">
-          <a href="https://nextlessjs.com">
+          <a href="https://nextjs-boilerplate.com/pro-saas-starter-kit">
             <Image
-              src="/assets/images/nextlessjs.png"
-              alt="React SaaS Boilerplate Next.js"
+              src="/assets/images/nextjs-boilerplate-saas.png"
+              alt="Next.js SaaS Boilerplate"
               width={260}
               height={224}
             />
