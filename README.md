@@ -78,8 +78,8 @@ Clone this project and use it to create your own Next.js project. You can check 
   </tr>
   <tr height="187px">
     <td align="center" style=width="33%">
-      <a href="https://nextlessjs.com">
-        <img src="public/assets/images/nextlessjs.png?raw=true" alt="React SaaS Boilerplate Next.js" />
+      <a href="https://nextjs-boilerplate.com/pro-saas-starter-kit">
+        <img src="public/assets/images/nextjs-boilerplate-saas.png?raw=true" alt="Next.js SaaS Boilerplate with React" />
       </a>
     </td>
   </tr>
@@ -455,8 +455,8 @@ See [LICENSE](LICENSE) for more information.
   </tr>
   <tr height="187px">
     <td align="center" style=width="33%">
-      <a href="https://nextlessjs.com">
-        <img src="public/assets/images/nextlessjs.png?raw=true" alt="React SaaS Boilerplate Next.js" />
+      <a href="https://nextjs-boilerplate.com/pro-saas-starter-kit">
+        <img src="public/assets/images/nextjs-boilerplate-saas.png?raw=true" alt="Next.js SaaS Boilerplate with React" />
       </a>
     </td>
   </tr>
