@@ -1,3 +1,10 @@
+## [3.56.2](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.56.1...v3.56.2) (2024-09-12)
+
+
+### Bug Fixes
+
+* rewrite index page of the boilerplate ([9456ede](https://github.com/ixartz/Next-js-Boilerplate/commit/9456ede93122e2230f6cd17114ac9893578e242d))
+
 ## [3.56.1](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.56.0...v3.56.1) (2024-09-11)
 
 
