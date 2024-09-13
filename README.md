@@ -246,6 +246,18 @@ You can easily configure Next js Boilerplate by searching the entire project for
 
 You have full access to the source code for further customization. The provided code is just an example to help you start your project. The sky's the limit 🚀.
 
+### Change database schema
+
+To modify the database schema in the project, you can update the schema file located at `./src/models/Schema.ts`. This file defines the structure of your database tables using the Drizzle ORM library.
+
+After making changes to the schema, generate a migration by running the following command:
+
+```shell
+npm run db:generate
+```
+
+This will create a migration file that reflects your schema changes. The migration is automatically applied during the next database interaction, so there is no need to run it manually.
+
 ### Commit Message Format
 
 The project follows the [Conventional Commits](https://www.conventionalcommits.org/) specification, meaning all commit messages must be formatted accordingly. To help you write commit messages, the project uses [Commitizen](https://github.com/commitizen/cz-cli), an interactive CLI that guides you through the commit process. To use it, run the following command:
