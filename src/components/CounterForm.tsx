@@ -14,7 +14,7 @@ const CounterForm = () => {
     handleSubmit,
     register,
     reset,
-    formState: { errors },
+    formState: { errors, isSubmitting },
   } = useForm<z.infer<typeof CounterValidation>>({
     resolver: zodResolver(CounterValidation),
     defaultValues: {
@@ -57,8 +57,9 @@ const CounterForm = () => {
 
       <div className="mt-2">
         <button
-          className="rounded bg-blue-500 px-5 py-1 font-bold text-white hover:bg-blue-600 focus:outline-none focus:ring focus:ring-blue-300/50"
+          className="rounded bg-blue-500 px-5 py-1 font-bold text-white hover:bg-blue-600 focus:outline-none focus:ring focus:ring-blue-300/50 disabled:pointer-events-none disabled:opacity-50"
           type="submit"
+          disabled={isSubmitting}
         >
           {t('button_increment')}
         </button>
