@@ -1,3 +1,10 @@
+# [3.57.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.56.2...v3.57.0) (2024-09-14)
+
+
+### Features
+
+* disable submit button when submitting form ([0247937](https://github.com/ixartz/Next-js-Boilerplate/commit/02479379326ff3b5b16f016de3241efcc5a49fd5))
+
 ## [3.56.2](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.56.1...v3.56.2) (2024-09-12)
 
 
