@@ -1,3 +1,10 @@
+# [3.58.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.57.0...v3.58.0) (2024-09-15)
+
+
+### Features
+
+* add drizzle into the singleton only in dev to persist db connection ([aefe3d8](https://github.com/ixartz/Next-js-Boilerplate/commit/aefe3d838ede52a606869631257aa21a3e88a299))
+
 # [3.57.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.56.2...v3.57.0) (2024-09-14)
 
 
