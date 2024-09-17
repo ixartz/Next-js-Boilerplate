@@ -98,7 +98,7 @@ Clone this project and use it to create your own Next.js project. You can check 
 
 | Sign Up | Sign In |
 | --- | --- |
-| ![Next.js Boilerplate SaaS Sign Up](public/assets/images/nextjs-boilerplate-sign-in.png) | ![Next.js Boilerplate SaaS Sign In](public/assets/images/nextjs-boilerplate-sign-in.png) |
+| [![Next.js Boilerplate SaaS Sign Up](public/assets/images/nextjs-boilerplate-sign-in.png)](https://demo.nextjs-boilerplate.com) | [![Next.js Boilerplate SaaS Sign In](public/assets/images/nextjs-boilerplate-sign-in.png)](https://demo.nextjs-boilerplate.com) |
 
 ### Features
 
