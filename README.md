@@ -151,6 +151,7 @@ Built-in feature from Next.js:
 
 - Nothing is hidden from you, allowing you to make any necessary adjustments to suit your requirements and preferences.
 - Dependencies are regularly updated on a monthly basis
+- Start for free without upfront costs
 - Easy to customize
 - Minimal code
 - Unstyled template
