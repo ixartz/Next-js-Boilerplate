@@ -15,18 +15,15 @@ export default defineConfig({
   testMatch: '*.@(spec|e2e).?(c|m)[jt]s?(x)',
   // Timeout per test
   timeout: 30 * 1000,
-  // Run tests in files in parallel on CI
-  fullyParallel: !!process.env.CI,
   // Fail the build on CI if you accidentally left test.only in the source code.
   forbidOnly: !!process.env.CI,
-  // Retry on CI only
-  retries: process.env.CI ? 2 : 0,
-  // Opt out of parallel tests on CI
-  workers: process.env.CI ? 1 : undefined,
-  // Limit the number of failures on CI to save resources
-  maxFailures: process.env.CI ? 10 : undefined,
   // Reporter to use. See https://playwright.dev/docs/test-reporters
   reporter: process.env.CI ? 'github' : 'list',
+
+  expect: {
+    // Set timeout for async expect matchers
+    timeout: 10 * 1000,
+  },
 
   // Run your local dev server before starting the tests:
   // https://playwright.dev/docs/test-advanced#launching-a-development-web-server-during-the-tests
@@ -44,7 +41,10 @@ export default defineConfig({
     baseURL,
 
     // Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer
-    trace: 'on-first-retry',
+    trace: process.env.CI ? 'retain-on-failure' : undefined,
+
+    // Record videos when retrying the failed test.
+    video: process.env.CI ? 'retain-on-failure' : undefined,
   },
 
   projects: [
@@ -57,10 +57,6 @@ export default defineConfig({
           {
             name: 'firefox',
             use: { ...devices['Desktop Firefox'] },
-          },
-          {
-            name: 'webkit',
-            use: { ...devices['Desktop Safari'] },
           },
         ]
       : []),

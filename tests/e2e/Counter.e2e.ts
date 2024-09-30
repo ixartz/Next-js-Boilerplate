@@ -1,5 +1,6 @@
 import assert from 'node:assert';
 
+import { faker } from '@faker-js/faker';
 import { expect, test } from '@playwright/test';
 
 test.describe('Counter', () => {
@@ -26,7 +27,7 @@ test.describe('Counter', () => {
     }) => {
       // `x-e2e-random-id` is used for end-to-end testing to make isolated requests
       // The default value is 0 when there is no `x-e2e-random-id` header
-      const e2eRandomId = Math.floor(Math.random() * 1000000000) + 1;
+      const e2eRandomId = faker.number.int({ max: 1000000 });
       await page.setExtraHTTPHeaders({
         'x-e2e-random-id': e2eRandomId.toString(),
       });
