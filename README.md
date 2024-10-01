@@ -216,7 +216,6 @@ After defining the environment variables in your GitHub Actions, your localizati
 ├── .vscode                         # VSCode configuration
 ├── migrations                      # Database migrations
 ├── public                          # Public assets folder
-├── scripts                         # Scripts folder
 ├── src
 │   ├── app                         # Next JS App (App Router)
 │   ├── components                  # React components
