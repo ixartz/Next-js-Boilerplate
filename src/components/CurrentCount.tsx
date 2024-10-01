@@ -6,7 +6,7 @@ import { db } from '@/libs/DB';
 import { logger } from '@/libs/Logger';
 import { counterSchema } from '@/models/Schema';
 
-const CurrentCount = async () => {
+export const CurrentCount = async () => {
   const t = await getTranslations('CurrentCount');
 
   // `x-e2e-random-id` is used for end-to-end testing to make isolated requests
@@ -25,5 +25,3 @@ const CurrentCount = async () => {
     </div>
   );
 };
-
-export { CurrentCount };

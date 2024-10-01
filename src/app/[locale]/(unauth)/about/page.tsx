@@ -14,7 +14,7 @@ export async function generateMetadata(props: { params: { locale: string } }) {
   };
 }
 
-export default function About(props: { params: { locale: string } }) {
+const About = (props: { params: { locale: string } }) => {
   unstable_setRequestLocale(props.params.locale);
   const t = useTranslations('About');
 
@@ -43,4 +43,6 @@ export default function About(props: { params: { locale: string } }) {
       </a>
     </>
   );
-}
+};
+
+export default About;

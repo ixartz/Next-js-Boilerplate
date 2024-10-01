@@ -15,7 +15,7 @@ export async function generateMetadata(props: { params: { locale: string } }) {
   };
 }
 
-export default function Index(props: { params: { locale: string } }) {
+const Index = (props: { params: { locale: string } }) => {
   unstable_setRequestLocale(props.params.locale);
   const t = useTranslations('Index');
 
@@ -100,4 +100,6 @@ export default function Index(props: { params: { locale: string } }) {
       <Sponsors />
     </>
   );
-}
+};
+
+export default Index;

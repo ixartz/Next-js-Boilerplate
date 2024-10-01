@@ -1,7 +1,7 @@
 /* eslint-disable react-dom/no-unsafe-target-blank */
 import Image from 'next/image';
 
-const Sponsors = () => (
+export const Sponsors = () => (
   <table className="border-collapse">
     <tbody>
       <tr className="h-56">
@@ -103,5 +103,3 @@ const Sponsors = () => (
     </tbody>
   </table>
 );
-
-export { Sponsors };
