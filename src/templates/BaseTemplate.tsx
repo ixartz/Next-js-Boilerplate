@@ -2,7 +2,7 @@ import { useTranslations } from 'next-intl';
 
 import { AppConfig } from '@/utils/AppConfig';
 
-const BaseTemplate = (props: {
+export const BaseTemplate = (props: {
   leftNav: React.ReactNode;
   rightNav?: React.ReactNode;
   children: React.ReactNode;
@@ -57,5 +57,3 @@ const BaseTemplate = (props: {
     </div>
   );
 };
-
-export { BaseTemplate };

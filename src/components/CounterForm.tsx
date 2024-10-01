@@ -8,7 +8,7 @@ import type { z } from 'zod';
 
 import { CounterValidation } from '@/validations/CounterValidation';
 
-const CounterForm = () => {
+export const CounterForm = () => {
   const t = useTranslations('CounterForm');
   const form = useForm<z.infer<typeof CounterValidation>>({
     resolver: zodResolver(CounterValidation),
@@ -62,5 +62,3 @@ const CounterForm = () => {
     </form>
   );
 };
-
-export { CounterForm };
