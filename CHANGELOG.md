@@ -1,3 +1,11 @@
+## [3.58.1](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.58.0...v3.58.1) (2024-10-01)
+
+
+### Bug Fixes
+
+* simply the counter Route handler by removing try-catch block and improve readability in form ([f777914](https://github.com/ixartz/Next-js-Boilerplate/commit/f7779146e954a86c311577c24e2e80a846c36d46))
+* use faker instead of Math.random, simply playwright config ([52c5d3f](https://github.com/ixartz/Next-js-Boilerplate/commit/52c5d3f3447ea26b730a284d2770bbf065caa058))
+
 # [3.58.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.57.0...v3.58.0) (2024-09-15)
 
 
