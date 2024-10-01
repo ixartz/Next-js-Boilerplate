@@ -3,7 +3,7 @@ import { useTranslations } from 'next-intl';
 import { unstable_setRequestLocale } from 'next-intl/server';
 
 import { DemoBanner } from '@/components/DemoBanner';
-import LocaleSwitcher from '@/components/LocaleSwitcher';
+import { LocaleSwitcher } from '@/components/LocaleSwitcher';
 import { BaseTemplate } from '@/templates/BaseTemplate';
 
 export default function Layout(props: {
