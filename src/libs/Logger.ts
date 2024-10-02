@@ -1,27 +1,39 @@
-import logtail from '@logtail/pino';
-import pino, { type DestinationStream } from 'pino';
-import pretty from 'pino-pretty';
+import { Browser as Logtail } from '@logtail/js';
+import type { Logger, LogRecord } from '@logtape/logtape';
+import { configure, getConsoleSink, getLogger } from '@logtape/logtape';
 
 import { Env } from './Env';
 
-let stream: DestinationStream;
+const global = globalThis as unknown as { logger: Logger };
 
-if (Env.LOGTAIL_SOURCE_TOKEN) {
-  stream = pino.multistream([
-    await logtail({
-      sourceToken: Env.LOGTAIL_SOURCE_TOKEN,
-      options: {
-        sendLogsToBetterStack: true,
-      },
-    }),
-    {
-      stream: pretty(), // Prints logs to the console
-    },
-  ]);
-} else {
-  stream = pretty({
-    colorize: true,
+const loggerSingleton = () => {
+  const sinks = {
+    console: getConsoleSink(),
+  };
+
+  if (Env.NEXT_PUBLIC_LOGTAIL_SOURCE_TOKEN) {
+    const logtail = new Logtail(Env.NEXT_PUBLIC_LOGTAIL_SOURCE_TOKEN);
+
+    const ingest = async (record: LogRecord) => {
+      await logtail.log(`${record.message}`, record.level);
+    };
+
+    sinks.console = ingest;
+  }
+
+  configure({
+    sinks,
+    loggers: [
+      { category: ['logtape', 'meta'], level: 'warning', sinks: ['console'] },
+      { category: 'app', level: 'debug', sinks: ['console'] },
+    ],
   });
-}
 
-export const logger = pino({ base: undefined }, stream);
+  return getLogger(['app']);
+};
+
+export const logger = global.logger ?? loggerSingleton();
+
+if (Env.NODE_ENV !== 'production') {
+  global.logger = logger;
+}
