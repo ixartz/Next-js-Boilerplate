@@ -19,6 +19,7 @@ const loggerSingleton = () => {
 
     const ingest = async (record: LogRecord) => {
       await logtail.log(`${record.message}`, record.level);
+      await logtail.flush();
     };
 
     sinks.console = ingest;
