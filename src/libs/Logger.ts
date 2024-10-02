@@ -1,4 +1,3 @@
-import { Browser as Logtail } from '@logtail/js';
 import type { Logger, LogRecord } from '@logtape/logtape';
 import { configure, getConsoleSink, getLogger } from '@logtape/logtape';
 
@@ -12,14 +11,15 @@ const loggerSingleton = () => {
   };
 
   if (Env.NEXT_PUBLIC_LOGTAIL_SOURCE_TOKEN) {
-    const logtail = new Logtail(Env.NEXT_PUBLIC_LOGTAIL_SOURCE_TOKEN, {
-      batchSize: 0,
-      batchSizeKiB: 0,
-    });
-
     const ingest = async (record: LogRecord) => {
-      await logtail.log(`${record.message}`, record.level);
-      await logtail.flush();
+      await fetch(`https://in.logs.betterstack.com`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'Authorization': `Bearer ${Env.NEXT_PUBLIC_LOGTAIL_SOURCE_TOKEN}`,
+        },
+        body: JSON.stringify(record),
+      });
     };
 
     sinks.console = ingest;
