@@ -3,6 +3,7 @@ import { headers } from 'next/headers';
 import { NextResponse } from 'next/server';
 
 import { db } from '@/libs/DB';
+import { Env } from '@/libs/Env';
 import { logger } from '@/libs/Logger';
 import { counterSchema } from '@/models/Schema';
 import {
@@ -30,6 +31,16 @@ export const PUT = async (request: Request) => {
     }).returning();
 
   logger.info('Counter has been incremented');
+  await fetch(`https://in.logs.betterstack.com`, {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+      'Authorization': `Bearer ${Env.NEXT_PUBLIC_LOGTAIL_SOURCE_TOKEN}`,
+    },
+    body: JSON.stringify({
+      message: 'Counter has been incremented',
+    }),
+  });
 
   return NextResponse.json({
     count: count[0]?.count,
