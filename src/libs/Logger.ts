@@ -9,7 +9,7 @@ const sinks = {
 
 if (Env.NEXT_PUBLIC_LOGTAIL_SOURCE_TOKEN) {
   const ingest = async (record: LogRecord) => {
-    await fetch(`https://in.logs.betterstack.com`, {
+    const res = await fetch(`https://in.logs.betterstack.com`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -17,6 +17,7 @@ if (Env.NEXT_PUBLIC_LOGTAIL_SOURCE_TOKEN) {
       },
       body: JSON.stringify(record),
     });
+    await res.json();
   };
 
   sinks.console = ingest;
