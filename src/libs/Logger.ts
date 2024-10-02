@@ -12,7 +12,9 @@ const loggerSingleton = () => {
   };
 
   if (Env.NEXT_PUBLIC_LOGTAIL_SOURCE_TOKEN) {
-    const logtail = new Logtail(Env.NEXT_PUBLIC_LOGTAIL_SOURCE_TOKEN);
+    const logtail = new Logtail(Env.NEXT_PUBLIC_LOGTAIL_SOURCE_TOKEN, {
+      batchSize: 0,
+    });
 
     const ingest = async (record: LogRecord) => {
       await logtail.log(`${record.message}`, record.level);
