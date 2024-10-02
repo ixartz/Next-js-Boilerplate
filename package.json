@@ -34,7 +34,7 @@
     "@logtail/edge": "^0.5.0",
     "@logtail/js": "^0.5.1",
     "@logtail/pino": "^0.5.0",
-    "@logtape/logtape": "^0.6.2",
+    "@logtape/logtape": "^0.6.3",
     "@sentry/nextjs": "^8.32.0",
     "@spotlightjs/spotlight": "^2.4.2",
     "@t3-oss/env-nextjs": "^0.11.1",

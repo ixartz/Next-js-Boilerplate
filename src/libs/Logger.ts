@@ -1,23 +1,20 @@
 import type { LogRecord } from '@logtape/logtape';
 import { configure, getConsoleSink, getLogger } from '@logtape/logtape';
 
-import { Env } from './Env';
-
 const sinks = {
   console: getConsoleSink(),
 };
 
-if (Env.NEXT_PUBLIC_LOGTAIL_SOURCE_TOKEN) {
+if (process.env.NEXT_PUBLIC_LOGTAIL_SOURCE_TOKEN) {
   const ingest = async (record: LogRecord) => {
-    const res = await fetch(`https://in.logs.betterstack.com`, {
+    await fetch(`https://in.logs.betterstack.com`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
-        'Authorization': `Bearer ${Env.NEXT_PUBLIC_LOGTAIL_SOURCE_TOKEN}`,
+        'Authorization': `Bearer ${process.env.NEXT_PUBLIC_LOGTAIL_SOURCE_TOKEN}`,
       },
       body: JSON.stringify(record),
     });
-    await res.json();
   };
 
   sinks.console = ingest;
