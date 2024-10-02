@@ -1,4 +1,3 @@
-import { dispose } from '@logtape/logtape';
 import { sql } from 'drizzle-orm';
 import { headers } from 'next/headers';
 import { NextResponse } from 'next/server';
@@ -31,7 +30,6 @@ export const PUT = async (request: Request) => {
     }).returning();
 
   logger.info('Counter has been incremented');
-  await dispose();
 
   return NextResponse.json({
     count: count[0]?.count,
