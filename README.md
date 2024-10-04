@@ -256,7 +256,7 @@ After making changes to the schema, generate a migration by running the followin
 npm run db:generate
 ```
 
-This will create a migration file that reflects your schema changes. The migration is automatically applied during the next database interaction, so there is no need to run it manually.
+This will create a migration file that reflects your schema changes. The migration is automatically applied during the next database interaction, so there is no need to run it manually or restart the Next.js server.
 
 ### Commit Message Format
 

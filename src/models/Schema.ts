@@ -8,7 +8,7 @@ import { integer, pgTable, serial, timestamp } from 'drizzle-orm/pg-core';
 
 // The generated migration file will reflect your schema changes.
 // The migration is automatically applied during the next database interaction,
-// so there's no need to run it manually.
+// so there's no need to run it manually or restart the Next.js server.
 
 export const counterSchema = pgTable('counter', {
   id: serial('id').primaryKey(),
