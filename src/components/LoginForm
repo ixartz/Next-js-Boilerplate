@@ -1,0 +1,74 @@
+// src/components/LoginForm.js
+import { useState } from 'react';
+import { FaGoogle } from 'react-icons/fa';
+
+export default function LoginForm() {
+  const [rememberMe, setRememberMe] = useState(false);
+
+  const handleRememberMeChange = () => {
+    setRememberMe(!rememberMe);
+  };
+
+  return (
+    <div className="flex items-center justify-center min-h-screen bg-gray-50">
+      <div className="w-full max-w-md p-8 space-y-6 bg-white rounded-lg shadow-md">
+        <div className="flex flex-col items-center space-y-4">
+          <div className="w-20 h-20 bg-gray-200 rounded-full flex items-center justify-center">
+            <span className="text-xl font-bold text-gray-700">Your Logo</span>
+          </div>
+          <h2 className="text-2xl font-semibold text-gray-800">Login</h2>
+        </div>
+
+        <form className="space-y-4">
+          <div>
+            <label className="block text-gray-600 font-medium mb-1">Mobile / Email</label>
+            <input
+              type="text"
+              placeholder="login with Mobile or Email"
+              className="w-full px-4 py-2 border rounded-lg text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-400"
+            />
+          </div>
+
+          <div className="flex items-center justify-between">
+            <label className="flex items-center text-gray-600">
+              <input
+                type="checkbox"
+                checked={rememberMe}
+                onChange={handleRememberMeChange}
+                className="form-checkbox h-4 w-4 text-blue-600"
+              />
+              <span className="ml-2">Remember Me</span>
+            </label>
+            <a href="#" className="text-sm text-blue-600 hover:underline">
+              Forgot Password?
+            </a>
+          </div>
+
+          <button
+            type="submit"
+            className="w-full py-2 mt-4 text-white bg-blue-500 rounded-lg hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-400"
+          >
+            Login
+          </button>
+        </form>
+
+        <div className="relative flex items-center justify-center py-4">
+          <span className="absolute bg-white px-2 text-gray-600">Or login with</span>
+          <div className="w-full h-px bg-gray-300"></div>
+        </div>
+
+        <button className="flex items-center justify-center w-full py-2 border rounded-lg text-gray-700 hover:bg-gray-100">
+          <FaGoogle className="mr-2" />
+          Continue with Google
+        </button>
+
+        <p className="text-center text-gray-600 mt-4">
+          Don’t have an account?{' '}
+          <a href="#" className="text-blue-600 hover:underline">
+            Sign Up
+          </a>
+        </p>
+      </div>
+    </div>
+  );
+}
