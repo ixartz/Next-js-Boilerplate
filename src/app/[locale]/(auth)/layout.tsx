@@ -1,27 +1,27 @@
+import { AppConfig } from '@/utils/AppConfig';
 import { enUS, frFR } from '@clerk/localizations';
 import { ClerkProvider } from '@clerk/nextjs';
 
-import { AppConfig } from '@/utils/AppConfig';
-
-export default function AuthLayout(props: {
+export default async function AuthLayout(props: {
   children: React.ReactNode;
-  params: { locale: string };
+  params: Promise<{ locale: string }>;
 }) {
+  const locale = (await props.params).locale;
   let clerkLocale = enUS;
   let signInUrl = '/sign-in';
   let signUpUrl = '/sign-up';
   let dashboardUrl = '/dashboard';
   let afterSignOutUrl = '/';
 
-  if (props.params.locale === 'fr') {
+  if (locale === 'fr') {
     clerkLocale = frFR;
   }
 
-  if (props.params.locale !== AppConfig.defaultLocale) {
-    signInUrl = `/${props.params.locale}${signInUrl}`;
-    signUpUrl = `/${props.params.locale}${signUpUrl}`;
-    dashboardUrl = `/${props.params.locale}${dashboardUrl}`;
-    afterSignOutUrl = `/${props.params.locale}${afterSignOutUrl}`;
+  if (locale !== AppConfig.defaultLocale) {
+    signInUrl = `/${locale}${signInUrl}`;
+    signUpUrl = `/${locale}${signUpUrl}`;
+    dashboardUrl = `/${locale}${dashboardUrl}`;
+    afterSignOutUrl = `/${locale}${afterSignOutUrl}`;
   }
 
   return (

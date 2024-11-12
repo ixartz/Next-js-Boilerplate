@@ -1,10 +1,10 @@
 import Image from 'next/image';
-import { useTranslations } from 'next-intl';
-import { getTranslations, unstable_setRequestLocale } from 'next-intl/server';
+import { getTranslations, setRequestLocale } from 'next-intl/server';
 
-export async function generateMetadata(props: { params: { locale: string } }) {
+export async function generateMetadata(props: { params: Promise<{ locale: string }> }) {
+  const locale = (await props.params).locale;
   const t = await getTranslations({
-    locale: props.params.locale,
+    locale,
     namespace: 'About',
   });
 
@@ -14,9 +14,13 @@ export async function generateMetadata(props: { params: { locale: string } }) {
   };
 }
 
-const About = (props: { params: { locale: string } }) => {
-  unstable_setRequestLocale(props.params.locale);
-  const t = useTranslations('About');
+const About = async (props: { params: Promise<{ locale: string }> }) => {
+  const locale = (await props.params).locale;
+  setRequestLocale(locale);
+  const t = await getTranslations({
+    locale,
+    namespace: 'About',
+  });
 
   return (
     <>

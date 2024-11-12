@@ -1,14 +1,14 @@
+import { CounterForm } from '@/components/CounterForm';
+import { CurrentCount } from '@/components/CurrentCount';
 import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 import { getTranslations } from 'next-intl/server';
 import { Suspense } from 'react';
 
-import { CounterForm } from '@/components/CounterForm';
-import { CurrentCount } from '@/components/CurrentCount';
-
-export async function generateMetadata(props: { params: { locale: string } }) {
+export async function generateMetadata(props: { params: Promise<{ locale: string }> }) {
+  const locale = (await props.params).locale;
   const t = await getTranslations({
-    locale: props.params.locale,
+    locale,
     namespace: 'Counter',
   });
 

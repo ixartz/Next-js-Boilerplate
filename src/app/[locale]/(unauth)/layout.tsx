@@ -1,17 +1,19 @@
-import Link from 'next/link';
-import { useTranslations } from 'next-intl';
-import { unstable_setRequestLocale } from 'next-intl/server';
-
 import { DemoBanner } from '@/components/DemoBanner';
 import { LocaleSwitcher } from '@/components/LocaleSwitcher';
 import { BaseTemplate } from '@/templates/BaseTemplate';
+import Link from 'next/link';
+import { getTranslations, setRequestLocale } from 'next-intl/server';
 
-export default function Layout(props: {
+export default async function Layout(props: {
   children: React.ReactNode;
-  params: { locale: string };
+  params: Promise<{ locale: string }>;
 }) {
-  unstable_setRequestLocale(props.params.locale);
-  const t = useTranslations('RootLayout');
+  const locale = (await props.params).locale;
+  setRequestLocale(locale);
+  const t = await getTranslations({
+    locale,
+    namespace: 'RootLayout',
+  });
 
   return (
     <>
