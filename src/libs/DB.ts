@@ -1,5 +1,5 @@
 import path from 'node:path';
-
+import * as schema from '@/models/Schema';
 import { PGlite } from '@electric-sql/pglite';
 import { drizzle as drizzlePg } from 'drizzle-orm/node-postgres';
 import { migrate as migratePg } from 'drizzle-orm/node-postgres/migrator';
@@ -7,9 +7,6 @@ import { drizzle as drizzlePglite, type PgliteDatabase } from 'drizzle-orm/pglit
 import { migrate as migratePglite } from 'drizzle-orm/pglite/migrator';
 import { PHASE_PRODUCTION_BUILD } from 'next/dist/shared/lib/constants';
 import { Client } from 'pg';
-
-import * as schema from '@/models/Schema';
-
 import { Env } from './Env';
 
 let client;

@@ -47,6 +47,7 @@ export default antfu({
   ...playwright.configs['flat/recommended'],
 }, {
   rules: {
+    'antfu/no-top-level-await': 'off', // Allow top-level await
     'style/brace-style': ['error', '1tbs'], // Use the default brace style
     'ts/consistent-type-definitions': ['error', 'type'], // Use `type` instead of `interface`
     'react/prefer-destructuring-assignment': 'off', // Vscode doesn't support automatically destructuring, it's a pain to add a new variable
