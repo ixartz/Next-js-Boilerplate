@@ -3,13 +3,13 @@ import { fileURLToPath } from 'node:url';
 import withBundleAnalyzer from '@next/bundle-analyzer';
 import { withSentryConfig } from '@sentry/nextjs';
 import createJiti from 'jiti';
-import withNextIntl from 'next-intl/plugin';
+import createNextIntlPlugin from 'next-intl/plugin';
 
 const jiti = createJiti(fileURLToPath(import.meta.url));
 
 jiti('./src/libs/Env');
 
-const withNextIntlConfig = withNextIntl('./src/libs/i18n.ts');
+const withNextIntl = createNextIntlPlugin('./src/libs/i18n.ts');
 
 const bundleAnalyzer = withBundleAnalyzer({
   enabled: process.env.ANALYZE === 'true',
@@ -18,7 +18,7 @@ const bundleAnalyzer = withBundleAnalyzer({
 /** @type {import('next').NextConfig} */
 export default withSentryConfig(
   bundleAnalyzer(
-    withNextIntlConfig({
+    withNextIntl({
       eslint: {
         dirs: ['.'],
       },

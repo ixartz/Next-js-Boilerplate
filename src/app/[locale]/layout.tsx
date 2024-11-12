@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { DemoBadge } from '@/components/DemoBadge';
-import { AppConfig } from '@/utils/AppConfig';
+import { routing } from '@/libs/i18nNavigation';
+import { notFound } from 'next/navigation';
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages, setRequestLocale } from 'next-intl/server';
 import '@/styles/global.css';
@@ -31,7 +32,7 @@ export const metadata: Metadata = {
 };
 
 export function generateStaticParams() {
-  return AppConfig.locales.map(locale => ({ locale }));
+  return routing.locales.map(locale => ({ locale }));
 }
 
 export default async function RootLayout(props: {
@@ -39,6 +40,11 @@ export default async function RootLayout(props: {
   params: Promise<{ locale: string }>;
 }) {
   const locale = (await props.params).locale;
+
+  if (!routing.locales.includes(locale)) {
+    notFound();
+  }
+
   setRequestLocale(locale);
 
   // Using internationalization in Client Components
