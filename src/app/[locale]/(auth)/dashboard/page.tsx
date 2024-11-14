@@ -13,10 +13,10 @@ export async function generateMetadata(props: { params: Promise<{ locale: string
   };
 }
 
-const Dashboard = () => (
-  <div className="[&_p]:my-6">
-    <Hello />
-  </div>
-);
-
-export default Dashboard;
+export default function Dashboard() {
+  return (
+    <div className="[&_p]:my-6">
+      <Hello />
+    </div>
+  );
+}

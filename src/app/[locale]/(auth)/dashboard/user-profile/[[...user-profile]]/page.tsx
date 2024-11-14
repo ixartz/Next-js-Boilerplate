@@ -2,7 +2,11 @@ import { getI18nPath } from '@/utils/Helpers';
 import { UserProfile } from '@clerk/nextjs';
 import { getTranslations } from 'next-intl/server';
 
-export async function generateMetadata(props: { params: Promise<{ locale: string }> }) {
+type IUserProfilePageProps = {
+  params: Promise<{ locale: string }>;
+};
+
+export async function generateMetadata(props: IUserProfilePageProps) {
   const { locale } = await props.params;
   const t = await getTranslations({
     locale,
@@ -14,7 +18,7 @@ export async function generateMetadata(props: { params: Promise<{ locale: string
   };
 }
 
-const UserProfilePage = async (props: { params: Promise<{ locale: string }> }) => {
+export default async function UserProfilePage(props: IUserProfilePageProps) {
   const { locale } = await props.params;
 
   return (
@@ -25,5 +29,3 @@ const UserProfilePage = async (props: { params: Promise<{ locale: string }> }) =
     </div>
   );
 };
-
-export default UserProfilePage;

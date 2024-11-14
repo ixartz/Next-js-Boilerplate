@@ -30,7 +30,7 @@ export async function generateMetadata(props: IPortfolioDetailProps) {
   };
 }
 
-const PortfolioDetail = async (props: IPortfolioDetailProps) => {
+export default async function PortfolioDetail(props: IPortfolioDetailProps) {
   const { locale, slug } = await props.params;
   setRequestLocale(locale);
   const t = await getTranslations({
@@ -69,5 +69,3 @@ const PortfolioDetail = async (props: IPortfolioDetailProps) => {
 };
 
 export const dynamicParams = false;
-
-export default PortfolioDetail;

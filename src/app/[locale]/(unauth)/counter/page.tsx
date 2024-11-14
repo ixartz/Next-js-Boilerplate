@@ -18,7 +18,7 @@ export async function generateMetadata(props: { params: Promise<{ locale: string
   };
 }
 
-const Counter = () => {
+export default function Counter() {
   const t = useTranslations('Counter');
 
   return (
@@ -57,5 +57,3 @@ const Counter = () => {
 };
 
 export const dynamic = 'force-dynamic';
-
-export default Counter;
