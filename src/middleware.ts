@@ -10,15 +10,20 @@ const isProtectedRoute = createRouteMatcher([
   '/:locale/dashboard(.*)',
 ]);
 
+const isAuthPage = createRouteMatcher([
+  '/sign-in(.*)',
+  '/:locale/sign-in(.*)',
+  '/sign-up(.*)',
+  '/:locale/sign-up(.*)',
+]);
+
 export default function middleware(
   request: NextRequest,
   event: NextFetchEvent,
 ) {
   // Run Clerk middleware only when it's necessary
   if (
-    request.nextUrl.pathname.includes('/sign-in')
-    || request.nextUrl.pathname.includes('/sign-up')
-    || isProtectedRoute(request)
+    isAuthPage(request) || isProtectedRoute(request)
   ) {
     return clerkMiddleware(async (auth, req) => {
       if (isProtectedRoute(req)) {
@@ -41,5 +46,10 @@ export default function middleware(
 }
 
 export const config = {
-  matcher: ['/((?!.+\\.[\\w]+$|_next|monitoring).*)', '/', '/(api|trpc)(.*)'], // Also exclude tunnelRoute used in Sentry from the matcher
+  matcher: [
+    // Skip Next.js internals and all static files, unless found in search params
+    '/((?!_next|monitoring|[^?]*\\.(?:html?|css|js(?!on)|jpe?g|webp|png|gif|svg|ttf|woff2?|ico|csv|docx?|xlsx?|zip|webmanifest)).*)',
+    // Always run for API routes
+    '/(api|trpc)(.*)',
+  ],
 };
