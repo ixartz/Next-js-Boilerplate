@@ -21,7 +21,7 @@ const meta = {
 } satisfies Meta<typeof BaseTemplate>;
 
 export default meta;
- type Story = StoryObj<typeof meta>;
+type Story = StoryObj<typeof meta>;
 
 export const BaseWithReactComponent = {
   args: {
