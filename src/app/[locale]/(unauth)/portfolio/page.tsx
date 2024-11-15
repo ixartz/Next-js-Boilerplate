@@ -67,8 +67,8 @@ export default async function Portfolio(props: IPortfolioProps) {
           className="mx-auto mt-2"
           src="/assets/images/sentry-dark.png"
           alt="Sentry"
-          width={130}
-          height={112}
+          width={128}
+          height={38}
         />
       </a>
     </>

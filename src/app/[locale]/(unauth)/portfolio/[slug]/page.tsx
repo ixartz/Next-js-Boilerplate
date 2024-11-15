@@ -60,8 +60,8 @@ export default async function PortfolioDetail(props: IPortfolioDetailProps) {
           className="mx-auto mt-2"
           src="/assets/images/better-stack-dark.png"
           alt="Better Stack"
-          width={130}
-          height={112}
+          width={128}
+          height={22}
         />
       </a>
     </>

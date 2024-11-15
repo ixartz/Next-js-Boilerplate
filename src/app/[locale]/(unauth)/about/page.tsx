@@ -44,8 +44,8 @@ export default async function About(props: IAboutProps) {
           className="mx-auto mt-2"
           src="/assets/images/crowdin-dark.png"
           alt="Crowdin Translation Management System"
-          width={130}
-          height={112}
+          width={128}
+          height={26}
         />
       </a>
     </>
