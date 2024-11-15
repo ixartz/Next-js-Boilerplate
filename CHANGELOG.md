@@ -1,3 +1,35 @@
+# [3.59.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.58.2...v3.59.0) (2024-11-15)
+
+
+### Bug Fixes
+
+* add await for header function and support only lang en for global error ([9ec5886](https://github.com/ixartz/Next-js-Boilerplate/commit/9ec588657191c0eb187e909e21f739043f9f8761))
+* add legacy-peer-deps to support next.js 15 and react 19 ([bb9c803](https://github.com/ixartz/Next-js-Boilerplate/commit/bb9c80363383e109c71eeab30e2ba7011294924e))
+* add onRequestError in instrumentations file to capture nested rsc errors ([4f144d0](https://github.com/ixartz/Next-js-Boilerplate/commit/4f144d03aba073e879a30a477c563cb6576bc3b4))
+* add sponsor component in dashboard ([c172a5e](https://github.com/ixartz/Next-js-Boilerplate/commit/c172a5ef6c1ec731d297346d05f6ee4589127826))
+* create a routing variables used by next-intl ([2ced1d8](https://github.com/ixartz/Next-js-Boilerplate/commit/2ced1d8f8467686a02e34124094f887210b4139a))
+* enable react component annotation in Sentry ([87fa2fb](https://github.com/ixartz/Next-js-Boilerplate/commit/87fa2fb338130adc9ce0c1d017837c3c1d2c3d25))
+* migrate clerk codebase to next.js 15 with await ([bb098ac](https://github.com/ixartz/Next-js-Boilerplate/commit/bb098acb68b4337112446c94959d3d2aed5aed89))
+* migrate the codebase to use await params ([886a19e](https://github.com/ixartz/Next-js-Boilerplate/commit/886a19ee7141211a9c6c33c256246a7be73d3065))
+* remove storybook until it support Next.js 15 ([2505167](https://github.com/ixartz/Next-js-Boilerplate/commit/25051670ca264feee02e186b23b9538c7a434cc1))
+* remove storybook until it support Next.js 15 ([9fe8001](https://github.com/ixartz/Next-js-Boilerplate/commit/9fe800195ba889c5e0cd343f2a3799efd9f1b9c1))
+* stop using jiti and use typescript for next.js config ([34a74fe](https://github.com/ixartz/Next-js-Boilerplate/commit/34a74fe20e30924b1536365a649d89e5fa476537))
+* update CI workflow to use Node.js 22.x instead of 22.6 ([4215f37](https://github.com/ixartz/Next-js-Boilerplate/commit/4215f3705393a0fc5e503295c3e469d01fa8de2c))
+* update image to respect default image ratio ([45689d2](https://github.com/ixartz/Next-js-Boilerplate/commit/45689d28459a389dc4b47bab133f28bda8f02702))
+* update middleware matcher and use routermatcher for signup and sign in page ([96c42ae](https://github.com/ixartz/Next-js-Boilerplate/commit/96c42ae8c935ee6d3f3ca765196cca90e65dd614))
+* use react 19 release candidate ([9387d49](https://github.com/ixartz/Next-js-Boilerplate/commit/9387d4963014b36d008b1d2efbcec196e0d78d17))
+
+
+### Features
+
+* update to next.js 15 along other npm dependencies ([bbcece3](https://github.com/ixartz/Next-js-Boilerplate/commit/bbcece334c44c314df4cb7736ac30d29b523d463))
+
+
+### Reverts
+
+* add back BaseTemplate storbyook file ([9884038](https://github.com/ixartz/Next-js-Boilerplate/commit/988403883c0bacd9074e2671a3765166742a6dd2))
+* add back Storybook ([229ba7e](https://github.com/ixartz/Next-js-Boilerplate/commit/229ba7e6941e9415e64e6957d1a3163d0fd26082))
+
 ## [3.58.2](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.58.1...v3.58.2) (2024-10-17)
 
 
