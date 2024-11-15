@@ -1,15 +1,9 @@
-import { fileURLToPath } from 'node:url';
-
 import withBundleAnalyzer from '@next/bundle-analyzer';
 import { withSentryConfig } from '@sentry/nextjs';
-import createJiti from 'jiti';
-import withNextIntl from 'next-intl/plugin';
+import createNextIntlPlugin from 'next-intl/plugin';
+import './src/libs/Env';
 
-const jiti = createJiti(fileURLToPath(import.meta.url));
-
-jiti('./src/libs/Env');
-
-const withNextIntlConfig = withNextIntl('./src/libs/i18n.ts');
+const withNextIntl = createNextIntlPlugin('./src/libs/i18n.ts');
 
 const bundleAnalyzer = withBundleAnalyzer({
   enabled: process.env.ANALYZE === 'true',
@@ -18,15 +12,13 @@ const bundleAnalyzer = withBundleAnalyzer({
 /** @type {import('next').NextConfig} */
 export default withSentryConfig(
   bundleAnalyzer(
-    withNextIntlConfig({
+    withNextIntl({
       eslint: {
         dirs: ['.'],
       },
       poweredByHeader: false,
       reactStrictMode: true,
-      experimental: {
-        serverComponentsExternalPackages: ['@electric-sql/pglite'],
-      },
+      serverExternalPackages: ['@electric-sql/pglite'],
     }),
   ),
   {
@@ -44,6 +36,11 @@ export default withSentryConfig(
 
     // Upload a larger set of source maps for prettier stack traces (increases build time)
     widenClientFileUpload: true,
+
+    // Automatically annotate React components to show their full name in breadcrumbs and session replay
+    reactComponentAnnotation: {
+      enabled: true,
+    },
 
     // Route browser requests to Sentry through a Next.js rewrite to circumvent ad-blockers.
     // This can increase your server load as well as your hosting bill.

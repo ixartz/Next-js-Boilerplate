@@ -35,6 +35,7 @@
   ],
 
   // Enable eslint for all supported languages
+  "eslint.format.enable": true,
   "eslint.validate": [
     "javascript",
     "javascriptreact",

@@ -1,14 +1,14 @@
+import { CounterForm } from '@/components/CounterForm';
+import { CurrentCount } from '@/components/CurrentCount';
 import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 import { getTranslations } from 'next-intl/server';
 import { Suspense } from 'react';
 
-import { CounterForm } from '@/components/CounterForm';
-import { CurrentCount } from '@/components/CurrentCount';
-
-export async function generateMetadata(props: { params: { locale: string } }) {
+export async function generateMetadata(props: { params: Promise<{ locale: string }> }) {
+  const { locale } = await props.params;
   const t = await getTranslations({
-    locale: props.params.locale,
+    locale,
     namespace: 'Counter',
   });
 
@@ -18,7 +18,7 @@ export async function generateMetadata(props: { params: { locale: string } }) {
   };
 }
 
-const Counter = () => {
+export default function Counter() {
   const t = useTranslations('Counter');
 
   return (
@@ -48,8 +48,8 @@ const Counter = () => {
           className="mx-auto mt-2"
           src="/assets/images/sentry-dark.png"
           alt="Sentry"
-          width={130}
-          height={112}
+          width={128}
+          height={38}
         />
       </a>
     </>
@@ -57,5 +57,3 @@ const Counter = () => {
 };
 
 export const dynamic = 'force-dynamic';
-
-export default Counter;

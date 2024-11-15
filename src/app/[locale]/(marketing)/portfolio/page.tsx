@@ -1,11 +1,15 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import { useTranslations } from 'next-intl';
-import { getTranslations, unstable_setRequestLocale } from 'next-intl/server';
+import { getTranslations, setRequestLocale } from 'next-intl/server';
 
-export async function generateMetadata(props: { params: { locale: string } }) {
+type IPortfolioProps = {
+  params: Promise<{ locale: string }>;
+};
+
+export async function generateMetadata(props: IPortfolioProps) {
+  const { locale } = await props.params;
   const t = await getTranslations({
-    locale: props.params.locale,
+    locale,
     namespace: 'Portfolio',
   });
 
@@ -15,16 +19,20 @@ export async function generateMetadata(props: { params: { locale: string } }) {
   };
 }
 
-const Portfolio = (props: { params: { locale: string } }) => {
-  unstable_setRequestLocale(props.params.locale);
-  const t = useTranslations('Portfolio');
+export default async function Portfolio(props: IPortfolioProps) {
+  const { locale } = await props.params;
+  setRequestLocale(locale);
+  const t = await getTranslations({
+    locale,
+    namespace: 'Portfolio',
+  });
 
   return (
     <>
       <p>{t('presentation')}</p>
 
       <div className="grid grid-cols-1 justify-items-start gap-3 md:grid-cols-2 xl:grid-cols-3">
-        {Array.from(Array(6).keys()).map(elt => (
+        {Array.from(Array.from({ length: 6 }).keys()).map(elt => (
           <Link
             className="hover:text-blue-700"
             key={elt}
@@ -59,12 +67,10 @@ const Portfolio = (props: { params: { locale: string } }) => {
           className="mx-auto mt-2"
           src="/assets/images/sentry-dark.png"
           alt="Sentry"
-          width={130}
-          height={112}
+          width={128}
+          height={38}
         />
       </a>
     </>
   );
 };
-
-export default Portfolio;

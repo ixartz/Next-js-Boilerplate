@@ -1,11 +1,15 @@
+import { getI18nPath } from '@/utils/Helpers';
 import { UserProfile } from '@clerk/nextjs';
 import { getTranslations } from 'next-intl/server';
 
-import { getI18nPath } from '@/utils/Helpers';
+type IUserProfilePageProps = {
+  params: Promise<{ locale: string }>;
+};
 
-export async function generateMetadata(props: { params: { locale: string } }) {
+export async function generateMetadata(props: IUserProfilePageProps) {
+  const { locale } = await props.params;
   const t = await getTranslations({
-    locale: props.params.locale,
+    locale,
     namespace: 'UserProfile',
   });
 
@@ -14,12 +18,14 @@ export async function generateMetadata(props: { params: { locale: string } }) {
   };
 }
 
-const UserProfilePage = (props: { params: { locale: string } }) => (
-  <div className="my-6 -ml-16">
-    <UserProfile
-      path={getI18nPath('/dashboard/user-profile', props.params.locale)}
-    />
-  </div>
-);
+export default async function UserProfilePage(props: IUserProfilePageProps) {
+  const { locale } = await props.params;
 
-export default UserProfilePage;
+  return (
+    <div className="my-6 -ml-16">
+      <UserProfile
+        path={getI18nPath('/dashboard/user-profile', locale)}
+      />
+    </div>
+  );
+};

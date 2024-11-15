@@ -1,17 +1,15 @@
-import Image from 'next/image';
-import { useTranslations } from 'next-intl';
-import { getTranslations, unstable_setRequestLocale } from 'next-intl/server';
-
 import { AppConfig } from '@/utils/AppConfig';
+import Image from 'next/image';
+import { getTranslations, setRequestLocale } from 'next-intl/server';
 
 type IPortfolioDetailProps = {
-  params: { slug: string; locale: string };
+  params: Promise<{ slug: string; locale: string }>;
 };
 
 export function generateStaticParams() {
   return AppConfig.locales
     .map(locale =>
-      Array.from(Array(6).keys()).map(elt => ({
+      Array.from(Array.from({ length: 6 }).keys()).map(elt => ({
         slug: `${elt}`,
         locale,
       })),
@@ -20,24 +18,29 @@ export function generateStaticParams() {
 }
 
 export async function generateMetadata(props: IPortfolioDetailProps) {
+  const { locale, slug } = await props.params;
   const t = await getTranslations({
-    locale: props.params.locale,
+    locale,
     namespace: 'PortfolioSlug',
   });
 
   return {
-    title: t('meta_title', { slug: props.params.slug }),
-    description: t('meta_description', { slug: props.params.slug }),
+    title: t('meta_title', { slug }),
+    description: t('meta_description', { slug }),
   };
 }
 
-const PortfolioDetail = (props: IPortfolioDetailProps) => {
-  unstable_setRequestLocale(props.params.locale);
-  const t = useTranslations('PortfolioSlug');
+export default async function PortfolioDetail(props: IPortfolioDetailProps) {
+  const { locale, slug } = await props.params;
+  setRequestLocale(locale);
+  const t = await getTranslations({
+    locale,
+    namespace: 'PortfolioSlug',
+  });
 
   return (
     <>
-      <h1 className="capitalize">{t('header', { slug: props.params.slug })}</h1>
+      <h1 className="capitalize">{t('header', { slug })}</h1>
       <p>{t('content')}</p>
 
       <div className="mt-5 text-center text-sm">
@@ -57,8 +60,8 @@ const PortfolioDetail = (props: IPortfolioDetailProps) => {
           className="mx-auto mt-2"
           src="/assets/images/better-stack-dark.png"
           alt="Better Stack"
-          width={130}
-          height={112}
+          width={128}
+          height={22}
         />
       </a>
     </>
@@ -66,5 +69,3 @@ const PortfolioDetail = (props: IPortfolioDetailProps) => {
 };
 
 export const dynamicParams = false;
-
-export default PortfolioDetail;

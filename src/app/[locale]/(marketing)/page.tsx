@@ -1,11 +1,14 @@
-import { useTranslations } from 'next-intl';
-import { getTranslations, unstable_setRequestLocale } from 'next-intl/server';
-
 import { Sponsors } from '@/components/Sponsors';
+import { getTranslations, setRequestLocale } from 'next-intl/server';
 
-export async function generateMetadata(props: { params: { locale: string } }) {
+type IIndexProps = {
+  params: Promise<{ locale: string }>;
+};
+
+export async function generateMetadata(props: IIndexProps) {
+  const { locale } = await props.params;
   const t = await getTranslations({
-    locale: props.params.locale,
+    locale,
     namespace: 'Index',
   });
 
@@ -15,9 +18,13 @@ export async function generateMetadata(props: { params: { locale: string } }) {
   };
 }
 
-const Index = (props: { params: { locale: string } }) => {
-  unstable_setRequestLocale(props.params.locale);
-  const t = useTranslations('Index');
+export default async function Index(props: IIndexProps) {
+  const { locale } = await props.params;
+  setRequestLocale(locale);
+  const t = await getTranslations({
+    locale,
+    namespace: 'Index',
+  });
 
   return (
     <>
@@ -101,5 +108,3 @@ const Index = (props: { params: { locale: string } }) => {
     </>
   );
 };
-
-export default Index;

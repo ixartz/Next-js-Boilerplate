@@ -1,10 +1,13 @@
 import Image from 'next/image';
-import { useTranslations } from 'next-intl';
-import { getTranslations, unstable_setRequestLocale } from 'next-intl/server';
+import { getTranslations, setRequestLocale } from 'next-intl/server';
 
-export async function generateMetadata(props: { params: { locale: string } }) {
+type IAboutProps = {
+  params: Promise<{ slug: string; locale: string }>;
+};
+export async function generateMetadata(props: IAboutProps) {
+  const { locale } = await props.params;
   const t = await getTranslations({
-    locale: props.params.locale,
+    locale,
     namespace: 'About',
   });
 
@@ -14,9 +17,13 @@ export async function generateMetadata(props: { params: { locale: string } }) {
   };
 }
 
-const About = (props: { params: { locale: string } }) => {
-  unstable_setRequestLocale(props.params.locale);
-  const t = useTranslations('About');
+export default async function About(props: IAboutProps) {
+  const { locale } = await props.params;
+  setRequestLocale(locale);
+  const t = await getTranslations({
+    locale,
+    namespace: 'About',
+  });
 
   return (
     <>
@@ -37,12 +44,10 @@ const About = (props: { params: { locale: string } }) => {
           className="mx-auto mt-2"
           src="/assets/images/crowdin-dark.png"
           alt="Crowdin Translation Management System"
-          width={130}
-          height={112}
+          width={128}
+          height={26}
         />
       </a>
     </>
   );
 };
-
-export default About;
