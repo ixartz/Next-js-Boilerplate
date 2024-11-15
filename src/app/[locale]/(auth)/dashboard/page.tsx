@@ -15,7 +15,7 @@ export async function generateMetadata(props: { params: Promise<{ locale: string
 
 export default function Dashboard() {
   return (
-    <div className="[&_p]:my-6">
+    <div className="py-5 [&_p]:my-6">
       <Hello />
     </div>
   );
