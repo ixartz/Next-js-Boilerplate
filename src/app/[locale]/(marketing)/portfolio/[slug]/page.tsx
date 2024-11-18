@@ -1,4 +1,4 @@
-import { AppConfig } from '@/utils/AppConfig';
+import { routing } from '@/libs/i18nNavigation';
 import Image from 'next/image';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 
@@ -7,7 +7,7 @@ type IPortfolioDetailProps = {
 };
 
 export function generateStaticParams() {
-  return AppConfig.locales
+  return routing.locales
     .map(locale =>
       Array.from(Array.from({ length: 6 }).keys()).map(elt => ({
         slug: `${elt}`,
