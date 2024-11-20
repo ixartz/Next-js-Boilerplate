@@ -1,7 +1,8 @@
 'use client';
 
 import type { ChangeEventHandler } from 'react';
-import { routing, usePathname, useRouter } from '@/libs/i18nNavigation';
+import { routing, usePathname } from '@/libs/i18nNavigation';
+import { useRouter } from 'next/navigation';
 import { useLocale } from 'next-intl';
 
 export const LocaleSwitcher = () => {
@@ -10,7 +11,7 @@ export const LocaleSwitcher = () => {
   const locale = useLocale();
 
   const handleChange: ChangeEventHandler<HTMLSelectElement> = (event) => {
-    router.push(pathname, { locale: event.target.value });
+    router.push(`/${event.target.value}${pathname}`);
     router.refresh();
   };
 
