@@ -1,12 +1,14 @@
-import { AppConfig } from '@/utils/AppConfig';
+import { routing } from '@/libs/i18nNavigation';
 import { enUS, frFR } from '@clerk/localizations';
 import { ClerkProvider } from '@clerk/nextjs';
+import { setRequestLocale } from 'next-intl/server';
 
 export default async function AuthLayout(props: {
   children: React.ReactNode;
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await props.params;
+  setRequestLocale(locale);
   let clerkLocale = enUS;
   let signInUrl = '/sign-in';
   let signUpUrl = '/sign-up';
@@ -17,7 +19,7 @@ export default async function AuthLayout(props: {
     clerkLocale = frFR;
   }
 
-  if (locale !== AppConfig.defaultLocale) {
+  if (locale !== routing.defaultLocale) {
     signInUrl = `/${locale}${signInUrl}`;
     signUpUrl = `/${locale}${signUpUrl}`;
     dashboardUrl = `/${locale}${dashboardUrl}`;

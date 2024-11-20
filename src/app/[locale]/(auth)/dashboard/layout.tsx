@@ -2,10 +2,18 @@ import { LocaleSwitcher } from '@/components/LocaleSwitcher';
 import { BaseTemplate } from '@/templates/BaseTemplate';
 import { SignOutButton } from '@clerk/nextjs';
 import Link from 'next/link';
-import { useTranslations } from 'next-intl';
+import { getTranslations, setRequestLocale } from 'next-intl/server';
 
-export default function DashboardLayout(props: { children: React.ReactNode }) {
-  const t = useTranslations('DashboardLayout');
+export default async function DashboardLayout(props: {
+  children: React.ReactNode;
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await props.params;
+  setRequestLocale(locale);
+  const t = await getTranslations({
+    locale,
+    namespace: 'DashboardLayout',
+  });
 
   return (
     <BaseTemplate
@@ -49,5 +57,3 @@ export default function DashboardLayout(props: { children: React.ReactNode }) {
     </BaseTemplate>
   );
 }
-
-export const dynamic = 'force-dynamic';

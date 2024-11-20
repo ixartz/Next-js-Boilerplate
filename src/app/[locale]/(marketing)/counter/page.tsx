@@ -5,7 +5,9 @@ import { useTranslations } from 'next-intl';
 import { getTranslations } from 'next-intl/server';
 import { Suspense } from 'react';
 
-export async function generateMetadata(props: { params: Promise<{ locale: string }> }) {
+export async function generateMetadata(props: {
+  params: Promise<{ locale: string }>;
+}) {
   const { locale } = await props.params;
   const t = await getTranslations({
     locale,
@@ -55,5 +57,3 @@ export default function Counter() {
     </>
   );
 };
-
-export const dynamic = 'force-dynamic';

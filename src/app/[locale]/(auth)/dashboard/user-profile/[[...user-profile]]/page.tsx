@@ -1,6 +1,6 @@
 import { getI18nPath } from '@/utils/Helpers';
 import { UserProfile } from '@clerk/nextjs';
-import { getTranslations } from 'next-intl/server';
+import { getTranslations, setRequestLocale } from 'next-intl/server';
 
 type IUserProfilePageProps = {
   params: Promise<{ locale: string }>;
@@ -20,6 +20,7 @@ export async function generateMetadata(props: IUserProfilePageProps) {
 
 export default async function UserProfilePage(props: IUserProfilePageProps) {
   const { locale } = await props.params;
+  setRequestLocale(locale);
 
   return (
     <div className="my-6 -ml-16">
