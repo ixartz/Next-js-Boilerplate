@@ -1,3 +1,11 @@
+## [3.59.1](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.59.0...v3.59.1) (2024-11-20)
+
+
+### Bug Fixes
+
+* set default lang for global error page from i18n routing ([e148bea](https://github.com/ixartz/Next-js-Boilerplate/commit/e148bea9d6290df220a73110f878132e4f818137))
+* static rendering for sign in and sign up page ([2b6e75f](https://github.com/ixartz/Next-js-Boilerplate/commit/2b6e75faa0f2d04119c1ea107f09671773cab37f))
+
 # [3.59.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.58.2...v3.59.0) (2024-11-15)
 
 
