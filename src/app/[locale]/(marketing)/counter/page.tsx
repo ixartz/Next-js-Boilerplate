@@ -57,5 +57,3 @@ export default function Counter() {
     </>
   );
 };
-
-export const dynamic = 'force-dynamic';
