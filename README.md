@@ -130,6 +130,7 @@ Developer experience first, extremely flexible code structure and only keep what
 - ☂️ Code coverage with [Codecov](https://about.codecov.io/codecov-free-trial/?utm_source=github&utm_medium=paid-community&utm_campaign=general-fy25q1-nextjs&utm_content=github-banner-nextjsboilerplate-logo)
 - 📝 Logging with Pino.js and Log Management with [Better Stack](https://betterstack.com/?utm_source=github&utm_medium=sponsorship&utm_campaign=next-js-boilerplate)
 - 🖥️ Monitoring as Code with [Checkly](https://www.checklyhq.com/?utm_source=github&utm_medium=sponsorship&utm_campaign=next-js-boilerplate)
+- 🔐 Security and bot protection ([Arcjet](https://launch.arcjet.com/Q6eLbREo))
 - 🎁 Automatic changelog generation with Semantic Release
 - 🔍 Visual testing with Percy (Optional)
 - 💡 Absolute Imports using `@` prefix
@@ -357,6 +358,19 @@ To use Checkly, you must first create an account on [their website](https://www.
 
 To complete the setup, update the `checkly.config.ts` file with your own email address and production URL.
 
+### Arcjet security and bot protection
+
+The project uses [Arcjet](https://launch.arcjet.com/Q6eLbRE), a security as code product that includes several features that can be used individually or combined to provide defense in depth for your site.
+
+To set up Arcjet, [create a free account]((https://launch.arcjet.com/Q6eLbRE)) and get your API key. Then add it to the `ARCJET_KEY` environment variable.
+
+Arcjet is configured with two main features: bot detection and the Arcjet Shield WAF:
+
+- [Bot detection](https://docs.arcjet.com/bot-protection/concepts) is configured to allow search engines, preview link generators e.g. Slack and Twitter previews, and to allow common uptime monitoring services. All other bots, such as scrapers and AI crawlers, will be blocked. You can [configure additional bot types](https://docs.arcjet.com/bot-protection/identifying-bots) to allow or block.
+- [Arcjet Shield WAF](https://docs.arcjet.com/shield/concepts) will detect and block common attacks such as SQL injection, cross-site scripting, and other OWASP Top 10 vulnerabilities.
+
+Arcjet is configured with a central client at `src/libs/Arcjet.ts` that includes the Shield WAF rules. Additional rules are configured in `src/app/[locale]/(auth)/layout.tsx` and `src/app/[locale]/(marketing)/page.tsx` based on the page type.
+
 ### Useful commands
 
 #### Bundle Analyzer
@@ -466,6 +480,14 @@ See [LICENSE](LICENSE) for more information.
     </td>
   </tr>
   <tr height="187px">
+  <td align="center" width="33%">
+      <a href="https://launch.arcjet.com/Q6eLbRE" target="_arcjet-home">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="public/assets/images/arcjet-dark.svg">
+    <img src="public/assets/images/arcjet-light.svg" alt="Arcjet Logo" height="128" width="auto">
+  </picture>
+</a>
+    </td>
     <td align="center" style=width="33%">
       <a href="https://nextjs-boilerplate.com/pro-saas-starter-kit">
         <img src="public/assets/images/nextjs-boilerplate-saas.png?raw=true" alt="Next.js SaaS Boilerplate with React" />
