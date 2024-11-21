@@ -1,3 +1,10 @@
+## [3.59.2](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.59.1...v3.59.2) (2024-11-21)
+
+
+### Bug Fixes
+
+* switch back to en/default not loading ([cf7688a](https://github.com/ixartz/Next-js-Boilerplate/commit/cf7688ac4e19f9efa9e78508811bb06c785a9790))
+
 ## [3.59.1](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.59.0...v3.59.1) (2024-11-20)
 
 
