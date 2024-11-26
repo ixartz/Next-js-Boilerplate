@@ -1,6 +1,6 @@
+import { getTranslations, setRequestLocale } from 'next-intl/server';
 import Image from 'next/image';
 import Link from 'next/link';
-import { getTranslations, setRequestLocale } from 'next-intl/server';
 
 type IPortfolioProps = {
   params: Promise<{ locale: string }>;
