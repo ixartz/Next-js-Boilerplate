@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { DemoBadge } from '@/components/DemoBadge';
 import arcjet, { detectBot, request } from '@/libs/Arcjet';
+import { Env } from '@/libs/Env';
 import { routing } from '@/libs/i18nNavigation';
 import { notFound } from 'next/navigation';
 import { NextIntlClientProvider } from 'next-intl';
@@ -36,6 +37,7 @@ export function generateStaticParams() {
   return routing.locales.map(locale => ({ locale }));
 }
 
+// Improve security with Arcjet
 const aj = arcjet.withRule(
   detectBot({
     mode: 'LIVE',
@@ -61,17 +63,20 @@ export default async function RootLayout(props: {
 
   setRequestLocale(locale);
 
-  const req = await request();
-  const decision = await aj.protect(req);
+  // Verify the request with Arcjet
+  if (Env.ARCJET_KEY) {
+    const req = await request();
+    const decision = await aj.protect(req);
 
-  // These errors are handled by the global error boundary, but you could also
-  // redirect or show a custom error page
-  if (decision.isDenied()) {
-    if (decision.reason.isBot()) {
-      throw new Error('No bots allowed');
+    // These errors are handled by the global error boundary, but you could also
+    // redirect or show a custom error page
+    if (decision.isDenied()) {
+      if (decision.reason.isBot()) {
+        throw new Error('No bots allowed');
+      }
+
+      throw new Error('Access denied');
     }
-
-    throw new Error('Access denied');
   }
 
   // Using internationalization in Client Components
