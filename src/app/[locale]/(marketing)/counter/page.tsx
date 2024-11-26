@@ -1,8 +1,8 @@
 import { CounterForm } from '@/components/CounterForm';
 import { CurrentCount } from '@/components/CurrentCount';
-import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 import { getTranslations } from 'next-intl/server';
+import Image from 'next/image';
 import { Suspense } from 'react';
 
 export async function generateMetadata(props: {

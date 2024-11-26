@@ -1,5 +1,5 @@
-import Image from 'next/image';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
+import Image from 'next/image';
 
 type IAboutProps = {
   params: Promise<{ slug: string; locale: string }>;
