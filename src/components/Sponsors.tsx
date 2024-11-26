@@ -90,7 +90,7 @@ export const Sponsors = () => (
       </tr>
       <tr className="h-56">
         <td className="border-2 border-gray-300 p-3">
-          <a href="https://launch.arcjet.com/Q6eLbREo">
+          <a href="https://launch.arcjet.com/Q6eLbRE">
             <Image
               src="/assets/images/arcjet-light.svg"
               alt="Arcjet"
