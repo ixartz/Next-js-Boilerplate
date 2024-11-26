@@ -1,3 +1,10 @@
+## [3.60.1](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.60.0...v3.60.1) (2024-11-26)
+
+
+### Bug Fixes
+
+* update Arcjet integration and improve security checks ([516b75e](https://github.com/ixartz/Next-js-Boilerplate/commit/516b75e964f902f078ae4dc44f488796735769fb))
+
 # [3.60.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.59.2...v3.60.0) (2024-11-26)
 
 
