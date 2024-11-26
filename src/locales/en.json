@@ -20,7 +20,7 @@
     "meta_title": "Counter",
     "meta_description": "An example of DB operation",
     "loading_counter": "Loading counter...",
-    "error_reporting_powered_by": "Error reporting powered by"
+    "security_powered_by": "Security, bot detection and rate limiting powered by"
   },
   "CounterForm": {
     "presentation": "The counter is stored in the database and incremented by the value you provide.",
