@@ -1,3 +1,15 @@
+# [3.60.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.59.2...v3.60.0) (2024-11-26)
+
+
+### Bug Fixes
+
+* change Arcjet URL ([ac670a5](https://github.com/ixartz/Next-js-Boilerplate/commit/ac670a54735be9955404e9e3fc716aed39fdedc1))
+
+
+### Features
+
+* implement Arcjet security bot detection & Shield WAF ([96d95f4](https://github.com/ixartz/Next-js-Boilerplate/commit/96d95f45aff0df60ad9b6f1d64dd9b58098ea9ab))
+
 ## [3.59.2](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.59.1...v3.59.2) (2024-11-21)
 
 
