@@ -1,3 +1,10 @@
+## [3.60.2](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.60.1...v3.60.2) (2024-12-05)
+
+
+### Bug Fixes
+
+* upgrade to react 19 stable version ([0f744e3](https://github.com/ixartz/Next-js-Boilerplate/commit/0f744e3f5525399da9adbf659889f2cf51f9bb4d))
+
 ## [3.60.1](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.60.0...v3.60.1) (2024-11-26)
 
 
