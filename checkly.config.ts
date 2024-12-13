@@ -7,20 +7,17 @@ const sendDefaults = {
   sendDegraded: true,
 };
 
-// FIXME: Add your production URL
-const productionURL = 'https://demo.nextjs-boilerplate.com';
+const productionURL = 'https://justinbachtell.com';
 
 const emailChannel = new EmailAlertChannel('email-channel-1', {
-  // FIXME: add your own email address, Checkly will send you an email notification if a check fails
-  address: 'contact@creativedesignsguru.com',
+  address: process.env.EMAIL_ADDRESS || '',
   ...sendDefaults,
 });
 
 export const config = defineConfig({
-  // FIXME: Add your own project name, logical ID, and repository URL
-  projectName: 'Next.js Boilerplate',
-  logicalId: 'nextjs-boilerplate',
-  repoUrl: 'https://github.com/ixartz/Next-js-Boilerplate',
+  projectName: 'Smartvest Bot',
+  logicalId: 'smartvest-bot',
+  repoUrl: 'https://github.com/justinbachtell/smartvest-bot',
   checks: {
     locations: ['us-east-1', 'eu-west-1'],
     tags: ['website'],

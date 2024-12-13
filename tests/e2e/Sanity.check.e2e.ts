@@ -18,7 +18,7 @@ test.describe('Sanity', () => {
       await page.goto(`${baseURL}/`);
 
       await expect(
-        page.getByRole('heading', { name: 'Boilerplate Code for Your Next.js Project with Tailwind CSS' }),
+        page.getByRole('heading', { name: 'Smartvest Bot - AI-Powered Trading' }),
       ).toBeVisible();
     });
 
@@ -30,20 +30,16 @@ test.describe('Sanity', () => {
       await expect(page).toHaveURL(/about$/);
 
       await expect(
-        page.getByText('Welcome to our About page', { exact: false }),
+        page.getByText('Welcome to Smartvest Bot!', { exact: false }),
       ).toBeVisible();
     });
 
-    test('should navigate to the portfolio page', async ({ page, baseURL }) => {
+    test('should navigate to sign in page', async ({ page, baseURL }) => {
       await page.goto(`${baseURL}/`);
 
-      await page.getByRole('link', { name: 'Portfolio' }).click();
+      await page.getByRole('link', { name: 'Sign in' }).click();
 
-      await expect(page).toHaveURL(/portfolio$/);
-
-      await expect(
-        page.locator('main').getByRole('link', { name: /^Portfolio/ }),
-      ).toHaveCount(6);
+      await expect(page).toHaveURL(/sign-in$/);
     });
   });
 });

@@ -1,74 +1,61 @@
 {
   "RootLayout": {
     "home_link": "Accueil",
-    "about_link": "A propos",
-    "counter_link": "Compteur",
-    "portfolio_link": "Portfolio",
+    "about_link": "À propos",
+    "dashboard_link": "Tableau de bord",
+    "portfolio_link": "Portfolio de trading",
     "sign_in_link": "Se connecter",
     "sign_up_link": "S'inscrire"
   },
   "BaseTemplate": {
-    "description": "Code de démarrage pour Next.js avec Tailwind CSS",
+    "description": "Un bot de trading automatisé par IA pour les actions et les crypto-monnaies",
     "made_with": "Fait avec <author></author>."
   },
   "Index": {
-    "meta_title": "Présentation de Next.js Boilerplate",
-    "meta_description": "Next js Boilerplate est le code de démarrage parfait pour votre projet. Construisez votre application React avec le framework Next.js.",
-    "sponsors_title": "Partenaires"
-  },
-  "Counter": {
-    "meta_title": "Compteur",
-    "meta_description": "Un exemple d'opération DB",
-    "loading_counter": "Chargement du compteur...",
-    "security_powered_by": "Sécurité, détection de bot et rate limiting propulsés par"
-  },
-  "CounterForm": {
-    "presentation": "Le compteur est stocké dans la base de données et incrémenté par la valeur que vous fournissez.",
-    "label_increment": "Incrémenter de",
-    "button_increment": "Incrémenter"
-  },
-  "CurrentCount": {
-    "count": "Nombre : {count}"
-  },
-  "About": {
-    "meta_title": "A propos",
-    "meta_description": "A propos description",
-    "about_paragraph": "Bienvenue sur notre page À propos ! Nous sommes une équipe de passionnés et dévoués à la création de logiciels.",
-    "translation_powered_by": "Traduction propulsée par"
-  },
-  "Portfolio": {
-    "meta_title": "Portfolio",
-    "meta_description": "Bienvenue sur la page de mon portfolio !",
-    "presentation": "Bienvenue sur ma page portfolio ! Vous trouverez ici une collection soigneusement organisée de mon travail et de mes réalisations. À travers ce portfolio, je mets en valeur mon expertise, ma créativité et la valeur que je peux apporter à vos projets.",
-    "portfolio_name": "Portfolio {name}",
-    "error_reporting_powered_by": "Rapport d'erreur propulsé par",
-    "coverage_powered_by": "Couverture de code propulsée par"
-  },
-  "PortfolioSlug": {
-    "meta_title": "Portfolio {slug}",
-    "meta_description": "Description du Portfolio {slug}",
-    "header": "Portfolio {slug}",
-    "content": "Créé un ensemble de matériel promotionnel et d'éléments de marquage pour un événement d'entreprise. Conçu un thème visuellement unifié, englobant un logo, des affiches, des bannières et des actifs numériques. Intégrer l'identité de marque du client tout en l'insufflant à une approche contemporaine et innovante. Des réponses favorables de la part des participants ont été obtenues, ce qui a donné lieu à un événement réussi avec un engagement accru des participants et une meilleure visibilité de la marque.",
-    "log_management_powered_by": "Gestion des logs propulsée par"
-  },
-  "SignIn": {
-    "meta_title": "Se connecter",
-    "meta_description": "Connectez-vous à votre compte avec facilité."
-  },
-  "SignUp": {
-    "meta_title": "S'inscrire",
-    "meta_description": "Créez un compte facilement grâce à notre processus d'inscription intuitif."
+    "meta_title": "Smartvest Bot - Trading par IA",
+    "meta_description": "Smartvest Bot est votre compagnon de trading intelligent, utilisant l'IA pour optimiser vos investissements en actions et en crypto-monnaies.",
+    "sponsors_title": "Ils nous font confiance"
   },
   "Dashboard": {
-    "meta_title": "Tableau de bord",
-    "hello_message": "Bonjour {email}!"
+    "meta_title": "Tableau de bord de trading",
+    "meta_description": "Surveillez votre performance de trading automatisé",
+    "hello_message": "Bon retour, {email}!",
+    "total_portfolio": "Valeur totale du portefeuille",
+    "active_trades": "Trades actifs",
+    "trading_history": "Historique des trades",
+    "performance_stats": "Statistiques de performance"
+  },
+  "Portfolio": {
+    "meta_title": "Portfolio de Trading",
+    "meta_description": "Consultez vos trades actifs et la performance de votre portefeuille",
+    "presentation": "Votre portfolio de trading personnalisé présente vos positions actives, votre performance historique et les analyses générées par l'IA. Suivez vos investissements et surveillez les stratégies de trading de votre bot en temps réel.",
+    "portfolio_name": "Portfolio {name}",
+    "error_reporting_powered_by": "Rapport d'erreur propulsé par",
+    "coverage_powered_by": "Analytique propulsée par"
+  },
+  "About": {
+    "meta_title": "À propos de Smartvest Bot",
+    "meta_description": "Découvrez notre technologie de trading propulsée par l'IA",
+    "about_paragraph": "Bienvenue sur Smartvest Bot ! Nous sommes pionniers dans le futur du trading automatisé avec des algorithmes d'IA avancés conçus pour optimiser votre stratégie d'investissement sur les marchés des actions et des crypto-monnaies.",
+    "technology_powered_by": "Technologie IA propulsée par"
+  },
+  "SignIn": {
+    "meta_title": "Connexion à Smartvest Bot",
+    "meta_description": "Accédez à votre tableau de bord de trading en toute sécurité"
+  },
+  "SignUp": {
+    "meta_title": "Rejoindre Smartvest Bot",
+    "meta_description": "Commencez votre parcours de trading automatisé aujourd'hui"
   },
   "UserProfile": {
-    "meta_title": "Profil de l'utilisateur"
+    "meta_title": "Préférences de Trading",
+    "risk_level": "Niveau de risque",
+    "trading_pairs": "Paires de trading",
+    "api_settings": "Paramètres API"
   },
   "DashboardLayout": {
-    "dashboard_link": "Tableau de bord",
-    "user_profile_link": "Gérer votre compte",
+    "dashboard_link": "Tableau de bord de trading",
+    "user_profile_link": "Paramètres de trading",
     "sign_out": "Se déconnecter"
   }
 }

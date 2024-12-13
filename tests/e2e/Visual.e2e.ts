@@ -7,7 +7,7 @@ test.describe('Visual testing', () => {
       await page.goto('/');
 
       await expect(
-        page.getByRole('heading', { name: 'Boilerplate Code for Your Next.js Project with Tailwind CSS' }),
+        page.getByRole('heading', { name: 'Smartvest Bot - AI-Powered Trading' }),
       ).toBeVisible();
 
       await percySnapshot(page, 'Homepage');
@@ -17,38 +17,41 @@ test.describe('Visual testing', () => {
       await page.goto('/about');
 
       await expect(
-        page.getByRole('link', { name: 'About' }),
+        page.getByText('Welcome to Smartvest Bot!', { exact: false }),
       ).toBeVisible();
 
       await percySnapshot(page, 'About');
     });
 
-    test('should take screenshot of the portfolio page and one details page', async ({ page }) => {
-      await page.goto('/portfolio');
+    test('should take screenshot of the sign-in page', async ({ page }) => {
+      await page.goto('/sign-in');
 
       await expect(
-        page.getByText('Welcome to my portfolio page!'),
+        page.getByRole('heading', { name: 'Sign in to Smartvest Bot' }),
       ).toBeVisible();
 
-      await percySnapshot(page, 'Portfolio');
-
-      await page.getByRole('link', { name: 'Portfolio 2' }).click();
-
-      await expect(
-        page.getByText('Created a set of promotional'),
-      ).toBeVisible();
-
-      await percySnapshot(page, 'Portfolio details');
+      await percySnapshot(page, 'Sign In');
     });
 
     test('should take screenshot of the French homepage', async ({ page }) => {
       await page.goto('/fr');
 
       await expect(
-        page.getByRole('heading', { name: 'Code de démarrage pour Next.js avec Tailwind CSS' }),
+        page.getByRole('heading', { name: 'Smartvest Bot - Trading par IA' }),
       ).toBeVisible();
 
       await percySnapshot(page, 'Homepage - French');
+    });
+
+    test('should take screenshot of the dashboard (authenticated)', async ({ page }) => {
+      // Note: You'll need to implement authentication logic before this test
+      await page.goto('/dashboard');
+
+      await expect(
+        page.getByRole('heading', { name: 'Trading Dashboard' }),
+      ).toBeVisible();
+
+      await percySnapshot(page, 'Dashboard');
     });
   });
 });

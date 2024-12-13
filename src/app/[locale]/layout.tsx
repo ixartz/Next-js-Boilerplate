@@ -1,5 +1,4 @@
 import type { Metadata } from 'next';
-import { DemoBadge } from '@/components/DemoBadge';
 import arcjet, { detectBot, request } from '@/libs/Arcjet';
 import { Env } from '@/libs/Env';
 import { routing } from '@/libs/i18nNavigation';
@@ -93,8 +92,6 @@ export default async function RootLayout(props: {
           messages={messages}
         >
           {props.children}
-
-          <DemoBadge />
         </NextIntlClientProvider>
       </body>
     </html>
