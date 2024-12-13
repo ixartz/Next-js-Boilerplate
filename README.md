@@ -1,8 +1,8 @@
-# Smartvest Bot automated AI trading bot for stocks and crypto
+# Smartvest Bot - Automated AI Trading Bot for Stocks and Crypto
 
 ### Live Site
 
-**[SmartvestBot](https://justinbachtell.com)**
+**[SmartvestBot]()**
 
 ### Features
 
