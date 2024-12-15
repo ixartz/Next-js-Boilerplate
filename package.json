@@ -158,11 +158,6 @@
     "vitest": "1.2.2",
     "vitest-fail-on-console": "^0.7.1"
   },
-  "config": {
-    "commitizen": {
-      "path": "cz-conventional-changelog"
-    }
-  },
   "release": {
     "branches": [
       "main"

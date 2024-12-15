@@ -27,6 +27,8 @@ export default withSentryConfig(
     org: 'justin-bachtell',
     project: 'smartvest-bot',
 
+    authToken: process.env.SENTRY_AUTH_TOKEN,
+
     // Only print logs for uploading source maps in CI
     silent: !process.env.CI,
 

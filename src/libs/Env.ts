@@ -11,12 +11,14 @@ export const Env = createEnv({
     ENVIRONMENT_URL: z.string().optional(),
     NODE_ENV: z.enum(['test', 'development', 'production']).optional(),
     EMAIL_ADDRESS: z.string().email().optional(),
+    SENTRY_AUTH_TOKEN: z.string().optional(),
     VERCEL_BYPASS_TOKEN: z.string().optional(),
   },
   client: {
     NEXT_PUBLIC_APP_URL: z.string().optional(),
     NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY: z.string().min(1),
     NEXT_PUBLIC_CLERK_SIGN_IN_URL: z.string().min(1),
+    NEXT_PUBLIC_SENTRY_DSN: z.string().optional(),
   },
   shared: {
     NODE_ENV: z.enum(['test', 'development', 'production']).optional(),
@@ -30,10 +32,12 @@ export const Env = createEnv({
     ENVIRONMENT_URL: process.env.ENVIRONMENT_URL,
     EMAIL_ADDRESS: process.env.EMAIL_ADDRESS,
     VERCEL_BYPASS_TOKEN: process.env.VERCEL_BYPASS_TOKEN,
+    SENTRY_AUTH_TOKEN: process.env.SENTRY_AUTH_TOKEN,
     NEXT_PUBLIC_APP_URL: process.env.NEXT_PUBLIC_APP_URL,
     NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY:
       process.env.NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY,
     NEXT_PUBLIC_CLERK_SIGN_IN_URL: process.env.NEXT_PUBLIC_CLERK_SIGN_IN_URL,
     NODE_ENV: process.env.NODE_ENV,
+    NEXT_PUBLIC_SENTRY_DSN: process.env.NEXT_PUBLIC_SENTRY_DSN,
   },
 });
