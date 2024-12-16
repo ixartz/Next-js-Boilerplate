@@ -26,7 +26,6 @@ export default withSentryConfig(
     // https://github.com/getsentry/sentry-webpack-plugin#options
     org: 'justin-bachtell',
     project: 'smartvest-bot',
-
     authToken: process.env.SENTRY_AUTH_TOKEN,
 
     // Only print logs for uploading source maps in CI
