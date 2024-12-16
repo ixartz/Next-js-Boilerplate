@@ -1,3 +1,10 @@
+## [3.60.4](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.60.3...v3.60.4) (2024-12-16)
+
+
+### Bug Fixes
+
+* remove custom framework configuration file for i18n ally ([a681b13](https://github.com/ixartz/Next-js-Boilerplate/commit/a681b13e7ddd78afd1cc9b2c02d9797d71c8f992))
+
 ## [3.60.3](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.60.2...v3.60.3) (2024-12-10)
 
 
