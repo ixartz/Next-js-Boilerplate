@@ -18,7 +18,7 @@
   "typescript.preferences.preferTypeOnlyAutoImports": true, // Prefer type-only imports
 
   // Vitest
-  "testing.openTesting": "neverOpen", // Don't open the testing view automatically when running tests
+  "testing.automaticallyOpenTestResults": "neverOpen", // Don't open the test results automatically
 
   // I18n
   "i18n-ally.localesPaths": ["src/locales"],
