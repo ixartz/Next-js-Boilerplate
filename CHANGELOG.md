@@ -1,3 +1,11 @@
+## [3.60.5](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.60.4...v3.60.5) (2024-12-20)
+
+
+### Bug Fixes
+
+* add new message in hello component ([5ef2fc5](https://github.com/ixartz/Next-js-Boilerplate/commit/5ef2fc52f0cc3d7b6a8754832f4dda9127098df5))
+* use new vitest vscode setting for preventing automatic opening of the test results ([36027db](https://github.com/ixartz/Next-js-Boilerplate/commit/36027dba2d65fd5faf30504cae88735f438b20cd))
+
 ## [3.60.4](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.60.3...v3.60.4) (2024-12-16)
 
 
