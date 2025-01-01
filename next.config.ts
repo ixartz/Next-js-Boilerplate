@@ -19,6 +19,12 @@ export default withSentryConfig(
       poweredByHeader: false,
       reactStrictMode: true,
       serverExternalPackages: ['@electric-sql/pglite'],
+      webpack: (config, { isServer }) => {
+        if (!isServer) {
+          config.devtool = 'hidden-source-map';
+        }
+        return config;
+      },
     }),
   ),
   {
@@ -48,9 +54,6 @@ export default withSentryConfig(
     // side errors will fail.
     tunnelRoute: '/monitoring',
 
-    // Hides source maps from generated client bundles
-    hideSourceMaps: true,
-
     // Automatically tree-shake Sentry logger statements to reduce bundle size
     disableLogger: true,
 
@@ -62,5 +65,13 @@ export default withSentryConfig(
 
     // Disable Sentry telemetry
     telemetry: false,
+
+    // sourcemaps configuration
+    // - deleteSourcemapsAfterUpload: Automatically deletes source maps from the build directory after they are uploaded to Sentry.
+    //   This helps to prevent exposing source maps in production environments and reduces storage usage.
+    // - Ensure this option aligns with your debugging workflow; developers should have access to source maps elsewhere if needed.
+    sourcemaps: {
+      deleteSourcemapsAfterUpload: true, // FIXME: Confirm if source maps need to be retained locally for debugging purposes after upload to Sentry
+    },
   },
 );
