@@ -19,9 +19,9 @@ export default withSentryConfig(
       poweredByHeader: false,
       reactStrictMode: true,
       serverExternalPackages: ['@electric-sql/pglite'],
-      webpack: (config, { isServer }) => {
-        if (!isServer) {
-          config.devtool = 'hidden-source-map';
+      webpack: (config, options) => {
+        if (!options.dev) {
+          config.devtool = options.isServer ? false : 'hidden-source-map';
         }
         return config;
       },
