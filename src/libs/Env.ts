@@ -1,7 +1,6 @@
 import { createEnv } from '@t3-oss/env-nextjs';
 import { z } from 'zod';
 
-// Don't add NODE_ENV into T3 Env, it changes the tree-shaking behavior
 export const Env = createEnv({
   server: {
     ARCJET_KEY: z.string().startsWith('ajkey_').optional(),
