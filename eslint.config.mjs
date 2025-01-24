@@ -1,6 +1,7 @@
 import antfu from '@antfu/eslint-config';
 import nextPlugin from '@next/eslint-plugin-next';
 import jestDom from 'eslint-plugin-jest-dom';
+import jsxA11y from 'eslint-plugin-jsx-a11y';
 import playwright from 'eslint-plugin-playwright';
 import testingLibrary from 'eslint-plugin-testing-library';
 
@@ -23,7 +24,7 @@ export default antfu({
     'migrations/**/*',
     'next-env.d.ts',
   ],
-}, {
+}, jsxA11y.flatConfigs.recommended, {
   plugins: {
     '@next/next': nextPlugin,
   },
