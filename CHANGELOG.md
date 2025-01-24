@@ -1,3 +1,21 @@
+# [3.61.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.60.5...v3.61.0) (2025-01-24)
+
+
+### Bug Fixes
+
+* apply css classes after upgrading to tailwind css 4 ([70f5a87](https://github.com/ixartz/Next-js-Boilerplate/commit/70f5a878e4c9313235d578497a22b1bef5df9203))
+
+
+### Features
+
+* update to Tailwind CSS v4 ([5ac5331](https://github.com/ixartz/Next-js-Boilerplate/commit/5ac5331818e31be4c197dea4430af57a55753708))
+* upgrade to Vitest 3 ([3e904f5](https://github.com/ixartz/Next-js-Boilerplate/commit/3e904f568ffadf174cf4cb4794350676af1435e8))
+
+
+### Reverts
+
+* add back eslint-plugin-jsx-a11y in eslint config ([0a621ab](https://github.com/ixartz/Next-js-Boilerplate/commit/0a621abc5ac26b859bc4139f8592eeacfe0bd213))
+
 ## [3.60.5](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.60.4...v3.60.5) (2024-12-20)
 
 
