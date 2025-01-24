@@ -84,7 +84,7 @@
     "commitizen": "^4.3.1",
     "cross-env": "^7.0.3",
     "cssnano": "^7.0.6",
-    "dotenv-cli": "^7.4.4",
+    "dotenv-cli": "^8.0.0",
     "drizzle-kit": "^0.30.2",
     "eslint": "^9.18.0",
     "eslint-plugin-format": "^1.0.1",
