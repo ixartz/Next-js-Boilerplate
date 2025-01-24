@@ -39,7 +39,7 @@ export const CounterForm = () => {
           <input
             id="increment"
             type="number"
-            className="ml-2 w-32 appearance-none rounded border px-2 py-1 text-sm leading-tight text-gray-700 focus:outline-none focus:ring focus:ring-blue-300/50"
+            className="ml-2 w-32 appearance-none rounded-sm border border-gray-200 px-2 py-1 text-sm leading-tight text-gray-700 focus:outline-hidden focus:ring-3 focus:ring-blue-300/50"
             {...form.register('increment')}
           />
         </label>
@@ -51,7 +51,7 @@ export const CounterForm = () => {
 
       <div className="mt-2">
         <button
-          className="rounded bg-blue-500 px-5 py-1 font-bold text-white hover:bg-blue-600 focus:outline-none focus:ring focus:ring-blue-300/50 disabled:pointer-events-none disabled:opacity-50"
+          className="rounded-sm bg-blue-500 px-5 py-1 font-bold text-white hover:bg-blue-600 focus:outline-hidden focus:ring-3 focus:ring-blue-300/50 disabled:pointer-events-none disabled:opacity-50"
           type="submit"
           disabled={form.formState.isSubmitting}
         >
