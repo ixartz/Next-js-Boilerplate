@@ -1,3 +1,10 @@
+# [3.62.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.61.0...v3.62.0) (2025-02-12)
+
+
+### Features
+
+* enable turbo in next.js dev mode ([97d7b32](https://github.com/ixartz/Next-js-Boilerplate/commit/97d7b32e98e27640416fca26f13eb5c525252685))
+
 # [3.61.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.60.5...v3.61.0) (2025-01-24)
 
 
