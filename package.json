@@ -4,7 +4,7 @@
   "author": "Ixartz (https://github.com/ixartz)",
   "scripts": {
     "dev:spotlight": "spotlight-sidecar",
-    "dev:next": "next dev",
+    "dev:next": "next dev --turbo",
     "dev": "run-p dev:*",
     "build": "next build",
     "start": "next start",
