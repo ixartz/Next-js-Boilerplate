@@ -58,6 +58,15 @@ Clone this project and use it to create your own Next.js project. You can check 
       </a>
     </td>
     <td align="center" width="33%">
+      <a href="https://sevalla.com/">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="public/assets/images/sevalla-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="public/assets/images/sevalla-light.png">
+          <img alt="Sevalla" src="public/assets/images/sevalla-dark.png">
+        </picture>
+      </a>
+    </td>
+    <td align="center" width="33%">
       <a href="https://posthog.com/?utm_source=github&utm_medium=sponsorship&utm_campaign=next-js-boilerplate">
         <picture>
           <source media="(prefers-color-scheme: dark)" srcset="https://posthog.com/brand/posthog-logo-white.svg">
@@ -66,6 +75,8 @@ Clone this project and use it to create your own Next.js project. You can check 
         </picture>
       </a>
     </td>
+  </tr>
+  <tr height="187px">
     <td align="center" width="33%">
       <a href="https://betterstack.com/?utm_source=github&utm_medium=sponsorship&utm_campaign=next-js-boilerplate">
         <picture>
@@ -75,8 +86,6 @@ Clone this project and use it to create your own Next.js project. You can check 
         </picture>
       </a>
     </td>
-  </tr>
-  <tr height="187px">
     <td align="center" width="33%">
       <a href="https://www.checklyhq.com/?utm_source=github&utm_medium=sponsorship&utm_campaign=next-js-boilerplate">
         <picture>
@@ -470,6 +479,15 @@ See [LICENSE](LICENSE) for more information.
       </a>
     </td>
     <td align="center" width="33%">
+      <a href="https://sevalla.com/">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="public/assets/images/sevalla-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="public/assets/images/sevalla-light.png">
+          <img alt="Sevalla" src="public/assets/images/sevalla-dark.png">
+        </picture>
+      </a>
+    </td>
+    <td align="center" width="33%">
       <a href="https://posthog.com/?utm_source=github&utm_medium=sponsorship&utm_campaign=next-js-boilerplate">
         <picture>
           <source media="(prefers-color-scheme: dark)" srcset="https://posthog.com/brand/posthog-logo-white.svg">
@@ -478,6 +496,8 @@ See [LICENSE](LICENSE) for more information.
         </picture>
       </a>
     </td>
+  </tr>
+  <tr height="187px">
     <td align="center" width="33%">
       <a href="https://betterstack.com/?utm_source=github&utm_medium=sponsorship&utm_campaign=next-js-boilerplate">
         <picture>
@@ -487,8 +507,6 @@ See [LICENSE](LICENSE) for more information.
         </picture>
       </a>
     </td>
-  </tr>
-  <tr height="187px">
     <td align="center" width="33%">
       <a href="https://www.checklyhq.com/?utm_source=github&utm_medium=sponsorship&utm_campaign=next-js-boilerplate">
         <picture>
