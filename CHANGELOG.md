@@ -1,3 +1,10 @@
+## [3.62.1](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.62.0...v3.62.1) (2025-02-22)
+
+
+### Bug Fixes
+
+* add Sevalla sponsorship to Sponsors component and README ([316b369](https://github.com/ixartz/Next-js-Boilerplate/commit/316b369c1764627ee139a9a2ba18695b4cba8fe7))
+
 # [3.62.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.61.0...v3.62.0) (2025-02-12)
 
 
