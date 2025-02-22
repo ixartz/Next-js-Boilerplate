@@ -306,28 +306,6 @@ npm run test:e2e
 
 In the local environment, visual testing is disabled, and the terminal will display the message `[percy] Percy is not running, disabling snapshots.`. By default, visual testing only runs in GitHub Actions.
 
-### Enable Edge runtime (optional)
-
-The App Router folder is compatible with the Edge runtime. You can enable it by adding the following lines `src/app/layouts.tsx`:
-
-```tsx
-export const runtime = 'edge';
-```
-
-For your information, the database migration is not compatible with the Edge runtime. So, you need to disable the automatic migration in `src/libs/DB.ts`:
-
-```tsx
-await migrate(db, { migrationsFolder: './migrations' });
-```
-
-After disabling it, you are required to run the migration manually with:
-
-```shell
-npm run db:migrate
-```
-
-You also require to run the command each time you want to update the database schema.
-
 ### Deploy to production
 
 During the build process, database migrations are automatically executed, so there's no need to run them manually. However, you must define `DATABASE_URL` in your environment variables.
@@ -425,7 +403,7 @@ Everyone is welcome to contribute to this project. Feel free to open an issue if
 
 ### License
 
-Licensed under the MIT License, Copyright © 2024
+Licensed under the MIT License, Copyright © 2025
 
 See [LICENSE](LICENSE) for more information.
 
