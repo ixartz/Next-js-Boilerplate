@@ -2,6 +2,9 @@
   "name": "next-js-boilerplate",
   "version": "3.62.0",
   "author": "Ixartz (https://github.com/ixartz)",
+  "engines": {
+    "node": ">=20"
+  },
   "scripts": {
     "dev:spotlight": "spotlight-sidecar",
     "dev:next": "next dev --turbo",
