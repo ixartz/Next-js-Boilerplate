@@ -328,27 +328,17 @@ This command starts a local server using the production build. You can now open 
 
 ### Deploy to Sevalla
 
-You can deploy a Next.js application with the database in one single platform. Create an account on Sevalla.
+You can deploy a Next.js application along with its database on a single platform. First, create an account on [Sevalla](https://sevalla.com).
 
-After creating your account in Sevalla, you'll redirect to the dashboard, you need to create a database by clicking `Database > Create a database`. You need to select PostgresSQL and you can keep the default settings. For your information, for advanced users, you can customize the database location and the resource size. Then, you can finalize it by clicking on `Create`.
+After registration, you will be redirected to the dashboard. From there, navigate to `Database > Create a database`, select PostgreSQL, and you can keep the default settings for quick setup. For advanced users, you can customize the database location and resource size. Finally, click on `Create` to finalize the process.
 
-It'll take a few seconds to create the database.
+Once the database is created and ready, return to the dashboard and click `Application > Create an App`. After connecting your GitHub account, select the repository you want to deploy. You can keep the default settings for the remaining options. Then, click on `Create`.
 
-Once it's ready, we can return to the dashboard, you can click `Application > Create an App`. Where you can connect your GitHub account to Sevalla. After connecting your GitHub account, you can select the repository you want to deploy. And, for the rest, you can keep the default settings.
+Next, connect your database to your application by going to `Networking > Connected services > Add connection` and choose the database you just created. You also need to enable the `Add environment variables to the application` option, and rename `DB_URL` to `DATABASE_URL`. Then, click on `Add connection`.
 
-Like for the database, you can also choose the region and the resource size needed by your application.
+Go to `Environment variables > Add environment variable`. You also need to define the environment variables `NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY` and `CLERK_SECRET_KEY` from your Clerk account. Then, click on `Save`.
 
-Then you can click on "create".
-
-You can now connect your database and your application by clicking on `Networking > Connected services > Add connection`. You can select the database you recently created.
-
-You can enable the option `Add environment variables to the application`. Then, you need to rename `DB_URL` to `DATABASE_URL`.
-
-After saving it, you need to you need to define the environment variables `NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY` and `CLERK_SECRET_KEY` from your Clerk account.
-
-Finally, you can make a new deployment by clicking on `Overview > Latest deployments > Deploy now`.
-
-If everything works well, your application should be deployed successfully with a working database.
+You can initiate a new deployment by clicking on `Overview > Latest deployments > Deploy now`. If everything is set up correctly, your application will be deployed successfully with a working database.
 
 ### Error Monitoring
 
