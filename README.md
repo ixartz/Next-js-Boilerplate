@@ -326,6 +326,30 @@ You also need to defined the environment variables `CLERK_SECRET_KEY` using your
 
 This command starts a local server using the production build. You can now open http://localhost:3000 in your preferred browser to see the result.
 
+### Deploy to Sevalla
+
+You can deploy a Next.js application with the database in one single platform. Create an account on Sevalla.
+
+After creating your account in Sevalla, you'll redirect to the dashboard, you need to create a database by clicking `Database > Create a database`. You need to select PostgresSQL and you can keep the default settings. For your information, for advanced users, you can customize the database location and the resource size. Then, you can finalize it by clicking on `Create`.
+
+It'll take a few seconds to create the database.
+
+Once it's ready, we can return to the dashboard, you can click `Application > Create an App`. Where you can connect your GitHub account to Sevalla. After connecting your GitHub account, you can select the repository you want to deploy. And, for the rest, you can keep the default settings.
+
+Like for the database, you can also choose the region and the resource size needed by your application.
+
+Then you can click on "create".
+
+You can now connect your database and your application by clicking on `Networking > Connected services > Add connection`. You can select the database you recently created.
+
+You can enable the option `Add environment variables to the application`. Then, you need to rename `DB_URL` to `DATABASE_URL`.
+
+After saving it, you need to you need to define the environment variables `NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY` and `CLERK_SECRET_KEY` from your Clerk account.
+
+Finally, you can make a new deployment by clicking on `Overview > Latest deployments > Deploy now`.
+
+If everything works well, your application should be deployed successfully with a working database.
+
 ### Error Monitoring
 
 The project uses [Sentry](https://sentry.io/for/nextjs/?utm_source=github&utm_medium=paid-community&utm_campaign=general-fy25q1-nextjs&utm_content=github-banner-nextjsboilerplate-logo) to monitor errors. In the development environment, no additional setup is needed: Next.js Boilerplate is pre-configured to use Sentry and Spotlight (Sentry for Development). All errors will automatically be sent to your local Spotlight instance, allowing you to experience Sentry locally.
