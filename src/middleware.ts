@@ -39,16 +39,16 @@ export default function middleware(
         });
       }
 
-      // get the path for the current request
-      const path = request.nextUrl.pathname;
-
-      // ? check some files name for serve, what ever you want
-      if (path === '/sitemap.xml' || path === '/robots.txt') {
-        return NextResponse.next();
-      }
-
       return intlMiddleware(req);
     })(request, event);
+  }
+
+  // get the path for the current request
+  const path = request.nextUrl.pathname;
+
+  // ? check some files name for serve, what ever you want
+  if (path === '/sitemap.xml' || path === '/robots.txt') {
+    return NextResponse.next();
   }
 
   return intlMiddleware(request);
