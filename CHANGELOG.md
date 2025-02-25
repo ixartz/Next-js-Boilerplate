@@ -1,3 +1,15 @@
+# [3.63.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.62.1...v3.63.0) (2025-02-25)
+
+
+### Bug Fixes
+
+* move out block ([7ec1aee](https://github.com/ixartz/Next-js-Boilerplate/commit/7ec1aee87f7fde769cf2d44fe3346cb8e2c5699c))
+
+
+### Features
+
+* **middleware:** add handling for sitemap and robots files ([efa279b](https://github.com/ixartz/Next-js-Boilerplate/commit/efa279b64320df6e258cb2e85f1ade9ce5d76b7f))
+
 ## [3.62.1](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.62.0...v3.62.1) (2025-02-22)
 
 
