@@ -43,7 +43,7 @@ export default function middleware(
     })(request, event);
   }
 
-  // Extract the URL pathname
+  // Extract the URL pathname from the request
   const path = request.nextUrl.pathname;
 
   // Allow direct access to sitemap.xml and robots.txt without i18n middleware processing
