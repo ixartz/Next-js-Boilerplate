@@ -1,6 +1,7 @@
 import type { NextFetchEvent, NextRequest } from 'next/server';
 import { clerkMiddleware, createRouteMatcher } from '@clerk/nextjs/server';
 import createMiddleware from 'next-intl/middleware';
+import { NextResponse } from 'next/server';
 import { routing } from './libs/i18nNavigation';
 
 const intlMiddleware = createMiddleware(routing);
@@ -40,6 +41,14 @@ export default function middleware(
 
       return intlMiddleware(req);
     })(request, event);
+  }
+
+  // get the path for the current request
+  const path = request.nextUrl.pathname;
+
+  // ? check some files name for serve, what ever you want
+  if (path === '/sitemap.xml' || path === '/robots.txt') {
+    return NextResponse.next();
   }
 
   return intlMiddleware(request);
