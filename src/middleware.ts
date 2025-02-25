@@ -43,10 +43,12 @@ export default function middleware(
     })(request, event);
   }
 
-  // get the path for the current request
+  // Extract the URL pathname
   const path = request.nextUrl.pathname;
 
-  // ? check some files name for serve, what ever you want
+  // Allow direct access to sitemap.xml and robots.txt without i18n middleware processing
+  // This ensures these files are properly served for SEO purposes
+  // Related to GitHub issue: https://github.com/ixartz/Next-js-Boilerplate/issues/356
   if (path === '/sitemap.xml' || path === '/robots.txt') {
     return NextResponse.next();
   }
