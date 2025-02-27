@@ -19,6 +19,8 @@ export default withSentryConfig(
       poweredByHeader: false,
       reactStrictMode: true,
       serverExternalPackages: ['@electric-sql/pglite'],
+      // This is required to support PostHog trailing slash API requests
+      skipTrailingSlashRedirect: true,
     }),
   ),
   {
