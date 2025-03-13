@@ -1,3 +1,10 @@
+## [3.64.1](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.64.0...v3.64.1) (2025-03-13)
+
+
+### Bug Fixes
+
+* **utils/AppConfig:** update import path for LocalePrefixMode to use a package-level reference ([354b5a5](https://github.com/ixartz/Next-js-Boilerplate/commit/354b5a51a3f86a29aef569a6e6dd592b86942050)), closes [#367](https://github.com/ixartz/Next-js-Boilerplate/issues/367)
+
 # [3.64.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.63.0...v3.64.0) (2025-02-27)
 
 
