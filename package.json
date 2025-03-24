@@ -109,6 +109,7 @@
     "start-server-and-test": "^2.0.11",
     "storybook": "^8.6.9",
     "tailwindcss": "^4.0.15",
+    "ts-node": "^10.9.2",
     "typescript": "^5.8.2",
     "vite-tsconfig-paths": "^5.1.4",
     "vitest": "^3.0.9",
