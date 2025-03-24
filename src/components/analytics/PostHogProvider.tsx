@@ -6,15 +6,13 @@ import posthog from 'posthog-js';
 import { PostHogProvider as PHProvider, usePostHog } from 'posthog-js/react';
 import { Suspense, useEffect } from 'react';
 
-export function PostHogProvider({ children }: { children: React.ReactNode }) {
+export const PostHogProvider = ({ children }: { children: React.ReactNode }) => {
   useEffect(() => {
     if (Env.NEXT_PUBLIC_POSTHOG_KEY) {
       posthog.init(Env.NEXT_PUBLIC_POSTHOG_KEY, {
         api_host: Env.NEXT_PUBLIC_POSTHOG_HOST,
         capture_pageview: false, // Disable automatic pageview capture, as we capture manually
       });
-    } else {
-      console.warn('PostHog not initialized, set a NEXT_PUBLIC_POSTHOG_KEY in your .env.local file to enable it');
     }
   }, []);
 
@@ -28,7 +26,7 @@ export function PostHogProvider({ children }: { children: React.ReactNode }) {
       {children}
     </PHProvider>
   );
-}
+};
 
 function PostHogPageView(): null {
   const pathname = usePathname();

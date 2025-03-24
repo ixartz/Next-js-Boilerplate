@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
+import { PostHogProvider } from '@/components/analytics/PostHogProvider';
 import { DemoBadge } from '@/components/DemoBadge';
-import { PostHogProvider } from '@/components/providers/PostHogProvider';
 import arcjet, { detectBot, request } from '@/libs/Arcjet';
 import { Env } from '@/libs/Env';
 import { routing } from '@/libs/i18nNavigation';
