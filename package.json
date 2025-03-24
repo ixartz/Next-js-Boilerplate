@@ -45,6 +45,7 @@
     "pg": "^8.13.3",
     "pino": "^9.6.0",
     "pino-pretty": "^13.0.0",
+    "posthog-js": "^1.223.3",
     "react": "19.0.0",
     "react-dom": "19.0.0",
     "react-hook-form": "^7.54.2",
