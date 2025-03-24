@@ -40,7 +40,7 @@ export const config = defineConfig({
     },
   },
   cli: {
-    runLocation: 'eu-west-1',
+    runLocation: 'us-east-1',
     reporters: ['list'],
   },
 });
