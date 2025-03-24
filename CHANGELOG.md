@@ -1,3 +1,15 @@
+# [3.65.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.64.1...v3.65.0) (2025-03-24)
+
+
+### Bug Fixes
+
+* remove middleware changes ([841b638](https://github.com/ixartz/Next-js-Boilerplate/commit/841b638b02f0b18031a39408d03b1cca824d9cf2))
+
+
+### Features
+
+* add posthog integration for analytics ([097ab8f](https://github.com/ixartz/Next-js-Boilerplate/commit/097ab8f6fb175631ef4c7156c033383c2afad82c))
+
 ## [3.64.1](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.64.0...v3.64.1) (2025-03-13)
 
 
