@@ -30,7 +30,7 @@
     "prepare": "husky"
   },
   "dependencies": {
-    "@arcjet/next": "^1.0.0-beta.4",
+    "@arcjet/next": "1.0.0-beta.3",
     "@clerk/localizations": "^3.13.1",
     "@clerk/nextjs": "^6.12.9",
     "@electric-sql/pglite": "^0.2.17",
