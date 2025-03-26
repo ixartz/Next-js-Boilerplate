@@ -1,4 +1,6 @@
 import type { NextFetchEvent, NextRequest } from 'next/server';
+import arcjet, { detectBot } from '@/libs/Arcjet';
+import { Env } from '@/libs/Env';
 import { clerkMiddleware, createRouteMatcher } from '@clerk/nextjs/server';
 import createMiddleware from 'next-intl/middleware';
 import { NextResponse } from 'next/server';
@@ -18,10 +20,39 @@ const isAuthPage = createRouteMatcher([
   '/:locale/sign-up(.*)',
 ]);
 
-export default function middleware(
+// Improve security with Arcjet
+const aj = arcjet.withRule(
+  detectBot({
+    mode: 'LIVE',
+    // Block all bots except the following
+    allow: [
+      // See https://docs.arcjet.com/bot-protection/identifying-bots
+      'CATEGORY:SEARCH_ENGINE', // Allow search engines
+      'CATEGORY:PREVIEW', // Allow preview links to show OG images
+      'CATEGORY:MONITOR', // Allow uptime monitoring services
+    ],
+  }),
+);
+
+export default async function middleware(
   request: NextRequest,
   event: NextFetchEvent,
 ) {
+  // Verify the request with Arcjet
+  if (Env.ARCJET_KEY) {
+    const decision = await aj.protect(request);
+
+    // These errors are handled by the global error boundary, but you could also
+    // redirect or show a custom error page
+    if (decision.isDenied()) {
+      if (decision.reason.isBot()) {
+        throw new Error('No bots allowed');
+      }
+
+      throw new Error('Access denied');
+    }
+  }
+
   // Run Clerk middleware only when it's necessary
   if (
     isAuthPage(request) || isProtectedRoute(request)

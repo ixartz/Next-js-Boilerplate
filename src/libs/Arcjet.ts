@@ -1,6 +1,5 @@
 import arcjet, { shield } from '@arcjet/next';
 import { Env } from './Env';
-import { logger } from './Logger';
 
 // Re-export the rules to simplify imports inside handlers
 export {
@@ -26,5 +25,4 @@ export default arcjet({
     }),
     // Other rules are added in different routes
   ],
-  log: logger,
 });
