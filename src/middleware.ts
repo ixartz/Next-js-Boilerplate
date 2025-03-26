@@ -1,6 +1,6 @@
 import type { NextFetchEvent, NextRequest } from 'next/server';
-import arcjet, { detectBot } from '@/libs/Arcjet';
-import { Env } from '@/libs/Env';
+import arcjet from '@/libs/Arcjet';
+import { detectBot } from '@arcjet/next';
 import { clerkMiddleware, createRouteMatcher } from '@clerk/nextjs/server';
 import createMiddleware from 'next-intl/middleware';
 import { NextResponse } from 'next/server';
@@ -39,7 +39,8 @@ export default async function middleware(
   event: NextFetchEvent,
 ) {
   // Verify the request with Arcjet
-  if (Env.ARCJET_KEY) {
+  // Use `process.env` instead of Env to reduce bundle size in middleware
+  if (process.env.ARCJET_KEY) {
     const decision = await aj.protect(request);
 
     // These errors are handled by the global error boundary, but you could also
