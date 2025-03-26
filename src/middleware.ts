@@ -1,6 +1,7 @@
 import type { NextFetchEvent, NextRequest } from 'next/server';
-import arcjet, { detectBot } from '@/libs/Arcjet';
+import arcjet from '@/libs/Arcjet';
 import { Env } from '@/libs/Env';
+import { detectBot } from '@arcjet/next';
 import { clerkMiddleware, createRouteMatcher } from '@clerk/nextjs/server';
 import createMiddleware from 'next-intl/middleware';
 import { NextResponse } from 'next/server';

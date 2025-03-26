@@ -1,17 +1,6 @@
 import arcjet, { shield } from '@arcjet/next';
 import { Env } from './Env';
 
-// Re-export the rules to simplify imports inside handlers
-export {
-  detectBot,
-  fixedWindow,
-  protectSignup,
-  request,
-  sensitiveInfo,
-  shield,
-  slidingWindow,
-} from '@arcjet/next';
-
 // Create a base Arcjet instance which can be imported and extended in each route.
 export default arcjet({
   // Get your site key from https://launch.arcjet.com/Q6eLbRE
