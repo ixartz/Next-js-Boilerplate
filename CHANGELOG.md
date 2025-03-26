@@ -1,3 +1,10 @@
+## [3.65.1](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.65.0...v3.65.1) (2025-03-26)
+
+
+### Bug Fixes
+
+* **arcjet:** move Arcjet to middleware to prevent re-renders in layout ([8724160](https://github.com/ixartz/Next-js-Boilerplate/commit/872416014a0e3fe9902bcde15af569d0d8ece323))
+
 # [3.65.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.64.1...v3.65.0) (2025-03-24)
 
 
