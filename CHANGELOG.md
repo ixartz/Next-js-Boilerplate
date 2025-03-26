@@ -1,3 +1,12 @@
+## [3.65.2](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.65.1...v3.65.2) (2025-03-26)
+
+
+### Bug Fixes
+
+* replace Env.ARCJET_KEY with process.env.ARCJET_KEY in libs/Arcjet.ts to reduce middlware size ([b82f773](https://github.com/ixartz/Next-js-Boilerplate/commit/b82f77387b144ddd4716bd8749560a92d3563e1e))
+* replace Env.ARCJET_KEY with process.env.ARCJET_KEY to reduce middlware size ([ae20b29](https://github.com/ixartz/Next-js-Boilerplate/commit/ae20b2906065550649680cde1a22d85f65b9fc52))
+* update comments to clarify use of process.env for reducing middleware bundle size ([dee7d34](https://github.com/ixartz/Next-js-Boilerplate/commit/dee7d34b10660ad07bbe7b0710d35f2fd2a23340))
+
 ## [3.65.1](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.65.0...v3.65.1) (2025-03-26)
 
 
