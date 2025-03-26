@@ -39,6 +39,7 @@ export default async function middleware(
   event: NextFetchEvent,
 ) {
   // Verify the request with Arcjet
+  // Use `process.env` instead of Env to reduce bundle size in middleware
   if (process.env.ARCJET_KEY) {
     const decision = await aj.protect(request);
 
