@@ -298,6 +298,10 @@ npm run commit
 
 One of the benefits of using Conventional Commits is the ability to automatically generate a `CHANGELOG` file. It also allows us to automatically determine the next version number based on the types of commits that are included in a release.
 
+### CodeRabbit AI Code Reviews
+
+The project integrates with [CodeRabbit](https://app.coderabbit.ai/login?grsf=remi-wg-2qs2l9), an AI-powered code reviewer that provides context-aware feedback on pull requests. It reduces review time while catching potential issues through features like PR summaries, security vulnerability detection, and performance analysis.
+
 ### Testing
 
 All unit tests are located alongside the source code in the same directory, making them easier to find. The project uses Vitest and React Testing Library for unit testing. You can run the tests with the following command:
