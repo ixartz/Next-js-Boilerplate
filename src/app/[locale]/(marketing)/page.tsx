@@ -85,6 +85,16 @@ export default async function Index(props: IIndexProps) {
         <li>🦺 Testing suite (Vitest, React Testing Library, Playwright)</li>
         <li>🎉 Storybook for UI development</li>
         <li>
+          🐰 AI-powered code reviews with
+          {' '}
+          <a
+            className="font-bold text-blue-700 hover:border-b-2 hover:border-blue-700"
+            href="https://app.coderabbit.ai/login?grsf=remi-wg-2qs2l9"
+          >
+            CodeRabbit
+          </a>
+        </li>
+        <li>
           🚨 Error monitoring (
           <a
             className="font-bold text-blue-700 hover:border-b-2 hover:border-blue-700"

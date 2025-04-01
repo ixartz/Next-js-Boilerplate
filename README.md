@@ -26,7 +26,7 @@ Clone this project and use it to create your own Next.js project. You can check 
         <picture>
           <source media="(prefers-color-scheme: dark)" srcset="public/assets/images/coderabbit-logo-dark.svg?raw=true">
           <source media="(prefers-color-scheme: light)" srcset="public/assets/images/coderabbit-logo-light.svg?raw=true">
-          <img alt="Crowdin" src="public/assets/images/coderabbit-logo-dark.svg?raw=true">
+          <img alt="CodeRabbit" src="public/assets/images/coderabbit-logo-dark.svg?raw=true">
         </picture>
       </a>
     </td>
@@ -153,7 +153,7 @@ Developer experience first, extremely flexible code structure and only keep what
 - 🧪 Integration and E2E Testing with Playwright
 - 👷 Run tests on pull request with GitHub Actions
 - 🎉 Storybook for UI development
-- 🤖 AI-powered code reviews with [CodeRabbit](https://app.coderabbit.ai/login?grsf=remi-wg-2qs2l9)
+- 🐰 AI-powered code reviews with [CodeRabbit](https://app.coderabbit.ai/login?grsf=remi-wg-2qs2l9)
 - 🚨 Error Monitoring with [Sentry](https://sentry.io/for/nextjs/?utm_source=github&utm_medium=paid-community&utm_campaign=general-fy25q1-nextjs&utm_content=github-banner-nextjsboilerplate-logo)
 - ☂️ Code coverage with [Codecov](https://about.codecov.io/codecov-free-trial/?utm_source=github&utm_medium=paid-community&utm_campaign=general-fy25q1-nextjs&utm_content=github-banner-nextjsboilerplate-logo)
 - 📝 Logging with Pino.js and Log Management with [Better Stack](https://betterstack.com/?utm_source=github&utm_medium=sponsorship&utm_campaign=next-js-boilerplate)
@@ -456,7 +456,7 @@ See [LICENSE](LICENSE) for more information.
         <picture>
           <source media="(prefers-color-scheme: dark)" srcset="public/assets/images/coderabbit-logo-dark.svg?raw=true">
           <source media="(prefers-color-scheme: light)" srcset="public/assets/images/coderabbit-logo-light.svg?raw=true">
-          <img alt="Crowdin" src="public/assets/images/coderabbit-logo-dark.svg?raw=true">
+          <img alt="CodeRabbit" src="public/assets/images/coderabbit-logo-dark.svg?raw=true">
         </picture>
       </a>
     </td>
