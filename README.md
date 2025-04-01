@@ -302,6 +302,8 @@ One of the benefits of using Conventional Commits is the ability to automaticall
 
 The project integrates with [CodeRabbit](https://app.coderabbit.ai/login?grsf=remi-wg-2qs2l9), an AI-powered code reviewer that provides context-aware feedback on pull requests. It reduces review time while catching potential issues through features like PR summaries, security vulnerability detection, and performance analysis.
 
+To integrate with CodeRabbit, simply visit [coderabbit.ai](https://app.coderabbit.ai/login?grsf=remi-wg-2qs2l9), sign in with your GitHub account, and select your repository from the dashboard. That's it! CodeRabbit immediately begins monitoring your repository and will automatically provide intelligent code reviews on all new pull requests using its powerful AI engine.
+
 ### Testing
 
 All unit tests are located alongside the source code in the same directory, making them easier to find. The project uses Vitest and React Testing Library for unit testing. You can run the tests with the following command:
