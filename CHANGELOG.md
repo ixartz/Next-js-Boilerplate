@@ -1,3 +1,10 @@
+# [3.66.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.65.2...v3.66.0) (2025-04-01)
+
+
+### Features
+
+* add initial configuration for CodeRabbit integration ([10f9a3a](https://github.com/ixartz/Next-js-Boilerplate/commit/10f9a3ac20513cbe2e86e7750e84e339277c806a))
+
 ## [3.65.2](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.65.1...v3.65.2) (2025-03-26)
 
 
