@@ -20,10 +20,10 @@ export const Sponsors = () => (
           </a>
         </td>
         <td className="border-2 border-gray-300 p-3">
-          <a href="https://l.crowdin.com/next-js" target="_blank" rel="noopener">
+          <a href="https://app.coderabbit.ai/login?grsf=remi-wg-2qs2l9" target="_blank" rel="noopener">
             <Image
-              src="/assets/images/crowdin-dark.png"
-              alt="Crowdin"
+              src="/assets/images/coderabbit-logo-light.svg"
+              alt="CodeRabbit"
               width={260}
               height={224}
             />
@@ -66,6 +66,18 @@ export const Sponsors = () => (
           </a>
         </td>
         <td className="border-2 border-gray-300 p-3">
+          <a href="https://l.crowdin.com/next-js" target="_blank" rel="noopener">
+            <Image
+              src="/assets/images/crowdin-dark.png"
+              alt="Crowdin"
+              width={260}
+              height={224}
+            />
+          </a>
+        </td>
+      </tr>
+      <tr className="h-56">
+        <td className="border-2 border-gray-300 p-3">
           <a
             href="https://posthog.com/?utm_source=github&utm_medium=sponsorship&utm_campaign=next-js-boilerplate"
             target="_blank"
@@ -79,8 +91,6 @@ export const Sponsors = () => (
             />
           </a>
         </td>
-      </tr>
-      <tr className="h-56">
         <td className="border-2 border-gray-300 p-3">
           <a
             href="https://betterstack.com/?utm_source=github&utm_medium=sponsorship&utm_campaign=next-js-boilerplate"
@@ -109,6 +119,8 @@ export const Sponsors = () => (
             />
           </a>
         </td>
+      </tr>
+      <tr className="h-56">
         <td className="border-2 border-gray-300 p-3">
           <a href="https://nextjs-boilerplate.com/pro-saas-starter-kit">
             <Image
