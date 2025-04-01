@@ -300,9 +300,9 @@ One of the benefits of using Conventional Commits is the ability to automaticall
 
 ### CodeRabbit AI Code Reviews
 
-The project integrates with [CodeRabbit](https://app.coderabbit.ai/login?grsf=remi-wg-2qs2l9), an AI-powered code reviewer that provides context-aware feedback on pull requests. It reduces review time while catching potential issues through features like PR summaries, security vulnerability detection, and performance analysis.
+The project uses [CodeRabbit](https://app.coderabbit.ai/login?grsf=remi-wg-2qs2l9), an AI-powered code reviewer. CodeRabbit monitors your repository and will automatically provide intelligent code reviews on all new pull requests using its powerful AI engine.
 
-To integrate with CodeRabbit, simply visit [coderabbit.ai](https://app.coderabbit.ai/login?grsf=remi-wg-2qs2l9), sign in with your GitHub account, and select your repository from the dashboard. That's it! CodeRabbit immediately begins monitoring your repository and will automatically provide intelligent code reviews on all new pull requests using its powerful AI engine.
+Setting up CodeRabbit is simple, visit [coderabbit.ai](https://app.coderabbit.ai/login?grsf=remi-wg-2qs2l9), sign in with your GitHub account, and select your repository from the dashboard. That's it!
 
 ### Testing
 
