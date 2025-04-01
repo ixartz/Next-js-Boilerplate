@@ -89,7 +89,7 @@ export default async function Index(props: IIndexProps) {
           {' '}
           <a
             className="font-bold text-blue-700 hover:border-b-2 hover:border-blue-700"
-            href="https://app.coderabbit.ai/login?grsf=remi-wg-2qs2l9"
+            href="https://www.coderabbit.ai?utm_source=next_js_starter&utm_medium=github&utm_campaign=next_js_starter_oss_2025"
           >
             CodeRabbit
           </a>
