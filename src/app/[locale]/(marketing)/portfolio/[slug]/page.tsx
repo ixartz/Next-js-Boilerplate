@@ -47,14 +47,14 @@ export default async function PortfolioDetail(props: IPortfolioDetailProps) {
         {`${t('code_review_powered_by')} `}
         <a
           className="text-blue-700 hover:border-b-2 hover:border-blue-700"
-          href="https://app.coderabbit.ai/login?grsf=remi-wg-2qs2l9"
+          href="https://www.coderabbit.ai?utm_source=next_js_starter&utm_medium=github&utm_campaign=next_js_starter_oss_2025"
         >
           CodeRabbit
         </a>
       </div>
 
       <a
-        href="https://app.coderabbit.ai/login?grsf=remi-wg-2qs2l9"
+        href="https://www.coderabbit.ai?utm_source=next_js_starter&utm_medium=github&utm_campaign=next_js_starter_oss_2025"
       >
         <Image
           className="mx-auto mt-2"
