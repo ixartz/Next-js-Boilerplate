@@ -44,22 +44,22 @@ export default async function PortfolioDetail(props: IPortfolioDetailProps) {
       <p>{t('content')}</p>
 
       <div className="mt-5 text-center text-sm">
-        {`${t('log_management_powered_by')} `}
+        {`${t('code_review_powered_by')} `}
         <a
           className="text-blue-700 hover:border-b-2 hover:border-blue-700"
-          href="https://betterstack.com/?utm_source=github&utm_medium=sponsorship&utm_campaign=next-js-boilerplate"
+          href="https://app.coderabbit.ai/login?grsf=remi-wg-2qs2l9"
         >
-          Better Stack
+          CodeRabbit
         </a>
       </div>
 
       <a
-        href="https://betterstack.com/?utm_source=github&utm_medium=sponsorship&utm_campaign=next-js-boilerplate"
+        href="https://app.coderabbit.ai/login?grsf=remi-wg-2qs2l9"
       >
         <Image
           className="mx-auto mt-2"
-          src="/assets/images/better-stack-dark.png"
-          alt="Better Stack"
+          src="/assets/images/coderabbit-logo-light.svg"
+          alt="CodeRabbit"
           width={128}
           height={22}
         />

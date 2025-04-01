@@ -4,7 +4,7 @@
   <a href="https://demo.nextjs-boilerplate.com"><img height="300" src="public/assets/images/nextjs-starter-banner.png?raw=true" alt="Next js starter banner"></a>
 </p>
 
-🚀 Boilerplate and Starter for Next.js with App Router, Tailwind CSS, and TypeScript ⚡️ Prioritizing developer experience first: Next.js, TypeScript, ESLint, Prettier, Husky, Lint-Staged, Vitest (replacing Jest), Testing Library, Playwright, Commitlint, VSCode, Tailwind CSS, Authentication with [Clerk](https://clerk.com?utm_source=github&utm_medium=sponsorship&utm_campaign=nextjs-boilerplate), Database with DrizzleORM (PostgreSQL, SQLite, and MySQL), Error Monitoring with [Sentry](https://sentry.io/for/nextjs/?utm_source=github&utm_medium=paid-community&utm_campaign=general-fy25q1-nextjs&utm_content=github-banner-nextjsboilerplate-logo), Logging with Pino.js and Log Management, Monitoring as Code, Storybook, Multi-language (i18n), Secure with [Arcjet](https://launch.arcjet.com/Q6eLbRE) (Bot detection, Rate limiting, Attack protection, etc.) and more.
+🚀 Boilerplate and Starter for Next.js with App Router, Tailwind CSS, and TypeScript ⚡️ Prioritizing developer experience first: Next.js, TypeScript, ESLint, Prettier, Husky, Lint-Staged, Vitest (replacing Jest), Testing Library, Playwright, Commitlint, VSCode, Tailwind CSS, Authentication with [Clerk](https://clerk.com?utm_source=github&utm_medium=sponsorship&utm_campaign=nextjs-boilerplate), Database with DrizzleORM (PostgreSQL, SQLite, and MySQL), Error Monitoring with [Sentry](https://sentry.io/for/nextjs/?utm_source=github&utm_medium=paid-community&utm_campaign=general-fy25q1-nextjs&utm_content=github-banner-nextjsboilerplate-logo), Logging with Pino.js and Log Management, Monitoring as Code, Storybook, Multi-language (i18n), AI-powered code reviews with [CodeRabbit](https://app.coderabbit.ai/login?grsf=remi-wg-2qs2l9), Secure with [Arcjet](https://launch.arcjet.com/Q6eLbRE) (Bot detection, Rate limiting, Attack protection, etc.) and more.
 
 Clone this project and use it to create your own Next.js project. You can check out the live demo at [Next.js Boilerplate](https://demo.nextjs-boilerplate.com), which includes a working authentication system.
 
@@ -22,11 +22,11 @@ Clone this project and use it to create your own Next.js project. You can check 
       </a>
     </td>
     <td align="center" width="33%">
-      <a href="https://l.crowdin.com/next-js">
+      <a href="https://app.coderabbit.ai/login?grsf=remi-wg-2qs2l9">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="public/assets/images/crowdin-white.png?raw=true">
-          <source media="(prefers-color-scheme: light)" srcset="public/assets/images/crowdin-dark.png?raw=true">
-          <img alt="Crowdin" src="public/assets/images/crowdin-dark.png?raw=true">
+          <source media="(prefers-color-scheme: dark)" srcset="public/assets/images/coderabbit-logo-dark.svg?raw=true">
+          <source media="(prefers-color-scheme: light)" srcset="public/assets/images/coderabbit-logo-light.svg?raw=true">
+          <img alt="Crowdin" src="public/assets/images/coderabbit-logo-dark.svg?raw=true">
         </picture>
       </a>
     </td>
@@ -67,6 +67,17 @@ Clone this project and use it to create your own Next.js project. You can check 
       </a>
     </td>
     <td align="center" width="33%">
+      <a href="https://l.crowdin.com/next-js">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="public/assets/images/crowdin-white.png?raw=true">
+          <source media="(prefers-color-scheme: light)" srcset="public/assets/images/crowdin-dark.png?raw=true">
+          <img alt="Crowdin" src="public/assets/images/crowdin-dark.png?raw=true">
+        </picture>
+      </a>
+    </td>
+  </tr>
+  <tr height="187px">
+    <td align="center" width="33%">
       <a href="https://posthog.com/?utm_source=github&utm_medium=sponsorship&utm_campaign=next-js-boilerplate">
         <picture>
           <source media="(prefers-color-scheme: dark)" srcset="https://posthog.com/brand/posthog-logo-white.svg">
@@ -75,8 +86,6 @@ Clone this project and use it to create your own Next.js project. You can check 
         </picture>
       </a>
     </td>
-  </tr>
-  <tr height="187px">
     <td align="center" width="33%">
       <a href="https://betterstack.com/?utm_source=github&utm_medium=sponsorship&utm_campaign=next-js-boilerplate">
         <picture>
@@ -95,13 +104,13 @@ Clone this project and use it to create your own Next.js project. You can check 
         </picture>
       </a>
     </td>
+  </tr>
+  <tr height="187px">
     <td align="center" style=width="33%">
       <a href="https://nextjs-boilerplate.com/pro-saas-starter-kit">
         <img src="public/assets/images/nextjs-boilerplate-saas.png?raw=true" alt="Next.js SaaS Boilerplate with React" />
       </a>
     </td>
-  </tr>
-  <tr height="187px">
     <td align="center" width="33%">
       <a href="mailto:contact@creativedesignsguru.com">
         Add your logo here
@@ -144,6 +153,7 @@ Developer experience first, extremely flexible code structure and only keep what
 - 🧪 Integration and E2E Testing with Playwright
 - 👷 Run tests on pull request with GitHub Actions
 - 🎉 Storybook for UI development
+- 🤖 AI-powered code reviews with [CodeRabbit](https://app.coderabbit.ai/login?grsf=remi-wg-2qs2l9)
 - 🚨 Error Monitoring with [Sentry](https://sentry.io/for/nextjs/?utm_source=github&utm_medium=paid-community&utm_campaign=general-fy25q1-nextjs&utm_content=github-banner-nextjsboilerplate-logo)
 - ☂️ Code coverage with [Codecov](https://about.codecov.io/codecov-free-trial/?utm_source=github&utm_medium=paid-community&utm_campaign=general-fy25q1-nextjs&utm_content=github-banner-nextjsboilerplate-logo)
 - 📝 Logging with Pino.js and Log Management with [Better Stack](https://betterstack.com/?utm_source=github&utm_medium=sponsorship&utm_campaign=next-js-boilerplate)
@@ -287,6 +297,12 @@ npm run commit
 ```
 
 One of the benefits of using Conventional Commits is the ability to automatically generate a `CHANGELOG` file. It also allows us to automatically determine the next version number based on the types of commits that are included in a release.
+
+### CodeRabbit AI Code Reviews
+
+The project uses [CodeRabbit](https://app.coderabbit.ai/login?grsf=remi-wg-2qs2l9), an AI-powered code reviewer. CodeRabbit monitors your repository and automatically provides intelligent code reviews on all new pull requests using its powerful AI engine.
+
+Setting up CodeRabbit is simple, visit [coderabbit.ai](https://app.coderabbit.ai/login?grsf=remi-wg-2qs2l9), sign in with your GitHub account, and select your repository from the dashboard. That's it!
 
 ### Testing
 
@@ -436,11 +452,11 @@ See [LICENSE](LICENSE) for more information.
       </a>
     </td>
     <td align="center" width="33%">
-      <a href="https://l.crowdin.com/next-js">
+      <a href="https://app.coderabbit.ai/login?grsf=remi-wg-2qs2l9">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="public/assets/images/crowdin-white.png?raw=true">
-          <source media="(prefers-color-scheme: light)" srcset="public/assets/images/crowdin-dark.png?raw=true">
-          <img alt="Crowdin" src="public/assets/images/crowdin-dark.png?raw=true">
+          <source media="(prefers-color-scheme: dark)" srcset="public/assets/images/coderabbit-logo-dark.svg?raw=true">
+          <source media="(prefers-color-scheme: light)" srcset="public/assets/images/coderabbit-logo-light.svg?raw=true">
+          <img alt="Crowdin" src="public/assets/images/coderabbit-logo-dark.svg?raw=true">
         </picture>
       </a>
     </td>
@@ -481,6 +497,17 @@ See [LICENSE](LICENSE) for more information.
       </a>
     </td>
     <td align="center" width="33%">
+      <a href="https://l.crowdin.com/next-js">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="public/assets/images/crowdin-white.png?raw=true">
+          <source media="(prefers-color-scheme: light)" srcset="public/assets/images/crowdin-dark.png?raw=true">
+          <img alt="Crowdin" src="public/assets/images/crowdin-dark.png?raw=true">
+        </picture>
+      </a>
+    </td>
+  </tr>
+  <tr height="187px">
+    <td align="center" width="33%">
       <a href="https://posthog.com/?utm_source=github&utm_medium=sponsorship&utm_campaign=next-js-boilerplate">
         <picture>
           <source media="(prefers-color-scheme: dark)" srcset="https://posthog.com/brand/posthog-logo-white.svg">
@@ -489,8 +516,6 @@ See [LICENSE](LICENSE) for more information.
         </picture>
       </a>
     </td>
-  </tr>
-  <tr height="187px">
     <td align="center" width="33%">
       <a href="https://betterstack.com/?utm_source=github&utm_medium=sponsorship&utm_campaign=next-js-boilerplate">
         <picture>
@@ -509,13 +534,13 @@ See [LICENSE](LICENSE) for more information.
         </picture>
       </a>
     </td>
+  </tr>
+  <tr height="187px">
     <td align="center" style=width="33%">
       <a href="https://nextjs-boilerplate.com/pro-saas-starter-kit">
         <img src="public/assets/images/nextjs-boilerplate-saas.png?raw=true" alt="Next.js SaaS Boilerplate with React" />
       </a>
     </td>
-  </tr>
-  <tr height="187px">
     <td align="center" width="33%">
       <a href="mailto:contact@creativedesignsguru.com">
         Add your logo here

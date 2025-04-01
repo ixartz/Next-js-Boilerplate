@@ -1,0 +1,27 @@
+# yaml-language-server: $schema=https://coderabbit.ai/integrations/schema.v2.json
+
+# CodeRabbit is an AI-powered code reviewer that cuts review time and bugs in half.
+# Create your CodeRabbit account at https://app.coderabbit.ai/login?grsf=remi-wg-2qs2l9
+
+language: en-US
+early_access: false
+reviews:
+  profile: chill
+  request_changes_workflow: false
+  high_level_summary: true
+  poem: true
+  review_status: true
+  collapse_walkthrough: false
+  path_instructions:
+    - path: '**/*.{ts,tsx}'
+      instructions:
+        'Review the Typescript and React code for conformity with best practices in React, and Typescript. Highlight any deviations.'
+  auto_review:
+    enabled: true
+    ignore_title_keywords:
+      - WIP
+      - DO NOT MERGE
+      - DRAFT
+    drafts: false
+chat:
+  auto_reply: true
