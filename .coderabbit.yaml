@@ -1,7 +1,6 @@
 # yaml-language-server: $schema=https://coderabbit.ai/integrations/schema.v2.json
 
-# CodeRabbit is an AI-powered code reviewer that cuts review time and bugs in half.
-# Create your CodeRabbit account at https://www.coderabbit.ai?utm_source=next_js_starter&utm_medium=github&utm_campaign=next_js_starter_oss_2025
+# CodeRabbit is an AI-powered code reviewer that cuts review time and bugs in half
 
 language: en-US
 early_access: false
