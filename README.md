@@ -26,7 +26,7 @@ Clone this project and use it to create your own Next.js project. You can check 
         <picture>
           <source media="(prefers-color-scheme: dark)" srcset="public/assets/images/coderabbit-logo-dark.svg?raw=true">
           <source media="(prefers-color-scheme: light)" srcset="public/assets/images/coderabbit-logo-light.svg?raw=true">
-          <img alt="CodeRabbit" src="public/assets/images/coderabbit-logo-dark.svg?raw=true">
+          <img alt="CodeRabbit" src="public/assets/images/coderabbit-logo-light.svg?raw=true">
         </picture>
       </a>
     </td>
@@ -62,7 +62,7 @@ Clone this project and use it to create your own Next.js project. You can check 
         <picture>
           <source media="(prefers-color-scheme: dark)" srcset="public/assets/images/sevalla-dark.png">
           <source media="(prefers-color-scheme: light)" srcset="public/assets/images/sevalla-light.png">
-          <img alt="Sevalla" src="public/assets/images/sevalla-dark.png">
+          <img alt="Sevalla" src="public/assets/images/sevalla-light.png">
         </picture>
       </a>
     </td>
@@ -456,7 +456,7 @@ See [LICENSE](LICENSE) for more information.
         <picture>
           <source media="(prefers-color-scheme: dark)" srcset="public/assets/images/coderabbit-logo-dark.svg?raw=true">
           <source media="(prefers-color-scheme: light)" srcset="public/assets/images/coderabbit-logo-light.svg?raw=true">
-          <img alt="CodeRabbit" src="public/assets/images/coderabbit-logo-dark.svg?raw=true">
+          <img alt="CodeRabbit" src="public/assets/images/coderabbit-logo-light.svg?raw=true">
         </picture>
       </a>
     </td>
@@ -492,7 +492,7 @@ See [LICENSE](LICENSE) for more information.
         <picture>
           <source media="(prefers-color-scheme: dark)" srcset="public/assets/images/sevalla-dark.png">
           <source media="(prefers-color-scheme: light)" srcset="public/assets/images/sevalla-light.png">
-          <img alt="Sevalla" src="public/assets/images/sevalla-dark.png">
+          <img alt="Sevalla" src="public/assets/images/sevalla-light.png">
         </picture>
       </a>
     </td>
