@@ -50,7 +50,7 @@ Clone this project and use it to create your own Next.js project. You can check 
     <td align="center" width="33%">
       <a href="https://sevalla.com/">
         <picture>
-          <img alt="Sevalla" src="public/assets/images/sevalla-dark.png">
+          <img alt="Sevalla" src="public/assets/images/sevalla-light.png">
         </picture>
       </a>
     </td>
