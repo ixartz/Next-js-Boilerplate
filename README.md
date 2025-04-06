@@ -22,7 +22,7 @@ Clone this project and use it to create your own Next.js project. You can check 
     <td align="center" width="33%">
       <a href="https://www.coderabbit.ai?utm_source=next_js_starter&utm_medium=github&utm_campaign=next_js_starter_oss_2025">
         <picture>
-          <img alt="CodeRabbit" src="public/assets/images/coderabbit-logo-dark.svg?raw=true">
+          <img alt="CodeRabbit" src="public/assets/images/coderabbit-logo-light.svg?raw=true">
         </picture>
       </a>
     </td>
