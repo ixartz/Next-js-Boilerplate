@@ -15,8 +15,6 @@ Clone this project and use it to create your own Next.js project. You can check 
     <td align="center" width="33%">
       <a href="https://clerk.com?utm_source=github&utm_medium=sponsorship&utm_campaign=nextjs-boilerplate">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://github.com/ixartz/SaaS-Boilerplate/assets/1328388/6fb61971-3bf1-4580-98a0-10bd3f1040a2">
-          <source media="(prefers-color-scheme: light)" srcset="https://github.com/ixartz/SaaS-Boilerplate/assets/1328388/f80a8bb5-66da-4772-ad36-5fabc5b02c60">
           <img alt="Clerk – Authentication & User Management for Next.js" src="https://github.com/ixartz/SaaS-Boilerplate/assets/1328388/f80a8bb5-66da-4772-ad36-5fabc5b02c60">
         </picture>
       </a>
@@ -24,8 +22,6 @@ Clone this project and use it to create your own Next.js project. You can check 
     <td align="center" width="33%">
       <a href="https://www.coderabbit.ai?utm_source=next_js_starter&utm_medium=github&utm_campaign=next_js_starter_oss_2025">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="public/assets/images/coderabbit-logo-dark.svg?raw=true">
-          <source media="(prefers-color-scheme: light)" srcset="public/assets/images/coderabbit-logo-light.svg?raw=true">
           <img alt="CodeRabbit" src="public/assets/images/coderabbit-logo-dark.svg?raw=true">
         </picture>
       </a>
@@ -33,15 +29,11 @@ Clone this project and use it to create your own Next.js project. You can check 
     <td align="center" width="33%">
       <a href="https://sentry.io/for/nextjs/?utm_source=github&utm_medium=paid-community&utm_campaign=general-fy25q1-nextjs&utm_content=github-banner-nextjsboilerplate-logo">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="public/assets/images/sentry-white.png?raw=true">
-          <source media="(prefers-color-scheme: light)" srcset="public/assets/images/sentry-dark.png?raw=true">
           <img alt="Sentry" src="public/assets/images/sentry-dark.png?raw=true">
         </picture>
       </a>
       <a href="https://about.codecov.io/codecov-free-trial/?utm_source=github&utm_medium=paid-community&utm_campaign=general-fy25q1-nextjs&utm_content=github-banner-nextjsboilerplate-logo">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="public/assets/images/codecov-white.svg?raw=true">
-          <source media="(prefers-color-scheme: light)" srcset="public/assets/images/codecov-dark.svg?raw=true">
           <img alt="Codecov" src="public/assets/images/codecov-dark.svg?raw=true">
         </picture>
       </a>
@@ -51,8 +43,6 @@ Clone this project and use it to create your own Next.js project. You can check 
     <td align="center" width="33%">
       <a href="https://launch.arcjet.com/Q6eLbRE">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="public/assets/images/arcjet-dark.svg?raw=true">
-          <source media="(prefers-color-scheme: light)" srcset="public/assets/images/arcjet-light.svg?raw=true">
           <img alt="Arcjet" src="public/assets/images/arcjet-light.svg?raw=true">
         </picture>
       </a>
@@ -60,8 +50,6 @@ Clone this project and use it to create your own Next.js project. You can check 
     <td align="center" width="33%">
       <a href="https://sevalla.com/">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="public/assets/images/sevalla-dark.png">
-          <source media="(prefers-color-scheme: light)" srcset="public/assets/images/sevalla-light.png">
           <img alt="Sevalla" src="public/assets/images/sevalla-dark.png">
         </picture>
       </a>
@@ -69,8 +57,6 @@ Clone this project and use it to create your own Next.js project. You can check 
     <td align="center" width="33%">
       <a href="https://l.crowdin.com/next-js">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="public/assets/images/crowdin-white.png?raw=true">
-          <source media="(prefers-color-scheme: light)" srcset="public/assets/images/crowdin-dark.png?raw=true">
           <img alt="Crowdin" src="public/assets/images/crowdin-dark.png?raw=true">
         </picture>
       </a>
@@ -80,8 +66,6 @@ Clone this project and use it to create your own Next.js project. You can check 
     <td align="center" width="33%">
       <a href="https://posthog.com/?utm_source=github&utm_medium=sponsorship&utm_campaign=next-js-boilerplate">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://posthog.com/brand/posthog-logo-white.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://posthog.com/brand/posthog-logo.svg">
           <img alt="PostHog" src="https://posthog.com/brand/posthog-logo.svg">
         </picture>
       </a>
@@ -89,8 +73,6 @@ Clone this project and use it to create your own Next.js project. You can check 
     <td align="center" width="33%">
       <a href="https://betterstack.com/?utm_source=github&utm_medium=sponsorship&utm_campaign=next-js-boilerplate">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="public/assets/images/better-stack-white.png?raw=true">
-          <source media="(prefers-color-scheme: light)" srcset="public/assets/images/better-stack-dark.png?raw=true">
           <img alt="Better Stack" src="public/assets/images/better-stack-dark.png?raw=true">
         </picture>
       </a>
@@ -98,8 +80,6 @@ Clone this project and use it to create your own Next.js project. You can check 
     <td align="center" width="33%">
       <a href="https://www.checklyhq.com/?utm_source=github&utm_medium=sponsorship&utm_campaign=next-js-boilerplate">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="public/assets/images/checkly-logo-dark.png?raw=true">
-          <source media="(prefers-color-scheme: light)" srcset="public/assets/images/checkly-logo-light.png?raw=true">
           <img alt="Checkly" src="public/assets/images/checkly-logo-light.png?raw=true">
         </picture>
       </a>
