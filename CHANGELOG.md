@@ -1,3 +1,10 @@
+## [3.66.1](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.66.0...v3.66.1) (2025-04-09)
+
+
+### Bug Fixes
+
+* upgrade to Next.js 15.3 ([426b1c2](https://github.com/ixartz/Next-js-Boilerplate/commit/426b1c2c5a6338be98357d13278191665ec3866b))
+
 # [3.66.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.65.2...v3.66.0) (2025-04-01)
 
 
