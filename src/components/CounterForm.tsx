@@ -1,6 +1,5 @@
 'use client';
 
-import type { z } from 'zod';
 import { CounterValidation } from '@/validations/CounterValidation';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { useTranslations } from 'next-intl';
@@ -9,7 +8,7 @@ import { useForm } from 'react-hook-form';
 
 export const CounterForm = () => {
   const t = useTranslations('CounterForm');
-  const form = useForm<z.infer<typeof CounterValidation>>({
+  const form = useForm({
     resolver: zodResolver(CounterValidation),
     defaultValues: {
       increment: 0,
