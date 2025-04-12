@@ -1,3 +1,10 @@
+## [3.66.2](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.66.1...v3.66.2) (2025-04-12)
+
+
+### Bug Fixes
+
+* update hookform/resolvers to v5, infer automatically type for useForm ([ca08876](https://github.com/ixartz/Next-js-Boilerplate/commit/ca088767bf2e980913547f94fc172f1ca93f1ae1))
+
 ## [3.66.1](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.66.0...v3.66.1) (2025-04-09)
 
 
