@@ -5,7 +5,9 @@ import { routing } from '@/libs/i18nNavigation';
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages, setRequestLocale } from 'next-intl/server';
 import { notFound } from 'next/navigation';
+import { Providers } from './providers';
 import '@/styles/global.css';
+import '@rainbow-me/rainbowkit/styles.css';
 
 export const metadata: Metadata = {
   icons: [
@@ -57,15 +59,17 @@ export default async function RootLayout(props: {
   return (
     <html lang={locale}>
       <body suppressHydrationWarning>
-        <NextIntlClientProvider
-          locale={locale}
-          messages={messages}
-        >
-          <PostHogProvider>
-            {props.children}
-          </PostHogProvider>
-          <DemoBadge />
-        </NextIntlClientProvider>
+        <Providers>
+          <NextIntlClientProvider
+            locale={locale}
+            messages={messages}
+          >
+            <PostHogProvider>
+              {props.children}
+            </PostHogProvider>
+            <DemoBadge />
+          </NextIntlClientProvider>
+        </Providers>
       </body>
     </html>
   );

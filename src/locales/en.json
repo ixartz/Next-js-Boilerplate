@@ -1,6 +1,7 @@
 {
   "RootLayout": {
     "home_link": "Home",
+    "web3_link": "Web3",
     "about_link": "About",
     "counter_link": "Counter",
     "portfolio_link": "Portfolio",

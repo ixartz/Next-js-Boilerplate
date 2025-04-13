@@ -53,5 +53,6 @@ export default antfu({
     'node/prefer-global/process': 'off', // Allow using `process.env`
     'test/padding-around-all': 'error', // Add padding in test files
     'test/prefer-lowercase-title': 'off', // Allow using uppercase titles in test titles
+    'react-hooks-extra/no-direct-set-state-in-use-effect': 'off', // Allow direct state setting in useEffect for hydration
   },
 });
