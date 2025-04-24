@@ -3,29 +3,19 @@
 # dependencies
 /node_modules
 /.pnp
-.pnp.js
-
-# Database
-*.db
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
 
 # testing
 /coverage
 
-# storybook
-storybook-static
-*storybook.log
-
-# playwright
-/test-results/
-/playwright-report/
-/playwright/.cache/
-
 # next.js
-/.next
-/out
-
-# cache
-.swc/
+/.next/
+/out/
 
 # production
 /build
@@ -37,9 +27,9 @@ Thumbs.db
 
 # debug
 npm-debug.log*
-pnpm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+.pnpm-debug.log*
 
 # local env files
 .env*.local
@@ -52,3 +42,19 @@ local
 
 # vercel
 .vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# Database
+*.db
+
+# storybook
+storybook-static
+*storybook.log
+
+# playwright
+/test-results/
+/playwright-report/
+/playwright/.cache/
