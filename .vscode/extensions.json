@@ -2,7 +2,6 @@
   "recommendations": [
     "dbaeumer.vscode-eslint",
     "mikestead.dotenv",
-    "csstools.postcss",
     "bradlc.vscode-tailwindcss",
     "vitest.explorer",
     "humao.rest-client",
