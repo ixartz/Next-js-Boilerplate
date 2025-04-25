@@ -1,70 +1,78 @@
 /* eslint-disable jsonc/sort-keys */
 {
   "compilerOptions": {
-    "lib": ["dom", "dom.iterable", "esnext"],
+    // ======================================================================
+    // Language & Environment
+    // Defines JavaScript version and runtime environment
+    // ======================================================================
+    "target": "ES2017",
     "module": "esnext",
+    "lib": ["dom", "dom.iterable", "esnext"],
     "moduleResolution": "bundler",
-    "resolveJsonModule": true,
-    "removeComments": true,
-    "preserveConstEnums": true,
+    "isolatedModules": true,
+
+    // ======================================================================
+    // Type Safety - Foundation
+    // Core type checking settings for a robust codebase
+    // ======================================================================
     "strict": true,
     "alwaysStrict": true,
     "strictNullChecks": true,
-    "noUncheckedIndexedAccess": true,
-
     "noImplicitAny": true,
-    "noImplicitReturns": true,
     "noImplicitThis": true,
+
+    // ======================================================================
+    // Type Safety - Advanced
+    // Additional checks for higher code quality
+    // ======================================================================
+    "noUncheckedIndexedAccess": true,
+    "noImplicitReturns": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "allowUnreachableCode": false,
     "noFallthroughCasesInSwitch": true,
+    "allowUnreachableCode": false,
+    "useUnknownInCatchVariables": true,
 
-    "target": "es2017",
-    "outDir": "out",
-    "sourceMap": true,
-
-    "esModuleInterop": true,
-    "allowSyntheticDefaultImports": true,
+    // ======================================================================
+    // Interoperability
+    // Settings for working with different file types and modules
+    // ======================================================================
     "allowJs": true,
     "checkJs": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+
+    // ======================================================================
+    // Build & Performance
+    // Settings that affect compilation output and build performance
+    // ======================================================================
     "skipLibCheck": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "verbatimModuleSyntax": true,
     "forceConsistentCasingInFileNames": true,
 
-    "jsx": "preserve",
-    "noEmit": true,
-    "isolatedModules": true,
-    "incremental": true,
-
-    // Load types
-    "types": ["vitest/globals"],
-
-    // Path aliases
+    // ======================================================================
+    // Project Structure
+    // Configure import paths and module resolution
+    // ======================================================================
     "baseUrl": ".",
     "paths": {
       "@/*": ["./src/*"],
       "@/public/*": ["./public/*"]
     },
 
-    // Editor support
-    "plugins": [
-      {
-        "name": "next"
-      }
-    ]
+    // ======================================================================
+    // Next.js Project Configuration
+    // Controls settings specific to Next.js framework
+    // ======================================================================
+    "jsx": "preserve", // Preserve JSX for Next.js transformation
+    "incremental": true, // Enable faster incremental builds
+    "noEmit": true, // Skip emitting files (Next.js handles this)
+    "plugins": [{ "name": "next" }] // Enable Next.js TypeScript plugin
   },
-  "exclude": [
-    "./out/**/*",
-    "./node_modules/**/*",
-    "**/*.spec.ts",
-    "**/*.e2e.ts"
-  ],
-  "include": [
-    "next-env.d.ts",
-    "**/*.ts",
-    "**/*.tsx",
-    ".storybook/*.ts",
-    ".next/types/**/*.ts",
-    "**/*.mts"
-  ]
+
+  // Files to include/exclude from the project
+  "exclude": ["node_modules"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"]
 }
