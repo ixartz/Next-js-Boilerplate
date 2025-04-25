@@ -1,3 +1,17 @@
+## [3.66.3](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.66.2...v3.66.3) (2025-04-25)
+
+
+### Bug Fixes
+
+* enhance ESLint configuration with comments and structure improvements ([16da265](https://github.com/ixartz/Next-js-Boilerplate/commit/16da265927ca869f43a22a90bc9c6f1f14dadead))
+* regenerate the migrations folder ([64ef5ec](https://github.com/ixartz/Next-js-Boilerplate/commit/64ef5ec4534a7580834392059c798776cac02218))
+* remove csstools.postcss from VSCode extensions recommendations ([a9f9510](https://github.com/ixartz/Next-js-Boilerplate/commit/a9f95105350c5b44dea405bdc4e82d34b15a7e29))
+* remove verbatimModuleSyntax to support Checkly configuration ([f039e90](https://github.com/ixartz/Next-js-Boilerplate/commit/f039e90b61a45cec9e9e0b361baf8dd5449aacbc))
+* reorganize tsconfig.json with improved comments and structure ([9a87712](https://github.com/ixartz/Next-js-Boilerplate/commit/9a87712d8aed7f4b686f7aaa581196afaab866b2))
+* update ESLint settings for code actions on save ([afcbced](https://github.com/ixartz/Next-js-Boilerplate/commit/afcbced2ac72f3524da6a6c6d024a381566f6fbd))
+* update gitignore files ([7a91472](https://github.com/ixartz/Next-js-Boilerplate/commit/7a91472a78be83ab93c34b2ad9a4b3891d0ee783))
+* update tsconfig.json to include vitest types and refine file exclusions ([6cb051d](https://github.com/ixartz/Next-js-Boilerplate/commit/6cb051d6ec25e8edcc3a4c5f619519afa0cbea77))
+
 ## [3.66.2](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.66.1...v3.66.2) (2025-04-12)
 
 
