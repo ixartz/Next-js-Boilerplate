@@ -50,7 +50,6 @@
     "skipLibCheck": true,
     "removeComments": true,
     "preserveConstEnums": true,
-    "verbatimModuleSyntax": true,
     "forceConsistentCasingInFileNames": true,
 
     // ======================================================================
