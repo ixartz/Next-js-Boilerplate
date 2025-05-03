@@ -17,12 +17,12 @@ let nextConfig: NextConfig = {
 // Initialize the Next-Intl plugin
 nextConfig = createNextIntlPlugin('./src/libs/i18n.ts')(nextConfig);
 
-// Enable bundle analysis if needed
+// Conditionally enable bundle analysis
 if (process.env.ANALYZE === 'true') {
   nextConfig = withBundleAnalyzer()(nextConfig);
 }
 
-// Enable Sentry error tracking
+// Sentry configuration
 const sentryOptions = {
   // For all available options, see:
   // https://github.com/getsentry/sentry-webpack-plugin#options
