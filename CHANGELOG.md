@@ -1,3 +1,11 @@
+## [3.66.4](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.66.3...v3.66.4) (2025-05-03)
+
+
+### Bug Fixes
+
+* add noImplicitOverride option to tsconfig.json for stricter type checking ([0b23f5d](https://github.com/ixartz/Next-js-Boilerplate/commit/0b23f5dc4a9b3252954b0c160befa7a1d969f12d))
+* use autoImportSpecifierExcludeRegexes instead of autoImportFileExcludePatterns in TS config ([19d783f](https://github.com/ixartz/Next-js-Boilerplate/commit/19d783f866ee363cc36f892910b03bbb00005178))
+
 ## [3.66.3](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.66.2...v3.66.3) (2025-04-25)
 
 
