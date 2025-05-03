@@ -4,7 +4,7 @@ import { withSentryConfig } from '@sentry/nextjs';
 import createNextIntlPlugin from 'next-intl/plugin';
 import './src/libs/Env';
 
-// Next.js configuration
+// Define the base Next.js configuration
 let nextConfig: NextConfig = {
   eslint: {
     dirs: ['.'],
@@ -14,15 +14,15 @@ let nextConfig: NextConfig = {
   serverExternalPackages: ['@electric-sql/pglite'],
 };
 
-// Add i18n support
+// Initialize the Next-Intl plugin
 nextConfig = createNextIntlPlugin('./src/libs/i18n.ts')(nextConfig);
 
-// Add bundle analyzer support
+// Enable bundle analysis if needed
 if (process.env.ANALYZE === 'true') {
   nextConfig = withBundleAnalyzer()(nextConfig);
 }
 
-// Sentry options
+// Enable Sentry error tracking
 const sentryOptions = {
   // For all available options, see:
   // https://github.com/getsentry/sentry-webpack-plugin#options
