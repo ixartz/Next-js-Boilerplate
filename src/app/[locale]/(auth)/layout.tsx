@@ -9,6 +9,7 @@ export default async function AuthLayout(props: {
 }) {
   const { locale } = await props.params;
   setRequestLocale(locale);
+
   let clerkLocale = enUS;
   let signInUrl = '/sign-in';
   let signUpUrl = '/sign-up';
