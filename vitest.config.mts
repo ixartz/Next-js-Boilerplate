@@ -12,9 +12,15 @@ export default defineConfig({
       include: ['src/**/*'],
       exclude: ['src/**/*.stories.{js,jsx,ts,tsx}', '**/*.d.ts'],
     },
-    environmentMatchGlobs: [
-      ['**/*.test.tsx', 'jsdom'],
-      ['src/hooks/**/*.test.ts', 'jsdom'],
+    workspace: [
+      {
+        extends: true, // Inherit root config (plugins, globals, coverage, setupFiles, env)
+        test: {
+          include: ['**/*.test.tsx', 'src/hooks/**/*.test.ts'],
+          environment: 'jsdom',
+          name: 'jsdom',
+        },
+      },
     ],
     setupFiles: ['./vitest-setup.ts'],
     env: loadEnv('', process.cwd(), ''),

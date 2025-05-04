@@ -1,6 +1,6 @@
 'use client';
 
-import { routing } from '@/libs/i18nNavigation';
+import { routing } from '@/libs/i18nRouting';
 import * as Sentry from '@sentry/nextjs';
 import NextError from 'next/error';
 import { useEffect } from 'react';

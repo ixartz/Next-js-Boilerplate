@@ -12,7 +12,9 @@
     // useRouter should be imported from `next/navigation` instead of `next/router`
     "next/router",
     // give priority for Link to next/link instead of lucide-react
-    "lucide-react"
+    "lucide-react",
+    // Not used in the project and conflicts with `use()` from React
+    "chai"
   ],
   "typescript.preferences.preferTypeOnlyAutoImports": true, // Prefer type-only imports
 

@@ -41,7 +41,7 @@
     "@t3-oss/env-nextjs": "^0.13.4",
     "drizzle-orm": "^0.43.1",
     "next": "^15.3.1",
-    "next-intl": "^3.26.5",
+    "next-intl": "^4.1.0",
     "pg": "^8.15.6",
     "pino": "^9.6.0",
     "pino-pretty": "^13.0.0",
