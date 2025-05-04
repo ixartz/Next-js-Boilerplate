@@ -48,8 +48,7 @@ export default async function middleware(
     }
   }
 
-  // Run Clerk middleware only when it's necessary
-  // Keyless mode from Clerk doesn't work with i18n
+  // Clerk keyless mode doesn't work with i18n, this is why we need to run the middleware conditionally
   if (
     isAuthPage(request) || isProtectedRoute(request)
   ) {
