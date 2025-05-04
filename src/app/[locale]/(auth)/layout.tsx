@@ -1,4 +1,4 @@
-import { routing } from '@/libs/i18nNavigation';
+import { routing } from '@/libs/i18nRouting';
 import { enUS, frFR } from '@clerk/localizations';
 import { ClerkProvider } from '@clerk/nextjs';
 import { setRequestLocale } from 'next-intl/server';

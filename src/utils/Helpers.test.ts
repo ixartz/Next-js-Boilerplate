@@ -1,4 +1,4 @@
-import { routing } from '@/libs/i18nNavigation';
+import { routing } from '@/libs/i18nRouting';
 import { getI18nPath } from './Helpers';
 
 describe('Helpers', () => {

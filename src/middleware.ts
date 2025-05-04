@@ -4,7 +4,7 @@ import { detectBot } from '@arcjet/next';
 import { clerkMiddleware, createRouteMatcher } from '@clerk/nextjs/server';
 import createMiddleware from 'next-intl/middleware';
 import { NextResponse } from 'next/server';
-import { routing } from './libs/i18nNavigation';
+import { routing } from './libs/i18nRouting';
 
 const handleI18nRouting = createMiddleware(routing);
 
@@ -74,5 +74,5 @@ export const config = {
   // Match all pathnames except for
   // - … if they start with `/api`, `/trpc`, `/_next` or `/_vercel`
   // - … the ones containing a dot (e.g. `favicon.ico`)
-  matcher: '/((?!api|trpc|_next|_vercel|monitoring|.*\\..*).*)',
+  matcher: '/((?!_next|_vercel|monitoring|.*\\..*).*)',
 };

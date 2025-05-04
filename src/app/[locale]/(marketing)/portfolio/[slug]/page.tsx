@@ -1,4 +1,4 @@
-import { routing } from '@/libs/i18nNavigation';
+import { routing } from '@/libs/i18nRouting';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import Image from 'next/image';
 
