@@ -1,3 +1,12 @@
+## [3.66.5](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.66.4...v3.66.5) (2025-05-04)
+
+
+### Bug Fixes
+
+* add next-intl 4 and rewrite next.config.ts ([b468271](https://github.com/ixartz/Next-js-Boilerplate/commit/b468271f9922f95497c5b46733a194023c3c4458))
+* remove suppressHydrationWarning not needed anymore ([be70570](https://github.com/ixartz/Next-js-Boilerplate/commit/be705709eb65986bde67097af5d4cdf01f5915fc))
+* update configuration after updating to next-intl 4 ([0b60f1c](https://github.com/ixartz/Next-js-Boilerplate/commit/0b60f1c492df8d89f3fe9d22aefbdb1b28410b20))
+
 ## [3.66.4](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.66.3...v3.66.4) (2025-05-03)
 
 
