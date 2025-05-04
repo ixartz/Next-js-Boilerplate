@@ -13,7 +13,6 @@ export const LocaleSwitcher = () => {
 
   const handleChange: ChangeEventHandler<HTMLSelectElement> = (event) => {
     router.push(`/${event.target.value}${pathname}`);
-    router.refresh();
   };
 
   return (
