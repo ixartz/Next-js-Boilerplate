@@ -25,7 +25,7 @@ if (process.env.ANALYZE === 'true') {
 // Sentry configuration
 const sentryOptions = {
   // For all available options, see:
-  // https://github.com/getsentry/sentry-webpack-plugin#options
+  // https://www.npmjs.com/package/@sentry/webpack-plugin#options
   // FIXME: Add your Sentry organization and project names
   org: 'nextjs-boilerplate-org',
   project: 'nextjs-boilerplate',
@@ -39,7 +39,7 @@ const sentryOptions = {
   // Upload a larger set of source maps for prettier stack traces (increases build time)
   widenClientFileUpload: true,
 
-  // Automatically annotate React components to show their full name in breadcrumbs and session replay
+  // Upload a larger set of source maps for prettier stack traces (increases build time)
   reactComponentAnnotation: {
     enabled: true,
   },
@@ -50,17 +50,8 @@ const sentryOptions = {
   // side errors will fail.
   tunnelRoute: '/monitoring',
 
-  // Hides source maps from generated client bundles
-  hideSourceMaps: true,
-
   // Automatically tree-shake Sentry logger statements to reduce bundle size
   disableLogger: true,
-
-  // Enables automatic instrumentation of Vercel Cron Monitors. (Does not yet work with App Router route handlers.)
-  // See the following for more information:
-  // https://docs.sentry.io/product/crons/
-  // https://vercel.com/docs/cron-jobs
-  automaticVercelMonitors: true,
 
   // Disable Sentry telemetry
   telemetry: false,
