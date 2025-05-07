@@ -1,3 +1,11 @@
+## [3.66.6](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.66.5...v3.66.6) (2025-05-07)
+
+
+### Bug Fixes
+
+* disable sentry when debugging with vscode ([67309fe](https://github.com/ixartz/Next-js-Boilerplate/commit/67309fe21659659972b621d2113b2a8eefca52f1))
+* in instrumentation client, add environment variable to disable sentry ([7963565](https://github.com/ixartz/Next-js-Boilerplate/commit/79635655cb3e09494689fcddfe852f90faa3cad1))
+
 ## [3.66.5](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.66.4...v3.66.5) (2025-05-04)
 
 
