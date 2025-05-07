@@ -6,13 +6,20 @@
   "configurations": [
     {
       "name": "Next.js: debug full stack",
-      "type": "node-terminal",
+      "type": "node",
       "request": "launch",
-      "command": "npm run dev",
+      "program": "${workspaceFolder}/node_modules/next/dist/bin/next",
+      "runtimeArgs": ["--inspect"],
+      "skipFiles": ["<node_internals>/**"],
+      "env": {
+        "NEXT_PUBLIC_SENTRY_DISABLED": "true"
+      },
       "serverReadyAction": {
+        "action": "debugWithChrome",
+        "killOnServerStop": true,
         "pattern": "- Local:.+(https?://.+)",
         "uriFormat": "%s",
-        "action": "debugWithChrome"
+        "webRoot": "${workspaceFolder}"
       }
     }
   ]
