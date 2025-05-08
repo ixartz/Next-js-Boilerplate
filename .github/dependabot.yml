@@ -7,6 +7,6 @@ updates:
     # Check the npm registry for updates every day
     schedule:
       interval: cron
-      cronjob: '0 1 * * *'
+      cronjob: '17 23 * * *'
     # Limit the number of open pull requests for version updates to 10
     open-pull-requests-limit: 1
