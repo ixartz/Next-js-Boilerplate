@@ -1,3 +1,16 @@
+# [3.67.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.66.6...v3.67.0) (2025-05-08)
+
+
+### Bug Fixes
+
+* update dependabot schedule to check for npm updates at 1 AM ([1b5358b](https://github.com/ixartz/Next-js-Boilerplate/commit/1b5358b5e019d8c1b5ff319eaeecefea6d3b9273))
+* update robots.txt to disallow access to the dashboard ([5f510d9](https://github.com/ixartz/Next-js-Boilerplate/commit/5f510d9c0acc089a51f31f85e00df7a155621b7e))
+
+
+### Features
+
+* add dependabot configuration for npm package updates ([7891616](https://github.com/ixartz/Next-js-Boilerplate/commit/789161629c1cd473fec6088980499233468097ec))
+
 ## [3.66.6](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.66.5...v3.66.6) (2025-05-07)
 
 
