@@ -1,3 +1,11 @@
+## [3.67.2](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.67.1...v3.67.2) (2025-05-09)
+
+
+### Bug Fixes
+
+* group dependabot all updates into a single PR ([ba74448](https://github.com/ixartz/Next-js-Boilerplate/commit/ba7444821f896d4d02f8f17124d0e1adb20fe922))
+* typo in dependabot.yml config file ([2c6933d](https://github.com/ixartz/Next-js-Boilerplate/commit/2c6933d73d24bd6b8f6b45207b5550611372fad1))
+
 ## [3.67.1](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.67.0...v3.67.1) (2025-05-09)
 
 
