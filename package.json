@@ -54,7 +54,7 @@
     "@antfu/eslint-config": "^4.13.0",
     "@commitlint/cli": "^19.8.0",
     "@commitlint/config-conventional": "^19.8.0",
-    "@commitlint/cz-commitlint": "^19.8.0",
+    "@commitlint/cz-commitlint": "^19.8.1",
     "@eslint-react/eslint-plugin": "^1.49.0",
     "@faker-js/faker": "^9.7.0",
     "@next/bundle-analyzer": "^15.3.1",
