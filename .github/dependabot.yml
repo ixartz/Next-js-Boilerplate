@@ -6,13 +6,13 @@ updates:
     directory: /
     # Check the npm registry for updates every day
     schedule:
-      interval: daily
+      interval: monthly
       time: '06:00'
     # Limit the number of open pull requests for version updates to 1
     open-pull-requests-limit: 1
     # Commit message format
     commit-message:
-      # Prefix all commit messages and pull request titles with "fix"
+      # Prefix all commit messages and pull request titles with "chore"
       prefix: chore
     # Group updates into a single pull request
     groups:
