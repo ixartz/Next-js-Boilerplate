@@ -10,6 +10,11 @@ updates:
       time: '06:00'
     # Limit the number of open pull requests for version updates to 1
     open-pull-requests-limit: 1
+    # Commit message format
+    commit-message:
+      # Prefix all commit messages and pull request titles with "fix"
+      prefix: chore
+    # Group updates into a single pull request
     groups:
       # The name of the group (identifier)
       npm-deps:
