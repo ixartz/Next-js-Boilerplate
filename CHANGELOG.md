@@ -1,3 +1,10 @@
+## [3.67.1](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.67.0...v3.67.1) (2025-05-09)
+
+
+### Bug Fixes
+
+* update dependabot cron schedule to run at 00:45 UTC ([d59ed9f](https://github.com/ixartz/Next-js-Boilerplate/commit/d59ed9f889ecce77d369246399f2058450c6664a))
+
 # [3.67.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.66.6...v3.67.0) (2025-05-08)
 
 
