@@ -34,9 +34,6 @@ yarn-error.log*
 # local env files
 .env*.local
 
-# Sentry Config File
-.env.sentry-build-plugin
-
 # local folder
 local
 
@@ -46,15 +43,5 @@ local
 # typescript
 *.tsbuildinfo
 next-env.d.ts
-
-# Database
-*.db
-
-# storybook
-storybook-static
-*storybook.log
-
-# playwright
-/test-results/
-/playwright-report/
-/playwright/.cache/
+ 
+ 
