@@ -1,0 +1,142 @@
+From 0000000000000000000000000000000000000000 Mon Sep 17 00:00:00 2001
+From: Tan <you@your.email>
+Date:   Fri May 31 12:00:00 2025 -0400
+Subject: [PATCH] chore: strip boilerplate and prep PicklePulse core
+
+diff --git a/.github b/.github
+deleted file mode 160000
+index 1234567..0000000
+diff --git a/.storybook b/.storybook
+deleted file mode 160000
+index 7654321..0000000
+diff --git a/tests b/tests
+deleted file mode 160000
+index abcdef0..0000000
+diff --git a/migrations b/migrations
+deleted file mode 160000
+index fedcba9..0000000
+diff --git a/crowdin.yml b/crowdin.yml
+deleted file mode 100644
+index 1111111..0000000
+diff --git a/.husky b/.husky
+deleted file mode 160000
+index 2222222..0000000
+
+diff --git a/package.json b/package.json
+index f0e1d2c..a1b2c3d 100644
+--- a/package.json
++++ b/package.json
+@@ -1,20 +1,17 @@
+ {
+   "name": "nextjs-boilerplate",
+-  "version": "1.0.0",
++  "version": "0.1.0",
+   "scripts": {
+-    "dev": "next dev",
+-    "build": "next build",
+-    "start": "next start",
+-    "lint": "next lint",
+-    "storybook": "start-storybook -p 6006",
+-    "build-storybook": "build-storybook",
+-    "test": "playwright test --reporter=html",
+-    "format": "prettier --write ."
++    "dev": "next dev",
++    "build": "next build",
++    "start": "next start"
+   },
+   "dependencies": {
+     "next": "13.x",
+@@ -40,40 +37,6 @@
+     "react-loading": "^2.0.5"
+   },
+   "devDependencies": {
+-    "@coderabbit/eslint-config": "^1.2.0",
+-    "@commitlint/cli": "^17.7.2",
+-    "@commitlint/config-conventional": "^17.7.2",
+-    "@crowdin/cli": "^4.0.0",
+-    "@crowdin/github-action": "^1.2.2",
+-    "@next/bundle-analyzer": "^13.3.1",
+-    "@playwright/test": "^1.35.1",
+-    "@storybook/addon-essentials": "^7.0.0",
+-    "@storybook/react": "^7.0.0",
+-    "commitizen": "^4.2.5",
+-    "cz-conventional-changelog": "^3.3.0",
+-    "eslint": "^8.45.0",
+-    "eslint-config-next": "^13.5.0",
+-    "eslint-plugin-storybook": "^0.6.10",
+-    "husky": "^8.0.1",
+-    "lint-staged": "^14.0.0",
+-    "playwright": "^1.35.1",
+-    "prettier": "^2.8.8",
+-    "pretty-quick": "^3.1.3",
+-    "stylelint": "^14.16.3",
+-    "tailwindcss": "^3.5.4",
+-    "typescript": "^5.0.2"
++    "typescript": "^5.0.2"
+   }
+ }
+diff --git a/next.config.ts b/next.config.ts
+index 89abcde..1234567 100644
+--- a/next.config.ts
++++ b/next.config.ts
+@@ -1,20 +1,7 @@
+-import type { NextConfig } from 'next';
+-import withBundleAnalyzer from '@next/bundle-analyzer';
+-import { withSentryConfig } from '@sentry/nextjs';
+-import createNextIntlPlugin from 'next-intl/plugin';
+-import './src/libs/Env';
+-
+-// Define the base Next.js configuration
+-let config: NextConfig = {
+-  eslint: { dirs: ['.'] },
+-  poweredByHeader: false,
+-  reactStrictMode: true,
+-  serverExternalPackages: ['@electric-sql/pglite'],
+-};
+-
+-// Initialize the Next-Intl plugin
+-let nextConfig = createNextIntlPlugin('./src/libs/i18n.ts')(config);
+-
+-// Conditionally enable bundle analysis
+-if (process.env.ANALYZE === 'true') {
+-  nextConfig = withBundleAnalyzer({ enabled: true })(nextConfig);
+-}
+-
+-export default withSentryConfig(nextConfig);
++import type { NextConfig } from 'next';
++
++const nextConfig: NextConfig = {
++  reactStrictMode: true,
++  poweredByHeader: false,
++};
++
++export default nextConfig;
+diff --git a/README.md b/README.md
+index abc1234..def5678 100644
+--- a/README.md
++++ b/README.md
+@@ -1,15 +1,9 @@
+-# Next.js Boilerplate
+-
+-Opinionated starter template for modern Next.js apps.
+-
+-## Features
+-- Setup with TypeScript, ESLint, Prettier
+-- Tailwind CSS
+-- Storybook & component-driven dev
+-- Playwright tests
+-- Internationalization with Crowdin
+-- Sentry error tracking
+-- Git hooks with Husky & lint-staged
+-- Bundle analysis
++# PicklePulse
++
++Pickleball performance & health tracker.
++
++**Tech:** Next.js · Prisma · Tailwind · OpenAI API
++
++## Setup
+ ```bash
+ git clone https://github.com/tanthai028/PicklePulse.git
+-- 
+2.39.0

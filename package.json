@@ -6,21 +6,10 @@
     "node": ">=20"
   },
   "scripts": {
-    "dev:spotlight": "spotlight-sidecar",
-    "dev:next": "next dev --turbopack",
-    "dev": "run-p dev:*",
+    "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "build-stats": "cross-env ANALYZE=true npm run build",
-    "clean": "rimraf .next out coverage",
-    "lint": "eslint .",
-    "lint:fix": "eslint . --fix",
-    "check-types": "tsc --noEmit --pretty",
-    "test": "vitest run",
-    "commit": "cz",
-    "db:generate": "drizzle-kit generate",
-    "db:migrate": "dotenv -c production -- drizzle-kit migrate",
-    "db:studio": "dotenv -c production -- drizzle-kit studio"
+    "start": "next start"
+
   },
   "dependencies": {
     "@arcjet/next": "^1.0.0-beta.6",
