@@ -94,7 +94,6 @@
     "eslint-plugin-playwright": "^2.2.0",
     "eslint-plugin-react-hooks": "^5.2.0",
     "eslint-plugin-react-refresh": "^0.4.20",
-    "eslint-plugin-testing-library": "^7.3.0",
     "http-server": "^14.1.1",
     "husky": "^9.1.7",
     "lint-staged": "^15.5.2",
