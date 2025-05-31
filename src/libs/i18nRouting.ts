@@ -1,5 +1,5 @@
-import { AppConfig } from '@/utils/AppConfig';
 import { defineRouting } from 'next-intl/routing';
+import { AppConfig } from '@/utils/AppConfig';
 
 export const routing = defineRouting({
   locales: AppConfig.locales,

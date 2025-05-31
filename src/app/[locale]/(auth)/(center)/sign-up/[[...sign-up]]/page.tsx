@@ -1,6 +1,6 @@
-import { getI18nPath } from '@/utils/Helpers';
 import { SignUp } from '@clerk/nextjs';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
+import { getI18nPath } from '@/utils/Helpers';
 
 type ISignUpPageProps = {
   params: Promise<{ locale: string }>;
