@@ -6,23 +6,19 @@ import { defineConfig } from 'vitest/config';
 export default defineConfig({
   plugins: [react(), tsconfigPaths()],
   test: {
-    globals: true, // This is needed by @testing-library to be cleaned up after each test
     include: ['src/**/*.test.{js,jsx,ts,tsx}'],
     coverage: {
       include: ['src/**/*'],
-      exclude: ['src/**/*.stories.{js,jsx,ts,tsx}', '**/*.d.ts'],
+      exclude: ['src/**/*.stories.{js,jsx,ts,tsx}'],
     },
-    workspace: [
-      {
-        extends: true, // Inherit root config (plugins, globals, coverage, setupFiles, env)
-        test: {
-          include: ['**/*.test.tsx', 'src/hooks/**/*.test.ts'],
-          environment: 'jsdom',
-          name: 'jsdom',
-        },
-      },
-    ],
-    setupFiles: ['./vitest-setup.ts'],
+    browser: {
+      provider: 'playwright', // or 'webdriverio'
+      enabled: true,
+      // at least one instance is required
+      instances: [
+        { browser: 'chromium' },
+      ],
+    },
     env: loadEnv('', process.cwd(), ''),
   },
 });
