@@ -14,7 +14,7 @@ export default defineConfig({
     browser: {
       provider: 'playwright', // or 'webdriverio'
       enabled: true,
-      // at least one instance is required
+      screenshotDirectory: 'vitest-test-results',
       instances: [
         { browser: 'chromium' },
       ],
