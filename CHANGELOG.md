@@ -1,3 +1,11 @@
+## [3.67.3](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.67.2...v3.67.3) (2025-05-31)
+
+
+### Bug Fixes
+
+* ensure page refreshes to reflect new locale in LocaleSwitcher ([0707e50](https://github.com/ixartz/Next-js-Boilerplate/commit/0707e508a00d12fb69f5232a0296d54814e95fc2))
+* update type definitions for next-intl module ([b1381b1](https://github.com/ixartz/Next-js-Boilerplate/commit/b1381b1666bdb3d53e45779183fa2fbf9f094f8f))
+
 ## [3.67.2](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.67.1...v3.67.2) (2025-05-09)
 
 
