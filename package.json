@@ -27,7 +27,7 @@
     "storybook:serve": "http-server storybook-static --port 6006 --silent",
     "serve-storybook": "run-s storybook:*",
     "test-storybook:ci": "start-server-and-test serve-storybook http://127.0.0.1:6006 test-storybook",
-    "prepare": "husky"
+    "prepare": "lefthook install"
   },
   "dependencies": {
     "@arcjet/next": "^1.0.0-beta.8",
@@ -96,6 +96,7 @@
     "eslint-plugin-react-refresh": "^0.4.20",
     "http-server": "^14.1.1",
     "husky": "^9.1.7",
+    "lefthook": "^1.11.13",
     "lint-staged": "^15.5.2",
     "npm-run-all": "^4.1.5",
     "postcss": "^8.5.4",
