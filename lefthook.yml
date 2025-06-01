@@ -1,3 +1,17 @@
+# Build commit messages
+prepare-commit-msg:
+  commands:
+    commitzen:
+      interactive: true
+      run: npx cz --hook
+      env:
+        LEFTHOOK: 0
+
+commit-msg:
+  commands:
+    commitlint:
+      run: npx --no -- commitlint --edit {1}
+
 # EXAMPLE USAGE:
 #
 #   Refer for explanation to following link:
