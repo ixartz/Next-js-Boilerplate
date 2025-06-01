@@ -10,6 +10,8 @@ pre-commit:
     lint:
       glob: '*'
       run: npx --no -- eslint --fix --no-warn-ignored
+      priority: 1
     check-types:
       glob: '*.{ts,tsx}'
       run: npm run check-types
+      priority: 2
