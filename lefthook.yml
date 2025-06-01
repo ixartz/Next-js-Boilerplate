@@ -4,6 +4,7 @@ commit-msg:
     commitlint:
       run: npx --no -- commitlint --edit {1}
 
+# Validate content before committing
 pre-commit:
   commands:
     lint:
