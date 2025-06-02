@@ -1,3 +1,18 @@
+# [3.68.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.67.3...v3.68.0) (2025-06-02)
+
+
+### Bug Fixes
+
+* add priority for lefthook scripts ([875266a](https://github.com/ixartz/Next-js-Boilerplate/commit/875266a6bcd4e8d0f14f88202d54072ee30e7ab8))
+* change default screenshot directory for vitest browser mode ([718b16a](https://github.com/ixartz/Next-js-Boilerplate/commit/718b16a471c6a7c1ea8a4090bdcbd77f8cca75b7))
+* ensure fixed files are staged in pre-commit linting ([d0de38c](https://github.com/ixartz/Next-js-Boilerplate/commit/d0de38c7923af3090886116821aecfb0b6a0dc04))
+
+
+### Features
+
+* replace husky + lint-staged by lefthook ([ff7babc](https://github.com/ixartz/Next-js-Boilerplate/commit/ff7babc0954bfd3fe8c2486571e3d72f3c7e796c))
+* use vitest browser mode instead of [@testing-library](https://github.com/testing-library) ([f22cb49](https://github.com/ixartz/Next-js-Boilerplate/commit/f22cb4937a0b7b3d4c0882ef01d1e55da7a4d208))
+
 ## [3.67.3](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.67.2...v3.67.3) (2025-05-31)
 
 
