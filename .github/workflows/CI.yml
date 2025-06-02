@@ -60,6 +60,9 @@ jobs:
       - name: Type checking
         run: npm run check-types
 
+      - name: Install Playwright (used for Storybook and E2E tests)
+        run: npx playwright install --with-deps
+
       - name: Run unit tests
         run: npm run test -- --coverage
 
@@ -67,9 +70,6 @@ jobs:
         uses: codecov/codecov-action@v5
         env:
           CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
-
-      - name: Install Playwright (used for Storybook and E2E tests)
-        run: npx playwright install --with-deps
 
       - name: Run storybook tests
         run: npm run test-storybook:ci
