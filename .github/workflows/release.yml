@@ -31,7 +31,7 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
           cache: npm
-      - run: HUSKY=0 npm ci
+      - run: npm ci
 
       - name: Release
         env:
