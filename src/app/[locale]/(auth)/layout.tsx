@@ -1,7 +1,7 @@
-import { routing } from '@/libs/i18nRouting';
-import { ClerkLocalizations } from '@/utils/AppConfig';
 import { ClerkProvider } from '@clerk/nextjs';
 import { setRequestLocale } from 'next-intl/server';
+import { routing } from '@/libs/i18nRouting';
+import { ClerkLocalizations } from '@/utils/AppConfig';
 
 export default async function AuthLayout(props: {
   children: React.ReactNode;

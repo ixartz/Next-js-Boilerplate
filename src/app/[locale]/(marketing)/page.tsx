@@ -1,5 +1,5 @@
-import { Sponsors } from '@/components/Sponsors';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
+import { Sponsors } from '@/components/Sponsors';
 
 type IIndexProps = {
   params: Promise<{ locale: string }>;

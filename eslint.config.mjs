@@ -3,7 +3,6 @@ import nextPlugin from '@next/eslint-plugin-next';
 import jestDom from 'eslint-plugin-jest-dom';
 import jsxA11y from 'eslint-plugin-jsx-a11y';
 import playwright from 'eslint-plugin-playwright';
-import testingLibrary from 'eslint-plugin-testing-library';
 
 export default antfu(
   {
@@ -46,7 +45,6 @@ export default antfu(
     files: [
       '**/*.test.ts?(x)',
     ],
-    ...testingLibrary.configs['flat/react'],
     ...jestDom.configs['flat/recommended'],
   },
   // --- E2E Testing Rules ---

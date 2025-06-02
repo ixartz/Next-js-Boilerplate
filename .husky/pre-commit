@@ -1,3 +1,0 @@
-#!/bin/sh
-# Disable concurrent to run `check-types` after ESLint in lint-staged
-cd "$(dirname "$0")/.." && npx --no lint-staged --concurrent false

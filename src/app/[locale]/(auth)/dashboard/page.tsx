@@ -1,5 +1,5 @@
-import { Hello } from '@/components/Hello';
 import { getTranslations } from 'next-intl/server';
+import { Hello } from '@/components/Hello';
 
 export async function generateMetadata(props: {
   params: Promise<{ locale: string }>;

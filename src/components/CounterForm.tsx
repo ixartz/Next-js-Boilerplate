@@ -1,10 +1,10 @@
 'use client';
 
-import { CounterValidation } from '@/validations/CounterValidation';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { useTranslations } from 'next-intl';
 import { useRouter } from 'next/navigation';
 import { useForm } from 'react-hook-form';
+import { CounterValidation } from '@/validations/CounterValidation';
 
 export const CounterForm = () => {
   const t = useTranslations('CounterForm');
