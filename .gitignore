@@ -54,6 +54,7 @@ next-env.d.ts
 # storybook
 storybook-static
 *storybook.log
+build-archive.log
 
 # playwright
 /test-results/
