@@ -58,8 +58,6 @@
     "@faker-js/faker": "^9.8.0",
     "@next/bundle-analyzer": "^15.3.3",
     "@next/eslint-plugin-next": "^15.3.3",
-    "@percy/cli": "1.30.11",
-    "@percy/playwright": "^1.0.8",
     "@playwright/test": "^1.52.0",
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/git": "^10.0.1",

@@ -75,10 +75,12 @@ jobs:
         run: npm run test-storybook:ci
 
       - name: Run E2E tests
-        run: npx percy exec -- npm run test:e2e
+        run: npm run test:e2e
+
+      - name: Run visual regression tests
+        run: npx chromatic --playwright --exit-zero-on-changes
         env:
-          PERCY_TOKEN: ${{ secrets.PERCY_TOKEN }}
-          CLERK_SECRET_KEY: ${{ secrets.CLERK_SECRET_KEY }}
+          CHROMATIC_PROJECT_TOKEN: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
 
       - uses: actions/upload-artifact@v4
         if: always()
