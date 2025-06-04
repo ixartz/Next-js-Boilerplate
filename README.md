@@ -328,8 +328,6 @@ npx playwright install # Only for the first time in a new environment
 npm run test:e2e
 ```
 
-In the local environment, visual testing is disabled, and the terminal will display the message `[percy] Percy is not running, disabling snapshots.`. By default, visual testing only runs in GitHub Actions.
-
 ### Deploy to production
 
 During the build process, database migrations are automatically executed, so there's no need to run them manually. However, you must define `DATABASE_URL` in your environment variables.
