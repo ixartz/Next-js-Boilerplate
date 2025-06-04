@@ -167,7 +167,7 @@ Developer experience first, extremely flexible code structure and only keep what
 - 🔐 Security and bot protection ([Arcjet](https://launch.arcjet.com/Q6eLbRE))
 - 📊 Analytics with PostHog
 - 🎁 Automatic changelog generation with Semantic Release
-- 🔍 Visual testing with Percy (Optional)
+- 🔍 Visual regression testing
 - 💡 Absolute Imports using `@` prefix
 - 🗂 VSCode configuration: Debug, Settings, Tasks and Extensions
 - 🤖 SEO metadata, JSON-LD and Open Graph tags
