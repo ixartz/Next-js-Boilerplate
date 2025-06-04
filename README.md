@@ -167,7 +167,7 @@ Developer experience first, extremely flexible code structure and only keep what
 - 🔐 Security and bot protection ([Arcjet](https://launch.arcjet.com/Q6eLbRE))
 - 📊 Analytics with PostHog
 - 🎁 Automatic changelog generation with Semantic Release
-- 🔍 Visual testing with Percy (Optional)
+- 🔍 Visual regression testing
 - 💡 Absolute Imports using `@` prefix
 - 🗂 VSCode configuration: Debug, Settings, Tasks and Extensions
 - 🤖 SEO metadata, JSON-LD and Open Graph tags
@@ -327,8 +327,6 @@ The project uses Playwright for integration and end-to-end (E2E) testing. You ca
 npx playwright install # Only for the first time in a new environment
 npm run test:e2e
 ```
-
-In the local environment, visual testing is disabled, and the terminal will display the message `[percy] Percy is not running, disabling snapshots.`. By default, visual testing only runs in GitHub Actions.
 
 ### Deploy to production
 
