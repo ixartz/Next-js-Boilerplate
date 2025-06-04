@@ -76,6 +76,8 @@ jobs:
 
       - name: Run E2E tests
         run: npm run test:e2e
+        env:
+          CLERK_SECRET_KEY: ${{ secrets.CLERK_SECRET_KEY }}
 
       - name: Run visual regression tests
         run: npx chromatic --playwright --exit-zero-on-changes
