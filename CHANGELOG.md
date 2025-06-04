@@ -1,3 +1,10 @@
+# [3.69.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.68.0...v3.69.0) (2025-06-04)
+
+
+### Features
+
+* replace Percy by Chormatic for Playwright visual testing ([4fe649d](https://github.com/ixartz/Next-js-Boilerplate/commit/4fe649dc2e02257e4f3e9f09b914b4c6080f2bd8))
+
 # [3.68.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.67.3...v3.68.0) (2025-06-02)
 
 
