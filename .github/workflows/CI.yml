@@ -10,7 +10,7 @@ jobs:
   build:
     strategy:
       matrix:
-        node-version: [20.x, 22.x]
+        node-version: [20.x, 24.x]
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     name: Build with ${{ matrix.node-version }}
@@ -36,7 +36,10 @@ jobs:
         if: steps.cache-node-modules.outputs.cache-hit != 'true'
         run: npm ci
 
-      - run: npm run build
+      - name: Build Next.js
+        run: npm run build
+        env:
+          NEXT_PUBLIC_SENTRY_DISABLED: 'true' # Disable uploading Sentry source maps during build
 
   test:
     strategy:
