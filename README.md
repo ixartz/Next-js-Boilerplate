@@ -151,8 +151,7 @@ Developer experience first, extremely flexible code structure and only keep what
 - 🔴 Validation library with Zod
 - 📏 Linter with [ESLint](https://eslint.org) (default Next.js, Next.js Core Web Vitals, Tailwind CSS and Antfu configuration)
 - 💖 Code Formatter with [Prettier](https://prettier.io)
-- 🦊 Husky for Git Hooks
-- 🚫 Lint-staged for running linters on Git staged files
+- 🦊 Husky for Git Hooks (replaced by Lefthook)
 - 🚓 Lint git commit with Commitlint
 - 📓 Write standard compliant commit messages with Commitizen
 - 🦺 Unit Testing with Vitest and React Testing Library
