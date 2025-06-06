@@ -100,7 +100,7 @@ jobs:
     name: Run all tests
     runs-on: ubuntu-latest
     container:
-      image: mcr.microsoft.com/playwright:latest
+      image: mcr.microsoft.com/playwright:v1.52.0
 
     steps:
       - uses: actions/checkout@v4
