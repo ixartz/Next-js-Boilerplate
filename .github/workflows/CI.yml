@@ -99,6 +99,8 @@ jobs:
 
     name: Run all tests
     runs-on: ubuntu-latest
+    container:
+      image: mcr.microsoft.com/playwright:latest
 
     steps:
       - uses: actions/checkout@v4
@@ -137,9 +139,6 @@ jobs:
         run: npm run build
         env:
           NEXT_PUBLIC_SENTRY_DISABLED: 'true' # Only upload Sentry source maps in deployment
-
-      - name: Install Playwright (used for Storybook and E2E tests)
-        run: npx playwright install --with-deps
 
       - name: Run unit tests
         run: npm run test -- --coverage
