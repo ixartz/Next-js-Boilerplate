@@ -50,7 +50,7 @@ jobs:
       - name: Build Next.js
         run: npm run build
         env:
-          NEXT_PUBLIC_SENTRY_DISABLED: 'true' # Disable uploading Sentry source maps during build
+          NEXT_PUBLIC_SENTRY_DISABLED: 'true' # Only upload Sentry source maps in deployment
 
   test:
     strategy:
@@ -93,10 +93,10 @@ jobs:
           restore-keys: |
             nextjs-${{ matrix.node-version }}-${{ hashFiles('**/package-lock.json') }}-
 
-      - name: Build Next.js for E2E tests
+      - name: Build Next.js
         run: npm run build
         env:
-          SENTRY_AUTH_TOKEN: ${{ secrets.SENTRY_AUTH_TOKEN }}
+          NEXT_PUBLIC_SENTRY_DISABLED: 'true' # Only upload Sentry source maps in deployment
 
       - if: github.event_name == 'pull_request'
         name: Validate all commits from PR
