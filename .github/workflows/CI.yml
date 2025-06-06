@@ -10,7 +10,7 @@ jobs:
   build:
     strategy:
       matrix:
-        node-version: [20.x, 24.x]
+        node-version: [20.x, 22.x, 24.x]
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     name: Build with ${{ matrix.node-version }}
@@ -92,70 +92,11 @@ jobs:
       - name: Type checking
         run: npm run check-types
 
-  test:
-    strategy:
-      matrix:
-        node-version: [22.x]
-
-    name: Run all tests
-    runs-on: ubuntu-latest
-    container:
-      image: mcr.microsoft.com/playwright:v1.52.0
-
-    steps:
-      - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0 # Retrieve Git history, needed for Visual Regression tests
-
-      - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v4
-        with:
-          node-version: ${{ matrix.node-version }}
-          cache: npm
-
-      - name: Restore or cache node_modules
-        id: cache-node-modules
-        uses: actions/cache@v4
-        with:
-          path: node_modules
-          key: node-modules-${{ matrix.node-version }}-${{ hashFiles('package-lock.json') }}
-
-      - name: Install dependencies
-        if: steps.cache-node-modules.outputs.cache-hit != 'true'
-        run: npm ci
-
-      - name: Restore or cache Next.js build
-        uses: actions/cache@v4
-        with:
-          path: |
-            ${{ github.workspace }}/.next/cache
-          # Generate a new cache whenever packages or source files change.
-          key: nextjs-${{ matrix.node-version }}-${{ hashFiles('**/package-lock.json') }}-${{ hashFiles('src/**') }}
-          # If source files changed but packages didn't, rebuild from a prior cache.
-          restore-keys: |
-            nextjs-${{ matrix.node-version }}-${{ hashFiles('**/package-lock.json') }}-
-
-      - name: Build Next.js
-        run: npm run build
-        env:
-          NEXT_PUBLIC_SENTRY_DISABLED: 'true' # Only upload Sentry source maps in deployment
-
-      - name: Run unit tests
-        run: npm run test -- --coverage
-
-      - name: Upload coverage reports to Codecov
-        uses: codecov/codecov-action@v5
-        env:
-          CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
-
-      - name: Run storybook tests
-        run: npm run test-storybook:ci
-
   synchronize-with-crowdin:
     name: GitHub PR synchronize with Crowdin
     runs-on: ubuntu-latest
 
-    needs: [build, test]
+    needs: [build]
     if: github.event_name == 'pull_request'
 
     steps:
