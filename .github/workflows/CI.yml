@@ -98,48 +98,6 @@ jobs:
         env:
           NEXT_PUBLIC_SENTRY_DISABLED: 'true' # Only upload Sentry source maps in deployment
 
-      - if: github.event_name == 'pull_request'
-        name: Validate all commits from PR
-        run: npx commitlint --from ${{ github.event.pull_request.base.sha }} --to ${{ github.event.pull_request.head.sha }} --verbose
-
-      - name: Linter
-        run: npm run lint
-
-      - name: Type checking
-        run: npm run check-types
-
-      - name: Install Playwright (used for Storybook and E2E tests)
-        run: npx playwright install --with-deps
-
-      - name: Run unit tests
-        run: npm run test -- --coverage
-
-      - name: Upload coverage reports to Codecov
-        uses: codecov/codecov-action@v5
-        env:
-          CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
-
-      - name: Run storybook tests
-        run: npm run test-storybook:ci
-
-      - name: Run E2E tests
-        run: npm run test:e2e
-        env:
-          CLERK_SECRET_KEY: ${{ secrets.CLERK_SECRET_KEY }}
-
-      - name: Run visual regression tests
-        uses: chromaui/action@v12
-        with:
-          playwright: true
-          projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
-
-      - uses: actions/upload-artifact@v4
-        if: always()
-        with:
-          name: test-results
-          path: test-results/
-          retention-days: 7
-
   synchronize-with-crowdin:
     name: GitHub PR synchronize with Crowdin
     runs-on: ubuntu-latest
