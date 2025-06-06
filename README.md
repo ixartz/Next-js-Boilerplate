@@ -248,7 +248,6 @@ After defining the environment variables in your GitHub Actions, your localizati
 .
 ├── README.md                       # README file
 ├── .github                         # GitHub folder
-├── .husky                          # Husky configuration
 ├── .storybook                      # Storybook folder
 ├── .vscode                         # VSCode configuration
 ├── migrations                      # Database migrations
