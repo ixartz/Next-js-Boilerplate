@@ -52,6 +52,44 @@ jobs:
         env:
           NEXT_PUBLIC_SENTRY_DISABLED: 'true' # Only upload Sentry source maps in deployment
 
+  static:
+    strategy:
+      matrix:
+        node-version: [22.x]
+
+    name: Run static checks
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: npm
+
+      - name: Restore or cache node_modules
+        id: cache-node-modules
+        uses: actions/cache@v4
+        with:
+          path: node_modules
+          key: node-modules-${{ matrix.node-version }}-${{ hashFiles('package-lock.json') }}
+
+      - name: Install dependencies
+        if: steps.cache-node-modules.outputs.cache-hit != 'true'
+        run: npm ci
+
+      - if: github.event_name == 'pull_request'
+        name: Validate all commits from PR
+        run: npx commitlint --from ${{ github.event.pull_request.base.sha }} --to ${{ github.event.pull_request.head.sha }} --verbose
+
+      - name: Linter
+        run: npm run lint
+
+      - name: Type checking
+        run: npm run check-types
+
   test:
     strategy:
       matrix:
@@ -62,8 +100,6 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0 # Retrieve Git history, needed to verify commits
 
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v4
@@ -97,16 +133,6 @@ jobs:
         run: npm run build
         env:
           NEXT_PUBLIC_SENTRY_DISABLED: 'true' # Only upload Sentry source maps in deployment
-
-      - if: github.event_name == 'pull_request'
-        name: Validate all commits from PR
-        run: npx commitlint --from ${{ github.event.pull_request.base.sha }} --to ${{ github.event.pull_request.head.sha }} --verbose
-
-      - name: Linter
-        run: npm run lint
-
-      - name: Type checking
-        run: npm run check-types
 
       - name: Install Playwright (used for Storybook and E2E tests)
         run: npx playwright install --with-deps
