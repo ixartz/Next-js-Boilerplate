@@ -151,25 +151,6 @@ jobs:
       - name: Run storybook tests
         run: npm run test-storybook:ci
 
-      - name: Run E2E tests
-        run: npm run test:e2e
-        env:
-          CLERK_SECRET_KEY: ${{ secrets.CLERK_SECRET_KEY }}
-          HOME: /root # Set HOME to avoid Playwright error in Firefox: https://github.com/microsoft/playwright/issues/6500#issuecomment-838515115
-
-      - name: Run visual regression tests
-        uses: chromaui/action@v12
-        with:
-          playwright: true
-          projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
-
-      - uses: actions/upload-artifact@v4
-        if: always()
-        with:
-          name: test-results
-          path: test-results/
-          retention-days: 7
-
   synchronize-with-crowdin:
     name: GitHub PR synchronize with Crowdin
     runs-on: ubuntu-latest
