@@ -10,7 +10,7 @@ jobs:
   build:
     strategy:
       matrix:
-        node-version: [20.x, 24.x]
+        node-version: [20.x, 22.x, 24.x]
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     name: Build with ${{ matrix.node-version }}
@@ -40,9 +40,9 @@ jobs:
         uses: actions/cache@v4
         with:
           path: |
-            ${{ github.workspace }}/.next/cache
+            .next/cache
           # Generate a new cache whenever packages or source files change.
-          key: nextjs-${{ matrix.node-version }}-${{ hashFiles('**/package-lock.json') }}-${{ hashFiles('src/**/*.{js,jsx,ts,tsx}') }}
+          key: nextjs-${{ matrix.node-version }}-${{ hashFiles('**/package-lock.json') }}-${{ hashFiles('src/**') }}
           # If source files changed but packages didn't, rebuild from a prior cache.
           restore-keys: |
             nextjs-${{ matrix.node-version }}-${{ hashFiles('**/package-lock.json') }}-
@@ -52,12 +52,20 @@ jobs:
         env:
           NEXT_PUBLIC_SENTRY_DISABLED: 'true' # Only upload Sentry source maps in deployment
 
-  test:
+      - if: matrix.node-version == '22.x' && success()
+        name: Cache Next.js build output
+        uses: actions/cache/save@v4
+        with:
+          path: |
+            .next
+          key: nextjs-build-${{ matrix.node-version }}-${{ github.sha }}
+
+  static:
     strategy:
       matrix:
         node-version: [22.x]
 
-    name: Run all tests
+    name: Run static checks
     runs-on: ubuntu-latest
 
     steps:
@@ -82,22 +90,6 @@ jobs:
         if: steps.cache-node-modules.outputs.cache-hit != 'true'
         run: npm ci
 
-      - name: Restore or cache Next.js build
-        uses: actions/cache@v4
-        with:
-          path: |
-            ${{ github.workspace }}/.next/cache
-          # Generate a new cache whenever packages or source files change.
-          key: nextjs-${{ matrix.node-version }}-${{ hashFiles('**/package-lock.json') }}-${{ hashFiles('src/**/*.{js,jsx,ts,tsx}') }}
-          # If source files changed but packages didn't, rebuild from a prior cache.
-          restore-keys: |
-            nextjs-${{ matrix.node-version }}-${{ hashFiles('**/package-lock.json') }}-
-
-      - name: Build Next.js
-        run: npm run build
-        env:
-          NEXT_PUBLIC_SENTRY_DISABLED: 'true' # Only upload Sentry source maps in deployment
-
       - if: github.event_name == 'pull_request'
         name: Validate all commits from PR
         run: npx commitlint --from ${{ github.event.pull_request.base.sha }} --to ${{ github.event.pull_request.head.sha }} --verbose
@@ -108,11 +100,51 @@ jobs:
       - name: Type checking
         run: npm run check-types
 
-      - name: Install Playwright (used for Storybook and E2E tests)
-        run: npx playwright install --with-deps
+  test:
+    strategy:
+      matrix:
+        node-version: [22.x]
+
+    name: Run all tests
+    runs-on: ubuntu-latest
+    needs: [build]
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # For chromatic
+
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: npm
+
+      - name: Restore or cache node_modules
+        id: cache-node-modules
+        uses: actions/cache@v4
+        with:
+          path: node_modules
+          key: node-modules-${{ matrix.node-version }}-${{ hashFiles('package-lock.json') }}
+
+      - name: Install dependencies
+        if: steps.cache-node-modules.outputs.cache-hit != 'true'
+        run: npm ci
+
+      - name: Restore Next.js build output
+        uses: actions/cache/restore@v4
+        with:
+          path: |
+            .next
+          key: nextjs-build-${{ matrix.node-version }}-${{ github.sha }}
+          restore-keys: |
+            nextjs-build-${{ matrix.node-version }}-
+          fail-on-cache-miss: true
 
       - name: Run unit tests
-        run: npm run test -- --coverage
+        uses: docker://mcr.microsoft.com/playwright:v1.52.0
+        with:
+          args: npm run test -- --coverage
 
       - name: Upload coverage reports to Codecov
         uses: codecov/codecov-action@v5
@@ -120,12 +152,20 @@ jobs:
           CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
 
       - name: Run storybook tests
-        run: npm run test-storybook:ci
+        uses: docker://mcr.microsoft.com/playwright:v1.52.0
+        with:
+          args: npm run test-storybook:ci
 
       - name: Run E2E tests
-        run: npm run test:e2e
+        uses: docker://mcr.microsoft.com/playwright:v1.52.0
+        with:
+          args: sh -c "HOME=/root npm run test:e2e" # Set HOME to /root to avoid Playwright error with Firebox
         env:
           CLERK_SECRET_KEY: ${{ secrets.CLERK_SECRET_KEY }}
+
+      - name: Fix test results permission # Give permissions to test results needed by Chromatic
+        run: |
+          sudo chmod -R 777 test-results storybook-static
 
       - name: Run visual regression tests
         uses: chromaui/action@v12
@@ -144,7 +184,7 @@ jobs:
     name: GitHub PR synchronize with Crowdin
     runs-on: ubuntu-latest
 
-    needs: [build, test]
+    needs: [build, static]
     if: github.event_name == 'pull_request'
 
     steps:
