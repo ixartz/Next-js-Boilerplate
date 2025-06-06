@@ -155,6 +155,7 @@ jobs:
         run: npm run test:e2e
         env:
           CLERK_SECRET_KEY: ${{ secrets.CLERK_SECRET_KEY }}
+          HOME: /root # Set HOME to avoid Playwright error in Firefox: https://github.com/microsoft/playwright/issues/6500#issuecomment-838515115
 
       - name: Run visual regression tests
         uses: chromaui/action@v12
