@@ -1,22 +1,14 @@
-name: Setup project
-description: Setup project with dependencies
+name: Setup Node.js and dependencies
+description: Setup Node.js environment with npm dependencies
 
 inputs:
   node-version:
     description: Node.js version
     required: true
-  fetch-depth:
-    description: Git fetch depth
-    required: false
-    default: '1'
 
 runs:
   using: composite
   steps:
-    - uses: actions/checkout@v4
-      with:
-        fetch-depth: ${{ inputs.fetch-depth }}
-
     - name: Use Node.js ${{ inputs.node-version }}
       uses: actions/setup-node@v4
       with:
@@ -32,4 +24,5 @@ runs:
 
     - name: Install dependencies
       if: steps.cache-node-modules.outputs.cache-hit != 'true'
+      shell: bash
       run: npm ci

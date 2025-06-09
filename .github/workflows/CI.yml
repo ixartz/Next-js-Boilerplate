@@ -17,7 +17,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: ./.github/actions/setup-project
+      - uses: actions/checkout@v4
+
+      - name: Set up Node.js environment
+        uses: ./.github/actions/setup-project
         with:
           node-version: ${{ matrix.node-version }}
 
@@ -51,10 +54,14 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: ./.github/actions/setup-node
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Node.js environment
+        uses: ./.github/actions/setup-project
         with:
           node-version: ${{ matrix.node-version }}
-          fetch-depth: 0
 
       - if: github.event_name == 'pull_request'
         name: Validate all commits from PR
@@ -76,10 +83,14 @@ jobs:
     needs: [build]
 
     steps:
-      - uses: ./.github/actions/setup-node
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # For chromatic
+
+      - name: Set up Node.js environment
+        uses: ./.github/actions/setup-project
         with:
           node-version: ${{ matrix.node-version }}
-          fetch-depth: 0 # For chromatic
 
       - name: Restore Next.js build output
         uses: actions/cache/restore@v4
@@ -121,7 +132,8 @@ jobs:
           playwright: true
           projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
 
-      - uses: actions/upload-artifact@v4
+      - name: Upload test results
+        uses: actions/upload-artifact@v4
         if: always()
         with:
           name: test-results
@@ -141,7 +153,7 @@ jobs:
           ref: ${{ github.event.pull_request.head.sha }} # Crowdin Actions needs to push commits to the PR branch, checkout HEAD commit instead of merge commit
           fetch-depth: 0
 
-      - name: crowdin action
+      - name: Crowdin action
         uses: crowdin/github-action@v2
         with:
           upload_sources: true

@@ -23,10 +23,14 @@ jobs:
       pull-requests: write # to be able to comment on released pull requests
 
     steps:
-      - uses: ./.github/actions/setup-node
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Node.js environment
+        uses: ./.github/actions/setup-project
         with:
           node-version: ${{ matrix.node-version }}
-          fetch-depth: 0
 
       - name: Verify the integrity of provenance attestations and registry signatures for installed dependencies
         run: npm audit signatures
