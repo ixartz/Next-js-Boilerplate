@@ -43,9 +43,6 @@ jobs:
             .next/cache
           # Generate a new cache whenever packages or source files change.
           key: nextjs-${{ matrix.node-version }}-${{ hashFiles('**/package-lock.json') }}-${{ hashFiles('src/**') }}
-          # If source files changed but packages didn't, rebuild from a prior cache.
-          restore-keys: |
-            nextjs-${{ matrix.node-version }}-${{ hashFiles('**/package-lock.json') }}-
 
       - name: Build Next.js
         run: npm run build
@@ -137,8 +134,6 @@ jobs:
           path: |
             .next
           key: nextjs-build-${{ matrix.node-version }}-${{ github.sha }}
-          restore-keys: |
-            nextjs-build-${{ matrix.node-version }}-
           fail-on-cache-miss: true
 
       - name: Run unit tests
