@@ -56,7 +56,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          fetch-depth: 0
+          fetch-depth: 0 # Retrieve Git history, needed to verify commits
 
       - name: Set up Node.js environment
         uses: ./.github/actions/setup-project
