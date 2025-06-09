@@ -17,24 +17,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
-
-      - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v4
+      - uses: ./.github/actions/setup-project
         with:
           node-version: ${{ matrix.node-version }}
-          cache: npm
-
-      - name: Restore or cache node_modules
-        id: cache-node-modules
-        uses: actions/cache@v4
-        with:
-          path: node_modules
-          key: node-modules-${{ matrix.node-version }}-${{ hashFiles('package-lock.json') }}
-
-      - name: Install dependencies
-        if: steps.cache-node-modules.outputs.cache-hit != 'true'
-        run: npm ci
 
       - name: Restore or cache Next.js build
         uses: actions/cache@v4
@@ -66,26 +51,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0 # Retrieve Git history, needed to verify commits
-
-      - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v4
+      - uses: ./.github/actions/setup-node
         with:
           node-version: ${{ matrix.node-version }}
-          cache: npm
-
-      - name: Restore or cache node_modules
-        id: cache-node-modules
-        uses: actions/cache@v4
-        with:
-          path: node_modules
-          key: node-modules-${{ matrix.node-version }}-${{ hashFiles('package-lock.json') }}
-
-      - name: Install dependencies
-        if: steps.cache-node-modules.outputs.cache-hit != 'true'
-        run: npm ci
+          fetch-depth: 0
 
       - if: github.event_name == 'pull_request'
         name: Validate all commits from PR
@@ -107,26 +76,10 @@ jobs:
     needs: [build]
 
     steps:
-      - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0 # For chromatic
-
-      - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v4
+      - uses: ./.github/actions/setup-node
         with:
           node-version: ${{ matrix.node-version }}
-          cache: npm
-
-      - name: Restore or cache node_modules
-        id: cache-node-modules
-        uses: actions/cache@v4
-        with:
-          path: node_modules
-          key: node-modules-${{ matrix.node-version }}-${{ hashFiles('package-lock.json') }}
-
-      - name: Install dependencies
-        if: steps.cache-node-modules.outputs.cache-hit != 'true'
-        run: npm ci
+          fetch-depth: 0 # For chromatic
 
       - name: Restore Next.js build output
         uses: actions/cache/restore@v4
