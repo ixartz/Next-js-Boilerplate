@@ -22,7 +22,7 @@ const createDbConnection = () => {
 const db = global.drizzle || createDbConnection();
 
 // Only store in global during development to prevent hot reload issues
-if (process.env.NODE_ENV !== 'production') {
+if (Env.NODE_ENV !== 'production') {
   global.drizzle = db;
 }
 
