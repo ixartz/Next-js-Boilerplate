@@ -1,6 +1,6 @@
 import path from 'node:path';
-import { drizzle as drizzlePg } from 'drizzle-orm/node-postgres';
-import { migrate as migratePg } from 'drizzle-orm/node-postgres/migrator';
+import { drizzle } from 'drizzle-orm/node-postgres';
+import { migrate } from 'drizzle-orm/node-postgres/migrator';
 import * as schema from '@/models/Schema';
 import { Env } from './Env';
 
@@ -8,7 +8,7 @@ import { Env } from './Env';
 const global = globalThis as unknown as { client: any; drizzle: any };
 
 if (!global.drizzle) {
-  global.drizzle = drizzlePg({
+  global.drizzle = drizzle({
     connection: {
       connectionString: Env.DATABASE_URL,
       ssl: false, // Set to true if your database requires SSL
@@ -17,9 +17,8 @@ if (!global.drizzle) {
   });
 }
 
-const drizzle = global.drizzle;
-await migratePg(global.drizzle, {
+await migrate(global.drizzle, {
   migrationsFolder: path.join(process.cwd(), 'migrations'),
 });
 
-export const db = drizzle;
+export const db = global.drizzle;
