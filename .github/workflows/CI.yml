@@ -10,7 +10,7 @@ jobs:
   build:
     strategy:
       matrix:
-        node-version: [20.x, 22.x, 24.x]
+        node-version: [22.x, 24.x]
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     name: Build with ${{ matrix.node-version }}
@@ -73,19 +73,17 @@ jobs:
       - name: Type checking
         run: npm run check-types
 
-  test:
+  unit:
     strategy:
       matrix:
         node-version: [22.x]
 
-    name: Run all tests
+    name: Run unit tests
     runs-on: ubuntu-latest
     needs: [build]
 
     steps:
       - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0 # For chromatic
 
       - name: Set up Node.js environment
         uses: ./.github/actions/setup-project
@@ -110,10 +108,62 @@ jobs:
         env:
           CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
 
+  storybook:
+    strategy:
+      matrix:
+        node-version: [22.x]
+
+    name: Run Storybook
+    runs-on: ubuntu-latest
+    needs: [build]
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Node.js environment
+        uses: ./.github/actions/setup-project
+        with:
+          node-version: ${{ matrix.node-version }}
+
+      - name: Restore Next.js build output
+        uses: actions/cache/restore@v4
+        with:
+          path: |
+            .next
+          key: nextjs-build-${{ matrix.node-version }}-${{ github.sha }}
+          fail-on-cache-miss: true
+
       - name: Run storybook tests
         uses: docker://mcr.microsoft.com/playwright:v1.52.0
         with:
           args: npm run test-storybook:ci
+
+  e2e:
+    strategy:
+      matrix:
+        node-version: [22.x]
+
+    name: Run E2E tests
+    runs-on: ubuntu-latest
+    needs: [build]
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # For chromatic
+
+      - name: Set up Node.js environment
+        uses: ./.github/actions/setup-project
+        with:
+          node-version: ${{ matrix.node-version }}
+
+      - name: Restore Next.js build output
+        uses: actions/cache/restore@v4
+        with:
+          path: |
+            .next
+          key: nextjs-build-${{ matrix.node-version }}-${{ github.sha }}
+          fail-on-cache-miss: true
 
       - name: Run E2E tests
         uses: docker://mcr.microsoft.com/playwright:v1.52.0
@@ -124,7 +174,7 @@ jobs:
 
       - name: Fix test results permission # Give permissions to test results needed by Chromatic
         run: |
-          sudo chmod -R 777 test-results storybook-static node_modules/.cache/storybook
+          sudo chmod -R 777 test-results
 
       - name: Run visual regression tests
         uses: chromaui/action@v12

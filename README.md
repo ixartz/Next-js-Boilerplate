@@ -197,7 +197,7 @@ Built-in feature from Next.js:
 
 ### Requirements
 
-- Node.js 20+ and npm
+- Node.js 22+ and npm
 
 ### Getting started
 
