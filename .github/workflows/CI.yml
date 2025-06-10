@@ -180,6 +180,7 @@ jobs:
         uses: chromaui/action@v12
         with:
           playwright: true
+          exitOnceUploaded: true # Speed up by skipping the build results
           projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
 
       - name: Upload test results
