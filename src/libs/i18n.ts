@@ -1,6 +1,6 @@
 import { hasLocale } from 'next-intl';
 import { getRequestConfig } from 'next-intl/server';
-import { routing } from './i18nRouting';
+import { routing } from './I18nRouting';
 
 // NextJS Boilerplate uses Crowdin as the localization software.
 // As a developer, you only need to take care of the English (or another default language) version.

@@ -15,7 +15,7 @@ const baseConfig: NextConfig = {
 };
 
 // Initialize the Next-Intl plugin
-let configWithPlugins = createNextIntlPlugin('./src/libs/i18n.ts')(baseConfig);
+let configWithPlugins = createNextIntlPlugin('./src/libs/I18n.ts')(baseConfig);
 
 // Conditionally enable bundle analysis
 if (process.env.ANALYZE === 'true') {
