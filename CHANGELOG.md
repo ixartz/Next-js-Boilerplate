@@ -1,3 +1,15 @@
+# [3.70.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.69.0...v3.70.0) (2025-06-10)
+
+
+### Bug Fixes
+
+* add build caching for faster rebuilds in GitHub Actions ([8ce4fdf](https://github.com/ixartz/Next-js-Boilerplate/commit/8ce4fdf94b7e8aacdb3497d2462fef1efba25c78))
+
+
+### Features
+
+* update Node.js version to 22.x in GitHub Actions and improve caching for dependencies ([7be34d3](https://github.com/ixartz/Next-js-Boilerplate/commit/7be34d3bf058600fdc348be7a118b2de71d39a81))
+
 # [3.69.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.68.0...v3.69.0) (2025-06-04)
 
 
