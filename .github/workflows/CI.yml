@@ -181,6 +181,7 @@ jobs:
         with:
           playwright: true
           exitOnceUploaded: true # Speed up by skipping the build results
+          outputDir: storybook-static
           projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
 
       - name: Upload test results
