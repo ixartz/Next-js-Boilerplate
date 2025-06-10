@@ -10,7 +10,7 @@ jobs:
   build:
     strategy:
       matrix:
-        node-version: [20.x, 22.x]
+        node-version: [22.x, 24.x]
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     name: Build with ${{ matrix.node-version }}
@@ -18,37 +18,50 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
-      - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v4
+
+      - name: Set up Node.js environment
+        uses: ./.github/actions/setup-project
         with:
           node-version: ${{ matrix.node-version }}
-          cache: npm
-      - run: npm ci
-      - run: npm run build
 
-  test:
+      - name: Restore or cache Next.js build
+        uses: actions/cache@v4
+        with:
+          path: |
+            .next/cache
+          # Generate a new cache whenever packages or source files change.
+          key: nextjs-${{ matrix.node-version }}-${{ hashFiles('**/package-lock.json') }}-${{ hashFiles('src/**') }}
+
+      - name: Build Next.js
+        run: npm run build
+        env:
+          NEXT_PUBLIC_SENTRY_DISABLED: 'true' # Only upload Sentry source maps in deployment
+
+      - if: matrix.node-version == '22.x' && success()
+        name: Cache Next.js build output
+        uses: actions/cache/save@v4
+        with:
+          path: |
+            .next
+          key: nextjs-build-${{ matrix.node-version }}-${{ github.sha }}
+
+  static:
     strategy:
       matrix:
-        node-version: [20.x]
+        node-version: [22.x]
 
-    name: Run all tests
+    name: Run static checks
     runs-on: ubuntu-latest
 
     steps:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0 # Retrieve Git history, needed to verify commits
-      - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v4
+
+      - name: Set up Node.js environment
+        uses: ./.github/actions/setup-project
         with:
           node-version: ${{ matrix.node-version }}
-          cache: npm
-      - run: npm ci
-
-      - name: Build Next.js for E2E tests
-        run: npm run build
-        env:
-          SENTRY_AUTH_TOKEN: ${{ secrets.SENTRY_AUTH_TOKEN }}
 
       - if: github.event_name == 'pull_request'
         name: Validate all commits from PR
@@ -60,32 +73,119 @@ jobs:
       - name: Type checking
         run: npm run check-types
 
-      - name: Install Playwright (used for Storybook and E2E tests)
-        run: npx playwright install --with-deps
+  unit:
+    strategy:
+      matrix:
+        node-version: [22.x]
+
+    name: Run unit tests
+    runs-on: ubuntu-latest
+    needs: [build]
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Node.js environment
+        uses: ./.github/actions/setup-project
+        with:
+          node-version: ${{ matrix.node-version }}
+
+      - name: Restore Next.js build output
+        uses: actions/cache/restore@v4
+        with:
+          path: |
+            .next
+          key: nextjs-build-${{ matrix.node-version }}-${{ github.sha }}
+          fail-on-cache-miss: true
 
       - name: Run unit tests
-        run: npm run test -- --coverage
+        uses: docker://mcr.microsoft.com/playwright:v1.52.0
+        with:
+          args: npm run test -- --coverage
 
       - name: Upload coverage reports to Codecov
         uses: codecov/codecov-action@v5
         env:
           CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
 
+  storybook:
+    strategy:
+      matrix:
+        node-version: [22.x]
+
+    name: Run Storybook
+    runs-on: ubuntu-latest
+    needs: [build]
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Node.js environment
+        uses: ./.github/actions/setup-project
+        with:
+          node-version: ${{ matrix.node-version }}
+
+      - name: Restore Next.js build output
+        uses: actions/cache/restore@v4
+        with:
+          path: |
+            .next
+          key: nextjs-build-${{ matrix.node-version }}-${{ github.sha }}
+          fail-on-cache-miss: true
+
       - name: Run storybook tests
-        run: npm run test-storybook:ci
+        uses: docker://mcr.microsoft.com/playwright:v1.52.0
+        with:
+          args: npm run test-storybook:ci
+
+  e2e:
+    strategy:
+      matrix:
+        node-version: [22.x]
+
+    name: Run E2E tests
+    runs-on: ubuntu-latest
+    needs: [build]
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # For chromatic
+
+      - name: Set up Node.js environment
+        uses: ./.github/actions/setup-project
+        with:
+          node-version: ${{ matrix.node-version }}
+
+      - name: Restore Next.js build output
+        uses: actions/cache/restore@v4
+        with:
+          path: |
+            .next
+          key: nextjs-build-${{ matrix.node-version }}-${{ github.sha }}
+          fail-on-cache-miss: true
 
       - name: Run E2E tests
-        run: npm run test:e2e
+        uses: docker://mcr.microsoft.com/playwright:v1.52.0
+        with:
+          args: sh -c "HOME=/root npm run test:e2e" # Set HOME to /root to avoid Playwright error with Firebox
         env:
           CLERK_SECRET_KEY: ${{ secrets.CLERK_SECRET_KEY }}
+
+      - name: Fix test results permission # Give permissions to test results needed by Chromatic
+        run: |
+          sudo chmod -R 777 test-results
 
       - name: Run visual regression tests
         uses: chromaui/action@v12
         with:
           playwright: true
+          exitOnceUploaded: true # Speed up by skipping the build results
+          outputDir: storybook-static
           projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
 
-      - uses: actions/upload-artifact@v4
+      - name: Upload test results
+        uses: actions/upload-artifact@v4
         if: always()
         with:
           name: test-results
@@ -96,7 +196,7 @@ jobs:
     name: GitHub PR synchronize with Crowdin
     runs-on: ubuntu-latest
 
-    needs: [build, test]
+    needs: [build, static]
     if: github.event_name == 'pull_request'
 
     steps:
@@ -105,7 +205,7 @@ jobs:
           ref: ${{ github.event.pull_request.head.sha }} # Crowdin Actions needs to push commits to the PR branch, checkout HEAD commit instead of merge commit
           fetch-depth: 0
 
-      - name: crowdin action
+      - name: Crowdin action
         uses: crowdin/github-action@v2
         with:
           upload_sources: true

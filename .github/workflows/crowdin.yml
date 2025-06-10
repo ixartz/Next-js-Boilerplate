@@ -15,7 +15,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: crowdin action
+      - name: Crowdin action
         uses: crowdin/github-action@v2
         with:
           upload_sources: true
