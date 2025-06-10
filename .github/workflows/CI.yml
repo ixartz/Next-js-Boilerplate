@@ -124,7 +124,7 @@ jobs:
 
       - name: Fix test results permission # Give permissions to test results needed by Chromatic
         run: |
-          sudo chmod -R 777 test-results storybook-static
+          sudo chmod -R 777 test-results storybook-static node_modules/.cache/storybook
 
       - name: Run visual regression tests
         uses: chromaui/action@v12
