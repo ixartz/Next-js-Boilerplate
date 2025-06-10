@@ -7,8 +7,8 @@
   },
   "scripts": {
     "dev:spotlight": "spotlight-sidecar",
-    "dev:next": "next dev --turbopack",
     "dev:db": "pglite-server --db=local.db",
+    "dev:next": "next dev --turbopack",
     "dev": "run-p dev:*",
     "build": "next build",
     "start": "next start",
