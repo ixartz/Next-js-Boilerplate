@@ -33,7 +33,7 @@ jobs:
           key: nextjs-${{ matrix.node-version }}-${{ hashFiles('**/package-lock.json') }}-${{ hashFiles('src/**') }}
 
       - name: Build Next.js
-        run: npx pglite-server --run "npm run build"
+        run: npx run-p dev:db build --race
         env:
           NEXT_PUBLIC_SENTRY_DISABLED: 'true' # Only upload Sentry source maps in deployment
 
