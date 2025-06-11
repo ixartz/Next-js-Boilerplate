@@ -99,7 +99,7 @@ jobs:
           fail-on-cache-miss: true
 
       - name: Run unit tests
-        uses: docker://mcr.microsoft.com/playwright:v1.52.0
+        uses: docker://mcr.microsoft.com/playwright:v1.53.0
         with:
           args: npm run test -- --coverage
 
@@ -134,7 +134,7 @@ jobs:
           fail-on-cache-miss: true
 
       - name: Run storybook tests
-        uses: docker://mcr.microsoft.com/playwright:v1.52.0
+        uses: docker://mcr.microsoft.com/playwright:v1.53.0
         with:
           args: npm run test-storybook:ci
 
@@ -166,7 +166,7 @@ jobs:
           fail-on-cache-miss: true
 
       - name: Run E2E tests
-        uses: docker://mcr.microsoft.com/playwright:v1.52.0
+        uses: docker://mcr.microsoft.com/playwright:v1.53.0
         with:
           args: sh -c "HOME=/root npm run test:e2e" # Set HOME to /root to avoid Playwright error with Firebox
         env:
