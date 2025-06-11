@@ -1,6 +1,7 @@
 import path from 'node:path';
 import { drizzle, type NodePgDatabase } from 'drizzle-orm/node-postgres';
 import { migrate } from 'drizzle-orm/node-postgres/migrator';
+import { PHASE_PRODUCTION_BUILD } from 'next/dist/shared/lib/constants';
 import * as schema from '@/models/Schema';
 import { Env } from './Env';
 
@@ -13,7 +14,7 @@ const createDbConnection = () => {
   return drizzle({
     connection: {
       connectionString: Env.DATABASE_URL,
-      ssl: Env.NODE_ENV === 'production',
+      ssl: Env.NODE_ENV === 'production' && process.env.NEXT_PHASE !== PHASE_PRODUCTION_BUILD,
     },
     schema,
   });
