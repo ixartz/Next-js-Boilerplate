@@ -26,7 +26,7 @@ if (Env.NODE_ENV !== 'production') {
   global.drizzle = db;
 }
 
-await migrate(global.drizzle, {
+await migrate(db, {
   migrationsFolder: path.join(process.cwd(), 'migrations'),
 });
 
