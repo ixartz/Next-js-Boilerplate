@@ -13,7 +13,7 @@ const createDbConnection = () => {
   return drizzle({
     connection: {
       connectionString: Env.DATABASE_URL,
-      ssl: Env.NODE_ENV === 'production' && !process.env.CI,
+      ssl: !Env.DATABASE_URL.includes('localhost') && !Env.DATABASE_URL.includes('127.0.0.1'),
     },
     schema,
   });
