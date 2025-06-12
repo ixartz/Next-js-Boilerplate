@@ -1,11 +1,11 @@
 import { createEnv } from '@t3-oss/env-nextjs';
-import { z } from 'zod';
+import { z } from 'zod/v4';
 
 export const Env = createEnv({
   server: {
     ARCJET_KEY: z.string().startsWith('ajkey_').optional(),
     CLERK_SECRET_KEY: z.string().min(1),
-    DATABASE_URL: z.string().optional(),
+    DATABASE_URL: z.string().min(1),
     LOGTAIL_SOURCE_TOKEN: z.string().optional(),
   },
   client: {

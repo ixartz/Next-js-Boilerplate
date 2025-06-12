@@ -29,7 +29,7 @@ export default defineConfig<ChromaticConfig>({
   // Run your local dev server before starting the tests:
   // https://playwright.dev/docs/test-advanced#launching-a-development-web-server-during-the-tests
   webServer: {
-    command: process.env.CI ? 'npm run start' : 'npm run dev:next',
+    command: process.env.CI ? 'npx pglite-server --run "npm run start"' : 'npx run-p db-server:memory dev:next',
     url: baseURL,
     timeout: 2 * 60 * 1000,
     reuseExistingServer: !process.env.CI,
@@ -52,6 +52,9 @@ export default defineConfig<ChromaticConfig>({
 
     // Disable automatic screenshots at test completion when using Chromatic test fixture.
     disableAutoSnapshot: true,
+
+    // Amount of time each test will wait for the network to be idle
+    resourceArchiveTimeout: 30 * 1000,
   },
 
   projects: [

@@ -1,6 +1,7 @@
 import { sql } from 'drizzle-orm';
 import { headers } from 'next/headers';
 import { NextResponse } from 'next/server';
+import z from 'zod/v4';
 import { db } from '@/libs/DB';
 import { logger } from '@/libs/Logger';
 import { counterSchema } from '@/models/Schema';
@@ -11,7 +12,7 @@ export const PUT = async (request: Request) => {
   const parse = CounterValidation.safeParse(json);
 
   if (!parse.success) {
-    return NextResponse.json(parse.error.format(), { status: 422 });
+    return NextResponse.json(z.treeifyError(parse.error), { status: 422 });
   }
 
   // `x-e2e-random-id` is used for end-to-end testing to make isolated requests
