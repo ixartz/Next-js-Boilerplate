@@ -14,7 +14,9 @@
     // give priority for Link to next/link instead of lucide-react
     "lucide-react",
     // Not used in the project and conflicts with `use()` from React
-    "chai"
+    "chai",
+    // Use Zod v4 instead of v3
+    "zod$"
   ],
   "typescript.preferences.preferTypeOnlyAutoImports": true, // Prefer type-only imports
 
