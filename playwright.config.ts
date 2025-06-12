@@ -54,7 +54,7 @@ export default defineConfig<ChromaticConfig>({
     disableAutoSnapshot: true,
 
     // Amount of time each test will wait for the network to be idle
-    resourceArchiveTimeout: 30 * 1000,
+    resourceArchiveTimeout: 10 * 1000,
   },
 
   projects: [
