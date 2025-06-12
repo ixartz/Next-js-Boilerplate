@@ -17,6 +17,7 @@
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "check-types": "tsc --noEmit --pretty",
+    "commit": "cz",
     "test": "vitest run --browser.headless",
     "test:e2e": "playwright test",
     "db-server:file": "pglite-server --db=local.db",
