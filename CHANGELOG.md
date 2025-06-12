@@ -1,3 +1,25 @@
+# [3.71.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.70.0...v3.71.0) (2025-06-12)
+
+
+### Bug Fixes
+
+* before running e2e in CI, make sure the db is initilized correctly ([e582d31](https://github.com/ixartz/Next-js-Boilerplate/commit/e582d311f5b8f37ac5a04d149a727209bab614b9))
+* disable db SSL in CI ([be56b18](https://github.com/ixartz/Next-js-Boilerplate/commit/be56b1844a0358ea1cb617387a1da11268c71cfd))
+* make the DATABASE_URL environment variable mandatory ([1398d8d](https://github.com/ixartz/Next-js-Boilerplate/commit/1398d8dac4b60c1c841efddfb2da86b5dcffa1b3))
+* only enable ssl when the NODE_ENV is set to production and when it's not the building phase ([76dce37](https://github.com/ixartz/Next-js-Boilerplate/commit/76dce373e94d12efbef778e812fe895d53fb3b6e))
+* rename global variable for database and set SSL conditionally in DB connection ([9291fcb](https://github.com/ixartz/Next-js-Boilerplate/commit/9291fcbedec865a45057fa856d7c46e26e940cca))
+* run db when building Next.js ([9eefff3](https://github.com/ixartz/Next-js-Boilerplate/commit/9eefff3a821f7b603b7d9f1854b074128279f3f3))
+* specify db file location to have persistent database ([928aef6](https://github.com/ixartz/Next-js-Boilerplate/commit/928aef6a2eb031700d11f0a4c1e8151877feb19f))
+* start pglite server during development ([26de7bd](https://github.com/ixartz/Next-js-Boilerplate/commit/26de7bd6cd0416ddcc79f387fc3163db11709068))
+* upgrade to Zod v4 ([8bc02fd](https://github.com/ixartz/Next-js-Boilerplate/commit/8bc02fda6dff260296a162f857ac2957d3b6f69a))
+* use local db instance for migration instead of global reference ([6e2a44d](https://github.com/ixartz/Next-js-Boilerplate/commit/6e2a44df2b0b9750dcef96e7bfde327deeaceac2))
+
+
+### Features
+
+* add GitHub Actions support in dependabot ([0e97c0b](https://github.com/ixartz/Next-js-Boilerplate/commit/0e97c0b0d72b9947d1d0cc41f0263aba6f364069))
+* start using pglite-socket instead of direct initialization in DB.ts ([207b82a](https://github.com/ixartz/Next-js-Boilerplate/commit/207b82a7894fc8ea9b328a7b3ab58d2fbd20c217))
+
 # [3.70.0](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.69.0...v3.70.0) (2025-06-10)
 
 
