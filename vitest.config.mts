@@ -10,7 +10,7 @@ export default defineConfig({
       include: ['src/**/*'],
       exclude: ['src/**/*.stories.{js,jsx,ts,tsx}'],
     },
-    workspace: [
+    projects: [
       {
         extends: true,
         test: {
