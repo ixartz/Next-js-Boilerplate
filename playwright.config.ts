@@ -52,9 +52,6 @@ export default defineConfig<ChromaticConfig>({
 
     // Disable automatic screenshots at test completion when using Chromatic test fixture.
     disableAutoSnapshot: true,
-
-    // Amount of time each test will wait for the network to be idle
-    resourceArchiveTimeout: 10 * 1000,
   },
 
   projects: [
