@@ -1,4 +1,5 @@
 import { expect, takeSnapshot, test } from '@chromatic-com/playwright';
+import { waitForAllImagesLoaded } from '../VisualTestUtils';
 
 test.describe('Visual testing', () => {
   test.describe('Static pages', () => {
@@ -9,6 +10,7 @@ test.describe('Visual testing', () => {
         page.getByRole('heading', { name: 'Boilerplate Code for Your Next.js Project with Tailwind CSS' }),
       ).toBeVisible();
 
+      await waitForAllImagesLoaded(page);
       await takeSnapshot(page, testInfo);
     });
 
@@ -19,6 +21,7 @@ test.describe('Visual testing', () => {
         page.getByRole('link', { name: 'About' }),
       ).toBeVisible();
 
+      await waitForAllImagesLoaded(page);
       await takeSnapshot(page, testInfo);
     });
 
@@ -29,6 +32,7 @@ test.describe('Visual testing', () => {
         page.getByText('Welcome to my portfolio page!'),
       ).toBeVisible();
 
+      await waitForAllImagesLoaded(page);
       await takeSnapshot(page, testInfo);
     });
 
@@ -41,6 +45,7 @@ test.describe('Visual testing', () => {
         page.getByText('Created a set of promotional'),
       ).toBeVisible();
 
+      await waitForAllImagesLoaded(page);
       await takeSnapshot(page, testInfo);
     });
 
@@ -51,6 +56,7 @@ test.describe('Visual testing', () => {
         page.getByRole('heading', { name: 'Code de démarrage pour Next.js avec Tailwind CSS' }),
       ).toBeVisible();
 
+      await waitForAllImagesLoaded(page);
       await takeSnapshot(page, testInfo);
     });
   });
