@@ -1,6 +1,5 @@
 {
   "name": "next-js-boilerplate",
-  "version": "3.71.0",
   "author": "Ixartz (https://github.com/ixartz)",
   "engines": {
     "node": ">=20"
@@ -64,7 +63,6 @@
     "@next/bundle-analyzer": "^15.3.3",
     "@next/eslint-plugin-next": "^15.3.3",
     "@playwright/test": "^1.53.0",
-    "@semantic-release/changelog": "^6.0.3",
     "@spotlightjs/spotlight": "^2.13.3",
     "@storybook/addon-essentials": "^8.6.14",
     "@storybook/addon-interactions": "^8.6.14",
@@ -122,13 +120,6 @@
         }
       ],
       "@semantic-release/release-notes-generator",
-      "@semantic-release/changelog",
-      [
-        "@semantic-release/npm",
-        {
-          "npmPublish": false
-        }
-      ],
       "@semantic-release/github"
     ]
   }
