@@ -12,16 +12,6 @@ test.describe('Visual testing', () => {
       await takeSnapshot(page, testInfo);
     });
 
-    test('should take screenshot of the about page', async ({ page }, testInfo) => {
-      await page.goto('/about');
-
-      await expect(
-        page.getByRole('link', { name: 'About' }),
-      ).toBeVisible();
-
-      await takeSnapshot(page, testInfo);
-    });
-
     test('should take screenshot of the portfolio page', async ({ page }, testInfo) => {
       await page.goto('/portfolio');
 
@@ -32,10 +22,18 @@ test.describe('Visual testing', () => {
       await takeSnapshot(page, testInfo);
     });
 
-    test('should take screenshot of the portfolio details page', async ({ page }, testInfo) => {
-      await page.goto('/portfolio');
+    test('should take screenshot of the about page', async ({ page }, testInfo) => {
+      await page.goto('/about');
 
-      await page.getByRole('link', { name: 'Portfolio 2' }).click();
+      await expect(
+        page.getByText('Welcome to our About page!'),
+      ).toBeVisible();
+
+      await takeSnapshot(page, testInfo);
+    });
+
+    test('should take screenshot of the portfolio details page', async ({ page }, testInfo) => {
+      await page.goto('/portfolio/2');
 
       await expect(
         page.getByText('Created a set of promotional'),
