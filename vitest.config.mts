@@ -26,8 +26,9 @@ export default defineConfig({
           name: 'ui',
           include: ['**/*.test.tsx', 'src/hooks/**/*.test.ts'],
           browser: {
-            provider: 'playwright', // or 'webdriverio'
             enabled: true,
+            headless: true,
+            provider: 'playwright', // or 'webdriverio'
             screenshotDirectory: 'vitest-test-results',
             instances: [
               { browser: 'chromium' },

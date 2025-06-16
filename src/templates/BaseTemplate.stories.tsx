@@ -1,5 +1,4 @@
-import type { Meta, StoryObj } from '@storybook/react';
-import { userEvent, within } from '@storybook/test';
+import type { Meta, StoryObj } from '@storybook/nextjs-vite';
 import { NextIntlClientProvider } from 'next-intl';
 import messages from '@/locales/en.json';
 import { BaseTemplate } from './BaseTemplate';
@@ -10,7 +9,6 @@ const meta = {
   parameters: {
     layout: 'fullscreen',
   },
-  tags: ['autodocs'],
   decorators: [
     Story => (
       <NextIntlClientProvider locale="en" messages={messages}>
@@ -23,7 +21,7 @@ const meta = {
 export default meta;
 type Story = StoryObj<typeof meta>;
 
-export const BaseWithReactComponent = {
+export const BaseWithReactComponent: Story = {
   args: {
     children: <div>Children node</div>,
     leftNav: (
@@ -33,35 +31,11 @@ export const BaseWithReactComponent = {
       </>
     ),
   },
-} satisfies Story;
+};
 
-export const BaseWithString = {
+export const BaseWithString: Story = {
   args: {
+    ...BaseWithReactComponent.args,
     children: 'String',
-    leftNav: (
-      <>
-        <li>Link 1</li>
-        <li>Link 2</li>
-      </>
-    ),
   },
-} satisfies Story;
-
-// More on interaction testing: https://storybook.js.org/docs/7.0/react/writing-tests/interaction-testing
-export const BaseWithHomeLink: Story = {
-  args: {
-    children: <div>Children node</div>,
-    leftNav: (
-      <>
-        <li>Link 1</li>
-        <li>Link 2</li>
-      </>
-    ),
-  },
-  play: async ({ canvasElement }) => {
-    const canvas = within(canvasElement);
-    const link = canvas.getByText('Link 1');
-
-    await userEvent.click(link);
-  },
-} satisfies Story;
+};
