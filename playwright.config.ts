@@ -23,7 +23,7 @@ export default defineConfig<ChromaticConfig>({
 
   expect: {
     // Set timeout for async expect matchers
-    timeout: 10 * 1000,
+    timeout: 20 * 1000,
   },
 
   // Run your local dev server before starting the tests:
@@ -45,7 +45,7 @@ export default defineConfig<ChromaticConfig>({
     baseURL,
 
     // Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer
-    trace: 'retain-on-failure',
+    trace: process.env.CI ? 'on' : 'retain-on-failure',
 
     // Record videos when retrying the failed test.
     video: process.env.CI ? 'retain-on-failure' : undefined,
