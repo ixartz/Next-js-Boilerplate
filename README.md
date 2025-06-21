@@ -234,9 +234,9 @@ Now you have a fully functional authentication system with Next.js, including fe
 
 The project uses DrizzleORM, a type-safe ORM that is compatible with PostgreSQL, SQLite, and MySQL databases. By default, the project is configured to seamlessly work with PostgreSQL, and you have the flexibility to choose any PostgreSQL database provider of your choice.
 
-To set up a remote and production database, you need to create a PostgreSQL database and obtain the connection string. One recommended option is to use [Prisma PostgreSQL](https://www.prisma.io/?via=nextjs-boilerplate), which provides a free PostgreSQL database and compatible with Next.js Boilerplate.
+To set up a remote and production database, you need to create a PostgreSQL database and obtain the connection string. One recommended option is to use [Prisma PostgreSQL](https://www.prisma.io/?via=nextjs-boilerplate), which provides a free PostgreSQL database. This database is compatible and has been tested with Next.js Boilerplate.
 
-After creating your Prisma account, you can get the connection string in the section `Connect to your database` and select `Any client` tab. Then, you can generate the connection string by clicking on the `Generate database credentials` button. Finally, you can copy the connection string and add the `DATABASE_URL` variable in the `.env.local` file.
+After creating your Prisma account, you can get the connection string in the `Connect to your database` section and select the `Any client` tab. Then, you can generate the connection string by clicking the `Generate database credentials` button. Finally, you can copy the connection string and add the `DATABASE_URL` variable to the `.env.local` file.
 
 ### Translation (i18n) setup
 
