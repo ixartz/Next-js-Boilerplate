@@ -10,6 +10,8 @@ const globalForDb = globalThis as unknown as {
   drizzle: NodePgDatabase<typeof schema>;
 };
 
+// Need a database for production? Check out https://www.prisma.io/?via=nextjsboilerplate
+// Tested and compatible with Next.js Boilerplate
 const createDbConnection = () => {
   return drizzle({
     connection: {

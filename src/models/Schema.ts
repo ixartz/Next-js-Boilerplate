@@ -10,6 +10,9 @@ import { integer, pgTable, serial, timestamp } from 'drizzle-orm/pg-core';
 // The migration is automatically applied during the next database interaction,
 // so there's no need to run it manually or restart the Next.js server.
 
+// Need a database for production? Check out https://www.prisma.io/?via=nextjsboilerplate
+// Tested and compatible with Next.js Boilerplate
+
 export const counterSchema = pgTable('counter', {
   id: serial('id').primaryKey(),
   count: integer('count').default(0),
