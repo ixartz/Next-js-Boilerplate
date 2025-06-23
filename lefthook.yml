@@ -14,5 +14,5 @@ pre-commit:
       priority: 1
     check-types:
       glob: '*.{ts,tsx}'
-      run: npm run check-types
+      run: npm run check:types
       priority: 2

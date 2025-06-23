@@ -71,7 +71,10 @@ jobs:
         run: npm run lint
 
       - name: Type checking
-        run: npm run check-types
+        run: npm run check:types
+
+      - name: I18n check
+        run: npm run check:i18n
 
   unit:
     strategy:
