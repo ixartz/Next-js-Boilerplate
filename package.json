@@ -5,7 +5,7 @@
     "node": ">=20"
   },
   "scripts": {
-    "dev:spotlight": "spotlight-sidecar",
+    "dev:spotlight": "npx @spotlightjs/sidecar",
     "dev:next": "next dev --turbopack",
     "dev": "run-p db-server:file dev:*",
     "build:next": "next build",
@@ -16,6 +16,7 @@
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "check:types": "tsc --noEmit --pretty",
+    "check:deps": "knip",
     "check:i18n": "i18n-check -l src/locales -s en -u src -f next-intl",
     "commit": "commit",
     "test": "vitest run",
@@ -69,15 +70,13 @@
     "@storybook/addon-vitest": "^9.0.12",
     "@storybook/nextjs-vite": "^9.0.12",
     "@tailwindcss/postcss": "^4.1.10",
-    "@types/node": "^24.0.3",
+    "@types/node": "^24.0.4",
     "@types/pg": "^8.15.4",
     "@types/react": "^19.1.8",
     "@vitejs/plugin-react": "^4.5.2",
     "@vitest/browser": "^3.2.4",
     "@vitest/coverage-v8": "^3.2.4",
-    "@vitest/expect": "^3.2.4",
     "checkly": "^6.0.0",
-    "chromatic": "^13.0.1",
     "conventional-changelog-conventionalcommits": "^9.0.0",
     "cross-env": "^7.0.3",
     "dotenv-cli": "^8.0.0",
@@ -90,6 +89,7 @@
     "eslint-plugin-react-hooks": "^5.2.0",
     "eslint-plugin-react-refresh": "^0.4.20",
     "eslint-plugin-storybook": "^9.0.12",
+    "knip": "^5.61.2",
     "lefthook": "^1.11.14",
     "npm-run-all": "^4.1.5",
     "postcss": "^8.5.6",
@@ -102,6 +102,21 @@
     "vite-tsconfig-paths": "^5.1.4",
     "vitest": "^3.2.4",
     "vitest-browser-react": "^0.3.0"
+  },
+  "knip": {
+    "ignore": [
+      "checkly.config.ts",
+      "src/libs/I18n.ts",
+      "src/types/I18n.ts",
+      "tests/**/*.ts"
+    ],
+    "ignoreDependencies": [
+      "@commitlint/types",
+      "@clerk/types",
+      "conventional-changelog-conventionalcommits",
+      "tailwindcss",
+      "vite"
+    ]
   },
   "release": {
     "branches": [

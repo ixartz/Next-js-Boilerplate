@@ -73,6 +73,9 @@ jobs:
       - name: Type checking
         run: npm run check:types
 
+      - name: Check dependencies
+        run: npm run check:deps
+
       - name: I18n check
         run: npm run check:i18n
 
