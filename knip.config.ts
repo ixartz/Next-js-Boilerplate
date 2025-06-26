@@ -11,9 +11,11 @@ const config: KnipConfig = {
     '@commitlint/types',
     '@clerk/types',
     'conventional-changelog-conventionalcommits',
-    'tailwindcss',
     'vite',
   ],
+  compilers: {
+    css: (text: string) => [...text.matchAll(/(?<=@)import[^;]+/g)].join('\n'),
+  },
 };
 
 export default config;

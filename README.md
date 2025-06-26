@@ -155,6 +155,8 @@ Developer experience first, extremely flexible code structure and only keep what
 - 🚫 Lint-staged for running linters on Git staged files
 - 🚓 Lint git commit with Commitlint
 - 📓 Write standard compliant commit messages with Commitizen
+- 🔍 Unused files and dependencies detection with Knip
+- 🌍 I18n validation and missing translation detection with i18n-check
 - 🦺 Unit Testing with Vitest and Browser mode (replacing React Testing Library)
 - 🧪 Integration and E2E Testing with Playwright
 - 👷 Run tests on pull request with GitHub Actions
