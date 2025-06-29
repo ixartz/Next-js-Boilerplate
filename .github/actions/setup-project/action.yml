@@ -32,7 +32,7 @@ runs:
       run: npm ci
 
     - name: Restore Next.js build output
-      if: inputs.restore-nextjs-cache == true
+      if: inputs.restore-nextjs-cache == 'true'
       uses: actions/cache/restore@v4
       with:
         path: |
