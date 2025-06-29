@@ -8,7 +8,7 @@ inputs:
   restore-nextjs-cache:
     description: Whether to restore Next.js build cache
     required: false
-    default: false
+    default: 'false'
 
 runs:
   using: composite
