@@ -145,7 +145,7 @@ Developer experience first, extremely flexible code structure and only keep what
 - 👤 Passwordless Authentication with Magic Links, Multi-Factor Auth (MFA), Social Auth (Google, Facebook, Twitter, GitHub, Apple, and more), Passwordless login with Passkeys, User Impersonation
 - 📦 Type-safe ORM with DrizzleORM, compatible with PostgreSQL, SQLite, and MySQL
 - 💽 Offline and local development database with PGlite
-- 🌐 Multi-language (i18n) with [next-intl](https://next-intl-docs.vercel.app/) and [Crowdin](https://l.crowdin.com/next-js)
+- 🌐 Multi-language (i18n) with next-intl and [Crowdin](https://l.crowdin.com/next-js)
 - ♻️ Type-safe environment variables with T3 Env
 - ⌨️ Form handling with React Hook Form
 - 🔴 Validation library with Zod
@@ -177,9 +177,9 @@ Developer experience first, extremely flexible code structure and only keep what
 - 🗺️ Sitemap.xml and robots.txt
 - 👷 Automatic dependency updates with Dependabot
 - ⌘ Database exploration with Drizzle Studio and CLI migration tool with Drizzle Kit
-- ⚙️ [Bundler Analyzer](https://www.npmjs.com/package/@next/bundle-analyzer)
+- ⚙️ Bundler Analyzer
 - 🌈 Include a FREE minimalist theme
-- 💯 Maximize lighthouse score
+- 💯 Maximize lighthouse score with Unlighthouse
 
 Built-in feature from Next.js:
 
