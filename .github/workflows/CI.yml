@@ -123,14 +123,6 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
 
-      - name: Restore Next.js build output
-        uses: actions/cache/restore@v4
-        with:
-          path: |
-            .next
-          key: nextjs-build-${{ matrix.node-version }}-${{ github.sha }}
-          fail-on-cache-miss: true
-
       - name: Run storybook tests
         uses: docker://mcr.microsoft.com/playwright:v1.53.1
         with:
