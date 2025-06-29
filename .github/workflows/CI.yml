@@ -96,14 +96,6 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
 
-      - name: Restore Next.js build output
-        uses: actions/cache/restore@v4
-        with:
-          path: |
-            .next
-          key: nextjs-build-${{ matrix.node-version }}-${{ github.sha }}
-          fail-on-cache-miss: true
-
       - name: Run unit tests
         uses: docker://mcr.microsoft.com/playwright:v1.53.1
         with:
@@ -131,14 +123,6 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
 
-      - name: Restore Next.js build output
-        uses: actions/cache/restore@v4
-        with:
-          path: |
-            .next
-          key: nextjs-build-${{ matrix.node-version }}-${{ github.sha }}
-          fail-on-cache-miss: true
-
       - name: Run storybook tests
         uses: docker://mcr.microsoft.com/playwright:v1.53.1
         with:
@@ -162,14 +146,7 @@ jobs:
         uses: ./.github/actions/setup-project
         with:
           node-version: ${{ matrix.node-version }}
-
-      - name: Restore Next.js build output
-        uses: actions/cache/restore@v4
-        with:
-          path: |
-            .next
-          key: nextjs-build-${{ matrix.node-version }}-${{ github.sha }}
-          fail-on-cache-miss: true
+          restore-nextjs-cache: true
 
       - name: Run E2E tests
         uses: docker://mcr.microsoft.com/playwright:v1.53.1
@@ -197,6 +174,28 @@ jobs:
           name: test-results
           path: test-results/
           retention-days: 7
+
+  lighthouse:
+    strategy:
+      matrix:
+        node-version: [22.x]
+
+    name: Run unlighthouse
+    runs-on: ubuntu-latest
+    needs: [build]
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Node.js environment
+        uses: ./.github/actions/setup-project
+        with:
+          node-version: ${{ matrix.node-version }}
+          restore-nextjs-cache: true
+
+      - name: Run unlighthouse
+        run: |
+          npm run test:lighthouse
 
   synchronize-with-crowdin:
     name: GitHub PR synchronize with Crowdin

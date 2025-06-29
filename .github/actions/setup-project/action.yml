@@ -5,6 +5,10 @@ inputs:
   node-version:
     description: Node.js version
     required: true
+  restore-nextjs-cache:
+    description: Whether to restore Next.js build cache
+    required: false
+    default: 'false'
 
 runs:
   using: composite
@@ -26,3 +30,12 @@ runs:
       if: steps.cache-node-modules.outputs.cache-hit != 'true'
       shell: bash
       run: npm ci
+
+    - name: Restore Next.js build output
+      if: inputs.restore-nextjs-cache == 'true'
+      uses: actions/cache/restore@v4
+      with:
+        path: |
+          .next
+        key: nextjs-build-${{ inputs.node-version }}-${{ github.sha }}
+        fail-on-cache-miss: true
