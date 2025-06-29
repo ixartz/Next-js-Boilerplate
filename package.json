@@ -30,7 +30,7 @@
     "storybook:test": "vitest run --config .storybook/vitest.config.mts",
     "build-storybook": "storybook build",
     "lighthouse": "unlighthouse-ci --site localhost:3000",
-    "test:lighthouse": "run-p start lighthouse"
+    "test:lighthouse": "run-p start lighthouse --race"
   },
   "dependencies": {
     "@arcjet/next": "^1.0.0-beta.8",
