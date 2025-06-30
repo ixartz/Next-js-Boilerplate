@@ -1,6 +1,7 @@
 import type { KnipConfig } from 'knip';
 
 const config: KnipConfig = {
+  // Files to exclude from Knip analysis
   ignore: [
     'checkly.config.ts',
     'unlighthouse.config.ts',
@@ -8,6 +9,7 @@ const config: KnipConfig = {
     'src/types/I18n.ts',
     'tests/**/*.ts',
   ],
+  // Dependencies to ignore during analysis
   ignoreDependencies: [
     '@commitlint/types',
     '@clerk/types',
