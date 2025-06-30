@@ -79,6 +79,20 @@ export const Sponsors = () => (
       <tr className="h-56">
         <td className="border-2 border-gray-300 p-3">
           <a
+            href="https://surveyjs.io/?utm_source=nextjs_readme&utm_medium=banner&utm_campaign=q3_2025"
+            target="_blank"
+            rel="noopener"
+          >
+            <Image
+              src="/assets/images/surveyjs-light.svg"
+              alt="SurveyJS"
+              width={260}
+              height={224}
+            />
+          </a>
+        </td>
+        <td className="border-2 border-gray-300 p-3">
+          <a
             href="https://posthog.com/?utm_source=github&utm_medium=sponsorship&utm_campaign=next-js-boilerplate"
             target="_blank"
             rel="noopener"
@@ -105,6 +119,8 @@ export const Sponsors = () => (
             />
           </a>
         </td>
+      </tr>
+      <tr className="h-56">
         <td className="border-2 border-gray-300 p-3">
           <a
             href="https://www.checklyhq.com/?utm_source=github&utm_medium=sponsorship&utm_campaign=next-js-boilerplate"
@@ -119,8 +135,6 @@ export const Sponsors = () => (
             />
           </a>
         </td>
-      </tr>
-      <tr className="h-56">
         <td className="border-2 border-gray-300 p-3">
           <a href="https://nextjs-boilerplate.com/pro-saas-starter-kit">
             <Image
