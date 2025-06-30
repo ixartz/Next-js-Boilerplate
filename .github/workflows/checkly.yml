@@ -37,7 +37,7 @@ jobs:
 
       - name: Run checks # run the checks passing in the ENVIRONMENT_URL and recording a test session.
         id: run-checks
-        run: dotenv -c production -- npx checkly test --reporter=github --record
+        run: npx dotenv -c production -- npx checkly test --reporter=github --record
         env:
           VERCEL_BYPASS_TOKEN: ${{ secrets.VERCEL_BYPASS_TOKEN }}
           ENVIRONMENT_URL: ${{ github.event.deployment_status.environment_url }}
