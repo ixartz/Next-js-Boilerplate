@@ -283,6 +283,7 @@ After defining the environment variables in your GitHub Actions, your localizati
 ├── tests
 │   ├── e2e                         # E2E tests, also includes Monitoring as Code
 │   └── integration                 # Integration tests
+├── next.config.ts                  # Next JS configuration
 └── tsconfig.json                   # TypeScript configuration
 ```
 
