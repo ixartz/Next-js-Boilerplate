@@ -16,6 +16,10 @@ const config: KnipConfig = {
     'conventional-changelog-conventionalcommits',
     'vite',
   ],
+  // Binaries to ignore during analysis
+  ignoreBinaries: [
+    'production', // False positive raised with dotenv-cli
+  ],
   compilers: {
     css: (text: string) => [...text.matchAll(/(?<=@)import[^;]+/g)].join('\n'),
   },
