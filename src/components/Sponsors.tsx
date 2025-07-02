@@ -84,7 +84,7 @@ export const Sponsors = () => (
             rel="noopener"
           >
             <Image
-              src="/assets/images/surveyjs-light.svg"
+              src="/assets/images/surveyjs.svg"
               alt="SurveyJS"
               width={260}
               height={224}

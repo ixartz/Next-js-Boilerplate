@@ -86,9 +86,9 @@ Clone this project and use it to create your own Next.js project. You can check 
     <td align="center" width="33%">
       <a href="https://surveyjs.io/?utm_source=nextjs_readme&utm_medium=banner&utm_campaign=q3_2025">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="public/assets/images/surveyjs-light.svg?raw=true">
-          <source media="(prefers-color-scheme: light)" srcset="public/assets/images/surveyjs-dark.svg?raw=true">
-          <img alt="SurveyJS" src="public/assets/images/surveyjs-dark.svg?raw=true">
+          <source media="(prefers-color-scheme: dark)" srcset="public/assets/images/surveyjs.svg?raw=true">
+          <source media="(prefers-color-scheme: light)" srcset="public/assets/images/surveyjs.svg?raw=true">
+          <img alt="SurveyJS" src="public/assets/images/surveyjs.svg?raw=true">
         </picture>
       </a>
     </td>
@@ -531,9 +531,9 @@ See [LICENSE](LICENSE) for more information.
     <td align="center" width="33%">
       <a href="https://surveyjs.io/?utm_source=nextjs_readme&utm_medium=banner&utm_campaign=q3_2025">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="public/assets/images/surveyjs-light.svg?raw=true">
-          <source media="(prefers-color-scheme: light)" srcset="public/assets/images/surveyjs-dark.svg?raw=true">
-          <img alt="SurveyJS" src="public/assets/images/surveyjs-dark.svg?raw=true">
+          <source media="(prefers-color-scheme: dark)" srcset="public/assets/images/surveyjs.svg?raw=true">
+          <source media="(prefers-color-scheme: light)" srcset="public/assets/images/surveyjs.svg?raw=true">
+          <img alt="SurveyJS" src="public/assets/images/surveyjs.svg?raw=true">
         </picture>
       </a>
     </td>
