@@ -16,7 +16,9 @@
     // Not used in the project and conflicts with `use()` from React
     "chai",
     // Use Zod v4 instead of v3
-    "zod$"
+    "zod$",
+    // Sentry is imported with `import *`
+    "@sentry/nextjs"
   ],
   "typescript.preferences.preferTypeOnlyAutoImports": true, // Prefer type-only imports
 
