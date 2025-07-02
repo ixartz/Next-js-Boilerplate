@@ -160,7 +160,7 @@ jobs:
           sudo chmod -R 777 test-results
 
       - name: Run visual regression tests
-        uses: chromaui/action@v12
+        uses: chromaui/action@v13
         with:
           playwright: true
           exitOnceUploaded: true # Speed up by skipping the build results
