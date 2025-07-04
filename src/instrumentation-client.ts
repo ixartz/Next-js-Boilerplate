@@ -11,6 +11,7 @@ if (!process.env.NEXT_PUBLIC_SENTRY_DISABLED) {
     // Add optional integrations for additional features
     integrations: [
       Sentry.replayIntegration(),
+      Sentry.consoleLoggingIntegration(),
     ],
 
     // Adds request headers and IP for users, for more info visit
@@ -26,6 +27,9 @@ if (!process.env.NEXT_PUBLIC_SENTRY_DISABLED) {
 
     // Define how likely Replay events are sampled when an error occurs.
     replaysOnErrorSampleRate: 1.0,
+
+    // Enable logs to be sent to Sentry
+    _experiments: { enableLogs: true },
 
     // Setting this option to true will print useful information to the console while you're setting up Sentry.
     debug: false,
