@@ -102,6 +102,17 @@ Clone this project and use it to create your own Next.js project. You can check 
       </a>
     </td>
     <td align="center" width="33%">
+      <a href="https://www.nutrient.io/guides/web/nextjs/?utm_source=nextjs-boilerplate&utm_medium=referral">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="public/assets/images/nutrient-dark.png?raw=true">
+          <source media="(prefers-color-scheme: light)" srcset="public/assets/images/nutrient-light.png?raw=true">
+          <img alt="Nutrient" src="public/assets/images/nutrient-light.png?raw=true">
+        </picture>
+      </a>
+    </td>
+  </tr>
+  <tr height="187px">
+    <td align="center" width="33%">
       <a href="https://betterstack.com/?utm_source=github&utm_medium=sponsorship&utm_campaign=next-js-boilerplate">
         <picture>
           <source media="(prefers-color-scheme: dark)" srcset="public/assets/images/better-stack-white.png?raw=true">
@@ -110,8 +121,6 @@ Clone this project and use it to create your own Next.js project. You can check 
         </picture>
       </a>
     </td>
-  </tr>
-  <tr height="187px">
     <td align="center" width="33%">
       <a href="https://www.checklyhq.com/?utm_source=github&utm_medium=sponsorship&utm_campaign=next-js-boilerplate">
         <picture>
@@ -126,6 +135,8 @@ Clone this project and use it to create your own Next.js project. You can check 
         <img src="public/assets/images/nextjs-boilerplate-saas.png?raw=true" alt="Next.js SaaS Boilerplate with React" />
       </a>
     </td>
+  </tr>
+  <tr height="187px">
     <td align="center" width="33%">
       <a href="mailto:contact@creativedesignsguru.com">
         Add your logo here
@@ -547,6 +558,17 @@ See [LICENSE](LICENSE) for more information.
       </a>
     </td>
     <td align="center" width="33%">
+      <a href="https://www.nutrient.io/guides/web/nextjs/?utm_source=nextjs-boilerplate&utm_medium=referral">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="public/assets/images/nutrient-dark.png?raw=true">
+          <source media="(prefers-color-scheme: light)" srcset="public/assets/images/nutrient-light.png?raw=true">
+          <img alt="Nutrient" src="public/assets/images/nutrient-light.png?raw=true">
+        </picture>
+      </a>
+    </td>
+  </tr>
+  <tr height="187px">
+    <td align="center" width="33%">
       <a href="https://betterstack.com/?utm_source=github&utm_medium=sponsorship&utm_campaign=next-js-boilerplate">
         <picture>
           <source media="(prefers-color-scheme: dark)" srcset="public/assets/images/better-stack-white.png?raw=true">
@@ -555,8 +577,6 @@ See [LICENSE](LICENSE) for more information.
         </picture>
       </a>
     </td>
-  </tr>
-  <tr height="187px">
     <td align="center" width="33%">
       <a href="https://www.checklyhq.com/?utm_source=github&utm_medium=sponsorship&utm_campaign=next-js-boilerplate">
         <picture>
@@ -571,6 +591,8 @@ See [LICENSE](LICENSE) for more information.
         <img src="public/assets/images/nextjs-boilerplate-saas.png?raw=true" alt="Next.js SaaS Boilerplate with React" />
       </a>
     </td>
+  </tr>
+  <tr height="187px">
     <td align="center" width="33%">
       <a href="mailto:contact@creativedesignsguru.com">
         Add your logo here
