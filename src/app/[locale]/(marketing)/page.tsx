@@ -112,7 +112,7 @@ export default async function Index(props: IIndexProps) {
           >
             Sentry
           </a>
-          ) and logging (Pino.js)
+          ) and logging (LogTape, an alternative to Pino.js)
         </li>
         <li>🖥️ Monitoring as Code (Checkly)</li>
         <li>
