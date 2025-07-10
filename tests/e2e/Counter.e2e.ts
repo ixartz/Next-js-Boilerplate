@@ -17,7 +17,7 @@ test.describe('Counter', () => {
       await page.getByLabel('Increment by').fill('-1');
       await page.getByRole('button', { name: 'Increment' }).click();
 
-      await expect(page.getByTestId('increment-error')).toBeVisible();
+      await expect(page.getByText('Value must be between 1 and 3')).toBeVisible();
       await expect(page.getByText('Count:')).toHaveText(countText);
     });
 
