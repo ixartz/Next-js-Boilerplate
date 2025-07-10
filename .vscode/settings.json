@@ -16,7 +16,7 @@
     // Not used in the project and conflicts with `use()` from React
     "chai",
     // Use Zod v4 instead of v3
-    "zod$",
+    "zod/v3",
     // Sentry is imported with `import *`
     "@sentry/nextjs"
   ],
