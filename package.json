@@ -38,7 +38,7 @@
     "@electric-sql/pglite": "^0.3.4",
     "@hookform/resolvers": "^5.1.1",
     "@logtape/logtape": "^1.0.4",
-    "@sentry/nextjs": "^9.36.0",
+    "@sentry/nextjs": "^9.37.0",
     "@t3-oss/env-nextjs": "^0.13.8",
     "drizzle-orm": "^0.44.2",
     "next": "^15.3.5",
