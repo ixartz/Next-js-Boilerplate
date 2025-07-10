@@ -17,7 +17,7 @@ test.describe('Counter', () => {
       await page.getByLabel('Increment by').fill('-1');
       await page.getByRole('button', { name: 'Increment' }).click();
 
-      await expect(page.getByText('Too small: expected number')).toBeVisible();
+      await expect(page.getByTestId('increment-error')).toBeVisible();
       await expect(page.getByText('Count:')).toHaveText(countText);
     });
 
