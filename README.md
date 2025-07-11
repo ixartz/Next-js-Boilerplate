@@ -241,6 +241,8 @@ Then, you can run the project locally in development mode with live reload by ex
 npm run dev
 ```
 
+[![Run the command in Warp](public/assets/images/warp-banner.png)](https://go.warp.dev/nextjs-bp)
+
 Open http://localhost:3000 with your favorite browser to see your project. For your information, the project is already pre-configured with a local database using PGlite. No extra setup is required to run the project locally.
 
 ### Set up authentication
@@ -320,6 +322,8 @@ After making changes to the schema, generate a migration by running the followin
 npm run db:generate
 ```
 
+[![Run the command in Warp](public/assets/images/warp-banner.png)](https://go.warp.dev/nextjs-bp)
+
 This will create a migration file that reflects your schema changes. The migration is automatically applied during the next database interaction, so there is no need to run it manually or restart the Next.js server.
 
 ### Commit Message Format
@@ -346,6 +350,8 @@ All unit tests are located alongside the source code in the same directory, maki
 npm run test
 ```
 
+[![Run the command in Warp](public/assets/images/warp-banner.png)](https://go.warp.dev/nextjs-bp)
+
 ### Integration & E2E Testing
 
 The project uses Playwright for integration and end-to-end (E2E) testing. You can run the tests with the following commands:
@@ -364,6 +370,8 @@ Then, you can generate a production build with:
 ```shell
 $ npm run build
 ```
+
+[![Run the command in Warp](public/assets/images/warp-banner.png)](https://go.warp.dev/nextjs-bp)
 
 It generates an optimized production build of the boilerplate. To test the generated build, run:
 
