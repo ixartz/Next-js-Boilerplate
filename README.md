@@ -340,7 +340,7 @@ Setting up CodeRabbit is simple, visit [coderabbit.ai](https://www.coderabbit.ai
 
 ### Testing
 
-All unit tests are located alongside the source code in the same directory, making them easier to find. The project uses Vitest and React Testing Library for unit testing. You can run the tests with the following command:
+All unit tests are located alongside the source code in the same directory, making them easier to find. The unit test files follow this format: `*.test.ts` or `*.test.tsx`. The project uses Vitest and React Testing Library for unit testing. You can run the tests with the following command:
 
 ```shell
 npm run test
@@ -348,7 +348,7 @@ npm run test
 
 ### Integration & E2E Testing
 
-The project uses Playwright for integration and end-to-end (E2E) testing. You can run the tests with the following commands:
+The project uses Playwright for integration and end-to-end (E2E) testing. Integration test files use the `*.spec.ts` extension, while E2E test files use the `*.e2e.ts` extension. You can run the tests with the following commands:
 
 ```shell
 npx playwright install # Only for the first time in a new environment
@@ -431,6 +431,16 @@ Arcjet is configured with two main features: bot detection and the Arcjet Shield
 Arcjet is configured with a central client at `src/libs/Arcjet.ts` that includes the Shield WAF rules. Additional rules are applied when Arcjet is called in `middleware.ts`.
 
 ### Useful commands
+
+### Code Quality and Validation
+
+The project includes several commands to ensure code quality and consistency. You can run:
+
+- `npm run lint` to check for linting errors
+- `npm run lint:fix` to automatically fix fixable issues from the linter
+- `npm run check:types` to verify type safety across the entire project
+- `npm run check:deps` help identify unused dependencies and files
+- `npm run check:i18n` ensures all translations are complete and properly formatted
 
 #### Bundle Analyzer
 
