@@ -276,6 +276,8 @@ After defining the environment variables in your GitHub Actions, your localizati
 .
 ├── README.md                       # README file
 ├── .github                         # GitHub folder
+│   ├── actions                     # Reusable actions
+│   └── workflows                   # GitHub Actions workflows
 ├── .storybook                      # Storybook folder
 ├── .vscode                         # VSCode configuration
 ├── migrations                      # Database migrations
@@ -353,6 +355,26 @@ The project uses Playwright for integration and end-to-end (E2E) testing. Integr
 ```shell
 npx playwright install # Only for the first time in a new environment
 npm run test:e2e
+```
+
+### Storybook
+
+Storybook is configured for UI component development and testing. The project uses Storybook with Next.js and Vite integration, including accessibility testing and documentation features.
+
+Stories are located alongside your components in the `src` directory and follow the pattern `*.stories.ts` or `*.stories.tsx`.
+
+You can run Storybook in development mode with:
+
+```shell
+npm run storybook
+```
+
+This will start Storybook on http://localhost:6006 where you can view and interact with your UI components in isolation.
+
+To run Storybook tests in headless mode, you can use the following command:
+
+```shell
+npm run storybook:test
 ```
 
 ### Deploy to production
