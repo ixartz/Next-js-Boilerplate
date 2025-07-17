@@ -190,6 +190,7 @@ Developer experience first, extremely flexible code structure and only keep what
 - 🖥️ Monitoring as Code with [Checkly](https://www.checklyhq.com/?utm_source=github&utm_medium=sponsorship&utm_campaign=next-js-boilerplate)
 - 🔐 Security and bot protection ([Arcjet](https://launch.arcjet.com/Q6eLbRE))
 - 📊 Analytics with PostHog
+- 📈 Business Intelligence with [Metabase](https://www.metabase.com)
 - 🎁 Automatic changelog generation with Semantic Release
 - 🔍 Visual regression testing
 - 💡 Absolute Imports using `@` prefix
@@ -429,6 +430,19 @@ Arcjet is configured with two main features: bot detection and the Arcjet Shield
 - [Arcjet Shield WAF](https://docs.arcjet.com/shield/concepts) will detect and block common attacks such as SQL injection, cross-site scripting, and other OWASP Top 10 vulnerabilities.
 
 Arcjet is configured with a central client at `src/libs/Arcjet.ts` that includes the Shield WAF rules. Additional rules are applied when Arcjet is called in `middleware.ts`.
+
+### Business Intelligence with Metabase
+
+[Metabase](https://www.metabase.com) is an open-source business intelligence platform. You can use it to ask questions about your data, or embed it in your app to let your customers explore data on their own.
+
+To run your own [free self-hosted Metabase](https://www.metabase.com/start/oss), use:
+
+```shell
+docker run -d --name metabase -p 3001:3000 metabase/metabase
+```
+
+Then open `http://localhost:3001` and [connect your PostgreSQL](https://www.metabase.com/docs/latest/databases/connections/postgresql) database using the credentials from your `DATABASE_URL` environment variable. 
+
 
 ### Useful commands
 
