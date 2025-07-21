@@ -1,6 +1,7 @@
 'use server';
 
 import { sql } from 'drizzle-orm';
+import { revalidatePath } from 'next/cache';
 import { headers } from 'next/headers';
 import z from 'zod';
 import { db } from '@/libs/DB';
@@ -81,6 +82,9 @@ export async function incrementCounter(_: unknown, formData: FormData) {
       // Don't fail the operation if logging fails
       console.error('Failed to log counter increment:', logError);
     }
+
+    // Revalidate the counter page to update the CurrentCount component
+    revalidatePath('/[locale]/counter', 'page');
 
     return { count: count[0].count };
   } catch (error) {
