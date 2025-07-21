@@ -1,18 +1,19 @@
+'use server';
+
 import { sql } from 'drizzle-orm';
 import { headers } from 'next/headers';
-import { NextResponse } from 'next/server';
 import z from 'zod';
 import { db } from '@/libs/DB';
 import { logger } from '@/libs/Logger';
 import { counterSchema } from '@/models/Schema';
 import { CounterValidation } from '@/validations/CounterValidation';
 
-export const PUT = async (request: Request) => {
-  const json = await request.json();
+export async function incrementCounter(_: unknown, formData: FormData) {
+  const json = Object.fromEntries(formData.entries());
   const parse = CounterValidation.safeParse(json);
 
   if (!parse.success) {
-    return NextResponse.json(z.treeifyError(parse.error), { status: 422 });
+    return { errors: z.treeifyError(parse.error) };
   }
 
   // `x-e2e-random-id` is used for end-to-end testing to make isolated requests
@@ -30,7 +31,5 @@ export const PUT = async (request: Request) => {
 
   logger.info('Counter has been incremented');
 
-  return NextResponse.json({
-    count: count[0]?.count,
-  });
-};
+  return { count: count[0]?.count };
+}
