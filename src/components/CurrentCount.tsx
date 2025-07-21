@@ -21,16 +21,16 @@ export const CurrentCount = async () => {
       const result = await db.query.counterSchema.findMany({
         where: eq(counterSchema.id, id),
       });
-      count = result[0]?.count ?? 77;
+      count = result[0]?.count ?? 0;
 
       logger.info('Counter fetched successfully');
     } catch (error) {
       logger.warn('Failed to fetch counter, using default value', { error });
-      count = 88;
+      count = 0;
     }
   } else {
     // During build time, use a default value
-    count = 99;
+    count = 0;
   }
 
   return (
