@@ -11,14 +11,6 @@ import { CounterValidation } from '@/validations/CounterValidation';
 
 export async function incrementCounter(_: unknown, formData: FormData) {
   try {
-    // Check if we're in a build environment where database might not be available
-    const isBuildTime = process.env.NODE_ENV === 'production' && !process.env.DATABASE_URL;
-
-    if (isBuildTime) {
-      // During build time, return a mock response
-      return { count: 0 };
-    }
-
     // Validate form data
     const json = Object.fromEntries(formData.entries());
     const parse = CounterValidation.safeParse(json);
