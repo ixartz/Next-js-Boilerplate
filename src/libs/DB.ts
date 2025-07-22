@@ -17,19 +17,6 @@ const createDbConnection = () => {
     connection: {
       connectionString: Env.DATABASE_URL,
       ssl: !Env.DATABASE_URL.includes('localhost') && !Env.DATABASE_URL.includes('127.0.0.1'),
-      // 接続タイムアウト (最重要)
-      connectionTimeoutMillis: 30000,
-
-      // クエリタイムアウト
-      query_timeout: 30000,
-      statement_timeout: 30000,
-
-      // その他の有用な設定
-      keepAlive: true,
-      keepAliveInitialDelayMillis: 10000,
-
-      // トランザクション内でのアイドル状態のタイムアウト
-      idle_in_transaction_session_timeout: 30000,
     },
     schema,
   });
