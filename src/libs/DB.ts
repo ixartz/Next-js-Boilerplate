@@ -5,6 +5,7 @@ import { migrate } from 'drizzle-orm/node-postgres/migrator';
 import { Pool } from 'pg';
 import * as schema from '@/models/Schema';
 import { Env } from './Env';
+import { logger } from './Logger';
 
 // Stores the db connection in the global scope to prevent multiple instances due to hot reloading with Next.js
 const globalForDb = globalThis as unknown as {
@@ -50,9 +51,9 @@ export const runMigrations = async () => {
     await migrate(db, {
       migrationsFolder: path.join(process.cwd(), 'migrations'),
     });
-    console.error('Database migrations completed successfully');
+    logger.error('Database migrations completed successfully');
   } catch (error) {
-    console.error('Database migration failed:', error);
+    logger.error('Database migration failed:', { error: error as any });
     throw error;
   }
 };
@@ -62,7 +63,7 @@ export const runMigrations = async () => {
 if (Env.NODE_ENV !== 'production') {
   // Use dynamic import to avoid top-level await in production builds
   runMigrations().catch((error) => {
-    console.error('Failed to run migrations:', error);
+    logger.error('Failed to run migrations:', error);
     process.exit(1);
   });
 }
@@ -73,10 +74,10 @@ if (Env.NODE_ENV === 'production') {
     try {
       if (globalForDb.pool) {
         await globalForDb.pool.end();
-        console.error('Database pool closed');
+        logger.error('Database pool closed');
       }
     } catch (error) {
-      console.error('Error during graceful shutdown:', error);
+      logger.error('Error during graceful shutdown:', { error: error as any });
     }
   };
 
