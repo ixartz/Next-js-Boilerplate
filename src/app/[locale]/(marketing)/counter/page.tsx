@@ -1,3 +1,4 @@
+import type { Metadata } from 'next';
 import { useTranslations } from 'next-intl';
 import { getTranslations } from 'next-intl/server';
 import Image from 'next/image';
@@ -7,7 +8,7 @@ import { CurrentCount } from '@/components/CurrentCount';
 
 export async function generateMetadata(props: {
   params: Promise<{ locale: string }>;
-}) {
+}): Promise<Metadata> {
   const { locale } = await props.params;
   const t = await getTranslations({
     locale,

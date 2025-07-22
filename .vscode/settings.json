@@ -20,7 +20,6 @@
     // Sentry is imported with `import *`
     "@sentry/nextjs"
   ],
-  "typescript.preferences.preferTypeOnlyAutoImports": true, // Prefer type-only imports
 
   // Vitest
   "testing.automaticallyOpenTestResults": "neverOpen", // Don't open the test results automatically
