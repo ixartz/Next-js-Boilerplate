@@ -1,6 +1,5 @@
 import antfu from '@antfu/eslint-config';
 import nextPlugin from '@next/eslint-plugin-next';
-import jestDom from 'eslint-plugin-jest-dom';
 import jsxA11y from 'eslint-plugin-jsx-a11y';
 import playwright from 'eslint-plugin-playwright';
 import storybook from 'eslint-plugin-storybook';
@@ -41,13 +40,6 @@ export default antfu(
   },
   // --- Accessibility Rules ---
   jsxA11y.flatConfigs.recommended,
-  // --- Testing Rules ---
-  {
-    files: [
-      '**/*.test.ts?(x)',
-    ],
-    ...jestDom.configs['flat/recommended'],
-  },
   // --- E2E Testing Rules ---
   {
     files: [
