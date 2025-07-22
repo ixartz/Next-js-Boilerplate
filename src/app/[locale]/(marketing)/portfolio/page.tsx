@@ -1,3 +1,4 @@
+import type { Metadata } from 'next';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -6,7 +7,7 @@ type IPortfolioProps = {
   params: Promise<{ locale: string }>;
 };
 
-export async function generateMetadata(props: IPortfolioProps) {
+export async function generateMetadata(props: IPortfolioProps): Promise<Metadata> {
   const { locale } = await props.params;
   const t = await getTranslations({
     locale,
