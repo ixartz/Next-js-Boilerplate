@@ -38,13 +38,13 @@ export const CounterForm = () => {
           <input
             id="increment"
             type="number"
-            className="ml-2 w-32 appearance-none rounded-sm border border-gray-200 px-2 py-1 text-sm leading-tight text-gray-700 focus:outline-hidden focus:ring-3 focus:ring-blue-300/50"
+            className="ml-2 w-32 appearance-none rounded-sm border border-gray-200 px-2 py-1 text-sm leading-tight text-gray-700 focus:ring-3 focus:ring-blue-300/50 focus:outline-hidden"
             {...form.register('increment')}
           />
         </label>
 
         {form.formState.errors.increment && (
-          <div className="my-2 text-xs italic text-red-500">
+          <div className="my-2 text-xs text-red-500 italic">
             {t('error_increment_range')}
           </div>
         )}
@@ -52,7 +52,7 @@ export const CounterForm = () => {
 
       <div className="mt-2">
         <button
-          className="rounded-sm bg-blue-500 px-5 py-1 font-bold text-white hover:bg-blue-600 focus:outline-hidden focus:ring-3 focus:ring-blue-300/50 disabled:pointer-events-none disabled:opacity-50"
+          className="rounded-sm bg-blue-500 px-5 py-1 font-bold text-white hover:bg-blue-600 focus:ring-3 focus:ring-blue-300/50 focus:outline-hidden disabled:pointer-events-none disabled:opacity-50"
           type="submit"
           disabled={form.formState.isSubmitting}
         >
