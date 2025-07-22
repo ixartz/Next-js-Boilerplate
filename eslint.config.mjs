@@ -1,8 +1,11 @@
+import { dirname } from 'node:path';
+import { fileURLToPath } from 'node:url';
 import antfu from '@antfu/eslint-config';
 import nextPlugin from '@next/eslint-plugin-next';
 import jsxA11y from 'eslint-plugin-jsx-a11y';
 import playwright from 'eslint-plugin-playwright';
 import storybook from 'eslint-plugin-storybook';
+import tailwind from 'eslint-plugin-tailwindcss';
 
 export default antfu(
   {
@@ -40,6 +43,15 @@ export default antfu(
   },
   // --- Accessibility Rules ---
   jsxA11y.flatConfigs.recommended,
+  // --- Tailwind CSS Rules ---
+  ...tailwind.configs['flat/recommended'],
+  {
+    settings: {
+      tailwindcss: {
+        config: `${dirname(fileURLToPath(import.meta.url))}/src/styles/global.css`,
+      },
+    },
+  },
   // --- E2E Testing Rules ---
   {
     files: [
