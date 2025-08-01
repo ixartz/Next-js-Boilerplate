@@ -7,7 +7,6 @@ import storybook from 'eslint-plugin-storybook';
 import tailwind from 'eslint-plugin-tailwindcss';
 
 export default antfu(
-  // --- React / Next.js Specific Rules ---
   {
     react: true,
     nextjs: true,
