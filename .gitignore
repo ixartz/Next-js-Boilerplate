@@ -13,7 +13,6 @@
 # testing
 /coverage
 /vitest-test-results
-.unlighthouse
 
 # next.js
 /.next/

@@ -200,7 +200,7 @@ Developer experience first, extremely flexible code structure and only keep what
 - ⌘ Database exploration with Drizzle Studio and CLI migration tool with Drizzle Kit
 - ⚙️ Bundler Analyzer
 - 🌈 Include a FREE minimalist theme
-- 💯 Maximize lighthouse score with Unlighthouse
+- 💯 Maximize lighthouse score
 
 Built-in feature from Next.js:
 
