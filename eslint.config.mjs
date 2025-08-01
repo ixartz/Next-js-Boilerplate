@@ -1,7 +1,6 @@
 import { dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import antfu from '@antfu/eslint-config';
-import nextPlugin from '@next/eslint-plugin-next';
 import jsxA11y from 'eslint-plugin-jsx-a11y';
 import playwright from 'eslint-plugin-playwright';
 import storybook from 'eslint-plugin-storybook';
@@ -10,6 +9,7 @@ import tailwind from 'eslint-plugin-tailwindcss';
 export default antfu(
   {
     react: true,
+    nextjs: true,
     typescript: true,
 
     // Configuration preferences
@@ -30,16 +30,6 @@ export default antfu(
     ignores: [
       'migrations/**/*',
     ],
-  },
-  // --- Next.js Specific Rules ---
-  {
-    plugins: {
-      '@next/next': nextPlugin,
-    },
-    rules: {
-      ...nextPlugin.configs.recommended.rules,
-      ...nextPlugin.configs['core-web-vitals'].rules,
-    },
   },
   // --- Accessibility Rules ---
   jsxA11y.flatConfigs.recommended,
