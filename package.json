@@ -96,7 +96,7 @@
     "semantic-release": "^24.2.7",
     "storybook": "^9.0.18",
     "tailwindcss": "^4.1.11",
-    "typescript": "^5.9.2",
+    "typescript": "^5.8.3",
     "unlighthouse": "^0.17.2",
     "vite-tsconfig-paths": "^5.1.4",
     "vitest": "^3.2.4",
