@@ -13,9 +13,44 @@ export async function generateMetadata(props: IIndexProps): Promise<Metadata> {
     namespace: 'Index',
   });
 
+  const title = t('meta_title');
+  const description = t('meta_description');
+  const url = `https://demo.nextjs-boilerplate.com/${locale}`;
+
   return {
-    title: t('meta_title'),
-    description: t('meta_description'),
+    title,
+    description,
+    openGraph: {
+      title,
+      description,
+      url,
+      siteName: 'Next.js Boilerplate',
+      images: [
+        {
+          url: '/assets/images/nextjs-starter-banner.png',
+          width: 1200,
+          height: 630,
+          alt: title,
+        },
+      ],
+      locale: locale === 'fr' ? 'fr_FR' : 'en_US',
+      type: 'website',
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title,
+      description,
+      images: ['/assets/images/nextjs-starter-banner.png'],
+      creator: '@ixartz',
+      site: '@ixartz',
+    },
+    alternates: {
+      canonical: url,
+      languages: {
+        en: '/en',
+        fr: '/fr',
+      },
+    },
   };
 }
 

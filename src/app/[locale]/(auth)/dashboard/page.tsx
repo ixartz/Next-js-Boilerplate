@@ -11,8 +11,44 @@ export async function generateMetadata(props: {
     namespace: 'Dashboard',
   });
 
+  const title = t('meta_title');
+  const description = 'Access your personalized dashboard with Next.js Boilerplate';
+  const url = `https://demo.nextjs-boilerplate.com/${locale}/dashboard`;
+
   return {
-    title: t('meta_title'),
+    title,
+    description,
+    openGraph: {
+      title,
+      description,
+      url,
+      siteName: 'Next.js Boilerplate',
+      images: [
+        {
+          url: '/assets/images/nextjs-boilerplate-saas.png',
+          width: 1200,
+          height: 630,
+          alt: title,
+        },
+      ],
+      locale: locale === 'fr' ? 'fr_FR' : 'en_US',
+      type: 'website',
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title,
+      description,
+      images: ['/assets/images/nextjs-boilerplate-saas.png'],
+      creator: '@ixartz',
+      site: '@ixartz',
+    },
+    alternates: {
+      canonical: url,
+      languages: {
+        en: '/en/dashboard',
+        fr: '/fr/dashboard',
+      },
+    },
   };
 }
 

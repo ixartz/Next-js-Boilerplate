@@ -25,9 +25,44 @@ export async function generateMetadata(props: IPortfolioDetailProps): Promise<Me
     namespace: 'PortfolioSlug',
   });
 
+  const title = t('meta_title', { slug });
+  const description = t('meta_description', { slug });
+  const url = `https://demo.nextjs-boilerplate.com/${locale}/portfolio/${slug}`;
+
   return {
-    title: t('meta_title', { slug }),
-    description: t('meta_description', { slug }),
+    title,
+    description,
+    openGraph: {
+      title,
+      description,
+      url,
+      siteName: 'Next.js Boilerplate',
+      images: [
+        {
+          url: '/assets/images/nextjs-starter-banner.png',
+          width: 1200,
+          height: 630,
+          alt: title,
+        },
+      ],
+      locale: locale === 'fr' ? 'fr_FR' : 'en_US',
+      type: 'article',
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title,
+      description,
+      images: ['/assets/images/nextjs-starter-banner.png'],
+      creator: '@ixartz',
+      site: '@ixartz',
+    },
+    alternates: {
+      canonical: url,
+      languages: {
+        en: `/en/portfolio/${slug}`,
+        fr: `/fr/portfolio/${slug}`,
+      },
+    },
   };
 }
 

@@ -14,8 +14,44 @@ export async function generateMetadata(props: IUserProfilePageProps): Promise<Me
     namespace: 'UserProfile',
   });
 
+  const title = t('meta_title');
+  const description = 'Manage your account settings and profile information';
+  const url = `https://demo.nextjs-boilerplate.com/${locale}/dashboard/user-profile`;
+
   return {
-    title: t('meta_title'),
+    title,
+    description,
+    openGraph: {
+      title,
+      description,
+      url,
+      siteName: 'Next.js Boilerplate',
+      images: [
+        {
+          url: '/assets/images/nextjs-boilerplate-saas.png',
+          width: 1200,
+          height: 630,
+          alt: title,
+        },
+      ],
+      locale: locale === 'fr' ? 'fr_FR' : 'en_US',
+      type: 'website',
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title,
+      description,
+      images: ['/assets/images/nextjs-boilerplate-saas.png'],
+      creator: '@ixartz',
+      site: '@ixartz',
+    },
+    alternates: {
+      canonical: url,
+      languages: {
+        en: '/en/dashboard/user-profile',
+        fr: '/fr/dashboard/user-profile',
+      },
+    },
   };
 }
 
