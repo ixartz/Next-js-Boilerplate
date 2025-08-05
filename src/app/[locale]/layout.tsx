@@ -5,6 +5,7 @@ import { notFound } from 'next/navigation';
 import { PostHogProvider } from '@/components/analytics/PostHogProvider';
 import { DemoBadge } from '@/components/DemoBadge';
 import { routing } from '@/libs/I18nRouting';
+import { getOgImagePath } from '@/utils/Helpers';
 import '@/styles/global.css';
 
 export const metadata: Metadata = {
@@ -32,7 +33,7 @@ export const metadata: Metadata = {
     description: 'Next.js Boilerplate is the perfect starter code for your project. Build your React application with the Next.js framework.',
     images: [
       {
-        url: '/assets/images/nextjs-starter-banner.png',
+        url: getOgImagePath(),
         width: 1200,
         height: 630,
         alt: 'Next.js Boilerplate',
@@ -45,7 +46,7 @@ export const metadata: Metadata = {
     creator: '@ixartz',
     title: 'Next.js Boilerplate',
     description: 'Next.js Boilerplate is the perfect starter code for your project. Build your React application with the Next.js framework.',
-    images: ['/assets/images/nextjs-starter-banner.png'],
+    images: [getOgImagePath()],
   },
   robots: {
     index: true,

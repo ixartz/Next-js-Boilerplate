@@ -62,11 +62,13 @@
   },
   "Dashboard": {
     "meta_title": "Tableau de bord",
+    "meta_description": "Accédez à votre tableau de bord personnalisé avec Next.js Boilerplate",
     "hello_message": "Bonjour {email}!",
     "alternative_message": "Vous voulez créer votre SaaS plus rapidement en utilisant la même stack ? Essayez <url></url>."
   },
   "UserProfile": {
-    "meta_title": "Profil de l'utilisateur"
+    "meta_title": "Profil de l'utilisateur",
+    "meta_description": "Gérez les paramètres de votre compte et les informations de votre profil"
   },
   "DashboardLayout": {
     "dashboard_link": "Tableau de bord",

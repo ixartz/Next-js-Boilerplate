@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { getTranslations } from 'next-intl/server';
 import { Hello } from '@/components/Hello';
+import { generateMetadataUrl, getOgImagePath, getOpenGraphLocale } from '@/utils/Helpers';
 
 export async function generateMetadata(props: {
   params: Promise<{ locale: string }>;
@@ -12,8 +13,8 @@ export async function generateMetadata(props: {
   });
 
   const title = t('meta_title');
-  const description = 'Access your personalized dashboard with Next.js Boilerplate';
-  const url = `https://demo.nextjs-boilerplate.com/${locale}/dashboard`;
+  const description = t('meta_description');
+  const url = generateMetadataUrl('/dashboard', locale);
 
   return {
     title,
@@ -25,20 +26,20 @@ export async function generateMetadata(props: {
       siteName: 'Next.js Boilerplate',
       images: [
         {
-          url: '/assets/images/nextjs-boilerplate-saas.png',
+          url: getOgImagePath('dashboard'),
           width: 1200,
           height: 630,
           alt: title,
         },
       ],
-      locale: locale === 'fr' ? 'fr_FR' : 'en_US',
+      locale: getOpenGraphLocale(locale),
       type: 'website',
     },
     twitter: {
       card: 'summary_large_image',
       title,
       description,
-      images: ['/assets/images/nextjs-boilerplate-saas.png'],
+      images: [getOgImagePath('dashboard')],
       creator: '@ixartz',
       site: '@ixartz',
     },

@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import { UserProfile } from '@clerk/nextjs';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
-import { getI18nPath } from '@/utils/Helpers';
+import { generateMetadataUrl, getI18nPath, getOgImagePath, getOpenGraphLocale } from '@/utils/Helpers';
 
 type IUserProfilePageProps = {
   params: Promise<{ locale: string }>;
@@ -15,8 +15,8 @@ export async function generateMetadata(props: IUserProfilePageProps): Promise<Me
   });
 
   const title = t('meta_title');
-  const description = 'Manage your account settings and profile information';
-  const url = `https://demo.nextjs-boilerplate.com/${locale}/dashboard/user-profile`;
+  const description = t('meta_description');
+  const url = generateMetadataUrl('/dashboard/user-profile', locale);
 
   return {
     title,
@@ -28,20 +28,20 @@ export async function generateMetadata(props: IUserProfilePageProps): Promise<Me
       siteName: 'Next.js Boilerplate',
       images: [
         {
-          url: '/assets/images/nextjs-boilerplate-saas.png',
+          url: getOgImagePath('dashboard'),
           width: 1200,
           height: 630,
           alt: title,
         },
       ],
-      locale: locale === 'fr' ? 'fr_FR' : 'en_US',
+      locale: getOpenGraphLocale(locale),
       type: 'website',
     },
     twitter: {
       card: 'summary_large_image',
       title,
       description,
-      images: ['/assets/images/nextjs-boilerplate-saas.png'],
+      images: [getOgImagePath('dashboard')],
       creator: '@ixartz',
       site: '@ixartz',
     },

@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import { SignUp } from '@clerk/nextjs';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
-import { getI18nPath } from '@/utils/Helpers';
+import { generateMetadataUrl, getI18nPath, getOgImagePath, getOpenGraphLocale } from '@/utils/Helpers';
 
 type ISignUpPageProps = {
   params: Promise<{ locale: string }>;
@@ -16,7 +16,7 @@ export async function generateMetadata(props: ISignUpPageProps): Promise<Metadat
 
   const title = t('meta_title');
   const description = t('meta_description');
-  const url = `https://demo.nextjs-boilerplate.com/${locale}/sign-up`;
+  const url = generateMetadataUrl('/sign-up', locale);
 
   return {
     title,
@@ -28,20 +28,20 @@ export async function generateMetadata(props: ISignUpPageProps): Promise<Metadat
       siteName: 'Next.js Boilerplate',
       images: [
         {
-          url: '/assets/images/nextjs-boilerplate-sign-up.png',
+          url: getOgImagePath('signup'),
           width: 1200,
           height: 630,
           alt: title,
         },
       ],
-      locale: locale === 'fr' ? 'fr_FR' : 'en_US',
+      locale: getOpenGraphLocale(locale),
       type: 'website',
     },
     twitter: {
       card: 'summary_large_image',
       title,
       description,
-      images: ['/assets/images/nextjs-boilerplate-sign-up.png'],
+      images: [getOgImagePath('signup')],
       creator: '@ixartz',
       site: '@ixartz',
     },

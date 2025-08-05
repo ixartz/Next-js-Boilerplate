@@ -1,5 +1,7 @@
 import { routing } from '@/libs/I18nRouting';
 
+export type PageType = 'default' | 'auth' | 'signup' | 'dashboard';
+
 export const getBaseUrl = () => {
   if (process.env.NEXT_PUBLIC_APP_URL) {
     return process.env.NEXT_PUBLIC_APP_URL;
@@ -36,12 +38,24 @@ export function generateMetadataUrl(path: string, locale: string): string {
   return `${baseUrl}/${locale}${path}`;
 }
 
-export function getOgImagePath(pageType: 'default' | 'auth' | 'dashboard' = 'default'): string {
+export function getOgImagePath(pageType: PageType = 'default'): string {
   const imageMap = {
     default: '/assets/images/nextjs-starter-banner.png',
+    signup: '/assets/images/nextjs-boilerplate-sign-up.png',
     auth: '/assets/images/nextjs-boilerplate-sign-in.png',
     dashboard: '/assets/images/nextjs-boilerplate-saas.png',
   };
 
   return imageMap[pageType];
 }
+
+export const getOpenGraphLocale = (locale: string): string => {
+  switch (locale) {
+    case 'en':
+      return 'en_US';
+    case 'fr':
+      return 'fr_FR';
+    default:
+      return 'en_US';
+  }
+};

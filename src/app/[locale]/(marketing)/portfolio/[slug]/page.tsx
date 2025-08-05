@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import Image from 'next/image';
 import { routing } from '@/libs/I18nRouting';
+import { generateMetadataUrl, getOgImagePath, getOpenGraphLocale } from '@/utils/Helpers';
 
 type IPortfolioDetailProps = {
   params: Promise<{ slug: string; locale: string }>;
@@ -27,7 +28,7 @@ export async function generateMetadata(props: IPortfolioDetailProps): Promise<Me
 
   const title = t('meta_title', { slug });
   const description = t('meta_description', { slug });
-  const url = `https://demo.nextjs-boilerplate.com/${locale}/portfolio/${slug}`;
+  const url = generateMetadataUrl(`/portfolio/${slug}`, locale);
 
   return {
     title,
@@ -39,20 +40,20 @@ export async function generateMetadata(props: IPortfolioDetailProps): Promise<Me
       siteName: 'Next.js Boilerplate',
       images: [
         {
-          url: '/assets/images/nextjs-starter-banner.png',
+          url: getOgImagePath(),
           width: 1200,
           height: 630,
           alt: title,
         },
       ],
-      locale: locale === 'fr' ? 'fr_FR' : 'en_US',
+      locale: getOpenGraphLocale(locale),
       type: 'article',
     },
     twitter: {
       card: 'summary_large_image',
       title,
       description,
-      images: ['/assets/images/nextjs-starter-banner.png'],
+      images: [getOgImagePath()],
       creator: '@ixartz',
       site: '@ixartz',
     },
