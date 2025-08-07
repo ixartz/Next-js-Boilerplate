@@ -84,11 +84,11 @@ Clone this project and use it to create your own Next.js project. You can check 
   </tr>
   <tr height="187px">
     <td align="center" width="33%">
-      <a href="https://surveyjs.io/?utm_source=nextjs_readme&utm_medium=banner&utm_campaign=q3_2025">
+      <a href="https://betterstack.com/?utm_source=github&utm_medium=sponsorship&utm_campaign=next-js-boilerplate">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="public/assets/images/surveyjs.svg?raw=true">
-          <source media="(prefers-color-scheme: light)" srcset="public/assets/images/surveyjs.svg?raw=true">
-          <img alt="SurveyJS" src="public/assets/images/surveyjs.svg?raw=true">
+          <source media="(prefers-color-scheme: dark)" srcset="public/assets/images/better-stack-white.png?raw=true">
+          <source media="(prefers-color-scheme: light)" srcset="public/assets/images/better-stack-dark.png?raw=true">
+          <img alt="Better Stack" src="public/assets/images/better-stack-dark.png?raw=true">
         </picture>
       </a>
     </td>
@@ -112,15 +112,6 @@ Clone this project and use it to create your own Next.js project. You can check 
     </td>
   </tr>
   <tr height="187px">
-    <td align="center" width="33%">
-      <a href="https://betterstack.com/?utm_source=github&utm_medium=sponsorship&utm_campaign=next-js-boilerplate">
-        <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="public/assets/images/better-stack-white.png?raw=true">
-          <source media="(prefers-color-scheme: light)" srcset="public/assets/images/better-stack-dark.png?raw=true">
-          <img alt="Better Stack" src="public/assets/images/better-stack-dark.png?raw=true">
-        </picture>
-      </a>
-    </td>
     <td align="center" width="33%">
       <a href="https://www.checklyhq.com/?utm_source=github&utm_medium=sponsorship&utm_campaign=next-js-boilerplate">
         <picture>
@@ -330,13 +321,13 @@ This will create a migration file that reflects your schema changes. The migrati
 
 ### Commit Message Format
 
-The project follows the [Conventional Commits](https://www.conventionalcommits.org/) specification, meaning all commit messages must be formatted accordingly. To help you write commit messages, the project uses [Commitizen](https://github.com/commitizen/cz-cli), an interactive CLI that guides you through the commit process. To use it, run the following command:
+The project follows the [Conventional Commits](https://www.conventionalcommits.org/) specification, meaning all commit messages must be formatted accordingly. To help you write commit messages, the project provides an interactive CLI that guides you through the commit process. To use it, run the following command:
 
 ```shell
 npm run commit
 ```
 
-One of the benefits of using Conventional Commits is the ability to automatically generate a `CHANGELOG` file. It also allows us to automatically determine the next version number based on the types of commits that are included in a release.
+One of the benefits of using Conventional Commits is the ability to automatically generate GitHub releases. It also allows us to automatically determine the next version number based on the types of commits that are included in a release.
 
 ### CodeRabbit AI Code Reviews
 
@@ -421,9 +412,17 @@ Finally, initiate a new deployment by clicking `Overview > Latest deployments > 
 
 ### Error Monitoring
 
-The project uses [Sentry](https://sentry.io/for/nextjs/?utm_source=github&utm_medium=paid-community&utm_campaign=general-fy25q1-nextjs&utm_content=github-banner-nextjsboilerplate-logo) to monitor errors. In the development environment, no additional setup is needed: Next.js Boilerplate is pre-configured to use Sentry and Spotlight (Sentry for Development). All errors will automatically be sent to your local Spotlight instance, allowing you to experience Sentry locally.
+The project uses [Sentry](https://sentry.io/for/nextjs/?utm_source=github&utm_medium=paid-community&utm_campaign=general-fy25q1-nextjs&utm_content=github-banner-nextjsboilerplate-logo) to monitor errors. In the development environment, no additional setup is needed: SaaS Boilerplate is pre-configured to use Sentry and Spotlight (Sentry for Development). All errors will automatically be sent to your local Spotlight instance, allowing you to experience Sentry locally.
 
-For production environment, you'll need to create a Sentry account and a new project. Then, in `next.config.mjs`, you need to update the `org` and `project` attributes in `withSentryConfig` function. Additionally, add your Sentry DSN to `sentry.client.config.ts`, `sentry.edge.config.ts` and `sentry.server.config.ts`.
+For production environment, you'll need to create a Sentry account and a new project. Then, in `.env.production`, you need to update the following environment variables:
+
+```shell
+NEXT_PUBLIC_SENTRY_DSN=
+SENTRY_ORGANIZATION=
+SENTRY_PROJECT=
+```
+
+You also need to create a environment variable `SENTRY_AUTH_TOKEN` in your hosting provider's dashboard.
 
 ### Code coverage
 
@@ -437,7 +436,9 @@ The project uses LogTape for logging. In the development environment, logs are d
 
 For production, the project is already integrated with [Better Stack](https://betterstack.com/?utm_source=github&utm_medium=sponsorship&utm_campaign=next-js-boilerplate) to manage and query your logs using SQL. To use Better Stack, you need to create a [Better Stack](https://betterstack.com/?utm_source=github&utm_medium=sponsorship&utm_campaign=next-js-boilerplate) account and create a new source: go to your Better Stack Logs Dashboard > Sources > Connect source. Then, you need to give a name to your source and select Node.js as the platform.
 
-After creating the source, you will be able to view and copy your source token. In your environment variables, paste the token into the `BETTER_STACK_SOURCE_TOKEN` variable. Now, all logs will automatically be sent to and ingested by Better Stack.
+After creating the source, you will be able to view and copy your source token. In your environment variables, paste the token into the `NEXT_PUBLIC_BETTER_STACK_SOURCE_TOKEN` variable. You'll also need to define the `NEXT_PUBLIC_BETTER_STACK_INGESTING_HOST` variable, which can be found in the same place as the source token.
+
+Now, all logs will automatically be sent to and ingested by Better Stack.
 
 ### Checkly monitoring
 
@@ -580,11 +581,11 @@ See [LICENSE](LICENSE) for more information.
   </tr>
   <tr height="187px">
     <td align="center" width="33%">
-      <a href="https://surveyjs.io/?utm_source=nextjs_readme&utm_medium=banner&utm_campaign=q3_2025">
+      <a href="https://betterstack.com/?utm_source=github&utm_medium=sponsorship&utm_campaign=next-js-boilerplate">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="public/assets/images/surveyjs.svg?raw=true">
-          <source media="(prefers-color-scheme: light)" srcset="public/assets/images/surveyjs.svg?raw=true">
-          <img alt="SurveyJS" src="public/assets/images/surveyjs.svg?raw=true">
+          <source media="(prefers-color-scheme: dark)" srcset="public/assets/images/better-stack-white.png?raw=true">
+          <source media="(prefers-color-scheme: light)" srcset="public/assets/images/better-stack-dark.png?raw=true">
+          <img alt="Better Stack" src="public/assets/images/better-stack-dark.png?raw=true">
         </picture>
       </a>
     </td>
@@ -608,15 +609,6 @@ See [LICENSE](LICENSE) for more information.
     </td>
   </tr>
   <tr height="187px">
-    <td align="center" width="33%">
-      <a href="https://betterstack.com/?utm_source=github&utm_medium=sponsorship&utm_campaign=next-js-boilerplate">
-        <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="public/assets/images/better-stack-white.png?raw=true">
-          <source media="(prefers-color-scheme: light)" srcset="public/assets/images/better-stack-dark.png?raw=true">
-          <img alt="Better Stack" src="public/assets/images/better-stack-dark.png?raw=true">
-        </picture>
-      </a>
-    </td>
     <td align="center" width="33%">
       <a href="https://www.checklyhq.com/?utm_source=github&utm_medium=sponsorship&utm_campaign=next-js-boilerplate">
         <picture>

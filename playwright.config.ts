@@ -14,8 +14,8 @@ export default defineConfig<ChromaticConfig>({
   testDir: './tests',
   // Look for files with the .spec.js or .e2e.js extension
   testMatch: '*.@(spec|e2e).?(c|m)[jt]s?(x)',
-  // Timeout per test
-  timeout: 30 * 1000,
+  // Timeout per test, test running locally are slower due to database connections with PGLite
+  timeout: process.env.CI ? 30 * 1000 : 60 * 1000,
   // Fail the build on CI if you accidentally left test.only in the source code.
   forbidOnly: !!process.env.CI,
   // Reporter to use. See https://playwright.dev/docs/test-reporters

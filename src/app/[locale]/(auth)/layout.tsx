@@ -25,15 +25,15 @@ export default async function AuthLayout(props: {
 
   return (
     <ClerkProvider
+      appearance={{
+        cssLayerName: 'clerk', // Ensure Clerk is compatible with Tailwind CSS v4
+      }}
       localization={clerkLocale}
       signInUrl={signInUrl}
       signUpUrl={signUpUrl}
       signInFallbackRedirectUrl={dashboardUrl}
       signUpFallbackRedirectUrl={dashboardUrl}
       afterSignOutUrl={afterSignOutUrl}
-      appearance={{
-        cssLayerName: 'clerk', // Ensure Clerk is compatible with Tailwind CSS v4
-      }}
     >
       {props.children}
     </ClerkProvider>

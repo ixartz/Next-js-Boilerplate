@@ -15,6 +15,7 @@ jobs:
 
     name: Build with ${{ matrix.node-version }}
     runs-on: ubuntu-latest
+    timeout-minutes: 10
 
     steps:
       - uses: actions/checkout@v4
@@ -52,6 +53,7 @@ jobs:
 
     name: Run static checks
     runs-on: ubuntu-latest
+    timeout-minutes: 10
 
     steps:
       - uses: actions/checkout@v4
@@ -86,6 +88,7 @@ jobs:
 
     name: Run unit tests
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     needs: [build]
 
     steps:
@@ -113,6 +116,7 @@ jobs:
 
     name: Run Storybook
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     needs: [build]
 
     steps:
@@ -135,6 +139,7 @@ jobs:
 
     name: Run E2E tests
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     needs: [build]
 
     steps:
@@ -178,6 +183,7 @@ jobs:
   synchronize-with-crowdin:
     name: GitHub PR synchronize with Crowdin
     runs-on: ubuntu-latest
+    timeout-minutes: 10
 
     needs: [build, static]
     if: github.event_name == 'pull_request'
