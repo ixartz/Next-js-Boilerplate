@@ -16,6 +16,7 @@ jobs:
 
     name: Create a new release
     runs-on: ubuntu-latest
+    timeout-minutes: 10
 
     permissions:
       contents: write # to be able to publish a GitHub release

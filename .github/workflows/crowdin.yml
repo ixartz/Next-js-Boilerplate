@@ -11,6 +11,7 @@ jobs:
   synchronize-with-crowdin:
     name: Synchronize with Crowdin
     runs-on: ubuntu-latest
+    timeout-minutes: 10
 
     steps:
       - uses: actions/checkout@v4
