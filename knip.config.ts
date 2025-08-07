@@ -6,6 +6,7 @@ const config: KnipConfig = {
     'checkly.config.ts',
     'src/libs/I18n.ts',
     'src/types/I18n.ts',
+    'src/utils/Helpers.ts',
     'tests/**/*.ts',
   ],
   // Dependencies to ignore during analysis
