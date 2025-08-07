@@ -5,7 +5,6 @@ import Image from 'next/image';
 import { Suspense } from 'react';
 import { CounterForm } from '@/components/CounterForm';
 import { CurrentCount } from '@/components/CurrentCount';
-import { generateMetadataUrl, getOgImagePath, getOpenGraphLocale } from '@/utils/Helpers';
 
 export async function generateMetadata(props: {
   params: Promise<{ locale: string }>;
@@ -16,44 +15,9 @@ export async function generateMetadata(props: {
     namespace: 'Counter',
   });
 
-  const title = t('meta_title');
-  const description = t('meta_description');
-  const url = generateMetadataUrl('/counter', locale);
-
   return {
-    title,
-    description,
-    openGraph: {
-      title,
-      description,
-      url,
-      siteName: 'Next.js Boilerplate',
-      images: [
-        {
-          url: getOgImagePath(),
-          width: 1200,
-          height: 630,
-          alt: title,
-        },
-      ],
-      locale: getOpenGraphLocale(locale),
-      type: 'website',
-    },
-    twitter: {
-      card: 'summary_large_image',
-      title,
-      description,
-      images: [getOgImagePath()],
-      creator: '@ixartz',
-      site: '@ixartz',
-    },
-    alternates: {
-      canonical: url,
-      languages: {
-        en: '/en/counter',
-        fr: '/fr/counter',
-      },
-    },
+    title: t('meta_title'),
+    description: t('meta_description'),
   };
 }
 

@@ -1,7 +1,6 @@
 import type { Metadata } from 'next';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import Image from 'next/image';
-import { generateMetadataUrl, getOgImagePath, getOpenGraphLocale } from '@/utils/Helpers';
 
 type IAboutProps = {
   params: Promise<{ locale: string }>;
@@ -14,44 +13,9 @@ export async function generateMetadata(props: IAboutProps): Promise<Metadata> {
     namespace: 'About',
   });
 
-  const title = t('meta_title');
-  const description = t('meta_description');
-  const url = generateMetadataUrl('/about', locale);
-
   return {
-    title,
-    description,
-    openGraph: {
-      title,
-      description,
-      url,
-      siteName: 'Next.js Boilerplate',
-      images: [
-        {
-          url: getOgImagePath(),
-          width: 1200,
-          height: 630,
-          alt: title,
-        },
-      ],
-      locale: getOpenGraphLocale(locale),
-      type: 'website',
-    },
-    twitter: {
-      card: 'summary_large_image',
-      title,
-      description,
-      images: [getOgImagePath('dashboard')],
-      creator: '@ixartz',
-      site: '@ixartz',
-    },
-    alternates: {
-      canonical: url,
-      languages: {
-        en: '/en/about',
-        fr: '/fr/about',
-      },
-    },
+    title: t('meta_title'),
+    description: t('meta_description'),
   };
 }
 

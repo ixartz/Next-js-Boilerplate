@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import { UserProfile } from '@clerk/nextjs';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
-import { generateMetadataUrl, getI18nPath, getOgImagePath, getOpenGraphLocale } from '@/utils/Helpers';
+import { getI18nPath } from '@/utils/Helpers';
 
 type IUserProfilePageProps = {
   params: Promise<{ locale: string }>;
@@ -14,44 +14,8 @@ export async function generateMetadata(props: IUserProfilePageProps): Promise<Me
     namespace: 'UserProfile',
   });
 
-  const title = t('meta_title');
-  const description = t('meta_description');
-  const url = generateMetadataUrl('/dashboard/user-profile', locale);
-
   return {
-    title,
-    description,
-    openGraph: {
-      title,
-      description,
-      url,
-      siteName: 'Next.js Boilerplate',
-      images: [
-        {
-          url: getOgImagePath('dashboard'),
-          width: 1200,
-          height: 630,
-          alt: title,
-        },
-      ],
-      locale: getOpenGraphLocale(locale),
-      type: 'website',
-    },
-    twitter: {
-      card: 'summary_large_image',
-      title,
-      description,
-      images: [getOgImagePath('dashboard')],
-      creator: '@ixartz',
-      site: '@ixartz',
-    },
-    alternates: {
-      canonical: url,
-      languages: {
-        en: '/en/dashboard/user-profile',
-        fr: '/fr/dashboard/user-profile',
-      },
-    },
+    title: t('meta_title'),
   };
 }
 
