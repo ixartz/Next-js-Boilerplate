@@ -62,11 +62,13 @@
   },
   "Dashboard": {
     "meta_title": "Dashboard",
+    "meta_description": "Access your personalized dashboard with Next.js Boilerplate",
     "hello_message": "Hello {email}!",
     "alternative_message": "Want to build your SaaS faster using the same stack? Try <url></url>."
   },
   "UserProfile": {
-    "meta_title": "User Profile"
+    "meta_title": "User Profile",
+    "meta_description": "Manage your account settings and profile information"
   },
   "DashboardLayout": {
     "dashboard_link": "Dashboard",
