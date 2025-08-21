@@ -317,7 +317,17 @@ npm run db:generate
 
 [![Run the command in Warp](public/assets/images/warp-banner.png)](https://go.warp.dev/nextjs-bp)
 
-This will create a migration file that reflects your schema changes. The migration is automatically applied during the next database interaction, so there is no need to run it manually or restart the Next.js server.
+This will create a migration file that reflects your schema changes.
+
+Migrations are automatically applied during Next.js initialization through `instrumentation.ts`. Simply restart your Next.js server to apply the database changes.
+
+Alternatively, if your database is running, you can apply migrations manually using:
+
+```shell
+npm run db:migrate
+```
+
+There is no need to restart the Next.js server for the changes to take effect.
 
 ### Commit Message Format
 

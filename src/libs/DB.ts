@@ -1,7 +1,5 @@
 import type { NodePgDatabase } from 'drizzle-orm/node-postgres';
-import path from 'node:path';
 import { drizzle } from 'drizzle-orm/node-postgres';
-import { migrate } from 'drizzle-orm/node-postgres/migrator';
 import * as schema from '@/models/Schema';
 import { Env } from './Env';
 
@@ -28,9 +26,5 @@ const db = globalForDb.drizzle || createDbConnection();
 if (Env.NODE_ENV !== 'production') {
   globalForDb.drizzle = db;
 }
-
-await migrate(db, {
-  migrationsFolder: path.join(process.cwd(), 'migrations'),
-});
 
 export { db };
