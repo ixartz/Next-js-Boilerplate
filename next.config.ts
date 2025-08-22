@@ -11,6 +11,9 @@ const baseConfig: NextConfig = {
   },
   poweredByHeader: false,
   reactStrictMode: true,
+  outputFileTracingIncludes: {
+    '/': ['./migrations/**/*'],
+  },
 };
 
 // Initialize the Next-Intl plugin
