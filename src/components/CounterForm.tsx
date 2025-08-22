@@ -17,13 +17,14 @@ export const CounterForm = () => {
   const router = useRouter();
 
   const handleIncrement = form.handleSubmit(async (data) => {
-    await fetch(`/api/counter`, {
+    const response = await fetch(`/api/counter`, {
       method: 'PUT',
       headers: {
         'Content-Type': 'application/json',
       },
       body: JSON.stringify(data),
     });
+    await response.json();
 
     form.reset();
     router.refresh();

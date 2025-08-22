@@ -44,6 +44,12 @@ test.describe('Counter', () => {
       await page.getByRole('button', { name: 'Increment' }).click();
 
       await expect(page.getByText('Count:')).toHaveText(`Count: ${countNumber + 2}`);
+
+      await page.getByLabel('Increment by').fill('3');
+      await page.getByRole('button', { name: 'Increment' }).isEnabled();
+      await page.getByRole('button', { name: 'Increment' }).click();
+
+      await expect(page.getByText('Count:')).toHaveText(`Count: ${countNumber + 5}`);
     });
   });
 });
