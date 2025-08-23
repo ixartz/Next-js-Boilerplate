@@ -19,7 +19,6 @@
   "Counter": {
     "meta_title": "Counter",
     "meta_description": "An example of DB operation",
-    "loading_counter": "Loading counter...",
     "security_powered_by": "Security, bot detection and rate limiting powered by"
   },
   "CounterForm": {
