@@ -5,8 +5,10 @@ import { createDbConnection } from '@/libs/DB';
 // Create a new and dedicated database connection for running migrations
 const db = createDbConnection();
 
-await migrate(db, {
-  migrationsFolder: path.join(process.cwd(), 'migrations'),
-});
-
-await db.$client.end();
+try {
+  await migrate(db, {
+    migrationsFolder: path.join(process.cwd(), 'migrations'),
+  });
+} finally {
+  await db.$client.end();
+}
