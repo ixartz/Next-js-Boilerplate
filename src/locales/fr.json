@@ -19,7 +19,6 @@
   "Counter": {
     "meta_title": "Compteur",
     "meta_description": "Un exemple d'opération DB",
-    "loading_counter": "Chargement du compteur...",
     "security_powered_by": "Sécurité, détection de bot et rate limiting propulsés par"
   },
   "CounterForm": {
