@@ -15,7 +15,7 @@ const emailChannel = new EmailAlertChannel('email-channel-1', {
 export const config = defineConfig({
   projectName: process.env.CHECKLY_PROJECT_NAME ?? '',
   logicalId: process.env.CHECKLY_LOGICAL_ID ?? '',
-  repoUrl: 'https://github.com/ixartz/Next-js-Boilerplate',
+  repoUrl: 'https://github.com/LineManagement/lineme_fe',
   checks: {
     locations: ['us-east-1', 'eu-west-1'],
     tags: ['website'],
