@@ -1,8 +1,4 @@
-import { getTranslations, setRequestLocale } from 'next-intl/server';
-import Link from 'next/link';
-import { DemoBanner } from '@/components/DemoBanner';
-import { LocaleSwitcher } from '@/components/LocaleSwitcher';
-import { BaseTemplate } from '@/templates/BaseTemplate';
+import { setRequestLocale } from 'next-intl/server';
 
 export default async function Layout(props: {
   children: React.ReactNode;
@@ -10,14 +6,14 @@ export default async function Layout(props: {
 }) {
   const { locale } = await props.params;
   setRequestLocale(locale);
-  const t = await getTranslations({
-    locale,
-    namespace: 'RootLayout',
-  });
+  // const t = await getTranslations({
+  //   locale,
+  //   namespace: 'RootLayout',
+  // });
 
   return (
     <>
-      <DemoBanner />
+      {/* <DemoBanner />
       <BaseTemplate
         leftNav={(
           <>
@@ -88,9 +84,9 @@ export default async function Layout(props: {
             </li>
           </>
         )}
-      >
-        <div className="py-5 text-xl [&_p]:my-6">{props.children}</div>
-      </BaseTemplate>
+      > */}
+      <div className="border-b border-gray-300 py-5 text-xl [&_p]:my-6">{props.children}</div>
+      {/* </BaseTemplate> */}
     </>
   );
 }
