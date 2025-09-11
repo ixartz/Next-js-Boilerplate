@@ -126,8 +126,6 @@ Clone this project and use it to create your own Next.js project. You can check 
         <img src="public/assets/images/nextjs-boilerplate-saas.png?raw=true" alt="Next.js SaaS Boilerplate with React" />
       </a>
     </td>
-  </tr>
-  <tr height="187px">
     <td align="center" width="33%">
       <a href="mailto:contact@creativedesignsguru.com">
         Add your logo here
@@ -633,8 +631,6 @@ See [LICENSE](LICENSE) for more information.
         <img src="public/assets/images/nextjs-boilerplate-saas.png?raw=true" alt="Next.js SaaS Boilerplate with React" />
       </a>
     </td>
-  </tr>
-  <tr height="187px">
     <td align="center" width="33%">
       <a href="mailto:contact@creativedesignsguru.com">
         Add your logo here
