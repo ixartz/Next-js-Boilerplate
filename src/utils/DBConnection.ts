@@ -8,7 +8,6 @@ import * as schema from '@/models/Schema';
 export const createDbConnection = () => {
   const pool = new Pool({
     connectionString: Env.DATABASE_URL,
-    ssl: !Env.DATABASE_URL.includes('localhost') && !Env.DATABASE_URL.includes('127.0.0.1'),
     max: 1,
   });
 
