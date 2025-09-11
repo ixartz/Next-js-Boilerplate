@@ -152,7 +152,6 @@ Developer experience first, extremely flexible code structure and only keep what
 - ✅ Strict Mode for TypeScript and React 19
 - 🔒 Authentication with [Clerk](https://clerk.com?utm_source=github&utm_medium=sponsorship&utm_campaign=nextjs-boilerplate): Sign up, Sign in, Sign out, Forgot password, Reset password, and more.
 - 👤 Passwordless Authentication with Magic Links, Multi-Factor Auth (MFA), Social Auth (Google, Facebook, Twitter, GitHub, Apple, and more), Passwordless login with Passkeys, User Impersonation
-- 🔑 Multi-tenancy, Role-based access control (RBAC), OAuth for Single Sign-On (SSO), Enterprise SSO, SAML, OpenID Connect (OIDC), EASIE, Web 3 (Base, MetaMask, Coinbase Wallet, OKX Wallet)
 - 📦 Type-safe ORM with DrizzleORM, compatible with PostgreSQL, SQLite, and MySQL
 - 💽 Offline and local development database with PGlite
 - ☁️ Remote and production database with [Prisma Postgres](https://www.prisma.io/?via=nextjs-boilerplate)
@@ -197,6 +196,12 @@ Built-in feature from Next.js:
 - ☕ Minify HTML & CSS
 - 💨 Live reload
 - ✅ Cache busting
+
+Optional features (easy to add):
+
+- 🔑 Multi-tenancy, Role-based access control (RBAC)
+- 🔐 OAuth for Single Sign-On (SSO), Enterprise SSO, SAML, OpenID Connect (OIDC), EASIE
+- 🔗 Web 3 (Base, MetaMask, Coinbase Wallet, OKX Wallet)
 
 ### Philosophy
 
