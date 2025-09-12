@@ -14,6 +14,10 @@
 
 Clone this project and use it to create your own Next.js project. You can check out the live demo at [Next.js Boilerplate](https://demo.nextjs-boilerplate.com), which includes a working authentication system.
 
+Deploy Next.js Boilerplate, a full-stack app with Postgres database in minutes:
+
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/nextjs-boilerplate?referralCode=zA3Z43&utm_medium=integration&utm_source=template&utm_campaign=generic)
+
 ## Sponsors
 
 <table width="100%">
