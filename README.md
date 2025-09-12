@@ -244,6 +244,12 @@ npm run dev
 
 Open http://localhost:3000 with your favorite browser to see your project. For your information, the project is already pre-configured with a local database using PGlite. No extra setup is required to run the project locally.
 
+### One-click deployment
+
+Deploy the complete Next.js Boilerplate with a production-ready PostgreSQL database instantly. No configuration required - everything is pre-configured for you:
+
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/nextjs-boilerplate?referralCode=zA3Z43&utm_medium=integration&utm_source=template&utm_campaign=generic)
+
 ### Set up authentication
 
 To get started, you will need to create a Clerk account at [Clerk.com](https://clerk.com?utm_source=github&utm_medium=sponsorship&utm_campaign=nextjs-boilerplate) and create a new application in the Clerk Dashboard. Once you have done that, copy the `NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY` and `CLERK_SECRET_KEY` values and add them to the `.env.local` file (not tracked by Git):
