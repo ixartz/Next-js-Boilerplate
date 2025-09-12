@@ -14,6 +14,10 @@
 
 Clone this project and use it to create your own Next.js project. You can check out the live demo at [Next.js Boilerplate](https://demo.nextjs-boilerplate.com), which includes a working authentication system.
 
+🌟 **One-Click Deployment:** Deploy the complete Next.js Boilerplate with a PostgreSQL database instantly. No configuration required - everything is pre-configured for you:
+
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/nextjs-boilerplate?referralCode=zA3Z43&utm_medium=integration&utm_source=template&utm_campaign=generic)
+
 ## Sponsors
 
 <table width="100%">
@@ -239,6 +243,12 @@ npm run dev
 [![Run the command in Warp](public/assets/images/warp-banner.png)](https://go.warp.dev/nextjs-bp)
 
 Open http://localhost:3000 with your favorite browser to see your project. For your information, the project is already pre-configured with a local database using PGlite. No extra setup is required to run the project locally.
+
+### One-click deployment
+
+The Next.js Boilerplate includes everything you need: authentication system, database configuration, internationalization (i18n), monitoring, logging and more. Simply click the button below to get your full-stack application running in minutes:
+
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/nextjs-boilerplate?referralCode=zA3Z43&utm_medium=integration&utm_source=template&utm_campaign=generic)
 
 ### Set up authentication
 
