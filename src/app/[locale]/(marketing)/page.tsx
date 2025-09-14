@@ -49,7 +49,7 @@ export default async function Index(props: IIndexProps) {
         {/* Hero Section */}
         <main className="container mx-auto px-4 py-12">
           <div className="mb-12 text-center">
-            <h2 className="mb-4 text-4xl font-bold text-balance text-foreground">Smart Queue Management Made Simple</h2>
+            <h2 className="mb-4 text-4xl font-bold text-black">Smart Queue Management Made Simple</h2>
             <p className="mx-auto mb-8 max-w-2xl text-xl text-pretty text-muted-foreground">
               Streamline your business operations with our professional queue management system. Reduce wait times,
               improve customer satisfaction, and boost efficiency.
