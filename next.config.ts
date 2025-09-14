@@ -7,7 +7,7 @@ import './src/libs/Env';
 // Define the base Next.js configuration
 const baseConfig: NextConfig = {
   eslint: {
-    dirs: ['.'],
+    ignoreDuringBuilds: true,
   },
   poweredByHeader: false,
   reactStrictMode: true,

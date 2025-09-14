@@ -7,8 +7,10 @@
  */
 const config = {
   plugins: {
-    // Add Tailwind CSS support
+    // Add Tailwind CSS v4 support
     '@tailwindcss/postcss': {},
+    // Add autoprefixer for better browser compatibility
+    'autoprefixer': {},
   },
 };
 
