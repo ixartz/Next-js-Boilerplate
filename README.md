@@ -14,9 +14,9 @@
 
 Clone this project and use it to create your own Next.js project. You can check out the live demo at [Next.js Boilerplate](https://demo.nextjs-boilerplate.com), which includes a working authentication system.
 
-🌟 **One-Click Deployment:** Deploy the complete Next.js Boilerplate with a PostgreSQL database instantly. No configuration required - everything is pre-configured for you:
+🌟 **Free One-Click Deployment:** Deploy the complete Next.js Boilerplate with a PostgreSQL database instantly. No configuration required - start with a free plan - everything is pre-configured for you:
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/nextjs-boilerplate?referralCode=zA3Z43&utm_medium=integration&utm_source=template&utm_campaign=generic)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/nextjs-boilerplate?referralCode=zA3Z43&utm_medium=integration&utm_source=template&utm_campaign=generic) <sub>— starts free</sub>
 
 ## Sponsors
 
@@ -246,9 +246,9 @@ Open http://localhost:3000 with your favorite browser to see your project. For y
 
 ### One-click deployment
 
-The Next.js Boilerplate includes everything you need: authentication system, database configuration, internationalization (i18n), monitoring, logging and more. Simply click the button below to get your full-stack application running in minutes:
+The Next.js Boilerplate includes everything you need: authentication system, database configuration, internationalization (i18n), monitoring, logging and more. Simply click the button below to get your full-stack application running in minutes for free:
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/nextjs-boilerplate?referralCode=zA3Z43&utm_medium=integration&utm_source=template&utm_campaign=generic)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/nextjs-boilerplate?referralCode=zA3Z43&utm_medium=integration&utm_source=template&utm_campaign=generic) <sub>— starts free</sub>
 
 ### Set up authentication
 
