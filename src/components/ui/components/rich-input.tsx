@@ -94,7 +94,7 @@ const InsertImageForm = ({ onInsert }: InsertImageProps) => {
             <FormItem>
               <FormLabel>URL</FormLabel>
               <FormControl>
-                <Input placeholder="https://..." {...field} />
+                <Input placeholder="https://..." {...field} ref={undefined} />
               </FormControl>
               <FormMessage />
             </FormItem>
@@ -108,7 +108,7 @@ const InsertImageForm = ({ onInsert }: InsertImageProps) => {
             <FormItem>
               <FormLabel>Description</FormLabel>
               <FormControl>
-                <Input {...field} />
+                <Input {...field} ref={undefined} />
               </FormControl>
             </FormItem>
           )}

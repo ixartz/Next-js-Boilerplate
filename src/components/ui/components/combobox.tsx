@@ -65,7 +65,7 @@ const handleMultipleSelect = (props: ComboboxPropsMultiple, option: ComboboxOpti
   }
 };
 
-export const Combobox = ({ ref, ...props }) => {
+export const Combobox = (props: ComboboxProps) => {
   const [open, setOpen] = useState(false);
 
   return (
@@ -85,7 +85,7 @@ export const Combobox = ({ ref, ...props }) => {
             {!props.multiple
               && props.value
               && props.value !== ''
-              && props.options.find(option => option.value === props.value)?.label}
+              && props.options.find((option: ComboboxOption) => option.value === props.value)?.label}
 
             {!props.value
               || (props.value.length === 0 && (props.selectPlaceholder ?? 'Select an option'))}
@@ -101,19 +101,18 @@ export const Combobox = ({ ref, ...props }) => {
       <PopoverContent align="start" className="p-0">
         <Command>
           <CommandInput
-            ref={ref}
             placeholder={props.searchPlaceholder ?? 'Search for an option'}
           />
           <CommandList>
             <CommandEmpty>{props.emptyText ?? 'No results found'}</CommandEmpty>
             <CommandGroup>
-              {props.options.map(option => (
+              {props.options.map((option: ComboboxOption) => (
                 <CommandItem
                   key={option.value}
                   value={option.value.toLowerCase().trim()}
                   onSelect={(selectedValue: string) => {
                     const option = props.options.find(
-                      option => option.value.toLowerCase().trim() === selectedValue,
+                      (option: ComboboxOption) => option.value.toLowerCase().trim() === selectedValue,
                     );
 
                     if (!option) {
@@ -121,9 +120,9 @@ export const Combobox = ({ ref, ...props }) => {
                     }
 
                     if (props.multiple) {
-                      handleMultipleSelect(props, option);
+                      handleMultipleSelect(props as ComboboxPropsMultiple, option);
                     } else {
-                      handleSingleSelect(props, option);
+                      handleSingleSelect(props as ComboboxPropsSingle, option);
 
                       setOpen(false);
                     }
