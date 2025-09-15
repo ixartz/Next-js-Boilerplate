@@ -32,10 +32,10 @@ export default function Home() {
             </div>
             <div className="animate-fade-in-up animation-delay-600 mt-10 flex items-center justify-center gap-x-6">
               <Button size="lg" className="transform border-0 bg-gradient-to-r from-emerald-500 to-sky-500 text-white shadow-lg transition-all duration-300 hover:scale-105 hover:from-emerald-600 hover:to-sky-600 hover:shadow-xl" asChild>
-                <Link href="/dashboard">Get Started</Link>
+                <Link href="/apps">Get Started</Link>
               </Button>
               <Button variant="outline" size="lg" className="border-2 border-sky-500 text-sky-600 transition-all duration-300 hover:scale-105 hover:bg-sky-500 hover:text-white" asChild>
-                <Link href="/demo">Watch Demo</Link>
+                <Link href="#">Watch Demo</Link>
               </Button>
             </div>
           </div>

@@ -1,4 +1,3 @@
-/* eslint-disable lingui/no-unlocalized-strings */
 'use client';
 import { HandHeart } from '@phosphor-icons/react';
 import { motion } from 'framer-motion';

@@ -10,7 +10,7 @@ export const Footer = () => (
 
     <div className="container grid py-12 sm:grid-cols-3 lg:grid-cols-4">
       <div className="flex flex-col gap-y-2">
-        <Logo size={96} className="-ml-2" />
+        <Logo size="lg" className="-ml-2" />
 
         <h2 className="text-xl font-medium">Reactive Resume</h2>
 

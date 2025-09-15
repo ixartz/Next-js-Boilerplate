@@ -74,6 +74,7 @@
     "tailwind-merge": "^3.3.1",
     "unique-names-generator": "^4.7.1",
     "use-breakpoint": "^4.0.6",
+    "use-keyboard-shortcut": "^1.1.6",
     "usehooks-ts": "^3.1.1",
     "zod": "^4.0.17"
   },

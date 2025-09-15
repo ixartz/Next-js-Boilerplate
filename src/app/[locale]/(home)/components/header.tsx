@@ -1,9 +1,6 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import Link from 'next/link';
-
-import { Logo } from '@/components/logo';
 
 // import { DonationBanner } from "./donation-banner";
 
@@ -17,9 +14,9 @@ export const Header = () => (
 
     <div className="bg-gradient-to-b from-background to-transparent py-3">
       <div className="container flex items-center justify-between">
-        <Link href="/">
-          <Logo size={48} />
-        </Link>
+        {/* <Link href="/">
+          <Logo size="lg" />
+        </Link> */}
         <div />
       </div>
     </div>
