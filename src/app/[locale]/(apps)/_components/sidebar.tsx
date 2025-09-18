@@ -9,6 +9,7 @@ import useKeyboardShortcut from 'use-keyboard-shortcut';
 import { Logo } from '@/components/logo';
 import { Button, KeyboardShortcut, Separator } from '@/components/ui';
 
+import { UserProfile } from '@/components/UserProfile';
 import { cn } from '@/utils';
 
 type Props = {
@@ -142,7 +143,7 @@ export const Sidebar = ({ setOpen }: SidebarProps) => {
       <div className="flex-1" />
 
       <Separator className="opacity-50" />
-
+      <UserProfile />
     </div>
   );
 };

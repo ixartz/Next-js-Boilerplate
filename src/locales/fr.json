@@ -55,9 +55,44 @@
     "meta_title": "Se connecter",
     "meta_description": "Connectez-vous à votre compte avec facilité."
   },
+  "LoginForm": {
+    "title": "Bon retour",
+    "subtitle": "Connectez-vous à votre compte",
+    "email_label": "Adresse e-mail",
+    "email_placeholder": "Entrez votre e-mail",
+    "password_label": "Mot de passe",
+    "password_placeholder": "Entrez votre mot de passe",
+    "sign_in_button": "Se connecter",
+    "signing_in_button": "Connexion en cours...",
+    "forgot_password": "Mot de passe oublié ?",
+    "no_account": "Vous n'avez pas de compte ?",
+    "sign_up_link": "S'inscrire",
+    "error_invalid_credentials": "E-mail ou mot de passe invalide",
+    "error_network": "Erreur réseau. Veuillez réessayer.",
+    "error_generic": "Une erreur s'est produite. Veuillez réessayer."
+  },
   "SignUp": {
     "meta_title": "S'inscrire",
     "meta_description": "Créez un compte facilement grâce à notre processus d'inscription intuitif."
+  },
+  "RegisterForm": {
+    "title": "Créer votre compte",
+    "subtitle": "Inscrivez-vous pour commencer",
+    "fullname_label": "Nom complet",
+    "fullname_placeholder": "Entrez votre nom complet",
+    "email_label": "Adresse e-mail",
+    "email_placeholder": "Entrez votre e-mail",
+    "password_label": "Mot de passe",
+    "password_placeholder": "Créez un mot de passe",
+    "confirm_password_label": "Confirmer le mot de passe",
+    "confirm_password_placeholder": "Confirmez votre mot de passe",
+    "register_button": "Créer un compte",
+    "registering_button": "Création du compte...",
+    "have_account": "Vous avez déjà un compte ?",
+    "sign_in_link": "Se connecter",
+    "error_generic": "Une erreur s'est produite. Veuillez réessayer.",
+    "error_email_exists": "Un compte avec cet e-mail existe déjà.",
+    "error_network": "Erreur réseau. Veuillez réessayer."
   },
   "Dashboard": {
     "meta_title": "Tableau de bord",

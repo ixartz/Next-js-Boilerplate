@@ -60,3 +60,7 @@ build-archive.log
 /test-results/
 /playwright-report/
 /playwright/.cache/
+
+# vscode
+.vscode
+.env
