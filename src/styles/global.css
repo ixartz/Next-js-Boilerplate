@@ -1,3 +1,211 @@
-@layer theme, base, clerk, components, utilities; /* Ensure Clerk is compatible with Tailwind CSS v4 */
-
 @import 'tailwindcss';
+
+/* Import IBM Plex Sans font */
+@import '@fontsource/ibm-plex-sans/400.css';
+@import '@fontsource/ibm-plex-sans/400-italic.css';
+@import '@fontsource/ibm-plex-sans/500.css';
+@import '@fontsource/ibm-plex-sans/500-italic.css';
+@import '@fontsource/ibm-plex-sans/600.css';
+@import '@fontsource/ibm-plex-sans/600-italic.css';
+
+@theme {
+  /* Color Palette - Zinc */
+  --color-zinc-50: oklch(0.985 0.002 106.423);
+  --color-zinc-100: oklch(0.958 0.006 106.423);
+  --color-zinc-200: oklch(0.898 0.013 106.423);
+  --color-zinc-300: oklch(0.837 0.013 106.423);
+  --color-zinc-400: oklch(0.648 0.013 106.423);
+  --color-zinc-500: oklch(0.459 0.009 106.423);
+  --color-zinc-600: oklch(0.337 0.013 106.423);
+  --color-zinc-700: oklch(0.259 0.015 106.423);
+  --color-zinc-800: oklch(0.157 0.009 106.423);
+  --color-zinc-900: oklch(0.098 0.013 106.423);
+  --color-zinc-950: oklch(0.037 0.024 106.423);
+
+  /* Color Palette - Rose */
+  --color-rose-50: oklch(0.971 0.013 17.38);
+  --color-rose-100: oklch(0.946 0.027 17.38);
+  --color-rose-200: oklch(0.898 0.058 17.38);
+  --color-rose-300: oklch(0.816 0.108 17.38);
+  --color-rose-400: oklch(0.712 0.151 17.38);
+  --color-rose-500: oklch(0.602 0.174 17.38);
+  --color-rose-600: oklch(0.497 0.174 17.38);
+  --color-rose-700: oklch(0.407 0.153 17.38);
+  --color-rose-800: oklch(0.347 0.123 17.38);
+  --color-rose-900: oklch(0.303 0.107 17.38);
+  --color-rose-950: oklch(0.155 0.068 17.38);
+
+  /* Color Palette - Emerald */
+  --color-emerald-50: oklch(0.958 0.016 157.72);
+  --color-emerald-100: oklch(0.898 0.042 157.72);
+  --color-emerald-200: oklch(0.802 0.074 157.72);
+  --color-emerald-300: oklch(0.668 0.114 157.72);
+  --color-emerald-400: oklch(0.515 0.144 157.72);
+  --color-emerald-500: oklch(0.393 0.166 157.72);
+  --color-emerald-600: oklch(0.303 0.146 157.72);
+  --color-emerald-700: oklch(0.242 0.131 157.72);
+  --color-emerald-800: oklch(0.197 0.108 157.72);
+  --color-emerald-900: oklch(0.164 0.089 157.72);
+  --color-emerald-950: oklch(0.089 0.068 157.72);
+
+  /* Color Palette - Sky */
+  --color-sky-50: oklch(0.97 0.014 231.81);
+  --color-sky-100: oklch(0.936 0.028 231.81);
+  --color-sky-200: oklch(0.86 0.059 231.81);
+  --color-sky-300: oklch(0.738 0.099 231.81);
+  --color-sky-400: oklch(0.595 0.139 231.81);
+  --color-sky-500: oklch(0.484 0.132 231.81);
+  --color-sky-600: oklch(0.394 0.137 231.81);
+  --color-sky-700: oklch(0.322 0.124 231.81);
+  --color-sky-800: oklch(0.274 0.094 231.81);
+  --color-sky-900: oklch(0.238 0.074 231.81);
+  --color-sky-950: oklch(0.158 0.049 231.81);
+
+  /* Color Palette - Amber */
+  --color-amber-50: oklch(0.96 0.026 89.66);
+  --color-amber-100: oklch(0.887 0.068 89.66);
+  --color-amber-200: oklch(0.766 0.108 89.66);
+  --color-amber-300: oklch(0.644 0.135 89.66);
+  --color-amber-400: oklch(0.562 0.148 89.66);
+  --color-amber-500: oklch(0.501 0.142 89.66);
+  --color-amber-600: oklch(0.436 0.126 89.66);
+  --color-amber-700: oklch(0.37 0.106 89.66);
+  --color-amber-800: oklch(0.313 0.084 89.66);
+  --color-amber-900: oklch(0.264 0.069 89.66);
+  --color-amber-950: oklch(0.14 0.041 89.66);
+
+  /* Semantic Colors - Light Mode */
+  --color-background: var(--color-zinc-50);
+  --color-foreground: var(--color-zinc-950);
+  --color-border: var(--color-zinc-200);
+  --color-input: var(--color-zinc-200);
+  --color-ring: var(--color-zinc-950);
+
+  --color-primary: var(--color-zinc-900);
+  --color-primary-foreground: var(--color-zinc-50);
+
+  --color-secondary: var(--color-zinc-100);
+  --color-secondary-foreground: var(--color-zinc-900);
+
+  --color-destructive: var(--color-rose-500);
+  --color-destructive-foreground: var(--color-rose-50);
+
+  --color-muted: var(--color-zinc-100);
+  --color-muted-foreground: var(--color-zinc-500);
+
+  --color-accent: var(--color-zinc-100);
+  --color-accent-foreground: var(--color-zinc-900);
+
+  --color-popover: var(--color-zinc-50);
+  --color-popover-foreground: var(--color-zinc-950);
+
+  --color-card: var(--color-zinc-50);
+  --color-card-foreground: var(--color-zinc-950);
+
+  /* Border Radius */
+  --radius-lg: 0.5rem;
+  --radius-md: calc(var(--radius-lg) - 2px);
+  --radius-sm: calc(var(--radius-lg) - 4px);
+
+  /* Font Family */
+  --font-sans:
+    'IBM Plex Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
+    'Noto Color Emoji';
+}
+
+@layer base {
+  * {
+    border-color: theme(colors.border);
+  }
+
+  body {
+    background-color: theme(colors.background);
+    color: theme(colors.foreground);
+    font-family: 'IBM Plex Sans', ui-sans-serif, system-ui, sans-serif;
+  }
+}
+
+/* Custom Animations */
+@layer utilities {
+  @keyframes fade-in-up {
+    0% {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes gradient-x {
+    0%,
+    100% {
+      background-size: 200% 200%;
+      background-position: left center;
+    }
+    50% {
+      background-size: 200% 200%;
+      background-position: right center;
+    }
+  }
+
+  @keyframes float {
+    0%,
+    100% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+  }
+
+  @keyframes spin-slow {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  .animate-fade-in-up {
+    animation: fade-in-up 0.8s ease-out forwards;
+  }
+
+  .animate-gradient-x {
+    animation: gradient-x 15s ease infinite;
+  }
+
+  .animate-float {
+    animation: float 6s ease-in-out infinite;
+  }
+
+  .animate-spin-slow {
+    animation: spin-slow 20s linear infinite;
+  }
+
+  .animation-delay-300 {
+    animation-delay: 300ms;
+  }
+
+  .animation-delay-600 {
+    animation-delay: 600ms;
+  }
+
+  .animation-delay-900 {
+    animation-delay: 900ms;
+  }
+
+  .animation-delay-1000 {
+    animation-delay: 1000ms;
+  }
+
+  .animation-delay-1200 {
+    animation-delay: 1200ms;
+  }
+
+  .animation-delay-2000 {
+    animation-delay: 2000ms;
+  }
+}

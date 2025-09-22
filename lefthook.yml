@@ -1,18 +1,42 @@
-# Validate commit messages
-commit-msg:
-  commands:
-    commitlint:
-      run: npx --no -- commitlint --edit {1}
-
-# Validate content before committing
-pre-commit:
-  commands:
-    lint:
-      glob: '*'
-      run: npx --no -- eslint --fix --no-warn-ignored
-      stage_fixed: true
-      priority: 1
-    check-types:
-      glob: '*.{ts,tsx}'
-      run: npm run check:types
-      priority: 2
+# EXAMPLE USAGE:
+#
+#   Refer for explanation to following link:
+#   https://lefthook.dev/configuration/
+#
+# pre-push:
+#   jobs:
+#     - name: packages audit
+#       tags:
+#         - frontend
+#         - security
+#       run: yarn audit
+#
+#     - name: gems audit
+#       tags:
+#         - backend
+#         - security
+#       run: bundle audit
+#
+# pre-commit:
+#   parallel: true
+#   jobs:
+#     - run: yarn eslint {staged_files}
+#       glob: "*.{js,ts,jsx,tsx}"
+#
+#     - name: rubocop
+#       glob: "*.rb"
+#       exclude:
+#         - config/application.rb
+#         - config/routes.rb
+#       run: bundle exec rubocop --force-exclusion {all_files}
+#
+#     - name: govet
+#       files: git ls-files -m
+#       glob: "*.go"
+#       run: go vet {files}
+#
+#     - script: "hello.js"
+#       runner: node
+#
+#     - script: "hello.go"
+#       runner: go run

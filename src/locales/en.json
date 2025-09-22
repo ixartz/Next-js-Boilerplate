@@ -55,9 +55,44 @@
     "meta_title": "Sign in",
     "meta_description": "Seamlessly sign in to your account with our user-friendly login process."
   },
+  "LoginForm": {
+    "title": "Welcome back",
+    "subtitle": "Sign in to your account",
+    "email_label": "Email address",
+    "email_placeholder": "Enter your email",
+    "password_label": "Password",
+    "password_placeholder": "Enter your password",
+    "sign_in_button": "Sign in",
+    "signing_in_button": "Signing in...",
+    "forgot_password": "Forgot your password?",
+    "no_account": "Don't have an account?",
+    "sign_up_link": "Sign up",
+    "error_invalid_credentials": "Invalid email or password",
+    "error_network": "Network error. Please try again.",
+    "error_generic": "Something went wrong. Please try again."
+  },
   "SignUp": {
     "meta_title": "Sign up",
     "meta_description": "Effortlessly create an account through our intuitive sign-up process."
+  },
+  "RegisterForm": {
+    "title": "Create your account",
+    "subtitle": "Sign up to get started",
+    "fullname_label": "Full name",
+    "fullname_placeholder": "Enter your full name",
+    "email_label": "Email address",
+    "email_placeholder": "Enter your email",
+    "password_label": "Password",
+    "password_placeholder": "Create a password",
+    "confirm_password_label": "Confirm password",
+    "confirm_password_placeholder": "Confirm your password",
+    "register_button": "Create account",
+    "registering_button": "Creating account...",
+    "have_account": "Already have an account?",
+    "sign_in_link": "Sign in",
+    "error_generic": "Something went wrong. Please try again.",
+    "error_email_exists": "An account with this email already exists.",
+    "error_network": "Network error. Please try again."
   },
   "Dashboard": {
     "meta_title": "Dashboard",

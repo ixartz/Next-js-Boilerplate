@@ -59,7 +59,11 @@
     "baseUrl": ".",
     "paths": {
       "@/*": ["./src/*"],
-      "@/public/*": ["./public/*"]
+      "@/public/*": ["./public/*"],
+      "@ui/*": ["./src/components/ui/*"],
+      "@schemas/*": ["./src/schemas/*"],
+      "@constants/*": ["./src/constants/*"],
+      "@services/*": ["./src/services/*"]
     },
 
     // ======================================================================

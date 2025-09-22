@@ -3,8 +3,9 @@ import { hasLocale, NextIntlClientProvider } from 'next-intl';
 import { setRequestLocale } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import { PostHogProvider } from '@/components/analytics/PostHogProvider';
-import { DemoBadge } from '@/components/DemoBadge';
+import { Toaster } from '@/components/toaster';
 import { routing } from '@/libs/I18nRouting';
+import { QueryProvider } from '@/providers/QueryProvider';
 import '@/styles/global.css';
 
 export const metadata: Metadata = {
@@ -49,13 +50,15 @@ export default async function RootLayout(props: {
   setRequestLocale(locale);
 
   return (
-    <html lang={locale}>
-      <body>
+    <html lang={locale} suppressHydrationWarning>
+      <body className="bg-background text-sm text-foreground antialiased print:m-0 print:bg-white">
         <NextIntlClientProvider>
-          <PostHogProvider>
-            {props.children}
-          </PostHogProvider>
-          <DemoBadge />
+          <QueryProvider>
+            <PostHogProvider>
+              {props.children}
+              <Toaster />
+            </PostHogProvider>
+          </QueryProvider>
         </NextIntlClientProvider>
       </body>
     </html>
