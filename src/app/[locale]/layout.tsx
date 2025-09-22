@@ -3,6 +3,7 @@ import { hasLocale, NextIntlClientProvider } from 'next-intl';
 import { setRequestLocale } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import { PostHogProvider } from '@/components/analytics/PostHogProvider';
+import { Toaster } from '@/components/toaster';
 import { routing } from '@/libs/I18nRouting';
 import { QueryProvider } from '@/providers/QueryProvider';
 import '@/styles/global.css';
@@ -55,6 +56,7 @@ export default async function RootLayout(props: {
           <QueryProvider>
             <PostHogProvider>
               {props.children}
+              <Toaster />
             </PostHogProvider>
           </QueryProvider>
         </NextIntlClientProvider>

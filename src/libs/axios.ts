@@ -2,6 +2,7 @@ import type { ApiResponse, RefreshResponse } from '@services/types';
 import type { AxiosResponse, InternalAxiosRequestConfig } from 'axios';
 import { API_BASE_URL, API_ENDPOINTS, REQUEST_TIMEOUT } from '@constants/api';
 import axios from 'axios';
+import { toast } from '@/hooks/use-toast';
 import { tokenStorage } from './cookies';
 
 // Re-export tokenStorage for backward compatibility
@@ -112,6 +113,11 @@ axiosInstance.interceptors.response.use(
       }
     }
 
+    toast({
+      title: 'Please try again',
+      description: (error as any).response?.data?.message,
+      variant: 'error',
+    });
     return Promise.reject(error);
   },
 );

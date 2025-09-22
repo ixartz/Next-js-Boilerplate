@@ -127,6 +127,7 @@ const InsertImageForm = ({ onInsert }: InsertImageProps) => {
 const Toolbar = ({ editor }: { editor: Editor }) => {
   const setLink = useCallback(() => {
     const previousUrl = editor.getAttributes('link').href;
+    // eslint-disable-next-line no-alert
     const url = window.prompt('URL', previousUrl);
 
     // cancelled

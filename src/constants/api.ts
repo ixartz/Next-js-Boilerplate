@@ -25,6 +25,14 @@ export const API_ENDPOINTS = {
     CHANGE_PASSWORD: '/api/v1/user/change-password',
   },
 
+  AI: {
+    FIND_PRODUCT_SPECIFICATIONS: '/api/v1/ai/find-product-specifications',
+  },
+
+  ANALYSIS: {
+    CREATE: '/api/v1/database/product-specifications',
+  },
+
   // App-specific endpoints (add your own here)
   APPS: {
     ANALYZE: '/api/v1/apps/analyze',
@@ -49,4 +57,4 @@ export const HTTP_STATUS = {
 } as const;
 
 // Request timeout in milliseconds
-export const REQUEST_TIMEOUT = 10000; // 10 seconds
+export const REQUEST_TIMEOUT = 1000000; // 10 seconds

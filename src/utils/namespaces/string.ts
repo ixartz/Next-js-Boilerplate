@@ -4,12 +4,12 @@ import sanitizeHtml from 'sanitize-html';
 
 import { adjectives, animals, uniqueNamesGenerator } from 'unique-names-generator';
 
-export const getInitials = (name: string) => {
-  const regex = new RegExp(/(\p{L})\p{L}+/gu);
-  const initials = [...name.matchAll(regex)];
+// export const getInitials = (name: string) => {
+//   const regex = /(\p{L})\p{L}*/gu;
+//   const initials = [...name.matchAll(regex)];
 
-  return ((initials.shift()?.[1] ?? '') + (initials.pop()?.[1] ?? '')).toUpperCase();
-};
+//   return ((initials.shift()?.[1] ?? '') + (initials.pop()?.[1] ?? '')).toUpperCase();
+// };
 
 export const isUrl = (string: string | null | undefined) => {
   if (!string) {

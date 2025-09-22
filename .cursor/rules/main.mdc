@@ -1,0 +1,11 @@
+---
+description:
+globs:
+alwaysApply: true
+IMPORTANT: Use English only for all communication and tasks.
+
+- Always respond in English, regardless of the user's language
+- Write all code comments, variable names, and documentation in English
+- Use English for all log messages, error messages, and console output
+- Never use any other language for any part of the response or code
+---

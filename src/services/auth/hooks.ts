@@ -35,8 +35,8 @@ export const useLogin = () => {
         throw new Error(data.message || 'Login failed');
       }
     },
-    onError: (error: ApiError) => {
-      console.error('Login error:', error);
+    onError: (error: any) => {
+      throw new Error(error?.response?.data?.message);
     },
   });
 };

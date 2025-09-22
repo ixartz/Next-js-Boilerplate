@@ -25,7 +25,7 @@ export const LoginForm = () => {
   });
 
   const handleLogin = form.handleSubmit(async (data) => {
-    loginMutation.mutate(data);
+    loginMutation.mutateAsync(data);
   });
 
   return (
@@ -86,7 +86,7 @@ export const LoginForm = () => {
 
           {loginMutation.error && (
             <div className="rounded-md border border-red-200 bg-red-50 p-3 text-sm text-red-600">
-              {loginMutation.error.message || t('error_generic')}
+              {loginMutation.error.response?.data?.message || t('error_generic')}
             </div>
           )}
 
