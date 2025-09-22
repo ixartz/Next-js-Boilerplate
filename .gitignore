@@ -32,8 +32,9 @@ yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
 
-# local env files
-.env*.local
+# Environment variables
+.env
+.env.*
 
 # Sentry Config File
 .env.sentry-build-plugin
@@ -60,7 +61,3 @@ build-archive.log
 /test-results/
 /playwright-report/
 /playwright/.cache/
-
-# vscode
-.vscode
-.env
