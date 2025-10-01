@@ -2,7 +2,6 @@
 // The added config here will be used whenever a users loads a page in their browser.
 // https://docs.sentry.io/platforms/javascript/guides/nextjs/
 import * as Sentry from '@sentry/nextjs';
-import * as Spotlight from '@spotlightjs/spotlight';
 
 if (!process.env.NEXT_PUBLIC_SENTRY_DISABLED) {
   Sentry.init({
@@ -12,6 +11,11 @@ if (!process.env.NEXT_PUBLIC_SENTRY_DISABLED) {
     integrations: [
       Sentry.replayIntegration(),
       Sentry.consoleLoggingIntegration(),
+      Sentry.browserTracingIntegration(),
+
+      ...(process.env.NODE_ENV === 'development'
+        ? [Sentry.spotlightBrowserIntegration()]
+        : []),
     ],
 
     // Adds request headers and IP for users, for more info visit
@@ -29,15 +33,11 @@ if (!process.env.NEXT_PUBLIC_SENTRY_DISABLED) {
     replaysOnErrorSampleRate: 1.0,
 
     // Enable logs to be sent to Sentry
-    _experiments: { enableLogs: true },
+    enableLogs: true,
 
     // Setting this option to true will print useful information to the console while you're setting up Sentry.
     debug: false,
   });
-
-  if (process.env.NODE_ENV === 'development') {
-    Spotlight.init();
-  }
 }
 
 export const onRouterTransitionStart = Sentry.captureRouterTransitionStart;
