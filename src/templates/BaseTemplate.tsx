@@ -41,10 +41,10 @@ export const BaseTemplate = (props: {
           {t.rich('made_with', {
             author: () => (
               <a
-                href="https://creativedesignsguru.com"
+                href="https://nextjs-boilerplate.com"
                 className="text-blue-700 hover:border-b-2 hover:border-blue-700"
               >
-                CreativeDesignsGuru
+                Next.js Boilerplate
               </a>
             ),
           })}

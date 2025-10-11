@@ -29,7 +29,7 @@ describe('Base template', () => {
       expect(menuItemList.elements()).toHaveLength(3);
     });
 
-    it('should have a link to support creativedesignsguru.com', () => {
+    it('should have a link to support nextjs-boilerplate.com', () => {
       render(
         <NextIntlClientProvider locale="en" messages={messages}>
           <BaseTemplate leftNav={<li>1</li>}>{null}</BaseTemplate>
@@ -47,7 +47,7 @@ describe('Base template', () => {
        */
       expect(copyrightLink).toHaveAttribute(
         'href',
-        'https://creativedesignsguru.com',
+        'https://nextjs-boilerplate.com',
       );
     });
   });
