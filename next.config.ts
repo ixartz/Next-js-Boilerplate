@@ -9,6 +9,9 @@ const baseConfig: NextConfig = {
   eslint: {
     dirs: ['.'],
   },
+  devIndicators: {
+    position: 'bottom-right',
+  },
   poweredByHeader: false,
   reactStrictMode: true,
   outputFileTracingIncludes: {
