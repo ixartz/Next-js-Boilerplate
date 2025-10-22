@@ -8,7 +8,7 @@
     "dev:spotlight": "npx @spotlightjs/spotlight",
     "dev:next": "next dev",
     "dev": "run-p db-server:file dev:*",
-    "build:next": "next build",
+    "build:next": "next build --webpack",
     "build": "run-p db-server:memory build:* --race",
     "start": "next start",
     "build-stats": "cross-env ANALYZE=true npm run build",
