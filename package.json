@@ -38,6 +38,7 @@
     "@logtape/logtape": "^1.1.2",
     "@sentry/nextjs": "^10.21.0",
     "@t3-oss/env-nextjs": "^0.13.8",
+    "babel-plugin-react-compiler": "^1.0.0",
     "drizzle-orm": "^0.44.6",
     "next": "^16.0.0",
     "next-intl": "^4.3.12",

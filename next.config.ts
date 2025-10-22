@@ -11,8 +11,12 @@ const baseConfig: NextConfig = {
   },
   poweredByHeader: false,
   reactStrictMode: true,
+  reactCompiler: true,
   outputFileTracingIncludes: {
     '/': ['./migrations/**/*'],
+  },
+  experimental: {
+    turbopackFileSystemCacheForDev: true,
   },
 };
 
