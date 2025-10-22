@@ -1,4 +1,5 @@
-/* eslint-disable jsonc/sort-keys */{
+/* eslint-disable jsonc/sort-keys */
+{
   "compilerOptions": {
     // ======================================================================
     // Language & Environment
@@ -67,7 +68,7 @@
     // Next.js Project Configuration
     // Controls settings specific to Next.js framework
     // ======================================================================
-    "jsx": "react-jsx", // Preserve JSX for Next.js transformation
+    "jsx": "react-jsx", // Uses the React automatic runtime
     "incremental": true, // Enable faster incremental builds
     "noEmit": true, // Skip emitting files (Next.js handles this)
     "plugins": [
