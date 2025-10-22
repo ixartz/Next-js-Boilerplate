@@ -43,6 +43,7 @@
     "next": "^16.0.0",
     "next-intl": "^4.3.12",
     "pg": "^8.16.3",
+    "posthog-js": "^1.279.3",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
     "react-hook-form": "^7.65.0",
