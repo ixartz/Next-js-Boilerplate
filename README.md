@@ -225,7 +225,7 @@ Run the following command on your local environment:
 ```shell
 git clone --depth=1 https://github.com/ixartz/Next-js-Boilerplate.git my-project-name
 cd my-project-name
-npm install
+npm install --force # Temporary fix for Next.js 16 (released recently)
 ```
 
 For your information, all dependencies are updated every month.
