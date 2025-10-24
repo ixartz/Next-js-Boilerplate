@@ -29,7 +29,7 @@ runs:
     - name: Install dependencies
       if: steps.cache-node-modules.outputs.cache-hit != 'true'
       shell: bash
-      run: npm ci --force
+      run: npm ci
 
     - name: Restore Next.js build output
       if: inputs.restore-nextjs-cache == 'true'
