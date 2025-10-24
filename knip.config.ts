@@ -1,7 +1,6 @@
 import type { KnipConfig } from 'knip';
 
 const config: KnipConfig = {
-  entry: ['src/proxy.ts'], // Add proxy.ts support after upgrading to Next.js 16
   // Files to exclude from Knip analysis
   ignore: [
     'checkly.config.ts',
