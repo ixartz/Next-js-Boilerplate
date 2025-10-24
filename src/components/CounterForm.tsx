@@ -11,7 +11,7 @@ export const CounterForm = () => {
   const form = useForm({
     resolver: zodResolver(CounterValidation),
     defaultValues: {
-      increment: 0,
+      increment: 1,
     },
   });
   const router = useRouter();
@@ -26,7 +26,6 @@ export const CounterForm = () => {
     });
     await response.json();
 
-    form.reset();
     router.refresh();
   });
 
@@ -40,7 +39,7 @@ export const CounterForm = () => {
             id="increment"
             type="number"
             className="ml-2 w-32 appearance-none rounded-sm border border-gray-200 px-2 py-1 text-sm leading-tight text-gray-700 focus:ring-3 focus:ring-blue-300/50 focus:outline-hidden"
-            {...form.register('increment')}
+            {...form.register('increment', { valueAsNumber: true })}
           />
         </label>
 

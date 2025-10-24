@@ -34,6 +34,8 @@ const aj = arcjet.withRule(
   }),
 );
 
+// Currently, with database connections, Webpack is faster than Turbopack in production environment at runtime.
+// Then, unfortunately, Webpack doesn't support `proxy.ts` on Vercel yet, here is the error: "Error: ENOENT: no such file or directory, lstat '/vercel/path0/.next/server/proxy.js'"
 export default async function middleware(
   request: NextRequest,
   event: NextFetchEvent,

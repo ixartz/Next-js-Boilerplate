@@ -9,7 +9,7 @@ pre-commit:
   commands:
     lint:
       glob: '*'
-      run: npx --no -- eslint --fix --no-warn-ignored
+      run: npx --no -- eslint --fix --no-warn-ignored {staged_files}
       stage_fixed: true
       priority: 1
     check-types:

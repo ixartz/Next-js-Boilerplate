@@ -6,16 +6,17 @@ import './src/libs/Env';
 
 // Define the base Next.js configuration
 const baseConfig: NextConfig = {
-  eslint: {
-    dirs: ['.'],
-  },
   devIndicators: {
     position: 'bottom-right',
   },
   poweredByHeader: false,
   reactStrictMode: true,
+  reactCompiler: true,
   outputFileTracingIncludes: {
     '/': ['./migrations/**/*'],
+  },
+  experimental: {
+    turbopackFileSystemCacheForDev: true,
   },
 };
 
