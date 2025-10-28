@@ -323,9 +323,7 @@ npm run db:generate
 
 This will create a migration file that reflects your schema changes.
 
-Migrations are automatically applied during Next.js initialization through `instrumentation.ts`. Simply restart your Next.js server to apply the database changes.
-
-Alternatively, if your database is running, you can apply migrations manually using:
+After making sure your database is running, you can apply the generated migration using:
 
 ```shell
 npm run db:migrate
