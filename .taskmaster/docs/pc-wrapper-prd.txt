@@ -1,0 +1,163 @@
+# PC Wrapper - NSFW AI Generation Platform PRD
+
+## Project Overview
+PC Wrapper is a full-stack SaaS platform built on top of the Promptchan API, enabling NSFW AI-powered image, video, and chat generation through a seamless user interface. The platform abstracts all complexity from the underlying Promptchan API — users never interact with Promptchan directly. Instead, PC Wrapper provides a secure, branded, and highly efficient layer that delivers adult AI generation as a product.
+
+## ⚠️ IMPORTANT: NSFW Content Platform
+This platform generates explicit adult content including:
+- NSFW images with nudity and sexual content
+- Adult video generation
+- Explicit AI chat interactions
+- **18+ Only** - Strict age verification required
+- Content warnings and NSFW filters implemented
+
+## Current Implementation Status
+✅ **COMPLETED (Phase 1):**
+- Backend infrastructure (Database, API Client, File Storage)
+- All API routes (Image, Video, Chat, Credits)
+- Authentication & Credit system
+- Content storage & error handling
+
+🔄 **IN PROGRESS (Phase 2):**
+- UI Components
+- User Dashboard
+
+📋 **PENDING (Phase 3+):**
+- Payment Integration
+- Queue System
+- Analytics Dashboard
+- Admin Panel
+
+## Phase 2: UI Development Tasks
+
+### 1. Image Generation Interface
+Create a comprehensive image generation UI component that includes:
+- Prompt input field with character limit and validation
+- Style selection dropdown (Realistic, Anime, Fantasy, etc.)
+- Quality selection (Ultra, Extreme, Max) with cost indicators
+- Emotion and pose selection options
+- Generate button with loading state and progress indicator
+- Generated image display with zoom, download, and share options
+- Credit cost display and balance updates
+- Error handling with retry mechanisms
+- Image metadata display (seed, size, generation time)
+
+### 2. Video Generation Interface
+Build a video generation interface with async processing:
+- Video prompt input field with character limit
+- Quality settings (Standard, High, Max) with cost breakdown
+- Aspect ratio selection (Portrait, Wide) with preview
+- Audio enabled toggle with description
+- Submit button with loading state
+- Real-time progress bar for video processing
+- Status updates (Queued, Processing, Completed, Failed)
+- Video player for completed results with controls
+- Download and share functionality
+- Error handling with retry options
+
+### 3. AI Chat Interface
+Develop a conversational AI chat interface:
+- Character selection dropdown with previews
+- Character personality settings and customization
+- Chat history display with smooth scrolling
+- Message input field with send button and keyboard shortcuts
+- Typing indicator and message timestamps
+- Character avatar display with animations
+- NSFW filter toggle with warnings
+- Chat export and save functionality
+- Message search and filtering
+- Real-time message updates
+
+### 4. User Dashboard
+Create a comprehensive user dashboard:
+- Credit balance display with top-up options
+- Generation history with thumbnails and metadata
+- Filter by content type (Image/Video/Chat) with search
+- Sort by date, type, cost, or popularity
+- Re-run prompt button with one-click regeneration
+- Clone settings for similar generations
+- Delete content with confirmation
+- Export history to CSV/JSON
+- Usage analytics and statistics
+- Personalization settings and themes
+
+### 5. Navigation and Layout
+Build responsive navigation and layout components:
+- Main navigation menu with logo and branding
+- Mobile-responsive hamburger menu
+- User profile dropdown with settings
+- Breadcrumb navigation for deep pages
+- Footer component with links and info
+- Loading states and error boundaries
+- Toast notifications for success/error messages
+- Modal dialogs for confirmations
+- Responsive grid layouts
+- Accessibility compliance (WCAG 2.1)
+
+### 6. Responsive Design System
+Implement mobile-first responsive design:
+- Breakpoint management (mobile, tablet, desktop)
+- Touch-friendly interface elements
+- Optimized image loading and lazy loading
+- Progressive web app features
+- Cross-browser compatibility testing
+- Performance optimization
+- Accessibility testing with screen readers
+- Dark/light theme support
+
+### 7. Error Handling and Loading States
+Add comprehensive error handling:
+- Global error boundary component
+- Loading spinners and skeleton screens
+- Toast notifications for user feedback
+- Retry mechanisms for failed requests
+- Offline state handling
+- Network error recovery
+- User-friendly error messages
+- Error logging and reporting
+
+### 8. Performance Optimization
+Optimize application performance:
+- Code splitting and lazy loading
+- Image optimization and compression
+- Bundle size analysis and optimization
+- Performance monitoring integration
+- Caching strategies
+- SEO optimization
+- Lighthouse performance audit
+- Core Web Vitals optimization
+
+## Technical Requirements
+- Next.js 15+ with App Router
+- React 19+ with modern hooks
+- Tailwind CSS 4 for styling
+- TypeScript for type safety
+- Clerk authentication integration
+- API integration with existing backend routes
+- Responsive design (mobile-first)
+- Accessibility compliance
+- Performance optimization
+- Error handling and logging
+
+## Success Criteria
+- Users can generate images, videos, and chat seamlessly
+- All UI components are responsive and user-friendly
+- Credit system is clearly visible and functional
+- Generation history is easily accessible and manageable
+- Mobile experience is optimized and touch-friendly
+- Performance meets Core Web Vitals standards
+- Accessibility compliance (WCAG 2.1 AA)
+- Error handling provides clear user feedback
+
+## Dependencies
+- Existing API routes must be functional
+- Database schema must be properly set up
+- Authentication system must be working
+- Credit system must be operational
+- File storage (R2) must be configured
+
+## Timeline
+- Phase 2A: Core UI Components (Tasks 1-3) - 1 week
+- Phase 2B: Dashboard and Navigation (Tasks 4-5) - 1 week  
+- Phase 2C: Polish and Optimization (Tasks 6-8) - 1 week
+- Total Phase 2: 3 weeks

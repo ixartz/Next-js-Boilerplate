@@ -17,6 +17,15 @@ const baseConfig: NextConfig = {
   outputFileTracingIncludes: {
     '/': ['./migrations/**/*'],
   },
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'promptchan.com',
+        pathname: '/assets/**',
+      },
+    ],
+  },
 };
 
 // Initialize the Next-Intl plugin

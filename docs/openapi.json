@@ -1,0 +1,1247 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "Promptchan API",
+    "version": "1.1.2",
+    "description": "# Welcome to the Promptchan API\nDiscover the freedom to create with the Promptchan API, designed for developers and creators seeking the state of the art Image generation platform. Our API provides powerful capabilities for generating and editing images allowing for broader creative expression based on provided parameters. Ideal for projects requiring a high degree of flexibility and fidelity in Image Creation, Promptchan API is your go-to solution for pushing the power of AI image generation.\n\n## Server Endpoints\n\n- **Image Requests:** Use `https://prod.aicloudnetservices.com/` for all image generation requests.\n\n\n## Getting Started\n\nTo access and utilize the Promptchan API effectively, please follow these steps:\n\n### 1. Sign in or Sign Up\n\n- Users should sign in or sign up for an account by visiting `https://promptchan.com/signup`.\n- An account is required to access the API and generate your unique API key.\n\n### \n\n### 2. Generate Your API Key\n\n- After signing in and upgrading your account, navigate to the settings menu at `https://promptchan.com/settings` and find the API Key section to \"Generate\".\n- Your API key serves as your authentication for API requests. Keep it secure and do not share it publicly.\n\n### 3. Top Up Your Account with Gems\n\n- The API utilizes Gems as currency for image generation. One Gem equals one image generation.\n- Purchase Gems at `https://promptchan.com/gems`. Packages vary, allowing you to choose the best fit for your needs.\n- Gems will be credited to your account upon purchase, enabling you to start generating images through the API.\n\n### 4. Making API Requests\n\n- **Base URL:** The base URL for all API endpoints is `https://prod.aicloudnetservices.com/`.\n- **Authentication:** Include your API key in the request header as `x-api-key` to authenticate your API requests.\n\nWith your Pro subscription, API key, and Gems, you are fully equipped to explore the capabilities of the Promptchan API. Detailed information on specific endpoints and their usage is available in the sections below.\n\n <sub>*High usage may result in extra charges during peak times, up to 0.25 Gems.*</sub>"
+  },
+  "servers": [
+    {
+      "url": "https://prod.aicloudnetservices.com/",
+      "description": "Server for non-character image requests."
+    }
+  ],
+  "paths": {
+    "/api/external/create": {
+      "post": {
+        "tags": [
+          "Image Operations"
+        ],
+        "summary": "Generates an image based on provided parameters. There's a base cost of 1 Gem for an image.",
+        "operationId": "generate",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "style": {
+                    "type": "string",
+                    "description": "Art style of the image. Defaults to 'Cinematic'.",
+                    "enum": [
+                      "Cinematic",
+                      "Anime",
+                      "Hyperreal",
+                      "Hyperanime",
+                      "K-Pop",
+                      "Fur",
+                      "Furtoon",
+                      "Render XL+",
+                      "Illustration XL+",
+                      "Anime XL",
+                      "Anime XL+",
+                      "Hardcore XL",
+                      "Cinematic XL",
+                      "Photo XL+",
+                      "Hyperreal XL+",
+                      "Hyperreal XL+ v2",
+                      "Photo XL+ v2"
+                    ]
+                  },
+                  "poses": {
+                    "type": "object",
+                    "description": "Pose for the generated image, categorized by model type.",
+                    "example": "Default",
+                    "properties": {
+                      "SD Styles (Cinematic, Anime, Hyperreal, Hyperanime, K-Pop, Fur, Furtoon)": {
+                        "type": "array",
+                        "items": {
+                          "type": "string",
+                          "enum": [
+                            "Default",
+                            "POV Missionary",
+                            "POV Blowjob",
+                            "POV Doggystyle",
+                            "Cum in Mouth",
+                            "Cum in Mouth Gay",
+                            "After Sex",
+                            "Handjob",
+                            "Carrying Sex",
+                            "Flashing Boobs",
+                            "Flashing Boobs Gay",
+                            "Breast Squeeze",
+                            "Front View Cowgirl",
+                            "Front View Cowgirl Gay",
+                            "Front View Cowgirl Lesbian",
+                            "ButtJob",
+                            "ButtJob Gay",
+                            "ButtGrab Lesbian",
+                            "Side View Blowjob",
+                            "POV Spitroast",
+                            "Just Before Sex",
+                            "POV Threesome BlowJob",
+                            "POV Threesome BlowJob Gay",
+                            "POV Threesome Lesbian",
+                            "Grab Ass",
+                            "Mating Press",
+                            "POV Reverse Cowgirl",
+                            "Thigh Sex",
+                            "POV Anal",
+                            "POV Anal Gay",
+                            "Piledrive",
+                            "Vagina Spread",
+                            "Vagina Spread Gay",
+                            "Imminent Sex",
+                            "Imminent Sex Gay",
+                            "Female Masturbation",
+                            "Jacko Pose",
+                            "Jacko Pose Gay",
+                            "Sideway Ass",
+                            "Sideway Ass Gay",
+                            "Titjob",
+                            "Titjob Real",
+                            "Titjob Anime",
+                            "Spread Ass",
+                            "Bukkake",
+                            "Bukkake Gay",
+                            "Spooning",
+                            "Spooning Gay",
+                            "Amazon Position",
+                            "On/Off Clothing",
+                            "Shirt Pull",
+                            "Cheek Bulge Blowjob",
+                            "Solo Breast Grab",
+                            "From Below",
+                            "From Below Gay",
+                            "Resting On Stomach",
+                            "Resting On Stomach Gay",
+                            "Blowjob Under Desk",
+                            "Blowjob Under Desk Gay",
+                            "Penis",
+                            "Breasts Pressed Against Glass",
+                            "Reverse Deepthroat",
+                            "Orgy",
+                            "Orgy Gay",
+                            "Orgy Lesbian",
+                            "Cum on Ass",
+                            "Cum on Ass Gay",
+                            "Cumshot",
+                            "Cumshot Gay",
+                            "Ass On Glass",
+                            "Ass On Glass Gay",
+                            "Multiple Hands",
+                            "Multiple Hands Gay",
+                            "Facesitting",
+                            "Facesitting Gay",
+                            "Facesitting Lesbian",
+                            "On Off",
+                            "Side Blowjob",
+                            "Side Blowjob Gay",
+                            "Kneeling",
+                            "POV Breast Grab",
+                            "POV Breast Grab Lesbian",
+                            "Surrounded by Penises",
+                            "Surrounded by Penises Gay",
+                            "Flashing In Public",
+                            "Mooning",
+                            "Mooning Gay",
+                            "Wet Tshirt",
+                            "Wet Tshirt Gay",
+                            "Lesbian Oral",
+                            "Lesbian Fingering",
+                            "Lesbian Scissoring",
+                            "Gay Cowboy Anime",
+                            "Gay Cowboy Real",
+                            "Gay Grabbing",
+                            "BDSM Suspension",
+                            "BDSM Suspension Gay",
+                            "BDSM Tied Up",
+                            "BDSM Tied Up Gay",
+                            "BDSM Tape",
+                            "BDSM Tape Gay",
+                            "BDSM Ballgag",
+                            "BDSM Ballgag Gay",
+                            "BDSM Leash",
+                            "BDSM Leash Gay",
+                            "Downblouse",
+                            "Sitting",
+                            "Vagina",
+                            "Showering",
+                            "Showering Gay",
+                            "Cum Bath",
+                            "Cum Bath Gay",
+                            "Cuddling",
+                            "Lesbian Cuddling",
+                            "Gay Cuddling",
+                            "POV Cowgirl",
+                            "Feet",
+                            "Feet Gay",
+                            "Multiple Mooning",
+                            "Multiple Mooning Gay",
+                            "Giant",
+                            "Side Blowjob Real",
+                            "Sucking Nipple",
+                            "Finger Sucking",
+                            "Finger Sucking Gay",
+                            "Showing off Ass",
+                            "Showing off Ass Gay",
+                            "Wind Lift/ Nip Slip",
+                            "Reverse Blowjob",
+                            "Lying Down Feet",
+                            "Footjob",
+                            "Footjob Gay",
+                            "Dildo",
+                            "Dildo Gay",
+                            "Handbra/Holding Boobs",
+                            "Milking Machine",
+                            "Panties Off",
+                            "Double Handjob",
+                            "Double Handjob Gay",
+                            "Undressing",
+                            "Undressing Gay",
+                            "Bubble Bath",
+                            "Bubble Bath Gay",
+                            "Caught Naked Embarrassed",
+                            "Caught Naked Embarrassed Gay",
+                            "Gloryhole",
+                            "Gloryhole Gay",
+                            "Xray Glasses",
+                            "Man Grabbing Boobs",
+                            "Glory Wall",
+                            "Glory Wall Gay",
+                            "Wind Lift",
+                            "POV Deepthroat",
+                            "POV Strangling",
+                            "POV Strangling Gay",
+                            "Licking Dick",
+                            "Licking Dick Gay"
+                          ]
+                        }
+                      },
+                      "XL Stylised (Anime XL)": {
+                        "type": "array",
+                        "items": {
+                          "type": "string",
+                          "enum": [
+                            "Default",
+                            "POV Missionary",
+                            "POV Missionary Gay",
+                            "POV Missionary Lesbian",
+                            "POV Blowjob",
+                            "POV Blowjob Gay",
+                            "POV Blowjob Lesbian",
+                            "POV Doggystyle",
+                            "POV Doggystyle Gay",
+                            "Cum in Mouth",
+                            "Cum in Mouth Gay",
+                            "After Sex",
+                            "After Sex Gay",
+                            "After Sex Lesbian",
+                            "Handjob",
+                            "Handjob Gay",
+                            "Carrying Sex",
+                            "Carrying Sex Gay",
+                            "Carrying Sex Lesbian",
+                            "Flashing Boobs",
+                            "Flashing Boobs Gay",
+                            "Breast Squeeze",
+                            "Front View Cowgirl",
+                            "Front View Cowgirl Gay",
+                            "Front View Cowgirl Lesbian",
+                            "ButtJob",
+                            "ButtJob Gay",
+                            "ButtGrab Lesbian",
+                            "Side View Blowjob",
+                            "POV Spitroast",
+                            "Just Before Sex",
+                            "Just Before Sex Gay",
+                            "POV Threesome BlowJob",
+                            "POV Threesome BlowJob Gay",
+                            "POV Threesome Lesbian",
+                            "Grab Ass",
+                            "Mating Press",
+                            "POV Reverse Cowgirl",
+                            "Thigh Sex",
+                            "POV Anal",
+                            "POV Anal Gay",
+                            "Piledrive",
+                            "Vagina Spread",
+                            "Vagina Spread Gay",
+                            "Imminent Sex",
+                            "Imminent Sex Gay",
+                            "Female Masturbation",
+                            "Female Masturbation Gay",
+                            "Jacko Pose",
+                            "Jacko Pose Gay",
+                            "Sideway Ass",
+                            "Sideway Ass Gay",
+                            "Titjob",
+                            "Titjob Real",
+                            "Titjob Anime",
+                            "Spread Ass",
+                            "Bukkake",
+                            "Bukkake Gay",
+                            "Spooning",
+                            "Spooning Gay",
+                            "Amazon Position",
+                            "On/Off Clothing",
+                            "Shirt Pull",
+                            "Cheek Bulge Blowjob",
+                            "Solo Breast Grab",
+                            "From Below",
+                            "From Below Gay",
+                            "Resting On Stomach",
+                            "Resting On Stomach Gay",
+                            "Blowjob Under Desk",
+                            "Blowjob Under Desk Gay",
+                            "Penis",
+                            "Breasts Pressed Against Glass",
+                            "Reverse Deepthroat",
+                            "Orgy",
+                            "Orgy Gay",
+                            "Orgy Lesbian",
+                            "Cum on Ass",
+                            "Cum on Ass Gay",
+                            "Cumshot",
+                            "Cumshot Gay",
+                            "Ass On Glass",
+                            "Ass On Glass Gay",
+                            "Multiple Hands",
+                            "Multiple Hands Gay",
+                            "Facesitting",
+                            "Facesitting Gay",
+                            "Facesitting Lesbian",
+                            "On Off",
+                            "Side Blowjob",
+                            "Side Blowjob Gay",
+                            "Kneeling",
+                            "POV Breast Grab",
+                            "POV Breast Grab Lesbian",
+                            "Surrounded by Penises",
+                            "Surrounded by Penises Gay",
+                            "Flashing In Public",
+                            "Mooning",
+                            "Mooning Gay",
+                            "Wet Tshirt",
+                            "Wet Tshirt Gay",
+                            "Lesbian Oral",
+                            "Lesbian Fingering",
+                            "Lesbian Scissoring",
+                            "Gay Cowboy Anime",
+                            "Gay Cowboy Real",
+                            "Gay Grabbing",
+                            "BDSM Suspension",
+                            "BDSM Suspension Gay",
+                            "BDSM Tied Up",
+                            "BDSM Tied Up Gay",
+                            "BDSM Tape",
+                            "BDSM Tape Gay",
+                            "BDSM Ballgag",
+                            "BDSM Ballgag Gay",
+                            "BDSM Leash",
+                            "BDSM Leash Gay",
+                            "Downblouse",
+                            "Sitting",
+                            "Vagina",
+                            "Showering",
+                            "Showering Gay",
+                            "Cum Bath",
+                            "Cum Bath Gay",
+                            "Cuddling",
+                            "Lesbian Cuddling",
+                            "Gay Cuddling",
+                            "POV Cowgirl",
+                            "Feet",
+                            "Feet Gay",
+                            "Multiple Mooning",
+                            "Multiple Mooning Gay",
+                            "Giant",
+                            "Side Blowjob Real",
+                            "Sucking Nipple",
+                            "Finger Sucking",
+                            "Finger Sucking Gay",
+                            "Showing off Ass",
+                            "Showing off Ass Gay",
+                            "Wind Lift/ Nip Slip",
+                            "Reverse Blowjob",
+                            "Lying Down Feet",
+                            "Footjob",
+                            "Footjob Gay",
+                            "Dildo",
+                            "Dildo Gay",
+                            "Handbra/Holding Boobs",
+                            "Milking Machine",
+                            "Panties Off",
+                            "Double Handjob",
+                            "Double Handjob Gay",
+                            "Undressing",
+                            "Undressing Gay",
+                            "Bubble Bath",
+                            "Bubble Bath Gay",
+                            "Caught Naked Embarrassed",
+                            "Caught Naked Embarrassed Gay",
+                            "Gloryhole",
+                            "Gloryhole Gay",
+                            "Xray Glasses",
+                            "Man Grabbing Boobs",
+                            "Glory Wall",
+                            "Glory Wall Gay",
+                            "Wind Lift",
+                            "POV Deepthroat",
+                            "POV Strangling",
+                            "POV Strangling Gay",
+                            "Licking Dick",
+                            "Licking Dick Gay",
+                            "Tentacle",
+                            "Tentacle Gay"
+                          ]
+                        }
+                      },
+                      "XL Realistic (Cinematic XL, Hardcode XL)": {
+                        "type": "array",
+                        "items": {
+                          "type": "string",
+                          "enum": [
+                            "Default",
+                            "POV Missionary",
+                            "POV Blowjob",
+                            "POV Blowjob Gay",
+                            "POV Blowjob Lesbian",
+                            "POV Doggystyle",
+                            "POV Doggystyle Gay",
+                            "Handjob",
+                            "POV Reverse Cowgirl",
+                            "Titjob",
+                            "Titjob Real",
+                            "Titjob Anime",
+                            "Penis",
+                            "Breasts Pressed Against Glass",
+                            "Orgy",
+                            "Orgy Gay",
+                            "Orgy Lesbian",
+                            "Cumshot",
+                            "Cumshot Gay",
+                            "Mooning",
+                            "Mooning Gay",
+                            "BDSM Tied Up",
+                            "BDSM Tied Up Gay",
+                            "Downblouse",
+                            "POV Cowgirl",
+                            "Feet",
+                            "Feet Gay",
+                            "Angry",
+                            "Undressing",
+                            "Undressing Gay",
+                            "Bubble Bath",
+                            "Bubble Bath Gay",
+                            "Caught Naked Embarrassed",
+                            "Caught Naked Embarrassed Gay",
+                            "Wind Lift",
+                            "Licking Dick",
+                            "Licking Dick Gay",
+                            "Reverse Sitting",
+                            "Reverse Sitting Gay",
+                            "Girl Riding Guy",
+                            "Girl Riding Guy Gay",
+                            "Selfie",
+                            "Selfie Gay",
+                            "Creampie",
+                            "Creampie Gay",
+                            "Food Tease",
+                            "POV Man Masturbating",
+                            "Girl POV",
+                            "See Through Clothing",
+                            "See Through Clothing Gay",
+                            "Legs Behind Head",
+                            "Doggystyle Front Angle",
+                            "Doggystyle Front Angle Gay",
+                            "Showing Feet",
+                            "Showing Feet Gay"
+                          ]
+                        }
+                      },
+                      "XL+ (Photo XL+, Hyperreal XL+, Anime XL+, Render XL+, Illustration XL+)": {
+                        "type": "array",
+                        "items": {
+                          "type": "string",
+                          "enum": [
+                            "Default",
+                            "POV Missionary",
+                            "POV Missionary Gay",
+                            "POV Missionary Lesbian",
+                            "POV Blowjob",
+                            "POV Blowjob Gay",
+                            "POV Blowjob Lesbian",
+                            "POV Doggystyle",
+                            "POV Doggystyle Gay",
+                            "POV Doggystyle Lesbian",
+                            "Cum in Mouth",
+                            "Cum in Mouth Gay",
+                            "After Sex",
+                            "After Sex Gay",
+                            "After Sex Lesbian",
+                            "Handjob",
+                            "Handjob Gay",
+                            "Carrying Sex",
+                            "Carrying Sex Gay",
+                            "Carrying Sex Lesbian",
+                            "Flashing Boobs",
+                            "Flashing Boobs Gay",
+                            "Breast Squeeze",
+                            "Front View Cowgirl",
+                            "Front View Cowgirl Gay",
+                            "Front View Cowgirl Lesbian",
+                            "ButtJob",
+                            "ButtJob Gay",
+                            "ButtGrab Lesbian",
+                            "Just Before Sex",
+                            "Just Before Sex Gay",
+                            "POV Threesome BlowJob",
+                            "POV Threesome BlowJob Gay",
+                            "POV Threesome Lesbian",
+                            "Grab Ass",
+                            "POV Anal",
+                            "POV Anal Gay",
+                            "Vagina Spread",
+                            "Vagina Spread Gay",
+                            "Imminent Sex",
+                            "Imminent Sex Gay",
+                            "Female Masturbation",
+                            "Female Masturbation Gay",
+                            "Jacko Pose",
+                            "Jacko Pose Gay",
+                            "Sideway Ass",
+                            "Sideway Ass Gay",
+                            "Titjob",
+                            "Titjob Real",
+                            "Titjob Anime",
+                            "Spread Ass",
+                            "Bukkake",
+                            "Bukkake Gay",
+                            "Spooning",
+                            "Spooning Gay",
+                            "Solo Breast Grab",
+                            "From Below",
+                            "From Below Gay",
+                            "Resting On Stomach",
+                            "Resting On Stomach Gay",
+                            "Blowjob Under Desk",
+                            "Blowjob Under Desk Gay",
+                            "Penis",
+                            "Breasts Pressed Against Glass",
+                            "Orgy",
+                            "Orgy Gay",
+                            "Orgy Lesbian",
+                            "Cum on Ass",
+                            "Cum on Ass Gay",
+                            "Cumshot",
+                            "Cumshot Gay",
+                            "Ass On Glass",
+                            "Ass On Glass Gay",
+                            "Multiple Hands",
+                            "Multiple Hands Gay",
+                            "Facesitting",
+                            "Facesitting Gay",
+                            "Facesitting Lesbian",
+                            "Side Blowjob",
+                            "Side Blowjob Gay",
+                            "POV Breast Grab",
+                            "POV Breast Grab Lesbian",
+                            "Surrounded by Penises",
+                            "Surrounded by Penises Gay",
+                            "Mooning",
+                            "Mooning Gay",
+                            "Wet Tshirt",
+                            "Wet Tshirt Gay",
+                            "Lesbian Oral",
+                            "Lesbian Fingering",
+                            "Gay Cowboy Real",
+                            "Gay Grabbing",
+                            "BDSM Suspension",
+                            "BDSM Suspension Gay",
+                            "BDSM Tied Up",
+                            "BDSM Tied Up Gay",
+                            "BDSM Tape",
+                            "BDSM Tape Gay",
+                            "BDSM Ballgag",
+                            "BDSM Ballgag Gay",
+                            "BDSM Leash",
+                            "BDSM Leash Gay",
+                            "Downblouse",
+                            "Vagina",
+                            "Showering",
+                            "Showering Gay",
+                            "Cum Bath",
+                            "Cum Bath Gay",
+                            "Cuddling",
+                            "Lesbian Cuddling",
+                            "Gay Cuddling",
+                            "Feet",
+                            "Feet Gay",
+                            "Multiple Mooning",
+                            "Multiple Mooning Gay",
+                            "Finger Sucking",
+                            "Finger Sucking Gay",
+                            "Showing off Ass",
+                            "Showing off Ass Gay",
+                            "Footjob",
+                            "Footjob Gay",
+                            "Dildo",
+                            "Dildo Gay",
+                            "Milking Machine",
+                            "Double Handjob",
+                            "Double Handjob Gay",
+                            "Undressing",
+                            "Undressing Gay",
+                            "Bubble Bath",
+                            "Bubble Bath Gay",
+                            "Caught Naked Embarrassed",
+                            "Caught Naked Embarrassed Gay",
+                            "Gloryhole",
+                            "Gloryhole Gay",
+                            "Man Grabbing Boobs",
+                            "Glory Wall",
+                            "Glory Wall Gay",
+                            "POV Deepthroat",
+                            "POV Strangling",
+                            "POV Strangling Gay",
+                            "Licking Dick",
+                            "Licking Dick Gay",
+                            "Reverse Sitting",
+                            "Reverse Sitting Gay",
+                            "Girl Riding Guy",
+                            "Girl Riding Guy Gay",
+                            "Selfie",
+                            "Selfie Gay",
+                            "Creampie",
+                            "Creampie Gay",
+                            "POV Man Masturbating",
+                            "See Through Clothing",
+                            "See Through Clothing Gay",
+                            "Doggystyle Front Angle",
+                            "Doggystyle Front Angle Gay",
+                            "Showing Feet",
+                            "Showing Feet Gay",
+                            "Peace Sign",
+                            "Peace Sign Gay",
+                            "Tentacle",
+                            "Tentacle Gay",
+                            "Full Nelson",
+                            "Full Nelson Gay",
+                            "Prone Bone Lesbian",
+                            "Prone Bone Gay",
+                            "Prone Bone"
+                          ]
+                        }
+                      }
+                    }
+                  },
+                  "filter": {
+                    "type": "string",
+                    "description": "Filter applied to the image. Defaults to 'Default'.",
+                    "enum": [
+                      "Default",
+                      "Cinematic",
+                      "Studio",
+                      "Flash",
+                      "Analog",
+                      "Professional",
+                      "Polaroid",
+                      "Vintage",
+                      "Manga",
+                      "Cyberpunk",
+                      "VHS",
+                      "Pixel XL",
+                      "Comic XL",
+                      "Retro Porn XL",
+                      "Fire Style XL",
+                      "Hyper",
+                      "3D",
+                      "Sketch",
+                      "Watercolor",
+                      "Lineart",
+                      "Moody",
+                      "Oil Painting",
+                      "Rainbow",
+                      "Artsy",
+                      "Artsy 2",
+                      "Cartoon",
+                      "Cartoon Vintage",
+                      "Painted",
+                      "Cartoon 2",
+                      "Cartoon 3",
+                      "Cartoon Minimalist",
+                      "Character Sheet",
+                      "Vintage Comic",
+                      "Pixel Art",
+                      "Anime Studio",
+                      "Polariod Picture",
+                      "Flash Photo",
+                      "Noir Movie",
+                      "Analog Photo",
+                      "Vintage Photo"
+                    ]
+                  },
+                  "emotion": {
+                    "type": "string",
+                    "description": "Adjust for dynamic character expressions.",
+                    "enum": [
+                      "Default",
+                      "Upset",
+                      "Disgusted",
+                      "Scared",
+                      "Winking",
+                      "Angry",
+                      "Smiling",
+                      "Laughing",
+                      "Ouch",
+                      "Shocked",
+                      "Orgasm Face",
+                      "Stick out Tongue"
+                    ]
+                  },
+                  "detail": {
+                    "type": "float",
+                    "description": "Detail level of the image stylization, recommended between -2 and 2."
+                  },
+                  "prompt": {
+                    "type": "string",
+                    "description": "Text prompt for guiding the image generation."
+                  },
+                  "seed": {
+                    "type": "integer",
+                    "description": "Seed for deterministic results. Use -1 for random."
+                  },
+                  "quality": {
+                    "type": "string",
+                    "description": "Quality setting of the generated image. Defaults to 'Ultra'. 'Extreme' quality costs 1 extra Gem, and 'Max' quality costs 2 extra Gems.",
+                    "enum": [
+                      "Ultra",
+                      "Extreme",
+                      "Max"
+                    ]
+                  },
+                  "creativity": {
+                    "type": "integer",
+                    "description": "Creativity level of the generation, recommended values are 30, 50, 70."
+                  },
+                  "image_size": {
+                    "type": "string",
+                    "description": "Size of the generated image.",
+                    "enum": [
+                      "512x512",
+                      "512x768",
+                      "768x512"
+                    ]
+                  },
+                  "negative_prompt": {
+                    "type": "string",
+                    "description": "Text prompt specifying what to avoid in the generation."
+                  },
+                  "restore_faces": {
+                    "type": "boolean",
+                    "description": "Whether to apply face restoration. Costs 1 extra Gem and should only be used for realistic styles."
+                  },
+                  "age_slider": {
+                    "type": "integer",
+                    "description": "Slider to control the perceived age of the subject. Minimum value is 18."
+                  },
+                  "weight_slider": {
+                    "type": "float",
+                    "description": "Slider to control the body weight of the subject, recommended between -1 and 1."
+                  },
+                  "breast_slider": {
+                    "type": "float",
+                    "description": "Slider to adjust the size or prominence of the subject's breasts, recommended between -1 and 1."
+                  },
+                  "ass_slider": {
+                    "type": "float",
+                    "description": "Slider to adjust the size or prominence of the subject's ass, recommended between -1 and 1."
+                  }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Successfully created image.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "image": {
+                      "type": "string",
+                      "description": "The generated base-64 encoded image."
+                    },
+                    "gems": {
+                      "type": "integer",
+                      "description": "The remaining Gems acount."
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Invalid API key.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "error": {
+                      "type": "string",
+                      "example": "Invalid API key",
+                      "description": "Error message indicating the API key was invalid."
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "ApiKeyAuth": []
+          }
+        ]
+      }
+    },
+    "/api/external/chat": {
+      "post": {
+        "tags": [
+          "Chat Operations"
+        ],
+        "summary": "Handles chat interactions with AI companion.",
+        "operationId": "chat",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "message": {
+                    "type": "string",
+                    "description": "User's message to the AI companion."
+                  },
+                  "characterData": {
+                    "type": "object",
+                    "description": "Character profile information used to personalize responses.",
+                    "properties": {
+                      "name": {
+                        "type": "string",
+                        "description": "The character's name."
+                      },
+                      "personality": {
+                        "type": "string",
+                        "description": "A brief description of the character's personality traits."
+                      },
+                      "scenario": {
+                        "type": "string",
+                        "description": "Context or setting in which the character exists."
+                      },
+                      "sexuality": {
+                        "type": "string",
+                        "description": "The character's sexual orientation."
+                      },
+                      "openness": {
+                        "type": "integer",
+                        "description": "How open the character is between 0 - 2."
+                      },
+                      "emotions": {
+                        "type": "integer",
+                        "description": "Character's emotional level between 0 - 2."
+                      },
+                      "age": {
+                        "type": "integer",
+                        "description": "The character's age."
+                      },
+                      "gender": {
+                        "type": "string",
+                        "description": "The character's gender identity."
+                      }
+                    }
+                  },
+                  "chatHistory": {
+                    "type": "array",
+                    "description": "Previous messages exchanged between the user and the AI.",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "role": {
+                          "type": "string",
+                          "description": "The speaker of the message ('user' or 'assistant')."
+                        },
+                        "content": {
+                          "type": "string",
+                          "description": "The actual message text."
+                        }
+                      }
+                    }
+                  },
+                  "isRoleplay": {
+                    "type": "boolean",
+                    "description": "Indicates if the conversation is in roleplay mode."
+                  },
+                  "redo": {
+                    "type": "boolean",
+                    "description": "If true, requests a redo of the last AI response instead."
+                  },
+                  "userName": {
+                    "type": "string",
+                    "description": "The name of the user."
+                  }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Successful response containing the chat message and updated chat history.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "audio": {
+                      "type": "string",
+                      "nullable": true
+                    },
+                    "chatHistory": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "role": {
+                            "type": "string"
+                          },
+                          "content": {
+                            "type": "string"
+                          },
+                          "send_date": {
+                            "type": "string",
+                            "format": "date-time",
+                            "nullable": true
+                          }
+                        }
+                      }
+                    },
+                    "message": {
+                      "type": "string"
+                    },
+                    "selfie": {
+                      "type": "string",
+                      "nullable": true
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Invalid request format."
+          },
+          "401": {
+            "description": "Unauthorized API key."
+          }
+        },
+        "security": [
+          {
+            "ApiKeyAuth": []
+          }
+        ]
+      }
+    },
+    "/api/external/video_v2/submit": {
+      "post": {
+        "tags": [
+          "Video Operations"
+        ],
+        "summary": "Submits a video generation request.",
+        "operationId": "videoV2Submit",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "age_slider": {
+                    "type": "number",
+                    "description": "User's selected age slider value."
+                  },
+                  "audioEnabled": {
+                    "type": "boolean",
+                    "description": "Flag to enable or disable audio in the video."
+                  },
+                  "prompt": {
+                    "type": "string",
+                    "description": "Prompt text for generating video content."
+                  },
+                  "video_quality": {
+                    "type": "string",
+                    "enum": [
+                      "Standard",
+                      "High",
+                      "Max"
+                    ],
+                    "description": "Quality setting for video generation."
+                  },
+                  "aspect": {
+                    "type": "string",
+                    "enum": [
+                      "Portrait",
+                      "Wide"
+                    ],
+                    "description": "Video aspect ratio."
+                  },
+                  "seed": {
+                    "type": "integer",
+                    "description": "Random seed value for video generation."
+                  }
+                },
+                "required": [
+                  "prompt"
+                ],
+                "example": {
+                  "age_slider": 18,
+                  "audioEnabled": false,
+                  "prompt": "penguin",
+                  "video_quality": "Standard",
+                  "aspect": "Portrait",
+                  "seed": 100
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Video submission accepted, returns a unique request identifier.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "request_id": {
+                      "type": "string",
+                      "description": "Unique identifier for the video request."
+                    }
+                  },
+                  "example": {
+                    "request_id": "70e5b14d-88d6-4fc6-84b1-19759cef5cde"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Invalid request format."
+          },
+          "401": {
+            "description": "Unauthorized API key."
+          }
+        },
+        "security": [
+          {
+            "ApiKeyAuth": []
+          }
+        ]
+      }
+    },
+    "/api/external/video_v2/status/{request_id}": {
+      "get": {
+        "tags": [
+          "Video Operations"
+        ],
+        "summary": "Checks the status of a video generation request.",
+        "operationId": "videoV2Status",
+        "parameters": [
+          {
+            "name": "request_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "Unique identifier of the video request."
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Returns the current status of the video generation process.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "status": {
+                      "type": "string",
+                      "description": "Current status (e.g., 'Completed')."
+                    },
+                    "details": {
+                      "type": "string",
+                      "description": "Optional additional details regarding the status.",
+                      "nullable": true
+                    }
+                  },
+                  "example": {
+                    "status": "Completed",
+                    "details": "Queue 0..."
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Invalid request id."
+          },
+          "401": {
+            "description": "Unauthorized API key."
+          }
+        },
+        "security": [
+          {
+            "ApiKeyAuth": []
+          }
+        ]
+      }
+    },
+    "/api/external/video_v2/status_with_logs/{request_id}": {
+      "get": {
+        "tags": [
+          "Video Operations"
+        ],
+        "summary": "Retrieves the progress logs of a video generation request.",
+        "operationId": "videoV2StatusWithLogs",
+        "parameters": [
+          {
+            "name": "request_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "Unique identifier of the video request."
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Returns progress of the video generation process.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "progress": {
+                      "type": "number",
+                      "description": "Progress fraction (e.g., 0.5 for 50%)."
+                    }
+                  },
+                  "example": {
+                    "progress": 0.5
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Invalid request id."
+          },
+          "401": {
+            "description": "Unauthorized API key."
+          }
+        },
+        "security": [
+          {
+            "ApiKeyAuth": []
+          }
+        ]
+      }
+    },
+    "/api/external/video_v2/result/{request_id}": {
+      "get": {
+        "tags": [
+          "Video Operations"
+        ],
+        "summary": "Retrieves the result of a completed video generation request.",
+        "operationId": "videoV2Result",
+        "parameters": [
+          {
+            "name": "request_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "Unique identifier of the video request."
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Returns the generated video and associated metadata.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "status": {
+                      "type": "string",
+                      "description": "Result status (e.g., 'success')."
+                    },
+                    "message": {
+                      "type": "string",
+                      "description": "Additional message regarding the video processing result."
+                    },
+                    "video": {
+                      "type": "string",
+                      "description": "URL to the generated video file."
+                    },
+                    "gems": {
+                      "type": "integer",
+                      "description": "Number of gems used or awarded."
+                    }
+                  },
+                  "example": {
+                    "status": "success",
+                    "message": "Data received and processed",
+                    "video": [
+                      "https://storage.googleapis.com/promptchan-fe814.appspot.com/generated_videos/Znn1WrsVzTa6XYeFAP3a.mp4?Expires=4894998608&GoogleAccessId=firebase-adminsdk-jjn1g%40promptchan-fe814.iam.gserviceaccount.com&Signature=SR9nXGVZAc%2FHzV5121iiw6Os3i%2F9GD%2F0J6YXM2lnmP1OMrDdgpl4UvE7eQHtD7%2Belc9DQD631RWYKg3xFe6iW7mAQt1J4J3%2FCdTwzsFlDODMYVwVMFsKzCwTh%2Fz5xxyvs%2B8689V7FlqC7TaAXrTa2GsbotHFEKEUkhHTjqTr6xoEbw9W3hhu3wopTzTzUSuCyepoPk0FXiV2jDzba1%2BR6EW0teuq5SV3xQiyrcuQ7yoVkLnfOH38Nwp4dDDY00BptGZXHOzyBPcNdgyk%2BQTLknp3as%2B1YZ9qMekpCL%2FPvxjD1gVPrHyQdIaT8DGtCVG9UqowonR9fA8k%2BuYCuHw1lw%3D%3D"
+                    ],
+                    "gems": 323
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Invalid request id."
+          },
+          "401": {
+            "description": "Unauthorized API key."
+          }
+        },
+        "security": [
+          {
+            "ApiKeyAuth": []
+          }
+        ]
+      }
+    }
+  },
+  "components": {
+    "securitySchemes": {
+      "ApiKeyAuth": {
+        "type": "apiKey",
+        "in": "header",
+        "name": "x-api-key",
+        "description": "API key needed to authorize requests."
+      }
+    }
+  }
+}
