@@ -323,9 +323,7 @@ npm run db:generate
 
 This will create a migration file that reflects your schema changes.
 
-Migrations are automatically applied during Next.js initialization through `instrumentation.ts`. Simply restart your Next.js server to apply the database changes.
-
-Alternatively, if your database is running, you can apply migrations manually using:
+After making sure your database is running, you can apply the generated migration using:
 
 ```shell
 npm run db:migrate
@@ -387,6 +385,26 @@ To run Storybook tests in headless mode, you can use the following command:
 ```shell
 npm run storybook:test
 ```
+
+### Local Production Build
+
+Generate an optimized production build locally using a temporary in-memory Postgres database:
+
+```shell
+npm run build-local
+```
+
+This command:
+
+- Starts a temporary in-memory Database server
+- Runs database migrations with Drizzle Kit
+- Builds the Next.js app for production
+- Shuts down the temporary DB when the build finishes
+
+Notes:
+
+- By default, it uses a local database, but you can also use `npm run build` with a remote database.
+- This only creates the build, it doesn't start the server. To run the build locally, use `npm run start`.
 
 ### Deploy to production
 
