@@ -386,6 +386,26 @@ To run Storybook tests in headless mode, you can use the following command:
 npm run storybook:test
 ```
 
+### Local Production Build
+
+Generate an optimized production build locally using a temporary in-memory Postgres database:
+
+```shell
+npm run build-local
+```
+
+This command:
+
+- Starts a temporary in-memory Database server
+- Runs database migrations with Drizzle Kit
+- Builds the Next.js app for production
+- Shuts down the temporary DB when the build finishes
+
+Notes:
+
+- By default, it uses a local database, but you can also use `npm run build` with a remote database.
+- This only creates the build, it doesn't start the server. To run the build locally, use `npm run start`.
+
 ### Deploy to production
 
 During the build process, database migrations are automatically executed, so there's no need to run them manually. However, you must define `DATABASE_URL` in your environment variables.
