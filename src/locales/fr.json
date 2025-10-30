@@ -62,7 +62,7 @@
   "Dashboard": {
     "meta_title": "Tableau de bord",
     "hello_message": "Bonjour {email}!",
-    "alternative_message": "Vous voulez créer votre SaaS plus rapidement en utilisant la même stack ? Essayez <url></url>."
+    "alternative_message": "Besoin de fonctionnalités avancées ? Multi-tenant et équipes, rôles et permissions, Shadcn UI, typage de bout en bout avec oRPC, paiement Stripe, mode clair / sombre. Essayez <url></url>."
   },
   "UserProfile": {
     "meta_title": "Profil de l'utilisateur"
