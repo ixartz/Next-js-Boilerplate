@@ -13,6 +13,10 @@ const isProtectedRoute = createRouteMatcher([
   '/:locale/dashboard(.*)',
 ]);
 
+const isWebhookRoute = createRouteMatcher([
+  '/api/webhooks(.*)',
+]);
+
 const isAuthPage = createRouteMatcher([
   '/sign-in(.*)',
   '/:locale/sign-in(.*)',
@@ -36,7 +40,7 @@ const aj = arcjet.withRule(
 
 // Currently, with database connections, Webpack is faster than Turbopack in production environment at runtime.
 // Then, unfortunately, Webpack doesn't support `proxy.ts` on Vercel yet, here is the error: "Error: ENOENT: no such file or directory, lstat '/vercel/path0/.next/server/proxy.js'"
-export default async function middleware(
+export default async function proxy(
   request: NextRequest,
   event: NextFetchEvent,
 ) {
@@ -50,6 +54,10 @@ export default async function middleware(
     }
   }
 
+  if (isWebhookRoute(request)) {
+    console.warn('Webhook received');
+    return NextResponse.next();
+  }
   // Clerk keyless mode doesn't work with i18n, this is why we need to run the middleware conditionally
   if (
     isAuthPage(request) || isProtectedRoute(request)
@@ -77,5 +85,4 @@ export const config = {
   // - … if they start with `/_next`, `/_vercel` or `monitoring`
   // - … the ones containing a dot (e.g. `favicon.ico`)
   matcher: '/((?!_next|_vercel|monitoring|.*\\..*).*)',
-  runtime: 'nodejs',
 };
