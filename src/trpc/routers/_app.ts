@@ -20,9 +20,9 @@ export const appRouter = createTRPCRouter({
     }),
   getUser: protectedProcedure.query(async ({ ctx }) => {
     const user = await db.select().from(users).where(eq(users.id, ctx.auth.id)).limit(1);
-    return user || null;
+    return user[0] || null;
   }),
-  inngestCheckUser: protectedProcedure.query(async ({ ctx }) => {
+  inngestCheckUser: protectedProcedure.mutation(async ({ ctx }) => {
     const user = await inngest.send({
       name: 'test/demo.get-current-user',
       data: {
