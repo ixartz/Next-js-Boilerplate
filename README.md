@@ -429,7 +429,15 @@ Finally, initiate a new deployment by clicking `Overview > Latest deployments > 
 
 ### Error Monitoring
 
-The project uses [Sentry](https://sentry.io/for/nextjs/?utm_source=github&utm_medium=paid-community&utm_campaign=general-fy25q1-nextjs&utm_content=github-banner-nextjsboilerplate-logo) to monitor errors. In the development environment, no additional setup is needed: SaaS Boilerplate is pre-configured to use Sentry and Spotlight (Sentry for Development). All errors will automatically be sent to your local Spotlight instance, allowing you to experience Sentry locally.
+The project uses [Sentry](https://sentry.io/for/nextjs/?utm_source=github&utm_medium=paid-community&utm_campaign=general-fy25q1-nextjs&utm_content=github-banner-nextjsboilerplate-logo) to monitor errors.
+
+#### Local development with Sentry and Spotlight
+
+In the development environment, no additional setup is required: Next.js Boilerplate comes pre-configured with Sentry and Spotlight (Sentry for Development). All errors are automatically captured by your local Spotlight instance, enabling testing without sending data to Sentry Cloud.
+
+You can inspect captured events, view stack traces, and analyze errors in the Spotlight UI at `http://localhost:8969`.
+
+#### Production setup with Sentry
 
 For production environment, you'll need to create a Sentry account and a new project. Then, in `.env.production`, you need to update the following environment variables:
 
