@@ -94,7 +94,7 @@ npm run db:studio        # Database UI
 
 ## Struttura Progetto
 
-```
+```text
 src/
 ├── app/                 # Routes Next.js
 │   └── [locale]/       # Route multi-lingua

@@ -52,8 +52,8 @@ Se preferisci configurare manualmente il progetto:
 ### 1. Configurazione Base
 
 ```bash
-# Clona o copia il progetto
-git clone https://github.com/your-repo/Next-js-BoilerplateMatrix.git my-new-project
+# Clona o copia il progetto (sostituisci con il tuo repository template)
+git clone https://github.com/your-username/nextjs-boilerplate-template.git my-new-project
 cd my-new-project
 
 # Installa le dipendenze

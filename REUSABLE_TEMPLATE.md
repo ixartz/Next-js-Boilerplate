@@ -30,8 +30,8 @@ Questa guida spiega come utilizzare questo boilerplate per creare rapidamente nu
 ### Per ogni nuovo progetto:
 
 ```bash
-# 1. Clona il boilerplate
-git clone https://github.com/your-username/Next-js-BoilerplateMatrix.git mio-nuovo-progetto
+# 1. Clona il boilerplate (sostituisci con il tuo repository template)
+git clone https://github.com/your-username/nextjs-boilerplate-template.git mio-nuovo-progetto
 cd mio-nuovo-progetto
 
 # 2. Rimuovi la storia git esistente
@@ -76,8 +76,8 @@ fi
 
 echo "📦 Creazione progetto: $PROJECT_NAME"
 
-# Clone del template
-git clone https://github.com/your-username/Next-js-BoilerplateMatrix.git "$PROJECT_NAME"
+# Clone del template (sostituisci con il tuo repository template)
+git clone https://github.com/your-username/nextjs-boilerplate-template.git "$PROJECT_NAME"
 cd "$PROJECT_NAME"
 
 # Rimuovi git history
@@ -213,7 +213,7 @@ git clone -b v1.0.0 https://github.com/your-org/template.git
 
 ## Struttura Consigliata per Repository Template
 
-```
+```text
 your-org/nextjs-template/
 ├── README.md                    # Istruzioni generali
 ├── SETUP.md                     # Setup dettagliato
