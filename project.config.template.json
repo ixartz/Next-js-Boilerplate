@@ -1,0 +1,76 @@
+{
+  "project": {
+    "name": "My Awesome Project",
+    "description": "A modern Next.js application built with the best practices",
+    "version": "0.1.0",
+    "author": {
+      "name": "Your Name",
+      "email": "your.email@example.com",
+      "url": "https://yourwebsite.com"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/yourusername/your-repo"
+    }
+  },
+  "features": {
+    "authentication": {
+      "enabled": true,
+      "provider": "clerk",
+      "comment": "Set to false if you don't need authentication"
+    },
+    "database": {
+      "enabled": true,
+      "provider": "drizzle",
+      "defaultDb": "postgresql",
+      "comment": "Supports postgresql, sqlite, mysql"
+    },
+    "i18n": {
+      "enabled": true,
+      "defaultLocale": "en",
+      "locales": ["en", "it", "fr"],
+      "comment": "Add or remove languages as needed"
+    },
+    "errorMonitoring": {
+      "enabled": false,
+      "provider": "sentry",
+      "comment": "Enable for production error tracking"
+    },
+    "analytics": {
+      "enabled": false,
+      "provider": "posthog",
+      "comment": "Enable for user analytics"
+    },
+    "security": {
+      "enabled": false,
+      "provider": "arcjet",
+      "comment": "Bot protection, rate limiting, WAF"
+    },
+    "logging": {
+      "enabled": false,
+      "provider": "betterstack",
+      "comment": "Advanced logging for production"
+    }
+  },
+  "ui": {
+    "theme": {
+      "primaryColor": "blue",
+      "darkMode": false,
+      "comment": "Customize your theme colors"
+    },
+    "components": {
+      "useStorybook": true,
+      "componentLibrary": "custom",
+      "comment": "Options: custom, shadcn, mui, chakra"
+    }
+  },
+  "deployment": {
+    "platform": "vercel",
+    "comment": "Options: vercel, netlify, docker, sevalla"
+  },
+  "scripts": {
+    "setupComplete": false,
+    "installedDependencies": false,
+    "configuredEnvironment": false
+  }
+}
