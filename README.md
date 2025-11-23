@@ -182,7 +182,7 @@ Developer experience first, extremely flexible code structure and only keep what
 - 🌈 Include a FREE minimalist theme
 - 💯 Maximize lighthouse score
 
-Built-in feature from Next.js:
+Built-in features from Next.js:
 
 - ☕ Minify HTML & CSS
 - 💨 Live reload
