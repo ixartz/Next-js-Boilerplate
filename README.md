@@ -234,7 +234,7 @@ Open http://localhost:3000 with your favorite browser to see your project. For y
 >
 > Once expired, the project will not be able to connect to the database, and it will throw connection errors.
 >
-> To avoid the connection errors and make the database **persistent**, run `npm run neon:claim`. After claiming it, the database becomes persistent and suitable for production use.
+> To avoid the connection errors and make the database **persistent**, run `npm run neon:claim`. After claiming it, the database becomes persistent and suitable for production use as well.
 
 > [!CAUTION]
 > The authentication system requires environment variables to be set up. Please refer to the [Set up authentication](#set-up-authentication) section.
@@ -270,7 +270,9 @@ Once claimed, the database is suitable for production use. You can create separa
 
 #### Create a fresh and empty database
 
-If you want to create a fresh and empty database, you just need to remove the following environment variables: `DATABASE_URL`, `DATABASE_URL_DIRECT` and `PUBLIC_INSTAGRES_CLAIM_URL` from the `.env.local` file. Then, run the following command to create a new temporary database:
+If you want to create a fresh and empty database, you just need to remove the following environment variables: `DATABASE_URL`, `DATABASE_URL_DIRECT` and `PUBLIC_INSTAGRES_CLAIM_URL` from the `.env.local` file.
+
+Then, run the following command to create a new temporary database:
 
 ```shell
 npm run dev
