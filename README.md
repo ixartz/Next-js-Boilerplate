@@ -10,7 +10,7 @@
   </a>
 </p>
 
-🚀 Boilerplate and Starter for Next.js with App Router, Tailwind CSS, and TypeScript ⚡️ Prioritizing developer experience first: Next.js, TypeScript, ESLint, Prettier, Lefthook (replacing Husky), Lint-Staged, Vitest (replacing Jest), Testing Library, Playwright, Commitlint, VSCode, Tailwind CSS, Authentication with [Clerk](https://clerk.com?utm_source=github&utm_medium=sponsorship&utm_campaign=nextjs-boilerplate), Database with DrizzleORM (PostgreSQL, SQLite, and MySQL), Local database with PGlite and production with [Prisma Postgres](https://www.prisma.io/?via=nextjs-boilerplate), Error Monitoring with [Sentry](https://sentry.io/for/nextjs/?utm_source=github&utm_medium=paid-community&utm_campaign=general-fy25q1-nextjs&utm_content=github-banner-nextjsboilerplate-logo), Logging with LogTape (replacing Pino.js) and Log Management, Monitoring as Code, Storybook, Multi-language (i18n), AI-powered code reviews with CodeRabbit, Secure with [Arcjet](https://launch.arcjet.com/Q6eLbRE) (Bot detection, Rate limiting, Attack protection, etc.), and more.
+🚀 Boilerplate and Starter for Next.js with App Router, Tailwind CSS, and TypeScript ⚡️ Prioritizing developer experience first: Next.js, TypeScript, ESLint, Prettier, Lefthook (replacing Husky), Lint-Staged, Vitest (replacing Jest), Testing Library, Playwright, Commitlint, VSCode, Tailwind CSS, Authentication with [Clerk](https://clerk.com?utm_source=github&utm_medium=sponsorship&utm_campaign=nextjs-boilerplate), Database with DrizzleORM (PostgreSQL, SQLite, and MySQL), Local database with PGlite and production with Neon (PostgreSQL), Error Monitoring with [Sentry](https://sentry.io/for/nextjs/?utm_source=github&utm_medium=paid-community&utm_campaign=general-fy25q1-nextjs&utm_content=github-banner-nextjsboilerplate-logo), Logging with LogTape (replacing Pino.js) and Log Management, Monitoring as Code, Storybook, Multi-language (i18n), AI-powered code reviews with CodeRabbit, Secure with [Arcjet](https://launch.arcjet.com/Q6eLbRE) (Bot detection, Rate limiting, Attack protection, etc.), and more.
 
 Clone this project and use it to create your own Next.js project. You can check out the live demo at [Next.js Boilerplate](https://demo.nextjs-boilerplate.com), which includes a working authentication system.
 
@@ -145,7 +145,7 @@ Developer experience first, extremely flexible code structure and only keep what
 - 👤 Passwordless Authentication with Magic Links, Multi-Factor Auth (MFA), Social Auth (Google, Facebook, Twitter, GitHub, Apple, and more), Passwordless login with Passkeys, User Impersonation
 - 📦 Type-safe ORM with DrizzleORM, compatible with PostgreSQL, SQLite, and MySQL
 - 💽 Offline and local development database with PGlite
-- ☁️ Remote and production database with [Prisma Postgres](https://www.prisma.io/?via=nextjs-boilerplate)
+- ☁️ Remote and production database with Neon (PostgreSQL)
 - 🌐 Multi-language (i18n) with next-intl and [Crowdin](https://l.crowdin.com/next-js)
 - ♻️ Type-safe environment variables with T3 Env
 - ⌨️ Form handling with React Hook Form
@@ -227,7 +227,17 @@ Then, you can run the project locally in development mode with live reload by ex
 npm run dev
 ```
 
-Open http://localhost:3000 with your favorite browser to see your project. For your information, the project is already pre-configured with a local database using PGlite. No extra setup is required to run the project locally.
+Open http://localhost:3000 with your favorite browser to see your project. For your information, the project is already pre-configured with a database.
+
+> [!WARNING]
+> Next.js Boilerplate ships with a fully working Postgres database for your local environment. This database is **temporary** and will expire after **72 hours** if you don't claim it.
+>
+> Once expired, the project won't be able to connect to the database, and it'll throw connection errors.
+>
+> To avoid the connection errors and make the database **persistent**, run `npm run neon:claim`. After claiming it, the database becomes persistent and suitable for production use as well.
+
+> [!CAUTION]
+> The authentication system requires environment variables to be set up. Please refer to the [Set up authentication](#set-up-authentication) section.
 
 Need advanced features? Multi-tenancy & Teams, Roles & Permissions, Shadcn UI, End-to-End Typesafety with oRPC, Stripe Payment, Light / Dark mode. Try [Next.js Boilerplate Pro](https://nextjs-boilerplate.com/pro-saas-starter-kit).
 
@@ -246,9 +256,29 @@ Now you have a fully functional authentication system with Next.js, including fe
 
 The project uses DrizzleORM, a type-safe ORM that is compatible with PostgreSQL, SQLite, and MySQL databases. By default, the project is configured to seamlessly work with PostgreSQL, and you have the flexibility to choose any PostgreSQL database provider of your choice.
 
-To set up a remote and production database, you need to create a PostgreSQL database and obtain the connection string. One recommended option is to use [Prisma PostgreSQL](https://www.prisma.io/?via=nextjs-boilerplate), which provides a free PostgreSQL database. This database is compatible and has been tested with Next.js Boilerplate.
+When you launch the project locally for the first time, it automatically creates a temporary PostgreSQL database. This allows you to work with a PostgreSQL database without Docker or any additional setup.
 
-After creating your Prisma account, you can get the connection string in the `Connect to your database` section and select the `Any client` tab. Then, you can generate the connection string by clicking the `Generate database credentials` button. Finally, you can copy the connection string and add the `DATABASE_URL` variable to the `.env.local` file.
+This temporary database will **expire after 72 hours** if you don't claim it. To avoid connection errors and **make the database persistent**, simply run the following command:
+
+```shell
+npm run neon:claim
+```
+
+Then, follow the instructions provided in the terminal to complete the claiming process.
+
+Once claimed, the database is suitable for production use. You can create separate database branches for development, staging, and production environments to keep data isolated.
+
+#### Create a fresh and empty database
+
+If you want to create a fresh and empty database, you just need to remove the following environment variables: `DATABASE_URL`, `DATABASE_URL_DIRECT` and `PUBLIC_INSTAGRES_CLAIM_URL` from the `.env.local` file.
+
+Then, run the following command to create a new temporary database:
+
+```shell
+npm run dev
+```
+
+After the database is created, the connection strings will be automatically added to your `.env.local` file. And, don't forget to claim the database with `npm run neon:claim`.
 
 ### Translation (i18n) setup
 

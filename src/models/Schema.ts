@@ -11,7 +11,7 @@ import { integer, pgTable, serial, timestamp } from 'drizzle-orm/pg-core';
 // Simply restart your Next.js server to apply the database changes.
 // Alternatively, if your database is running, you can run `npm run db:migrate` and there is no need to restart the server.
 
-// Need a database for production? Check out https://www.prisma.io/?via=nextjsboilerplate
+// Need a database for production? Just claim it by running `npm run neon:claim`.
 // Tested and compatible with Next.js Boilerplate
 
 export const counterSchema = pgTable('counter', {

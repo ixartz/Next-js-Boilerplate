@@ -3,7 +3,7 @@ import { Pool } from 'pg';
 import { Env } from '@/libs/Env';
 import * as schema from '@/models/Schema';
 
-// Need a database for production? Check out https://www.prisma.io/?via=nextjsboilerplate
+// Need a database for production? Just claim it by running `npm run neon:claim`.
 // Tested and compatible with Next.js Boilerplate
 export const createDbConnection = () => {
   const pool = new Pool({
