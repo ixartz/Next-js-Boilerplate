@@ -231,7 +231,10 @@ Open http://localhost:3000 with your favorite browser to see your project. For y
 
 > [!WARNING]
 > Next.js Boilerplate ships with a fully working Postgres database for your local environment. This database is **temporary** and will expire after **72 hours** if you do not claim it.
-> To preserve your data and make the database **persistent**, run `npm run neon:claim`. After claiming it, the database becomes persistent and suitable for production use.
+>
+> Once expired, the project will not be able to connect to the database, and it will throw connection errors.
+>
+> To avoid the connection errors and make the database **persistent**, run `npm run neon:claim`. After claiming it, the database becomes persistent and suitable for production use.
 
 > [!CAUTION]
 > The authentication system requires environment variables to be set up. Please refer to the [Set up authentication](#set-up-authentication) section.
@@ -255,7 +258,7 @@ The project uses DrizzleORM, a type-safe ORM that is compatible with PostgreSQL,
 
 When you launch the project locally for the first time, it automatically creates a temporary PostgreSQL database. This allows you to work with a PostgreSQL database without Docker or any additional setup.
 
-This temporary database will **expire after 72 hours** if you do not claim it. To preserve your data and **make the database persistent**, simply run the following command:
+This temporary database will **expire after 72 hours** if you do not claim it. To avoid connection errors and **make the database persistent**, simply run the following command:
 
 ```shell
 npm run neon:claim
