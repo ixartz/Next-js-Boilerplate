@@ -64,7 +64,7 @@
     "@next/bundle-analyzer": "^16.0.7",
     "@next/eslint-plugin-next": "^16.0.7",
     "@playwright/test": "^1.57.0",
-    "@spotlightjs/spotlight": "^4.7.0",
+    "@spotlightjs/spotlight": "4.5.1",
     "@storybook/addon-a11y": "^10.1.4",
     "@storybook/addon-docs": "^10.1.4",
     "@storybook/addon-vitest": "^10.1.4",
