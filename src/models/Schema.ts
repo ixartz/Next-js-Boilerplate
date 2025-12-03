@@ -7,8 +7,7 @@ import { integer, pgTable, serial, timestamp } from 'drizzle-orm/pg-core';
 // 2. Generate a new migration by running: `npm run db:generate`
 
 // The generated migration file will reflect your schema changes.
-// The migration is automatically applied during the Next.js initialization process through `instrumentation.ts`.
-// Simply restart your Next.js server to apply the database changes.
+// It automatically run the command `db-server:file`, which apply the migration before Next.js starts in development mode,
 // Alternatively, if your database is running, you can run `npm run db:migrate` and there is no need to restart the server.
 
 // Need a database for production? Just claim it by running `npm run neon:claim`.
