@@ -42,7 +42,7 @@
     "@sentry/nextjs": "^10.28.0",
     "@t3-oss/env-nextjs": "^0.13.8",
     "drizzle-orm": "^0.44.7",
-    "next": "^16.0.7",
+    "next": "16.0.10",
     "next-intl": "^4.5.8",
     "pg": "^8.16.3",
     "posthog-js": "^1.300.0",
