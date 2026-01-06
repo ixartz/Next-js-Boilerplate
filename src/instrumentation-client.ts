@@ -9,7 +9,11 @@ if (!process.env.NEXT_PUBLIC_SENTRY_DISABLED) {
 
     // Add optional integrations for additional features
     integrations: [
-      Sentry.replayIntegration(),
+      Sentry.replayIntegration({
+        maskAllText: false,
+        maskAllInputs: false,
+        blockAllMedia: false,
+      }),
       Sentry.consoleLoggingIntegration(),
       Sentry.browserTracingIntegration(),
 
