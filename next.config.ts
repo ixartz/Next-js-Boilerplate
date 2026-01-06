@@ -15,9 +15,6 @@ const baseConfig: NextConfig = {
   outputFileTracingIncludes: {
     '/': ['./migrations/**/*'],
   },
-  experimental: {
-    turbopackFileSystemCacheForDev: true,
-  },
 };
 
 // Initialize the Next-Intl plugin
