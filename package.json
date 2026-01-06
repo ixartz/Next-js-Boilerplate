@@ -52,7 +52,7 @@
     "zod": "^4.3.5"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^6.3.0",
+    "@antfu/eslint-config": "^6.7.3",
     "@chromatic-com/playwright": "^0.12.8",
     "@commitlint/cli": "^20.3.0",
     "@commitlint/config-conventional": "^20.3.0",
