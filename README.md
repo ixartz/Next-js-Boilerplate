@@ -296,7 +296,6 @@ After defining the environment variables in your GitHub Actions, your localizati
 ├── playwright.config.ts            # Playwright configuration
 ├── vitest.config.mts               # Vitest configuration
 └── tsconfig.json                   # TypeScript configuration
-
 ```
 
 ### Customization
