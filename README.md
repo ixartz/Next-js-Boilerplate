@@ -233,14 +233,14 @@ Need advanced features? Multi-tenancy & Teams, Roles & Permissions, Shadcn UI, E
 
 ### Set up authentication
 
-To get started, you will need to create a Clerk account at [Clerk.com](https://clerk.com?utm_source=github&utm_medium=sponsorship&utm_campaign=nextjs-boilerplate) and create a new application in the Clerk Dashboard. Once you have done that, copy the `NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY` and `CLERK_SECRET_KEY` values and add them to the `.env.local` file (not tracked by Git):
+To get started, create a Clerk account at [Clerk.com](https://clerk.com?utm_source=github&utm_medium=sponsorship&utm_campaign=nextjs-boilerplate) and create a new application in the Clerk Dashboard. Then copy the `NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY` and `CLERK_SECRET_KEY` values and add them to your `.env.local` file (not tracked by Git):
 
 ```shell
 NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_clerk_pub_key
 CLERK_SECRET_KEY=your_clerk_secret_key
 ```
 
-Now you have a fully functional authentication system with Next.js, including features such as sign up, sign in, sign out, forgot password, reset password, update profile, update password, update email, delete account, and more.
+You now have a fully functional authentication system with Next.js, including features such as sign up, sign in, sign out, forgot password, reset password, update profile, update password, update email, delete account, and more.
 
 ### Set up remote database
 
@@ -290,8 +290,13 @@ After defining the environment variables in your GitHub Actions, your localizati
 ├── tests
 │   ├── e2e                         # E2E tests, also includes Monitoring as Code
 │   └── integration                 # Integration tests
+├── drizzle.config.ts               # Drizzle ORM configuration
+├── eslint.config.mjs               # ESLint configuration
 ├── next.config.ts                  # Next JS configuration
+├── playwright.config.ts            # Playwright configuration
+├── vitest.config.mts               # Vitest configuration
 └── tsconfig.json                   # TypeScript configuration
+
 ```
 
 ### Customization
