@@ -29,6 +29,7 @@ export const BaseTemplate = (props: {
             <nav>
               <ul className="flex flex-wrap gap-x-5 text-xl">
                 {props.rightNav}
+                a
               </ul>
             </nav>
           </div>
@@ -37,7 +38,12 @@ export const BaseTemplate = (props: {
         <main>{props.children}</main>
 
         <footer className="border-t border-gray-300 py-8 text-center text-sm">
-          {`© Copyright ${new Date().getFullYear()} ${AppConfig.name}. `}
+          {t('copyright', {
+            year: new Date().getFullYear(),
+            name: AppConfig.name,
+          })}
+          {' '}
+
           {t.rich('made_with', {
             author: () => (
               <a
