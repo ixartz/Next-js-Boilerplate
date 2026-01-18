@@ -43,16 +43,6 @@ export const BaseTemplate = (props: {
           })}
           {' '}
 
-          {t.rich('made_with', {
-            author: () => (
-              <a
-                href="https://nextjs-boilerplate.com"
-                className="text-blue-700 hover:border-b-2 hover:border-blue-700"
-              >
-                Next.js Boilerplate
-              </a>
-            ),
-          })}
           {/*
            * PLEASE READ THIS SECTION
            * I'm an indie maker with limited resources and funds, I'll really appreciate if you could have a link to my website.
