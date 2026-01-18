@@ -37,11 +37,18 @@ export const BaseTemplate = (props: {
         <main>{props.children}</main>
 
         <footer className="border-t border-gray-300 py-8 text-center text-sm">
-          {t('copyright', {
+          {t.rich('footer_text', {
             year: new Date().getFullYear(),
             name: AppConfig.name,
+            author: () => (
+              <a
+                href="https://nextjs-boilerplate.com"
+                className="text-blue-700 hover:border-b-2 hover:border-blue-700"
+              >
+                Next.js Boilerplate
+              </a>
+            ),
           })}
-          {' '}
 
           {/*
            * PLEASE READ THIS SECTION

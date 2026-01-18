@@ -9,7 +9,7 @@
   },
   "BaseTemplate": {
     "description": "Code de démarrage pour Next.js avec Tailwind CSS",
-    "copyright": "Droits d'auteur © {year} {name}."
+    "footer_text": "© {year} {name}. Fait avec <author></author>."
   },
   "Index": {
     "meta_title": "Présentation de Next.js Boilerplate",
