@@ -26,10 +26,7 @@
     "db-server:memory": "pglite-server --run 'npm run db:migrate'",
     "db:generate": "drizzle-kit generate",
     "db:migrate": "dotenv -c -- drizzle-kit migrate",
-    "db:studio": "drizzle-kit studio",
-    "storybook": "storybook dev -p 6006",
-    "storybook:test": "vitest run --config .storybook/vitest.config.mts",
-    "build-storybook": "storybook build"
+    "db:studio": "drizzle-kit studio"
   },
   "dependencies": {
     "@arcjet/next": "^1.0.0-beta.15",

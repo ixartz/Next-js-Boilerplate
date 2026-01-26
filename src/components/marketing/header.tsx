@@ -1,6 +1,6 @@
 'use client';
 import { UserButton, useUser } from '@clerk/nextjs';
-import { Menu, X } from 'lucide-react';
+import { ChevronRight, Menu, X } from 'lucide-react';
 import { motion, useScroll } from 'motion/react';
 import Link from 'next/link';
 import React from 'react';
@@ -19,7 +19,7 @@ export const HeroHeader = () => {
   const [menuState, setMenuState] = React.useState(false);
   const [scrolled, setScrolled] = React.useState(false);
   const { scrollYProgress } = useScroll();
-  const { isSignedIn, user, isLoaded } = useUser();
+  const { isSignedIn } = useUser();
 
   React.useEffect(() => {
     const unsubscribe = scrollYProgress.on('change', (latest) => {
@@ -73,7 +73,7 @@ export const HeroHeader = () => {
               </div>
             </div>
 
-            <div className="mb-6 hidden w-full flex-wrap items-center justify-end space-y-8 rounded-3xl border bg-background p-6 shadow-2xl shadow-zinc-300/20 in-data-[state=active]:block md:flex-nowrap lg:m-0 lg:flex lg:w-fit lg:gap-6 lg:space-y-0 lg:border-transparent lg:bg-transparent lg:p-0 lg:shadow-none lg:in-data-[state=active]:flex dark:shadow-none dark:lg:bg-transparent">
+            <div className="">
               <div className="lg:hidden">
                 <ul className="space-y-6 text-base">
                   {menuItems.map((item, index) => (
@@ -89,10 +89,11 @@ export const HeroHeader = () => {
                 </ul>
               </div>
               <div className="flex flex-col sm:flex-row sm:gap-3 sm:space-y-0 md:w-fit">
-                <ModeToggle />
+
                 { !isSignedIn
                   ? (
                       <>
+                        <ModeToggle />
                         <Button
                           asChild
                           variant="outline"
@@ -113,8 +114,21 @@ export const HeroHeader = () => {
                       </>
                     )
                   : (
-                      <div className="self-center">
-                        <UserButton />
+                      <div className="flex flex-wrap items-center justify-center gap-4">
+                        <ModeToggle />
+
+                        <Button
+                          variant="outline"
+                          asChild
+                        >
+                          <Link href="/dashboard">
+                            <span className="text-nowrap">Try It Now</span>
+                            <ChevronRight className="relative size-4" />
+                          </Link>
+                        </Button>
+                        <div className="self-center">
+                          <UserButton />
+                        </div>
                       </div>
                       // <ProfileDropdown
                       //   email={user?.primaryEmailAddress?.emailAddress ?? null}

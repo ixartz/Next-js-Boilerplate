@@ -3,7 +3,6 @@ commit-msg:
   commands:
     commitlint:
       run: npx --no -- commitlint --edit {1}
-y
 # # Validate content before committing
 # pre-commit:
 #   commands:
