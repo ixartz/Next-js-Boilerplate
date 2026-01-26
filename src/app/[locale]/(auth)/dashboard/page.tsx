@@ -19,7 +19,7 @@ export async function generateMetadata(props: {
 export default function Dashboard() {
   return (
     <div className="py-5 [&_p]:my-6">
-      <Hello />
+      hey
     </div>
   );
 }

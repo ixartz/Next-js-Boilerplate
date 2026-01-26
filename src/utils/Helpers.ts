@@ -1,4 +1,4 @@
-import { routing } from '@/libs/I18nRouting';
+import { routing } from '@/lib/I18nRouting';
 
 export const getBaseUrl = () => {
   if (process.env.NEXT_PUBLIC_APP_URL) {
@@ -30,3 +30,16 @@ export const getI18nPath = (url: string, locale: string) => {
 export const isServer = () => {
   return typeof window === 'undefined';
 };
+
+export function nameToAvatar(name?: string | null): string {
+  if (!name) {
+    return '?';
+  }
+
+  return name
+    .trim()
+    .split(/\s+/)
+    .slice(0, 2) // first + last name
+    .map(word => word[0].toUpperCase())
+    .join('');
+}

@@ -1,6 +1,7 @@
 import { ClerkProvider } from '@clerk/nextjs';
+import { shadcn } from '@clerk/themes'
 import { setRequestLocale } from 'next-intl/server';
-import { routing } from '@/libs/I18nRouting';
+import { routing } from '@/lib/I18nRouting';
 import { ClerkLocalizations } from '@/utils/AppConfig';
 
 export default async function AuthLayout(props: {
@@ -26,6 +27,7 @@ export default async function AuthLayout(props: {
   return (
     <ClerkProvider
       appearance={{
+        theme: shadcn,
         cssLayerName: 'clerk', // Ensure Clerk is compatible with Tailwind CSS v4
       }}
       localization={clerkLocale}
