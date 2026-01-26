@@ -33,7 +33,6 @@ type Props = {
 };
 
 const ProfileDropdown = ({ trigger, defaultOpen, align = 'end', fullName, email, imageUrl }: Props) => {
-
   return (
     <DropdownMenu defaultOpen={defaultOpen}>
       <DropdownMenuTrigger asChild>{trigger}</DropdownMenuTrigger>

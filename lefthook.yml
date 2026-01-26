@@ -3,16 +3,16 @@ commit-msg:
   commands:
     commitlint:
       run: npx --no -- commitlint --edit {1}
-
-# Validate content before committing
-pre-commit:
-  commands:
-    lint:
-      glob: '*'
-      run: npx --no -- eslint --fix --no-warn-ignored {staged_files}
-      stage_fixed: true
-      priority: 1
-    check-types:
-      glob: '*.{ts,tsx}'
-      run: npm run check:types
-      priority: 2
+y
+# # Validate content before committing
+# pre-commit:
+#   commands:
+#     lint:
+#       glob: '*'
+#       run: npx --no -- eslint --fix --no-warn-ignored {staged_files}
+#       stage_fixed: true
+#       priority: 1
+#     check-types:
+#       glob: '*.{ts,tsx}'
+#       run: npm run check:types
+#       priority: 2

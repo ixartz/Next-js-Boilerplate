@@ -18,5 +18,5 @@
     "lib": "@/lib",
     "hooks": "@/hooks"
   },
-  "registries": { "@tailark": "https://tailark.com/r/{name}.json"}
+  "registries": { "@tailark": "https://tailark.com/r/{name}.json" }
 }

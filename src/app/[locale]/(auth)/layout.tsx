@@ -1,5 +1,5 @@
 import { ClerkProvider } from '@clerk/nextjs';
-import { shadcn } from '@clerk/themes'
+import { shadcn } from '@clerk/themes';
 import { setRequestLocale } from 'next-intl/server';
 import { routing } from '@/lib/I18nRouting';
 import { ClerkLocalizations } from '@/utils/AppConfig';

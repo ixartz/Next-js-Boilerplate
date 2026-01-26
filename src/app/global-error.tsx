@@ -1,9 +1,9 @@
 'use client';
 
-import { routing } from '@/lib/I18nRouting';
 import * as Sentry from '@sentry/nextjs';
 import NextError from 'next/error';
 import { useEffect } from 'react';
+import { routing } from '@/lib/I18nRouting';
 
 export default function GlobalError(props: {
   error: Error & { digest?: string };
