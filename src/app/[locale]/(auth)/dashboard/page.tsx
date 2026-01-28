@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import { getTranslations } from 'next-intl/server';
+import { redirect } from 'next/navigation';
 
 export async function generateMetadata(props: {
   params: Promise<{ locale: string }>;
@@ -16,9 +17,20 @@ export async function generateMetadata(props: {
 }
 
 export default function Dashboard() {
+  // const user = await currentUser();
+
+  // if (!user) {
+  //   redirect('/sign-in');
+  // }
+
+  // const onboarding = user.publicMetadata.onboarding as any;
+
+  // if (!onboarding?.completed && !onboarding?.skipped) {
+  //   redirect('/onboarding');
+  // }
   return (
     <div className="py-5 [&_p]:my-6">
-      hey
+      You are in dashboard
     </div>
   );
 }

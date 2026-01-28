@@ -16,7 +16,8 @@
     "utils": "@/lib/utils",
     "ui": "@/components/ui",
     "lib": "@/lib",
-    "hooks": "@/hooks"
+    "hooks": "@/hooks",
+    "schema": "@/models"
   },
   "registries": { "@tailark": "https://tailark.com/r/{name}.json" }
 }
