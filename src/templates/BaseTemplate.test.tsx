@@ -7,8 +7,8 @@ import { BaseTemplate } from './BaseTemplate';
 
 describe('Base template', () => {
   describe('Render method', () => {
-    it('should have 3 menu items', () => {
-      render(
+    it('should have 3 menu items', async () => {
+      await render(
         <NextIntlClientProvider locale="en" messages={messages}>
           <BaseTemplate
             leftNav={(
@@ -29,8 +29,8 @@ describe('Base template', () => {
       expect(menuItemList.elements()).toHaveLength(3);
     });
 
-    it('should have a link to support nextjs-boilerplate.com', () => {
-      render(
+    it('should have a link to support nextjs-boilerplate.com', async () => {
+      await render(
         <NextIntlClientProvider locale="en" messages={messages}>
           <BaseTemplate leftNav={<li>1</li>}>{null}</BaseTemplate>
         </NextIntlClientProvider>,
