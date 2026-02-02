@@ -67,7 +67,10 @@ jobs:
 
       - if: github.event_name == 'pull_request'
         name: Validate all commits from PR
-        run: npx commitlint --from ${{ github.event.pull_request.base.sha }} --to ${{ github.event.pull_request.head.sha }} --verbose
+        run: npx commitlint --from $BASE_SHA --to $HEAD_SHA --verbose
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+          HEAD_SHA: ${{ github.event.pull_request.head.sha }}
 
       - name: Linter
         run: npm run lint
@@ -100,7 +103,7 @@ jobs:
           node-version: ${{ matrix.node-version }}
 
       - name: Run unit tests
-        uses: docker://mcr.microsoft.com/playwright:v1.57.0
+        uses: docker://mcr.microsoft.com/playwright:v1.58.1
         with:
           args: npm run test -- --coverage
 
@@ -128,7 +131,7 @@ jobs:
           node-version: ${{ matrix.node-version }}
 
       - name: Run storybook tests
-        uses: docker://mcr.microsoft.com/playwright:v1.57.0
+        uses: docker://mcr.microsoft.com/playwright:v1.58.1
         with:
           args: npm run storybook:test
 
@@ -154,7 +157,7 @@ jobs:
           restore-nextjs-cache: true
 
       - name: Run E2E tests
-        uses: docker://mcr.microsoft.com/playwright:v1.57.0
+        uses: docker://mcr.microsoft.com/playwright:v1.58.1
         with:
           args: sh -c "HOME=/root npm run test:e2e" # Set HOME to /root to avoid Playwright error with Firebox
         env:
