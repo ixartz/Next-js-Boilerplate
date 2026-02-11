@@ -2,8 +2,8 @@
 
 import { zodResolver } from '@hookform/resolvers/zod';
 import { useTranslations } from 'next-intl';
-import { useRouter } from 'next/navigation';
 import { useForm } from 'react-hook-form';
+import { useRouter } from '@/libs/I18nNavigation';
 import { CounterValidation } from '@/validations/CounterValidation';
 
 export const CounterForm = () => {

@@ -1,6 +1,7 @@
 import { dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import antfu from '@antfu/eslint-config';
+import jsdoc from 'eslint-plugin-jsdoc';
 import jsxA11y from 'eslint-plugin-jsx-a11y';
 import playwright from 'eslint-plugin-playwright';
 import storybook from 'eslint-plugin-storybook';
@@ -55,14 +56,22 @@ export default antfu(
   // --- Custom Rule Overrides ---
   {
     rules: {
+      // --- JSDoc Rules ---
+      // To avoid redefine errors with Antfu, JSDoc rules are added here
+      ...jsdoc.configs['flat/recommended-typescript'].rules,
+
       'antfu/no-top-level-await': 'off', // Allow top-level await
       'style/brace-style': ['error', '1tbs'], // Use the default brace style
       'ts/consistent-type-definitions': ['error', 'type'], // Use `type` instead of `interface`
       'react/prefer-destructuring-assignment': 'off', // Vscode doesn't support automatically destructuring, it's a pain to add a new variable
       'react-hooks/incompatible-library': 'off', // Disable warning for compilation skipped
+      'react-hooks/exhaustive-deps': 'off', // Disable exhaustive-deps in useEffect
       'node/prefer-global/process': 'off', // Allow using `process.env`
       'test/padding-around-all': 'error', // Add padding in test files
       'test/prefer-lowercase-title': 'off', // Allow using uppercase titles in test titles
+      'jsdoc/require-jsdoc': 'off', // JSDoc comments are optional
+      'jsdoc/require-returns': 'off', // Return types are optional
+      'jsdoc/require-hyphen-before-param-description': 'error', // Enforce hyphen before param description
     },
   },
 );
