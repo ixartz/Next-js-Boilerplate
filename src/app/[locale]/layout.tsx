@@ -8,6 +8,56 @@ import { routing } from '@/libs/I18nRouting';
 import '@/styles/global.css';
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://demo.nextjs-boilerplate.com'),
+  title: {
+    default: 'Next.js Boilerplate',
+    template: '%s | Next.js Boilerplate',
+  },
+  description: 'Next.js Boilerplate is the perfect starter code for your project. Build your React application with the Next.js framework.',
+  keywords: ['Next.js', 'React', 'TypeScript', 'Tailwind CSS', 'Boilerplate', 'Starter'],
+  authors: [{ name: 'CreativeDesignsGuru' }],
+  creator: 'CreativeDesignsGuru',
+  publisher: 'CreativeDesignsGuru',
+  formatDetection: {
+    email: false,
+    address: false,
+    telephone: false,
+  },
+  openGraph: {
+    type: 'website',
+    locale: 'en_US',
+    url: 'https://demo.nextjs-boilerplate.com',
+    siteName: 'Next.js Boilerplate',
+    title: 'Next.js Boilerplate',
+    description: 'Next.js Boilerplate is the perfect starter code for your project. Build your React application with the Next.js framework.',
+    images: [
+      {
+        url: '/assets/images/nextjs-starter-banner.png',
+        width: 1200,
+        height: 630,
+        alt: 'Next.js Boilerplate',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    site: '@ixartz',
+    creator: '@ixartz',
+    title: 'Next.js Boilerplate',
+    description: 'Next.js Boilerplate is the perfect starter code for your project. Build your React application with the Next.js framework.',
+    images: ['/assets/images/nextjs-starter-banner.png'],
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      'index': true,
+      'follow': true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
   icons: [
     {
       rel: 'apple-touch-icon',
