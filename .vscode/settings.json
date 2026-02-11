@@ -9,7 +9,7 @@
   "typescript.tsdk": "node_modules/typescript/lib", // Use the workspace version of TypeScript
   "typescript.enablePromptUseWorkspaceTsdk": true, // For security reasons it's require that users opt into using the workspace version of typescript
   "typescript.preferences.autoImportSpecifierExcludeRegexes": [
-    // useRouter should be imported from `next/navigation` instead of `next/router`
+    // useRouter should be imported from `libs/I18nNavigation` instead of `next/router`
     "next/router",
     // give priority for Link to next/link instead of lucide-react
     "lucide-react",
@@ -18,7 +18,9 @@
     // Use Zod v4 instead of v3
     "zod/v3",
     // Sentry is imported with `import *`
-    "@sentry/nextjs"
+    "@sentry/nextjs",
+    // Use Input from Shadcn UI instead of Input from Postcss
+    "postcss"
   ],
 
   // Vitest
