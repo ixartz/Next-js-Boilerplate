@@ -50,12 +50,13 @@ This document sets coding conventions for this repository. Its scope is the enti
 
 ## Tests
 - Use `*.test.ts` for unit tests, co-locate next to the code.
-- Title `describe` with the subject only (noun or route).
-- Title each spec with `it` in subject-less, present tense, starting with a verb.
+- Title `describe` with the subject only (noun or route); use `describe` blocks to group related tests and provide shared context so individual test names stay short.
+- Title each spec with `it` in subject-less, third-person present tense, starting with a verb.
 - Prefer the pattern `verb + object + context`, keep titles concise and deterministic.
-- Avoid vague or implied verbs: omit "should", "works", "handles", "tests", "checks".
+- Avoid vague or implied verbs: omit "should", "works", "handles", "tests", "checks", "must", "asserts", "validates".
 - State the intention (what) rather than the implementation (how), focus on observable behavior.
 - Use sentence case, no trailing period, capitalize only proper nouns and acronyms, don't capitalize the first verb.
+- Keep test names short: rephrase to remove redundancy, use domain-specific terms, and leverage `describe` context to avoid repeating shared phrases. A long test name may indicate the test does too much and should be split.
 - Prefer `it` for consistency.
 - Avoid mocking unless necessary.
 - Avoid helper functions for rendering when it's straightforward.
