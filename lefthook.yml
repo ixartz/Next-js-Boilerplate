@@ -16,3 +16,7 @@ pre-commit:
       glob: '*.{ts,tsx}'
       run: npm run check:types
       priority: 2
+    knip:
+      glob: '*'
+      run: npm run check:deps
+      priority: 3
