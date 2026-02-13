@@ -13,6 +13,8 @@ const betterStackSink: AsyncSink = async (record) => {
   });
 };
 
+const canForwardToBetterStack = Boolean(Env.NEXT_PUBLIC_BETTER_STACK_SOURCE_TOKEN) && Boolean(Env.NEXT_PUBLIC_BETTER_STACK_INGESTING_HOST);
+
 await configure({
   sinks: {
     console: getConsoleSink({ formatter: getJsonLinesFormatter() }),
@@ -22,10 +24,8 @@ await configure({
     { category: ['logtape', 'meta'], sinks: ['console'], lowestLevel: 'warning' },
     {
       category: ['app'],
-      sinks: Env.NEXT_PUBLIC_BETTER_STACK_SOURCE_TOKEN && Env.NEXT_PUBLIC_BETTER_STACK_INGESTING_HOST
-        ? ['console', 'betterStack']
-        : ['console'],
-      lowestLevel: 'debug',
+      sinks: canForwardToBetterStack ? ['console', 'betterStack'] : ['console'],
+      lowestLevel: Env.NEXT_PUBLIC_LOGGING_LEVEL,
     },
   ],
 });
