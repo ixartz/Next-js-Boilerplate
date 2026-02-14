@@ -10,8 +10,8 @@ type IPortfolioDetailProps = {
 export function generateStaticParams() {
   return routing.locales
     .map(locale =>
-      Array.from(Array.from({ length: 6 }).keys()).map(elt => ({
-        slug: `${elt}`,
+      Array.from({ length: 6 }, (_, i) => ({
+        slug: `${i}`,
         locale,
       })),
     )
