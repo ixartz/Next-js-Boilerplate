@@ -72,5 +72,8 @@
     "dashboard_link": "Dashboard",
     "user_profile_link": "Manage your account",
     "sign_out": "Sign out"
+  },
+  "LocaleSwitcher": {
+    "change_language": "Change language"
   }
 }

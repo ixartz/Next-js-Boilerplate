@@ -1,11 +1,12 @@
 'use client';
 
 import type { ChangeEventHandler } from 'react';
-import { useLocale } from 'next-intl';
+import { useLocale, useTranslations } from 'next-intl';
 import { usePathname, useRouter } from '@/libs/I18nNavigation';
 import { routing } from '@/libs/I18nRouting';
 
 export const LocaleSwitcher = () => {
+  const t = useTranslations('LocaleSwitcher');
   const router = useRouter();
   const pathname = usePathname();
   const locale = useLocale();
@@ -26,7 +27,7 @@ export const LocaleSwitcher = () => {
       defaultValue={locale}
       onChange={handleChange}
       className="border border-gray-300 font-medium focus:outline-hidden focus-visible:ring-3"
-      aria-label="lang-switcher"
+      aria-label={t('change_language')}
     >
       {routing.locales.map(elt => (
         <option key={elt} value={elt}>
