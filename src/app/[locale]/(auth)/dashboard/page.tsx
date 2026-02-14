@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import { getTranslations } from 'next-intl/server';
+import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { Hello } from '@/components/Hello';
 
 export async function generateMetadata(props: {
@@ -16,7 +16,12 @@ export async function generateMetadata(props: {
   };
 }
 
-export default function Dashboard() {
+export default async function DashboardPage(props: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await props.params;
+  setRequestLocale(locale);
+
   return (
     <div className="py-5 [&_p]:my-6">
       <Hello />

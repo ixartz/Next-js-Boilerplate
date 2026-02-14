@@ -120,7 +120,7 @@ Clone this project and use it to create your own Next.js project. You can check 
       </a>
     </td>
     <td align="center" width="33%">
-      <a href="mailto:contact@creativedesignsguru.com">
+      <a href="mailto:contact@nextjs-boilerplate.com">
         Add your logo here
       </a>
     </td>
@@ -655,7 +655,7 @@ See [LICENSE](LICENSE) for more information.
       </a>
     </td>
     <td align="center" width="33%">
-      <a href="mailto:contact@creativedesignsguru.com">
+      <a href="mailto:contact@nextjs-boilerplate.com">
         Add your logo here
       </a>
     </td>
@@ -666,6 +666,6 @@ See [LICENSE](LICENSE) for more information.
 
 Made with ♥ by [CreativeDesignsGuru](https://creativedesignsguru.com) [![Twitter](https://img.shields.io/twitter/url/https/twitter.com/cloudposse.svg?style=social&label=Follow%20%40Ixartz)](https://twitter.com/ixartz)
 
-Looking for a custom boilerplate to kick off your project? I'd be glad to discuss how I can help you build one. Feel free to reach out anytime at contact@creativedesignsguru.com!
+Looking for a custom boilerplate to kick off your project? I'd be glad to discuss how I can help you build one. Feel free to reach out anytime at contact@nextjs-boilerplate.com!
 
 [![Sponsor Next JS Boilerplate](https://cdn.buymeacoffee.com/buttons/default-red.png)](https://github.com/sponsors/ixartz)

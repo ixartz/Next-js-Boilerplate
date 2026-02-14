@@ -1,4 +1,4 @@
-import { routing } from '@/libs/I18nRouting';
+import { AppConfig } from './AppConfig';
 
 export const getBaseUrl = () => {
   if (process.env.NEXT_PUBLIC_APP_URL) {
@@ -20,7 +20,7 @@ export const getBaseUrl = () => {
 };
 
 export const getI18nPath = (url: string, locale: string) => {
-  if (locale === routing.defaultLocale) {
+  if (locale === AppConfig.defaultLocale) {
     return url;
   }
 

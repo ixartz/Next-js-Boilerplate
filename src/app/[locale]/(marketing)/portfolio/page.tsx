@@ -33,13 +33,13 @@ export default async function Portfolio(props: IPortfolioProps) {
       <p>{t('presentation')}</p>
 
       <div className="grid grid-cols-1 justify-items-start gap-3 md:grid-cols-2 xl:grid-cols-3">
-        {Array.from(Array.from({ length: 6 }).keys()).map(elt => (
+        {Array.from({ length: 6 }, (_, i) => (
           <Link
             className="hover:text-blue-700"
-            key={elt}
-            href={`/portfolio/${elt}`}
+            key={i}
+            href={`/portfolio/${i}`}
           >
-            {t('portfolio_name', { name: elt })}
+            {t('portfolio_name', { name: i })}
           </Link>
         ))}
       </div>

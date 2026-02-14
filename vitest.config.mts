@@ -38,6 +38,11 @@ export default defineConfig({
         },
       },
     ],
+    reporters: [
+      'default',
+      // conditional reporter
+      process.env.CI ? 'github-actions' : {},
+    ],
     env: loadEnv('', process.cwd(), ''),
   },
 });
