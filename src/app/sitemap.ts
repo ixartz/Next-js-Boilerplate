@@ -1,5 +1,4 @@
 import type { MetadataRoute } from 'next';
-import { routing } from '@/libs/I18nRouting';
 import { AppConfig } from '@/utils/AppConfig';
 import { getBaseUrl, getI18nPath } from '@/utils/Helpers';
 
@@ -17,7 +16,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     lastModified: new Date(),
     alternates: {
       languages: Object.fromEntries(
-        routing.locales
+        AppConfig.locales
           .filter(locale => locale !== AppConfig.defaultLocale)
           .map(locale => [locale, `${baseUrl}${getI18nPath(route, locale)}`]),
       ),
