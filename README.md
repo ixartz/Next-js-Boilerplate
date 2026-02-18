@@ -345,6 +345,8 @@ One of the benefits of using Conventional Commits is the ability to automaticall
 
 #### Commit Types
 
+Every commit message follows Conventional Commits and must begin with a type prefix (e.g., `feat: add login page`). The table below lists the available types:
+
 | Type | Description |
 | --- | --- |
 | `feat` | New feature or functionality |
