@@ -345,6 +345,22 @@ npm run commit
 
 One of the benefits of using Conventional Commits is the ability to automatically generate GitHub releases. It also allows us to automatically determine the next version number based on the types of commits that are included in a release.
 
+#### Commit Types
+
+| Type | Description |
+| --- | --- |
+| `feat` | New feature or functionality |
+| `fix` | Bug fix |
+| `docs` | Documentation only |
+| `style` | Code formatting without logic changes |
+| `refactor` | Code restructuring without behavior changes |
+| `perf` | Performance improvement |
+| `test` | Adding or updating tests |
+| `build` | Build system |
+| `ci` | CI configuration and scripts |
+| `chore` | Maintenance tasks (dependencies, config) |
+| `revert` | Reverts a previous commit |
+
 ### CodeRabbit AI Code Reviews
 
 The project uses [CodeRabbit](https://www.coderabbit.ai?utm_source=next_js_starter&utm_medium=github&utm_campaign=next_js_starter_oss_2025), an AI-powered code reviewer. CodeRabbit monitors your repository and automatically provides intelligent code reviews on all new pull requests using its powerful AI engine.
