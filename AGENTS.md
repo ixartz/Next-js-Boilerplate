@@ -14,6 +14,7 @@ This document sets coding conventions for this repository. Its scope is the enti
 - Follow the existing ESLint setup; do not reformat unrelated code.
 - Zod type-only usage must import as: `import type * as z from 'zod';`.
 - No need to have explicit return types on functions, let the compiler infer them unless an explicit annotation is necessary for clarity.
+- Use an options object when a function has 3+ parameters, any optional flags, or when argument meaning is ambiguous at the call site. Positional parameters are fine for small helpers with obvious order and all required arguments.
 
 ## Styling
 - Prefer utility classes over ad-hoc CSS; reuse shared UI components where possible.
@@ -36,6 +37,7 @@ This document sets coding conventions for this repository. Its scope is the enti
 - Always reference `React.ReactNode` instead of `ReactNode` in component props and types.
 - Prefer a single `props` parameter with an inline props type instead of destructuring parameters in the function signature.
 - Inside components, prefer accessing props via `props.foo` instead of destructuring.
+- For short event-handler callbacks, prefer inline functions over named handlers. Extract to a named function only when the logic is complex.
 
 ## JSDoc
 - Prefer a short, high-level description of behavior and intent.
