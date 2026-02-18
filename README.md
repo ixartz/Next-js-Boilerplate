@@ -44,13 +44,6 @@ Clone this project and use it to create your own Next.js project. You can check 
           <img alt="Sentry" src="public/assets/images/sentry-dark.png?raw=true">
         </picture>
       </a>
-      <a href="https://about.codecov.io/codecov-free-trial/?utm_source=github&utm_medium=paid-community&utm_campaign=general-fy25q1-nextjs&utm_content=github-banner-nextjsboilerplate-logo">
-        <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="public/assets/images/codecov-white.svg?raw=true">
-          <source media="(prefers-color-scheme: light)" srcset="public/assets/images/codecov-dark.svg?raw=true">
-          <img alt="Codecov" src="public/assets/images/codecov-dark.svg?raw=true">
-        </picture>
-      </a>
     </td>
   </tr>
   <tr height="187px">
@@ -577,13 +570,6 @@ See [LICENSE](LICENSE) for more information.
           <source media="(prefers-color-scheme: dark)" srcset="public/assets/images/sentry-white.png?raw=true">
           <source media="(prefers-color-scheme: light)" srcset="public/assets/images/sentry-dark.png?raw=true">
           <img alt="Sentry" src="public/assets/images/sentry-dark.png?raw=true">
-        </picture>
-      </a>
-      <a href="https://about.codecov.io/codecov-free-trial/?utm_source=github&utm_medium=paid-community&utm_campaign=general-fy25q1-nextjs&utm_content=github-banner-nextjsboilerplate-logo">
-        <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="public/assets/images/codecov-white.svg?raw=true">
-          <source media="(prefers-color-scheme: light)" srcset="public/assets/images/codecov-dark.svg?raw=true">
-          <img alt="Codecov" src="public/assets/images/codecov-dark.svg?raw=true">
         </picture>
       </a>
     </td>
