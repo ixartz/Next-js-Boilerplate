@@ -60,12 +60,14 @@
   },
   "Dashboard": {
     "meta_title": "Tableau de bord",
+    "meta_description": "Accédez à votre tableau de bord personnalisé avec Next.js Boilerplate",
     "hello_message": "Bonjour {email}!",
     "alternative_message": "Besoin de fonctionnalités avancées ? Multi-tenant et équipes, rôles et permissions, Shadcn UI, typage de bout en bout avec oRPC, paiement Stripe, mode clair / sombre. Essayez <url></url>.",
     "max_message": "Ou, besoin d'une stack d'auth auto-hébergée (Better Auth) ? Essayez <url></url>."
   },
   "UserProfile": {
-    "meta_title": "Profil de l'utilisateur"
+    "meta_title": "Profil de l'utilisateur",
+    "meta_description": "Gérez les paramètres de votre compte et les informations de votre profil"
   },
   "DashboardLayout": {
     "dashboard_link": "Tableau de bord",
