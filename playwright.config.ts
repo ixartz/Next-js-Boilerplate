@@ -1,7 +1,8 @@
 import type { ChromaticConfig } from '@chromatic-com/playwright';
 import { defineConfig, devices } from '@playwright/test';
 
-// Use process.env.PORT by default and fallback to port 3000
+// Use process.env.PORT by default and fallback to port 3008
+// to avoid conflicts with the Next.js default port 3000.
 const PORT = process.env.PORT || '3008';
 
 // Set webServer.url and use.baseURL with the location of the WebServer respecting the correct set port
