@@ -1,6 +1,9 @@
 import { Env } from '@/libs/Env';
 import { routing } from '@/libs/I18nRouting';
 
+/**
+ * Resolves the public base URL of the application.
+ */
 export const getBaseUrl = () => {
   if (Env.NEXT_PUBLIC_APP_URL) {
     return Env.NEXT_PUBLIC_APP_URL;

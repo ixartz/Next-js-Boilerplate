@@ -47,7 +47,7 @@ export default async function Index(props: IIndexProps) {
       <p className="text-base">
         Next.js Boilerplate is a developer-friendly starter code for Next.js projects, built with Tailwind CSS and TypeScript.
         {' '}
-        <span role="img" aria-label="zap">
+        <span role="img" aria-label={t('zap_emoji_label')}>
           ⚡️
         </span>
         {' '}

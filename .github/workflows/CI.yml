@@ -37,6 +37,7 @@ jobs:
         run: npm run build-local
         env:
           NEXT_PUBLIC_SENTRY_DISABLED: 'true' # Only upload Sentry source maps in deployment
+          NEXT_PUBLIC_APP_URL: http://localhost:3008
 
       - if: matrix.node-version == '22.x' && success()
         name: Cache Next.js build output
@@ -103,7 +104,7 @@ jobs:
           node-version: ${{ matrix.node-version }}
 
       - name: Run unit tests
-        uses: docker://mcr.microsoft.com/playwright:v1.58.1
+        uses: docker://mcr.microsoft.com/playwright:v1.58.2
         with:
           args: npm run test -- --coverage
 
@@ -131,7 +132,7 @@ jobs:
           node-version: ${{ matrix.node-version }}
 
       - name: Run storybook tests
-        uses: docker://mcr.microsoft.com/playwright:v1.58.1
+        uses: docker://mcr.microsoft.com/playwright:v1.58.2
         with:
           args: npm run storybook:test
 
@@ -157,7 +158,7 @@ jobs:
           restore-nextjs-cache: true
 
       - name: Run E2E tests
-        uses: docker://mcr.microsoft.com/playwright:v1.58.1
+        uses: docker://mcr.microsoft.com/playwright:v1.58.2
         with:
           args: sh -c "HOME=/root npm run test:e2e" # Set HOME to /root to avoid Playwright error with Firebox
         env:
@@ -168,7 +169,7 @@ jobs:
           sudo chmod -R 777 test-results
 
       - name: Run visual regression tests
-        uses: chromaui/action@v13
+        uses: chromaui/action@v15
         with:
           playwright: true
           exitOnceUploaded: true # Speed up by skipping the build results

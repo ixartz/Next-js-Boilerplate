@@ -64,5 +64,10 @@
     "pcss",
     "postcss",
     "github-actions-workflow"
-  ]
+  ],
+
+  // JSON Schema
+  "json.schemaDownload.trustedDomains": {
+    "https://ui.shadcn.com": true
+  }
 }
