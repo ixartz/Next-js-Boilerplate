@@ -93,7 +93,6 @@ jobs:
     name: Run unit tests
     runs-on: ubuntu-latest
     timeout-minutes: 10
-    needs: [build]
 
     steps:
       - uses: actions/checkout@v6
@@ -121,7 +120,6 @@ jobs:
     name: Run Storybook
     runs-on: ubuntu-latest
     timeout-minutes: 10
-    needs: [build]
 
     steps:
       - uses: actions/checkout@v6
@@ -189,7 +187,6 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
 
-    needs: [build, static]
     if: github.event_name == 'pull_request'
 
     steps:
