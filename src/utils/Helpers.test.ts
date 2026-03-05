@@ -3,7 +3,7 @@ import { routing } from '@/libs/I18nRouting';
 import { getI18nPath } from './Helpers';
 
 describe('Helpers', () => {
-  describe('getI18nPath function', () => {
+  describe('getI18nPath', () => {
     it('should not change the path for default language', () => {
       const url = '/random-url';
       const locale = routing.defaultLocale;

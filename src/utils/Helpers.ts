@@ -12,14 +12,15 @@ export const getBaseUrl = () => {
   return 'http://localhost:3000';
 };
 
+/**
+ * Builds a locale-aware path by prefixing non-default locales.
+ * @param url - The base application-relative path starting with a slash.
+ * @param locale - The active locale identifier.
+ */
 export const getI18nPath = (url: string, locale: string) => {
   if (locale === routing.defaultLocale) {
     return url;
   }
 
   return `/${locale}${url}`;
-};
-
-export const isServer = () => {
-  return typeof window === 'undefined';
 };
