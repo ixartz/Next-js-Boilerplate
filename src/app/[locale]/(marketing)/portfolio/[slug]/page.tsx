@@ -3,7 +3,7 @@ import { getTranslations, setRequestLocale } from 'next-intl/server';
 import Image from 'next/image';
 import { routing } from '@/libs/I18nRouting';
 
-type IPortfolioDetailProps = {
+type PortfolioDetailPageProps = {
   params: Promise<{ slug: string; locale: string }>;
 };
 
@@ -18,7 +18,7 @@ export function generateStaticParams() {
     .flat(1);
 }
 
-export async function generateMetadata(props: IPortfolioDetailProps): Promise<Metadata> {
+export async function generateMetadata(props: PortfolioDetailPageProps): Promise<Metadata> {
   const { locale, slug } = await props.params;
   const t = await getTranslations({
     locale,
@@ -31,7 +31,7 @@ export async function generateMetadata(props: IPortfolioDetailProps): Promise<Me
   };
 }
 
-export default async function PortfolioDetail(props: IPortfolioDetailProps) {
+export default async function PortfolioDetail(props: PortfolioDetailPageProps) {
   const { locale, slug } = await props.params;
   setRequestLocale(locale);
   const t = await getTranslations({
