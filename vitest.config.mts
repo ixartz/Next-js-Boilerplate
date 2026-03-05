@@ -43,6 +43,9 @@ export default defineConfig({
       // conditional reporter
       process.env.CI ? 'github-actions' : {},
     ],
-    env: loadEnv('', process.cwd(), ''),
+    env: loadEnv('', process.cwd(), ''), // Expose .env variables to Node.js
+  },
+  define: {
+    'process.env': JSON.stringify(loadEnv('', process.cwd(), 'NEXT_PUBLIC_')), // Expose .env variables to browser
   },
 });
