@@ -67,6 +67,7 @@
     "@storybook/addon-docs": "^10.2.15",
     "@storybook/addon-vitest": "^10.2.15",
     "@storybook/nextjs-vite": "^10.2.15",
+    "@swc/helpers": "^0.5.19",
     "@tailwindcss/postcss": "^4.2.1",
     "@types/node": "^25.3.3",
     "@types/pg": "^8.18.0",
