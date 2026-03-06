@@ -250,6 +250,8 @@ After creating your Prisma account, you can get the connection string in the `Co
 
 Another alternative option is to use [Neon](https://get.neon.com/BMFYNtx), which also provides a free PostgreSQL database.
 
+> :warning: This project works out of the box with any PostgreSQL provider. Prisma PostgreSQL and Neon are mentioned here because both offer a free tier, and both links are affiliate links. Feel free to use any PostgreSQL provider that fits your needs.
+
 #### Create a fresh and empty database
 
 If you want to create a fresh and empty database, you just need to remove the folder `local.db` from the root of the project. The next time you run the project, a new database will be created automatically.
