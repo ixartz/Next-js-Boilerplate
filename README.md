@@ -293,9 +293,10 @@ After defining the environment variables in your GitHub Actions, your localizati
 ├── drizzle.config.ts               # Drizzle ORM configuration
 ├── eslint.config.mjs               # ESLint configuration
 ├── next.config.ts                  # Next JS configuration
+├── package.json                    # NPM dependencies and scripts
 ├── playwright.config.ts            # Playwright configuration
-├── vitest.config.mts               # Vitest configuration
-└── tsconfig.json                   # TypeScript configuration
+├── tsconfig.json                   # TypeScript configuration
+└── vitest.config.mts               # Vitest configuration
 ```
 
 ### Customization
