@@ -76,9 +76,6 @@ jobs:
       - name: Linter
         run: npm run lint
 
-      - name: Type checking
-        run: npm run check:types
-
       - name: Check dependencies
         run: npm run check:deps
 

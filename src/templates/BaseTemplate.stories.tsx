@@ -10,7 +10,7 @@ const meta = {
     layout: 'fullscreen',
   },
   decorators: [
-    Story => (
+    (Story) => (
       <NextIntlClientProvider locale="en" messages={messages}>
         <Story />
       </NextIntlClientProvider>

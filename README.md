@@ -10,7 +10,7 @@
   </a>
 </p>
 
-🚀 Boilerplate and Starter for Next.js with App Router, Tailwind CSS, and TypeScript ⚡️ Prioritizing developer experience first: Next.js, TypeScript, ESLint, Prettier, Lefthook (replacing Husky), Lint-Staged, Vitest (replacing Jest), Testing Library, Playwright, Commitlint, VSCode, Tailwind CSS, Authentication with [Clerk](https://clerk.com?utm_source=github&utm_medium=sponsorship&utm_campaign=nextjs-boilerplate), Database with DrizzleORM (PostgreSQL, SQLite, and MySQL), Local database with PGlite and production with [Prisma Postgres](https://www.prisma.io/?via=nextjs-boilerplate), Error Monitoring with [Sentry](https://sentry.io/for/nextjs/?utm_source=github&utm_medium=paid-community&utm_campaign=general-fy25q1-nextjs&utm_content=github-banner-nextjsboilerplate-logo), Logging with LogTape (replacing Pino.js) and Log Management, Monitoring as Code, Storybook, Multi-language (i18n), AI-powered code reviews with CodeRabbit, Secure with [Arcjet](https://launch.arcjet.com/Q6eLbRE) (Bot detection, Rate limiting, Attack protection, etc.), and more.
+🚀 Boilerplate and Starter for Next.js with App Router, Tailwind CSS, and TypeScript ⚡️ Prioritizing developer experience first: Next.js, TypeScript, ESLint, Prettier, Lefthook (replacing Husky), Lint-Staged, Vitest (replacing Jest), Testing Library, Playwright, Commitlint, VSCode, Tailwind CSS, Authentication with [Clerk](https://clerk.com?utm_source=github&utm_medium=sponsorship&utm_campaign=nextjs-boilerplate), Database with DrizzleORM (PostgreSQL, SQLite, and MySQL), Local database with PGlite and production with [Neon](https://get.neon.com/BMFYNtx), Error Monitoring with [Sentry](https://sentry.io/for/nextjs/?utm_source=github&utm_medium=paid-community&utm_campaign=general-fy25q1-nextjs&utm_content=github-banner-nextjsboilerplate-logo), Logging with LogTape (replacing Pino.js) and Log Management, Monitoring as Code, Storybook, Multi-language (i18n), AI-powered code reviews with CodeRabbit, Secure with [Arcjet](https://launch.arcjet.com/Q6eLbRE) (Bot detection, Rate limiting, Attack protection, etc.), and more.
 
 Clone this project and use it to create your own Next.js project. You can check out the live demo at [Next.js Boilerplate](https://demo.nextjs-boilerplate.com), which includes a working authentication system.
 
@@ -57,15 +57,6 @@ Clone this project and use it to create your own Next.js project. You can check 
       </a>
     </td>
     <td align="center" width="33%">
-      <a href="https://sevalla.com/">
-        <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="public/assets/images/sevalla-dark.png">
-          <source media="(prefers-color-scheme: light)" srcset="public/assets/images/sevalla-light.png">
-          <img alt="Sevalla" src="public/assets/images/sevalla-light.png">
-        </picture>
-      </a>
-    </td>
-    <td align="center" width="33%">
       <a href="https://l.crowdin.com/next-js">
         <picture>
           <source media="(prefers-color-scheme: dark)" srcset="public/assets/images/crowdin-white.png?raw=true">
@@ -74,8 +65,6 @@ Clone this project and use it to create your own Next.js project. You can check 
         </picture>
       </a>
     </td>
-  </tr>
-  <tr height="187px">
     <td align="center" width="33%">
       <a href="https://betterstack.com/?utm_source=github&utm_medium=sponsorship&utm_campaign=next-js-boilerplate">
         <picture>
@@ -85,6 +74,8 @@ Clone this project and use it to create your own Next.js project. You can check 
         </picture>
       </a>
     </td>
+  </tr>
+  <tr height="187px">
     <td align="center" width="33%">
       <a href="https://posthog.com/?utm_source=github&utm_medium=sponsorship&utm_campaign=next-js-boilerplate">
         <picture>
@@ -103,13 +94,13 @@ Clone this project and use it to create your own Next.js project. You can check 
         </picture>
       </a>
     </td>
-  </tr>
-  <tr height="187px">
     <td align="center" style=width="33%">
       <a href="https://nextjs-boilerplate.com/pro-saas-starter-kit">
         <img src="public/assets/images/nextjs-boilerplate-saas.png?raw=true" alt="Next.js SaaS Boilerplate with React" />
       </a>
     </td>
+  </tr>
+  <tr height="187px">
     <td align="center" width="33%">
       <a href="mailto:contact@nextjs-boilerplate.com">
         Add your logo here
@@ -139,7 +130,7 @@ Developer experience first, extremely flexible code structure and only keep what
 - 👤 Passwordless Authentication with Magic Links, Multi-Factor Auth (MFA), Social Auth (Google, Facebook, Twitter, GitHub, Apple, and more), Passwordless login with Passkeys, User Impersonation
 - 📦 Type-safe ORM with DrizzleORM, compatible with PostgreSQL, SQLite, and MySQL
 - 💽 Offline and local development database with PGlite
-- ☁️ Remote and production database with [Prisma Postgres](https://www.prisma.io/?via=nextjs-boilerplate) or [Neon](https://get.neon.com/BMFYNtx)
+- ☁️ Remote and production database with [Neon](https://get.neon.com/BMFYNtx)
 - 🌐 Multi-language (i18n) with next-intl and [Crowdin](https://l.crowdin.com/next-js)
 - ♻️ Type-safe environment variables with T3 Env
 - ⌨️ Form handling with React Hook Form
@@ -244,13 +235,11 @@ The project uses DrizzleORM, a type-safe ORM that is compatible with PostgreSQL,
 
 When you launch the project locally for the first time, it automatically creates a PostgreSQL database on your local machine. This allows you to work with a PostgreSQL database without Docker or any additional setup.
 
-To set up a remote and production database, you need to create a PostgreSQL database and obtain the connection string. One recommended option is to use [Prisma PostgreSQL](https://www.prisma.io/?via=nextjs-boilerplate), which provides a free PostgreSQL database. This database is compatible and has been tested with Next.js Boilerplate.
+To set up a remote and production database, you need to create a PostgreSQL database and obtain the connection string. One recommended option is to use [Neon](https://get.neon.com/BMFYNtx), which provides a free PostgreSQL database. This database is compatible and has been tested with Next.js Boilerplate.
 
-After creating your Prisma account, you can get the connection string in the `Connect to your database` section and select the `Any client` tab. Then, you can generate the connection string by clicking the `Generate database credentials` button. Finally, you can copy the connection string and add the `DATABASE_URL` variable to the `.env.local` file.
+After creating your Neon account, you can get the connection string and copy it to the `DATABASE_URL` variable in your `.env.production` file.
 
-Another alternative option is to use [Neon](https://get.neon.com/BMFYNtx), which also provides a free PostgreSQL database.
-
-> :warning: This project works out of the box with any PostgreSQL provider. Prisma PostgreSQL and Neon are mentioned here because both offer a free tier, and both links are affiliate links. Feel free to use any PostgreSQL provider that fits your needs.
+> :warning: This project works out of the box with any PostgreSQL provider. Neon is mentioned here because it offers a free tier, and the link is an affiliate link. Feel free to use any PostgreSQL provider that fits your needs.
 
 #### Create a fresh and empty database
 
@@ -424,7 +413,7 @@ Notes:
 
 ### Deploy to production
 
-During the build process, database migrations are automatically executed, so there's no need to run them manually. However, you must define `DATABASE_URL` in your environment variables.
+During the build process, database migrations are automatically executed, so there's no need to run them manually. However, you must define `DATABASE_URL` in your environment variables. You can use any PostgreSQL provider, but we recommend using [Neon](https://get.neon.com/BMFYNtx), which offers a free tier and is compatible with Next.js Boilerplate.
 
 Then, you can generate a production build with:
 
@@ -441,20 +430,6 @@ $ npm run start
 You also need to defined the environment variables `CLERK_SECRET_KEY` using your own key.
 
 This command starts a local server using the production build. You can now open http://localhost:3000 in your preferred browser to see the result.
-
-### Deploy to Sevalla
-
-You can deploy a Next.js application along with its database on a single platform. First, create an account on [Sevalla](https://sevalla.com).
-
-After registration, you will be redirected to the dashboard. From there, navigate to `Database > Create a database`. Select PostgreSQL and and use the default settings for a quick setup. For advanced users, you can customize the database location and resource size. Finally, click on `Create` to complete the process.
-
-Once the database is created and ready, return to the dashboard and click `Application > Create an App`. After connecting your GitHub account, select the repository you want to deploy. Keep the default settings for the remaining options, then click `Create`.
-
-Next, connect your database to your application by going to `Networking > Connected services > Add connection` and select the database you just created. You also need to enable the `Add environment variables to the application` option, and rename `DB_URL` to `DATABASE_URL`. Then, click `Add connection`.
-
-Go to `Environment variables > Add environment variable`, and define the environment variables `NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY` and `CLERK_SECRET_KEY` from your Clerk account. Click `Save`.
-
-Finally, initiate a new deployment by clicking `Overview > Latest deployments > Deploy now`. If everything is set up correctly, your application will be deployed successfully with a working database.
 
 ### Error Monitoring
 
@@ -567,6 +542,7 @@ See [LICENSE](LICENSE) for more information.
 
 ## Sponsors
 
+
 <table width="100%">
   <tr height="187px">
     <td align="center" width="33%">
@@ -608,15 +584,6 @@ See [LICENSE](LICENSE) for more information.
       </a>
     </td>
     <td align="center" width="33%">
-      <a href="https://sevalla.com/">
-        <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="public/assets/images/sevalla-dark.png">
-          <source media="(prefers-color-scheme: light)" srcset="public/assets/images/sevalla-light.png">
-          <img alt="Sevalla" src="public/assets/images/sevalla-light.png">
-        </picture>
-      </a>
-    </td>
-    <td align="center" width="33%">
       <a href="https://l.crowdin.com/next-js">
         <picture>
           <source media="(prefers-color-scheme: dark)" srcset="public/assets/images/crowdin-white.png?raw=true">
@@ -625,8 +592,6 @@ See [LICENSE](LICENSE) for more information.
         </picture>
       </a>
     </td>
-  </tr>
-  <tr height="187px">
     <td align="center" width="33%">
       <a href="https://betterstack.com/?utm_source=github&utm_medium=sponsorship&utm_campaign=next-js-boilerplate">
         <picture>
@@ -636,6 +601,8 @@ See [LICENSE](LICENSE) for more information.
         </picture>
       </a>
     </td>
+  </tr>
+  <tr height="187px">
     <td align="center" width="33%">
       <a href="https://posthog.com/?utm_source=github&utm_medium=sponsorship&utm_campaign=next-js-boilerplate">
         <picture>
@@ -654,13 +621,13 @@ See [LICENSE](LICENSE) for more information.
         </picture>
       </a>
     </td>
-  </tr>
-  <tr height="187px">
     <td align="center" style=width="33%">
       <a href="https://nextjs-boilerplate.com/pro-saas-starter-kit">
         <img src="public/assets/images/nextjs-boilerplate-saas.png?raw=true" alt="Next.js SaaS Boilerplate with React" />
       </a>
     </td>
+  </tr>
+  <tr height="187px">
     <td align="center" width="33%">
       <a href="mailto:contact@nextjs-boilerplate.com">
         Add your logo here

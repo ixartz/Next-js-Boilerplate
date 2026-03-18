@@ -1,4 +1,3 @@
-/* eslint-disable jsdoc/check-tag-names */
 /**
  * PostCSS Configuration
  * @type {import('postcss-load-config').Config}

@@ -2,11 +2,13 @@ import type { Metadata } from 'next';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import Image from 'next/image';
 
-type AboutPageProps = {
+interface AboutPageProps {
   params: Promise<{ locale: string }>;
-};
+}
 
-export async function generateMetadata(props: AboutPageProps): Promise<Metadata> {
+export async function generateMetadata(
+  props: AboutPageProps
+): Promise<Metadata> {
   const { locale } = await props.params;
   const t = await getTranslations({
     locale,
@@ -52,4 +54,4 @@ export default async function About(props: AboutPageProps) {
       </a>
     </>
   );
-};
+}

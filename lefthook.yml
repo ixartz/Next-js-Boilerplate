@@ -1,22 +1,23 @@
 # Validate commit messages
 commit-msg:
-  commands:
-    commitlint:
+  jobs:
+    - name: commitlint
       run: npx --no -- commitlint --edit {1}
 
 # Validate content before committing
 pre-commit:
-  commands:
-    lint:
-      glob: '*'
-      run: npx --no -- eslint --fix --no-warn-ignored {staged_files}
+  jobs:
+    - name: ultracite
+      run: npx ultracite fix --type-aware --type-check
+      glob:
+        - '**/*.js'
+        - '**/*.jsx'
+        - '**/*.ts'
+        - '**/*.tsx'
+        - '**/*.json'
+        - '**/*.jsonc'
+        - '**/*.css'
       stage_fixed: true
-      priority: 1
-    check-types:
-      glob: '*.{ts,tsx}'
-      run: npm run check:types
-      priority: 2
-    knip:
+    - name: knip
       glob: '*'
       run: npm run check:deps
-      priority: 3

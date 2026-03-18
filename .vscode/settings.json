@@ -24,20 +24,22 @@
   ],
 
   // Vitest
-  "testing.automaticallyOpenTestResults": "neverOpen", // Don't open the test results automatically
+  "testing.automaticallyOpenTestResults": "neverOpen",
 
   // I18n
   "i18n-ally.localesPaths": ["src/locales"],
   "i18n-ally.keystyle": "nested",
 
-  // Disable the default formatter, use ESLint instead
-  "prettier.enable": false,
-  "editor.formatOnSave": false,
+  // Oxc
+  "editor.defaultFormatter": "oxc.oxc-vscode",
+  "editor.formatOnSave": true,
+  "editor.formatOnSaveMode": "file", // tell oxfmt to format the whole file, not only the modified lines
+  "oxc.typeAware": true, // Enable type-aware linting
 
   // Auto fix with ESLint on save
   "editor.codeActionsOnSave": {
     "source.addMissingImports": "explicit",
-    "source.fixAll.eslint": "explicit"
+    "source.fixAll.oxc": "explicit"
   },
 
   // Enable eslint for all supported languages

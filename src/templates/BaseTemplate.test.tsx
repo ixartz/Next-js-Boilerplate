@@ -11,17 +11,17 @@ describe('Base template', () => {
       await render(
         <NextIntlClientProvider locale="en" messages={messages}>
           <BaseTemplate
-            leftNav={(
+            leftNav={
               <>
                 <li>link 1</li>
                 <li>link 2</li>
                 <li>link 3</li>
               </>
-            )}
+            }
           >
             {null}
           </BaseTemplate>
-        </NextIntlClientProvider>,
+        </NextIntlClientProvider>
       );
 
       const menuItemList = page.getByRole('listitem');
@@ -33,7 +33,7 @@ describe('Base template', () => {
       await render(
         <NextIntlClientProvider locale="en" messages={messages}>
           <BaseTemplate leftNav={<li>1</li>}>{null}</BaseTemplate>
-        </NextIntlClientProvider>,
+        </NextIntlClientProvider>
       );
 
       const copyrightSection = page.getByText(/© /);
@@ -47,7 +47,7 @@ describe('Base template', () => {
        */
       expect(copyrightLink).toHaveAttribute(
         'href',
-        'https://nextjs-boilerplate.com',
+        'https://nextjs-boilerplate.com'
       );
     });
   });

@@ -27,7 +27,7 @@ export const config = defineConfig({
     },
     playwrightConfig: {
       use: {
-        baseURL: process.env.ENVIRONMENT_URL || process.env.NEXT_PUBLIC_APP_URL,
+        baseURL: process.env.ENVIRONMENT_URL ?? process.env.NEXT_PUBLIC_APP_URL,
         extraHTTPHeaders: {
           'x-vercel-protection-bypass': process.env.VERCEL_BYPASS_TOKEN,
         },

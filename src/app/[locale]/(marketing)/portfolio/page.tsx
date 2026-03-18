@@ -3,11 +3,13 @@ import { getTranslations, setRequestLocale } from 'next-intl/server';
 import Image from 'next/image';
 import { Link } from '@/libs/I18nNavigation';
 
-type PortfolioPageProps = {
+interface PortfolioPageProps {
   params: Promise<{ locale: string }>;
-};
+}
 
-export async function generateMetadata(props: PortfolioPageProps): Promise<Metadata> {
+export async function generateMetadata(
+  props: PortfolioPageProps
+): Promise<Metadata> {
   const { locale } = await props.params;
   const t = await getTranslations({
     locale,
@@ -54,9 +56,7 @@ export default async function Portfolio(props: PortfolioPageProps) {
         </a>
       </div>
 
-      <a
-        href="https://sentry.io/for/nextjs/?utm_source=github&utm_medium=paid-community&utm_campaign=general-fy25q1-nextjs&utm_content=github-banner-nextjsboilerplate-logo"
-      >
+      <a href="https://sentry.io/for/nextjs/?utm_source=github&utm_medium=paid-community&utm_campaign=general-fy25q1-nextjs&utm_content=github-banner-nextjsboilerplate-logo">
         <Image
           className="mx-auto mt-2"
           src="/assets/images/sentry-dark.png"
@@ -67,4 +67,4 @@ export default async function Portfolio(props: PortfolioPageProps) {
       </a>
     </>
   );
-};
+}

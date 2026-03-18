@@ -3,7 +3,7 @@ import { defineConfig, devices } from '@playwright/test';
 
 // Use process.env.PORT by default and fallback to port 3008
 // to avoid conflicts with the Next.js default port 3000.
-const PORT = process.env.PORT || '3008';
+const PORT = process.env.PORT ?? '3008';
 
 // Set webServer.url and use.baseURL with the location of the WebServer respecting the correct set port
 const baseURL = `http://localhost:${PORT}`;
@@ -30,7 +30,9 @@ export default defineConfig<ChromaticConfig>({
   // Run your local dev server before starting the tests:
   // https://playwright.dev/docs/test-advanced#launching-a-development-web-server-during-the-tests
   webServer: {
-    command: process.env.CI ? 'npx run-p db-server:memory start --race' : 'npx run-p db-server:memory dev:next --race',
+    command: process.env.CI
+      ? 'npx run-p db-server:memory start --race'
+      : 'npx run-p db-server:memory dev:next --race',
     url: baseURL,
     timeout: 60 * 1000,
     reuseExistingServer: !process.env.CI,

@@ -19,7 +19,7 @@ export default async function Layout(props: {
     <>
       <DemoBanner />
       <BaseTemplate
-        leftNav={(
+        leftNav={
           <>
             <li>
               <Link
@@ -62,8 +62,8 @@ export default async function Layout(props: {
               </a>
             </li>
           </>
-        )}
-        rightNav={(
+        }
+        rightNav={
           <>
             <li>
               <Link
@@ -87,7 +87,7 @@ export default async function Layout(props: {
               <LocaleSwitcher />
             </li>
           </>
-        )}
+        }
       >
         <div className="py-5 text-xl [&_p]:my-6">{props.children}</div>
       </BaseTemplate>
