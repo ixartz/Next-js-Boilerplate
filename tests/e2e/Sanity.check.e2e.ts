@@ -14,8 +14,8 @@ import { expect, test } from '@playwright/test';
 
 test.describe('Sanity', () => {
   test.describe('Static pages', () => {
-    test('should display the homepage', async ({ page, baseURL }) => {
-      await page.goto(`${baseURL}/`);
+    test('should display the homepage', async ({ page }) => {
+      await page.goto('/');
 
       await expect(
         page.getByRole('heading', {
@@ -24,8 +24,8 @@ test.describe('Sanity', () => {
       ).toBeVisible();
     });
 
-    test('should navigate to the about page', async ({ page, baseURL }) => {
-      await page.goto(`${baseURL}/`);
+    test('should navigate to the about page', async ({ page }) => {
+      await page.goto('/');
 
       await page.getByRole('link', { name: 'About' }).click();
 
@@ -36,8 +36,8 @@ test.describe('Sanity', () => {
       ).toBeVisible();
     });
 
-    test('should navigate to the portfolio page', async ({ page, baseURL }) => {
-      await page.goto(`${baseURL}/`);
+    test('should navigate to the portfolio page', async ({ page }) => {
+      await page.goto('/');
 
       await page.getByRole('link', { name: 'Portfolio' }).click();
 
