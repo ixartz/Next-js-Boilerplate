@@ -39,7 +39,7 @@ jobs:
           NEXT_PUBLIC_SENTRY_DISABLED: 'true' # Only upload Sentry source maps in deployment
           NEXT_PUBLIC_APP_URL: http://localhost:3008
 
-      - if: matrix.node-version == '22.x' && success()
+      - if: matrix.node-version == '24.x' && success()
         name: Cache Next.js build output
         uses: actions/cache/save@v5
         with:
