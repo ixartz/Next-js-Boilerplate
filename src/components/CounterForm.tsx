@@ -38,7 +38,7 @@ export const CounterForm = () => {
           <input
             id="increment"
             type="number"
-            className="ml-2 w-32 appearance-none rounded-sm border border-gray-200 px-2 py-1 text-sm leading-tight text-gray-700 focus:ring-3 focus:ring-blue-300/50 focus:outline-hidden"
+            className="ml-2 w-32 appearance-none rounded-sm border border-gray-200 px-2 py-1 text-sm/tight text-gray-700 focus:ring-3 focus:ring-blue-300/50 focus:outline-hidden"
             {...form.register('increment', { valueAsNumber: true })}
           />
         </label>

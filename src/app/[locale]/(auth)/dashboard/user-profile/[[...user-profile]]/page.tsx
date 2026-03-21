@@ -1,5 +1,5 @@
-import type { Metadata } from 'next';
 import { UserProfile } from '@clerk/nextjs';
+import type { Metadata } from 'next';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { getI18nPath } from '@/utils/Helpers';
 
@@ -7,7 +7,9 @@ type UserProfilePageProps = {
   params: Promise<{ locale: string }>;
 };
 
-export async function generateMetadata(props: UserProfilePageProps): Promise<Metadata> {
+export async function generateMetadata(
+  props: UserProfilePageProps
+): Promise<Metadata> {
   const { locale } = await props.params;
   const t = await getTranslations({
     locale,
@@ -25,9 +27,7 @@ export default async function UserProfilePage(props: UserProfilePageProps) {
 
   return (
     <div className="my-6 lg:-ml-12">
-      <UserProfile
-        path={getI18nPath('/dashboard/user-profile', locale)}
-      />
+      <UserProfile path={getI18nPath('/dashboard/user-profile', locale)} />
     </div>
   );
-};
+}

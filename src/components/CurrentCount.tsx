@@ -10,7 +10,8 @@ export const CurrentCount = async () => {
 
   // `x-e2e-random-id` is used for end-to-end testing to make isolated requests
   // The default value is 0 when there is no `x-e2e-random-id` header
-  const id = Number((await headers()).get('x-e2e-random-id')) || 0;
+  const headersList = await headers();
+  const id = Number(headersList.get('x-e2e-random-id')) || 0;
   const result = await db.query.counterSchema.findFirst({
     where: eq(counterSchema.id, id),
   });
@@ -18,9 +19,5 @@ export const CurrentCount = async () => {
 
   logger.info('Counter fetched successfully');
 
-  return (
-    <div>
-      {t('count', { count })}
-    </div>
-  );
+  return <div>{t('count', { count })}</div>;
 };
