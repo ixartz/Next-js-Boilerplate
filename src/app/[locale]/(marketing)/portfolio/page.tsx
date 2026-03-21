@@ -4,9 +4,9 @@ import Image from 'next/image';
 import { Link } from '@/libs/I18nNavigation';
 import sentryLogo from '@/public/assets/images/sentry-dark.png';
 
-interface PortfolioPageProps {
+type PortfolioPageProps = {
   params: Promise<{ locale: string }>;
-}
+};
 
 export async function generateMetadata(
   props: PortfolioPageProps

@@ -2,9 +2,9 @@ import type { Metadata } from 'next';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { Hello } from '@/components/Hello';
 
-interface DashboardPageProps {
+type DashboardPageProps = {
   params: Promise<{ locale: string }>;
-}
+};
 
 export async function generateMetadata(
   props: DashboardPageProps

@@ -4,9 +4,9 @@ import Image from 'next/image';
 import { routing } from '@/libs/I18nRouting';
 import codeRabbitLogo from '@/public/assets/images/coderabbit-logo-light.svg';
 
-interface PortfolioDetailPageProps {
+type PortfolioDetailPageProps = {
   params: Promise<{ slug: string; locale: string }>;
-}
+};
 
 export function generateStaticParams() {
   return routing.locales.flatMap((locale) =>

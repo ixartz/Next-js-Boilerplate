@@ -3,9 +3,9 @@ import type { Metadata } from 'next';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { getI18nPath } from '@/utils/Helpers';
 
-interface UserProfilePageProps {
+type UserProfilePageProps = {
   params: Promise<{ locale: string }>;
-}
+};
 
 export async function generateMetadata(
   props: UserProfilePageProps

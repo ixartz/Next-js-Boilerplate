@@ -24,7 +24,7 @@
   ],
 
   // Vitest
-  "testing.automaticallyOpenTestResults": "neverOpen",
+  "testing.automaticallyOpenTestResults": "neverOpen", // Don't open the test results automatically
 
   // I18n
   "i18n-ally.localesPaths": ["src/locales"],
@@ -33,7 +33,7 @@
   // Oxc
   "editor.defaultFormatter": "oxc.oxc-vscode",
   "editor.formatOnSave": true,
-  "editor.formatOnSaveMode": "file", // tell oxfmt to format the whole file, not only the modified lines
+  "editor.formatOnSaveMode": "file", // Tell oxfmt to format the whole file, not only the modified lines
   "oxc.typeAware": true, // Enable type-aware linting
 
   // Auto fix with ESLint on save

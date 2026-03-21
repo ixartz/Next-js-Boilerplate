@@ -3,9 +3,9 @@ import { getTranslations, setRequestLocale } from 'next-intl/server';
 import Image from 'next/image';
 import crowdinLogo from '@/public/assets/images/crowdin-dark.png';
 
-interface AboutPageProps {
+type AboutPageProps = {
   params: Promise<{ locale: string }>;
-}
+};
 
 export async function generateMetadata(
   props: AboutPageProps
