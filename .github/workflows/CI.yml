@@ -47,41 +47,6 @@ jobs:
             .next
           key: nextjs-build-${{ matrix.node-version }}-${{ github.sha }}
 
-  static:
-    strategy:
-      matrix:
-        node-version: [24.x]
-
-    name: Run static checks
-    runs-on: ubuntu-latest
-    timeout-minutes: 10
-
-    steps:
-      - uses: actions/checkout@v6
-        with:
-          fetch-depth: 0 # Retrieve Git history, needed to verify commits
-
-      - name: Set up Node.js environment
-        uses: ./.github/actions/setup-project
-        with:
-          node-version: ${{ matrix.node-version }}
-
-      - if: github.event_name == 'pull_request'
-        name: Validate all commits from PR
-        run: npx commitlint --from $BASE_SHA --to $HEAD_SHA --verbose
-        env:
-          BASE_SHA: ${{ github.event.pull_request.base.sha }}
-          HEAD_SHA: ${{ github.event.pull_request.head.sha }}
-
-      - name: Linter
-        run: npm run lint
-
-      - name: Check dependencies
-        run: npm run check:deps
-
-      - name: I18n check
-        run: npm run check:i18n
-
   unit:
     strategy:
       matrix:
@@ -130,6 +95,42 @@ jobs:
         uses: docker://mcr.microsoft.com/playwright:v1.58.2
         with:
           args: npm run storybook:test
+
+  static:
+    strategy:
+      matrix:
+        node-version: [24.x]
+
+    name: Run static checks
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    needs: [build]
+
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          fetch-depth: 0 # Retrieve Git history, needed to verify commits
+
+      - name: Set up Node.js environment
+        uses: ./.github/actions/setup-project
+        with:
+          node-version: ${{ matrix.node-version }}
+
+      - if: github.event_name == 'pull_request'
+        name: Validate all commits from PR
+        run: npx commitlint --from $BASE_SHA --to $HEAD_SHA --verbose
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+          HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+
+      - name: Linter
+        run: npm run lint
+
+      - name: Check dependencies
+        run: npm run check:deps
+
+      - name: I18n check
+        run: npm run check:i18n
 
   e2e:
     strategy:
