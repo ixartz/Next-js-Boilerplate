@@ -542,7 +542,6 @@ See [LICENSE](LICENSE) for more information.
 
 ## Sponsors
 
-
 <table width="100%">
   <tr height="187px">
     <td align="center" width="33%">
