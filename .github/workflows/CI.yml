@@ -50,7 +50,7 @@ jobs:
   static:
     strategy:
       matrix:
-        node-version: [22.x]
+        node-version: [24.x]
 
     name: Run static checks
     runs-on: ubuntu-latest
@@ -85,7 +85,7 @@ jobs:
   unit:
     strategy:
       matrix:
-        node-version: [22.x]
+        node-version: [24.x]
 
     name: Run unit tests
     runs-on: ubuntu-latest
@@ -112,7 +112,7 @@ jobs:
   storybook:
     strategy:
       matrix:
-        node-version: [22.x]
+        node-version: [24.x]
 
     name: Run Storybook
     runs-on: ubuntu-latest
@@ -134,7 +134,7 @@ jobs:
   e2e:
     strategy:
       matrix:
-        node-version: [22.x]
+        node-version: [24.x]
 
     name: Run E2E tests
     runs-on: ubuntu-latest

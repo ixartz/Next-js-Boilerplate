@@ -15,6 +15,7 @@ const config: KnipConfig = {
     'conventional-changelog-conventionalcommits',
     'oxfmt',
     'oxlint-tsgolint',
+    'postcss',
     'vite',
   ],
   // Binaries to ignore during analysis
