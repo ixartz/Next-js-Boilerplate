@@ -30,6 +30,7 @@ jobs:
         with:
           path: |
             .next/cache
+            next-env.d.ts
           # Generate a new cache whenever packages or source files change.
           key: nextjs-${{ matrix.node-version }}-${{ hashFiles('**/package-lock.json') }}-${{ hashFiles('src/**') }}
 
