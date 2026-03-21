@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import Image from 'next/image';
+import crowdinLogo from '@/public/assets/images/crowdin-dark.png';
 
 interface AboutPageProps {
   params: Promise<{ locale: string }>;
@@ -46,10 +47,9 @@ export default async function About(props: AboutPageProps) {
       <a href="https://l.crowdin.com/next-js">
         <Image
           className="mx-auto mt-2"
-          src="/assets/images/crowdin-dark.png"
+          src={crowdinLogo}
           alt="Crowdin Translation Management System"
-          width={128}
-          height={26}
+          width={130}
         />
       </a>
     </>

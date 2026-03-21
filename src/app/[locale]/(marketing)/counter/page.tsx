@@ -4,6 +4,7 @@ import { getTranslations } from 'next-intl/server';
 import Image from 'next/image';
 import { CounterForm } from '@/components/CounterForm';
 import { CurrentCount } from '@/components/CurrentCount';
+import arcjetLogo from '@/public/assets/images/arcjet-light.svg';
 
 export async function generateMetadata(props: {
   params: Promise<{ locale: string }>;
@@ -44,10 +45,9 @@ export default function Counter() {
       <a href="https://launch.arcjet.com/Q6eLbRE">
         <Image
           className="mx-auto mt-2"
-          src="/assets/images/arcjet-light.svg"
+          src={arcjetLogo}
           alt="Arcjet"
-          width={128}
-          height={38}
+          width={130}
         />
       </a>
     </>
