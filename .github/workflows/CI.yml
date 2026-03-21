@@ -116,6 +116,7 @@ jobs:
         uses: ./.github/actions/setup-project
         with:
           node-version: ${{ matrix.node-version }}
+          restore-nextjs-cache: true
 
       - if: github.event_name == 'pull_request'
         name: Validate all commits from PR
