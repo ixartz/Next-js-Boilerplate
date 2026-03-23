@@ -13,8 +13,7 @@ reviews:
   collapse_walkthrough: false
   path_instructions:
     - path: '**/*.{ts,tsx}'
-      instructions:
-        'Review the Typescript and React code for conformity with best practices in React, and Typescript. Highlight any deviations.'
+      instructions: 'Review the Typescript and React code for conformity with best practices in React, and Typescript. Highlight any deviations.'
   auto_review:
     enabled: true
     ignore_title_keywords:

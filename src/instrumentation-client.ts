@@ -1,3 +1,4 @@
+// oxlint-disable import/namespace
 // This file configures the initialization of Sentry on the client.
 // The added config here will be used whenever a users loads a page in their browser.
 // https://docs.sentry.io/platforms/javascript/guides/nextjs/
@@ -34,7 +35,7 @@ if (!process.env.NEXT_PUBLIC_SENTRY_DISABLED) {
     replaysSessionSampleRate: 0.1,
 
     // Define how likely Replay events are sampled when an error occurs.
-    replaysOnErrorSampleRate: 1.0,
+    replaysOnErrorSampleRate: 1,
 
     // Enable logs to be sent to Sentry
     enableLogs: true,

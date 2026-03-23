@@ -39,56 +39,19 @@ jobs:
           NEXT_PUBLIC_SENTRY_DISABLED: 'true' # Only upload Sentry source maps in deployment
           NEXT_PUBLIC_APP_URL: http://localhost:3008
 
-      - if: matrix.node-version == '22.x' && success()
+      - if: matrix.node-version == '24.x' && success()
         name: Cache Next.js build output
         uses: actions/cache/save@v5
         with:
           path: |
             .next
+            next-env.d.ts
           key: nextjs-build-${{ matrix.node-version }}-${{ github.sha }}
-
-  static:
-    strategy:
-      matrix:
-        node-version: [22.x]
-
-    name: Run static checks
-    runs-on: ubuntu-latest
-    timeout-minutes: 10
-
-    steps:
-      - uses: actions/checkout@v6
-        with:
-          fetch-depth: 0 # Retrieve Git history, needed to verify commits
-
-      - name: Set up Node.js environment
-        uses: ./.github/actions/setup-project
-        with:
-          node-version: ${{ matrix.node-version }}
-
-      - if: github.event_name == 'pull_request'
-        name: Validate all commits from PR
-        run: npx commitlint --from $BASE_SHA --to $HEAD_SHA --verbose
-        env:
-          BASE_SHA: ${{ github.event.pull_request.base.sha }}
-          HEAD_SHA: ${{ github.event.pull_request.head.sha }}
-
-      - name: Linter
-        run: npm run lint
-
-      - name: Type checking
-        run: npm run check:types
-
-      - name: Check dependencies
-        run: npm run check:deps
-
-      - name: I18n check
-        run: npm run check:i18n
 
   unit:
     strategy:
       matrix:
-        node-version: [22.x]
+        node-version: [24.x]
 
     name: Run unit tests
     runs-on: ubuntu-latest
@@ -115,7 +78,7 @@ jobs:
   storybook:
     strategy:
       matrix:
-        node-version: [22.x]
+        node-version: [24.x]
 
     name: Run Storybook
     runs-on: ubuntu-latest
@@ -134,10 +97,47 @@ jobs:
         with:
           args: npm run storybook:test
 
+  static:
+    strategy:
+      matrix:
+        node-version: [24.x]
+
+    name: Run static checks
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    needs: [build]
+
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          fetch-depth: 0 # Retrieve Git history, needed to verify commits
+
+      - name: Set up Node.js environment
+        uses: ./.github/actions/setup-project
+        with:
+          node-version: ${{ matrix.node-version }}
+          restore-nextjs-cache: true
+
+      - if: github.event_name == 'pull_request'
+        name: Validate all commits from PR
+        run: npx commitlint --from $BASE_SHA --to $HEAD_SHA --verbose
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+          HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+
+      - name: Linter
+        run: npm run lint
+
+      - name: Check dependencies
+        run: npm run check:deps
+
+      - name: I18n check
+        run: npm run check:i18n
+
   e2e:
     strategy:
       matrix:
-        node-version: [22.x]
+        node-version: [24.x]
 
     name: Run E2E tests
     runs-on: ubuntu-latest

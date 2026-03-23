@@ -1,21 +1,16 @@
-import type { NodePgDatabase } from 'drizzle-orm/node-postgres';
-import type { Pool } from 'pg';
-import type * as schema from '@/models/Schema';
 import { createDbConnection } from '@/utils/DBConnection';
 import { Env } from './Env';
 
-// Stores the db connection in the global scope to prevent multiple instances due to hot reloading with Next.js
-const globalForDb = globalThis as unknown as {
-  drizzle: NodePgDatabase<typeof schema> & {
-    $client: Pool;
-  };
-};
+declare global {
+  var cachedDrizzle: ReturnType<typeof createDbConnection> | undefined;
+}
 
-const db = globalForDb.drizzle || createDbConnection();
+// Stores the db connection in the global scope to prevent multiple instances due to hot reloading with Next.js
+const db = globalThis.cachedDrizzle ?? createDbConnection();
 
 // Only store in global during development to prevent hot reload issues
 if (Env.NODE_ENV !== 'production') {
-  globalForDb.drizzle = db;
+  globalThis.cachedDrizzle = db;
 }
 
 export { db };

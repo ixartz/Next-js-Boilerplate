@@ -17,7 +17,8 @@ export const PUT = async (request: Request) => {
 
   // `x-e2e-random-id` is used for end-to-end testing to make isolated requests
   // The default value is 0 when there is no `x-e2e-random-id` header
-  const id = Number((await headers()).get('x-e2e-random-id')) || 0;
+  const headersList = await headers();
+  const id = Number(headersList.get('x-e2e-random-id')) || 0;
 
   const count = await db
     .insert(counterSchema)

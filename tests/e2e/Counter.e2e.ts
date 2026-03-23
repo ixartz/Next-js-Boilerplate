@@ -12,12 +12,14 @@ test.describe('Counter', () => {
       const count = page.getByText('Count:');
       const countText = await count.textContent();
 
-      assert(countText !== null, 'Count should not be null');
+      assert.ok(countText !== null, 'Count should not be null');
 
       await page.getByLabel('Increment by').fill('-1');
       await page.getByRole('button', { name: 'Increment' }).click();
 
-      await expect(page.getByText('Value must be between 1 and 3')).toBeVisible();
+      await expect(
+        page.getByText('Value must be between 1 and 3')
+      ).toBeVisible();
       await expect(page.getByText('Count:')).toHaveText(countText);
     });
 
@@ -26,7 +28,7 @@ test.describe('Counter', () => {
     }) => {
       // `x-e2e-random-id` is used for end-to-end testing to make isolated requests
       // The default value is 0 when there is no `x-e2e-random-id` header
-      const e2eRandomId = faker.number.int({ max: 1000000 });
+      const e2eRandomId = faker.number.int({ max: 1_000_000 });
       await page.setExtraHTTPHeaders({
         'x-e2e-random-id': e2eRandomId.toString(),
       });
@@ -35,7 +37,7 @@ test.describe('Counter', () => {
       const count = page.getByText('Count:');
       const countText = await count.textContent();
 
-      assert(countText !== null, 'Count should not be null');
+      assert.ok(countText !== null, 'Count should not be null');
 
       const countNumber = Number(countText.split(' ')[1]);
 
@@ -43,13 +45,17 @@ test.describe('Counter', () => {
       await page.getByRole('button', { name: 'Increment' }).isEnabled();
       await page.getByRole('button', { name: 'Increment' }).click();
 
-      await expect(page.getByText('Count:')).toHaveText(`Count: ${countNumber + 2}`);
+      await expect(page.getByText('Count:')).toHaveText(
+        `Count: ${countNumber + 2}`
+      );
 
       await page.getByLabel('Increment by').fill('3');
       await page.getByRole('button', { name: 'Increment' }).isEnabled();
       await page.getByRole('button', { name: 'Increment' }).click();
 
-      await expect(page.getByText('Count:')).toHaveText(`Count: ${countNumber + 5}`);
+      await expect(page.getByText('Count:')).toHaveText(
+        `Count: ${countNumber + 5}`
+      );
     });
   });
 });
