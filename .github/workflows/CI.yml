@@ -71,7 +71,7 @@ jobs:
           args: npm run test -- --coverage
 
       - name: Upload coverage reports to Codecov
-        uses: codecov/codecov-action@v5
+        uses: codecov/codecov-action@v6
         env:
           CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
 
@@ -167,7 +167,7 @@ jobs:
           sudo chmod -R 777 test-results
 
       - name: Run visual regression tests
-        uses: chromaui/action@v15
+        uses: chromaui/action@v16
         with:
           playwright: true
           exitOnceUploaded: true # Speed up by skipping the build results
