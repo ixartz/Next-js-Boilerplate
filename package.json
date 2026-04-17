@@ -1,6 +1,7 @@
 {
   "name": "next-js-boilerplate",
   "author": "Ixartz (https://github.com/ixartz)",
+  "type": "module",
   "scripts": {
     "dev:spotlight": "npx @spotlightjs/spotlight",
     "dev:next": "next dev",
@@ -46,7 +47,7 @@
     "zod": "^4.3.6"
   },
   "devDependencies": {
-    "@chromatic-com/playwright": "^0.13.1",
+    "@chromatic-com/playwright": "^0.12.8",
     "@commitlint/cli": "^20.5.0",
     "@commitlint/config-conventional": "^20.5.0",
     "@commitlint/prompt-cli": "^20.5.0",
@@ -86,7 +87,6 @@
     "tailwindcss": "^4.2.2",
     "typescript": "^5.9.3",
     "ultracite": "^7.6.0",
-    "vite-tsconfig-paths": "^6.1.1",
     "vitest": "^4.1.4",
     "vitest-browser-react": "^2.2.0"
   },

@@ -13,13 +13,11 @@ export function generateStaticParams() {
     Array.from({ length: 6 }, (_, i) => ({
       slug: `${i}`,
       locale,
-    }))
+    })),
   );
 }
 
-export async function generateMetadata(
-  props: PortfolioDetailPageProps
-): Promise<Metadata> {
+export async function generateMetadata(props: PortfolioDetailPageProps): Promise<Metadata> {
   const { locale, slug } = await props.params;
   const t = await getTranslations({
     locale,
@@ -56,12 +54,7 @@ export default async function PortfolioDetail(props: PortfolioDetailPageProps) {
       </div>
 
       <a href="https://www.coderabbit.ai?utm_source=next_js_starter&utm_medium=github&utm_campaign=next_js_starter_oss_2025">
-        <Image
-          className="mx-auto mt-2"
-          src={codeRabbitLogo}
-          alt="CodeRabbit"
-          width={130}
-        />
+        <Image className="mx-auto mt-2" src={codeRabbitLogo} alt="CodeRabbit" width={130} />
       </a>
     </>
   );

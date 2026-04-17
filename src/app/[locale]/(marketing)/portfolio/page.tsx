@@ -8,9 +8,7 @@ type PortfolioPageProps = {
   params: Promise<{ locale: string }>;
 };
 
-export async function generateMetadata(
-  props: PortfolioPageProps
-): Promise<Metadata> {
+export async function generateMetadata(props: PortfolioPageProps): Promise<Metadata> {
   const { locale } = await props.params;
   const t = await getTranslations({
     locale,
@@ -37,11 +35,7 @@ export default async function Portfolio(props: PortfolioPageProps) {
 
       <div className="grid grid-cols-1 justify-items-start gap-3 md:grid-cols-2 xl:grid-cols-3">
         {Array.from({ length: 6 }, (_, i) => (
-          <Link
-            className="hover:text-blue-700"
-            key={i}
-            href={`/portfolio/${i}`}
-          >
+          <Link className="hover:text-blue-700" key={i} href={`/portfolio/${i}`}>
             {t('portfolio_name', { name: i })}
           </Link>
         ))}
@@ -58,12 +52,7 @@ export default async function Portfolio(props: PortfolioPageProps) {
       </div>
 
       <a href="https://sentry.io/for/nextjs/?utm_source=github&utm_medium=paid-community&utm_campaign=general-fy25q1-nextjs&utm_content=github-banner-nextjsboilerplate-logo">
-        <Image
-          className="mx-auto mt-2"
-          src={sentryLogo}
-          alt="Sentry"
-          width={130}
-        />
+        <Image className="mx-auto mt-2" src={sentryLogo} alt="Sentry" width={130} />
       </a>
     </>
   );

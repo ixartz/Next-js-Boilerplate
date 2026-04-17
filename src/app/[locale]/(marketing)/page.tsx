@@ -6,9 +6,7 @@ type IndexPageProps = {
   params: Promise<{ locale: string }>;
 };
 
-export async function generateMetadata(
-  props: IndexPageProps
-): Promise<Metadata> {
+export async function generateMetadata(props: IndexPageProps): Promise<Metadata> {
   const { locale } = await props.params;
   const t = await getTranslations({
     locale,
@@ -47,8 +45,8 @@ export default async function Index(props: IndexPageProps) {
         Boilerplate Code for Your Next.js Project with Tailwind CSS
       </h2>
       <p className="text-base">
-        Next.js Boilerplate is a developer-friendly starter code for Next.js
-        projects, built with Tailwind CSS and TypeScript.{' '}
+        Next.js Boilerplate is a developer-friendly starter code for Next.js projects, built with
+        Tailwind CSS and TypeScript.{' '}
         <span role="img" aria-label={t('zap_emoji_label')}>
           ⚡️
         </span>{' '}
@@ -123,15 +121,11 @@ export default async function Index(props: IndexPageProps) {
           )
         </li>
         <li>🤖 SEO optimization (metadata, JSON-LD, Open Graph tags)</li>
-        <li>
-          ⚙️ Development tools (VSCode config, bundler analyzer, changelog
-          generation)
-        </li>
+        <li>⚙️ Development tools (VSCode config, bundler analyzer, changelog generation)</li>
       </ul>
       <p className="text-base">
-        Our sponsors&apos; exceptional support has made this project possible.
-        Their services integrate seamlessly with the boilerplate, and we
-        recommend trying them out.
+        Our sponsors&apos; exceptional support has made this project possible. Their services
+        integrate seamlessly with the boilerplate, and we recommend trying them out.
       </p>
       <h2 className="mt-5 text-2xl font-bold">{t('sponsors_title')}</h2>
       <Sponsors />

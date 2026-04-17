@@ -8,10 +8,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const routes = ['', '/about', '/counter', '/portfolio'];
 
   // Generate portfolio detail pages
-  const portfolioRoutes = Array.from(
-    { length: 6 },
-    (_, i) => `/portfolio/${i}`
-  );
+  const portfolioRoutes = Array.from({ length: 6 }, (_, i) => `/portfolio/${i}`);
   const allRoutes = [...routes, ...portfolioRoutes];
 
   return allRoutes.map((route) => ({
@@ -21,7 +18,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       languages: Object.fromEntries(
         routing.locales
           .filter((locale) => locale !== routing.defaultLocale)
-          .map((locale) => [locale, `${baseUrl}${getI18nPath(route, locale)}`])
+          .map((locale) => [locale, `${baseUrl}${getI18nPath(route, locale)}`]),
       ),
     },
   }));
