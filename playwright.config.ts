@@ -31,8 +31,8 @@ export default defineConfig<ChromaticConfig>({
   // https://playwright.dev/docs/test-advanced#launching-a-development-web-server-during-the-tests
   webServer: {
     command: process.env.CI
-      ? 'npx run-p db-server:memory start --race'
-      : 'npx run-p db-server:memory dev:next --race',
+      ? "pglite-server -m 100 --run 'run-s db:migrate start'"
+      : "pglite-server -m 100 --run 'run-s db:migrate dev:next'",
     url: baseURL,
     timeout: 60 * 1000,
     reuseExistingServer: !process.env.CI,
