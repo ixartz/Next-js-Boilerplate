@@ -13,23 +13,17 @@ export const BaseTemplate = (props: {
       <div className="mx-auto max-w-3xl">
         <header className="border-b border-gray-300">
           <div className="pt-16 pb-8">
-            <h1 className="text-3xl font-bold text-gray-900">
-              {AppConfig.name}
-            </h1>
+            <h1 className="text-3xl font-bold text-gray-900">{AppConfig.name}</h1>
             <h2 className="text-xl">{t('description')}</h2>
           </div>
 
           <div className="flex justify-between">
             <nav aria-label={t('main_navigation_label')}>
-              <ul className="flex flex-wrap gap-x-5 text-xl">
-                {props.leftNav}
-              </ul>
+              <ul className="flex flex-wrap gap-x-5 text-xl">{props.leftNav}</ul>
             </nav>
 
             <nav>
-              <ul className="flex flex-wrap gap-x-5 text-xl">
-                {props.rightNav}
-              </ul>
+              <ul className="flex flex-wrap gap-x-5 text-xl">{props.rightNav}</ul>
             </nav>
           </div>
         </header>

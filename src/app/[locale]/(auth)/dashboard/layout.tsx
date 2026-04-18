@@ -20,10 +20,7 @@ export default async function DashboardLayout(props: {
       leftNav={
         <>
           <li>
-            <Link
-              href="/dashboard/"
-              className="border-none text-gray-700 hover:text-gray-900"
-            >
+            <Link href="/dashboard/" className="border-none text-gray-700 hover:text-gray-900">
               {t('dashboard_link')}
             </Link>
           </li>
@@ -41,10 +38,7 @@ export default async function DashboardLayout(props: {
         <>
           <li>
             <SignOutButton>
-              <button
-                className="border-none text-gray-700 hover:text-gray-900"
-                type="button"
-              >
+              <button className="border-none text-gray-700 hover:text-gray-900" type="button">
                 {t('sign_out')}
               </button>
             </SignOutButton>

@@ -7,9 +7,7 @@ type SignInPageProps = {
   params: Promise<{ locale: string }>;
 };
 
-export async function generateMetadata(
-  props: SignInPageProps
-): Promise<Metadata> {
+export async function generateMetadata(props: SignInPageProps): Promise<Metadata> {
   const { locale } = await props.params;
   const t = await getTranslations({
     locale,
