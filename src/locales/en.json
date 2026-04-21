@@ -12,7 +12,8 @@
   },
   "Index": {
     "meta_title": "Home",
-    "meta_description": "Welcome to your new application."
+    "meta_description": "A blog about things that matter.",
+    "tagline": "Writing about things that matter."
   },
   "About": {
     "meta_title": "About",

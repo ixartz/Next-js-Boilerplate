@@ -12,7 +12,8 @@
   },
   "Index": {
     "meta_title": "Accueil",
-    "meta_description": "Bienvenue sur votre nouvelle application."
+    "meta_description": "Un blog sur les choses qui comptent.",
+    "tagline": "Des réflexions sur les choses qui comptent."
   },
   "About": {
     "meta_title": "À propos",
