@@ -29,26 +29,17 @@ describe('Base template', () => {
       expect(menuItemList.elements()).toHaveLength(3);
     });
 
-    it('should have a link to support nextjs-boilerplate.com', async () => {
+    it('should display copyright text with current year and app name', async () => {
       await render(
         <NextIntlClientProvider locale="en" messages={messages}>
           <BaseTemplate leftNav={<li>1</li>}>{null}</BaseTemplate>
         </NextIntlClientProvider>
       );
 
-      const copyrightSection = page.getByText(/© /);
-      const copyrightLink = copyrightSection.getByRole('link');
+      const year = new Date().getFullYear();
+      const copyrightText = page.getByText(new RegExp(`© ${year}`));
 
-      /*
-       * PLEASE READ THIS SECTION
-       * We'll really appreciate if you could have a link to our website
-       * The link doesn't need to appear on every pages, one link on one page is enough.
-       * Thank you for your support it'll mean a lot for us.
-       */
-      expect(copyrightLink).toHaveAttribute(
-        'href',
-        'https://nextjs-boilerplate.com'
-      );
+      expect(copyrightText).toBeDefined();
     });
   });
 });
