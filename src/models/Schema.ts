@@ -4,3 +4,5 @@
 // 1. Update this file with your desired changes.
 // 2. Generate a new migration by running: `bun run db:generate`
 // 3. Apply migrations: `bun run db:migrate`
+
+export {};

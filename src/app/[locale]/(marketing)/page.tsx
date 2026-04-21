@@ -21,7 +21,5 @@ export default async function IndexPage(props: IndexPageProps) {
   const { locale } = await props.params;
   setRequestLocale(locale);
 
-  return (
-    <p>Welcome to your new app.</p>
-  );
+  return <p>Welcome to your new app.</p>;
 }
