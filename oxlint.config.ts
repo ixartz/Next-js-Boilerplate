@@ -7,22 +7,18 @@ export default defineConfig({
   extends: [core, react, next],
   rules: {
     'no-warning-comments': 'off', // Allow TODO and FIXME comments
-    'no-inline-comments': 'off',
+    'no-inline-comments': 'off', // Allow nearby comments
 
     'sort-keys': 'off',
     'func-style': 'off',
 
-    'typescript/no-unsafe-assignment': 'off',
-    'typescript/no-unsafe-member-access': 'off',
-    'typescript/no-unsafe-call': 'off',
-    'typescript/strict-boolean-expressions': 'off',
+    'typescript/no-unsafe-assignment': 'off', // Allow implicit `any` assignments
+    'typescript/no-unsafe-member-access': 'off', // Allow member access on implicit `any` values
+    'typescript/strict-boolean-expressions': 'off', // Allow non-boolean conditional checks
     'typescript/consistent-type-definitions': ['error', 'type'], // Use `type` instead of `interface`
     'typescript/no-misused-promises': 'off', // React Hook Form's handleSubmit returns a Promise-typed handler
-    'typescript/prefer-readonly-parameter-types': 'off',
-    'typescript/prefer-regexp-exec': 'off',
-    'typescript/strict-void-return': 'off',
-
-    'react-perf/jsx-no-new-function-as-prop': 'off',
+    'typescript/strict-void-return': 'off', // Allow functions returning Promise<void> where void functions are expected
+    'typescript/prefer-regexp-exec': 'off', // Allow use of String#match
 
     'unicorn/filename-case': 'off', // Impossible to enforce consistent filename case due to multiple conventions
 
