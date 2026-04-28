@@ -75,7 +75,7 @@ jobs:
           HEAD_SHA: ${{ github.event.pull_request.head.sha }}
 
       - name: Linter
-        run: npm run lint
+        run: npx next typegen && npm run lint
 
       - name: Check dependencies
         run: npm run check:deps
