@@ -1,8 +1,8 @@
+import './src/libs/Env';
 import withBundleAnalyzer from '@next/bundle-analyzer';
 import { withSentryConfig } from '@sentry/nextjs';
 import type { NextConfig } from 'next';
 import createNextIntlPlugin from 'next-intl/plugin';
-import './src/libs/Env';
 
 // Define the base Next.js configuration
 const baseConfig: NextConfig = {
@@ -12,6 +12,9 @@ const baseConfig: NextConfig = {
   poweredByHeader: false,
   reactStrictMode: true,
   reactCompiler: process.env.NODE_ENV === 'production', // Keep the development environment fast
+  logging: {
+    browserToTerminal: process.env.BROWSER_TO_TERMINAL_DISABLED !== 'true',
+  },
   outputFileTracingIncludes: {
     '/': ['./migrations/**/*'],
   },

@@ -63,11 +63,7 @@ export const Sponsors = () => (
         </td>
         <td className="border-2 border-gray-300 p-3">
           <a href="https://nextjs-boilerplate.com/pro-saas-starter-kit">
-            <Image
-              src={nextJsBoilerplateLogo}
-              alt="Next.js SaaS Boilerplate"
-              width={220}
-            />
+            <Image src={nextJsBoilerplateLogo} alt="Next.js SaaS Boilerplate" width={220} />
           </a>
         </td>
       </tr>

@@ -21,7 +21,7 @@ describe('Base template', () => {
           >
             {null}
           </BaseTemplate>
-        </NextIntlClientProvider>
+        </NextIntlClientProvider>,
       );
 
       const menuItemList = page.getByRole('listitem');
@@ -33,7 +33,7 @@ describe('Base template', () => {
       await render(
         <NextIntlClientProvider locale="en" messages={messages}>
           <BaseTemplate leftNav={<li>1</li>}>{null}</BaseTemplate>
-        </NextIntlClientProvider>
+        </NextIntlClientProvider>,
       );
 
       const copyrightSection = page.getByText(/© /);
@@ -45,10 +45,7 @@ describe('Base template', () => {
        * The link doesn't need to appear on every pages, one link on one page is enough.
        * Thank you for your support it'll mean a lot for us.
        */
-      expect(copyrightLink).toHaveAttribute(
-        'href',
-        'https://nextjs-boilerplate.com'
-      );
+      expect(copyrightLink).toHaveAttribute('href', 'https://nextjs-boilerplate.com');
     });
   });
 });

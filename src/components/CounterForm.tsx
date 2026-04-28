@@ -44,9 +44,7 @@ export const CounterForm = () => {
         </label>
 
         {form.formState.errors.increment && (
-          <div className="my-2 text-xs text-red-500 italic">
-            {t('error_increment_range')}
-          </div>
+          <div className="my-2 text-xs text-red-500 italic">{t('error_increment_range')}</div>
         )}
       </div>
 

@@ -17,15 +17,11 @@ test.describe('Counter', () => {
       await page.getByLabel('Increment by').fill('-1');
       await page.getByRole('button', { name: 'Increment' }).click();
 
-      await expect(
-        page.getByText('Value must be between 1 and 3')
-      ).toBeVisible();
+      await expect(page.getByText('Value must be between 1 and 3')).toBeVisible();
       await expect(page.getByText('Count:')).toHaveText(countText);
     });
 
-    test('should increment the counter and validate the count', async ({
-      page,
-    }) => {
+    test('should increment the counter and validate the count', async ({ page }) => {
       // `x-e2e-random-id` is used for end-to-end testing to make isolated requests
       // The default value is 0 when there is no `x-e2e-random-id` header
       const e2eRandomId = faker.number.int({ max: 1_000_000 });
@@ -45,17 +41,13 @@ test.describe('Counter', () => {
       await page.getByRole('button', { name: 'Increment' }).isEnabled();
       await page.getByRole('button', { name: 'Increment' }).click();
 
-      await expect(page.getByText('Count:')).toHaveText(
-        `Count: ${countNumber + 2}`
-      );
+      await expect(page.getByText('Count:')).toHaveText(`Count: ${countNumber + 2}`);
 
       await page.getByLabel('Increment by').fill('3');
       await page.getByRole('button', { name: 'Increment' }).isEnabled();
       await page.getByRole('button', { name: 'Increment' }).click();
 
-      await expect(page.getByText('Count:')).toHaveText(
-        `Count: ${countNumber + 5}`
-      );
+      await expect(page.getByText('Count:')).toHaveText(`Count: ${countNumber + 5}`);
     });
   });
 });
