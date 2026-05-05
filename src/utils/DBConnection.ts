@@ -9,6 +9,7 @@ import * as schema from '@/models/Schema';
 export const createDbConnection = () => {
   const pool = new Pool({
     connectionString: Env.DATABASE_URL,
+    ssl: { rejectUnauthorized: false },
   });
 
   pool.on('error', (error) => {

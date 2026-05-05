@@ -1,30 +1,46 @@
 import type { Metadata } from 'next';
-import { getTranslations, setRequestLocale } from 'next-intl/server';
-import { Hello } from '@/components/Hello';
+import { setRequestLocale } from 'next-intl/server';
+import { cookies } from 'next/headers';
+import { redirect } from 'next/navigation';
 
-type DashboardPageProps = {
-  params: Promise<{ locale: string }>;
+export const metadata: Metadata = {
+  title: 'Dashboard',
 };
 
-export async function generateMetadata(props: DashboardPageProps): Promise<Metadata> {
-  const { locale } = await props.params;
-  const t = await getTranslations({
-    locale,
-    namespace: 'Dashboard',
-  });
+type Props = { params: Promise<{ locale: string }> };
 
-  return {
-    title: t('meta_title'),
-  };
-}
-
-export default async function DashboardPage(props: DashboardPageProps) {
-  const { locale } = await props.params;
+export default async function DashboardPage({ params }: Props) {
+  const { locale } = await params;
   setRequestLocale(locale);
 
+  const cookieStore = await cookies();
+  const userDataCookie = cookieStore.get('user_data')?.value;
+
+  if (!userDataCookie) {
+    redirect('/sign-in');
+  }
+
+  const user = JSON.parse(userDataCookie) as unknown as { id: string; name: string; email: string };
+
   return (
-    <div className="py-5 [&_p]:my-6">
-      <Hello />
-    </div>
+    <main className="mx-auto max-w-4xl p-8">
+      <h1 className="mb-6 text-2xl font-bold text-gray-900">Dashboard</h1>
+
+      <div className="rounded-lg border border-gray-200 bg-white p-6 shadow-sm">
+        <h2 className="mb-4 text-lg font-semibold text-gray-700">Welcome back</h2>
+        <div className="space-y-2 text-gray-600">
+          <p>
+            <span className="font-medium">Name:</span> {user.name}
+          </p>
+          <p>
+            <span className="font-medium">Email:</span> {user.email}
+          </p>
+          <p>
+            <span className="font-medium">User ID:</span>{' '}
+            <span className="font-mono text-sm">{user.id}</span>
+          </p>
+        </div>
+      </div>
+    </main>
   );
 }

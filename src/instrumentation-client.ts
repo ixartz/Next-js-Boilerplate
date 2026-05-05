@@ -1,7 +1,4 @@
-// oxlint-disable import/namespace
-// This file configures the initialization of Sentry on the client.
-// The added config here will be used whenever a users loads a page in their browser.
-// https://docs.sentry.io/platforms/javascript/guides/nextjs/
+/* eslint-disable import/namespace */
 import * as Sentry from '@sentry/nextjs';
 
 if (!process.env.NEXT_PUBLIC_SENTRY_DISABLED) {
@@ -43,4 +40,6 @@ if (!process.env.NEXT_PUBLIC_SENTRY_DISABLED) {
   });
 }
 
-export const onRouterTransitionStart = Sentry.captureRouterTransitionStart;
+export const onRouterTransitionStart = process.env.NEXT_PUBLIC_SENTRY_DISABLED
+  ? undefined
+  : Sentry.captureRouterTransitionStart;

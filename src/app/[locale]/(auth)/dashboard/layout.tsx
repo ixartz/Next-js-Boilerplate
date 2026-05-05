@@ -1,6 +1,5 @@
-import { SignOutButton } from '@clerk/nextjs';
-import { getTranslations, setRequestLocale } from 'next-intl/server';
-import { LocaleSwitcher } from '@/components/LocaleSwitcher';
+import { setRequestLocale } from 'next-intl/server';
+import { SignOutButton } from '@/components/SignOutButton';
 import { Link } from '@/libs/I18nNavigation';
 import { BaseTemplate } from '@/templates/BaseTemplate';
 
@@ -10,44 +9,20 @@ export default async function DashboardLayout(props: {
 }) {
   const { locale } = await props.params;
   setRequestLocale(locale);
-  const t = await getTranslations({
-    locale,
-    namespace: 'DashboardLayout',
-  });
 
   return (
     <BaseTemplate
       leftNav={
-        <>
-          <li>
-            <Link href="/dashboard/" className="border-none text-gray-700 hover:text-gray-900">
-              {t('dashboard_link')}
-            </Link>
-          </li>
-          <li>
-            <Link
-              href="/dashboard/user-profile/"
-              className="border-none text-gray-700 hover:text-gray-900"
-            >
-              {t('user_profile_link')}
-            </Link>
-          </li>
-        </>
+        <li>
+          <Link href="/dashboard/" className="border-none text-gray-700 hover:text-gray-900">
+            Dashboard
+          </Link>
+        </li>
       }
       rightNav={
-        <>
-          <li>
-            <SignOutButton>
-              <button className="border-none text-gray-700 hover:text-gray-900" type="button">
-                {t('sign_out')}
-              </button>
-            </SignOutButton>
-          </li>
-
-          <li>
-            <LocaleSwitcher />
-          </li>
-        </>
+        <li>
+          <SignOutButton />
+        </li>
       }
     >
       {props.children}

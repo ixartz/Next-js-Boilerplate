@@ -3,9 +3,8 @@
   "author": "Ixartz (https://github.com/ixartz)",
   "type": "module",
   "scripts": {
-    "dev:spotlight": "npx @spotlightjs/spotlight",
     "dev:next": "next dev",
-    "dev": "run-p db-server:file dev:*",
+    "dev": "next dev",
     "build:next": "next build",
     "build-local": "run-p db-server:memory build:next --race",
     "build": "run-s db:migrate build:next",
@@ -31,8 +30,6 @@
   },
   "dependencies": {
     "@arcjet/next": "^1.4.0",
-    "@clerk/localizations": "^4.5.7",
-    "@clerk/nextjs": "^7.2.9",
     "@hookform/resolvers": "^5.2.2",
     "@logtape/logtape": "^2.0.6",
     "@sentry/nextjs": "^10.51.0",

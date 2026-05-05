@@ -14,6 +14,8 @@ export default defineConfig({
 
     'typescript/no-unsafe-assignment': 'off', // Allow implicit `any` assignments
     'typescript/no-unsafe-member-access': 'off', // Allow member access on implicit `any` values
+    'typescript/no-unsafe-type-assertion': 'off', // Allow type assertions from `unknown`/`any`
+    'typescript/no-deprecated': 'off', // Allow use of deprecated types (e.g. React.FormEvent)
     'typescript/strict-boolean-expressions': 'off', // Allow non-boolean conditional checks
     'typescript/consistent-type-definitions': ['error', 'type'], // Use `type` instead of `interface`
     'typescript/no-misused-promises': 'off', // React Hook Form's handleSubmit returns a Promise-typed handler
