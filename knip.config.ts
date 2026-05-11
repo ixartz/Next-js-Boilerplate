@@ -7,6 +7,7 @@ const config: KnipConfig = {
   ignoreDependencies: [
     '@commitlint/types',
     '@clerk/shared',
+    '@faker-js/faker',
     '@swc/helpers', // Avoid error in CI: "`npm ci` can only install packages when your package.json and package-lock.json or npm-shrinkwrap.json are in sync."
     'postcss',
     'vite',

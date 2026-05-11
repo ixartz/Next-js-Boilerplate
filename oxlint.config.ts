@@ -2,9 +2,10 @@ import { defineConfig } from 'oxlint';
 import core from 'ultracite/oxlint/core';
 import next from 'ultracite/oxlint/next';
 import react from 'ultracite/oxlint/react';
+import vitest from 'ultracite/oxlint/vitest';
 
 export default defineConfig({
-  extends: [core, react, next],
+  extends: [core, react, next, vitest],
   rules: {
     'no-warning-comments': 'off', // Allow TODO and FIXME comments
     'no-inline-comments': 'off', // Allow nearby comments
@@ -13,6 +14,7 @@ export default defineConfig({
     'func-style': 'off',
 
     'typescript/no-unsafe-assignment': 'off', // Allow implicit `any` assignments
+    'typescript/no-unsafe-call': 'off', // Allow implicit `any` calls
     'typescript/no-unsafe-member-access': 'off', // Allow member access on implicit `any` values
     'typescript/strict-boolean-expressions': 'off', // Allow non-boolean conditional checks
     'typescript/consistent-type-definitions': ['error', 'type'], // Use `type` instead of `interface`

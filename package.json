@@ -26,7 +26,7 @@
     "db:migrate": "dotenv -c -- drizzle-kit migrate",
     "db:studio": "drizzle-kit studio",
     "storybook": "storybook dev -p 6006",
-    "storybook:test": "vitest run --config .storybook/vitest.config.mts",
+    "storybook:test": "vitest run --config .storybook/vitest.config.ts",
     "build-storybook": "storybook build"
   },
   "dependencies": {

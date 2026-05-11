@@ -285,7 +285,7 @@ After defining the environment variables in your GitHub Actions, your localizati
 ├── package.json                    # NPM dependencies and scripts
 ├── playwright.config.ts            # Playwright configuration
 ├── tsconfig.json                   # TypeScript configuration
-└── vitest.config.mts               # Vitest configuration
+└── vitest.config.ts                # Vitest configuration
 ```
 
 ### Customization
@@ -364,7 +364,7 @@ npm run test
 
 ### Integration & E2E Testing
 
-The project uses Playwright for integration and end-to-end (E2E) testing. Integration test files use the `*.spec.ts` extension, while E2E test files use the `*.e2e.ts` extension. You can run the tests with the following commands:
+The project uses Playwright for integration and end-to-end (E2E) testing. Integration test files use the `*.integ.ts` extension, while E2E test files use the `*.e2e.ts` extension. You can run the tests with the following commands:
 
 ```shell
 npx playwright install # Only for the first time in a new environment
@@ -443,7 +443,7 @@ You can inspect captured events, view stack traces, and analyze errors in the Sp
 
 #### Production setup with Sentry
 
-For production environment, you'll need to create a Sentry account and a new project. Then, in `.env.production`, you need to update the following environment variables:
+For production environment, you'll need to create a [Sentry](https://sentry.io/for/nextjs/?utm_source=github&utm_medium=paid-community&utm_campaign=general-fy25q1-nextjs&utm_content=github-banner-nextjsboilerplate-logo) account and a new project. Then, in `.env.production`, you need to update the following environment variables:
 
 ```shell
 NEXT_PUBLIC_SENTRY_DSN=
