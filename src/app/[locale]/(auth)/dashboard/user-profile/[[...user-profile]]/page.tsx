@@ -1,25 +1,8 @@
 import { UserProfile } from '@clerk/nextjs';
-import type { Metadata } from 'next';
-import { getTranslations, setRequestLocale } from 'next-intl/server';
+import { setRequestLocale } from 'next-intl/server';
 import { getI18nPath } from '@/utils/Helpers';
 
-type UserProfilePageProps = {
-  params: Promise<{ locale: string }>;
-};
-
-export async function generateMetadata(props: UserProfilePageProps): Promise<Metadata> {
-  const { locale } = await props.params;
-  const t = await getTranslations({
-    locale,
-    namespace: 'UserProfile',
-  });
-
-  return {
-    title: t('meta_title'),
-  };
-}
-
-export default async function UserProfilePage(props: UserProfilePageProps) {
+export default async function UserProfilePage(props: { params: Promise<{ locale: string }> }) {
   const { locale } = await props.params;
   setRequestLocale(locale);
 

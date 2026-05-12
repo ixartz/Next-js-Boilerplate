@@ -1,24 +1,7 @@
-import type { Metadata } from 'next';
-import { getTranslations, setRequestLocale } from 'next-intl/server';
+import { setRequestLocale } from 'next-intl/server';
 import { Hello } from '@/components/Hello';
 
-type DashboardPageProps = {
-  params: Promise<{ locale: string }>;
-};
-
-export async function generateMetadata(props: DashboardPageProps): Promise<Metadata> {
-  const { locale } = await props.params;
-  const t = await getTranslations({
-    locale,
-    namespace: 'Dashboard',
-  });
-
-  return {
-    title: t('meta_title'),
-  };
-}
-
-export default async function DashboardPage(props: DashboardPageProps) {
+export default async function DashboardPage(props: { params: Promise<{ locale: string }> }) {
   const { locale } = await props.params;
   setRequestLocale(locale);
 
