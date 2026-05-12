@@ -19,7 +19,7 @@ const config: KnipConfig = {
     'production', // False positive raised with dotenv-cli
   ],
   compilers: {
-    css: (text: string) => [...text.matchAll(/(?<=@)import[^;]+/g)].join('\n'),
+    css: (text: string) => [...text.matchAll(/(?<=@)import[^;]+/gu)].join('\n'),
   },
   treatConfigHintsAsErrors: true,
 };

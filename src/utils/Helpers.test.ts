@@ -15,7 +15,7 @@ describe('Helpers', () => {
       const url = '/random-url';
       const locale = 'fr';
 
-      expect(getI18nPath(url, locale)).toMatch(/^\/fr/);
+      expect(getI18nPath(url, locale)).toMatch(/^\/fr/u);
     });
   });
 });

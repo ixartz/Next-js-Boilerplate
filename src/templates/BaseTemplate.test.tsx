@@ -36,7 +36,7 @@ describe('Base template', () => {
         </NextIntlClientProvider>,
       );
 
-      const copyrightSection = page.getByText(/© /);
+      const copyrightSection = page.getByText(/© /u);
       const copyrightLink = copyrightSection.getByRole('link');
 
       /*
