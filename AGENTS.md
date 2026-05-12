@@ -53,8 +53,8 @@ Tailwind v4 utility classes. Reuse shared components. Responsive. No unnecessary
 - Order: description → `@param` → `@returns` → `@throws` (only if it can throw).
 
 ## Tests
-- `*.test.ts` for unit tests; `*.spec.ts` for integration tests; `*.e2e.ts` for Playwright tests.
-- `*.test.ts` co-located with implementation; `*.spec.ts` and `*.e2e.ts` in `tests/` directory.
+- `*.test.ts` for unit tests; `*.integ.ts` for integration tests; `*.e2e.ts` for Playwright tests.
+- `*.test.ts` co-located with implementation; `*.integ.ts` and `*.e2e.ts` in `tests/` directory.
 - Top `describe` = subject; nested `describe` to group scenarios or contexts.
 - `it` titles: short, third-person present, `verb + object + context`. Sentence case, no period.
 - Omit "should/works/handles/checks/validates". State what, not how.

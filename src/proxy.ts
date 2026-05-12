@@ -44,9 +44,11 @@ export default async function proxy(request: NextRequest, event: NextFetchEvent)
 
   // Clerk keyless mode doesn't work with i18n, this is why we need to run the middleware conditionally
   if (isAuthPage(request) || isProtectedRoute(request)) {
+    // Match Clerk's documented middleware composition pattern, `return await` is not necessary.
+    // oxlint-disable-next-line typescript/return-await
     return clerkMiddleware(async (auth, req) => {
       if (isProtectedRoute(req)) {
-        const locale = req.nextUrl.pathname.match(/(\/.*)\/dashboard/)?.at(1) ?? '';
+        const locale = req.nextUrl.pathname.match(/(\/.*)\/dashboard/u)?.at(1) ?? '';
 
         const signInUrl = new URL(`${locale}/sign-in`, req.url);
 
@@ -66,5 +68,5 @@ export const config = {
   // Match all pathnames except for
   // - … if they start with `/_next`, `/_vercel` or `monitoring`
   // - … the ones containing a dot (e.g. `favicon.ico`)
-  matcher: '/((?!_next|_vercel|monitoring|.*\\..*).*)',
+  matcher: '/((?!_next|_vercel|monitoring|api|.*\\..*).*)',
 };

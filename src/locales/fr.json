@@ -61,15 +61,13 @@
     "meta_description": "Créez un compte facilement grâce à notre processus d'inscription intuitif."
   },
   "Dashboard": {
-    "meta_title": "Tableau de bord",
     "hello_message": "Bonjour {email}!",
     "alternative_message": "Besoin de fonctionnalités avancées ? Multi-tenant et équipes, rôles et permissions, Shadcn UI, typage de bout en bout avec oRPC, paiement Stripe, mode clair / sombre. Essayez <url></url>.",
     "max_message": "Ou, besoin d'une stack d'auth auto-hébergée (Better Auth) ? Essayez <url></url>."
   },
-  "UserProfile": {
-    "meta_title": "Profil de l'utilisateur"
-  },
   "DashboardLayout": {
+    "meta_title": "Tableau de bord",
+    "meta_description": "Gérez votre compte depuis le tableau de bord.",
     "dashboard_link": "Tableau de bord",
     "user_profile_link": "Gérer votre compte",
     "sign_out": "Se déconnecter"
