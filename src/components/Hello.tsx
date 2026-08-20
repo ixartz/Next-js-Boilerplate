@@ -31,9 +31,9 @@ export const Hello = async () => {
           url: () => (
             <a
               className="text-blue-700 hover:border-b-2 hover:border-blue-700"
-              href="https://nextjs-boilerplate.com/nextjs-multi-tenant-saas-boilerplate"
+              href="https://nextjs-boilerplate.com/nextjs-saas-starter-kit"
             >
-              Next.js Boilerplate Max
+              Next.js Boilerplate Plus
             </a>
           ),
         })}

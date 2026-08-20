@@ -22,6 +22,11 @@ export default defineConfig({
     'typescript/strict-void-return': 'off', // Allow functions returning Promise<void> where void functions are expected
     'typescript/prefer-regexp-exec': 'off', // Allow use of String#match
 
+    'prefer-named-capture-group': 'off', // Allow unnamed capture groups in regexes
+
+    'react/function-component-definition': 'off', // Allow function declarations and arrow components
+    'react/no-unstable-nested-components': 'off', // Allow inline next-intl rich-text formatters
+
     'unicorn/filename-case': 'off', // Impossible to enforce consistent filename case due to multiple conventions
 
     // --- JSDoc Rules ---
