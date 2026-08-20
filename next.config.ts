@@ -1,5 +1,4 @@
 import './src/libs/Env';
-import withBundleAnalyzer from '@next/bundle-analyzer';
 import { withSentryConfig } from '@sentry/nextjs';
 import type { NextConfig } from 'next';
 import createNextIntlPlugin from 'next-intl/plugin';
@@ -12,6 +11,10 @@ const baseConfig: NextConfig = {
   poweredByHeader: false,
   reactStrictMode: true,
   reactCompiler: process.env.NODE_ENV === 'production', // Keep the development environment fast
+  experimental: {
+    // Use the Rust version, instead of the OG Babel one
+    turbopackRustReactCompiler: process.env.NODE_ENV === 'production',
+  },
   logging: {
     browserToTerminal: process.env.BROWSER_TO_TERMINAL_DISABLED !== 'true',
   },
@@ -22,11 +25,6 @@ const baseConfig: NextConfig = {
 
 // Initialize the Next-Intl plugin
 let configWithPlugins = createNextIntlPlugin('./src/libs/I18n.ts')(baseConfig);
-
-// Conditionally enable bundle analysis
-if (process.env.ANALYZE === 'true') {
-  configWithPlugins = withBundleAnalyzer()(configWithPlugins);
-}
 
 // Conditionally enable Sentry configuration
 if (!process.env.NEXT_PUBLIC_SENTRY_DISABLED) {

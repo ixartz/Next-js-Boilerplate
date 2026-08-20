@@ -21,9 +21,6 @@ if (!process.env.NEXT_PUBLIC_SENTRY_DISABLED) {
       ...(process.env.NODE_ENV === 'development' ? [Sentry.spotlightBrowserIntegration()] : []),
     ],
 
-    // Adds request headers and IP for users, for more info visit
-    sendDefaultPii: true,
-
     // Define how likely traces are sampled. Adjust this value in production, or use tracesSampler for greater control.
     tracesSampleRate: 1,
 
@@ -37,6 +34,13 @@ if (!process.env.NEXT_PUBLIC_SENTRY_DISABLED) {
 
     // Enable logs to be sent to Sentry
     enableLogs: true,
+
+    dataCollection: {
+      // To disable sending user data and HTTP bodies, uncomment the lines below. For more info visit:
+      // https://docs.sentry.io/platforms/javascript/guides/nextjs/configuration/options/#dataCollection
+      // userInfo: false,
+      // httpBodies: [],
+    },
 
     // Setting this option to true will print useful information to the console while you're setting up Sentry.
     debug: false,

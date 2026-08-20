@@ -216,7 +216,7 @@ Open http://localhost:3000 with your favorite browser to see your project. For y
 
 Need advanced features? Multi-tenancy & Teams, Roles & Permissions, Shadcn UI, End-to-End Typesafety with oRPC, Stripe Payment, Light / Dark mode. Try [Next.js Boilerplate Pro](https://nextjs-boilerplate.com/pro-saas-starter-kit).
 
-Or, need a Self-hosted auth stack (Better Auth)? Try [Next.js Boilerplate Max](https://nextjs-boilerplate.com/nextjs-multi-tenant-saas-boilerplate)
+Or, need a Self-hosted auth stack (Better Auth)? Try [Next.js Boilerplate Plus](https://nextjs-boilerplate.com/nextjs-saas-starter-kit)
 
 ### Set up authentication
 
