@@ -5,7 +5,8 @@
 import * as Sentry from '@sentry/nextjs';
 import { installTranslationResilience } from 'translation-resilience';
 
-// Browser translators replace React-owned text nodes, so install the DOM shim before React renders to prevent crashes and frozen updates.
+// Install the DOM shim before React renders because browser translators replace React-owned
+// text nodes, which can cause crashes and frozen updates.
 installTranslationResilience();
 
 if (!process.env.NEXT_PUBLIC_SENTRY_DISABLED) {
