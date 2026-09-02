@@ -3,6 +3,10 @@
 // The added config here will be used whenever a users loads a page in their browser.
 // https://docs.sentry.io/platforms/javascript/guides/nextjs/
 import * as Sentry from '@sentry/nextjs';
+import { installTranslationResilience } from 'translation-resilience';
+
+// Browser translators replace React-owned text nodes, so install the DOM shim before React renders to prevent crashes and frozen updates.
+installTranslationResilience();
 
 if (!process.env.NEXT_PUBLIC_SENTRY_DISABLED) {
   Sentry.init({
