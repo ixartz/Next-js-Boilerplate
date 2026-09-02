@@ -44,6 +44,7 @@
     "react": "19.2.8",
     "react-dom": "19.2.8",
     "react-hook-form": "7.85.0",
+    "translation-resilience": "0.3.0",
     "zod": "4.4.3"
   },
   "devDependencies": {
