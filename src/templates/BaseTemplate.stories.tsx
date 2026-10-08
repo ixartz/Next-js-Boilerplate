@@ -8,6 +8,10 @@ const meta = {
   component: BaseTemplate,
   parameters: {
     layout: 'fullscreen',
+    nextjs: {
+      // WORKAROUND: incompatibility issue between Storybook 10.5.8 and Next.js 16.4
+      appDirectory: false,
+    },
   },
   decorators: [
     (Story) => (
