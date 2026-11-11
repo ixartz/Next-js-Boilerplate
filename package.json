@@ -18,6 +18,7 @@
     "check:types": "tsc --noEmit --pretty",
     "check:deps": "knip",
     "check:i18n": "i18n-check -l src/locales -s en -u src -f next-intl",
+    "i18n:translate": "dotenv -c -- node scripts/translate-locales.ts",
     "commit": "commit",
     "test": "vitest run",
     "test:e2e": "playwright test",

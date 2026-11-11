@@ -257,6 +257,12 @@ To set up translation (i18n), create an account at [Crowdin.com](https://l.crowd
 
 After defining the environment variables in your GitHub Actions, your localization files will be synchronized with Crowdin every time you push a new commit to the `main` branch.
 
+#### Optional: fill missing translations with Neon AI Gateway
+
+For quick local iteration, `npm run i18n:translate` fills keys that exist in `src/locales/en.json` but are missing from the other locale files, using [Neon AI Gateway](https://neon.com/docs/ai-gateway/overview). Existing translations are kept as is and are sent to the model as a style reference. A translation is skipped if it drops or changes an ICU placeholder (`{count}`) or a rich-text tag (`<url></url>`).
+
+Set `NEON_AI_GATEWAY_BASE_URL` and `NEON_AI_GATEWAY_TOKEN` in `.env.local` (Neon Console > Connect > AI Gateway). The default model is `gpt-oss-120b`; set `NEON_AI_GATEWAY_MODEL` to use another model from the [catalog](https://neon.com/docs/ai-gateway/models). Crowdin still syncs the files as usual, so you can review the generated translations there.
+
 ### Project structure
 
 ```shell
