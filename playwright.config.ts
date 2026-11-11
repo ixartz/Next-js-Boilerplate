@@ -8,6 +8,16 @@ const PORT = process.env.PORT ?? '3008';
 // Set webServer.url and use.baseURL with the location of the WebServer respecting the correct set port
 const baseURL = `http://localhost:${PORT}`;
 
+// Next.js command to start, migrations run first
+const nextCommand = process.env.CI ? 'run-s db:migrate start' : 'run-s db:migrate dev:next';
+
+// By default, tests run against a local PGLite server.
+// Set E2E_EXTERNAL_DATABASE=true to use DATABASE_URL instead, e.g. a Neon branch: https://neon.com/docs/guides/branching-github-actions
+const webServerCommand =
+  process.env.E2E_EXTERNAL_DATABASE === 'true'
+    ? nextCommand
+    : `pglite-server -m 100 --run '${nextCommand}'`;
+
 /**
  * See https://playwright.dev/docs/test-configuration.
  */
@@ -30,9 +40,7 @@ export default defineConfig<ChromaticConfig>({
   // Run your local dev server before starting the tests:
   // https://playwright.dev/docs/test-advanced#launching-a-development-web-server-during-the-tests
   webServer: {
-    command: process.env.CI
-      ? "pglite-server -m 100 --run 'run-s db:migrate start'"
-      : "pglite-server -m 100 --run 'run-s db:migrate dev:next'",
+    command: webServerCommand,
     url: baseURL,
     timeout: 60 * 1000,
     reuseExistingServer: !process.env.CI,

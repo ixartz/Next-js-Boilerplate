@@ -237,6 +237,14 @@ After creating your Neon account, you can get the connection string and copy it 
 
 > :warning: This project works out of the box with any PostgreSQL provider. Neon is mentioned here because it offers a free tier, and the link is an affiliate link. Feel free to use any PostgreSQL provider that fits your needs.
 
+#### Optional: develop and test with Neon branches
+
+PGlite stays the default for local development and CI. If you use Neon, you can also:
+
+- **Develop against a Neon branch:** set `DATABASE_URL` in `.env.local` (or run `neon checkout <branch>` with the [Neon CLI](https://neon.com/docs/cli)), then run `npm run dev-neon`. It applies the migrations and starts Next.js without the local PGlite server.
+- **Test each pull request on its own Neon branch:** add a `NEON_API_KEY` repository secret and a `NEON_PROJECT_ID` repository variable in GitHub Actions. The `.github/workflows/neon.yml` workflow then creates a branch per pull request, applies the migrations, runs the database tests against it, and deletes the branch when the pull request is closed. Without these settings, the workflow is skipped.
+- **Run Playwright against any external database:** set `E2E_EXTERNAL_DATABASE=true` and `DATABASE_URL` to skip the PGlite server in `npm run test:e2e`.
+
 #### Create a fresh and empty database
 
 If you want to create a fresh and empty database, you just need to remove the folder `local.db` from the root of the project. The next time you run the project, a new database will be created automatically.
@@ -248,6 +256,12 @@ For translation, the project uses `next-intl` combined with [Crowdin](https://l.
 To set up translation (i18n), create an account at [Crowdin.com](https://l.crowdin.com/next-js) and create a new project. In the newly created project, you will be able to find the project ID. You will also need to create a new Personal Access Token by going to Account Settings > API. Then, in your GitHub Actions, you need to define the following environment variables: `CROWDIN_PROJECT_ID` and `CROWDIN_PERSONAL_TOKEN`.
 
 After defining the environment variables in your GitHub Actions, your localization files will be synchronized with Crowdin every time you push a new commit to the `main` branch.
+
+#### Optional: fill missing translations with Neon AI Gateway
+
+For quick local iteration, `npm run i18n:translate` fills keys that exist in `src/locales/en.json` but are missing from the other locale files, using [Neon AI Gateway](https://neon.com/docs/ai-gateway/overview). Existing translations are kept as is and are sent to the model as a style reference. A translation is skipped if it drops or changes an ICU placeholder (`{count}`) or a rich-text tag (`<url></url>`).
+
+Set `NEON_AI_GATEWAY_BASE_URL` and `NEON_AI_GATEWAY_TOKEN` in `.env.local` (Neon Console > Connect > AI Gateway). The default model is `gpt-oss-120b`; set `NEON_AI_GATEWAY_MODEL` to use another model from the [catalog](https://neon.com/docs/ai-gateway/models). Crowdin still syncs the files as usual, so you can review the generated translations there.
 
 ### Project structure
 

@@ -1,0 +1,78 @@
+# Optional: test database changes against a real Postgres database with Neon branching.
+# The default CI workflow (CI.yml) keeps using PGLite. This workflow only runs when the `NEON_PROJECT_ID`
+# repository variable and `NEON_API_KEY` secret are set: https://neon.com/docs/guides/branching-github-actions
+# It creates an isolated Neon branch per pull request, applies migrations, runs the database tests, and deletes
+# the branch when the pull request is closed.
+name: Neon
+
+on:
+  pull_request:
+    types: [opened, reopened, synchronize, closed]
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    strategy:
+      matrix:
+        node-version: [24.x]
+
+    name: Test on Neon branch
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    # Secrets aren't available on pull requests from forks
+    if: >-
+      vars.NEON_PROJECT_ID != '' &&
+      github.event.action != 'closed' &&
+      github.event.pull_request.head.repo.full_name == github.repository
+
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Set up Node.js environment
+        uses: ./.github/actions/setup-project
+        with:
+          node-version: ${{ matrix.node-version }}
+
+      - name: Create Neon branch
+        id: create-branch
+        uses: neondatabase/create-branch-action@v6
+        with:
+          project_id: ${{ vars.NEON_PROJECT_ID }}
+          branch_name: preview/pr-${{ github.event.number }}
+          api_key: ${{ secrets.NEON_API_KEY }}
+
+      - name: Apply migrations and build Next.js
+        run: npm run build
+        env:
+          DATABASE_URL: ${{ steps.create-branch.outputs.db_url }}
+          NEXT_PUBLIC_SENTRY_DISABLED: 'true'
+          NEXT_PUBLIC_APP_URL: http://localhost:3008
+
+      - name: Run database tests
+        uses: docker://mcr.microsoft.com/playwright:v1.62.1
+        with:
+          args: sh -c "HOME=/root npm run test:e2e -- tests/integration tests/e2e/Counter.e2e.ts" # Set HOME to /root to avoid Playwright error with Firefox
+        env:
+          DATABASE_URL: ${{ steps.create-branch.outputs.db_url }}
+          E2E_EXTERNAL_DATABASE: 'true'
+          CLERK_SECRET_KEY: ${{ secrets.CLERK_SECRET_KEY }}
+
+  delete-branch:
+    name: Delete Neon branch
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    if: >-
+      vars.NEON_PROJECT_ID != '' &&
+      github.event.action == 'closed' &&
+      github.event.pull_request.head.repo.full_name == github.repository
+
+    steps:
+      - name: Delete Neon branch
+        uses: neondatabase/delete-branch-action@v3
+        with:
+          project_id: ${{ vars.NEON_PROJECT_ID }}
+          branch: preview/pr-${{ github.event.number }}
+          api_key: ${{ secrets.NEON_API_KEY }}
