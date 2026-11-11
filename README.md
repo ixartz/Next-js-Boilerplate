@@ -237,6 +237,14 @@ After creating your Neon account, you can get the connection string and copy it 
 
 > :warning: This project works out of the box with any PostgreSQL provider. Neon is mentioned here because it offers a free tier, and the link is an affiliate link. Feel free to use any PostgreSQL provider that fits your needs.
 
+#### Optional: develop and test with Neon branches
+
+PGlite stays the default for local development and CI. If you use Neon, you can also:
+
+- **Develop against a Neon branch:** set `DATABASE_URL` in `.env.local` (or run `neon checkout <branch>` with the [Neon CLI](https://neon.com/docs/cli)), then run `npm run dev-neon`. It applies the migrations and starts Next.js without the local PGlite server.
+- **Test each pull request on its own Neon branch:** add a `NEON_API_KEY` repository secret and a `NEON_PROJECT_ID` repository variable in GitHub Actions. The `.github/workflows/neon.yml` workflow then creates a branch per pull request, applies the migrations, runs the database tests against it, and deletes the branch when the pull request is closed. Without these settings, the workflow is skipped.
+- **Run Playwright against any external database:** set `E2E_EXTERNAL_DATABASE=true` and `DATABASE_URL` to skip the PGlite server in `npm run test:e2e`.
+
 #### Create a fresh and empty database
 
 If you want to create a fresh and empty database, you just need to remove the folder `local.db` from the root of the project. The next time you run the project, a new database will be created automatically.
